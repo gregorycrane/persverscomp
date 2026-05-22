@@ -1,0 +1,63 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:1.128", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:1.128",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "1",
+  "chapter": "128",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p>ἀντεκέλευον δὲ καὶ οἱ Ἀθηναῖοι τοὺς Λακεδαιμονίους τὸ\n              ἀπὸ Ταινάρου ἄγος ἐλαύνειν· οἱ γὰρ Λακεδαιμόνιοι ἀναστήσαντές ποτε ἐκ τοῦ ἱεροῦ τοῦ\n              Ποσειδῶνος [ἀπὸ Ταινάρου] τῶν Εἱλώτων ἱκέτας ἀπαγαγόντες διέφθειραν, δι’  ὃ δὴ καὶ\n              σφίσιν αὐτοῖς νομίζουσι τὸν μέγαν σεισμὸν γενέσθαι ἐν Σπάρτῃ. </p>",
+      "1st1K-eng1": "<p>\nThe Athenians answered with the demand that the Lacedaemonians should drive out the curse of Taenarus.\nFor the Lacedaemonians had on one occasion caused some suppliant Helots to leave their refuge in the temple of Poseidon at Taenarus, then had led them off and put them to death;\nand the Lacedaemonians believe that it was because of this sacrilege that the great earthquake<span class=\"note\">[cf. Thuc. 1.101.2.]</span> befell them at Sparta.\n\n</p>",
+      "perseus-eng6": "<p>The Athenians retorted by ordering the Lacedaemonians to drive out the curse of Taenarus. The Lacedaemonians had once raised up some Helot suppliants from the temple of Poseidon at Taenarus, led them away and slain them; for which they believe the great earthquake at Sparta to have been a retribution.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>Athenienses vero et ipsi vicissim Lacedaemoniis imperabant, ut illos, qui piaculo ad Taenarum admisso i tenebantur, ex urbe pellerent. Lacedaemonii enim cum j olim Helotas supplices ex Neptuni templo a Taenaro excitas-sent, eos abductos interfecerunt, qua quidem causa et ipsi sibi magnum illum terrae motum Spartae accidisse putant.\n</p>"
+    },
+    "2": {
+      "perseus-grc2": "<p>ἐκέλευον δὲ καὶ τὸ τῆς Χαλκιοίκου ἄγος ἐλαύνειν αὐτούς· ἐγένετο δὲ τοιόνδε. </p>",
+      "1st1K-eng1": "<p>\nAnd the Athenians also bade them drive out the curse of Athena of the Brazen House.<span class=\"note\">[So called from her temple or shrine in the citadel at Sparta. Pausanias says (3.17.2) both temple and statue were of bronze.]</span>\nAnd this is the way it was incurred.\n\n</p>",
+      "perseus-eng6": "<p>The Athenians also ordered them to drive out the curse of the goddess of the Brazen House; the history of which is as follows.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>    Jubebant praeterea etiam piaculum Palladis Chalcicrcae pellere. Id vero hujusmodi fuit. </p>"
+    },
+    "3": {
+      "perseus-grc2": "<p>ἐπειδὴ Παυσανίας ὁ Λακεδαιμόνιος τὸ πρῶτον μεταπεμφθεὶς ὑπὸ Σπαρτιατῶν ἀπὸ τῆς ἀρχῆς\n              τῆς ἐν Ἑλλησπόντῳ καὶ κριθεὶς ὑπ’ αὐτῶν ἀπελύθη μὴ ἀδικεῖν, δημοσίᾳ μὲν οὐκέτι\n              ἐξεπέμφθη, ἰδίᾳ δὲ αὐτὸς τριήρη λαβὼν Ἑρμιονίδα ἄνευ Λακεδαιμονίων ἀφικνεῖται ἐς\n              Ἑλλήσποντον, τῷ μὲν λόγῳ ἐπὶ τὸν Ἑλληνικὸν πόλεμον, τῷ δὲ ἔργῳ τὰ πρὸς βασιλέα\n              πράγματα πράσσειν, ὥσπερ καὶ τὸ πρῶτον ἐπεχείρησεν, ἐφιέμενος τῆς Ἑλληνικῆς ἀρχῆς.\n            </p>",
+      "1st1K-eng1": "<p>\nAfter Pausanias the Lacedaemonian had been recalled by the Spartans, on the first occasion,<span class=\"note\">[477 B.C. cf. Thuc. 1.95.3.]</span> from his command on the Hellespont, and on trial had been acquitted of wrong-doing, he was never again sent out in a public capacity, but privately and on his own account he took a trireme of Hermione without authority of the Lacedaemonians and came to the Hellespont, to take part, as he pretended, in the Persian war, but in reality to carry on an intrigue with the Great King—an enterprise to which he had set his hand in the first instance also, his aim being to become master of all Hellas.\n\n</p>",
+      "perseus-eng6": "<p>After Pausanias the Lacedaemonian had been recalled by the Spartans from his command in the Hellespont (this is his first recall), and had been tried by them and acquitted, not being again sent out in a public capacity, he took a galley of Hermione on his own responsibility, without the authority of the Lacedaemonians, and arrived as a private person in the Hellespont. He came ostensibly for the Hellenic war, really to carry on his intrigues with the king, which he had begun before his recall, being ambitious of reigning over Hellas.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Postquam Pausanias Lacedaemonius a Spartanis primum revocatus ab imperio, quod in Hellesponto habebat, causaque apud illos dicta, ab ipsis est absolutus et innocens habitus, puldice quidem ad nullam expeditionem postea amplius est emissus, sed ipse privatim sumpta triremi Hermioaide, sine Lacedaemoniis abiit in Hellespontum, verbis quidem, ad Graecum bellum, re ipsa vero, quia negotia cum Rege transigere volebat, quemadmodum et initio conatus erat, Gratiae principatum affectans. </p>"
+    },
+    "4": {
+      "perseus-grc2": "<p>εὐεργεσίαν δὲ ἀπὸ τοῦδε πρῶτον ἐς βασιλέα κατέθετο καὶ τοῦ παντὸς πράγματος ἀρχὴν\n              ἐποιήσατο· </p>",
+      "1st1K-eng1": "<p>\nHe had namely first laid up for himself with the King a store of gratitude in the following circumstances, and thus had begun the whole affair.\n\n</p>",
+      "perseus-eng6": "<p>The circumstance which first enabled him to lay the king under an obligation, and to make a beginning of the whole design was this.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Beneficium autem ex hac re primum apud Regem collocavit, totiusque rei fecit initium. </p>"
+    },
+    "5": {
+      "perseus-grc2": "<p>Βυζάντιον γὰρ ἑλὼν τῇ προτέρᾳ παρουσίᾳ μετὰ τὴν ἐκ Κύπρου ἀναχώρησιν (εἶχον δὲ Μῆδοι\n                         αὐτὸ καὶ βασιλέως προσήκοντές τινες καὶ ξυγγενεῖς οἳ ἑάλωσαν ἐν αὐτῷ) τότε τούτους οὓς\n              ἔλαβεν ἀποπέμπει βασιλεῖ κρύφα τῶν ἄλλων ξυμμάχων, τῷ δὲ λόγῳ ἀπέδρασαν αὐτόν. </p>",
+      "1st1K-eng1": "<p>\nWhen he was in that quarter before, after the return of the Hellenic fleet from Cyprus,<span class=\"note\">[cf. Thuc. 1.94.2.]</span> he had taken Byzantium, then in the possession of the Persians, and certain connections and kinsmen of the King were captured in the place when the city fell.\nThese prisoners he sent back to the King without the knowledge of the allies in general, whom he gave to understand that they had escaped from him.\n\n</p>",
+      "perseus-eng6": "<p>Some connections and kinsmen of the king had been taken in Byzantium, on its capture from the Medes, when he was first there, after the return from Cyprus. These captives he sent off to the king without the knowledge of the rest of the allies, the account being that they had escaped from him.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Cum enim post suum e Cypro reditum, priore adventu Byzantium occupasset (tenebant autem Medi eam et quidam regis necessarii et cognati [qui] in ea capti erant), ; tunc bos, quos ceperat, clam ceteris sociis ad Regem remisit; sed verbo ex ipsius manibus aufugerant, </p>"
+    },
+    "6": {
+      "perseus-grc2": "<p>ἔπρασσε δὲ ταῦτα μετὰ Γογγύλου τοῦ Ἐρετριῶς, ᾧπερ ἐπέτρεψε τό τε Βυζάντιον καὶ τοὺς\n              αἰχμαλώτους. ἔπεμψε δὲ καὶ ἐπιστολὴν τὸν Γόγγυλον φέροντα αὐτῷ· ἐνεγέγραπτο δὲ τάδε ἐν\n              αὐτῇ, ὡς ὕστερον ἀνηυρέθη· </p>",
+      "1st1K-eng1": "<p>\nAnd he was carrying on this intrigue in concert with Gongylus the Eretrian, the very man whom he had placed in charge of Byzantium and the captives.\nAnd he also sent a letter by Gongylus to the King, in which the following was written, as was afterwards discovered:\n\n</p>",
+      "perseus-eng6": "<p>He managed this with the help of Gongylus, an Eretrian, whom he had placed in charge of Byzantium and the prisoners. He also gave Gongylus a letter for the king, the contents of which were as follows, as was afterwards discovered:</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> In his autem ■ peragendis utebatur opera Gongyli Eretriensis, cujus lidei et Byzantium et captivos commiserat. Misit autem etiam epistolam, quam Gongylus ad ipsum ferret. Hoc autem in ea continebantur, ut postea compertum est. </p>"
+    },
+    "7": {
+      "perseus-grc2": "<p>‘Παυσανίας ὁ ἡγεμὼν τῆς Σπάρτης τούσδε τέ σοι χαρίζεσθαι βουλόμενος ἀποπέμπει δορὶ\n              ἑλών,καὶ γνώμην ποιοῦμαι, εἰ καὶ σοὶ δοκεῖ, θυγατέρα τε τὴν σὴν γῆμαι καί σοι Σπάρτην\n              τε καὶ τὴν ἄλλην Ἑλλάδα ὑποχείριον ποιῆσαι. δυνατὸς δὲ δοκῶ εἶναι ταῦτα πρᾶξαι μετὰ\n              σοῦ βουλευόμενος. εἰ οὖν τί σε τούτων ἀρέσκει, πέμπε ἄνδρα πιστὸν ἐπὶ θάλασσαν δι’  οὗ\n              τὸ λοιπὸν τοὺς λόγους ποιησόμεθα.’ </p>",
+      "1st1K-eng1": "<p>\n\"Pausanias, the Spartan commander, wishing to do you a favour, sends you back these men whom he took with the spear.\nAnd I make the proposal, if it seems good to you also, to marry your daughter and to make Sparta and the rest of Hellas subject to you.\nAnd I am able, I think, to accomplish these things with the help of your counsel.\nIf any of these things pleases you, send a trusty man to the sea, and through him we shall in future confer.\"\nSo much the letter disclosed.\n\n</p>",
+      "perseus-eng6": "<p>‘Pausanias, the general of Sparta, anxious to do you a favour, sends you these his prisoners of war. I propose also, with your approval, to marry your daughter, and to make Sparta and the rest of Hellas subject to you. I may say that I think I am able to do this, with your co-operation. Accordingly if any of this please you, send a safe man to the sea through whom we may in future conduct our correspondence.’</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> « Pausanias dux Spartae, et hos, tibi gratificari cupiens, remittit, quos armis cepit, et habeo in animo, si tibi quoque placet, filiam tuam in matrimonium ducere, et Spartam ceteram-que Graeciam sub tuam potestatem redigere. Existimo autem me posse ha» peragere, si tecum consilia communicem. Si quid igitur horum tibi placet, hominem fidum ad mare mittas face, per quem posthac colloquemiir. »\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:1.127",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:1.129"
+  }
+});

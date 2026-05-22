@@ -1,0 +1,63 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:2.60", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:2.60",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "2",
+  "chapter": "60",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p>‘καὶ προσδεχομένῳ μοι τὰ τῆς ὀργῆς ὑμῶν ἔς με γεγένηται\n              (αἰσθάνομαι γὰρ τὰς αἰτίας) καὶ ἐκκλησίαν τούτου ἕνεκα ξυνήγαγον, ὅπως ὑπομνήσω καὶ\n              μέμψωμαι εἴ τι μὴ ὀρθῶς ἢ ἐμοὶ χαλεπαίνετε ἢ ταῖς ξυμφοραῖς εἴκετε. </p>",
+      "1st1K-eng1": "<p>\n\" I have been expecting these manifestations of your wrath against me, knowing as I do the causes of your anger, and my purpose in calling an assembly was that I might address to you certain reminders, and remonstrate if in any case you are either angry with me or are giving way to your misfortunes without reason.\n\n</p>",
+      "perseus-eng6": "<p>‘I was not unprepared for the indignation of which I have been the object, as I know its causes; and I have called an assembly for the purpose of reminding you upon certain points, and of protesting against your being unreasonably irritated with me, or cowed by your sufferings.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>« Et exspectanti mihi ira inme vestra accidit (intelligo enim eausas), et propterea concionem coegi, ut vos commonefacerem et vobiscum expostularem, si quid vos haud recte vel mihi succensetis, vel rebus adversis ceditis. </p>"
+    },
+    "2": {
+      "perseus-grc2": "<p>ἐγὼ γὰρ ἡγοῦμαι πόλιν πλείω ξύμπασαν ὀρθουμένην ὠφελεῖν τοὺς ἰδιώτας ἢ καθ’ ἕκαστον\n              τῶν πολιτῶν εὐπραγοῦσαν, ἁθρόαν δὲ σφαλλομένην. </p>",
+      "1st1K-eng1": "<p>\nFor in my judgment a state confers a greater benefit upon its private citizens when as a whole commonwealth it is successful, than when it prospers as regards the individual but fails as a community.\n\n</p>",
+      "perseus-eng6": "<p>I am of opinion that national greatness is more for the advantage of private citizens, than any individual well-being coupled with public humiliation.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Ego enim existimo, civitatem, cujus universus status manet erectus, majorem utilitatem privatis hominibus afferre, quam si singulorum civium felicitate privatim floreat, ipsa vero universa jaceat afflicta. </p>"
+    },
+    "3": {
+      "perseus-grc2": "<p>καλῶς μὲν γὰρ φερόμενος ἀνὴρ τὸ καθ’ ἑαυτὸν διαφθειρομένης τῆς πατρίδος οὐδὲν ἧσσον\n              ξυναπόλλυται, κακοτυχῶν δὲ ἐν εὐτυχούσῃ πολλῷ μᾶλλον διασῴζεται. </p>",
+      "1st1K-eng1": "<p>\nFor even though a man flourishes in his own private affairs, yet if his country goes to ruin he perishes with her all the same;\n\n</p>",
+      "perseus-eng6": "<p>A man may be personally ever so well off, and yet if his country be ruined he must be ruined with it; whereas a flourishing commonwealth always affords chances of salvation to unfortunate individuals.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Qui enim privatim rem feliciter gerit, si patria evertatur, ipse quoque nihilominus una cum eo perit; si vero in republica florente rem infeliciter gerit, longe faci-1 lius conservatur. </p>"
+    },
+    "4": {
+      "perseus-grc2": "<p>ὁπότε οὖν πόλις μὲν τὰς ἰδίας ξυμφορὰς οἵα τε φέρειν, εἷς δ’ ἕκαστος τὰς ἐκείνης\n              ἀδύνατος, πῶς οὐ χρὴ πάντας ἀμύνειν αὐτῇ, καὶ μὴ ὃ νῦν ὑμεῖς δρᾶτε· ταῖς κατ’ οἶκον\n              κακοπραγίαις ἐκπεπληγμένοι τοῦ κοινοῦ τῆς σωτηρίας ἀφίεσθε, καὶ ἐμέ τε τὸν\n              παραινέσαντα πολεμεῖν καὶ ὑμᾶς αὐτοὺς οἳ ξυνέγνωτε δι’  αἰτίας ἔχετε. </p>",
+      "1st1K-eng1": "<p>\nbut if he is in evil fortune and his country in good fortune, he is far more likely to come through safely.\nSince, then, the state may bear the misfortunes of her private citizens but the individual cannot bear hers, surely all men ought to defend her, and not to do as you are now doing—proposing to sacrifice the safety of the commonwealth because you are dismayed by the hardships you suffer at home, and are blaming both me who advised you to make war and yourselves who voted with me for it.\n\n</p>",
+      "perseus-eng6": "<p>Since then a state can support the misfortunes of private citizens, while they cannot support hers, it is surely the duty of everyone to be forward in her defence, and not like you to be so confounded with your domestic afflictions as to give up all thoughts of the common safety, and to blame me for having counselled war and yourselves for having voted it.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Quandoquidem igitur respublica pri-\n\n\n\n\n\n\n\nvatorum quidem calamitates sustinere potest, privati vero illius non possunt, quomodo non convenit universos opem ei ferre? non autem iacere id, quod vos nunc facitis, qui domesticis jacturis attoniti, reipublicae salutem deseritis, simulque et me, qui vobis suasi, ut bellum hoc susciperetis, atque adeo vos ipsos, qui mihi assensi estis, accusatis.\n</p>"
+    },
+    "5": {
+      "perseus-grc2": "<p>καίτοι ἐμοὶ τοιούτῳ ἀνδρὶ ὀργίζεσθε ὃς οὐδενὸς ἥσσων οἴομαι εἶναι γνῶναί τε τὰ δέοντα\n              καὶ ἑρμηνεῦσαι ταῦτα, φιλόπολίς τε καὶ χρημάτων κρείσσων. </p>",
+      "1st1K-eng1": "<p>\nAnd yet I, with whom you are angry, am as competent as any man, I think, both to determine upon the right measures and to expound them, and as good a patriot and superior to the influence of money.\n\n</p>",
+      "perseus-eng6": "<p>And yet if you are angry with me, it is with one who, as I believe, is second to no man either in knowledge of the proper policy, or in the ability to expound it, and who is moreover not only a patriot but an honest one.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Atque mihi tali viro irascimini, qui me nulli secundum esse puto, aut in cognoscendis rebus, quas sunt faciendae, aut etiam in his explicandis, quique civitatis amans sum, et pecunia invictus. </p>"
+    },
+    "6": {
+      "perseus-grc2": "<p>ὅ τε γὰρ γνοὺς καὶ μὴ σαφῶς διδάξας ἐν ἴσῳ καὶ εἰ μὴ ἐνεθυμήθη· ὅ τε ἔχων ἀμφότερα,\n              τῇ δὲ πόλει δύσνους, οὐκ ἂν ὁμοίως τι οἰκείως φράζοι· προσόντος δὲ καὶ τοῦδε, χρήμασι\n              δὲ νικωμένου, τὰ ξύμπαντα τούτου ἑνὸς ἂν πωλοῖτο. </p>",
+      "1st1K-eng1": "<p>\nFor he who determines upon a policy, and fails to lay it clearly before others, is in the same case as if he never had a conception of it;\nand he who has both gifts, but is disloyal to his country, cannot speak with the same unselfish devotion;\nand if he have loyalty also, but a loyalty that cannot resist money, then for that alone everything will be on sale.\n\n</p>",
+      "perseus-eng6": "<p>A man possessing that knowledge without that faculty of exposition might as well have no idea at all on the matter: if he had both these gifts, but no love for his country, he would be but a cold advocate for her interests; while were his patriotism not proof against bribery, everything would go for a price.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Nam qui novit, neque aperte dooet, perinde est, ac si nunquam cogitasset; et qui utrumque habet, sed reipublicae est inalivolus, is pariter non quicquam e re ipsius dicat; sed si hoc quoque adsit, pecunia autem vincatur, universa hanc unam ob rem venalia erunt. </p>"
+    },
+    "7": {
+      "perseus-grc2": "<p>ὥστ’ εἴ μοι καὶ μέσως ἡγούμενοι μᾶλλον ἑτέρων προσεῖναι αὐτὰ πολεμεῖν ἐπείσθητε, οὐκ\n              ἂν εἰκότως νῦν τοῦ γε ἀδικεῖν αἰτίαν φεροίμην. </p>",
+      "1st1K-eng1": "<p>\nIf, therefore, when you allowed me to persuade you to go to war, you believed that I possessed these qualities even in a moderate degree more than other men, it is unreasonable that I should now bear the blame, at any rate, of wrongdoing.\n\n</p>",
+      "perseus-eng6": "<p>So that if you thought that I was even moderately distinguished for these qualities when you took my advice and went to war, there is certainly no reason now why I should be charged with having done wrong. </p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Quare si mihi vel mediocriter haec praeter ceteros adesse existimantes me auctorem in hoc bello suscipiendo secuti estis, nullo meo merito nunc injuriae quidem culpam sustineam.\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:2.59",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:2.61"
+  }
+});

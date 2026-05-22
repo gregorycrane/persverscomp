@@ -1,0 +1,63 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:5.32", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:5.32",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "5",
+  "chapter": "32",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p>περὶ δὲ τοὺς αὐτοὺς χρόνους τοῦ θέρους τούτου\n              Σκιωναίους μὲν Ἀθηναῖοι ἐκπολιορκήσαντες ἀπέκτειναν τοὺς ἡβῶντας, παῖδας δὲ καὶ\n              γυναῖκας ἠνδραπόδισαν, καὶ τὴν γῆν Πλαταιεῦσιν ἔδοσαν νέμεσθαι, Δηλίους δὲ κατήγαγον\n              πάλιν ἐς Δῆλον, ἐνθυμούμενοι τάς τε ἐν ταῖς μάχαις ξυμφορὰς καὶ τοῦ ἐν Δελφοῖς θεοῦ\n              χρήσαντος. </p>",
+      "1st1K-eng1": "<p> About the same time during this summer, the Athenians reduced the Scionaeans by siege, slew the adult males,<span class=\"note\">[In accordance with the decree moved by Cleon two years before (4.122.6). At the conclusion of peace they had been left at the mercy of the Athenians (5.18.8).]</span> made slaves of the women and children, and gave the land to the Plataeans to occupy; and they brought back the Delians to Delos,<span class=\"note\">[cf. ch. i.]</span> taking to heart their mishaps in the battles<span class=\"note\">[At Delium and Amphipolis.]</span> and obeying an oracle of the god at Delphi.\n\n</p>",
+      "perseus-eng6": "<p>About the same time in this summer Athens succeeded in reducing Scione, put the adult males to death, and making slaves of the women and children, gave the land for the Plataeans to live in. She also brought back the Delians to Delos, moved by her misfortunes in the field and by the commands of the god at Delphi.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>Circa eadem hujus aestatis tempora Athenienses quum Sciomeos expugnassent, puberes interfecerunt, et pueros ac mulieres in servitutem redegerunt, agrumque Plataeensibus colendum dederunt; Delios autem rursus in Delum reduxerunt, reputantes et clades in proeliis acceptas , et dei Delphici oraculum. </p>"
+    },
+    "2": {
+      "perseus-grc2": "<p>καὶ Φωκῆς καὶ Λοκροὶ ἤρξαντο πολεμεῖν. </p>",
+      "1st1K-eng1": "<p>\nMeanwhile the Phocians and the Locrians began hostilities.\n\n</p>",
+      "perseus-eng6": "<p>Meanwhile the Phocians and Locrians commenced hostilities.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Et Phocen^s et Locri bellum gerere coeperunt. </p>"
+    },
+    "3": {
+      "perseus-grc2": "<p>καὶ Κορίνθιοι καὶ Ἀργεῖοι ἤδη ξύμμαχοι ὄντες ἔρχονται\n              ἐς Τεγέαν ἀποστήσοντες Λακεδαιμονίων, ὁρῶντες μέγα μέρος ὂν καί, εἰ σφίσι προσγένοιτο,\n              νομίζοντες ἅπασαν ἂν ἔχειν Πελοπόννησον. </p>",
+      "1st1K-eng1": "<p>And the Corinthians and the Argives, being now allies, came to Tegea,<span class=\"note\">[It had always maintained an independent position in Arcadia, and in earlier times had been a powerful opponent Of Sparta.]</span> hoping to induce it to revolt from the Lacedaemonians, seeing that it was an important part of the Peloponnesus, and thinking if it should be gained to their side they would soon have the whole Peloponnesus.\n\n</p>",
+      "perseus-eng6": "<p>The Corinthians and Argives being now in alliance, went to Tegea to bring about its defection from Lacedaemon, seeing that if so considerable a state could be persuaded to join, all Peloponnese would be with them.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Et Corinthii et Argivi, quum jam essent socii, Tegeam iverunt, ut eam a Lacedaemoniorum societate averterent, quod eam magnam Peloponnesi portionem esse cernerent, ac, si ea sibi accessisset, se totam Peloponnesum habituros sperarent. </p>"
+    },
+    "4": {
+      "perseus-grc2": "<p>ὡς δὲ οὐδὲν ἂν ἔφασαν ἐναντιωθῆναι οἱ Τεγεᾶται Λακεδαιμονίοις, οἱ Κορίνθιοι μέχρι\n              τούτου προθύμως πράσσοντες ἀνεῖσαν τῆς φιλονικίας καὶ ὠρρώδησαν μὴ οὐδεὶς σφίσιν ἔτι\n              τῶν ἄλλων προσχωρῇ. </p>",
+      "1st1K-eng1": "<p>But when the Tegeates refused to oppose the Lacedaemonians, the Corinthians, who up to that time had been working zealously, became slack in their ardour and full of dread that none of the other Peloponnesians would henceforth come over to them.\n\n</p>",
+      "perseus-eng6": "<p>But when the Tegeans said that they would do nothing against Lacedaemon, the hitherto zealous Corinthians relaxed their activity, and began to fear that none of the rest would now come over.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Sed quum Tegeatae respondissent, se Lacedaemoniis non adversaturos, Corinthii, qui hactenus in eam rem acerrime incubuerant, de contentione remiserunt, et veriti sunt, ne nullus ex aliis ad sc posthac accederet. </p>"
+    },
+    "5": {
+      "perseus-grc2": "<p>ὅμως δὲ ἐλθόντες ἐς τοὺς Βοιωτοὺς ἐδέοντο σφῶν τε καὶ Ἀργείων γίγνεσθαι ξυμμάχους καὶ\n              τἆλλα κοινῇ πράσσειν· τάς τε δεχημέρους ἐπισπονδάς, αἳ ἦσαν Ἀθηναίοις καὶ Βοιωτοῖς\n              πρὸς ἀλλήλους οὐ πολλῷ ὕστερον γενόμεναι [τούτων] τῶν πεντηκοντουτίδων σπονδῶν,\n              ἐκέλευον οἱ Κορίνθιοι τοὺς Βοιωτοὺς ἀκολουθήσαντας Ἀθήναζε καὶ σφίσι ποιῆσαι, [ὥσπερ\n              Βοιωτοὶ εἶχον,] μὴ δεχομένων δὲ Ἀθηναίων ἀπειπεῖν τὴν ἐκεχειρίαν καὶ τὸ λοιπὸν μὴ\n              σπένδεσθαι ἄνευ αὐτῶν. </p>",
+      "1st1K-eng1": "<p>Nevertheless they went to the Boeotians and requested them to become allies of themselves and the Argives, and to act generally in concert with them. And the Corinthians further requested the Boeotians to accompany them to Athens and procure for them also the ten days' truce<span class=\"note\">[ie. a truce which had to be renewed every ten days; or, perhaps, “terminable at ten days' notice,” as Jowett thinks. cf. 5.26.3.]</span> which had been made between the Athenians and Boeotians not long after the conclusion of the fifty years' treaty, on the same terms as the Boeotians had obtained, and, if the Athenians did not agree, to renounce the armistice and for the future to make no truce without the Corinthians.\n\n</p>",
+      "perseus-eng6": "<p>Still they went to the Boeotians and tried to persuade them to alliance and a common action generally with Argos and themselves, and also begged them to go with them to Athens and obtain for them a ten days' truce similar to that made between the Athenians and Boeotians not long after the fifty years' treaty, and in the event of the Athenians refusing, to throw up the armistice, and not make any truce in future without Corinth. These were the requests of the Corinthians.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Veruntamen ad Boeotos profecti, eos orabant, ut secum et cum Argivis societatem inirent, ceteraque communiter administrarent; ad baec illas decem dierum inducias, quae non multo post ista quinquaginta annorum foedera inter Athenienses et Boeotos mutuo factae erant, Corinthii suadebant Boeotis, ut se Athenas secuti sibi quoque impetrarent eodem modo factas, quo Boeoti eas habebant; si vero Athenienses recusarent, inducias ipsi quoque renunciarenl, et in posterum sine se nullum foedus facerent. </p>"
+    },
+    "6": {
+      "perseus-grc2": "<p>Βοιωτοὶ δὲ δεομένων τῶν Κορινθίων περὶ μὲν τῆς Ἀργείων ξυμμαχίας ἐπισχεῖν αὐτοὺς\n              ἐκέλευον, ἐλθόντες δὲ Ἀθήναζε μετὰ Κορινθίων οὐχ ηὕροντο τὰς δεχημέρους σπονδάς, ἀλλ᾽\n              ἀπεκρίναντο οἱ Ἀθηναῖοι Κορινθίοις εἶναι σπονδάς, εἴπερ Λακεδαιμονίων εἰσὶ ξύμμαχοι.\n            </p>",
+      "1st1K-eng1": "<p>The Boeotians, when the Corinthians made these requests, desired them to wait awhile in regard to the Argive alliance, but they went with them to Athens, where however they failed to obtain the ten days' truce, the Athenians answering them that there was already a truce with the Corinthians, if they were allies of the Lacedaemonians.\n\n</p>",
+      "perseus-eng6": "<p>The Boeotians stopped them on the subject of the Argive alliance, but went with them to Athens, where however they failed to obtain the ten days' truce; the Athenian answer being, that the Corinthians had truce already, as being allies of Lacedaemon.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Boeoti vero rogantibus Corinthiis dc societate Argivorum quidem eos rem differre jubebant, Athenas vero cum Corinthiis profecti decem\n\n\n\n\n\ndierum inducias non impetrarunl, sed Athenienses responderunt, Corinthiis esse foedera, si quidem Lacedaemoniorum essent socii. </p>"
+    },
+    "7": {
+      "perseus-grc2": "<p>Βοιωτοὶ μὲν οὖν οὐδὲν μᾶλλον ἀπεῖπον τὰς δεχημέρους, ἀξιούντων καὶ αἰτιωμένων\n              Κορινθίων ξυνθέσθαι σφίσιν· Κορινθίοις δὲ ἀνοκωχὴ ἄσπονδος ἦν πρὸς Ἀθηναίους. </p>",
+      "1st1K-eng1": "<p>But the Boeotians did not any the more give up the ten days' truce, although the Corinthians demanded it and accused them of having agreed with themselves to do so. Between the Corinthians, however, and the Athenians there was a cessation of activities without an actual truce.\n\n\n</p>",
+      "perseus-eng6": "<p>Nevertheless the Boeotians did not throw up their ten days' truce, in spite of the prayers and reproaches of the Corinthians for their breach of faith; and these last had to content themselves with a de facto armistice with Athens. </p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Boeoti vero ideo non magis decem dierum induciis renunciare voluerunt, quamvis Corinthii hoc flagitarent, et cum expostulatione dicerent, ita inter se couvenisse; Corinthiis autem induciae sine foedere cum Atheniensibus erant.\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:5.31",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:5.33"
+  }
+});

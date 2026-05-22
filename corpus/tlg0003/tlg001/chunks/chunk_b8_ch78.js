@@ -1,0 +1,21 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:8.78", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:8.78",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "8",
+  "chapter": "78",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p>ὑπὸ δὲ τὸν χρόνον τοῦτον καὶ οἱ ἐν τῇ Μιλήτῳ τῶν\n              Πελοποννησίων ἐν τῷ ναυτικῷ στρατιῶται κατὰ σφᾶς αὐτοὺς διεβόων ὡς ὑπό τε Ἀστυόχου καὶ\n              Τισσαφέρνους φθείρεται τὰ πράγματα, τοῦ μὲν οὐκ ἐθέλοντος οὔτε πρότερον ναυμαχεῖν, ἕως\n              ἔτι αὐτοί τε ἔρρωντο μᾶλλον καὶ τὸ ναυτικὸν τῶν Ἀθηναίων ὀλίγον ἦν, οὔτε νῦν, ὅτε\n              στασιάζειν τε λέγονται καὶ αἱ νῆες αὐτῶν οὐδέπω ἐν τῷ αὐτῷ εἰσίν, ἀλλὰ τὰς παρὰ\n              Τισσαφέρνους Φοινίσσας ναῦς μένοντες, ἄλλως ὄνομα καὶ οὐκ ἔργον, κινδυνεύσειν\n              διατριβῆναι· τὸν δ’ αὖ Τισσαφέρνην τάς τε ναῦς ταύτας οὐ κομίζειν, καὶ τροφὴν ὅτι οὐ\n              ξυνεχῶς οὐδ’ ἐντελῆ διδοὺς κακοῖ τὸ ναυτικόν. οὔκουν ἔφασαν χρῆναι μέλλειν ἔτι, ἀλλὰ\n              διαναυμαχεῖν. </p>",
+      "1st1K-eng1": "<p> About this time the Peloponnesian soldiers in the fleet at Miletus were clamouring among themselves, saying that their cause was being ruined by Astyochus and Tissaphernes; by the former because he was unwilling to fight, either before this while they themselves were still the stronger and the Athenian fleet was small, or now when the enemy were said to be rent with factions and their ships had not yet been brought together; nay, they kept waiting for the Phoenician ships which Tissaphernes was to furnish—a mere pretence and not a fact—and thus ran the risk of being worn out by delay; as for Tissaphernes, on the other hand, he was not only not producing these ships, but he was even doing harm to the fleet by not giving it maintenance regularly or in full. Therefore, they said, they ought to wait no longer but should fight to an issue. In all this it was the Syracusans who were most insistent.\n\n\n</p>",
+      "perseus-eng6": "<p>About this time a cry arose among the soldiers in the Peloponnesian fleet at Miletus that Astyochus and Tissaphernes were ruining their cause. Astyochus had not been willing to fight at sea—either before, while they were still in full vigour and the fleet of the Athenians small, or now, when the enemy was, as they were informed, in a state of sedition and his ships not yet united—but kept them waiting for the Phoenician fleet from Tissaphernes, which had only a nominal existence, at the risk of wasting away in inactivity. While Tissaphernes not only did not bring up the fleet in question, but was ruining their navy by payments made irregularly, and even then not made in full. They must therefore, they insisted, delay no longer, but fight a decisive naval engagement. The Syracusans were the most urgent of any. </p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>Per idem autem tempus et illi classiarii Peloponnesiorum milites, qui Mileti erant, voces inter se spargebant, res suas ab Aslyocho et Tissapherne perdi, quod ille quidem nec antea navale prudium committere voluisset, donec adhuc et ipsi vires majores haberent, et Atheniensium classis parva esset, neque nunc vellet, dum illi seditione laborare dicerentur, necdum omnes eorum naves in eodem loco essent; sed se ipsos Phoenissas naves a Tissapherne expcclando, nomen inane et non rem certam, in periculum venturos, ne plane mora perderentur; Tissaphernem vero et naves istas non adducere, et stipendium nec assidue nec integrum persolvendo rem navalem perditum ire. Non igitur diutius cunctandum dicebant , sed navali proelio dimicandum esse. Et praecipue Syracusani instigabant.\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:8.77",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:8.79"
+  }
+});

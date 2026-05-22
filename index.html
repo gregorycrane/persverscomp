@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Global Core Parallel Reading Workspace</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            height: 100%; width: 100%; overflow: hidden; 
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+            font-size: 13px; color: #000; background: #fff;
+        }
+        a { color: #336699; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        #app-view-root { display: flex; flex-direction: column; height: 100vh; width: 100vw; overflow: hidden; }
+
+        #header-container { flex-shrink: 0; background: #fff; border-bottom: 1px solid #ccc; z-index: 10; }
+        #perseus-banner { background: #660000; color: #fff; padding: 6px 15px; display: flex; justify-content: space-between; align-items: center; }
+        #perseus-banner h1 a { color: #fff; font-size: 16px; font-weight: bold; }
+        #perseus-banner .doc-title { font-size: 11px; color: #ffccaa; font-weight: bold; }
+
+        #nav-bar { background: #ddddcc; border-bottom: 1px solid #999988; padding: 4px 15px; font-size: 11px; font-weight: bold; }
+
+        #browse-bar { background: #eeeeee; border-bottom: 1px solid #cccccc; padding: 6px 15px; font-size: 11px; display: flex; flex-direction: column; gap: 5px; }
+        .browse-row { display: flex; align-items: flex-start; }
+        .browse-row.hidden-row { display: none !important; }
+        .browse-row label { font-weight: bold; width: 80px; color: #444; flex-shrink: 0; padding-top: 1px; }
+        .browse-items { display: flex; flex-wrap: wrap; gap: 4px; }
+        .browse-items a { padding: 1px 6px; background: #e0e0d0; color: #336699; border: 1px solid #bbbb99; font-weight: bold; border-radius: 2px; cursor: pointer; }
+        .browse-items a.current { background: #660000; color: #fff; border-color: #330000; }
+
+        .browse-items a.sec-pill { background: #fff; color: #555; border: 1px solid #ccc; font-weight: normal; font-size: 10px; padding: 1px 5px; }
+        .browse-items a.sec-pill.active-pill { background: #660000; color: #fff; border-color: #330000; font-weight: bold; }
+
+        #outer-wrapper { display: flex; width: 100%; flex: 1; min-height: 0; }
+
+        #main-container { flex: 1; display: flex; min-width: 0; height: 100%; }
+        .reading-column { display: flex; flex-direction: column; flex: 1; min-width: 0; height: 100%; border-right: 1px solid #eeeeee; background: #fff; }
+        .reading-column:last-child { border-right: none; }
+        .cross-panel { background: #fafafa; }
+
+        .panel-header { background: #660000; color: #fff; padding: 4px 8px; font-size: 11px; font-weight: bold; position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+        .edition-select-dropdown { background: #fff; color: #333; font-size: 10px; padding: 1px 4px; border: 1px solid #ccc; border-radius: 2px; outline: none; cursor: pointer; }
+
+        .column-content-scroll { flex: 1; overflow-y: auto; padding: 15px; }
+
+        /* ── Core Layout Rows ── */
+        .section-row { 
+            border-bottom: 1px solid #f0f0f0; 
+            padding: 10px 0; 
+            display: block;
+            scroll-margin-top: 5px; 
+        }
+        .section-row.hidden-section { display: none !important; }
+
+        .greek-text { font-size: 15px; line-height: 1.7; font-family: "Gentium Plus", "Athena", serif; color: #000; }
+        .english-text { font-size: 13px; line-height: 1.6; color: #222; }
+        .french-text { font-size: 13px; line-height: 1.6; color: #2b2b2b; }
+        .latin-text { font-size: 13px; line-height: 1.6; color: #111; font-style: italic; }
+
+        /* ── Poetry CSS Grid Structure ── */
+        .poetry-grid-layout {
+            display: grid !important;
+            grid-template-columns: 45px 1fr;
+            row-gap: 4px;
+            align-items: start;
+            width: 100%;
+        }
+
+        .poetry-grid-layout .line-num-cell {
+            grid-column: 1;
+            text-align: right; 
+            padding-right: 12px;
+            font-size: 11px; 
+            color: #999; 
+            font-weight: bold; 
+            font-family: "Courier New", Courier, monospace;
+            line-height: 1.7;
+            user-select: none;
+            display: block !important;
+        }
+
+        .poetry-grid-layout .line-text-cell {
+            grid-column: 2;
+            line-height: 1.7;
+            display: block !important;
+            white-space: normal;
+        }
+
+        .poetry-grid-layout .stage-direction {
+            grid-column: 1 / span 2 !important;
+            display: block !important;
+            font-style: italic;
+            color: #445566;
+            background: #fdfdfd;
+            border-left: 3px solid #ccc;
+            padding: 8px 12px;
+            margin: 10px 0;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+
+        /* ── Pure Prose Inline Structure ── */
+        .prose-inline-layout {
+            display: block;
+            width: 100%;
+            line-height: 1.6;
+        }
+        .prose-inline-layout .prose-marker {
+            font-weight: bold; 
+            color: #336699; 
+            margin-right: 8px;
+            display: inline-block;
+        }
+        .prose-inline-layout .prose-body-inline {
+            display: inline;
+        }
+        /* Overrides unwanted display parameters inside raw HTML blocks */
+        .prose-body-inline p, .prose-body-inline div {
+            display: inline !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .speaker-attr { color: #445566; font-variant: small-caps; letter-spacing: 0.5px; display: block; margin-top: 8px; margin-bottom: 4px; }
+        .poetry-grid-layout .speaker-attr { grid-column: 1 / span 2; display: block !important; }
+        
+        .render-italic, .render-italics { font-style: italic; }
+        .render-bold { font-weight: bold; }
+        .render-underline { text-decoration: underline; }
+        
+        .note { font-size: 11px; color: #555; background: #fdfbf7; border-left: 2px solid #880000; padding: 2px 6px; margin: 4px 0 4px 1em; display: block; }
+        .poetry-grid-layout .note { grid-column: 1 / span 2; display: block !important; }
+
+        .quote-block {
+            margin: 10px 0 10px 2.5em;
+            padding-left: 12px;
+            border-left: 1px dashed #bbb;
+            font-size: 0.95em;
+            color: #333;
+            grid-column: 1 / span 2;
+        }
+        .quote-block.type-verse { font-style: italic; line-height: 1.6; background: #fafafa; padding: 6px 12px; }
+        .quote-block.type-blockquote { line-height: 1.55; color: #1a1a1a; }
+
+        .viewport-footer-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; width: 100%; clear: both; }
+        .poetry-grid-layout .viewport-footer-controls { grid-column: 1 / span 2; display: flex !important; }
+        .footer-group-left { display: flex; gap: 6px; }
+        .action-btn { display: inline-block; background: #660000; color: #fff !important; padding: 4px 10px; font-size: 11px; font-weight: bold; border-radius: 2px; border: none; cursor: pointer; }
+        .action-btn.secondary { background: #666; }
+        .action-btn:hover { background: #330000; text-decoration: none; }
+        .action-btn.secondary:hover { background: #444; }
+    </style>
+</head>
+<body>
+
+  <div id="app-view-root">
+    <div id="header-container">
+      <div id="perseus-banner">
+        <h1><a href="#">Perseus Workspace Engine</a></h1>
+        <span class="doc-title">Global CTS-URN Unified Environment</span>
+      </div>
+      <div id="nav-bar">
+        <span id="frame-context-label">Loading system configuration modules...</span>
+      </div>
+      
+      <div id="browse-bar">
+        <div class="browse-row">
+          <label>Works:</label>
+          <div class="browse-items" id="work-items-container"></div>
+        </div>
+        <div class="browse-row" id="row-book-container">
+          <label>Books:</label>
+          <div class="browse-items" id="book-items-container"></div>
+        </div>
+        <div class="browse-row">
+          <label id="chapter-row-label">Chapters:</label>
+          <div class="browse-items" id="chapter-items-container"></div>
+        </div>
+        <div class="browse-row">
+          <label>Sections:</label>
+          <div class="browse-items" id="section-items-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="outer-wrapper">
+      <div id="main-container">
+        <div class="reading-column" id="col_f">
+            <div class="panel-header">
+                <span>Focal Axis Text Column</span>
+                <select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_f"></div>
+        </div>
+        <div class="reading-column cross-panel" id="col_c1">
+            <div class="panel-header">
+                <span>Comparison Version 1</span>
+                <select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c1"></div>
+        </div>
+        <div class="reading-column cross-panel" id="col_c2">
+            <div class="panel-header">
+                <span>Comparison Version 2</span>
+                <select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const GLOBAL_STRUCTURES = {"tlg0003.tlg001": {"1": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146"], "2": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103"], "3": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116"], "4": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135"], "5": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116"], "6": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105"], "7": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87"], "8": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109"]}, "tlg0086.tlg034": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"], "tlg0011.tlg004": ["1-13", "14-57", "58-77", "78-101", "102-131", "132-150", "151-157", "160-166", "169-177", "179-187", "190-201", "203-215", "216-254", "255-275", "276-299", "300-329", "330-353", "354-379", "380-407", "408-428", "429-446", "447-462", "463-472", "473-482", "483-495", "496-511", "513-542", "543-582", "583-615", "616-633", "634-648", "649-658", "660-678", "679-698", "700-725", "726-749", "750-770", "771-799", "800-833", "834-862", "863-871", "873-882", "884-896", "897-910", "911-949", "950-976", "977-999", "1000-1025", "1026-1053", "1054-1085", "1086-1096", "1098-1107", "1110-1140", "1141-1170", "1171-1185", "1186-1195", "1196-1203", "1204-1211", "1212-1221", "1223-1236", "1237-1284", "1285-1296", "1297-1312", "1313-1320", "1321-1328", "1329-1347", "1349-1366", "1367-1415", "1416-1445", "1446-1477", "1478-1515", "1516-1530"]};
+    const TEXT_REGISTRY = {"perseus-grc2": {"urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2", "label": "Greek (F. Storr, 1912)", "class": "greek-text", "textgroup": "tlg0011", "work": "tlg004"}, "1st1K-eng1": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1K-eng1", "label": "English (C. F. Smith, 1919)", "class": "english-text", "textgroup": "tlg0003", "work": "tlg001"}, "perseus-eng6": {"urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng6", "label": "English (R. Crawley, 1914)", "class": "english-text", "textgroup": "tlg0003", "work": "tlg001"}, "1st1k-fre1": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-fre1", "label": "French (E. B\u00e9tant, 1863)", "class": "french-text", "textgroup": "tlg0003", "work": "tlg001"}, "1st1k-lat2": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-lat2", "label": "Latin (Fr. Haase, 1869)", "class": "latin-text", "textgroup": "tlg0003", "work": "tlg001"}, "digicorpus-grc2": {"urn": "urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc2", "label": "Greek (Digital Corpus Variant)", "class": "greek-text", "textgroup": "tlg0086", "work": "tlg034"}, "perseus-eng2": {"urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-eng2", "label": "English (Sir Richard Jebb, 1904)", "class": "english-text", "textgroup": "tlg0011", "work": "tlg004"}, "butcher1911-eng2": {"urn": "urn:cts:greekLit:tlg0086.tlg034.butcher1911-eng2", "label": "English (S.H. Butcher, 1911)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034"}, "bywater1909-eng1": {"urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-eng1", "label": "English (Ingram Bywater, 1909)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034"}, "twining1789-eng1": {"urn": "urn:cts:greekLit:tlg0086.tlg034.twining1789-eng1", "label": "English (Thomas Twining, 1789)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034"}};
+    
+    const WORKSPACE_DATA_REGISTRY = new Map();
+    
+    let activeWorkKey = "";
+    let activeUrnContext = "";
+    let activeSectionFilter = null;
+
+    let columnEditions = { f: "", c1: "", c2: "" };
+
+    window.registerWorkspaceChunk = function(urn, dataPayload) {
+        WORKSPACE_DATA_REGISTRY.set(urn, dataPayload);
+        triggerRenderLifecycle(urn);
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+        initializeRoutingFromURL();
+    });
+
+    function populateDropdownsForWork(tgId, wkId) {
+        const validEditionIds = Object.keys(TEXT_REGISTRY).filter(vId => {
+            return TEXT_REGISTRY[vId].textgroup === tgId && TEXT_REGISTRY[vId].work === wkId;
+        });
+
+        if (validEditionIds.length === 0) return;
+
+        if (!columnEditions.f || !validEditionIds.includes(columnEditions.f)) columnEditions.f = validEditionIds[0];
+        if (!columnEditions.c1 || !validEditionIds.includes(columnEditions.c1)) columnEditions.c1 = validEditionIds[1] || validEditionIds[0];
+        if (!columnEditions.c2 || !validEditionIds.includes(columnEditions.c2)) columnEditions.c2 = validEditionIds[2] || validEditionIds[0];
+
+        ['f', 'c1', 'c2'].forEach(prefix => {
+            const selectEl = document.getElementById(`select_${prefix}`);
+            if (!selectEl) return;
+            selectEl.innerHTML = "";
+            
+            validEditionIds.forEach(vId => {
+                const opt = document.createElement("option");
+                opt.value = vId;
+                opt.innerText = TEXT_REGISTRY[vId].label;
+                if(columnEditions[prefix] === vId) opt.selected = true;
+                selectEl.appendChild(opt);
+            });
+        });
+    }
+
+    function isFlatStructure(wKey) {
+        return Array.isArray(GLOBAL_STRUCTURES[wKey]);
+    }
+
+    function isPoetryWork(wKey) {
+        return wKey.startsWith("tlg0011.");
+    }
+
+    function initializeRoutingFromURL() {
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const rawParam = params.get("w") || "";
+            
+            let b = "";
+            let ch = "";
+            activeSectionFilter = null;
+            
+            columnEditions.c1 = params.get("right") || "";
+            columnEditions.c2 = params.get("right2") || "";
+
+            if (rawParam.includes(":")) {
+                const querySegments = rawParam.split(":");
+                let workPart = querySegments[0];
+                
+                const workDots = workPart.split(".");
+                if (workDots.length > 2) {
+                    const potentialEdition = workDots.pop();
+                    const fallbackBaseKey = workDots.join(".");
+                    if (TEXT_REGISTRY[potentialEdition]) {
+                        columnEditions.f = potentialEdition;
+                        workPart = fallbackBaseKey;
+                    }
+                } else {
+                    columnEditions.f = "";
+                }
+                
+                activeWorkKey = workPart;
+                const passageSegments = querySegments[1].split(".");
+                
+                if (isFlatStructure(activeWorkKey)) {
+                    b = ""; 
+                    ch = passageSegments[0] || "1";
+                    if (passageSegments[1]) activeSectionFilter = passageSegments[1];
+                } else {
+                    b = passageSegments[0];
+                    ch = passageSegments[1] || "1";
+                    if (passageSegments[2]) activeSectionFilter = passageSegments[2];
+                }
+            } else {
+                activeWorkKey = rawParam || Object.keys(GLOBAL_STRUCTURES)[0];
+                if (!GLOBAL_STRUCTURES[activeWorkKey]) {
+                    activeWorkKey = Object.keys(GLOBAL_STRUCTURES)[0];
+                }
+                
+                if (isFlatStructure(activeWorkKey)) {
+                    b = "";
+                    ch = GLOBAL_STRUCTURES[activeWorkKey][0] || "1";
+                } else {
+                    b = Object.keys(GLOBAL_STRUCTURES[activeWorkKey])[0];
+                    ch = GLOBAL_STRUCTURES[activeWorkKey][b][0] || "1";
+                }
+                columnEditions.f = "";
+            }
+
+            const targetUrn = b ? `urn:cts:greekLit:${activeWorkKey}:${b}.${ch}` : `urn:cts:greekLit:${activeWorkKey}:${ch}`;
+            resolveAndInjectUrn(targetUrn);
+        } catch (err) {
+            console.error("Initialization Failed:", err);
+            document.getElementById("frame-context-label").innerText = "Runtime Error: " + err.message;
+        }
+    }
+
+    function resolveAndInjectUrn(urn) {
+        if (WORKSPACE_DATA_REGISTRY.has(urn)) {
+            triggerRenderLifecycle(urn);
+            return;
+        }
+
+        document.getElementById("frame-context-label").innerText = `Resolving storage path for ${urn}...`;
+        
+        const parts = urn.split(":");
+        const workComponents = parts[3].split(".");
+        const passageComponents = parts[4].split(".");
+        
+        const tgId = workComponents[0];
+        const wkId = workComponents[1];
+
+        populateDropdownsForWork(tgId, wkId);
+
+        const script = document.createElement("script");
+        if (passageComponents.length > 1 && !isFlatStructure(`${tgId}.${wkId}`)) {
+            script.src = `corpus/${tgId}/${wkId}/chunks/chunk_b${passageComponents[0]}_ch${passageComponents[1]}.js`;
+        } else {
+            script.src = `corpus/${tgId}/${wkId}/chunks/chunk_ch${passageComponents[0]}.js`;
+        }
+        
+        script.onerror = () => {
+            document.getElementById("frame-context-label").innerText = `Path Resolution Failed for ${urn}`;
+        };
+        document.head.appendChild(script);
+    }
+
+    function triggerRenderLifecycle(urn) {
+        activeUrnContext = urn;
+        const payload = WORKSPACE_DATA_REGISTRY.get(urn);
+        if (!payload) return;
+        
+        activeWorkKey = `${payload.textgroup}.${payload.work}`;
+        populateDropdownsForWork(payload.textgroup, payload.work);
+
+        updateURLState(payload.book, payload.chapter);
+        renderNavigationControls(payload);
+        renderActiveContentLayers(payload);
+    }
+
+    function updateURLState(book, chapter) {
+        const params = new URLSearchParams();
+        let passageValue = book ? `${book}.${chapter}` : `${chapter}`;
+        if (activeSectionFilter) {
+            passageValue += `.${activeSectionFilter}`;
+        }
+        
+        params.set("w", `${activeWorkKey}.${columnEditions.f}:${passageValue}`);
+        if(columnEditions.c1) params.set("right", columnEditions.c1);
+        if(columnEditions.c2) params.set("right2", columnEditions.c2);
+        
+        const currentFilename = window.location.pathname.split('/').pop() || 'index.html';
+        window.history.replaceState(null, "", currentFilename + "?" + params.toString());
+    }
+
+    // Explicit function mapping section indices
+    function selectSectionDirectly(secId) {
+        activeSectionFilter = secId;
+        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
+            triggerRenderLifecycle(activeUrnContext);
+        }
+    }
+
+    function renderNavigationControls(payload) {
+        document.getElementById("frame-context-label").innerText = `Active Frame Context: ${payload.urn}`;
+        
+        const workContainer = document.getElementById("work-items-container");
+        if (workContainer) {
+            workContainer.innerHTML = "";
+            Object.keys(GLOBAL_STRUCTURES).forEach(wKey => {
+                const a = document.createElement("a");
+                if (wKey === "tlg0003.tlg001") a.innerText = "Thucydides (Histories)";
+                else if (wKey === "tlg0086.tlg034") a.innerText = "Aristotle (Poetics)";
+                else if (wKey === "tlg0011.tlg004") a.innerText = "Sophocles (Oedipus Tyrannus)";
+                else a.innerText = wKey;
+                
+                if(wKey === activeWorkKey) a.className = "current";
+                a.onclick = () => {
+                    activeSectionFilter = null;
+                    activeWorkKey = wKey;
+                    if (isFlatStructure(wKey)) {
+                        resolveAndInjectUrn(`urn:cts:greekLit:${wKey}:${GLOBAL_STRUCTURES[wKey][0]}`);
+                    } else {
+                        const targetBook = Object.keys(GLOBAL_STRUCTURES[wKey])[0];
+                        resolveAndInjectUrn(`urn:cts:greekLit:${wKey}:${targetBook}.${GLOBAL_STRUCTURES[wKey][targetBook][0]}`);
+                    }
+                };
+                workContainer.appendChild(a);
+            });
+        }
+
+        const bookRow = document.getElementById("row-book-container");
+        if(isFlatStructure(activeWorkKey)) {
+            bookRow.classList.add("hidden-row");
+        } else {
+            bookRow.classList.remove("hidden-row");
+            const bookContainer = document.getElementById("book-items-container");
+            if (bookContainer) {
+                bookContainer.innerHTML = "";
+                Object.keys(GLOBAL_STRUCTURES[activeWorkKey]).forEach(bk => {
+                    const a = document.createElement("a");
+                    a.innerText = bk;
+                    if(bk === payload.book) a.className = "current";
+                    a.onclick = () => {
+                        activeSectionFilter = null;
+                        resolveAndInjectUrn(`urn:cts:greekLit:${activeWorkKey}:${bk}.${GLOBAL_STRUCTURES[activeWorkKey][bk][0]}`);
+                    };
+                    bookContainer.appendChild(a);
+                });
+            }
+        }
+
+        const bookLabelEl = document.getElementById("chapter-row-label");
+        if (bookLabelEl) {
+            bookLabelEl.innerText = isPoetryWork(activeWorkKey) ? "Ranges:" : "Chapters:";
+        }
+
+        const chapterContainer = document.getElementById("chapter-items-container");
+        if (chapterContainer) {
+            chapterContainer.innerHTML = "";
+            const chList = isFlatStructure(activeWorkKey) ? GLOBAL_STRUCTURES[activeWorkKey] : GLOBAL_STRUCTURES[activeWorkKey][payload.book];
+            chList.forEach(ch => {
+                const a = document.createElement("a");
+                a.innerText = ch;
+                if(ch === payload.chapter) a.className = "current";
+                a.onclick = () => {
+                    activeSectionFilter = null;
+                    const nextUrn = payload.book ? `urn:cts:greekLit:${activeWorkKey}:${payload.book}.${ch}` : `urn:cts:greekLit:${activeWorkKey}:${ch}`;
+                    resolveAndInjectUrn(nextUrn);
+                };
+                chapterContainer.appendChild(a);
+            });
+        }
+
+        const sectionContainer = document.getElementById("section-items-container");
+        if (sectionContainer) {
+            sectionContainer.innerHTML = "";
+            Object.keys(payload.sections).forEach(sec => {
+                const a = document.createElement("a");
+                a.innerText = sec;
+                a.className = "sec-pill";
+                if(sec === activeSectionFilter) a.classList.add("active-pill");
+                a.onclick = () => selectSectionDirectly(sec);
+                sectionContainer.appendChild(a);
+            });
+        }
+    }
+
+    function renderActiveContentLayers(payload) {
+        ['f', 'c1', 'c2'].forEach(prefix => {
+            const targetContainer = document.getElementById(`content_${prefix}`);
+            if (!targetContainer) return;
+            targetContainer.innerHTML = "";
+            
+            const vId = columnEditions[prefix];
+            const cssClass = TEXT_REGISTRY[vId] ? TEXT_REGISTRY[vId].class : "english-text";
+            const isPoetry = isPoetryWork(activeWorkKey);
+            
+            Object.keys(payload.sections).forEach(sec => {
+                const isHidden = activeSectionFilter !== null && activeSectionFilter !== sec;
+                const row = document.createElement("div");
+                row.className = `section-row s-idx-${sec} ${isHidden ? 'hidden-section' : ''}`;
+                
+                const txt = payload.sections[sec][vId] || "<i>[Text range missing in alignment layer]</i>";
+                const visualIndexLabel = isPoetry ? sec : `[${sec}]`;
+                const poetryClassSuffix = isPoetry ? " is-poetry-layout" : "";
+                
+                if (isPoetry) {
+                    const wrapper = document.createElement("div");
+                    wrapper.className = `${cssClass} poetry-grid-layout`;
+                    
+                    const temp = document.createElement("div");
+                    temp.innerHTML = txt;
+                    
+                    while (temp.firstChild) {
+                        const child = temp.firstChild;
+                        if (child.nodeType === Node.ELEMENT_NODE && child.classList.contains("verse-line")) {
+                            const lineNum = child.getAttribute("data-line") || "";
+                            
+                            const numCell = document.createElement("span");
+                            numCell.className = "line-num-cell";
+                            numCell.innerText = lineNum;
+                            
+                            const textCell = document.createElement("div");
+                            textCell.className = "line-text-cell";
+                            textCell.innerHTML = child.innerHTML;
+                            
+                            wrapper.appendChild(numCell);
+                            wrapper.appendChild(textCell);
+                            temp.removeChild(child);
+                        } else {
+                            if (child.nodeType === Node.ELEMENT_NODE) {
+                                if (child.classList.contains("stage-direction")) {
+                                    child.style.gridColumn = "1 / span 2";
+                                    child.style.display = "block";
+                                } else {
+                                    child.style.gridColumn = "1 / span 2";
+                                    child.style.display = "block";
+                                }
+                            }
+                            wrapper.appendChild(child);
+                        }
+                    }
+                    row.appendChild(wrapper);
+                } else {
+                    // ── Enforce True Inline Flow ──
+                    // Wraps content elements inside pure inline elements to force a cohesive block flow
+                    row.innerHTML = `
+                        <div class="prose-inline-layout ${cssClass}">
+                            <span class="prose-marker"><a href="javascript:void(0)" onclick="selectSectionDirectly('${sec}')">${visualIndexLabel}</a></span>
+                            <div class="prose-body-inline">${txt}</div>
+                        </div>
+                    `;
+                }
+                
+                targetContainer.appendChild(row);
+            });
+
+            const footer = document.createElement("div");
+            footer.className = "viewport-footer-controls";
+            
+            let prevBtnHtml = "";
+            let nextBtnHtml = "";
+            
+            if (activeSectionFilter) {
+                const secArray = Object.keys(payload.sections);
+                const currentIdx = secArray.indexOf(activeSectionFilter);
+                
+                if (currentIdx > 0) {
+                    prevBtnHtml = `<a onclick="selectSectionDirectly('${secArray[currentIdx-1]}')" class="action-btn">&larr; Previous [${secArray[currentIdx-1]}]</a>`;
+                } else if (payload.navigation.prev) {
+                    prevBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.prev}', true)">&larr; Previous Segment</a>`;
+                }
+                
+                if (currentIdx < secArray.length - 1) {
+                    nextBtnHtml = `<a onclick="selectSectionDirectly('${secArray[currentIdx+1]}')" class="action-btn">Next [${secArray[currentIdx+1]}] &rarr;</a>`;
+                } else if (payload.navigation.next) {
+                    nextBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.next}', false)">Next Segment &rarr;</a>`;
+                }
+            } else {
+                if (payload.navigation.prev) {
+                    prevBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.prev}')">&larr; Previous Segment</a>`;
+                }
+                if (payload.navigation.next) {
+                    nextBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.next}')">Next Chapter &rarr;</a>`;
+                }
+            }
+
+            footer.innerHTML = `
+                <div class="footer-group-left">
+                    ${prevBtnHtml}
+                    <a href="javascript:void(0)" class="action-btn secondary" onclick="clearSectionFilter(event)">Full View</a>
+                </div>
+                ${nextBtnHtml}
+            `;
+            
+            const targetGrid = targetContainer.querySelector(".poetry-grid-layout");
+            if (targetGrid && isPoetry) {
+                targetGrid.appendChild(footer);
+            } else {
+                targetContainer.appendChild(footer);
+            }
+        });
+    }
+
+    window.loadAdjacentUrn = function(urn, selectLastSection = false) {
+        activeSectionFilter = null;
+        if (selectLastSection) {
+            if (WORKSPACE_DATA_REGISTRY.has(urn)) {
+                const data = WORKSPACE_DATA_REGISTRY.get(urn);
+                const secs = Object.keys(data.sections);
+                activeSectionFilter = secs.length > 0 ? secs[secs.length - 1] : null;
+                triggerRenderLifecycle(urn);
+            } else {
+                const parts = urn.split(":");
+                const workComponents = parts[3].split(".");
+                const passageComponents = parts[4].split(".");
+                const script = document.createElement("script");
+                
+                if (passageComponents.length > 1 && !isFlatStructure(`${workComponents[0]}.${workComponents[1]}`)) {
+                    script.src = `corpus/${workComponents[0]}/${workComponents[1]}/chunks/chunk_b${passageComponents[0]}_ch${passageComponents[1]}.js`;
+                } else {
+                    script.src = `corpus/${workComponents[0]}/${workComponents[1]}/chunks/chunk_ch${passageComponents[0]}.js`;
+                }
+                
+                script.onload = () => {
+                    const data = WORKSPACE_DATA_REGISTRY.get(urn);
+                    const secs = Object.keys(data.sections);
+                    activeSectionFilter = secs.length > 0 ? secs[secs.length - 1] : null;
+                    triggerRenderLifecycle(urn);
+                };
+                document.head.appendChild(script);
+            }
+        } else {
+            resolveAndInjectUrn(urn);
+        }
+    };
+
+    window.clearSectionFilter = function(e) {
+        if(e) e.preventDefault();
+        activeSectionFilter = null;
+        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
+            triggerRenderLifecycle(activeUrnContext);
+        }
+    };
+
+    window.updateColumnContent = function(prefix, value) {
+        columnEditions[prefix] = value;
+        if (activeUrnContext && WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
+            const payload = WORKSPACE_DATA_REGISTRY.get(activeUrnContext);
+            updateURLState(payload.book, payload.chapter);
+            renderActiveContentLayers(payload);
+        }
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:3.102", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:3.102",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "3",
+  "chapter": "102",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p> ἐπειδὴ δὲ παρεσκεύαστο πάντα καὶ τοὺς ὁμήρους κατέθετο ἐς Κυτίνιον τὸ Δωρικόν,\n              ἐχώρει τῷ στρατῷ ἐπὶ τὴν Ναύπακτον διὰ τῶν Λοκρῶν, καὶ πορευόμενος Οἰνεῶνα αἱρεῖ αὐτῶν\n              καὶ Εὐπάλιον· οὐ γὰρ προσεχώρησαν. </p>",
+      "1st1K-eng1": "<p> When all preparations had been made, and the hostages had been deposited at Cytinium in Doris, Eurylochus advanced with his army against Naupactus through the Locrian territory, taking on his march two of their towns, Oeneon and Eupalium, which refused to yield.\n\n</p>",
+      "perseus-eng6": "<p>His preparations completed, Eurylochus lodged the hostages in Kytinium, in Doris, and advanced upon Naupactus through the country of the Locrians, taking upon his way Oeneon and Eupalium, two of their towns that refused to join him.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>Postquam autem omnia parata fuerunt, et obsides in Cytinio Dorico deposuit, procedebat cum exercitu per Locrorum agrum Naupactum versus et ex via (Eneonem ipsorum et Eupalium cepit; nam adjungere se noluerant.\n</p>"
+    },
+    "2": {
+      "perseus-grc2": "<p>γενόμενοι δ’ ἐν τῇ Ναυπακτίᾳ καὶ οἱ Αἰτωλοὶ ἅμα ἤδη προσβεβοηθηκότες ἐδῄουν τὴν γῆν\n              καὶ τὸ προάστειον ἀτείχιστον ὂν εἷλον· ἐπί τε Μολύκρειον ἐλθόντες τὴν Κορινθίων μὲν\n              ἀποικίαν, Ἀθηναίων δὲ ὑπήκοον, αἱροῦσιν. </p>",
+      "1st1K-eng1": "<p>And when they reached the territory of Naupactus, the Aetolians meanwhile having come to their support, they ravaged the land and took the outer town, which was not fortified; and advancing against Molycreium, a colony founded by the Corinthians but subject to Athens, they took it.\n\n</p>",
+      "perseus-eng6": "<p>Arrived in the Naupactian territory, and having been now joined by the Aetolians, the army laid waste the land and took the suburb of the town, which was unfortified; and after this Molycrium also, a Corinthian colony subject to Athens.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>  Quum autem in agrum Naupactium pervenissent, et iEtoli simul auxilio jam advenissent, agrum vastabant, et suburbium nullis cinctum muris ceperunt; et Molycrium profecti, quae Corinthiorum quidem colonia erat, sed Atheniensium imperio parebat, ceperunt. </p>"
+    },
+    "3": {
+      "perseus-grc2": "<p>Δημοσθένης δὲ ὁ Ἀθηναῖος (ἔτι γὰρ ἐτύγχανεν ὢν μετὰ τὰ ἐκ τῆς Αἰτωλίας περὶ\n              Ναύπακτον) προαισθόμενος τοῦ στρατοῦ καὶ δείσας περὶ αὐτῆς, ἐλθὼν πείθει Ἀκαρνᾶνας,\n              χαλεπῶς διὰ τὴν ἐκ τῆς Λευκάδος ἀναχώρησιν, βοηθῆσαι Ναυπάκτῳ. </p>",
+      "1st1K-eng1": "<p>But Demosthenes the Athenian, who happened to have remained in the neighbourhood of Naupactus after his retreat from Aetolia, got information of the expedition, and fearing for the town went and persuaded the Acarnanians, though with difficulty on account of his withdrawal from Leucas, to come to the aid of Naupactus.\n\n</p>",
+      "perseus-eng6": "<p>Meanwhile the Athenian Demosthenes, who since the affair in Aetolia had remained near Naupactus, having had notice of the army and fearing for the town, went and persuaded the Acarnanians, although not without difficulty because of his departure from Leucas, to go to the relief of Naupactus.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Demosthenes vero Atheniensis (adhuc enim post res in i£tolia gestas circa Naupactum agebat) quum hostilis exercitus adventum praesensisset, et de urbe timeret, ad Acarnanes profectus persuadet iis, aegre quidem propter discessum ex Leucade, ut\n\n\n\n</p> <p>Naupacto subsidio venirent. </p>"
+    },
+    "4": {
+      "perseus-grc2": "<p>καὶ πέμπουσι μετ’ αὐτοῦ ἐπὶ τῶν νεῶν χιλίους ὁπλίτας, οἳ ἐσελθόντες περιεποίησαν τὸ\n              χωρίον· δεινὸν γὰρ ἦν μὴ μεγάλου ὄντος τοῦ τείχους, ὀλίγων δὲ τῶν ἀμυνομένων, οὐκ\n              ἀντίσχωσιν. </p>",
+      "1st1K-eng1": "<p>And they sent with him on board the fleet<span class=\"note\">[ie. the fleet of the Acarnanians themselves; the thirty Athenian ships, which Demosthenes had commanded, had returned to Athens (3.98.5), while those mentioned 3.105.3 did not come till later.]</span> one thousand hoplites, who entered the place and saved it; for there was danger that they might not be able to hold out, since the walls were extensive and the defenders few in number.\n\n</p>",
+      "perseus-eng6": "<p>They accordingly sent with him on board his ships a thousand heavy infantry, who threw themselves into the place and saved it; the extent of its wall and the small number of its defenders otherwise placing it in the greatest danger.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Et cum eo mille gravis armaturae milites navibus vectos miserunt, qui urbem ingressi tutam reddiderunt; metus enim vehemens erat, ne, quum magnus esset murorum ambitus, et pauci propugnatores, resistere hi non possent. </p>"
+    },
+    "5": {
+      "perseus-grc2": "<p>Εὐρύλοχος δὲ καὶ οἱ μετ’ αὐτοῦ ὡς ᾔσθοντο τὴν στρατιὰν ἐσεληλυθυῖαν καὶ ἀδύνατον ὂν\n              τὴν πόλιν βίᾳ ἑλεῖν, ἀνεχώρησαν οὐκ ἐπὶ Πελοποννήσου, ἀλλ’ ἐς τὴν Αἰολίδα τὴν νῦν\n              καλουμένην Καλυδῶνα καὶ Πλευρῶνα καὶ ἐς τὰ ταύτῃ χωρία καὶ ἐς Πρόσχιον τῆς Αἰτωλίας.\n            </p>",
+      "1st1K-eng1": "<p>Eurylochus and his men, perceiving that the army had entered and that it was impossible to take the town by storm, now withdrew, not to the Peloponnesus, but to the district of Aeolis, as it is now called, to Calydon, namely, and Pleuron, and the other towns of that region, and to Proschium in Aetolia.\n\n</p>",
+      "perseus-eng6": "<p>Meanwhile Eurylochus and his companions, finding that this force had entered and that it was impossible to storm the town, withdrew, not to Peloponnese, but to the country once called Aeolis and now Calydon and Pleuron, and to the places in that neighborhood and Proschium in Aetolia;</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Eurylochus vero, et qui cum eo erant, quum intellexissent, copias in urbem ingressae, eamque expugnari non posse, se receperunt, non in Peloponnesum , sed in /Eoiidem, quae nunc vocatur, Calydonem et Pleuronem, et in alia illius regionis loca, et in Proschium /Etoliae. </p>"
+    },
+    "6": {
+      "perseus-grc2": "<p>οἱ γὰρ Ἀμπρακιῶται ἐλθόντες πρὸς αὐτοὺς πείθουσιν ὥστε μετὰ σφῶν Ἄργει τε τῷ\n              Ἀμφιλοχικῷ καὶ Ἀμφιλοχίᾳ τῇ ἄλλῃ ἐπιχειρῆσαι καὶ Ἀκαρνανίᾳ ἅμα, λέγοντες ὅτι, ἢν\n              τούτων κρατήσωσι, πᾶν τὸ ἠπειρωτικὸν Λακεδαιμονίοις ξύμμαχον καθεστήξει. </p>",
+      "1st1K-eng1": "<p>For the Ambraciots came and urged him to join them in an attack upon Amphilochian Argos and the rest of Amphilochia, and at the same time upon Acarnania, saying that if they got control of these places all the mainland would be brought into alliance with the Lacedaemonians.\n\n</p>",
+      "perseus-eng6": "<p>the Ambraciots having come and urged them to combine with them in attacking Amphilochian Argos and the rest of Amphilochia and Acarnania; affirming that the conquest of these countries would bring all the continent into alliance with Lacedaemon.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Nam Ampraciota? ad eos profecti iis persuaserunt, ut secum Argos Amphilochicum et ceteram Amphilochiam, et simul Acarnaniam aggrederentur, demonstrantes fore, ut, si haec in suam potestatem redegissent, tota Epirotica gens societatem cum Lacedaemoniis contraheret. </p>"
+    },
+    "7": {
+      "perseus-grc2": "<p>καὶ ὁ μὲν Εὐρύλοχος πεισθεὶς καὶ τοὺς Αἰτωλοὺς ἀφεὶς ἡσύχαζε τῷ στρατῷ περὶ τοὺς\n              χώρους τούτους, ἕως τοῖς Ἀμπρακιώταις ἐκστρατευσαμένοις περὶ τὸ Ἄργος δέοι βοηθεῖν.\n              καὶ τὸ θέρος ἐτελεύτα. </p>",
+      "1st1K-eng1": "<p>Eurylochus was persuaded, and dismissing the Aetolians remained inactive, keeping his army in these regions until the Ambraciots should take the field and the time should come for him to join them in the neighbourhood of Argos. And the summer ended.\n\n\n</p>",
+      "perseus-eng6": "<p>To this Eurylochus consented, and dismissing the Aetolians, now remained quiet with his army in those parts, until the time should come for the Ambraciots to take the field, and for him to join them before Argos.Summer was now over. </p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Atque Eurylochus quidem horum verbis adductus dimissis/Etolis circum illa loca cum exercitu quiescebat, donec Ampraciotis ad militiam profectis ad Argos subsidio venire oporteret. Atque haec aestas finiebatur.\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:3.101",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:3.103"
+  }
+});

@@ -1,0 +1,56 @@
+/** Perseus Autonomous Text Chunk Module **/
+registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:5.23", {
+  "urn": "urn:cts:greekLit:tlg0003.tlg001:5.23",
+  "textgroup": "tlg0003",
+  "work": "tlg001",
+  "book": "5",
+  "chapter": "23",
+  "sections": {
+    "1": {
+      "perseus-grc2": "<p>‘κατὰ τάδε ξύμμαχοι ἔσονται Λακεδαιμόνιοι 〈καὶ Ἀθηναῖοι〉 πεντήκοντα ἔτη. ἢν\n              [δέ] τινες ἴωσιν ἐς τὴν γῆν πολέμιοι τὴν Λακεδαιμονίων καὶ κακῶς ποιῶσι\n              Λακεδαιμονίους, ὠφελεῖν Ἀθηναίους Λακεδαιμονίους τρόπῳ ὁποίῳ ἂν δύνωνται ἰσχυροτάτῳ\n              κατὰ τὸ δυνατόν· ἢν δὲ δῃώσαντες οἴχωνται, πολεμίαν εἶναι ταύτην τὴν πόλιν\n              Λακεδαιμονίοις καὶ Ἀθηναίοις καὶ κακῶς πάσχειν ὑπὸ ἀμφοτέρων, καταλύειν δὲ ἅμα ἄμφω τὼ\n              πόλεε. ταῦτα δ’ εἶναι δικαίως καὶ προθύμως καὶ ἀδόλως. </p>",
+      "1st1K-eng1": "<p> \"The Lacedaemonians and Athenians shall be allies for fifty years on the following conditions: 1. \"If any enemy invade the territory of the Lacedaemonians and be doing them harm, the Athenians shall help the Lacedaemonians in whatever way they can most effectively, with all their might; but if the enemy, after ravaging the country, shall have departed, that city shall be the enemy of the Lacedaemonians and Athenians, and shall suffer at the hands of both, and neither city shall make peace with it without the other. These conditions shall be observed honestly, zealously, and without fraud. 2.\n\n</p>",
+      "perseus-eng6": "<p>1. The Lacedaemonians shall be allies of the Athenians for fifty years.2. Should any enemy invade the territory of Lacedaemon and injure the Lacedaemonians, the Athenians shall help them in such way as they most effectively can, according to their power. But if the invader be gone after plundering the country, that city shall be the enemy of Lacedaemon and Athens, and shall be chastised by both, and one shall not make peace without the other. This to be honestly, loyally, and without fraud.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>« Socii erunt Lacedaemonii annos quinquaginta. Si qui vero hostes in Lacedaemoniorum agrum invadant et Lacedaemonios maleficiis afficiant, Athenienses ratione quam poterunt acerrima Lacedaemoniis opem pro facultate ferant; si vero agrum populati discesserint, haec civitas a Lacedaemoniis et Atheniensibus pro hoste habeatur, et ab utrisque malo afficiatur, et de deponendo bello statuant simul ambae civi tates. Haec autem juste et alacriter et sine dolo fiant. </p>"
+    },
+    "2": {
+      "perseus-grc2": "<p>καὶ ἤν τινες ἐς τὴν Ἀθηναίων γῆν ἴωσι πολέμιοι καὶ κακῶς ποιῶσιν Ἀθηναίους, ὠφελεῖν\n              Λακεδαιμονίους 〈Ἀθηναίους 〉 τρόπῳ ὅτῳ ἂν δύνωνται ἰσχυροτάτῳ κατὰ τὸ δυνατόν· ἢν\n              δὲ δῃώσαντες οἴχωνται, πολεμίαν εἶναι ταύτην τὴν πόλιν Λακεδαιμονίοις καὶ Ἀθηναίοις\n              καὶ κακῶς πάσχειν ὑπ’ ἀμφοτέρων, καταλύειν δὲ ἅμα ἄμφω τὼ πόλεε. </p>",
+      "1st1K-eng1": "<p>\"If any enemy invade the territory of the Athenians and be doing them harm, the Lacedaemonians shall help the Athenians in whatever way they can most effectively, with all their might; but if the enemy, after ravaging the country, shall have departed, that city shall be the enemy of the Lacedaemonians and Athenians, and shall suffer at the hands of both, and neither city shall make peace with it without the other.\n\n</p>",
+      "perseus-eng6": "<p>3. Should any enemy invade the territory of Athens and injure the Athenians, the Lacedaemonians shall help them in such way as they most effectively can, according to their power. But if the invader be gone after plundering the country, that city shall be the enemy of Lacedaemon and Athens, and shall be chastised by both, and one shall not make peace without the other. This to be honestly, loyally, and without fraud.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Et vicissim si qui hostes in Atheniensium agrum invadant, et Athenienses maleficiis afficiant, Lacedaemonii ratione quam poterunt acerrima Atheniensibus opem pro facultate ferant; si vero agrum populati discesserint, haec civitas a Lacedaemoniis et Atheniensibus pro hoste habeatur, et ab utrisque malo afficiatur, et de deponendo bello statuant simul aruba* civitates. Ilaec autem juste et alacriter et sine dolo fiant.\n</p>"
+    },
+    "3": {
+      "perseus-grc2": "<p>ταῦτα δ’ εἶναι δικαίως καὶ προθύμως καὶ ἀδόλως. ἢν δὲ ἡ δουλεία ἐπανιστῆται,\n              ἐπικουρεῖν Ἀθηναίους Λακεδαιμονίοις παντὶ σθένει κατὰ τὸ δυνατόν. </p>",
+      "1st1K-eng1": "<p>These conditions shall be observed honestly, zealously, and without fraud. 3. \"If there shall be an insurrection of slaves, the Athenians shall aid the Lacedaemonians with all their might, to the utmost of their power. 4.\n\n</p>",
+      "perseus-eng6": "<p>4. Should the slave population rise, the Athenians shall help the Lacedaemonians with all their might, according to their power.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p>  Quod si servitia insurgant, Athenienses Lacedaemoniis opem totis viribus pro facultate ferant. </p>"
+    },
+    "4": {
+      "perseus-grc2": "<p>ὀμοῦνται δὲ ταῦτα οἵπερ καὶ τὰς ἄλλας σπονδὰς ὤμνυον ἑκατέρων. ἀνανεοῦσθαι δὲ 〈τὸν\n              ὅρκον〉 κατ’ ἐνιαυτὸν Λακεδαιμονίους μὲν ἰόντας ἐς Ἀθήνας πρὸς τὰ Διονύσια,\n              Ἀθηναίους δὲ ἰόντας ἐς Λακεδαίμονα πρὸς τὰ Ὑακίνθια. </p>",
+      "1st1K-eng1": "<p>\"These articles shall be sworn to by the same persons who swore to the other treaty on both sides. They shall be renewed every year, the Lacedaemonians going to Athens at the Dionysia,<span class=\"note\">[The City Dionysia; cf. 5.20.1.]</span> the Athenians to Lacedaemon at the Hyacinthia.<span class=\"note\">[The festival of Apollo of Amyclae in the month Hyacinthius (Attic Hecatombaion).]</span>5.\n\n</p>",
+      "perseus-eng6": "<p>5. This treaty shall be sworn to by the same persons on either side that swore to the other. It shall be renewed annually by the Lacedaemonians going to Athens for the Dionysia, and the Athenians to Lacedaemon for the Hyacinthia,</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Haec autem foe-\n\n\n\n\n\n\n\n\n\ndera jurabunt iidem, qui et superiora utrorumque jurarunt. Et quotannis haec renovabunt, Lacedaemonii quidem Attonas ad Dionysia proficiscentes, Athenienses vero Lacedae-monem ad Hyacinthia proficiscentes. </p>"
+    },
+    "5": {
+      "perseus-grc2": "<p>στήλην δὲ ἑκατέρους στῆσαι, τὴν μὲν ἐν Λακεδαίμονι παρ’ Ἀπόλλωνι ἐν Ἀμυκλαίῳ, τὴν δὲ\n              ἐν Ἀθήναις ἐν πόλει παρ’ Ἀθηνᾷ. </p>",
+      "1st1K-eng1": "<p>\"Each party shall erect a pillar, that in Lacedaemon by the temple of Apollo of Amyclae, that at Athens on the Acropolis by the temple of Athena. 6.\n\n</p>",
+      "perseus-eng6": "<p>and a pillar shall be set up by either party; at Lacedaemon near the statue of Apollo at Amyclae, and at Athens on the Acropolis near the statue of Athena.</p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Cippos autem utrique statuant, unum quidem Lacedsemone juxta Apollinem in Amyclaeo, alterum vero Athenis in arce juxta Minervam. </p>"
+    },
+    "6": {
+      "perseus-grc2": "<p>ἢν δέ τι δοκῇ Λακεδαιμονίοις καὶ Ἀθηναίοις προσθεῖναι καὶ ἀφελεῖν περὶ τῆς ξυμμαχίας,\n              ὅτι ἂν δοκῇ, εὔορκον ἀμφοτέροις εἶναι. </p>",
+      "1st1K-eng1": "<p>\"If it shall seem good to the Lacedaemonians and Athenians to add or take away anything pertaining to the alliance, it shall be consistent with the oaths of both to do whatever may seem good to both.\n\n\n</p>",
+      "perseus-eng6": "<p>Should the Lacedaemonians and Athenians see fit to add to or take away from the alliance in any particular, it shall be consistent with their oaths for both parties to do so, according to their discretion. </p>",
+      "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1k-lat2": "<p> Si quid autem visum fuerit Lacedaemoniis et Atheniensibus vel addere vel demere circa hanc societatem, quicquid visum fuerit, per jusjurandum utrisque liceat. »\n</p>"
+    }
+  },
+  "navigation": {
+    "prev": "urn:cts:greekLit:tlg0003.tlg001:5.22",
+    "next": "urn:cts:greekLit:tlg0003.tlg001:5.24"
+  }
+});
