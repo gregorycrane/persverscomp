@@ -18,16 +18,17 @@
         #splash-view-root { display: flex; flex-direction: column; width: 100%; min-height: 100vh; }
         #splash-wrapper {
             max-width: 880px; margin: 0 auto; padding: 50px 20px;
-            display: flex; flex-direction: column; gap: 30px; width: 100%;
+            display: flex; flex-direction: column; gap: 20px; width: 100%;
         }
         
         /* Splash Banner Asset Container */
         .brand-banner-frame { 
             display: flex; 
             justify-content: center; 
-            align-items: center;             border-bottom: 2px solid #660000; 
+            align-items: center; 
+            border-bottom: 2px solid #660000; 
             padding-bottom: 20px; 
-            margin-bottom: 10px; 
+            margin-bottom: 5px; 
         }
         .brand-banner-frame img {
             max-width: 100%;
@@ -57,10 +58,10 @@
         #manifesto-render-target li { margin-bottom: 8px; color: #333; }
         #manifesto-render-target strong { color: #000; }
 
-        .cta-container { text-align: center; margin: 15px 0 40px 0; }
+        .cta-container { text-align: center; margin: 10px 0 25px 0; border-bottom: 1px solid #e2e2d5; padding-bottom: 25px; }
         .launch-workspace-btn {
             display: inline-block; background: #660000; color: #fff !important;
-            padding: 14px 35px; font-size: 16px; font-weight: bold;
+            padding: 14px 45px; font-size: 16px; font-weight: bold;
             border-radius: 4px; text-shadow: 0 1px 2px rgba(0,0,0,0.2);
             box-shadow: 0 4px 10px rgba(102,0,0,0.25); transition: all 0.2s ease;
         }
@@ -256,12 +257,12 @@
           <div class="brand-banner-frame">
               <img src="./assets/perseus_banner.png" alt="Perseus Digital Library Banner" />
           </div>
-          
-          <div id="manifesto-render-target"></div>
 
           <div class="cta-container">
               <a href="#" class="launch-workspace-btn" onclick="launchWorkspace(event)">Launch Parallel Workspace Engine &rarr;</a>
           </div>
+          
+          <div id="manifesto-render-target"></div>
       </div>
   </div>
 
@@ -277,10 +278,14 @@
         </div>
         
         <div class="mode-toggle-panel">
-            <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>            <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>          <button id="btn-toggle-col4" class="toggle-btn col4-toggle" onclick="toggleFourthColumn()" title="Toggle a 4th reading column">+Col 4</button>        </div>
+            <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>
+            <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
+          <button id="btn-toggle-col4" class="toggle-btn col4-toggle" onclick="toggleFourthColumn()" title="Toggle a 4th reading column">+Col 4</button>
+        </div>
       </div>
       <div id="nav-bar">
-        <span id="frame-context-label">Loading system configuration modules...</span>      </div>
+        <span id="frame-context-label">Loading system configuration modules...</span>
+      </div>
       
       <div id="browse-bar">
         <div class="browse-row" id="row-work-selector">
@@ -350,6 +355,13 @@ This prototype serves as a targeted verification environment exploring two disti
 We are testing an optimized version of the **Traditional Perseus 4 Asymmetric View** alongside a brand new **Parallel Workspace View**. This parallel mode is explicitly engineered to eliminate textual dislocation by letting human operators line up multiple, multilingual sources completely side by side in parallel.
 
 The core philosophy driving this implementation focuses on alignment layers over monolithic distributions. By binding varying editions, codices, and historical translations to a unified **Canonical Text Services (CTS) structural grid**, we eliminate structural discrepancies ahead of display compilation.
+
+## Scalability and Infrastructure Sustainability
+To move beyond the bounds of prototype verification and scale up to a comprehensive corporate corpus—encompassing thousands of distinct classical works, multi-layered editorial traditions, and tens of millions of words—the core data delivery layer must evolve beyond traditional database configurations. 
+
+Rather than relying on continuous, monolithic server daemons or generating hundreds of thousands of fragmented, static JavaScript segment chunks over a fragile local filesystem, true architectural sustainability demands a **decentralized serverless delivery network**. 
+
+By compiling multi-text alignment grids directly into single, self-contained binary data assets using highly stable open formats like SQLite, we achieve an archive designed for permanent digital preservation. When hosted on passive, globally distributed object networks, the browser leverages asynchronous WebAssembly to download only local, isolated byte ranges dynamically via HTTP Range Requests. This eliminates the operational footprint, infrastructure fragility, and ongoing maintenance costs of legacy backend servers—providing a robust platform for permanent digital philology that scales gracefully to the full size of the human record.
 
 ## The Optimization Hypothesis
 Traditional reading platforms introduce severe contextual shifts when shifting between separate commentaries or translation apparatuses. This interface tests a foundational structural premise:
