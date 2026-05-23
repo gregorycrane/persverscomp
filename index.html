@@ -25,8 +25,7 @@
         .brand-banner-frame { 
             display: flex; 
             justify-content: center; 
-            align-items: center; 
-            border-bottom: 2px solid #660000; 
+            align-items: center;             border-bottom: 2px solid #660000; 
             padding-bottom: 20px; 
             margin-bottom: 10px; 
         }
@@ -164,7 +163,7 @@
         .action-btn:hover { background: #330000; text-decoration: none; }
         .action-btn.secondary:hover { background: #444; }
     
-        /* ── Resize Handle Styles ── */
+        /* ── Resize Handle Styles ────────────────────────────────────────────── */
         .resize-handle {
             flex-shrink: 0;
             background: #e0e0e0;
@@ -224,6 +223,29 @@
             background: rgba(255,255,255,0.35);
         }
 
+        
+        /* 4th Column Toggle */
+        .toggle-btn.col4-toggle { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
+        .toggle-btn.col4-toggle.active-mode { background: #fff; color: #333; border-color: #fff; }
+
+        /* 4th column visibility styling */
+        #col_c3 { display: none; }
+        #resize-c2-c3 { display: none; }
+
+        .four-columns #col_c3 { display: flex !important; }
+        .four-columns #resize-c2-c3 { display: block !important; }
+
+        /* Symmetrical layout specification for parallel modes */
+        .four-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
+
+        /* Classic mode layout overrides */
+        #outer-wrapper.mode-classic #col_c3 { display: none; grid-column: 2; grid-row: 3; height: 100%; min-height: 0; }
+        #outer-wrapper.mode-classic.four-columns #main-container {
+            grid-template-columns: 3fr 2fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.four-columns #col_c3 { display: flex !important; border-top: 1px solid #ccc; }
+
         </style>
 </head>
 <body>
@@ -255,13 +277,10 @@
         </div>
         
         <div class="mode-toggle-panel">
-            <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>
-            <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
-        </div>
+            <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>            <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>          <button id="btn-toggle-col4" class="toggle-btn col4-toggle" onclick="toggleFourthColumn()" title="Toggle a 4th reading column">+Col 4</button>        </div>
       </div>
       <div id="nav-bar">
-        <span id="frame-context-label">Loading system configuration modules...</span>
-      </div>
+        <span id="frame-context-label">Loading system configuration modules...</span>      </div>
       
       <div id="browse-bar">
         <div class="browse-row" id="row-work-selector">
@@ -300,7 +319,7 @@
         <div class="resize-handle resize-handle-h" id="resize-f-c1"></div>
         <div class="reading-column cross-panel" id="col_c1">
             <div class="panel-header">
-                <span>Comparison Version 1 <button class="make-focus-btn" onclick="swapToFocus('c1')" title="Swap this edition into the Focus column">⇆ Focus</button></span>
+                <span>Comparison Version 1 <button class="make-focus-btn" onclick="swapToFocus('c1')" title="Swap this edition into the Focus column">⇦ Focus</button></span>
                 <select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select>
             </div>
             <div class="column-content-scroll" id="content_c1"></div>
@@ -308,10 +327,18 @@
         <div class="resize-handle resize-handle-h" id="resize-c1-c2"></div>
         <div class="reading-column cross-panel" id="col_c2">
             <div class="panel-header">
-                <span>Comparison Version 2 <button class="make-focus-btn" onclick="swapToFocus('c2')" title="Swap this edition into the Focus column">⇆ Focus</button></span>
+                <span>Comparison Version 2 <button class="make-focus-btn" onclick="swapToFocus('c2')" title="Swap this edition into the Focus column">⇦ Focus</button></span>
                 <select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select>
             </div>
             <div class="column-content-scroll" id="content_c2"></div>
+        </div>
+        <div class="resize-handle resize-handle-h" id="resize-c2-c3"></div>
+        <div class="reading-column cross-panel" id="col_c3">
+            <div class="panel-header">
+                <span>Comparison Version 3 <button class="make-focus-btn" onclick="swapToFocus('c3')" title="Swap this edition into the Focus column">⇦ Focus</button></span>
+                <select class="edition-select-dropdown" id="select_c3" onchange="updateColumnContent('c3', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c3"></div>
         </div>
       </div>
     </div>
@@ -345,7 +372,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     let activeSectionFilter = null;
     let currentActiveMode = "parallel";
 
-    let columnEditions = { f: "", c1: "", c2: "" };
+    let columnEditions = { f: "", c1: "", c2: "", c3: "" };
 
     function renderInlineManifesto() {
         try {
@@ -374,15 +401,16 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         const btnClassic = document.getElementById("btn-mode-classic");
         
         if (mode === 'classic') {
-            frame.className = "mode-classic";
+            frame.className = "mode-classic" + (fourthColumnActive ? " four-columns" : "");
             btnClassic.classList.add("active-mode");
             btnParallel.classList.remove("active-mode");
         } else {
-            frame.className = "mode-parallel";
+            frame.className = "mode-parallel" + (fourthColumnActive ? " four-columns" : "");
             btnParallel.classList.add("active-mode");
             btnClassic.classList.remove("active-mode");
         }
         
+        updateClassicGridForColumns();
         if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
             const payload = WORKSPACE_DATA_REGISTRY.get(activeUrnContext);
             renderNavigationControls(payload);
@@ -419,8 +447,9 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         if (!columnEditions.f || !validEditionIds.includes(columnEditions.f)) columnEditions.f = validEditionIds[0];
         if (!columnEditions.c1 || !validEditionIds.includes(columnEditions.c1)) columnEditions.c1 = validEditionIds[1] || validEditionIds[0];
         if (!columnEditions.c2 || !validEditionIds.includes(columnEditions.c2)) columnEditions.c2 = validEditionIds[2] || validEditionIds[0];
+        if (!columnEditions.c3 || !validEditionIds.includes(columnEditions.c3)) columnEditions.c3 = validEditionIds[3] || validEditionIds[0];
 
-        ['f', 'c1', 'c2'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3'].forEach(prefix => {
             const selectEl = document.getElementById(`select_${prefix}`);
             if (!selectEl) return;
             selectEl.innerHTML = "";
@@ -451,6 +480,8 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             
             columnEditions.c1 = params.get("right") || "";
             columnEditions.c2 = params.get("right2") || "";
+            columnEditions.c3 = params.get("right3") || "";
+            if (params.get("cols") === "4") { setTimeout(() => toggleFourthColumn(), 0); }
 
             if (rawParam.includes(":")) {
                 const querySegments = rawParam.split(":");
@@ -541,6 +572,8 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         params.set("w", `${activeWorkKey}.${columnEditions.f}:${passageValue}`);
         if(columnEditions.c1) params.set("right", columnEditions.c1);
         if(columnEditions.c2) params.set("right2", columnEditions.c2);
+        if(columnEditions.c3) params.set("right3", columnEditions.c3);
+        if(fourthColumnActive) params.set("cols", "4");
         
         const currentPathname = window.location.pathname;
         window.history.replaceState(null, "", currentPathname + "?" + params.toString());
@@ -685,7 +718,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     }
 
     function renderActiveContentLayers(payload) {
-        ['f', 'c1', 'c2'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3'].forEach(prefix => {
             const targetContainer = document.getElementById(`content_${prefix}`);
             if (!targetContainer) return;
             targetContainer.innerHTML = "";
@@ -821,23 +854,57 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
     };
   
+    let fourthColumnActive = false;
 
-    
+    window.toggleFourthColumn = function() {
+        fourthColumnActive = !fourthColumnActive;
+        const btn = document.getElementById('btn-toggle-col4');
+        const ow = document.getElementById('outer-wrapper');
+        if (fourthColumnActive) {
+            ow.classList.add('four-columns');
+            btn.classList.add('active-mode');
+            btn.innerText = '−Col 4';
+        } else {
+            ow.classList.remove('four-columns');
+            btn.classList.remove('active-mode');
+            btn.innerText = '+Col 4';
+        }
+        updateClassicGridForColumns();
+        if (fourthColumnActive && activeUrnContext && WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
+            const payload = WORKSPACE_DATA_REGISTRY.get(activeUrnContext);
+            renderActiveContentLayers(payload);
+        }
+        document.querySelectorAll('.reading-column').forEach(col => {
+            col.style.flex = '';
+            col.style.width = '';
+        });
+        const mc = document.getElementById('main-container');
+        if (mc) { mc.style.gridTemplateColumns = ''; mc.style.gridTemplateRows = ''; }
+    };
+
+    function updateClassicGridForColumns() {
+        const ow = document.getElementById('outer-wrapper');
+        const colF = document.getElementById('col_f');
+        if (!ow || !ow.classList.contains('mode-classic')) return;
+        if (fourthColumnActive) {
+            if (colF) colF.style.gridRow = '1 / span 3';
+        } else {
+            if (colF) colF.style.gridRow = '1 / span 2';
+        }
+    }
+
     window.swapToFocus = function(sourcePrefix) {
-        // Swap the edition in the source column with the focus column
         const focusEdition = columnEditions['f'];
         const sourceEdition = columnEditions[sourcePrefix];
         
         columnEditions['f'] = sourceEdition;
         columnEditions[sourcePrefix] = focusEdition;
         
-        // Update the dropdown selections to reflect the swap
         const selectF = document.getElementById('select_f');
         const selectSrc = document.getElementById('select_' + sourcePrefix);
         if (selectF) selectF.value = sourceEdition;
         if (selectSrc) selectSrc.value = focusEdition;
         
-        // Re-render
         if (activeUrnContext && WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
             const payload = WORKSPACE_DATA_REGISTRY.get(activeUrnContext);
             updateURLState(payload.book, payload.chapter);
@@ -845,7 +912,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
     };
 
-    // ── Panel Resize Logic ──────────────────────────────────────
+    // ── Panel Resize Logic ──────────────────────────────────────────────────
     (function() {
         function initResizeHandles() {
             const handles = document.querySelectorAll('.resize-handle');
@@ -874,11 +941,9 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
 
         function handleParallelResize(startEvent, handle, container, isHorizontal) {
-            // Parallel mode: flex row with columns and handles
             const columns = Array.from(container.querySelectorAll('.reading-column'));
             const handleEl = handle;
             const handleIndex = Array.from(container.children).indexOf(handleEl);
-            // Column before handle and column after handle
             const prevCol = container.children[handleIndex - 1];
             const nextCol = container.children[handleIndex + 1];
             if (!prevCol || !nextCol) return;
@@ -889,7 +954,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             const prevStart = prevCol.getBoundingClientRect().width;
             const nextStart = nextCol.getBoundingClientRect().width;
 
-            // Remove flex: 1 from all columns and set explicit widths
             columns.forEach(col => {
                 const w = col.getBoundingClientRect().width;
                 col.style.flex = 'none';
@@ -921,7 +985,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
 
         function handleClassicResize(startEvent, handle, container) {
-            // Classic mode uses CSS grid. We adjust grid-template-columns/rows.
             const outerWrapper = document.getElementById('outer-wrapper');
             const containerRect = container.getBoundingClientRect();
             const startX = (startEvent.touches ? startEvent.touches[0] : startEvent).clientX;
@@ -938,19 +1001,19 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 const clientY = (e.touches ? e.touches[0] : e).clientY;
 
                 if (handleId === 'resize-f-c1') {
-                    // In classic mode this is the vertical divider between col_f (left) and c1/c2 (right)
                     const dx = clientX - startX;
                     const totalW = colWidths[0] + colWidths[1];
                     const newLeft = Math.max(150, Math.min(totalW - 150, colWidths[0] + dx));
                     const newRight = totalW - newLeft;
                     container.style.gridTemplateColumns = newLeft + 'px ' + newRight + 'px';
+                    positionClassicHandles();
                 } else if (handleId === 'resize-c1-c2') {
-                    // In classic mode this is the horizontal divider between c1 (top) and c2 (bottom)
                     const dy = clientY - startY;
                     const totalH = rowHeights[0] + rowHeights[1];
                     const newTop = Math.max(80, Math.min(totalH - 80, rowHeights[0] + dy));
                     const newBot = totalH - newTop;
                     container.style.gridTemplateRows = newTop + 'px ' + newBot + 'px';
+                    positionClassicHandles();
                 }
             }
 
@@ -969,10 +1032,8 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             document.addEventListener('touchend', onEnd);
         }
 
-        // Reset explicit sizes when switching modes
         const origSetMode = window.setWorkspaceLayoutMode;
         window.setWorkspaceLayoutMode = function(mode) {
-            // Reset column widths
             document.querySelectorAll('.reading-column').forEach(col => {
                 col.style.flex = '';
                 col.style.width = '';
@@ -985,34 +1046,10 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             origSetMode(mode);
         };
 
-        // Also handle the resize handles visibility in classic vs parallel mode
-        // In classic mode, resize-f-c1 controls columns, resize-c1-c2 controls rows
-        // We need to observe mode changes for handle orientation
-        const observer = new MutationObserver(function() {
-            const ow = document.getElementById('outer-wrapper');
-            if (!ow) return;
-            const isClassic = ow.classList.contains('mode-classic');
-            const h1 = document.getElementById('resize-f-c1');
-            const h2 = document.getElementById('resize-c1-c2');
-            if (isClassic) {
-                // In classic grid: h1 is between col_f and c1/c2 columns (still horizontal resize)
-                // h2 needs to act as vertical resize between c1 and c2 rows
-                // But since grid doesn't use flex children, we hide handles from grid flow
-                // and overlay them instead
-                if (h1) { h1.style.display = 'none'; }
-                if (h2) { h2.style.display = 'none'; }
-            } else {
-                if (h1) { h1.style.display = ''; h1.className = 'resize-handle resize-handle-h'; }
-                if (h2) { h2.style.display = ''; h2.className = 'resize-handle resize-handle-h'; }
-            }
-        });
-
-        // For classic mode, we need overlay resize handles on the grid borders
         function createClassicOverlayHandles() {
             const mc = document.getElementById('main-container');
             if (!mc) return;
 
-            // Vertical handle (between left column and right column)
             let vHandle = document.getElementById('classic-resize-col');
             if (!vHandle) {
                 vHandle = document.createElement('div');
@@ -1025,7 +1062,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 vHandle.addEventListener('touchstart', classicColResize, {passive:false});
             }
 
-            // Horizontal handle (between c1 and c2 on the right side)
             let hHandle = document.getElementById('classic-resize-row');
             if (!hHandle) {
                 hHandle = document.createElement('div');
@@ -1036,7 +1072,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 hHandle.addEventListener('mousedown', classicRowResize);
                 hHandle.addEventListener('touchstart', classicRowResize, {passive:false});
             }
-
             positionClassicHandles();
         }
 
@@ -1131,18 +1166,19 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             document.addEventListener('touchend', onEnd);
         }
 
-        // Observe mode changes to show/hide classic overlays
         const modeObserver = new MutationObserver(function() {
             const ow = document.getElementById('outer-wrapper');
             if (!ow) return;
             const isClassic = ow.classList.contains('mode-classic');
             const h1 = document.getElementById('resize-f-c1');
             const h2 = document.getElementById('resize-c1-c2');
+            const h3 = document.getElementById('resize-c2-c3');
             const ch = document.getElementById('classic-resize-col');
             const rh = document.getElementById('classic-resize-row');
             if (isClassic) {
                 if (h1) h1.style.display = 'none';
                 if (h2) h2.style.display = 'none';
+                if (h3) h3.style.display = 'none';
                 createClassicOverlayHandles();
                 if (ch) ch.style.display = '';
                 if (rh) rh.style.display = '';
@@ -1150,23 +1186,21 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             } else {
                 if (h1) { h1.style.display = ''; }
                 if (h2) { h2.style.display = ''; }
+                if (h3) { h3.style.display = fourthColumnActive ? '' : 'none'; }
                 if (ch) ch.style.display = 'none';
                 if (rh) rh.style.display = 'none';
             }
         });
 
-        // Initialize on DOM ready
         document.addEventListener('DOMContentLoaded', function() {
             initResizeHandles();
             const ow = document.getElementById('outer-wrapper');
             if (ow) {
                 modeObserver.observe(ow, { attributes: true, attributeFilter: ['class'] });
             }
-            // Reposition classic handles on window resize
             window.addEventListener('resize', positionClassicHandles);
         });
     })();
-
   </script>
 </body>
 </html>
