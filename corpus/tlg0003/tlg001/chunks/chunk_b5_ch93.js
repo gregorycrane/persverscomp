@@ -9,8 +9,16 @@ registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:5.93", {
     "1": {
       "perseus-grc2": "<p> ὅτι ὑμῖν μὲν πρὸ τοῦ τὰ δεινότατα παθεῖν ὑπακοῦσαι ἂν γένοιτο, ἡμεῖς δὲ μὴ\n                διαφθείραντες ὑμᾶς κερδαίνοιμεν ἄν. </p>",
       "1st1K-eng1": "<p> ATH. “Because it would be to your advantage to submit before suffering the most horrible fate, and we should gain by not destroying you.”\n\n\n</p>",
+      "1st1K-eng2": "<p>\n\n<span class=\"render-italic\">Ath.</span>\n\n<blockquote class=\"quote-block type-blockquote\"> Because you would have the benefit of submitting before you suffered the last extremities; while we should be gainers by not destroying you.\n\n</blockquote>\n\n</p> <p>\n\n</p>",
+      "perseus-eng4": "<p> <span class=\"render-italic\">Ath.</span> \nBecause you, by obeying, shall save yourselves from extremity; and we, not destroying you, shall reap profit by you. </p>",
       "perseus-eng6": "<p> ‘Because you would have the advantage of submitting before suffering the worst, and we should gain by not destroying you.’</p>",
       "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-fre2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger3": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger4": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ita1": "<i>[Text range missing in alignment layer]</i>",
       "1st1k-lat2": "<p>Athen. Quia vobis quidem continget, ut, antequam mala extrema patiamini, imperata faciatis, nobis vero si vos non perdiderimus, lucrum erit.\n</p>"
     }
   },

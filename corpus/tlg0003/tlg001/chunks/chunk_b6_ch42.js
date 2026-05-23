@@ -9,15 +9,31 @@ registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:6.42", {
     "1": {
       "perseus-grc2": "<p>οἱ δ’ Ἀθηναῖοι ἤδη ἐν τῇ Κερκύρᾳ αὐτοί τε καὶ οἱ\n              ξύμμαχοι ἅπαντες ἦσαν. καὶ πρῶτον μὲν ἐπεξέτασιν τοῦ στρατεύματος καὶ ξύνταξιν, ὥσπερ\n              ἔμελλον ὁρμιεῖσθαί τε καὶ στρατοπεδεύεσθαι, οἱ στρατηγοὶ ἐποιήσαντο, καὶ τρία μέρη\n              νείμαντες ἓν ἑκάστῳ ἐκλήρωσαν, ἵνα μήτε ἅμα πλέοντες ἀπορῶσιν ὕδατος καὶ λιμένων καὶ\n              τῶν ἐπιτηδείων ἐν ταῖς καταγωγαῖς, πρός τε τἆλλα εὐκοσμότεροι καὶ ῥᾴους ἄρχειν ὦσι,\n              κατὰ τέλη στρατηγῷ προστεταγμένοι· </p>",
       "1st1K-eng1": "<p> Meanwhile the Athenians themselves and all their allies also were already at Corcyra. And first the generals held a final review of the armament and made disposition in what order the forces were to anchor and to encamp. Making three divisions they allotted one to each general, in order that they might not, by sailing together, be at a loss for water and ports and provisions when they put in to shore, and that they might in general be more orderly and easy to control, being thus assigned in divisions to separate commanders.\n\n</p>",
+      "1st1K-eng2": "<p> Now the Athenians were by this time at Corcyra, themselves and all their allies. And in the first place, the generals reviewed the armament a second time, and made their dispositions, as they were to come to their moorings, and to form their camp; making three squadrons, and allotting one to each of their body, that they might not, by sailing in company, be at a loss for water, and ports, and provisions, on their touching any where; and that they might in other respects be more orderly and easy to control, by being put under a particular commander, according to the several squadrons.\n\n</p>",
+      "perseus-eng4": "<p>The Athenians were now all in Corcyra, both they and their confederates. And first the generals took a view of the whole army and put them into the order wherein they were to anchor and make their naval camp; and having divided them into three squadrons, to each squadron they assigned a captain by lot, to the end that being at sea they might not come into want of water or harbours or any other necessaries where they chanced to stay; and that they might otherwise be the more easy to be governed when every squadron had his proper commander.</p>",
       "perseus-eng6": "<p>In the meantime the Athenians with all their allies had now arrived at Corcyra. Here the generals began by again reviewing the armament, and made arrangements as to the order in which they were to anchor and encamp, and dividing the whole fleet into three divisions, allotted one to each of their number, to avoid sailing all together and being thus embarrassed for water, harbourage, or provisions at the stations which they might touch at, and at the same time to be generally better ordered and easier to handle, by each squadron having its own commander.</p>",
       "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-fre2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger3": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger4": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ita1": "<i>[Text range missing in alignment layer]</i>",
       "1st1k-lat2": "<p>Athenienses vero quum ipsi tum eorum socii omnes apud Corcyram jam erant. Atque primum quidem duces copias iterum recensuerunt et instruxerunt eo ordine* quo portum capturi castraque posituri erant, et classe in tres partes distributa singulas singulis sorte attribuerunt, ut neque, si conjunctim navigarent, aquae et portuum et rerum ad victum necessariarum in stationibus ubi appellerent, inopia laborarent, et ut ceteris etiam in rebus magis ordine instructi essent, et a ducibus facilius regi poseent, in singulis\n\n\n\n\n\n\nagminibus attributi suo quique duci; </p>"
     },
     "2": {
       "perseus-grc2": "<p>ἔπειτα δὲ προύπεμψαν καὶ ἐς τὴν Ἰταλίαν καὶ Σικελίαν τρεῖς ναῦς εἰσομένας αἵτινες\n              σφᾶς τῶν πόλεων δέξονται. καὶ εἴρητο αὐταῖς προαπαντᾶν, ὅπως ἐπιστάμενοι καταπλέωσιν.\n            </p>",
       "1st1K-eng1": "<p>And next they sent forward to Italy and Sicily three ships, to ascertain which of the cities would receive them. And orders were given to these ships to come back to meet them, that they might know before putting to shore.\n\n\n</p>",
+      "1st1K-eng2": "<p> They next sent forward three ships to Italy and Sicily, to ascertain which of the cities would receive them; with orders to come out again and meet them, that they might know this when they put in. </p>",
+      "perseus-eng4": "<p>After this they sent before them three galleys into Italy and Sicily to bring them word what cities in those parts would receive them, whom they appointed to come back and meet them that they might know whether they might be received or not before they put in. </p>",
       "perseus-eng6": "<p>Next they sent on three ships to Italy and Sicily to find out which of the cities would receive them, with instructions to meet them on the way and let them know before they put in to land. </p>",
       "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-fre2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger3": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger4": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ita1": "<i>[Text range missing in alignment layer]</i>",
       "1st1k-lat2": "<p> deinde vero piw-miserunt et in Italiam et in Siciliam tres naves, ut explorarent, quaenam civitates se essent recepturae. Atque bis praeceptum erat, ut classi occurrerent, ut rerum gnari appellerent.\n</p>"
     }
   },

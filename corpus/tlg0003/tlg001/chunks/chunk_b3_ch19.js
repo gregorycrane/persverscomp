@@ -9,15 +9,31 @@ registerWorkspaceChunk("urn:cts:greekLit:tlg0003.tlg001:3.19", {
     "1": {
       "perseus-grc2": "<p>προσδεόμενοι δὲ οἱ Ἀθηναῖοι χρημάτων ἐς τὴν πολιορκίαν,\n              καὶ αὐτοὶ ἐσενεγκόντες τότε πρῶτον ἐσφορὰν διακόσια τάλαντα, ἐξέπεμψαν καὶ ἐπὶ τοὺς\n              ξυμμάχους ἀργυρολόγους ναῦς δώδεκα καὶ Λυσικλέα πέμπτον αὐτὸν στρατηγόν. </p>",
       "1st1K-eng1": "<p> Now the Athenians, finding themselves in need of additional funds for the siege, having then for the first time resorted to a property tax<span class=\"note\">[The ἐσφορά was an extraordinary tax levied only in war time. See Boeckh, <span class=\"render-italics\">Public Economy,</span> p. 612.]</span> upon themselves to the amount of two hundred talents, also sent to the allies twelve ships under the command of Lysicles and four others, to collect money from them.\n\n</p>",
+      "1st1K-eng2": "<p> The Athenians, being in want of money for the siege, although they had among themselves for the first time raised a contribution of two hundred talents, despatched to their allies also twelve ships to levy subsidies, and Lysicles with five others in command of them.\n\n</p>",
+      "perseus-eng4": "<p>The Athenians, standing in need of money for the siege, both contributed themselves and sent thither two hundred talents of this their first contribution, and also dispatched Lysicles and four others with twelve galleys to levy money amongst the confederates.</p>",
       "perseus-eng6": "<p>The Athenians needing money for the siege, although they had for the first time raised a contribution of two hundred talents from their own citizens, now sent out twelve ships to levy subsidies from their allies, with Lysicles and four others in command.</p>",
       "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-fre2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger3": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger4": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ita1": "<i>[Text range missing in alignment layer]</i>",
       "1st1k-lat2": "<p>ceterum Athenienses quum pecuniis ad obsidionem indigerent et ipsi pecunias tunc primum contulissent CC. talenta, dimiserunt etiam ad socios duodecim naves pecuniae colligendae gratia, et Lysiclem ducem cum quatuor collegis.\n</p>"
     },
     "2": {
       "perseus-grc2": "<p>ὁ δὲ ἄλλα τε ἠργυρολόγει καὶ περιέπλει, καὶ τῆς Καρίας ἐκ Μυοῦντος ἀναβὰς διὰ τοῦ\n              Μαιάνδρου πεδίου μέχρι τοῦ Σανδίου λόφου, ἐπιθεμένων τῶν Καρῶν καὶ Ἀναιιτῶν αὐτός τε\n              διαφθείρεται καὶ τῆς ἄλλης στρατιᾶς πολλοί. </p>",
       "1st1K-eng1": "<p>He cruised about and collected money at various places; but on his way inland from Myus in Caria through the plain of the Meander, after he had reached the hill of Sandius, he was attacked by the Carians and the Anaeitans and slain, together with many of his army.\n\n\n</p>",
+      "1st1K-eng2": "<p> Accordingly he levied them in various places, cruising about; and having gone up the country from Myus in Caria, across the plain of the Maeander, as far as the hill of Sandius, he was both slain himself and many of the army besides, in an attack made by the Carians and the people of Anaea. </p>",
+      "perseus-eng4": "<p>But Lysicles, after he had been to and fro and gathered money in divers places, as he was going up from Myus through the plains of Maeander in Caria as far as to the hill Sandius, was set upon there by the Carians and Anaeitans and himself with a great part of his soldiers slain. </p>",
       "perseus-eng6": "<p>After cruising to different places and laying them under contribution, Lysicles went up the country from Myus, in Caria, across the plain of the Meander, as far as the hill of Sandius; and being attacked by the Carians and the people of Anaia, was slain with many of his soldiers. </p>",
       "1st1k-fre1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-fre2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger1": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger2": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger3": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ger4": "<i>[Text range missing in alignment layer]</i>",
+      "1st1K-ita1": "<i>[Text range missing in alignment layer]</i>",
       "1st1k-lat2": "<p>  Ille vero, quum ex aliis locis pecunias exigebat et circui-bat, tum etiam in Caria ex Myunte urbe per Maeandri campum usque ad Sandium collem ascendit, et quum a Caribus et Anaeitis impetus in ipsum factus esset, periit et ipse et magnus reliqui exercitus numerus.\n</p>"
     }
   },
