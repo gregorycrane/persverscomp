@@ -2,18 +2,48 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Global Core Parallel Reading Workspace</title>
+    <title>Minimum Viable Perseus (MVP) | Unified Parallel Workspace</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html, body {
-            height: 100%; width: 100%; overflow: hidden; 
+            height: 100%; width: 100%;
             font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
-            font-size: 13px; color: #000; background: #fff;
+            font-size: 14px; color: #111; background: #fdfdfa;
         }
-        a { color: #336699; text-decoration: none; }
+        a { color: #880000; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
 
-        #app-view-root { display: flex; flex-direction: column; height: 100vh; width: 100vw; overflow: hidden; }
+        /* Splash Page Layout */
+        #splash-view-root { display: flex; flex-direction: column; width: 100%; min-height: 100vh; }
+        #splash-wrapper {
+            max-width: 840px; margin: 0 auto; padding: 60px 20px;
+            display: flex; flex-direction: column; gap: 30px; width: 100%;
+        }
+        #splash-header { border-bottom: 2px solid #660000; padding-bottom: 15px; }
+        #splash-header h1 { color: #660000; font-size: 32px; font-weight: normal; margin-bottom: 5px; }
+        #splash-header .tagline { font-size: 14px; color: #555; font-style: italic; }
+
+        /* Dynamic Markdown Output Card Styling */
+        #manifesto-render-target h1 { display: none; } /* Suppress redundant H1 title card from file */
+        #manifesto-render-target h2 { font-size: 18px; color: #333; margin-top: 28px; margin-bottom: 12px; font-variant: small-caps; border-bottom: 1px dashed #e2e2d5; padding-bottom: 5px; }
+        #manifesto-render-target p { line-height: 1.6; margin-bottom: 14px; color: #333; text-align: justify; }
+        #manifesto-render-target blockquote { border-left: 3px solid #660000; padding: 10px 0 10px 15px; margin: 20px 0; font-style: italic; color: #444; background: #fefefe; }
+        #manifesto-render-target ul { margin-left: 25px; margin-bottom: 20px; line-height: 1.6; }
+        #manifesto-render-target li { margin-bottom: 8px; color: #333; }
+        #manifesto-render-target strong { color: #000; }
+
+        .cta-container { text-align: center; margin: 20px 0 40px 0; }
+        .launch-workspace-btn {
+            display: inline-block; background: #660000; color: #fff !important;
+            padding: 14px 35px; font-size: 16px; font-weight: bold;
+            border-radius: 4px; text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 10px rgba(102,0,0,0.25); transition: all 0.2s ease;
+        }
+        .launch-workspace-btn:hover { background: #440000; text-decoration: none; transform: translateY(-1px); }
+
+        /* Core Workspace Layout (Initially Hidden) */
+        #app-view-root { display: none; flex-direction: column; height: 100vh; width: 100vw; overflow: hidden; background: #fff; }
 
         #header-container { flex-shrink: 0; background: #fff; border-bottom: 1px solid #ccc; z-index: 10; }
         #perseus-banner { background: #660000; color: #fff; padding: 6px 15px; display: flex; justify-content: space-between; align-items: center; }
@@ -151,10 +181,28 @@
 </head>
 <body>
 
+  
+  <div id="splash-view-root">
+      <div id="splash-wrapper">
+          <div id="splash-header">
+              <h1>Perseus Core Parallel Workspace</h1>
+              <div class="tagline">An experiment under the <strong>Minimum Viable Perseus</strong> framework</div>
+          </div>
+          
+          
+          <div id="manifesto-render-target"></div>
+
+          <div class="cta-container">
+              <a href="#" class="launch-workspace-btn" onclick="launchWorkspace(event)">Launch Parallel Workspace Engine &rarr;</a>
+          </div>
+      </div>
+  </div>
+
+  
   <div id="app-view-root">
     <div id="header-container">
       <div id="perseus-banner">
-        <h1><a href="#">Perseus Workspace Engine</a></h1>
+        <h1><a href="#" onclick="window.location.reload()">Perseus Workspace Engine</a></h1>
         <span class="doc-title">Global CTS-URN Unified Environment</span>
       </div>
       <div id="nav-bar">
@@ -208,6 +256,22 @@
     </div>
   </div>
 
+  
+  <script id="manifesto-markdown-source" type="text/markdown">## What is being tested here?
+This prototype serves as a targeted verification environment exploring the ability to compare multiple, multilingual text sources simultaneously and side by side. It is built as part of the broader engineering research initiative hosted here: [MinimumViablePerseus](https://github.com/PerseusDLCode/MinimumViablePerseus).
+
+The core philosophy driving this implementation focuses on alignment layers over monolithic distributions. By binding varying editions, codices, and historical translations to a unified **Canonical Text Services (CTS) structural grid**, we eliminate structural discrepancies ahead of display compilation.
+
+## The Optimization Hypothesis
+Traditional reading platforms introduce severe contextual shifts when shifting between separate commentaries or translation apparatuses. This interface tests a foundational structural premise:
+
+> "Aligning primary resources directly to an atomic CTS grid map allows human operators to parse multi-text parallel layers with significantly higher cognitive efficiency, lowering comparative text mapping friction to an absolute minimum."
+
+**Core Structural Systems Verified inside this Build:**
+* **Hierarchical Parsing Layers:** Synchronous processing across multi-book prose boundaries (e.g., Thucydides' *Histories*).
+* **Milestone Structural Intersections:** Tracking non-prose anchoring indexes dynamically, such as Bekker formatting architectures mapped across Aristotle's *Poetics* layers.
+* **Poetry Structural Intervals:** Real-time indexing maps matching arbitrary structural performance line-cards smoothly within Sophocles' *Oedipus Tyrannus*.</script>
+
   <script>
     const GLOBAL_STRUCTURES = {"tlg0003.tlg001": {"1": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146"], "2": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103"], "3": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116"], "4": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135"], "5": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116"], "6": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105"], "7": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87"], "8": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109"]}, "tlg0086.tlg034": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26"], "tlg0011.tlg004": ["1-13", "14-57", "58-77", "78-101", "102-131", "132-150", "151-157", "160-166", "169-177", "179-187", "190-201", "203-215", "216-254", "255-275", "276-299", "300-329", "330-353", "354-379", "380-407", "408-428", "429-446", "447-462", "463-472", "473-482", "483-495", "496-511", "513-542", "543-582", "583-615", "616-633", "634-648", "649-658", "660-678", "679-698", "700-725", "726-749", "750-770", "771-799", "800-833", "834-862", "863-871", "873-882", "884-896", "897-910", "911-949", "950-976", "977-999", "1000-1025", "1026-1053", "1054-1085", "1086-1096", "1098-1107", "1110-1140", "1141-1170", "1171-1185", "1186-1195", "1196-1203", "1204-1211", "1212-1221", "1223-1236", "1237-1284", "1285-1296", "1297-1312", "1313-1320", "1321-1328", "1329-1347", "1349-1366", "1367-1415", "1416-1445", "1446-1477", "1478-1515", "1516-1530"]};
     const TEXT_REGISTRY = {"tlg0003_tlg001_jones_1942": {"urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2", "label": "Greek (H. S. Jones, 1942)", "class": "greek-text", "textgroup": "tlg0003", "work": "tlg001", "short_id": "perseus-grc2"}, "tlg0003_tlg001_smith_1919": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1K-eng1", "label": "English (C. F. Smith, 1919)", "class": "english-text", "textgroup": "tlg0003", "work": "tlg001", "short_id": "1st1K-eng1"}, "tlg0003_tlg001_crawley_1914": {"urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng6", "label": "English (R. Crawley, 1914)", "class": "english-text", "textgroup": "tlg0003", "work": "tlg001", "short_id": "perseus-eng6"}, "tlg0003_tlg001_b\u00e9tant_1863": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-fre1", "label": "French (E. B\u00e9tant, 1863)", "class": "french-text", "textgroup": "tlg0003", "work": "tlg001", "short_id": "1st1k-fre1"}, "tlg0003_tlg001_haase_1869": {"urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-lat2", "label": "Latin (Fr. Haase, 1869)", "class": "latin-text", "textgroup": "tlg0003", "work": "tlg001", "short_id": "1st1k-lat2"}, "tlg0086_tlg034_kassel_1965": {"urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-grc2", "label": "Greek (Kassel, 1965)", "class": "greek-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "perseus-grc2"}, "tlg0086_tlg034_variant_": {"urn": "urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc2", "label": "Greek (Digital Corpus Variant)", "class": "greek-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "digicorpus-grc2"}, "tlg0086_tlg034_fyfe_1927": {"urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-eng2", "label": "English (W.H. Fyfe, 1927)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "perseus-eng2"}, "tlg0086_tlg034_butcher_1911": {"urn": "urn:cts:greekLit:tlg0086.tlg034.butcher1911-eng2", "label": "English (S.H. Butcher, 1911)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "butcher1911-eng2"}, "tlg0086_tlg034_bywater_1909": {"urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-eng1", "label": "English (Ingram Bywater, 1909)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "bywater1909-eng1"}, "tlg0086_tlg034_twining_1789": {"urn": "urn:cts:greekLit:tlg0086.tlg034.twining1789-eng1", "label": "English (Thomas Twining, 1789)", "class": "english-text", "textgroup": "tlg0086", "work": "tlg034", "short_id": "twining1789-eng1"}, "tlg0011_tlg004_storr_1912": {"urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2", "label": "Greek (F. Storr, 1912)", "class": "greek-text", "textgroup": "tlg0011", "work": "tlg004", "short_id": "perseus-grc2"}, "tlg0011_tlg004_jebb_1904": {"urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-eng2", "label": "English (Sir Richard Jebb, 1904)", "class": "english-text", "textgroup": "tlg0011", "work": "tlg004", "short_id": "perseus-eng2"}};
@@ -220,13 +284,52 @@
 
     let columnEditions = { f: "", c1: "", c2: "" };
 
+    // Ingests markdown text content directly out of the DOM template tag above
+    function renderInlineManifesto() {
+        try {
+            const markdownText = document.getElementById("manifesto-markdown-source").innerHTML;
+            
+            if (typeof marked !== 'undefined') {
+                document.getElementById("manifesto-render-target").innerHTML = marked.parse(markdownText);
+            } else {
+                // Secure local structural regex execution layout preservation fallback
+                const fallbackHtml = markdownText
+                    .replace(/^\s*##\s+(.*)$/gm, '<h2>$1</h2>')
+                    .replace(/^\s*>\s+(.*)$/gm, '<blockquote>$1</blockquote>')
+                    .replace(/^\s*\*\s+(.*)$/gm, '<li>$1</li>')
+                    .split('\n\n')
+                    .map(p => p.trim().startsWith('<h') || p.trim().startsWith('<b') || p.trim().startsWith('<l') ? p : `<p>${p}</p>`)
+                    .join('');
+                document.getElementById("manifesto-render-target").innerHTML = fallbackHtml;
+            }
+        } catch (err) {
+            console.error("Local manifesto parsing error:", err);
+        }
+    }
+
+    function launchWorkspace(e) {
+        if(e) e.preventDefault();
+        document.getElementById("splash-view-root").style.display = "none";
+        document.getElementById("app-view-root").style.display = "flex";
+        initializeRoutingFromURL();
+    }
+
     window.registerWorkspaceChunk = function(urn, dataPayload) {
         WORKSPACE_DATA_REGISTRY.set(urn, dataPayload);
         triggerRenderLifecycle(urn);
     };
 
     document.addEventListener("DOMContentLoaded", function() {
-        initializeRoutingFromURL();
+        // Unpack localized markdown content onto the view target
+        renderInlineManifesto();
+        
+        // If deep-linked directly via query parameter, bypass the splash screen immediately
+        const params = new URLSearchParams(window.location.search);
+        if (params.has("w")) {
+            document.getElementById("splash-view-root").style.display = "none";
+            document.getElementById("app-view-root").style.display = "flex";
+            initializeRoutingFromURL();
+        }
     });
 
     function populateDropdownsForWork(tgId, wkId) {
@@ -346,7 +449,6 @@
         populateDropdownsForWork(tgId, wkId);
 
         const script = document.createElement("script");
-        // GitHub Pages absolute/relative location fix wrapper injected natively here
         const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
 
         if (passageComponents.length > 1 && !isFlatStructure(`${tgId}.${wkId}`)) {
