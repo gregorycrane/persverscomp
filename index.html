@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Minimum Viable Perseus (MVP) | Unified Parallel Workspace</title>
+    <title>Minimum Viable Perseus (MVP) | Dual-Framework Workspace</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -14,18 +14,43 @@
         a { color: #880000; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
 
-        /* Splash Page Layout */
+        /* Splash Page Branding Layout */
         #splash-view-root { display: flex; flex-direction: column; width: 100%; min-height: 100vh; }
         #splash-wrapper {
-            max-width: 840px; margin: 0 auto; padding: 60px 20px;
+            max-width: 880px; margin: 0 auto; padding: 50px 20px;
             display: flex; flex-direction: column; gap: 30px; width: 100%;
         }
-        #splash-header { border-bottom: 2px solid #660000; padding-bottom: 15px; }
-        #splash-header h1 { color: #660000; font-size: 32px; font-weight: normal; margin-bottom: 5px; }
-        #splash-header .tagline { font-size: 14px; color: #555; font-style: italic; }
+        
+        /* Splash Banner Asset Container */
+        .brand-banner-frame { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            border-bottom: 2px solid #660000; 
+            padding-bottom: 20px; 
+            margin-bottom: 10px; 
+        }
+        .brand-banner-frame img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Compact Header Embedded Image Container */
+        .workspace-emblem-holder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .workspace-emblem-holder img {
+            height: 32px;
+            width: auto;
+            display: block;
+            border-radius: 2px;
+        }
 
         /* Dynamic Markdown Output Card Styling */
-        #manifesto-render-target h1 { display: none; } /* Suppress redundant H1 title card from file */
+        #manifesto-render-target h1 { display: none; } 
         #manifesto-render-target h2 { font-size: 18px; color: #333; margin-top: 28px; margin-bottom: 12px; font-variant: small-caps; border-bottom: 1px dashed #e2e2d5; padding-bottom: 5px; }
         #manifesto-render-target p { line-height: 1.6; margin-bottom: 14px; color: #333; text-align: justify; }
         #manifesto-render-target blockquote { border-left: 3px solid #660000; padding: 10px 0 10px 15px; margin: 20px 0; font-style: italic; color: #444; background: #fefefe; }
@@ -33,7 +58,7 @@
         #manifesto-render-target li { margin-bottom: 8px; color: #333; }
         #manifesto-render-target strong { color: #000; }
 
-        .cta-container { text-align: center; margin: 20px 0 40px 0; }
+        .cta-container { text-align: center; margin: 15px 0 40px 0; }
         .launch-workspace-btn {
             display: inline-block; background: #660000; color: #fff !important;
             padding: 14px 35px; font-size: 16px; font-weight: bold;
@@ -42,16 +67,19 @@
         }
         .launch-workspace-btn:hover { background: #440000; text-decoration: none; transform: translateY(-1px); }
 
-        /* Core Workspace Layout (Initially Hidden) */
+        /* Active Workspace Navigation Layout */
         #app-view-root { display: none; flex-direction: column; height: 100vh; width: 100vw; overflow: hidden; background: #fff; }
-
         #header-container { flex-shrink: 0; background: #fff; border-bottom: 1px solid #ccc; z-index: 10; }
-        #perseus-banner { background: #660000; color: #fff; padding: 6px 15px; display: flex; justify-content: space-between; align-items: center; }
-        #perseus-banner h1 a { color: #fff; font-size: 16px; font-weight: bold; }
-        #perseus-banner .doc-title { font-size: 11px; color: #ffccaa; font-weight: bold; }
+        
+        #perseus-banner { background: #660000; color: #fff; padding: 5px 15px; display: flex; justify-content: space-between; align-items: center; }
+        .banner-logo-title-group { display: flex; align-items: center; gap: 12px; }
+        .banner-logo-title-group h1 a { color: #fff; font-size: 16px; font-weight: bold; font-family: Georgia, serif; }
+
+        .mode-toggle-panel { display: flex; gap: 8px; }
+        .toggle-btn { background: #440000; color: #ffccaa; border: 1px solid #993333; font-size: 11px; padding: 3px 10px; border-radius: 3px; cursor: pointer; font-weight: bold; }
+        .toggle-btn.active-mode { background: #fff; color: #660000; border-color: #fff; }
 
         #nav-bar { background: #ddddcc; border-bottom: 1px solid #999988; padding: 4px 15px; font-size: 11px; font-weight: bold; }
-
         #browse-bar { background: #eeeeee; border-bottom: 1px solid #cccccc; padding: 6px 15px; font-size: 11px; display: flex; flex-direction: column; gap: 5px; }
         .browse-row { display: flex; align-items: flex-start; }
         .browse-row.hidden-row { display: none !important; }
@@ -63,95 +91,61 @@
         .browse-items a.sec-pill { background: #fff; color: #555; border: 1px solid #ccc; font-weight: normal; font-size: 10px; padding: 1px 5px; }
         .browse-items a.sec-pill.active-pill { background: #660000; color: #fff; border-color: #330000; font-weight: bold; }
 
-        #outer-wrapper { display: flex; width: 100%; flex: 1; min-height: 0; }
+        #outer-wrapper { display: flex; width: 100%; flex: 1; min-height: 0; overflow: hidden; }
 
-        #main-container { flex: 1; display: flex; min-width: 0; height: 100%; }
-        .reading-column { display: flex; flex-direction: column; flex: 1; min-width: 0; height: 100%; border-right: 1px solid #eeeeee; background: #fff; }
+        /* View Mode Layout Grid Mapping Rules */
+        #main-container { display: flex; width: 100%; height: 100%; min-width: 0; }
+        .reading-column { display: flex; flex-direction: column; border-right: 1px solid #eeeeee; background: #fff; min-width: 0; height: 100%; }
         .reading-column:last-child { border-right: none; }
         .cross-panel { background: #fafafa; }
-
+        .column-content-scroll { flex: 1; overflow-y: auto; padding: 15px; }
         .panel-header { background: #660000; color: #fff; padding: 4px 8px; font-size: 11px; font-weight: bold; position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
         .edition-select-dropdown { background: #fff; color: #333; font-size: 10px; padding: 1px 4px; border: 1px solid #ccc; border-radius: 2px; outline: none; cursor: pointer; }
 
-        .column-content-scroll { flex: 1; overflow-y: auto; padding: 15px; }
+        /* Left Hand Rail Navigation */
+        #classic-left-rail { display: none; width: 230px; flex-shrink: 0; background: #f4f4f0; border-right: 1px solid #dcdcc8; padding: 15px; overflow-y: auto; }
+        #classic-left-rail h3 { font-size: 12px; font-variant: small-caps; color: #555; margin-bottom: 8px; border-bottom: 1px solid #ccccbb; padding-bottom: 3px; }
+        .rail-tree-item { display: block; font-size: 12px; padding: 3px 6px; color: #336699; font-weight: bold; border-radius: 2px; margin-bottom: 2px; cursor: pointer; }
+        .rail-tree-item:hover { background: #e8e8df; }
+        .rail-tree-item.active-rail-node { background: #660000; color: #fff !important; }
 
-        .section-row { 
-            border-bottom: 1px solid #f0f0f0; 
-            padding: 10px 0; 
-            display: block;
-            scroll-margin-top: 5px; 
+        /* Framework 1: Symmetrical Parallel Workspace */
+        #outer-wrapper.mode-parallel #main-container { flex-direction: row; }
+        #outer-wrapper.mode-parallel .reading-column { flex: 1; height: 100%; }
+        #outer-wrapper.mode-parallel #classic-left-rail { display: none; }
+
+        /* Framework 2: Classic Hopper Asymmetric Hub */
+        #outer-wrapper.mode-classic #classic-left-rail { display: block; }
+        #outer-wrapper.mode-classic #main-container { 
+            display: grid; 
+            grid-template-columns: 3fr 2fr; 
+            grid-template-rows: 1fr 1fr; 
+            height: 100%; width: 100%;
         }
-        .section-row.hidden-section { display: none !important; }
+        #outer-wrapper.mode-classic #col_f { grid-column: 1; grid-row: 1 / span 2; border-right: 2px solid #ccc; height: 100%; min-height: 0; }
+        #outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; height: 100%; min-height: 0; border-bottom: 1px solid #ccc; }
+        #outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; height: 100%; min-height: 0; border-top: 1px solid #ccc; }
 
+        /* Typographic Content Rendering Elements */
+        .section-row { border-bottom: 1px solid #f0f0f0; padding: 10px 0; display: block; scroll-margin-top: 5px; }
+        .section-row.hidden-section { display: none !important; }
         .greek-text { font-size: 15px; line-height: 1.7; font-family: "Gentium Plus", "Athena", serif; color: #000; }
         .english-text { font-size: 13px; line-height: 1.6; color: #222; }
         .french-text { font-size: 13px; line-height: 1.6; color: #2b2b2b; }
         .latin-text { font-size: 13px; line-height: 1.6; color: #111; font-style: italic; }
 
-        .poetry-grid-layout {
-            display: grid !important;
-            grid-template-columns: 45px 1fr;
-            row-gap: 4px;
-            align-items: start;
-            width: 100%;
-        }
+        .poetry-grid-layout { display: grid !important; grid-template-columns: 45px 1fr; row-gap: 4px; align-items: start; width: 100%; }
+        .poetry-grid-layout .line-num-cell { grid-column: 1; text-align: right; padding-right: 12px; font-size: 11px; color: #999; font-weight: bold; font-family: "Courier New", Courier, monospace; line-height: 1.7; user-select: none; display: block !important; }
+        .poetry-grid-layout .line-text-cell { grid-column: 2; line-height: 1.7; display: block !important; white-space: normal; }
+        .poetry-grid-layout .stage-direction { grid-column: 1 / span 2 !important; display: block !important; font-style: italic; color: #445566; background: #fdfdfd; border-left: 3px solid #ccc; padding: 8px 12px; margin: 10px 0; line-height: 1.6; font-size: 0.95em; }
 
-        .poetry-grid-layout .line-num-cell {
-            grid-column: 1;
-            text-align: right; 
-            padding-right: 12px;
-            font-size: 11px; 
-            color: #999; 
-            font-weight: bold; 
-            font-family: "Courier New", Courier, monospace;
-            line-height: 1.7;
-            user-select: none;
-            display: block !important;
-        }
-
-        .poetry-grid-layout .line-text-cell {
-            grid-column: 2;
-            line-height: 1.7;
-            display: block !important;
-            white-space: normal;
-        }
-
-        .poetry-grid-layout .stage-direction {
-            grid-column: 1 / span 2 !important;
-            display: block !important;
-            font-style: italic;
-            color: #445566;
-            background: #fdfdfd;
-            border-left: 3px solid #ccc;
-            padding: 8px 12px;
-            margin: 10px 0;
-            line-height: 1.6;
-            font-size: 0.95em;
-        }
-
-        .prose-inline-layout {
-            display: block;
-            width: 100%;
-            line-height: 1.6;
-        }
-        .prose-inline-layout .prose-marker {
-            font-weight: bold; 
-            color: #336699; 
-            margin-right: 8px;
-            display: inline-block;
-        }
-        .prose-inline-layout .prose-body-inline {
-            display: inline;
-        }
-        .prose-body-inline p, .prose-body-inline div {
-            display: inline !important;
-            margin: 0 !important;
-            padding: 0 !important;
-        }
+        .prose-inline-layout { display: block; width: 100%; line-height: 1.6; }
+        .prose-inline-layout .prose-marker { font-weight: bold; color: #336699; margin-right: 8px; display: inline-block; }
+        .prose-inline-layout .prose-body-inline { display: inline; }
+        .prose-body-inline p, .prose-body-inline div { display: inline !important; margin: 0 !important; padding: 0 !important; }
 
         .speaker-attr { color: #445566; font-variant: small-caps; letter-spacing: 0.5px; display: block; margin-top: 8px; margin-bottom: 4px; }
         .poetry-grid-layout .speaker-attr { grid-column: 1 / span 2; display: block !important; }
-        
         .render-italic, .render-italics { font-style: italic; }
         .render-bold { font-weight: bold; }
         .render-underline { text-decoration: underline; }
@@ -159,17 +153,9 @@
         .note { font-size: 11px; color: #555; background: #fdfbf7; border-left: 2px solid #880000; padding: 2px 6px; margin: 4px 0 4px 1em; display: block; }
         .poetry-grid-layout .note { grid-column: 1 / span 2; display: block !important; }
 
-        .quote-block {
-            margin: 10px 0 10px 2.5em;
-            padding-left: 12px;
-            border-left: 1px dashed #bbb;
-            font-size: 0.95em;
-            color: #333;
-            grid-column: 1 / span 2;
-        }
+        .quote-block { margin: 10px 0 10px 2.5em; padding-left: 12px; border-left: 1px dashed #bbb; font-size: 0.95em; color: #333; grid-column: 1 / span 2; }
         .quote-block.type-verse { font-style: italic; line-height: 1.6; background: #fafafa; padding: 6px 12px; }
         .quote-block.type-blockquote { line-height: 1.55; color: #1a1a1a; }
-
         .viewport-footer-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; width: 100%; clear: both; }
         .poetry-grid-layout .viewport-footer-controls { grid-column: 1 / span 2; display: flex !important; }
         .footer-group-left { display: flex; gap: 6px; }
@@ -177,18 +163,60 @@
         .action-btn.secondary { background: #666; }
         .action-btn:hover { background: #330000; text-decoration: none; }
         .action-btn.secondary:hover { background: #444; }
-    </style>
+    
+        /* ── Resize Handle Styles ── */
+        .resize-handle {
+            flex-shrink: 0;
+            background: #e0e0e0;
+            position: relative;
+            z-index: 20;
+            transition: background 0.15s;
+        }
+        .resize-handle:hover, .resize-handle.dragging {
+            background: #660000;
+        }
+        .resize-handle-h {
+            width: 5px;
+            cursor: col-resize;
+            min-height: 0;
+            height: 100%;
+        }
+        .resize-handle-v {
+            height: 5px;
+            cursor: row-resize;
+            width: 100%;
+        }
+        .resize-handle::after {
+            content: '';
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .resize-handle-h::after {
+            width: 1px; height: 30px;
+            border-left: 1px dotted #999;
+            border-right: 1px dotted #999;
+            column-gap: 2px;
+        }
+        .resize-handle-v::after {
+            height: 1px; width: 30px;
+            border-top: 1px dotted #999;
+            border-bottom: 1px dotted #999;
+            row-gap: 2px;
+        }
+        body.resizing-cols, body.resizing-cols * { cursor: col-resize !important; }
+        body.resizing-rows, body.resizing-rows * { cursor: row-resize !important; }
+
+        </style>
 </head>
 <body>
 
-  
   <div id="splash-view-root">
       <div id="splash-wrapper">
-          <div id="splash-header">
-              <h1>Perseus Core Parallel Workspace</h1>
-              <div class="tagline">An experiment under the <strong>Minimum Viable Perseus</strong> framework</div>
-          </div>
           
+          <div class="brand-banner-frame">
+              <img src="./assets/perseus_banner.png" alt="Perseus Digital Library Banner" />
+          </div>
           
           <div id="manifesto-render-target"></div>
 
@@ -198,19 +226,28 @@
       </div>
   </div>
 
-  
   <div id="app-view-root">
     <div id="header-container">
       <div id="perseus-banner">
-        <h1><a href="#" onclick="window.location.reload()">Perseus Workspace Engine</a></h1>
-        <span class="doc-title">Global CTS-URN Unified Environment</span>
+        <div class="banner-logo-title-group">
+            
+            <div class="workspace-emblem-holder">
+                <img src="./assets/perseus_running_man.png" alt="Perseus Emblem" />
+            </div>
+            <h1><a href="#" onclick="window.location.reload()">Perseus Workspace Engine</a></h1>
+        </div>
+        
+        <div class="mode-toggle-panel">
+            <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>
+            <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
+        </div>
       </div>
       <div id="nav-bar">
         <span id="frame-context-label">Loading system configuration modules...</span>
       </div>
       
       <div id="browse-bar">
-        <div class="browse-row">
+        <div class="browse-row" id="row-work-selector">
           <label>Works:</label>
           <div class="browse-items" id="work-items-container"></div>
         </div>
@@ -218,26 +255,32 @@
           <label>Books:</label>
           <div class="browse-items" id="book-items-container"></div>
         </div>
-        <div class="browse-row">
+        <div class="browse-row" id="row-chapter-selector">
           <label id="chapter-row-label">Chapters:</label>
           <div class="browse-items" id="chapter-items-container"></div>
         </div>
-        <div class="browse-row">
+        <div class="browse-row" id="row-section-selector">
           <label>Sections:</label>
           <div class="browse-items" id="section-items-container"></div>
         </div>
       </div>
     </div>
 
-    <div id="outer-wrapper">
+    <div id="outer-wrapper" class="mode-parallel">
+      <div id="classic-left-rail">
+          <h3 id="rail-title">Structure Rail</h3>
+          <div id="rail-nodes-target"></div>
+      </div>
+
       <div id="main-container">
         <div class="reading-column" id="col_f">
             <div class="panel-header">
-                <span>Focal Axis Text Column</span>
+                <span>Focal Axis Text Column (Focus)</span>
                 <select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select>
             </div>
             <div class="column-content-scroll" id="content_f"></div>
         </div>
+        <div class="resize-handle resize-handle-h" id="resize-f-c1"></div>
         <div class="reading-column cross-panel" id="col_c1">
             <div class="panel-header">
                 <span>Comparison Version 1</span>
@@ -245,6 +288,7 @@
             </div>
             <div class="column-content-scroll" id="content_c1"></div>
         </div>
+        <div class="resize-handle resize-handle-h" id="resize-c1-c2"></div>
         <div class="reading-column cross-panel" id="col_c2">
             <div class="panel-header">
                 <span>Comparison Version 2</span>
@@ -256,9 +300,10 @@
     </div>
   </div>
 
-  
   <script id="manifesto-markdown-source" type="text/markdown">## What is being tested here?
-This prototype serves as a targeted verification environment exploring the ability to compare multiple, multilingual text sources simultaneously and side by side. It is built as part of the broader engineering research initiative hosted here: [MinimumViablePerseus](https://github.com/PerseusDLCode/MinimumViablePerseus).
+This prototype serves as a targeted verification environment exploring two distinct user interface paradigms for comparative philology and reading. It bridges the structural architecture of classic digital humanities environments with modern cognitive reading models.
+
+We are testing an optimized version of the **Traditional Perseus 4 Asymmetric View** alongside a brand new **Parallel Workspace View**. This parallel mode is explicitly engineered to eliminate textual dislocation by letting human operators line up multiple, multilingual sources completely side by side in parallel.
 
 The core philosophy driving this implementation focuses on alignment layers over monolithic distributions. By binding varying editions, codices, and historical translations to a unified **Canonical Text Services (CTS) structural grid**, we eliminate structural discrepancies ahead of display compilation.
 
@@ -281,18 +326,16 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     let activeWorkKey = "";
     let activeUrnContext = "";
     let activeSectionFilter = null;
+    let currentActiveMode = "parallel";
 
     let columnEditions = { f: "", c1: "", c2: "" };
 
-    // Ingests markdown text content directly out of the DOM template tag above
     function renderInlineManifesto() {
         try {
             const markdownText = document.getElementById("manifesto-markdown-source").innerHTML;
-            
             if (typeof marked !== 'undefined') {
                 document.getElementById("manifesto-render-target").innerHTML = marked.parse(markdownText);
             } else {
-                // Secure local structural regex execution layout preservation fallback
                 const fallbackHtml = markdownText
                     .replace(/^\s*##\s+(.*)$/gm, '<h2>$1</h2>')
                     .replace(/^\s*>\s+(.*)$/gm, '<blockquote>$1</blockquote>')
@@ -307,6 +350,28 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
     }
 
+    window.setWorkspaceLayoutMode = function(mode) {
+        currentActiveMode = mode;
+        const frame = document.getElementById("outer-wrapper");
+        const btnParallel = document.getElementById("btn-mode-parallel");
+        const btnClassic = document.getElementById("btn-mode-classic");
+        
+        if (mode === 'classic') {
+            frame.className = "mode-classic";
+            btnClassic.classList.add("active-mode");
+            btnParallel.classList.remove("active-mode");
+        } else {
+            frame.className = "mode-parallel";
+            btnParallel.classList.add("active-mode");
+            btnClassic.classList.remove("active-mode");
+        }
+        
+        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
+            const payload = WORKSPACE_DATA_REGISTRY.get(activeUrnContext);
+            renderNavigationControls(payload);
+        }
+    };
+
     function launchWorkspace(e) {
         if(e) e.preventDefault();
         document.getElementById("splash-view-root").style.display = "none";
@@ -320,10 +385,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     };
 
     document.addEventListener("DOMContentLoaded", function() {
-        // Unpack localized markdown content onto the view target
         renderInlineManifesto();
-        
-        // If deep-linked directly via query parameter, bypass the splash screen immediately
         const params = new URLSearchParams(window.location.search);
         if (params.has("w")) {
             document.getElementById("splash-view-root").style.display = "none";
@@ -334,10 +396,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
 
     function populateDropdownsForWork(tgId, wkId) {
         const currentWorkPrefix = `${tgId}_${wkId}_`;
-        const validEditionIds = Object.keys(TEXT_REGISTRY).filter(vId => {
-            return vId.startsWith(currentWorkPrefix);
-        });
-
+        const validEditionIds = Object.keys(TEXT_REGISTRY).filter(vId => vId.startsWith(currentWorkPrefix));
         if (validEditionIds.length === 0) return;
 
         if (!columnEditions.f || !validEditionIds.includes(columnEditions.f)) columnEditions.f = validEditionIds[0];
@@ -348,7 +407,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             const selectEl = document.getElementById(`select_${prefix}`);
             if (!selectEl) return;
             selectEl.innerHTML = "";
-            
             validEditionIds.forEach(vId => {
                 const opt = document.createElement("option");
                 opt.value = vId;
@@ -371,9 +429,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         try {
             const params = new URLSearchParams(window.location.search);
             const rawParam = params.get("w") || "";
-            
-            let b = "";
-            let ch = "";
+            let b = "", ch = "";
             activeSectionFilter = null;
             
             columnEditions.c1 = params.get("right") || "";
@@ -382,40 +438,30 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             if (rawParam.includes(":")) {
                 const querySegments = rawParam.split(":");
                 let workPart = querySegments[0];
-                
                 const lastUnderscoreIdx = workPart.lastIndexOf('_');
-                if (lastUnderscoreIdx !== -1) {
-                    const potentialEdition = workPart; 
-                    if (TEXT_REGISTRY[potentialEdition]) {
-                        columnEditions.f = potentialEdition;
-                        const parts = potentialEdition.split('_');
-                        workPart = `${parts[0]}.${parts[1]}`;
-                    }
+                if (lastUnderscoreIdx !== -1 && TEXT_REGISTRY[workPart]) {
+                    columnEditions.f = workPart;
+                    const parts = workPart.split('_');
+                    workPart = `${parts[0]}.${parts[1]}`;
                 } else {
                     columnEditions.f = "";
                 }
-                
                 activeWorkKey = workPart;
                 const passageSegments = querySegments[1].split(".");
                 
                 if (isFlatStructure(activeWorkKey)) {
-                    b = ""; 
-                    ch = passageSegments[0] || "1";
+                    b = ""; ch = passageSegments[0] || "1";
                     if (passageSegments[1]) activeSectionFilter = passageSegments[1];
                 } else {
-                    b = passageSegments[0];
-                    ch = passageSegments[1] || "1";
+                    b = passageSegments[0]; ch = passageSegments[1] || "1";
                     if (passageSegments[2]) activeSectionFilter = passageSegments[2];
                 }
             } else {
                 activeWorkKey = rawParam || Object.keys(GLOBAL_STRUCTURES)[0];
-                if (!GLOBAL_STRUCTURES[activeWorkKey]) {
-                    activeWorkKey = Object.keys(GLOBAL_STRUCTURES)[0];
-                }
+                if (!GLOBAL_STRUCTURES[activeWorkKey]) activeWorkKey = Object.keys(GLOBAL_STRUCTURES)[0];
                 
                 if (isFlatStructure(activeWorkKey)) {
-                    b = "";
-                    ch = GLOBAL_STRUCTURES[activeWorkKey][0] || "1";
+                    b = ""; ch = GLOBAL_STRUCTURES[activeWorkKey][0] || "1";
                 } else {
                     b = Object.keys(GLOBAL_STRUCTURES[activeWorkKey])[0];
                     ch = GLOBAL_STRUCTURES[activeWorkKey][b][0] || "1";
@@ -436,18 +482,15 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             triggerRenderLifecycle(urn);
             return;
         }
-
         document.getElementById("frame-context-label").innerText = `Resolving storage path for ${urn}...`;
         
         const parts = urn.split(":");
         const workComponents = parts[3].split(".");
         const passageComponents = parts[4].split(".");
-        
         const tgId = workComponents[0];
         const wkId = workComponents[1];
 
         populateDropdownsForWork(tgId, wkId);
-
         const script = document.createElement("script");
         const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
 
@@ -456,10 +499,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         } else {
             script.src = `${basePath}corpus/${tgId}/${wkId}/chunks/chunk_ch${passageComponents[0]}.js`;
         }
-        
-        script.onerror = () => {
-            document.getElementById("frame-context-label").innerText = `Path Resolution Failed for ${urn}`;
-        };
+        script.onerror = () => { document.getElementById("frame-context-label").innerText = `Path Resolution Failed for ${urn}`; };
         document.head.appendChild(script);
     }
 
@@ -479,9 +519,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     function updateURLState(book, chapter) {
         const params = new URLSearchParams();
         let passageValue = book ? `${book}.${chapter}` : `${chapter}`;
-        if (activeSectionFilter) {
-            passageValue += `.${activeSectionFilter}`;
-        }
+        if (activeSectionFilter) passageValue += `.${activeSectionFilter}`;
         
         params.set("w", `${activeWorkKey}.${columnEditions.f}:${passageValue}`);
         if(columnEditions.c1) params.set("right", columnEditions.c1);
@@ -493,14 +531,40 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
 
     function selectSectionDirectly(secId) {
         activeSectionFilter = secId;
-        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
-            triggerRenderLifecycle(activeUrnContext);
-        }
+        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) triggerRenderLifecycle(activeUrnContext);
     }
 
     function renderNavigationControls(payload) {
         document.getElementById("frame-context-label").innerText = `Active Frame Context: ${payload.urn}`;
         
+        const isDramaOrPoetry = isPoetryWork(activeWorkKey);
+        
+        const rowWork = document.getElementById("row-work-selector");
+        const rowBook = document.getElementById("row-book-container");
+        const rowChapter = document.getElementById("row-chapter-selector");
+        const rowSection = document.getElementById("row-section-selector");
+
+        if (currentActiveMode === 'classic') {
+            if (rowWork) rowWork.classList.add("hidden-row");
+            if (rowBook) rowBook.classList.add("hidden-row");
+            if (rowChapter) rowChapter.classList.add("hidden-row");
+            if (rowSection) {
+                if (isDramaOrPoetry) rowSection.classList.add("hidden-row");
+                else rowSection.classList.remove("hidden-row");
+            }
+        } else {
+            if (rowWork) rowWork.classList.remove("hidden-row");
+            if (rowChapter) rowChapter.classList.remove("hidden-row");
+            if (rowSection) {
+                if (isDramaOrPoetry) rowSection.classList.add("hidden-row");
+                else rowSection.classList.remove("hidden-row");
+            }
+            if (rowBook) {
+                if (isFlatStructure(activeWorkKey)) rowBook.classList.add("hidden-row");
+                else rowBook.classList.remove("hidden-row");
+            }
+        }
+
         const workContainer = document.getElementById("work-items-container");
         if (workContainer) {
             workContainer.innerHTML = "";
@@ -513,8 +577,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 
                 if(wKey === activeWorkKey) a.className = "current";
                 a.onclick = () => {
-                    activeSectionFilter = null;
-                    activeWorkKey = wKey;
+                    activeSectionFilter = null; activeWorkKey = wKey;
                     if (isFlatStructure(wKey)) {
                         resolveAndInjectUrn(`urn:cts:greekLit:${wKey}:${GLOBAL_STRUCTURES[wKey][0]}`);
                     } else {
@@ -526,11 +589,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             });
         }
 
-        const bookRow = document.getElementById("row-book-container");
-        if(isFlatStructure(activeWorkKey)) {
-            bookRow.classList.add("hidden-row");
-        } else {
-            bookRow.classList.remove("hidden-row");
+        if (currentActiveMode !== 'classic' && !isFlatStructure(activeWorkKey)) {
             const bookContainer = document.getElementById("book-items-container");
             if (bookContainer) {
                 bookContainer.innerHTML = "";
@@ -548,9 +607,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
         }
 
         const bookLabelEl = document.getElementById("chapter-row-label");
-        if (bookLabelEl) {
-            bookLabelEl.innerText = isPoetryWork(activeWorkKey) ? "Ranges:" : "Chapters:";
-        }
+        if (bookLabelEl) bookLabelEl.innerText = isDramaOrPoetry ? "Lines:" : "Chapters:";
 
         const chapterContainer = document.getElementById("chapter-items-container");
         if (chapterContainer) {
@@ -569,17 +626,44 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             });
         }
 
-        const sectionContainer = document.getElementById("section-items-container");
-        if (sectionContainer) {
-            sectionContainer.innerHTML = "";
-            Object.keys(payload.sections).forEach(sec => {
-                const a = document.createElement("a");
-                a.innerText = sec;
-                a.className = "sec-pill";
-                if(sec === activeSectionFilter) a.classList.add("active-pill");
-                a.onclick = () => selectSectionDirectly(sec);
-                sectionContainer.appendChild(a);
-            });
+        if (!isDramaOrPoetry) {
+            const sectionContainer = document.getElementById("section-items-container");
+            if (sectionContainer) {
+                sectionContainer.innerHTML = "";
+                Object.keys(payload.sections).forEach(sec => {
+                    const a = document.createElement("a");
+                    a.innerText = sec; a.className = "sec-pill";
+                    if(sec === activeSectionFilter) a.classList.add("active-pill");
+                    a.onclick = () => selectSectionDirectly(sec);
+                    sectionContainer.appendChild(a);
+                });
+            }
+        }
+
+        const railNodesTarget = document.getElementById("rail-nodes-target");
+        const railTitle = document.getElementById("rail-title");
+        if (railNodesTarget) {
+            railNodesTarget.innerHTML = "";
+            if (isFlatStructure(activeWorkKey)) {
+                railTitle.innerText = isDramaOrPoetry ? "Lines Tree" : "Chapters Tree";
+                GLOBAL_STRUCTURES[activeWorkKey].forEach(ch => {
+                    const n = document.createElement("div");
+                    n.className = `rail-tree-item ${(!payload.book && payload.chapter === ch) ? 'active-rail-node' : ''}`;
+                    n.innerText = isDramaOrPoetry ? `Lines ${ch}` : `Chapter ${ch}`;
+                    n.onclick = () => { activeSectionFilter = null; resolveAndInjectUrn(`urn:cts:greekLit:${activeWorkKey}:${ch}`); };
+                    railNodesTarget.appendChild(n);
+                });
+            } else {
+                railTitle.innerText = `Book ${payload.book} Chapters`;
+                Object.keys(GLOBAL_STRUCTURES[activeWorkKey][payload.book]).forEach(idx => {
+                    const ch = GLOBAL_STRUCTURES[activeWorkKey][payload.book][idx];
+                    const n = document.createElement("div");
+                    n.className = `rail-tree-item ${(payload.book && payload.chapter === ch) ? 'active-rail-node' : ''}`;
+                    n.innerText = `Chapter ${ch}`;
+                    n.onclick = () => { activeSectionFilter = null; resolveAndInjectUrn(`urn:cts:greekLit:${activeWorkKey}:${payload.book}.${ch}`); };
+                    railNodesTarget.appendChild(n);
+                });
+            }
         }
     }
 
@@ -599,14 +683,12 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 const isHidden = activeSectionFilter !== null && activeSectionFilter !== sec;
                 const row = document.createElement("div");
                 row.className = `section-row s-idx-${sec} ${isHidden ? 'hidden-section' : ''}`;
-                
                 const txt = payload.sections[sec][shortId] || "<i>[Text range missing in alignment layer]</i>";
                 const visualIndexLabel = isPoetry ? sec : `[${sec}]`;
                 
                 if (isPoetry) {
                     const wrapper = document.createElement("div");
                     wrapper.className = `${cssClass} poetry-grid-layout`;
-                    
                     const temp = document.createElement("div");
                     temp.innerHTML = txt;
                     
@@ -614,22 +696,16 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                         const child = temp.firstChild;
                         if (child.nodeType === Node.ELEMENT_NODE && child.classList.contains("verse-line")) {
                             const lineNum = child.getAttribute("data-line") || "";
-                            
                             const numCell = document.createElement("span");
-                            numCell.className = "line-num-cell";
-                            numCell.innerText = lineNum;
-                            
+                            numCell.className = "line-num-cell"; numCell.innerText = lineNum;
                             const textCell = document.createElement("div");
-                            textCell.className = "line-text-cell";
-                            textCell.innerHTML = child.innerHTML;
-                            
+                            textCell.className = "line-text-cell"; textCell.innerHTML = child.innerHTML;
                             wrapper.appendChild(numCell);
                             wrapper.appendChild(textCell);
                             temp.removeChild(child);
                         } else {
                             if (child.nodeType === Node.ELEMENT_NODE) {
-                                child.style.gridColumn = "1 / span 2";
-                                child.style.display = "block";
+                                child.style.gridColumn = "1 / span 2"; child.style.display = "block";
                             }
                             wrapper.appendChild(child);
                         }
@@ -643,38 +719,29 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                         </div>
                     `;
                 }
-                
                 targetContainer.appendChild(row);
             });
 
             const footer = document.createElement("div");
             footer.className = "viewport-footer-controls";
-            
-            let prevBtnHtml = "";
-            let nextBtnHtml = "";
+            let prevBtnHtml = "", nextBtnHtml = "";
             
             if (activeSectionFilter) {
                 const secArray = Object.keys(payload.sections);
                 const currentIdx = secArray.indexOf(activeSectionFilter);
-                
                 if (currentIdx > 0) {
                     prevBtnHtml = `<a onclick="selectSectionDirectly('${secArray[currentIdx-1]}')" class="action-btn">&larr; Previous [${secArray[currentIdx-1]}]</a>`;
                 } else if (payload.navigation.prev) {
                     prevBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.prev}', true)">&larr; Previous Segment</a>`;
                 }
-                
                 if (currentIdx < secArray.length - 1) {
                     nextBtnHtml = `<a onclick="selectSectionDirectly('${secArray[currentIdx+1]}')" class="action-btn">Next [${secArray[currentIdx+1]}] &rarr;</a>`;
                 } else if (payload.navigation.next) {
                     nextBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.next}', false)">Next Segment &rarr;</a>`;
                 }
             } else {
-                if (payload.navigation.prev) {
-                    prevBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.prev}')">&larr; Previous Segment</a>`;
-                }
-                if (payload.navigation.next) {
-                    nextBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.next}')">Next Chapter &rarr;</a>`;
-                }
+                if (payload.navigation.prev) prevBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.prev}')">&larr; Previous Segment</a>`;
+                if (payload.navigation.next) nextBtnHtml = `<a class="action-btn" onclick="loadAdjacentUrn('${payload.navigation.next}')">Next Chapter &rarr;</a>`;
             }
 
             footer.innerHTML = `
@@ -684,13 +751,8 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 </div>
                 ${nextBtnHtml}
             `;
-            
             const targetGrid = targetContainer.querySelector(".poetry-grid-layout");
-            if (targetGrid && isPoetry) {
-                targetGrid.appendChild(footer);
-            } else {
-                targetContainer.appendChild(footer);
-            }
+            if (targetGrid && isPoetry) targetGrid.appendChild(footer); else targetContainer.appendChild(footer);
         });
     }
 
@@ -714,7 +776,6 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
                 } else {
                     script.src = `${basePath}corpus/${workComponents[0]}/${workComponents[1]}/chunks/chunk_ch${passageComponents[0]}.js`;
                 }
-                
                 script.onload = () => {
                     const data = WORKSPACE_DATA_REGISTRY.get(urn);
                     const secs = Object.keys(data.sections);
@@ -731,9 +792,7 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
     window.clearSectionFilter = function(e) {
         if(e) e.preventDefault();
         activeSectionFilter = null;
-        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) {
-            triggerRenderLifecycle(activeUrnContext);
-        }
+        if (WORKSPACE_DATA_REGISTRY.has(activeUrnContext)) triggerRenderLifecycle(activeUrnContext);
     };
 
     window.updateColumnContent = function(prefix, value) {
@@ -744,6 +803,330 @@ Traditional reading platforms introduce severe contextual shifts when shifting b
             renderActiveContentLayers(payload);
         }
     };
+  
+
+    // ── Panel Resize Logic ──────────────────────────────────────
+    (function() {
+        function initResizeHandles() {
+            const handles = document.querySelectorAll('.resize-handle');
+            handles.forEach(handle => {
+                handle.addEventListener('mousedown', startResize);
+                handle.addEventListener('touchstart', startResize, {passive: false});
+            });
+        }
+
+        function startResize(e) {
+            e.preventDefault();
+            const handle = e.currentTarget;
+            const isHorizontal = handle.classList.contains('resize-handle-h');
+            const container = document.getElementById('main-container');
+            const outerWrapper = document.getElementById('outer-wrapper');
+            const isClassic = outerWrapper.classList.contains('mode-classic');
+
+            handle.classList.add('dragging');
+            document.body.classList.add(isHorizontal ? 'resizing-cols' : 'resizing-rows');
+
+            if (isClassic) {
+                handleClassicResize(e, handle, container);
+            } else {
+                handleParallelResize(e, handle, container, isHorizontal);
+            }
+        }
+
+        function handleParallelResize(startEvent, handle, container, isHorizontal) {
+            // Parallel mode: flex row with columns and handles
+            const columns = Array.from(container.querySelectorAll('.reading-column'));
+            const handleEl = handle;
+            const handleIndex = Array.from(container.children).indexOf(handleEl);
+            // Column before handle and column after handle
+            const prevCol = container.children[handleIndex - 1];
+            const nextCol = container.children[handleIndex + 1];
+            if (!prevCol || !nextCol) return;
+
+            const containerRect = container.getBoundingClientRect();
+            const startX = (startEvent.touches ? startEvent.touches[0] : startEvent).clientX;
+            const startY = (startEvent.touches ? startEvent.touches[0] : startEvent).clientY;
+            const prevStart = prevCol.getBoundingClientRect().width;
+            const nextStart = nextCol.getBoundingClientRect().width;
+
+            // Remove flex: 1 from all columns and set explicit widths
+            columns.forEach(col => {
+                const w = col.getBoundingClientRect().width;
+                col.style.flex = 'none';
+                col.style.width = w + 'px';
+            });
+
+            function onMove(e) {
+                const clientX = (e.touches ? e.touches[0] : e).clientX;
+                const dx = clientX - startX;
+                const newPrev = Math.max(100, prevStart + dx);
+                const newNext = Math.max(100, nextStart - dx);
+                prevCol.style.width = newPrev + 'px';
+                nextCol.style.width = newNext + 'px';
+            }
+
+            function onEnd() {
+                handleEl.classList.remove('dragging');
+                document.body.classList.remove('resizing-cols', 'resizing-rows');
+                document.removeEventListener('mousemove', onMove);
+                document.removeEventListener('mouseup', onEnd);
+                document.removeEventListener('touchmove', onMove);
+                document.removeEventListener('touchend', onEnd);
+            }
+
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', onEnd);
+            document.addEventListener('touchmove', onMove, {passive: false});
+            document.addEventListener('touchend', onEnd);
+        }
+
+        function handleClassicResize(startEvent, handle, container) {
+            // Classic mode uses CSS grid. We adjust grid-template-columns/rows.
+            const outerWrapper = document.getElementById('outer-wrapper');
+            const containerRect = container.getBoundingClientRect();
+            const startX = (startEvent.touches ? startEvent.touches[0] : startEvent).clientX;
+            const startY = (startEvent.touches ? startEvent.touches[0] : startEvent).clientY;
+
+            const style = getComputedStyle(container);
+            const colWidths = style.gridTemplateColumns.split(' ').map(parseFloat);
+            const rowHeights = style.gridTemplateRows.split(' ').map(parseFloat);
+
+            const handleId = handle.id;
+
+            function onMove(e) {
+                const clientX = (e.touches ? e.touches[0] : e).clientX;
+                const clientY = (e.touches ? e.touches[0] : e).clientY;
+
+                if (handleId === 'resize-f-c1') {
+                    // In classic mode this is the vertical divider between col_f (left) and c1/c2 (right)
+                    const dx = clientX - startX;
+                    const totalW = colWidths[0] + colWidths[1];
+                    const newLeft = Math.max(150, Math.min(totalW - 150, colWidths[0] + dx));
+                    const newRight = totalW - newLeft;
+                    container.style.gridTemplateColumns = newLeft + 'px ' + newRight + 'px';
+                } else if (handleId === 'resize-c1-c2') {
+                    // In classic mode this is the horizontal divider between c1 (top) and c2 (bottom)
+                    const dy = clientY - startY;
+                    const totalH = rowHeights[0] + rowHeights[1];
+                    const newTop = Math.max(80, Math.min(totalH - 80, rowHeights[0] + dy));
+                    const newBot = totalH - newTop;
+                    container.style.gridTemplateRows = newTop + 'px ' + newBot + 'px';
+                }
+            }
+
+            function onEnd() {
+                handle.classList.remove('dragging');
+                document.body.classList.remove('resizing-cols', 'resizing-rows');
+                document.removeEventListener('mousemove', onMove);
+                document.removeEventListener('mouseup', onEnd);
+                document.removeEventListener('touchmove', onMove);
+                document.removeEventListener('touchend', onEnd);
+            }
+
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', onEnd);
+            document.addEventListener('touchmove', onMove, {passive: false});
+            document.addEventListener('touchend', onEnd);
+        }
+
+        // Reset explicit sizes when switching modes
+        const origSetMode = window.setWorkspaceLayoutMode;
+        window.setWorkspaceLayoutMode = function(mode) {
+            // Reset column widths
+            document.querySelectorAll('.reading-column').forEach(col => {
+                col.style.flex = '';
+                col.style.width = '';
+            });
+            const mc = document.getElementById('main-container');
+            if (mc) {
+                mc.style.gridTemplateColumns = '';
+                mc.style.gridTemplateRows = '';
+            }
+            origSetMode(mode);
+        };
+
+        // Also handle the resize handles visibility in classic vs parallel mode
+        // In classic mode, resize-f-c1 controls columns, resize-c1-c2 controls rows
+        // We need to observe mode changes for handle orientation
+        const observer = new MutationObserver(function() {
+            const ow = document.getElementById('outer-wrapper');
+            if (!ow) return;
+            const isClassic = ow.classList.contains('mode-classic');
+            const h1 = document.getElementById('resize-f-c1');
+            const h2 = document.getElementById('resize-c1-c2');
+            if (isClassic) {
+                // In classic grid: h1 is between col_f and c1/c2 columns (still horizontal resize)
+                // h2 needs to act as vertical resize between c1 and c2 rows
+                // But since grid doesn't use flex children, we hide handles from grid flow
+                // and overlay them instead
+                if (h1) { h1.style.display = 'none'; }
+                if (h2) { h2.style.display = 'none'; }
+            } else {
+                if (h1) { h1.style.display = ''; h1.className = 'resize-handle resize-handle-h'; }
+                if (h2) { h2.style.display = ''; h2.className = 'resize-handle resize-handle-h'; }
+            }
+        });
+
+        // For classic mode, we need overlay resize handles on the grid borders
+        function createClassicOverlayHandles() {
+            const mc = document.getElementById('main-container');
+            if (!mc) return;
+
+            // Vertical handle (between left column and right column)
+            let vHandle = document.getElementById('classic-resize-col');
+            if (!vHandle) {
+                vHandle = document.createElement('div');
+                vHandle.id = 'classic-resize-col';
+                vHandle.className = 'resize-handle resize-handle-h';
+                vHandle.style.cssText = 'position:absolute; top:0; bottom:0; z-index:25;';
+                mc.style.position = 'relative';
+                mc.appendChild(vHandle);
+                vHandle.addEventListener('mousedown', classicColResize);
+                vHandle.addEventListener('touchstart', classicColResize, {passive:false});
+            }
+
+            // Horizontal handle (between c1 and c2 on the right side)
+            let hHandle = document.getElementById('classic-resize-row');
+            if (!hHandle) {
+                hHandle = document.createElement('div');
+                hHandle.id = 'classic-resize-row';
+                hHandle.className = 'resize-handle resize-handle-v';
+                hHandle.style.cssText = 'position:absolute; left:0; right:0; z-index:25;';
+                mc.appendChild(hHandle);
+                hHandle.addEventListener('mousedown', classicRowResize);
+                hHandle.addEventListener('touchstart', classicRowResize, {passive:false});
+            }
+
+            positionClassicHandles();
+        }
+
+        function positionClassicHandles() {
+            const mc = document.getElementById('main-container');
+            const colF = document.getElementById('col_f');
+            const colC1 = document.getElementById('col_c1');
+            if (!mc || !colF || !colC1) return;
+            const ow = document.getElementById('outer-wrapper');
+            if (!ow || !ow.classList.contains('mode-classic')) return;
+
+            const mcRect = mc.getBoundingClientRect();
+            const fRect = colF.getBoundingClientRect();
+            const c1Rect = colC1.getBoundingClientRect();
+
+            const vHandle = document.getElementById('classic-resize-col');
+            if (vHandle) {
+                vHandle.style.left = (fRect.right - mcRect.left - 2) + 'px';
+            }
+
+            const hHandle = document.getElementById('classic-resize-row');
+            if (hHandle) {
+                hHandle.style.top = (c1Rect.bottom - mcRect.top - 2) + 'px';
+                hHandle.style.left = (fRect.right - mcRect.left + 3) + 'px';
+                hHandle.style.right = '0';
+            }
+        }
+
+        function classicColResize(startEvent) {
+            startEvent.preventDefault();
+            const mc = document.getElementById('main-container');
+            const handle = document.getElementById('classic-resize-col');
+            handle.classList.add('dragging');
+            document.body.classList.add('resizing-cols');
+            const style = getComputedStyle(mc);
+            const colWidths = style.gridTemplateColumns.split(' ').map(parseFloat);
+            const startX = (startEvent.touches ? startEvent.touches[0] : startEvent).clientX;
+
+            function onMove(e) {
+                const clientX = (e.touches ? e.touches[0] : e).clientX;
+                const dx = clientX - startX;
+                const totalW = colWidths[0] + colWidths[1];
+                const newLeft = Math.max(150, Math.min(totalW - 150, colWidths[0] + dx));
+                const newRight = totalW - newLeft;
+                mc.style.gridTemplateColumns = newLeft + 'px ' + newRight + 'px';
+                positionClassicHandles();
+            }
+            function onEnd() {
+                handle.classList.remove('dragging');
+                document.body.classList.remove('resizing-cols');
+                document.removeEventListener('mousemove', onMove);
+                document.removeEventListener('mouseup', onEnd);
+                document.removeEventListener('touchmove', onMove);
+                document.removeEventListener('touchend', onEnd);
+            }
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', onEnd);
+            document.addEventListener('touchmove', onMove, {passive:false});
+            document.addEventListener('touchend', onEnd);
+        }
+
+        function classicRowResize(startEvent) {
+            startEvent.preventDefault();
+            const mc = document.getElementById('main-container');
+            const handle = document.getElementById('classic-resize-row');
+            handle.classList.add('dragging');
+            document.body.classList.add('resizing-rows');
+            const style = getComputedStyle(mc);
+            const rowHeights = style.gridTemplateRows.split(' ').map(parseFloat);
+            const startY = (startEvent.touches ? startEvent.touches[0] : startEvent).clientY;
+
+            function onMove(e) {
+                const clientY = (e.touches ? e.touches[0] : e).clientY;
+                const dy = clientY - startY;
+                const totalH = rowHeights[0] + rowHeights[1];
+                const newTop = Math.max(80, Math.min(totalH - 80, rowHeights[0] + dy));
+                const newBot = totalH - newTop;
+                mc.style.gridTemplateRows = newTop + 'px ' + newBot + 'px';
+                positionClassicHandles();
+            }
+            function onEnd() {
+                handle.classList.remove('dragging');
+                document.body.classList.remove('resizing-rows');
+                document.removeEventListener('mousemove', onMove);
+                document.removeEventListener('mouseup', onEnd);
+                document.removeEventListener('touchmove', onMove);
+                document.removeEventListener('touchend', onEnd);
+            }
+            document.addEventListener('mousemove', onMove);
+            document.addEventListener('mouseup', onEnd);
+            document.addEventListener('touchmove', onMove, {passive:false});
+            document.addEventListener('touchend', onEnd);
+        }
+
+        // Observe mode changes to show/hide classic overlays
+        const modeObserver = new MutationObserver(function() {
+            const ow = document.getElementById('outer-wrapper');
+            if (!ow) return;
+            const isClassic = ow.classList.contains('mode-classic');
+            const h1 = document.getElementById('resize-f-c1');
+            const h2 = document.getElementById('resize-c1-c2');
+            const ch = document.getElementById('classic-resize-col');
+            const rh = document.getElementById('classic-resize-row');
+            if (isClassic) {
+                if (h1) h1.style.display = 'none';
+                if (h2) h2.style.display = 'none';
+                createClassicOverlayHandles();
+                if (ch) ch.style.display = '';
+                if (rh) rh.style.display = '';
+                setTimeout(positionClassicHandles, 50);
+            } else {
+                if (h1) { h1.style.display = ''; }
+                if (h2) { h2.style.display = ''; }
+                if (ch) ch.style.display = 'none';
+                if (rh) rh.style.display = 'none';
+            }
+        });
+
+        // Initialize on DOM ready
+        document.addEventListener('DOMContentLoaded', function() {
+            initResizeHandles();
+            const ow = document.getElementById('outer-wrapper');
+            if (ow) {
+                modeObserver.observe(ow, { attributes: true, attributeFilter: ['class'] });
+            }
+            // Reposition classic handles on window resize
+            window.addEventListener('resize', positionClassicHandles);
+        });
+    })();
+
   </script>
 </body>
 </html>

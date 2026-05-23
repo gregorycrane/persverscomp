@@ -1,7 +1,9 @@
 # Minimum Viable Perseus (MVP) | Project Parallel Workspace
 
 ## What is being tested here?
-This prototype serves as a targeted verification environment exploring the ability to compare multiple, multilingual text sources simultaneously and side by side. It is built as part of the broader engineering research initiative hosted here: [MinimumViablePerseus](https://github.com/PerseusDLCode/MinimumViablePerseus).
+This prototype serves as a targeted verification environment exploring two distinct user interface paradigms for comparative philology and reading. It bridges the structural architecture of classic digital humanities environments with modern cognitive reading models.
+
+We are testing an optimized version of the **Traditional Perseus 4 Asymmetric View** alongside a brand new **Parallel Workspace View**. This parallel mode is explicitly engineered to eliminate textual dislocation by letting human operators line up multiple, multilingual sources completely side by side.
 
 The core philosophy driving this implementation focuses on alignment layers over monolithic distributions. By binding varying editions, codices, and historical translations to a unified **Canonical Text Services (CTS) structural grid**, we eliminate structural discrepancies ahead of display compilation.
 
