@@ -48,7 +48,7 @@
         .banner-logo-title-group { display: flex; align-items: center; gap: 12px; }
         .banner-logo-title-group h1 a { color: #fff; font-size: 16px; font-weight: bold; font-family: Georgia, serif; }
 
-        .mode-toggle-panel { display: flex; gap: 8px; }
+        .mode-toggle-panel { display: flex; gap: 8px; align-items: center; }
         .toggle-btn { background: #440000; color: #ffccaa; border: 1px solid #993333; font-size: 11px; padding: 3px 10px; border-radius: 3px; cursor: pointer; font-weight: bold; }
         .toggle-btn.active-mode { background: #fff; color: #660000; border-color: #fff; }
 
@@ -147,17 +147,24 @@
         .make-focus-btn { font-size: 10px; padding: 1px 6px; margin-left: 6px; background: rgba(255,255,255,0.2); color: #fff; border: 1px solid rgba(255,255,255,0.4); border-radius: 3px; cursor: pointer; font-weight: normal; }
         .make-focus-btn:hover { background: rgba(255,255,255,0.35); }
 
-        .toggle-btn.col4-toggle { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
-        .toggle-btn.col4-toggle.active-mode { background: #fff; color: #333; border-color: #fff; }
+        .toggle-btn.col-scaler-btn { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
 
-        #col_c3, #resize-c2-c3 { display: none; }
+        /* Flexible Multi-Column State Handling Rules */
+        #col_c3, #col_c4, #resize-c2-c3, #resize-c3-c4 { display: none; }
+        
         .four-columns #col_c3 { display: flex !important; }
         .four-columns #resize-c2-c3 { display: block !important; }
-        .four-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
 
-        #outer-wrapper.mode-classic #col_c3 { display: none; grid-column: 2; grid-row: 3; height: 100%; min-height: 0; }
+        .five-columns #col_c3, .five-columns #col_c4 { display: flex !important; }
+        .five-columns #resize-c2-c3, .five-columns #resize-c3-c4 { display: block !important; }
+
+        .four-columns.mode-parallel .reading-column,         .five-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
+
         #outer-wrapper.mode-classic.four-columns #main-container { grid-template-columns: 3fr 2fr; grid-template-rows: 1fr 1fr 1fr; }
         #outer-wrapper.mode-classic.four-columns #col_c3 { display: flex !important; border-top: 1px solid #ccc; }
+
+        #outer-wrapper.mode-classic.five-columns #main-container { grid-template-columns: 3fr 2fr; grid-template-rows: 1fr 1fr 1fr 1fr; }
+        #outer-wrapper.mode-classic.five-columns #col_c3,         #outer-wrapper.mode-classic.five-columns #col_c4 { display: flex !important; border-top: 1px solid #ccc; }
     </style>
 </head>
 <body>
@@ -192,7 +199,7 @@
         <div class="mode-toggle-panel">
             <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>
             <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
-            <button id="btn-toggle-col4" class="toggle-btn col4-toggle" onclick="toggleFourthColumn()">+Col 4</button>
+            <button id="btn-column-scaler" class="toggle-btn col-scaler-btn" onclick="cycleColumns()">Columns: 3</button>
         </div>
       </div>
       <div id="nav-bar">
@@ -257,6 +264,14 @@
             </div>
             <div class="column-content-scroll" id="content_c3"></div>
         </div>
+        <div class="resize-handle resize-handle-h" id="resize-c3-c4"></div>
+        <div class="reading-column cross-panel" id="col_c4">
+            <div class="panel-header">
+                <span>Comparison Version 4 <button class="make-focus-btn" onclick="swapToFocus('c4')">⇦ Focus</button></span>
+                <select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c4"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -272,8 +287,8 @@
     let activeUrnContext = "";
     let activeSectionFilter = null;
     let currentActiveMode = "parallel";
-    let fourthColumnActive = false;
-    let columnEditions = { f: "", c1: "", c2: "", c3: "" };
+    let activeColumnsCount = 3;
+    let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "" };
 
     initSqlJs({ locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}` }).then(SQL => {
         SQL_WASM_ENGINE = SQL;
@@ -372,7 +387,7 @@
             return meta.textgroup === tg && meta.work === wk;
         });
 
-        ['f', 'c1', 'c2', 'c3'].forEach((prefix, index) => {
+        ['f', 'c1', 'c2', 'c3', 'c4'].forEach((prefix, index) => {
             const selectEl = document.getElementById(`select_${prefix}`);
             if (!selectEl) return;
             
@@ -404,7 +419,18 @@
         columnEditions.c1 = params.get("right") || "";
         columnEditions.c2 = params.get("right2") || "";
         columnEditions.c3 = params.get("right3") || "";
-        if (params.get("cols") === "4") { setTimeout(() => toggleFourthColumn(), 0); }
+        columnEditions.c4 = params.get("right4") || "";
+
+        const colParam = params.get("cols");
+        if (colParam) {
+            activeColumnsCount = parseInt(colParam, 10) || 3;
+            setTimeout(() => {
+                const ow = document.getElementById('outer-wrapper');
+                if (activeColumnsCount === 4) ow.classList.add('four-columns');
+                if (activeColumnsCount === 5) ow.classList.add('five-columns');
+                document.getElementById('btn-column-scaler').innerText = `Columns: ${activeColumnsCount}`;
+            }, 0);
+        }
 
         if (rawParam.includes(":")) {
             const querySegments = rawParam.split(":");
@@ -429,7 +455,7 @@
         }
 
         const workPrefix = activeWorkKey.split(".")[1];
-        ['f', 'c1', 'c2', 'c3'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3', 'c4'].forEach(prefix => {
             const currentEd = columnEditions[prefix];
             if (currentEd && TEXT_REGISTRY[currentEd] && TEXT_REGISTRY[currentEd].work !== workPrefix) {
                 columnEditions[prefix] = ""; 
@@ -476,7 +502,8 @@
         if (columnEditions.c1) params.set("right", columnEditions.c1);
         if (columnEditions.c2) params.set("right2", columnEditions.c2);
         if (columnEditions.c3) params.set("right3", columnEditions.c3);
-        if (fourthColumnActive) params.set("cols", "4");
+        if (columnEditions.c4) params.set("right4", columnEditions.c4);
+        params.set("cols", activeColumnsCount.toString());
 
         window.history.replaceState(null, "", window.location.pathname + "?" + params.toString());
     }
@@ -519,7 +546,7 @@
                 a.onclick = () => {
                     activeSectionFilter = null; 
                     activeWorkKey = wKey;
-                    columnEditions = { f: "", c1: "", c2: "", c3: "" };
+                    columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "" };
                     
                     if (isFlatStructure(wKey)) {
                         triggerTargetNavigation(null, GLOBAL_STRUCTURES[wKey][0]);
@@ -600,7 +627,7 @@
     }
 
     function renderActiveContentLayers(payload) {
-        ['f', 'c1', 'c2', 'c3'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3', 'c4'].forEach(prefix => {
             const targetContainer = document.getElementById(`content_${prefix}`);
             if (!targetContainer) return;
             targetContainer.innerHTML = "";
@@ -690,10 +717,14 @@
         const btnClassic = document.getElementById("btn-mode-classic");
         
         if (mode === 'classic') {
-            frame.className = "mode-classic" + (fourthColumnActive ? " four-columns" : "");
+            frame.className = "mode-classic";
+            if (activeColumnsCount === 4) frame.classList.add('four-columns');
+            if (activeColumnsCount === 5) frame.classList.add('five-columns');
             btnClassic.classList.add("active-mode"); btnParallel.classList.remove("active-mode");
         } else {
-            frame.className = "mode-parallel" + (fourthColumnActive ? " four-columns" : "");
+            frame.className = "mode-parallel";
+            if (activeColumnsCount === 4) frame.classList.add('four-columns');
+            if (activeColumnsCount === 5) frame.classList.add('five-columns');
             btnParallel.classList.add("active-mode"); btnClassic.classList.remove("active-mode");
         }
         
@@ -701,15 +732,20 @@
         triggerViewRefresh();
     };
   
-    window.toggleFourthColumn = function() {
-        fourthColumnActive = !fourthColumnActive;
-        const btn = document.getElementById('btn-toggle-col4');
+    window.cycleColumns = function() {
+        if (activeColumnsCount === 3) activeColumnsCount = 4;
+        else if (activeColumnsCount === 4) activeColumnsCount = 5;
+        else activeColumnsCount = 3;
+
+        const btn = document.getElementById('btn-column-scaler');
         const ow = document.getElementById('outer-wrapper');
-        if (fourthColumnActive) {
-            ow.classList.add('four-columns'); btn.classList.add('active-mode'); btn.innerText = '−Col 4';
-        } else {
-            ow.classList.remove('four-columns'); btn.classList.remove('active-mode'); btn.innerText = '+Col 4';
-        }
+        
+        ow.classList.remove('four-columns', 'five-columns');
+        btn.innerText = `Columns: ${activeColumnsCount}`;
+        
+        if (activeColumnsCount === 4) ow.classList.add('four-columns');
+        if (activeColumnsCount === 5) ow.classList.add('five-columns');
+        
         updateClassicGridForColumns();
         triggerViewRefresh();
     };
@@ -718,7 +754,10 @@
         const ow = document.getElementById('outer-wrapper');
         const colF = document.getElementById('col_f');
         if (!ow || !ow.classList.contains('mode-classic')) return;
-        colF.style.gridRow = fourthColumnActive ? '1 / span 3' : '1 / span 2';
+        
+        if (activeColumnsCount === 5) colF.style.gridRow = '1 / span 4';
+        else if (activeColumnsCount === 4) colF.style.gridRow = '1 / span 3';
+        else colF.style.gridRow = '1 / span 2';
     }
 
     window.swapToFocus = function(sourcePrefix) {
@@ -892,16 +931,20 @@
 
         const modeObserver = new MutationObserver(function() {
             const isClassic = document.getElementById('outer-wrapper')?.classList.contains('mode-classic');
-            const h1 = document.getElementById('resize-f-c1'); const h2 = document.getElementById('resize-c1-c2'); const h3 = document.getElementById('resize-c2-c3');
+            const h1 = document.getElementById('resize-f-c1'); const h2 = document.getElementById('resize-c1-c2'); 
+            const h3 = document.getElementById('resize-c2-c3'); const h4 = document.getElementById('resize-c3-c4');
             const ch = document.getElementById('classic-resize-col'); const rh = document.getElementById('classic-resize-row');
             
             if (isClassic) {
-                if (h1) h1.style.display = 'none'; if (h2) h2.style.display = 'none'; if (h3) h3.style.display = 'none';
+                if (h1) h1.style.display = 'none'; if (h2) h2.style.display = 'none'; 
+                if (h3) h3.style.display = 'none'; if (h4) h4.style.display = 'none';
                 createClassicOverlayHandles();
                 if (ch) ch.style.display = ''; if (rh) rh.style.display = '';
                 setTimeout(positionClassicHandles, 50);
             } else {
-                if (h1) h1.style.display = ''; if (h2) h2.style.display = ''; if (h3) h3.style.display = fourthColumnActive ? '' : 'none';
+                if (h1) h1.style.display = ''; if (h2) h2.style.display = ''; 
+                if (h3) h3.style.display = activeColumnsCount >= 4 ? '' : 'none';
+                if (h4) h4.style.display = activeColumnsCount === 5 ? '' : 'none';
                 if (ch) ch.style.display = 'none'; if (rh) rh.style.display = 'none';
             }
         });
