@@ -176,12 +176,15 @@
           </div>
 
           <div class="file-upload-zone" id="drop-zone">
-              <strong style="color: #660000; font-family: Georgia, serif; font-size: 16px;">Mount Local Data Asset</strong><br/>
+              <strong style="color: #660000; font-family: Georgia, serif; font-size: 16px;">To start, click here and load "corpus_alignment_grid.db"</strong><br/>
               <span style="font-size: 12px; color: #555; display: inline-block; margin-top: 8px;">Drag & Drop `corpus_alignment_grid.db` here, or click to browse files</span>
               <input type="file" id="file-picker" class="file-input-hidden" accept=".db" onchange="handleFileSelection(this.files)"/>
           </div>
           
           <div id="status-readout" style="font-size: 11px; color: #777; font-style: italic; margin-bottom: 15px;">Awaiting compilation asset attachment...</div>
+          
+          <button id="start-reading-btn" onclick="launchReadingEnvironment()" style="display:none; margin: 25px auto; padding: 14px 36px; background: #660000; color: #fff; border: none; border-radius: 4px; font-size: 16px; font-family: Georgia, serif; font-weight: bold; cursor: pointer; letter-spacing: 0.5px; transition: background 0.2s ease;" onmouseover="this.style.background='#440000'" onmouseout="this.style.background='#660000'">Start Reading Environment</button>
+          
           <div id="manifesto-render-target"></div>
       </div>
   </div>
@@ -305,10 +308,9 @@
                 const uInt8Array = new Uint8Array(buffer);
                 dbInstance = new SQL_WASM_ENGINE.Database(uInt8Array);
                 
-                document.getElementById("splash-view-root").style.display = "none";
-                document.getElementById("app-view-root").style.display = "flex";
-                
-                initializeRoutingFromURL();
+                document.getElementById("status-readout").innerText = "Database loaded successfully. Ready to launch.";
+                document.getElementById("drop-zone").style.display = "none";
+                document.getElementById("start-reading-btn").style.display = "inline-block";
             })
             .catch(err => {
                 console.warn(err.message);
@@ -319,6 +321,13 @@
         console.error(err);
         document.getElementById("status-readout").innerText = "WebAssembly core initialization error.";
     });
+
+    function launchReadingEnvironment() {
+        if (!dbInstance) return;
+        document.getElementById("splash-view-root").style.display = "none";
+        document.getElementById("app-view-root").style.display = "flex";
+        initializeRoutingFromURL();
+    }
 
     function handleFileSelection(files) {
         if (!files || files.length === 0 || !SQL_WASM_ENGINE) return;
