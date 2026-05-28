@@ -1,4 +1,4 @@
-# Minimum Viable Perseus (MVP) | Project Parallel Workspace
+# Perseus Serverless Version Browser (Prototype) | Project Parallel Workspace
 
 ## Infrastructure Sustainability Paradigm
 Rather than relying on continuous, monolithic server daemons or generating hundreds of thousands of fragmented, static JavaScript segment chunks over a fragile local filesystem, true architectural sustainability demands a **decentralized serverless delivery network**. 
