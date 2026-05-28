@@ -86,17 +86,60 @@
         #outer-wrapper.mode-parallel .reading-column { flex: 1; height: 100%; }
         #outer-wrapper.mode-parallel #classic-left-rail { display: none; }
 
-        #outer-wrapper.mode-classic #classic-left-rail { display: block; }
+/* --- Fixed Classic Asymmetric Layout Rules --- */
+        #outer-wrapper.mode-classic #classic-left-rail { 
+            display: block; 
+        }
         #outer-wrapper.mode-classic #main-container { 
             display: grid; 
-            grid-template-columns: 3fr 2fr; 
-            grid-template-rows: 1fr 1fr; 
-            height: 100%; width: 100%;
+            grid-template-columns: 3fr 2fr; /* Left Focus vs Right Sidebar */
+            height: 100%; 
+            width: 100%;
+            overflow: hidden; /* Lock the wrapper frame from scrolling globally */
         }
-        #outer-wrapper.mode-classic #col_f { grid-column: 1; grid-row: 1 / span 2; border-right: 2px solid #ccc; height: 100%; min-height: 0; }
-        #outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; height: 100%; min-height: 0; border-bottom: 1px solid #ccc; }
-        #outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; height: 100%; min-height: 0; border-top: 1px solid #ccc; }
 
+        /* Force Focus Column to anchor left and scroll internally */
+        #outer-wrapper.mode-classic #col_f { 
+            grid-column: 1; 
+            border-right: 2px solid #ccc; 
+            height: 100%; 
+            display: flex;
+            flex-direction: column;
+            min-height: 0; 
+        }
+        #outer-wrapper.mode-classic #col_f .column-content-scroll {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        /* Sidebar Stack: Force internal scroll boxes for every version panel */
+        #outer-wrapper.mode-classic .reading-column.cross-panel {
+            display: flex;
+            flex-direction: column;
+            min-height: 0; /* CRITICAL: Allows flex items to shrink below text height */
+            border-bottom: 1px solid #ccc;
+        }
+        #outer-wrapper.mode-classic .reading-column.cross-panel .column-content-scroll {
+            flex: 1;
+            overflow-y: auto; /* Each version panel now handles its own scrolling text */
+        }
+
+        /* Explicit Column Position Assigments */
+        #outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; }
+        #outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; }
+        #outer-wrapper.mode-classic #col_c3 { grid-column: 2; grid-row: 3; }
+        #outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; border-bottom: none; }
+
+        /* Proportionate Grid Row Allocation */
+        #outer-wrapper.mode-classic:not(.four-columns):not(.five-columns) #main-container {
+            grid-template-rows: 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.four-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.five-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
         /* Typographic Content Rendering Elements */
         .section-row { border-bottom: 1px solid #f0f0f0; padding: 10px 0; display: block; scroll-margin-top: 5px; }
         .section-row.hidden-section { display: none !important; }
@@ -185,12 +228,42 @@
 
         .four-columns.mode-parallel .reading-column,         .five-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
 
-        #outer-wrapper.mode-classic.four-columns #main-container { grid-template-columns: 3fr 2fr; grid-template-rows: 1fr 1fr 1fr; }
-        #outer-wrapper.mode-classic.four-columns #col_c3 { display: flex !important; border-top: 1px solid #ccc; }
+/* Fixed Classic Asymmetric Layout Rules */
+#outer-wrapper.mode-classic #classic-left-rail { 
+    display: block; 
+}
+#outer-wrapper.mode-classic #main-container { 
+    display: grid; 
+    grid-template-columns: 3fr 2fr; /* Focus column vs Right sidebar stack */
+    height: 100%; 
+    width: 100%;
+}
 
-        #outer-wrapper.mode-classic.five-columns #main-container { grid-template-columns: 3fr 2fr; grid-template-rows: 1fr 1fr 1fr 1fr; }
-        #outer-wrapper.mode-classic.five-columns #col_c3,         #outer-wrapper.mode-classic.five-columns #col_c4 { display: flex !important; border-top: 1px solid #ccc; }
-    </style>
+/* Force Focus Column to always occupy the first column and stretch the full row height */
+#outer-wrapper.mode-classic #col_f { 
+    grid-column: 1; 
+    border-right: 2px solid #ccc; 
+    height: 100%; 
+    min-height: 0; 
+}
+
+/* Sidebar Stack Assignments */
+#outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; border-bottom: 1px solid #ccc; }
+#outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; border-bottom: 1px solid #ccc; }
+#outer-wrapper.mode-classic #col_c3 { grid-column: 2; grid-row: 3; border-bottom: 1px solid #ccc; }
+#outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; }
+
+/* Dynamic Row Definitions based on Column count configuration */
+#outer-wrapper.mode-classic:not(.four-columns):not(.five-columns) #main-container {
+    grid-template-rows: 1fr 1fr;
+}
+#outer-wrapper.mode-classic.four-columns #main-container {
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#outer-wrapper.mode-classic.five-columns #main-container {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+</style>
 </head>
 <body>
 
@@ -857,16 +930,19 @@
         triggerViewRefresh();
     };
 
-    function updateClassicGridForColumns() {
-        const ow = document.getElementById('outer-wrapper');
-        const colF = document.getElementById('col_f');
-        if (!ow || !ow.classList.contains('mode-classic')) return;
-        
-        if (activeColumnsCount === 5) colF.style.gridRow = '1 / span 4';
-        else if (activeColumnsCount === 4) colF.style.gridRow = '1 / span 3';
-        else colF.style.gridRow = '1 / span 2';
+function updateClassicGridForColumns() {
+    const ow = document.getElementById('outer-wrapper');
+    const colF = document.getElementById('col_f');
+    if (!ow || !colF || !ow.classList.contains('mode-classic')) return;
+    
+    if (activeColumnsCount === 5) {
+        colF.style.gridRow = '1 / span 4';
+    } else if (activeColumnsCount === 4) {
+        colF.style.gridRow = '1 / span 3';
+    } else {
+        colF.style.gridRow = '1 / span 2';
     }
-
+}
     window.swapToFocus = function(sourcePrefix) {
         const focusEdition = columnEditions['f'];
         const sourceEdition = columnEditions[sourcePrefix];
@@ -1035,25 +1111,49 @@
             document.addEventListener('mousemove', onMove); document.addEventListener('mouseup', onEnd);
         }
 
-        const modeObserver = new MutationObserver(function() {
+const modeObserver = new MutationObserver(function() {
             const isClassic = document.getElementById('outer-wrapper')?.classList.contains('mode-classic');
             const h1 = document.getElementById('resize-f-c1'); const h2 = document.getElementById('resize-c1-c2'); 
             const h3 = document.getElementById('resize-c2-c3'); const h4 = document.getElementById('resize-c3-c4');
             const ch = document.getElementById('classic-resize-col'); const rh = document.getElementById('classic-resize-row');
             
             if (isClassic) {
+                // Hide parallel framework handles
                 if (h1) h1.style.display = 'none'; if (h2) h2.style.display = 'none'; if (h3) h3.style.display = 'none'; if (h4) h4.style.display = 'none';
+                
+                // Initialize the classic layout overlay handles
                 createClassicOverlayHandles();
-                if (ch) ch.style.display = ''; if (rh) rh.style.display = '';
+                
+                // ALWAYS display the width resizing handle so you can adjust focus panel scale
+                if (ch) ch.style.display = ''; 
+                
+                if (activeColumnsCount === 3) {
+                    // Turn on row height tracking only for a single comparison stack divider
+                    if (rh) rh.style.display = '';
+                } else {
+                    // Turn off row height tracking for multi-stacks to let CSS flex-shrink scale evenly
+                    if (rh) rh.style.display = 'none';
+                    
+                    // Crucial: Clear ONLY row heights override, preserving column widths tracking
+                    const mc = document.getElementById('main-container');
+                    if (mc) {
+                        const currentStyle = mc.style.gridTemplateColumns;
+                        mc.style.gridTemplateRows = ''; 
+                        if (currentStyle) {
+                            mc.style.gridTemplateColumns = currentStyle;
+                        }
+                    }
+                }
                 setTimeout(positionClassicHandles, 50);
             } else {
+                // Return to default handling states for standard parallel grid layout
                 if (h1) h1.style.display = ''; if (h2) h2.style.display = ''; 
                 if (h3) h3.style.display = activeColumnsCount >= 4 ? '' : 'none';
                 if (h4) h4.style.display = activeColumnsCount === 5 ? '' : 'none';
                 if (ch) ch.style.display = 'none'; if (rh) rh.style.display = 'none';
             }
         });
-
+        
         document.addEventListener('DOMContentLoaded', function() {
             initResizeHandles();
             const ow = document.getElementById('outer-wrapper');
