@@ -228,6 +228,21 @@
         .tb-feat-k { font-family:"Courier New",monospace; font-size:10px; color:#aaa; }
         .tb-feat-v { font-family:"Courier New",monospace; font-size:10px; }
         .tb-feats  { font-size:11px; line-height:1.8; }
+        /* Section focus: dim out-of-scope sentences (mirrors hidden-section on other columns) */
+        .tb-sent-dimmed { display: none !important; }
+
+        /* Clickable citation label */
+        .tb-cit-label a { color: #aaa; text-decoration: none; font-family: "Courier New",monospace; font-size: 10px; }
+        .tb-cit-label a:hover { color: #660000; text-decoration: underline; }
+
+        /* Literal translation word spans */
+        .tb-lit-word { display:inline; border-radius:2px; transition:background 0.12s, outline 0.12s; }
+        .tb-lit-word.tb-lit-active {
+            background: #fff3b0;
+            outline: 1px solid #c8a800;
+            outline-offset: 1px;
+            font-weight: bold;
+        }
 
         .viewport-footer-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; width: 100%; clear: both; }
         .poetry-grid-layout .viewport-footer-controls { grid-column: 1 / span 2; display: flex !important; }
@@ -847,6 +862,20 @@
     }
 
     // ── Treebank column renderer ──────────────────────────────────────────────
+    // Determine whether a treebank sentence belongs to the active section filter.
+    // Prose works: section filter is a sentence-number within the chapter (e.g. "4").
+    //   subdoc = "6.4"  →  chapter="6", section="4"  →  match when filter==="4"
+    // Poetry works: section filter is the card-range label (e.g. "1-50").
+    //   sent.chapter is already the card label  →  match when filter===sent.chapter
+    function tbSentMatchesSection(sent, filter, isPoetry) {
+        if (!filter) return true;
+        if (isPoetry) {
+            return sent.chapter === filter;
+        } else {
+            return sent.section === filter;
+        }
+    }
+
     function renderTreebankColumn(container, activeEditionMeta, payload) {
         const wKey = activeWorkKey;
         const vid  = activeEditionMeta.short_id;
@@ -857,8 +886,8 @@
             return;
         }
         const chapter = payload.chapter;
-        const sentences = chapterData[chapter] || [];
-        if (sentences.length === 0) {
+        const allSentences = chapterData[chapter] || [];
+        if (allSentences.length === 0) {
             container.innerHTML = '<p style="color:#999;font-style:italic;padding:12px">No treebank sentences for chapter ' + chapter + '.</p>';
             return;
         }
@@ -866,15 +895,24 @@
         const isPoetry = isPoetryWork(wKey);
         container.innerHTML = '';
 
-        sentences.forEach(sent => {
-            const block = document.createElement('div');
-            block.className = 'tb-sentence-block';
-            block.dataset.subdoc = sent.subdoc;
+        // Section filter: hide sentences outside the active section,
+        // matching the same activeSectionFilter used by other columns.
+        const filter = activeSectionFilter;
 
-            // Citation label
+        allSentences.forEach(sent => {
+            const inFocus = tbSentMatchesSection(sent, filter, isPoetry);
+            const block = document.createElement('div');
+            block.className = 'tb-sentence-block' + (inFocus ? '' : ' tb-sent-dimmed');
+            block.dataset.subdoc = sent.subdoc;
+            block.dataset.section = sent.section;
+            block.dataset.chapter = sent.chapter;
+
+            // Citation label — clicking it focuses that section (like prose-marker)
             const citEl = document.createElement('div');
             citEl.className = 'tb-cit-label';
-            citEl.textContent = sent.subdoc;
+            citEl.innerHTML = `<a href="javascript:void(0)" onclick="selectSectionDirectly('${
+                isPoetry ? sent.chapter : sent.section
+            }')" title="Focus this sentence">${sent.subdoc}</a>`;
             block.appendChild(citEl);
 
             // Speaker (drama only)
@@ -899,12 +937,13 @@
                     span.addEventListener('click', (e) => {
                         e.stopPropagation();
                         const wasActive = span.classList.contains('tb-active');
-                        // Clear all in this block
+                        // Clear tokens, literal highlights, and detail panel
                         block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
+                        block.querySelectorAll('.tb-lit-word').forEach(s => s.classList.remove('tb-lit-active'));
                         block.querySelector('.tb-detail-panel').innerHTML = '';
                         block.querySelector('.tb-detail-panel').classList.remove('tb-detail-visible');
                         if (wasActive) return;
-                        // Highlight
+                        // Highlight clicked token
                         span.classList.add('tb-active');
                         if (tok.head > 0) {
                             const headSpan = tokRow.querySelector(`[data-tok-id="${tok.head}"]`);
@@ -914,6 +953,8 @@
                             const depSpan = tokRow.querySelector(`[data-tok-id="${dep.id}"]`);
                             if (depSpan) depSpan.classList.add('tb-is-dep');
                         });
+                        // Highlight matching literal word(s)
+                        tbHighlightLiteral(block, alignment, tok.id, true);
                         // Populate detail panel
                         const headTok = tok.head > 0 ? sent.tokens.find(t => t.id === tok.head) : null;
                         const depToks = sent.tokens.filter(t => t.head === tok.id && t.upos !== 'PUNCT');
@@ -927,12 +968,18 @@
             });
             block.appendChild(tokRow);
 
-            // Translation
+            // Build literal alignment map for this sentence
+            const litWords   = tbTokeniseLiteral(sent.literal);
+            const alignment  = tbBuildAlignment(sent.tokens, litWords);
+
+            // Translation block — literal words get individual <span> elements
             if (sent.prose || sent.literal) {
                 const trans = document.createElement('div');
                 trans.className = 'tb-translation';
-                if (sent.prose)   trans.innerHTML += `<div class="tb-trans-prose"><span class="tb-trans-label">Translation</span> ${escHtml(sent.prose)}</div>`;
-                if (sent.literal) trans.innerHTML += `<div class="tb-trans-lit"><span class="tb-trans-label">Literal</span> ${escHtml(sent.literal)}</div>`;
+                if (sent.prose)
+                    trans.innerHTML += `<div class="tb-trans-prose"><span class="tb-trans-label">Translation</span> ${escHtml(sent.prose)}</div>`;
+                if (sent.literal)
+                    trans.innerHTML += `<div class="tb-trans-lit"><span class="tb-trans-label">Literal</span> ${tbLiteralHtml(litWords)}</div>`;
                 block.appendChild(trans);
             }
 
@@ -943,12 +990,165 @@
 
             block.addEventListener('click', () => {
                 block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
+                block.querySelectorAll('.tb-lit-word').forEach(s => s.classList.remove('tb-lit-active'));
                 detailPanel.innerHTML = '';
                 detailPanel.classList.remove('tb-detail-visible');
             });
 
             container.appendChild(block);
         });
+
+        // Scroll focused sentence into view when filter is active
+        if (filter) {
+            const focused = container.querySelector('.tb-sentence-block:not(.tb-sent-dimmed)');
+            if (focused) focused.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Footer — mirrors the other columns
+        const footer = document.createElement('div');
+        footer.className = 'viewport-footer-controls';
+        let prevBtnHtml = '', nextBtnHtml = '';
+        if (payload.navigation && payload.navigation.prev) {
+            const prevParts = payload.navigation.prev.split(':');
+            const prevPsg   = prevParts[prevParts.length - 1].split('.');
+            const label     = isPoetry ? 'Chapter' : (isFlatStructure(wKey) ? `Ch ${prevPsg[0]}` : `Bk ${prevPsg[0]} Ch ${prevPsg[1]}`);
+            prevBtnHtml = `<a class="action-btn" onclick="navigateAdjacentUrn('${payload.navigation.prev}')">&larr; Previous (${label})</a>`;
+        }
+        if (payload.navigation && payload.navigation.next) {
+            const nextParts = payload.navigation.next.split(':');
+            const nextPsg   = nextParts[nextParts.length - 1].split('.');
+            const label     = isPoetry ? 'Chapter' : (isFlatStructure(wKey) ? `Ch ${nextPsg[0]}` : `Bk ${nextPsg[0]} Ch ${nextPsg[1]}`);
+            nextBtnHtml = `<a class="action-btn" onclick="navigateAdjacentUrn('${payload.navigation.next}')">Next (${label}) &rarr;</a>`;
+        }
+        footer.innerHTML = `
+            <div class="footer-group-left">
+                ${prevBtnHtml}
+                <a href="javascript:void(0)" class="action-btn secondary" onclick="clearSectionFilter(event)">Full View</a>
+            </div>
+            ${nextBtnHtml}
+        `;
+        container.appendChild(footer);
+    }
+
+    // ── Literal-translation alignment ─────────────────────────────────────────
+    // Normalise a string: lowercase, strip punctuation, expand hyphens to spaces.
+    function tbNorm(s) {
+        if (!s) return '';
+        return s.toLowerCase()
+                .replace(/[\[\]()’.,;:?!·;]/g, '')
+                .replace(/-/g, ' ')
+                .trim();
+    }
+
+    // Tokenise a literal translation string into an array of word objects:
+    //   { orig, norm, idx }
+    // Hyphenated compounds are split and each sub-word maps back to the same
+    // original word index so highlighting lands on the whole compound.
+    function tbTokeniseLiteral(literal) {
+        if (!literal) return [];
+        const words = [];
+        literal.split(/\s+/).forEach((orig, i) => {
+            // Strip leading/trailing punctuation for the norm but keep orig intact
+            const norm = tbNorm(orig);
+            // A hyphenated compound like "with-colors" yields the compound word
+            // as one entry but also registers sub-words for matching purposes
+            words.push({ orig, norm, idx: i, subwords: norm.split(' ') });
+        });
+        return words;
+    }
+
+    // Build a token→literal-word-indices mapping for one sentence.
+    // Returns Map<tokenId, {start, end}> where start/end are indices into litWords.
+    // Uses sequential (order-preserving) matching so common words (και, δε…) each
+    // get the NEXT available occurrence rather than always the first.
+    function tbBuildAlignment(tokens, litWords) {
+        const alignment = new Map();
+        if (!litWords || litWords.length === 0) return alignment;
+
+        let cursor = 0;          // next litWords position to search from
+        const n = litWords.length;
+
+        tokens.forEach(tok => {
+            if (!tok.gloss || tok.upos === 'PUNCT' || tok.upos === '_') return;
+
+            const gWords = tbNorm(tok.gloss).split(/\s+/).filter(Boolean);
+            if (gWords.length === 0) return;
+            const m = gWords.length;
+
+            // Helper: does litWords window [i, i+m) match gWords?
+            const windowMatch = (i) => {
+                if (i + m > n) return false;
+                for (let j = 0; j < m; j++) {
+                    const litNorms = litWords[i + j].subwords; // handles hyphenation
+                    if (!litNorms.includes(gWords[j])) return false;
+                }
+                return true;
+            };
+
+            // 1. Exact forward match from cursor
+            let found = -1;
+            for (let i = cursor; i <= n - m; i++) {
+                if (windowMatch(i)) { found = i; break; }
+            }
+
+            // 2. Single-word: search full string from cursor
+            if (found < 0 && m === 1) {
+                for (let i = cursor; i < n; i++) {
+                    if (litWords[i].subwords.includes(gWords[0])) { found = i; break; }
+                }
+            }
+
+            // 3. Best partial match from cursor (≥50% words hit, at least 1 content word)
+            if (found < 0 && m > 1) {
+                let bestScore = 0, bestI = -1;
+                for (let i = cursor; i <= n - m; i++) {
+                    let hits = 0;
+                    for (let j = 0; j < m; j++) {
+                        if (litWords[i+j].subwords.includes(gWords[j])) hits++;
+                    }
+                    const score = hits / m;
+                    if (score > bestScore && score >= 0.5) { bestScore = score; bestI = i; }
+                }
+                if (bestI >= 0) found = bestI;
+            }
+
+            // 4. Fallback: search anywhere (for function words already passed)
+            if (found < 0) {
+                for (let i = 0; i <= n - m; i++) {
+                    if (windowMatch(i)) { found = i; break; }
+                }
+            }
+            if (found < 0 && m === 1) {
+                for (let i = 0; i < n; i++) {
+                    if (litWords[i].subwords.includes(gWords[0])) { found = i; break; }
+                }
+            }
+
+            if (found >= 0) {
+                alignment.set(tok.id, { start: found, end: found + m - 1 });
+                // Only advance cursor for forward matches so ordering is preserved
+                if (found >= cursor) cursor = found + m;
+            }
+        });
+
+        return alignment;
+    }
+
+    // Build the literal translation HTML, wrapping each word in a <span data-li="N">.
+    function tbLiteralHtml(litWords) {
+        return litWords.map((w, i) =>
+            `<span class="tb-lit-word" data-li="${i}">${escHtml(w.orig)}</span>`
+        ).join(' ');
+    }
+
+    // Highlight/clear literal words for a given token.
+    function tbHighlightLiteral(block, alignment, tokId, on) {
+        const span = alignment.get(tokId);
+        if (!span) return;
+        for (let i = span.start; i <= span.end; i++) {
+            const el = block.querySelector(`.tb-lit-word[data-li="${i}"]`);
+            if (el) el.classList.toggle('tb-lit-active', on);
+        }
     }
 
     function renderTokenDetail(tok, headTok, depToks) {
