@@ -1,4 +1,16 @@
-# Perseus Serverless Version Browser (Prototype) | Project Parallel Workspace
+# Perseus 6 -- Serverless Prototype
+
+Our goal is to provide public facing versions of the Perseus Digital Library that can run for as long as possible with minimal -- and ideally no -- changes. The Canadian [Endings Project](https://endings.uvic.ca/) provided an initial inspiration for this work but it was not clear to me whether this approach could accommodate the demands of the Perseus Digital Library. In his contributions to the Ajax Multicommentary Project, Charles Pletcher, however, created a [minimal computing version of this challenging philological use case](https://multi.ajmc.ch/passages/urn:cts:greekLit:tlg0011.tlg003:1-133). Pletcher's work made it clear that we could build every feature of the Perseus Digital Library, current and planned, in format that Tufts could serve far more easily than the traditional serverb-based versions of Perseus and that was designed to run, securely and without modification,for a long period of time. 
+
+In summer 2026, there are two serverless Perseus efforts. Peter Nadel, Charles Pletcher, and Clifford Wulfman are working on a Minimum Viable Perseus (MVP) -- essentially a replacement for Perseus 4: the Hopper, a version that David Mimno first designed in 2003, that was developed through 2013 and has been running on virtual servers unchanged ever since. Minimum Viable Perseus aims to provide the functionality of Perseus 4 for all Perseus textual data -- essentially, MVP provides a streamlined digital library that can be updated and expanded over time.
+
+In 2018, support from the Alexander von Humboldt Foundation allowed us to create Perseus 5: the Scaife Viewer. Scaife did not fully replicate the core functionality of Perseus 4 - it did not include the morphological services, dictionary lookups or commentaries that Scaife now supports -- but it did provide us with scalable reading environment that we could update and expand. 
+
+Support from the Mellon Foundation, Harvard's Center for Hellenic Studies, the National Endowment for the Humanities, and Tufts University allowed us to prototype a next generation version of the Perseus Digital Library, one that built on the 2018 Scaife Viewer. Support from Schmidt Sciences has allowed us to carry this work forward and to build this experimental serverless implementation.
+
+An NEH-funded project to create a digital edition of Aristotle's Poetics in Greek, Arabic and Latin has the driving force behind this particular effort to build a Perseus 6. We needed to be able to compare multiple versions of the Poetics, to include commentaries, to show word and phrase alignments between source texts and translations and to provide the rich linguistic annotations that treebanks in Greek, Latin and other languages have begun to make available.
+
+
 
 ## Infrastructure Sustainability Paradigm
 Rather than relying on continuous, monolithic server daemons or generating hundreds of thousands of fragmented, static JavaScript segment chunks over a fragile local filesystem, true architectural sustainability demands a **decentralized serverless delivery network**. 
