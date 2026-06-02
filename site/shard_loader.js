@@ -20,17 +20,14 @@ function parseCtsUrn(urn) {
              workKey: `${m[2]}.${m[3]}` };
 }
 
-// Deterministic: the CTS namespace IS the routing. No catalog lookup needed.
-function shardPathFor(textClass, textgroup, work) {
-    return `${DATA_DIR}/${textClass}/${textgroup}/${work}/${textgroup}.${work}.db`;
+// FLAT layout: data/<textgroup>/<work>/<tg>.<wk>.db. The path is fully
+// determined by the work key alone — no namespace tier, no catalog lookup.
+function shardPathFor(textgroup, work) {
+    return `${DATA_DIR}/${textgroup}/${work}/${textgroup}.${work}.db`;
 }
 function shardPathForWorkKey(workKey) {
-    // text_class isn't in the workKey, so use the catalog when available,
-    // else fall back to probing greekLit/latinLit.
-    const entry = CATALOG && CATALOG.works[workKey];
     const [tg, wk] = workKey.split(".");
-    if (entry) return shardPathFor(entry.text_class, tg, wk);
-    return null; // caller should resolve via URN (which carries text_class)
+    return shardPathFor(tg, wk);
 }
 
 async function loadCatalog() {
@@ -47,7 +44,6 @@ async function getDbForWork(workKey, shardPathHint) {
     if (SHARD_INFLIGHT.has(workKey)) return SHARD_INFLIGHT.get(workKey);
 
     const path = shardPathHint || shardPathForWorkKey(workKey);
-    if (!path) throw new Error(`No shard path for ${workKey} (load catalog or pass a URN)`);
 
     const p = (async () => {
         const resp = await fetch(`./${path}`);
@@ -100,7 +96,7 @@ function metricalForChapter(db, version, chapter) {
 async function routeToUrn(urn) {
     const parsed = parseCtsUrn(urn);
     if (!parsed) throw new Error("Unparseable CTS URN: " + urn);
-    const path = shardPathFor(parsed.textClass, parsed.textgroup, parsed.work);
+    const path = shardPathFor(parsed.textgroup, parsed.work);
     const db = await getDbForWork(parsed.workKey, path);
     window.dbInstance = db;          // existing text_segments / grid queries now hit the shard
     return { parsed, db };
