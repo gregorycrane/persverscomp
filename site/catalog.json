@@ -1,16 +1,9 @@
 {
- "generated": "2026-06-02T16:19:44Z",
- "monolith": "corpus_alignment_grid.db",
- "data_dir": "data",
- "page_size": 4096,
  "works": {
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "namespace": "greekLit",
-   "label": "English (C. F. Smith, 1919)",
-   "shard": "data/tlg0003/tlg001/tlg0003.tlg001.db",
-   "bytes": 20107264,
+   "bytes": 26828800,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -32,6 +25,27 @@
      "label": "English (Henry Dale, 1851)",
      "doc_type": "translation",
      "text_class": "english-text"
+    },
+    {
+     "short_id": "perseus-eng4",
+     "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng4",
+     "label": "English (Thomas Hobbes, 1843)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "perseus-eng6",
+     "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng6",
+     "label": "English (R. Crawley, 1914)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "1st1k-fre1",
+     "urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-fre1",
+     "label": "French (E. Bétant, 1863)",
+     "doc_type": "translation",
+     "text_class": "french-text"
     },
     {
      "short_id": "1st1K-fre2",
@@ -76,43 +90,68 @@
      "text_class": "italian-text"
     },
     {
-     "short_id": "1st1k-fre1",
-     "urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-fre1",
-     "label": "French (E. Bétant, 1863)",
-     "doc_type": "translation",
-     "text_class": "french-text"
-    },
-    {
      "short_id": "1st1k-lat2",
      "urn": "urn:cts:greekLit:tlg0003.tlg001.1st1k-lat2",
      "label": "Latin (Fr. Haase, 1869)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    }
+   ],
+   "annotations": {
+    "treebanks": 0,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "English (C. F. Smith, 1919)"
+  },
+  "tlg0011.tlg002": {
+   "textgroup": "tlg0011",
+   "work": "tlg002",
+   "bytes": 28213248,
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
     },
     {
-     "short_id": "perseus-eng4",
-     "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng4",
-     "label": "English (Thomas Hobbes, 1843)",
-     "doc_type": "translation",
-     "text_class": "english-text"
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
     },
     {
-     "short_id": "perseus-eng6",
-     "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-eng6",
-     "label": "English (R. Crawley, 1914)",
+     "short_id": "perseus-eng2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-eng2",
+     "label": "English (Sir Richard Jebb, 1904)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
-   ]
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "English (Sir Richard Jebb, 1904)"
   },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "namespace": "greekLit",
-   "label": "English (Sir Richard Jebb, 1904)",
-   "shard": "data/tlg0011/tlg004/tlg0011.tlg004.db",
-   "bytes": 3371008,
+   "bytes": 28844032,
    "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg004.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
     {
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2",
@@ -126,30 +165,27 @@
      "label": "English (Sir Richard Jebb, 1904)",
      "doc_type": "translation",
      "text_class": "english-text"
-    },
-    {
-     "short_id": "daphne-tb-grc1",
-     "urn": "urn:cts:greekLit:tlg0011.tlg004.daphne-tb-grc1",
-     "label": "Treebank (Daphne AGDT)",
-     "doc_type": "treebank",
-     "text_class": "treebank-text"
     }
-   ]
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "English (Sir Richard Jebb, 1904)"
   },
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "namespace": "greekLit",
-   "label": "English (A.T. Murray, 1924)",
-   "shard": "data/tlg0012/tlg001/tlg0012.tlg001.db",
-   "bytes": 60280832,
+   "bytes": 79826944,
    "versions": [
     {
-     "short_id": "perseus-grc2",
-     "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
-     "label": "Greek (David B Monro, 1908)",
-     "doc_type": "edition",
-     "text_class": "greek-text"
+     "short_id": "daphne_perstb-grc1",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.daphne_perstb-grc1",
+     "label": "Treebank (Perseus AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
     },
     {
      "short_id": "perstb-meter-grc1",
@@ -157,6 +193,13 @@
      "label": "Metrical Analysis (Perseus)",
      "doc_type": "metrical",
      "text_class": "metrical-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+     "label": "Greek (David B Monro, 1908)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
     },
     {
      "short_id": "perseus-eng3",
@@ -171,35 +214,32 @@
      "label": "English (Samuel Butler, 1898)",
      "doc_type": "translation",
      "text_class": "english-text"
-    },
-    {
-     "short_id": "daphne_perstb-grc1",
-     "urn": "urn:cts:greekLit:tlg0012.tlg001.daphne_perstb-grc1",
-     "label": "Treebank (Perseus AGDT)",
-     "doc_type": "treebank",
-     "text_class": "treebank-text"
     }
-   ]
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 15682
+   },
+   "label": "English (A.T. Murray, 1924)"
   },
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "namespace": "greekLit",
-   "label": "Commentary (Bywater, 1909)",
-   "shard": "data/tlg0086/tlg034/tlg0086.tlg034.db",
-   "bytes": 9965568,
+   "bytes": 32112640,
    "versions": [
     {
-     "short_id": "bywater1909-com1",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-com1",
-     "label": "Commentary (Bywater, 1909)",
-     "doc_type": "commentary",
-     "text_class": "commentary-text"
+     "short_id": "kassel-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.kassel-tb-grc1",
+     "label": "Treebank (Kassel, UD 2026)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
     },
     {
-     "short_id": "bywater1909-grc1",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-grc1",
-     "label": "Greek (Ingram Bywater, 1909)",
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-grc2",
+     "label": "Greek (Kassel, 1965)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -211,25 +251,11 @@
      "text_class": "greek-text"
     },
     {
-     "short_id": "perseus-grc2",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.perseus-grc2",
-     "label": "Greek (Kassel, 1965)",
+     "short_id": "bywater1909-grc1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-grc1",
+     "label": "Greek (Ingram Bywater, 1909)",
      "doc_type": "edition",
      "text_class": "greek-text"
-    },
-    {
-     "short_id": "butcher1911-eng2",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.butcher1911-eng2",
-     "label": "English (S.H. Butcher, 1911)",
-     "doc_type": "translation",
-     "text_class": "english-text"
-    },
-    {
-     "short_id": "bywater1909-eng1",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-eng1",
-     "label": "English (Ingram Bywater, 1909)",
-     "doc_type": "translation",
-     "text_class": "english-text"
     },
     {
      "short_id": "moerbeke1277-lat1",
@@ -246,6 +272,20 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "butcher1911-eng2",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.butcher1911-eng2",
+     "label": "English (S.H. Butcher, 1911)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "bywater1909-eng1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-eng1",
+     "label": "English (Ingram Bywater, 1909)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
      "short_id": "twining1789-eng1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.twining1789-eng1",
      "label": "English (Thomas Twining, 1789)",
@@ -253,13 +293,20 @@
      "text_class": "english-text"
     },
     {
-     "short_id": "kassel-tb-grc1",
-     "urn": "urn:cts:greekLit:tlg0086.tlg034.kassel-tb-grc1",
-     "label": "Treebank (Kassel, UD 2026)",
-     "doc_type": "treebank",
-     "text_class": "treebank-text"
+     "short_id": "bywater1909-com1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-com1",
+     "label": "Commentary (Bywater, 1909)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
-   ]
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 2,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "Commentary (Bywater, 1909)"
   }
  }
 }
