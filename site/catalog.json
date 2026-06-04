@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 26849280,
+   "bytes": 26980352,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 28233728,
+   "bytes": 28364800,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -143,7 +143,7 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 28864512,
+   "bytes": 28995584,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -178,7 +178,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 79847424,
+   "bytes": 79978496,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -227,7 +227,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 32133120,
+   "bytes": 32264192,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
@@ -256,6 +256,13 @@
      "label": "Greek (Ingram Bywater, 1909)",
      "doc_type": "edition",
      "text_class": "greek-text"
+    },
+    {
+     "short_id": "bishrmatta-ara1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.bishrmatta-ara1",
+     "label": "Arabic (Abū Bishr Mattā, c. 900)",
+     "doc_type": "translation",
+     "text_class": "arabic-text"
     },
     {
      "short_id": "moerbeke1277-lat1",
@@ -306,7 +313,7 @@
     "commentaries": 0,
     "metrical_lines": 0
    },
-   "label": "Commentary (Bywater, 1909)"
+   "label": "Arabic (Abū Bishr Mattā, c. 900)"
   }
  }
 }
