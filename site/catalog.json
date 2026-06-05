@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 28364800,
+   "bytes": 28368896,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -178,7 +178,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 79978496,
+   "bytes": 79986688,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -227,12 +227,19 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 32264192,
+   "bytes": 32280576,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.kassel-tb-grc1",
      "label": "Treebank (Kassel, UD 2026)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "bishrmatta-tb-ara1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.bishrmatta-tb-ara1",
+     "label": "Treebank (Bishr Mattā Arabic, UD)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -308,7 +315,7 @@
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 2,
     "commentaries": 0,
     "metrical_lines": 0
