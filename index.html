@@ -2635,10 +2635,12 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const rc = tbRelColor(tok.deprel);
         const pc = tbPosColor(tok.upos);
         let h = `<div class="tb-detail-word">${escHtml(tok.form)}</div><div class="tb-detail-grid">`;
+        if (tok.translit)
+            h += `<span class="tb-dk">Translit</span><span class="tb-dv" dir="ltr" style="font-style:italic">${escHtml(tok.translit)}</span>`;
         if (tok.gloss)
             h += `<span class="tb-dk">Gloss</span><span class="tb-dv tb-gloss">${escHtml(tok.gloss)}</span>`;
         if (tok.lemma && tok.lemma !== '_' && tok.lemma !== tok.form)
-            h += `<span class="tb-dk">Lemma</span><span class="tb-dv tb-greek">${escHtml(tok.lemma)}</span>`;
+            h += `<span class="tb-dk">Lemma</span><span class="tb-dv tb-greek">${escHtml(tok.lemma)}${tok.ltranslit ? ' <span dir="ltr" style="font-style:italic;color:#888;font-size:11px">'+escHtml(tok.ltranslit)+'</span>' : ''}</span>`;
         if (tok.upos && tok.upos !== '_')
             h += `<span class="tb-dk">Part of Speech</span><span class="tb-dv"><span class="tb-pos-chip" style="color:${pc};border-color:${pc}40">${escHtml(tok.upos)}</span>${tok.xpos && tok.xpos !== '_' && tok.xpos !== tok.upos ? ' <span class="tb-xpos">'+escHtml(tok.xpos)+'</span>' : ''}</span>`;
         h += `<span class="tb-dk">Dependency</span><span class="tb-dv"><span class="tb-rel-chip" style="background:${rc}">${escHtml(tok.deprel)}</span></span>`;

@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 28368896,
+   "bytes": 28704768,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -143,7 +143,7 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 28995584,
+   "bytes": 29446144,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -178,7 +178,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 79986688,
+   "bytes": 84951040,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -227,7 +227,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 32280576,
+   "bytes": 32714752,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
