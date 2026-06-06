@@ -1295,7 +1295,7 @@ let activeWorkKey = "tlg0003.tlg001";
     }
 
 
-    function populateNavigationFromShard() {
+function populateNavigationFromShard() {
         if (!window.dbInstance) {
             console.warn("[v40] no database instance");
             return;
@@ -1310,7 +1310,6 @@ let activeWorkKey = "tlg0003.tlg001";
         const books = books_result[0] ? books_result[0].values.map(r => r[0]) : [];
         
         if (books.length > 0) {
-            // Multi-book structure: {book: [chapters]}
             const bookMap = {};
             books.forEach(bk => {
                 const chapter_result = window.dbInstance.exec(
@@ -1321,7 +1320,6 @@ let activeWorkKey = "tlg0003.tlg001";
             window.GLOBAL_STRUCTURES[activeWorkKey] = bookMap;
             console.log("[v40] multi-book structure with " + books.length + " books");
         } else {
-            // Flat structure: [chapters]
             const chapter_result = window.dbInstance.exec(
                 "SELECT DISTINCT chapter FROM alignment_grid ORDER BY sort_order");
             const chapters = chapter_result[0] ? chapter_result[0].values.map(r => r[0]) : [];
@@ -1330,45 +1328,35 @@ let activeWorkKey = "tlg0003.tlg001";
             console.log("[v40] flat structure with " + chapters.length + " chapters");
         }
         
-        // 2. Build TEXT_REGISTRY for this work's editions
+        // 2. Build TEXT_REGISTRY using the proper canonical_id to match the dropdowns
         const editions_result = window.dbInstance.exec(
-            "SELECT short_id, urn, label, doc_type, text_class FROM text_units");
+            "SELECT canonical_id, urn, label, text_class, textgroup, work, short_id, doc_type FROM text_units");
         if (editions_result[0]) {
             window.TEXT_REGISTRY = window.TEXT_REGISTRY || {};
             editions_result[0].values.forEach(row => {
                 window.TEXT_REGISTRY[row[0]] = {
                     urn: row[1],
                     label: row[2],
-                    doc_type: row[3],
-                    text_class: row[4],
-                    textgroup: tg,
-                    work: wk,
-                    short_id: row[0]
+                    class: row[3],
+                    textgroup: row[4],
+                    work: row[5],
+                    short_id: row[6],
+                    doc_type: row[7]
                 };
             });
             console.log("[v40] populated TEXT_REGISTRY with " + editions_result[0].values.length + " editions");
         }
         
-        // 3. Call the framework's navigation
-        try {
-            let initialBook = null;
-            let initialChapter = "1";
-            
-            if (isFlatStructure(activeWorkKey)) {
-                initialChapter = window.GLOBAL_STRUCTURES[activeWorkKey][0] || "1";
-            } else {
-                initialBook = Object.keys(window.GLOBAL_STRUCTURES[activeWorkKey])[0];
-                initialChapter = window.GLOBAL_STRUCTURES[activeWorkKey][initialBook][0] || "1";
-            }
-            
-            console.log("[v40] triggering navigation: book=" + initialBook + " chapter=" + initialChapter);
-            triggerTargetNavigation(initialBook, initialChapter);
-        } catch (err) {
-            console.error("[v40] navigation error:", err);
-        }
+        // NOTE: The rogue triggerTargetNavigation() call has been removed from here.
     }
 
-        function initializeRoutingFromURL() { console.log('[v40] initializeRoutingFromURL, activeWorkKey:', activeWorkKey); populateNavigationFromShard();
+function initializeRoutingFromURL() { 
+        console.log('[v40] initializeRoutingFromURL, activeWorkKey:', activeWorkKey); 
+        
+        // 1. Silently map out the structures and registries first
+        populateNavigationFromShard();
+
+        // 2. Parse the URL safely
         const params = new URLSearchParams(window.location.search);
         const rawParam = params.get("w") || "tlg0003.tlg001";
         let b = null, ch = "1";
@@ -1424,6 +1412,7 @@ let activeWorkKey = "tlg0003.tlg001";
             }
         });
 
+        // 3. Trigger a single, unified render using our validated state
         triggerTargetNavigation(b, ch);
     }
 
@@ -1462,15 +1451,33 @@ let activeWorkKey = "tlg0003.tlg001";
 
             const prefixes = ['f', 'c1', 'c2', 'c3', 'c4'];
             prefixes.forEach((prefix, idx) => {
-                const currentEd = columnEditions[prefix];
+                let currentEd = columnEditions[prefix];
+                // External-link support: a URL may carry a short_id instead of the canonical id.
+                if (currentEd && !TEXT_REGISTRY[currentEd]) {
+                    const byShort = Object.keys(TEXT_REGISTRY).find(k =>
+                        TEXT_REGISTRY[k].short_id === currentEd &&
+                        TEXT_REGISTRY[k].textgroup === payload.textgroup &&
+                        TEXT_REGISTRY[k].work === payload.work);
+                    if (byShort) { currentEd = byShort; columnEditions[prefix] = byShort; }
+                }
                 const belongsToCurrentWork = currentEd && TEXT_REGISTRY[currentEd] &&
                                              TEXT_REGISTRY[currentEd].textgroup === payload.textgroup &&
                                              TEXT_REGISTRY[currentEd].work === payload.work;
-                                             
                 if (!belongsToCurrentWork) {
-                    columnEditions[prefix] = prioritizedList.length > 0
-                        ? prioritizedList[idx % prioritizedList.length]
-                        : "";
+                    if (currentEd) {
+                        // The URL explicitly named an edition we cannot resolve for this work.
+                        // Honor the URL: leave the column blank instead of substituting an
+                        // unrelated default (which is what made a bad treebank id show as commentary).
+                        const known = Object.keys(TEXT_REGISTRY).filter(k =>
+                            TEXT_REGISTRY[k].textgroup === payload.textgroup &&
+                            TEXT_REGISTRY[k].work === payload.work);
+                        console.warn(`[url] column "${prefix}": "${currentEd}" not found for ${payload.textgroup}.${payload.work} - leaving blank. Valid ids: ${known.join(", ")}`);
+                        columnEditions[prefix] = "";
+                    } else {
+                        columnEditions[prefix] = prioritizedList.length > 0
+                            ? prioritizedList[idx % prioritizedList.length]
+                            : "";
+                    }
                 }
             });
         }
