@@ -355,6 +355,8 @@
         .tb-tok.tb-active { background: #fff3b0; outline: 1px solid #c8a800; outline-offset: 1px; color: #440000; font-weight: bold; }
         .tb-tok.tb-is-head { background: #ffeaea; outline: 1px dashed #cc3300; outline-offset: 1px; }
         .tb-tok.tb-is-dep  { background: #e8f0ff; outline: 1px dashed #336699; outline-offset: 1px; }
+   .tb-translit-row { direction: ltr; font-family: "Gentium Plus","GFS Didot",serif; font-size: 13px; line-height: 1.8; color: #555; font-style: italic; display: block; margin-top: 1px; }
+   .tb-translit-tok { font-style: italic; }
         .tb-punct { cursor: default; padding: 0; }
         .tb-punct:hover { background: none; }
         .tb-translation { margin-top: 5px; border-left: 2px solid #e0dfd5; padding-left: 8px; }
@@ -2118,6 +2120,30 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             const alignment   = tbBuildAlignment(sent.tokens, litWords);
             const revAlignment = tbBuildReverseAlignment(alignment);
 
+            // Shared selection: keeps the Arabic and transliteration rows in sync
+            const tbSelect = (tokId) => {
+                const tok = sent.tokens.find(t => t.id === tokId);
+                if (!tok) return;
+                const alreadyActive = !!block.querySelector(`.tb-tok.tb-active[data-tok-id="${tokId}"]`);
+                block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
+                block.querySelectorAll('.tb-lit-word').forEach(s => s.classList.remove('tb-lit-active'));
+                const panel = block.querySelector('.tb-detail-panel');
+                if (panel) { panel.innerHTML = ''; panel.classList.remove('tb-detail-visible'); }
+                if (alreadyActive) return;
+                block.querySelectorAll(`[data-tok-id="${tokId}"]`).forEach(s => s.classList.add('tb-active'));
+                if (tok.head > 0)
+                    block.querySelectorAll(`[data-tok-id="${tok.head}"]`).forEach(s => s.classList.add('tb-is-head'));
+                sent.tokens.filter(t => t.head === tok.id).forEach(dep =>
+                    block.querySelectorAll(`[data-tok-id="${dep.id}"]`).forEach(s => s.classList.add('tb-is-dep')));
+                tbHighlightLiteral(block, alignment, tok.id, true);
+                const headTok = tok.head > 0 ? sent.tokens.find(t => t.id === tok.head) : null;
+                const depToks = sent.tokens.filter(t => t.head === tok.id && t.upos !== 'PUNCT');
+                if (panel) {
+                    panel.innerHTML = renderTokenDetail(tok, headTok, depToks);
+                    panel.classList.add('tb-detail-visible');
+                }
+            };
+
             if (isPoetry) {
                 // Poetry Grid Container to match your standard 5-column structural layout rule
                 const poetryGrid = document.createElement('div');
@@ -2220,37 +2246,29 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                     span.className = 'tb-tok' + (isPunct ? ' tb-punct' : '');
                     span.dataset.tokId = tok.id;
                     span.textContent = tok.form;
-                    if (!isPunct) {
-                        span.addEventListener('click', (e) => {
-                            e.stopPropagation();
-                            const wasActive = span.classList.contains('tb-active');
-                            block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
-                            block.querySelectorAll('.tb-lit-word').forEach(s => s.classList.remove('tb-lit-active'));
-                            block.querySelector('.tb-detail-panel').innerHTML = '';
-                            block.querySelector('.tb-detail-panel').classList.remove('tb-detail-visible');
-                            if (wasActive) return;
-                            span.classList.add('tb-active');
-                            if (tok.head > 0) {
-                                const headSpan = tokRow.querySelector(`[data-tok-id="${tok.head}"]`);
-                                if (headSpan) headSpan.classList.add('tb-is-head');
-                            }
-                            sent.tokens.filter(t => t.head === tok.id).forEach(dep => {
-                                const depSpan = tokRow.querySelector(`[data-tok-id="${dep.id}"]`);
-                                if (depSpan) depSpan.classList.add('tb-is-dep');
-                            });
-                            tbHighlightLiteral(block, alignment, tok.id, true);
-                            const headTok = tok.head > 0 ? sent.tokens.find(t => t.id === tok.head) : null;
-                            const depToks = sent.tokens.filter(t => t.head === tok.id && t.upos !== 'PUNCT');
-                            const panel = block.querySelector('.tb-detail-panel');
-                            panel.innerHTML = renderTokenDetail(tok, headTok, depToks);
-                            panel.classList.add('tb-detail-visible');
-                        });
-                    }
+                    if (!isPunct) span.addEventListener('click', (e) => { e.stopPropagation(); tbSelect(tok.id); });
                     tokRow.appendChild(span);
                     if (!isPunct) tokRow.appendChild(document.createTextNode(' '));
                 });
             }
             block.appendChild(tokRow);
+
+            // Parallel clickable transliteration row (one span per token, same selection)
+            if (!isPoetry && sent.tokens.some(t => t.translit)) {
+                const trRow = document.createElement('div');
+                trRow.className = 'tb-translit-row';
+                sent.tokens.forEach(tok => {
+                    const isPunct = tok.upos === 'PUNCT' || tok.upos === '_';
+                    const span = document.createElement('span');
+                    span.className = 'tb-tok tb-translit-tok' + (isPunct ? ' tb-punct' : '');
+                    span.dataset.tokId = tok.id;
+                    span.textContent = tok.translit || tok.form;
+                    if (!isPunct) span.addEventListener('click', (e) => { e.stopPropagation(); tbSelect(tok.id); });
+                    trRow.appendChild(span);
+                    if (!isPunct) trRow.appendChild(document.createTextNode(' '));
+                });
+                block.appendChild(trRow);
+            }
 
             // Translation block
             if (sent.prose || sent.literal || sent.translit) {
