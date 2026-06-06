@@ -363,13 +363,13 @@
    /* Reader row-visibility toggles */
    .tb-hide-arabic   .tb-token-row   { display: none; }
    .tb-hide-translit .tb-translit-row { display: none; }
-   .tb-vis-controls { display: flex; align-items: center; gap: 6px; padding: 4px 0 8px; position: sticky; top: 0; background: #fff; z-index: 3; }
+   .tb-vis-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0 8px; position: sticky; top: 0; background: #fff; z-index: 3; }
    .tb-vis-label { font-size: 9px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #bbb; margin-right: 2px; }
    .tb-vis-btn { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; padding: 2px 9px; border: 1px solid #ccc; border-radius: 10px; background: #f5f4ef; color: #999; cursor: pointer; transition: all .12s; }
    .tb-vis-btn:hover { border-color: #999; }
    .tb-vis-btn.tb-vis-on { background: #660000; border-color: #660000; color: #fff; }
    /* View-mode switch */
-   .tb-mode-switch { display: inline-flex; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; margin-right: 8px; }
+   .tb-mode-switch { display: inline-flex; flex-shrink: 0; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; margin-right: 8px; }
    .tb-mode-btn { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; padding: 2px 11px; border: none; background: #f5f4ef; color: #999; cursor: pointer; }
    .tb-mode-btn + .tb-mode-btn { border-left: 1px solid #ccc; }
    .tb-mode-btn.tb-mode-on { background: #1a5276; color: #fff; }
