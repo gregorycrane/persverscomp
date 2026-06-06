@@ -357,9 +357,75 @@
         .tb-tok.tb-is-dep  { background: #e8f0ff; outline: 1px dashed #336699; outline-offset: 1px; }
    .tb-translit-row { direction: ltr; font-family: "Gentium Plus","GFS Didot",serif; font-size: 13px; line-height: 1.8; color: #555; font-style: italic; display: block; margin-top: 1px; }
    .tb-translit-tok { font-style: italic; }
+   .tb-gloss-row { direction: ltr; font-family: -apple-system,"Segoe UI",sans-serif; font-size: 12.5px; line-height: 1.9; color: #1a5276; display: block; margin-top: 1px; }
+   .tb-gloss-tok { font-style: normal; }
+   .tb-gloss-tok.tb-active { color: #440000; }
+   /* Reader row-visibility toggles */
+   .tb-hide-arabic   .tb-token-row   { display: none; }
+   .tb-hide-translit .tb-translit-row { display: none; }
+   .tb-vis-controls { display: flex; align-items: center; gap: 6px; padding: 4px 0 8px; position: sticky; top: 0; background: #fff; z-index: 3; }
+   .tb-vis-label { font-size: 9px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #bbb; margin-right: 2px; }
+   .tb-vis-btn { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; padding: 2px 9px; border: 1px solid #ccc; border-radius: 10px; background: #f5f4ef; color: #999; cursor: pointer; transition: all .12s; }
+   .tb-vis-btn:hover { border-color: #999; }
+   .tb-vis-btn.tb-vis-on { background: #660000; border-color: #660000; color: #fff; }
+   /* View-mode switch */
+   .tb-mode-switch { display: inline-flex; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; margin-right: 8px; }
+   .tb-mode-btn { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; padding: 2px 11px; border: none; background: #f5f4ef; color: #999; cursor: pointer; }
+   .tb-mode-btn + .tb-mode-btn { border-left: 1px solid #ccc; }
+   .tb-mode-btn.tb-mode-on { background: #1a5276; color: #fff; }
+   /* Dependency syntax tree */
+   .tb-tree-wrap { overflow-x: auto; padding: 6px 0 4px; }
+   .tb-tree-svg { display: block; }
+   .tb-tree-line { stroke: #d4d2c8; stroke-width: 1.2px; fill: none; }
+   .tb-tree-rel { font-family: "Courier New", monospace; font-size: 9px; font-weight: bold; paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+   .tb-tree-root { font-family: "Courier New", monospace; font-size: 10px; font-weight: bold; fill: #999; letter-spacing: 1px; }
+   .tb-tree-node { cursor: pointer; }
+   .tb-tree-hit { fill: transparent; stroke: transparent; stroke-width: 1px; transition: fill .1s, stroke .1s; }
+   .tb-tree-form { font-family: "Gentium Plus","GFS Didot",serif; font-size: 16px; fill: #1a1a1a; }
+   .tb-tree-translit { font-family: "Gentium Plus","GFS Didot",serif; font-size: 11px; font-style: italic; fill: #888; }
+   .tb-tree-gloss { font-family: -apple-system,"Segoe UI",sans-serif; font-size: 11px; fill: #1a5276; }
+   .tb-tree-punct .tb-tree-form { fill: #bbb; }
+   /* hover highlighting: the word, its head, and its dependents */
+   .tb-tree-node:hover .tb-tree-hit,
+   .tb-tree-node.tb-active .tb-tree-hit { fill: #fff3b0; stroke: #c8a800; }
+   .tb-tree-node.tb-active .tb-tree-form { fill: #440000; font-weight: bold; }
+   .tb-tree-node.tb-is-head .tb-tree-hit { fill: #ffeaea; stroke: #cc3300; }
+   .tb-tree-node.tb-is-dep  .tb-tree-hit { fill: #e8f0ff; stroke: #336699; }
+   .tb-tree-edge.tb-edge-head .tb-tree-line { stroke: #cc3300; stroke-width: 2px; }
+   .tb-tree-edge.tb-edge-dep  .tb-tree-line { stroke: #336699; stroke-width: 2px; }
+   /* collapse carets / badges on the tree */
+   .tb-tree-caret { fill: #b9b6a8; }
+   .tb-tree-node:hover .tb-tree-caret { fill: #777; }
+   .tb-tree-count { font-family: "Courier New", monospace; font-size: 9px; font-weight: bold; fill: #999; }
+   .tb-tree-node.tb-tree-collapsed .tb-tree-form { font-style: italic; }
+   /* Per-word annotation grid */
+   .tb-grid-scroll { overflow-x: auto; padding: 4px 0 8px; }
+   .tb-grid { display: inline-block; min-width: 100%; border-top: 1px solid #efeee7; }
+   .tb-grow { display: flex; align-items: stretch; }
+   .tb-glabel { position: sticky; inset-inline-start: 0; flex: 0 0 62px; width: 62px; background: #fff; z-index: 2;
+                font-size: 8px; font-weight: bold; text-transform: uppercase; letter-spacing: .4px; color: #c4c2b6;
+                display: flex; align-items: center; padding: 2px 4px; border-bottom: 1px solid #f3f2ec; }
+   .tb-gcell { flex: 0 0 96px; width: 96px; box-sizing: border-box; padding: 3px 4px; text-align: center;
+               border-bottom: 1px solid #f3f2ec; border-inline-start: 1px solid #f3f2ec; cursor: pointer;
+               display: flex; align-items: center; justify-content: center; min-height: 19px; overflow: hidden; }
+   .tb-gcell:hover { background: #fff8dc; }
+   .tb-gcell.tb-gcol-active { background: #fff3b0; }
+   .tb-gc-form .tb-gcell { font-family: "Gentium Plus","GFS Didot",serif; font-size: 15px; font-weight: bold; color: #1a1a1a; }
+   .tb-gc-form .tb-glabel { color: #999; }
+   .tb-gcell-punct { color: #ccc; }
+   .tb-gc-translit .tb-gcell { font-family: "Gentium Plus","GFS Didot",serif; font-style: italic; font-size: 11px; color: #888; direction: ltr; }
+   .tb-gc-lemma .tb-gcell { font-family: "Gentium Plus","GFS Didot",serif; font-size: 12px; color: #444; }
+   .tb-gc-morph .tb-gcell { font-family: "Courier New", monospace; font-size: 8px; color: #8a8a8a; white-space: normal; line-height: 1.25; word-break: break-word; direction: ltr; }
+   .tb-gc-gloss .tb-gcell { font-family: -apple-system,"Segoe UI",sans-serif; font-size: 11px; color: #1a5276; white-space: normal; line-height: 1.2; direction: ltr; }
+   .tb-grid.tb-ghide-translit .tb-gc-translit,
+   .tb-grid.tb-ghide-lemma    .tb-gc-lemma,
+   .tb-grid.tb-ghide-relation .tb-gc-relation,
+   .tb-grid.tb-ghide-pos      .tb-gc-pos,
+   .tb-grid.tb-ghide-morph    .tb-gc-morph,
+   .tb-grid.tb-ghide-gloss    .tb-gc-gloss { display: none; }
         .tb-punct { cursor: default; padding: 0; }
         .tb-punct:hover { background: none; }
-        .tb-translation { margin-top: 5px; border-left: 2px solid #e0dfd5; padding-left: 8px; }
+        .tb-translation { margin: 2px 0 8px; border-left: 2px solid #e0dfd5; padding-left: 8px; }
         .tb-trans-prose { font-size: 12.5px; line-height: 1.6; color: #333; margin-bottom: 2px; }
         .tb-trans-lit   {font-size: 12.5px; line-height: 1.6; color: #333; margin-bottom: 2px; }
    .tb-trans-translit { font-size: 12.5px; line-height: 1.6; color: #555; font-style: italic; margin-bottom: 2px; }
@@ -2081,10 +2147,85 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const isPoetry = isPoetryWork(wKey);
         container.innerHTML = '';
 
+        // Reader row-visibility state (persists across treebank re-renders)
+        if (!window.__tbRowVis) window.__tbRowVis = { arabic: true, translit: true };
+        if (!window.__tbMode) window.__tbMode = 'text';
+        if (!window.__tbGridRows) window.__tbGridRows = { translit:true, lemma:true, relation:true, pos:true, morph:true, gloss:true };
+        container.classList.toggle('tb-hide-arabic',   !window.__tbRowVis.arabic);
+        container.classList.toggle('tb-hide-translit', !window.__tbRowVis.translit);
+
         const filter = activeSectionFilter;
 
         // Persistent tracking variable for poetry line breaks across sentences
         let lastSeenLineNum = null;
+
+        // ── Control bar: view mode + row visibility ──
+        const visBar = document.createElement('div');
+        visBar.className = 'tb-vis-controls';
+
+        // View-mode switch: Text (interlinear) vs Tree (dependency syntax tree)
+        const modeWrap = document.createElement('span');
+        modeWrap.className = 'tb-mode-switch';
+        const mkMode = (text, val) => {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'tb-mode-btn' + (window.__tbMode === val ? ' tb-mode-on' : '');
+            b.textContent = text;
+            b.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (window.__tbMode === val) return;
+                window.__tbMode = val;
+                renderTreebankColumn(container, activeEditionMeta, payload);
+            });
+            return b;
+        };
+        modeWrap.appendChild(mkMode('Text', 'text'));
+        modeWrap.appendChild(mkMode('Tree', 'tree'));
+        visBar.appendChild(modeWrap);
+
+        const visLabel = document.createElement('span');
+        visLabel.className = 'tb-vis-label';
+        visLabel.textContent = 'show';
+        visBar.appendChild(visLabel);
+
+        if ((window.__tbMode || 'text') === 'tree') {
+            // Tree mode: toggle which annotation rows appear in the word grid
+            const gridLabels = { translit:'Translit', lemma:'Lemma', relation:'Relation', pos:'POS', morph:'Morph', gloss:'Gloss' };
+            const mkGridToggle = (key) => {
+                const on = window.__tbGridRows[key] !== false;
+                const b = document.createElement('button');
+                b.type = 'button';
+                b.className = 'tb-vis-btn' + (on ? ' tb-vis-on' : '');
+                b.textContent = gridLabels[key];
+                b.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const now = !(window.__tbGridRows[key] !== false);
+                    window.__tbGridRows[key] = now;
+                    b.classList.toggle('tb-vis-on', now);
+                    container.querySelectorAll('.tb-grid').forEach(g => g.classList.toggle('tb-ghide-' + key, !now));
+                });
+                return b;
+            };
+            ['translit','lemma','relation','pos','morph','gloss'].forEach(k => visBar.appendChild(mkGridToggle(k)));
+        } else {
+            // Text mode: show/hide the Arabic and transliteration rows
+            const mkVisToggle = (text, key) => {
+                const b = document.createElement('button');
+                b.type = 'button';
+                b.className = 'tb-vis-btn' + (window.__tbRowVis[key] ? ' tb-vis-on' : '');
+                b.textContent = text;
+                b.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    window.__tbRowVis[key] = !window.__tbRowVis[key];
+                    b.classList.toggle('tb-vis-on', window.__tbRowVis[key]);
+                    container.classList.toggle('tb-hide-' + key, !window.__tbRowVis[key]);
+                });
+                return b;
+            };
+            visBar.appendChild(mkVisToggle('Arabic', 'arabic'));
+            if (!isPoetry) visBar.appendChild(mkVisToggle('Translit', 'translit'));
+        }
+        container.appendChild(visBar);
 
         allSentences.forEach(sent => {
             const inFocus = tbSentMatchesSection(sent, filter, isPoetry);
@@ -2111,6 +2252,23 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 block.appendChild(spkEl);
             }
 
+            // Prose translation on top, so Arabic / translit / gloss / treebank sit together below it
+            if (sent.prose) {
+                const trans = document.createElement('div');
+                trans.className = 'tb-translation';
+                const proDiv = document.createElement('div');
+                proDiv.className = 'tb-trans-prose';
+                proDiv.innerHTML = `<span class="tb-trans-label">Translation</span> ${escHtml(sent.prose)}`;
+                trans.appendChild(proDiv);
+                block.appendChild(trans);
+            }
+
+            // ── View mode: 'tree' = full annotation grid + collapsible dependency tree; 'text' = interlinear rows ──
+            const tbMode = window.__tbMode || 'text';
+            if (tbMode === 'tree') {
+                tbRenderGrid(block, sent);   // grid: every annotation as a row, one column per word (replaces interlinear)
+                tbRenderTree(block, sent);   // collapsible dependency syntax tree below the grid
+            } else {
             // Token row layout configuration
             const tokRow = document.createElement('div');
             tokRow.className = 'tb-token-row';
@@ -2270,81 +2428,25 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 block.appendChild(trRow);
             }
 
-            // Translation block
-            if (sent.prose || sent.literal || sent.translit) {
-                const trans = document.createElement('div');
-                trans.className = 'tb-translation';
-                if (sent.translit) {
-                    const trDiv = document.createElement('div');
-                    trDiv.className = 'tb-trans-translit';
-                    trDiv.innerHTML = `<span class="tb-trans-label">Translit</span> <span dir="ltr">${escHtml(sent.translit)}</span>`;
-                    trans.appendChild(trDiv);
-                }
-                if (sent.prose) {
-                    const proDiv = document.createElement('div');
-                    proDiv.className = 'tb-trans-prose';
-                    proDiv.innerHTML = `<span class="tb-trans-label">Translation</span> ${escHtml(sent.prose)}`;
-                    trans.appendChild(proDiv);
-                }
-                if (sent.literal) {
-                    const litDiv = document.createElement('div');
-                    litDiv.className = 'tb-trans-lit';
-                    const lbl = document.createElement('span');
-                    lbl.className = 'tb-trans-label';
-                    lbl.textContent = 'Literal';
-                    litDiv.appendChild(lbl);
-                    litDiv.appendChild(document.createTextNode(' '));
-                    
-                    litWords.forEach((w, wi) => {
-                        const ws = document.createElement('span');
-                        ws.className = 'tb-lit-word';
-                        ws.dataset.li = wi;
-                        ws.title = w.orig;
-                        ws.textContent = w.display;
-                        const mappedTokId = revAlignment.get(wi);
-                        if (mappedTokId !== undefined) {
-                            ws.classList.add('tb-lit-linked');
-                            ws.addEventListener('click', (e) => {
-                                e.stopPropagation();
-                                const tok = sent.tokens.find(t => t.id === mappedTokId);
-                                if (!tok) return;
-                                const wasActive = ws.classList.contains('tb-lit-active');
-                                block.querySelectorAll('.tb-tok').forEach(s =>
-                                    s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
-                                block.querySelectorAll('.tb-lit-word').forEach(s =>
-                                    s.classList.remove('tb-lit-active'));
-                                block.querySelector('.tb-detail-panel').innerHTML = '';
-                                block.querySelector('.tb-detail-panel').classList.remove('tb-detail-visible');
-                                if (wasActive) return;
-                                
-                                const tokSpan = block.querySelector(`[data-tok-id="${mappedTokId}"]`);
-                                if (tokSpan) {
-                                    tokSpan.classList.add('tb-active');
-                                    tokSpan.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                                }
-                                if (tok.head > 0) {
-                                    const headSpan = block.querySelector(`[data-tok-id="${tok.head}"]`);
-                                    if (headSpan) headSpan.classList.add('tb-is-head');
-                                }
-                                sent.tokens.filter(t => t.head === tok.id).forEach(dep => {
-                                    const depSpan = block.querySelector(`[data-tok-id="${dep.id}"]`);
-                                    if (depSpan) depSpan.classList.add('tb-is-dep');
-                                });
-                                tbHighlightLiteral(block, alignment, mappedTokId, true);
-                                const headTok = tok.head > 0 ? sent.tokens.find(t => t.id === tok.head) : null;
-                                const depToks = sent.tokens.filter(t => t.head === tok.id && t.upos !== 'PUNCT');
-                                const panel = block.querySelector('.tb-detail-panel');
-                                panel.innerHTML = renderTokenDetail(tok, headTok, depToks);
-                                panel.classList.add('tb-detail-visible');
-                            });
-                        }
-                        litDiv.appendChild(ws);
-                        litDiv.appendChild(document.createTextNode(' '));
-                    });
-                    trans.appendChild(litDiv);
-                }
-                block.appendChild(trans);
+            // Parallel clickable GLOSS row (one span per token, same selection) —
+            // replaces the literal translation so Arabic / translit / gloss align one-to-one.
+            if (!isPoetry && sent.tokens.some(t => t.gloss)) {
+                const glRow = document.createElement('div');
+                glRow.className = 'tb-gloss-row';
+                sent.tokens.forEach(tok => {
+                    const isPunct = tok.upos === 'PUNCT' || tok.upos === '_';
+                    if (isPunct) return;
+                    const span = document.createElement('span');
+                    span.className = 'tb-tok tb-gloss-tok';
+                    span.dataset.tokId = tok.id;
+                    span.textContent = tok.gloss || '·';
+                    span.addEventListener('click', (e) => { e.stopPropagation(); tbSelect(tok.id); });
+                    glRow.appendChild(span);
+                    glRow.appendChild(document.createTextNode(' '));
+                });
+                block.appendChild(glRow);
             }
+            } // end view-mode branch
 
             const detailPanel = document.createElement('div');
             detailPanel.className = 'tb-detail-panel';
@@ -2675,6 +2777,233 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             h += `<span class="tb-dk">Depends</span><span class="tb-dv">${dl}</span>`;
         }
         return h + '</div>';
+    }
+
+    // ── Dependency syntax-tree renderer (Tree mode) ──
+    // Top-down tree: ROOT at top, words placed by syntactic structure, relation on each edge.
+    // Hovering a word highlights its head and its dependents. Clicking a word with children
+    // collapses/expands its subtree; clicking a leaf opens the detail panel.
+    function tbRenderTree(block, sent) {
+        const toks = (sent.tokens || []);
+        if (!toks.length) return;
+        const SVGNS = 'http://www.w3.org/2000/svg';
+        const byId = new Map(); toks.forEach(t => byId.set(t.id, t));
+        const headOf = (t) => { let h = (typeof t.head === 'number') ? t.head : 0; if (h !== 0 && !byId.has(h)) h = 0; return h; };
+        const kids = new Map(); kids.set(0, []);
+        toks.forEach(t => kids.set(t.id, []));
+        toks.forEach(t => kids.get(headOf(t)).push(t.id));
+        kids.forEach(a => a.sort((x, y) => x - y));
+
+        const descCount = new Map();
+        const countDesc = (id) => { let n = 0; (kids.get(id) || []).forEach(c => { n += 1 + countDesc(c); }); descCount.set(id, n); return n; };
+        countDesc(0);
+
+        const collapsed = new Set();
+        const SLOT = 108, ROW = 96, PADX = 30, PADY = 22, LBH = 50;
+        const wrap = document.createElement('div'); wrap.className = 'tb-tree-wrap';
+        block.appendChild(wrap);
+
+        const mk = (name, attrs, cls) => {
+            const el = document.createElementNS(SVGNS, name);
+            if (cls) el.setAttribute('class', cls);
+            for (const k in attrs) el.setAttribute(k, attrs[k]);
+            return el;
+        };
+        const clip = (s, n) => { s = s || ''; return s.length > n ? s.slice(0, n) + '...' : s; };
+
+        const draw = () => {
+            wrap.innerHTML = '';
+            const eff = (id) => collapsed.has(id) ? [] : (kids.get(id) || []);
+            const depth = new Map(); depth.set(0, 0);
+            const q = [0]; let guard = 0;
+            while (q.length && guard++ < 200000) { const u = q.shift(); eff(u).forEach(c => { if (!depth.has(c)) { depth.set(c, depth.get(u) + 1); q.push(c); } }); }
+            let leaf = 0; const xOf = new Map();
+            const placeX = (id) => {
+                const ch = eff(id);
+                if (!ch.length) { const x = leaf * SLOT + PADX + SLOT / 2; xOf.set(id, x); leaf++; return x; }
+                let lo = Infinity, hi = -Infinity;
+                ch.forEach(c => { const cx = placeX(c); if (cx < lo) lo = cx; if (cx > hi) hi = cx; });
+                const x = (lo + hi) / 2; xOf.set(id, x); return x;
+            };
+            placeX(0);
+            let maxD = 0; depth.forEach(d => { if (d > maxD) maxD = d; });
+            const width = Math.max(leaf, 1) * SLOT + PADX * 2;
+            const height = (maxD + 1) * ROW + PADY * 2;
+            const y0 = (id) => depth.get(id) * ROW + PADY;
+            const topY = (id) => y0(id) + 2;
+            const botY = (id) => y0(id) + LBH;
+
+            const svg = mk('svg', { width: width, height: height, viewBox: '0 0 ' + width + ' ' + height }, 'tb-tree-svg');
+
+            // edges (visible nodes only)
+            toks.forEach(t => {
+                if (!depth.has(t.id)) return;
+                const h = headOf(t);
+                if (h !== 0 && !depth.has(h)) return;
+                const px = xOf.get(h), cx = xOf.get(t.id);
+                const py = (h === 0) ? (PADY + 14) : botY(h);
+                const cy = topY(t.id);
+                const g = mk('g', { 'data-child': t.id, 'data-parent': h }, 'tb-tree-edge');
+                g.appendChild(mk('line', { x1: px, y1: py, x2: cx, y2: cy }, 'tb-tree-line'));
+                const rel = (t.deprel && t.deprel !== '_') ? t.deprel : '';
+                if (rel) {
+                    const lbl = mk('text', { x: (px + cx) / 2, y: (py + cy) / 2, 'text-anchor': 'middle' }, 'tb-tree-rel');
+                    lbl.setAttribute('fill', tbRelColor(t.deprel));
+                    lbl.textContent = rel;
+                    g.appendChild(lbl);
+                }
+                svg.appendChild(g);
+            });
+
+            const rootT = mk('text', { x: xOf.get(0), y: PADY + 10, 'text-anchor': 'middle' }, 'tb-tree-root');
+            rootT.textContent = 'ROOT';
+            svg.appendChild(rootT);
+
+            toks.forEach(t => {
+                if (!depth.has(t.id)) return;
+                const cx = xOf.get(t.id), yy = y0(t.id);
+                const hasKids = (kids.get(t.id) || []).length > 0;
+                const g = mk('g', { 'data-tok-id': t.id }, 'tb-tree-node' + (t.upos === 'PUNCT' ? ' tb-tree-punct' : '') + (collapsed.has(t.id) ? ' tb-tree-collapsed' : ''));
+                g.appendChild(mk('rect', { x: cx - SLOT / 2 + 6, y: yy - 2, width: SLOT - 12, height: LBH + 4, rx: 4 }, 'tb-tree-hit'));
+                const form = mk('text', { x: cx, y: yy + 14, 'text-anchor': 'middle' }, 'tb-tree-form'); form.textContent = t.form; g.appendChild(form);
+                if (t.translit) { const tr = mk('text', { x: cx, y: yy + 29, 'text-anchor': 'middle' }, 'tb-tree-translit'); tr.textContent = clip(t.translit, 16); g.appendChild(tr); }
+                if (t.gloss) { const gl = mk('text', { x: cx, y: yy + 43, 'text-anchor': 'middle' }, 'tb-tree-gloss'); gl.textContent = clip(t.gloss, 16); g.appendChild(gl); }
+                const ttl = mk('title', {}); ttl.textContent = t.form + (t.translit ? '  [' + t.translit + ']' : '') + (t.gloss ? '  - ' + t.gloss : '') + (t.deprel ? '  (' + t.deprel + ')' : ''); g.appendChild(ttl);
+
+                if (hasKids) {
+                    const my = yy + LBH + 1;
+                    if (collapsed.has(t.id)) {
+                        g.appendChild(mk('path', { d: 'M ' + (cx - 3) + ' ' + (my - 4) + ' L ' + (cx - 3) + ' ' + (my + 4) + ' L ' + (cx + 3) + ' ' + my + ' Z' }, 'tb-tree-caret'));
+                        const cnt = mk('text', { x: cx + 8, y: my + 3, 'text-anchor': 'start' }, 'tb-tree-count'); cnt.textContent = '+' + descCount.get(t.id); g.appendChild(cnt);
+                    } else {
+                        g.appendChild(mk('path', { d: 'M ' + (cx - 4) + ' ' + (my - 3) + ' L ' + (cx + 4) + ' ' + (my - 3) + ' L ' + cx + ' ' + (my + 3) + ' Z' }, 'tb-tree-caret'));
+                    }
+                }
+
+                const clearHi = () => {
+                    svg.querySelectorAll('.tb-tree-node').forEach(n => n.classList.remove('tb-active', 'tb-is-head', 'tb-is-dep'));
+                    svg.querySelectorAll('.tb-tree-edge').forEach(e => e.classList.remove('tb-edge-head', 'tb-edge-dep'));
+                };
+                g.addEventListener('mouseenter', () => {
+                    clearHi();
+                    g.classList.add('tb-active');
+                    const h = headOf(t);
+                    if (h !== 0) { const hn = svg.querySelector('.tb-tree-node[data-tok-id="' + h + '"]'); if (hn) hn.classList.add('tb-is-head'); }
+                    const he = svg.querySelector('.tb-tree-edge[data-child="' + t.id + '"]'); if (he) he.classList.add('tb-edge-head');
+                    (kids.get(t.id) || []).forEach(c => {
+                        const dn = svg.querySelector('.tb-tree-node[data-tok-id="' + c + '"]'); if (dn) dn.classList.add('tb-is-dep');
+                        const de = svg.querySelector('.tb-tree-edge[data-child="' + c + '"]'); if (de) de.classList.add('tb-edge-dep');
+                    });
+                });
+                g.addEventListener('mouseleave', clearHi);
+                g.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (hasKids) {
+                        if (collapsed.has(t.id)) collapsed.delete(t.id); else collapsed.add(t.id);
+                        draw();
+                    } else {
+                        const ht = headOf(t) ? byId.get(headOf(t)) : null;
+                        const dps = (kids.get(t.id) || []).map(id => byId.get(id)).filter(d => d && d.upos !== 'PUNCT');
+                        const panel = block.querySelector('.tb-detail-panel');
+                        if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); }
+                    }
+                });
+                svg.appendChild(g);
+            });
+            wrap.appendChild(svg);
+        };
+        draw();
+    }
+
+    // ── Per-word annotation grid (Tree mode) ──
+    // One column per word; rows are the annotations (form, translit, lemma, relation, pos, morph, gloss).
+    // Which rows show is controlled by the grid toggles in the control bar. Clicking a column opens detail.
+    function tbRenderGrid(block, sent) {
+        const toks = (sent.tokens || []);
+        if (!toks.length) return;
+        const byId = new Map(); toks.forEach(t => byId.set(t.id, t));
+
+        // detect RTL script (Arabic/Hebrew ranges) from the word forms
+        const isRTL = toks.some(t => {
+            const f = t.form || '';
+            for (let i = 0; i < f.length; i++) {
+                const c = f.charCodeAt(i);
+                if ((c >= 0x0590 && c <= 0x05FF) || (c >= 0x0600 && c <= 0x06FF) || (c >= 0x0750 && c <= 0x077F) ||
+                    (c >= 0x08A0 && c <= 0x08FF) || (c >= 0xFB1D && c <= 0xFDFF) || (c >= 0xFE70 && c <= 0xFEFF)) return true;
+            }
+            return false;
+        });
+
+        const state = window.__tbGridRows || {};
+        const rows = [
+            { key: 'form',     label: 'word',     val: t => t.form,                                          cls: 'tb-gc-form' },
+            { key: 'translit', label: 'translit', val: t => t.translit || '',                                cls: 'tb-gc-translit' },
+            { key: 'lemma',    label: 'lemma',    val: t => (t.lemma && t.lemma !== '_') ? t.lemma : '',     cls: 'tb-gc-lemma' },
+            { key: 'relation', label: 'relation', chip: 'rel',                                               cls: 'tb-gc-relation' },
+            { key: 'pos',      label: 'pos',      chip: 'pos',                                               cls: 'tb-gc-pos' },
+            { key: 'morph',    label: 'morph',    val: t => (t.feats && t.feats !== '_') ? t.feats : '',     cls: 'tb-gc-morph' },
+            { key: 'gloss',    label: 'gloss',    val: t => t.gloss || '',                                   cls: 'tb-gc-gloss' },
+        ];
+
+        const scroll = document.createElement('div');
+        scroll.className = 'tb-grid-scroll';
+        if (isRTL) scroll.style.direction = 'rtl';
+        const grid = document.createElement('div');
+        grid.className = 'tb-grid';
+        rows.forEach(r => { if (r.key !== 'form' && state[r.key] === false) grid.classList.add('tb-ghide-' + r.key); });
+
+        const openDetail = (t) => {
+            const ht = (t.head > 0) ? byId.get(t.head) : null;
+            const dps = toks.filter(d => d.head === t.id && d.upos !== 'PUNCT');
+            grid.querySelectorAll('.tb-gcell.tb-gcol-active').forEach(c => c.classList.remove('tb-gcol-active'));
+            grid.querySelectorAll('.tb-gcell[data-tok-id="' + t.id + '"]').forEach(c => c.classList.add('tb-gcol-active'));
+            const panel = block.querySelector('.tb-detail-panel');
+            if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); }
+        };
+
+        rows.forEach(r => {
+            const rowEl = document.createElement('div');
+            rowEl.className = 'tb-grow ' + r.cls;
+            const lab = document.createElement('div');
+            lab.className = 'tb-glabel';
+            lab.textContent = r.label;
+            rowEl.appendChild(lab);
+            toks.forEach(t => {
+                const cell = document.createElement('div');
+                cell.className = 'tb-gcell' + (t.upos === 'PUNCT' ? ' tb-gcell-punct' : '');
+                cell.dataset.tokId = t.id;
+                if (r.chip === 'rel') {
+                    if (t.deprel && t.deprel !== '_') {
+                        const chip = document.createElement('span');
+                        chip.className = 'tb-rel-chip';
+                        chip.style.background = tbRelColor(t.deprel);
+                        chip.textContent = t.deprel;
+                        cell.appendChild(chip);
+                    }
+                } else if (r.chip === 'pos') {
+                    if (t.upos && t.upos !== '_') {
+                        const chip = document.createElement('span');
+                        chip.className = 'tb-pos-chip';
+                        const pc = tbPosColor(t.upos);
+                        chip.style.color = pc; chip.style.borderColor = pc + '66';
+                        chip.textContent = t.upos;
+                        cell.appendChild(chip);
+                        if (t.xpos && t.xpos !== '_' && t.xpos !== t.upos) {
+                            const x = document.createElement('span'); x.className = 'tb-xpos'; x.textContent = ' ' + t.xpos; cell.appendChild(x);
+                        }
+                    }
+                } else {
+                    const v = r.val(t);
+                    cell.textContent = v;
+                    if (v) cell.title = v;
+                }
+                cell.addEventListener('click', (e) => { e.stopPropagation(); openDetail(t); });
+                rowEl.appendChild(cell);
+            });
+            grid.appendChild(rowEl);
+        });
+        scroll.appendChild(grid);
+        block.appendChild(scroll);
     }
 
     function escHtml(s) {
