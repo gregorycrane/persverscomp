@@ -120,7 +120,7 @@
     {
      "short_id": "daphne-tb-cn",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.daphne-tb-cn",
-     "label": "Treebank (Daphne AGDT)",
+     "label": "Treebank (Daphne AGDT CN)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
