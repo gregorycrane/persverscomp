@@ -1,0 +1,35 @@
+# ── Perseus persverscomp: keep shards, drop the monolith ──────────────────
+#
+# The monolithic build DB (corpus_alignment_grid.db) is a BUILD-TIME SOURCE
+# only. Cell 0 builds it; Cell 2 shards it into site/data/<tg>/<wk>/*.db plus
+# site/catalog.json. The deployed app fetches ONLY the per-work shards and the
+# catalog — never the monolith. It is regenerable, large, and must not be
+# committed (>100MB blocks GitHub pushes outright).
+
+# The monster central file (repo root)
+corpus_alignment_grid.db
+corpus_alignment_grid.db-journal
+corpus_alignment_grid.db-wal
+corpus_alignment_grid.db-shm
+
+# Any other stray top-level SQLite build artifacts (leading slash = root only,
+# so this does NOT touch the sharded DBs under site/data/)
+/*.db
+/*.sqlite
+/*.sqlite3
+/*.db-journal
+/*.db-wal
+/*.db-shm
+
+# ── Explicitly KEEP the deployable, sharded data ──────────────────────────
+# (un-ignore, in case a broader pattern above ever matches them)
+!site/
+!site/catalog.json
+!site/data/
+!site/data/**/*.db
+
+# ── Usual notebook / Python noise ─────────────────────────────────────────
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
