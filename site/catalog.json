@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 26992640,
+   "bytes": 27553792,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 31637504,
+   "bytes": 32329728,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -144,6 +144,13 @@
      "label": "English (Sir Richard Jebb, 1904)",
      "doc_type": "translation",
      "text_class": "english-text"
+    },
+    {
+     "short_id": "hoelderlin1805-deu1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.hoelderlin1805-deu1",
+     "label": "German (F. Hölderlin, 1804)",
+     "doc_type": "translation",
+     "text_class": "german-text"
     }
    ],
    "annotations": {
@@ -157,7 +164,7 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 29458432,
+   "bytes": 30019584,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -192,7 +199,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 84963328,
+   "bytes": 85524480,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -241,7 +248,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 32727040,
+   "bytes": 33288192,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
