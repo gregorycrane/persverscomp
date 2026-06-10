@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 27553792,
+   "bytes": 27680768,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 32329728,
+   "bytes": 32456704,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -151,6 +151,13 @@
      "label": "German (F. Hölderlin, 1804)",
      "doc_type": "translation",
      "text_class": "german-text"
+    },
+    {
+     "short_id": "bothe1806-lat1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.bothe1806-lat1",
+     "label": "Latin (F. H. Bothe, 1806)",
+     "doc_type": "translation",
+     "text_class": "latin-text"
     }
    ],
    "annotations": {
@@ -164,7 +171,7 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 30019584,
+   "bytes": 30146560,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -199,7 +206,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 85524480,
+   "bytes": 85651456,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -248,7 +255,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 33288192,
+   "bytes": 33415168,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
