@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 27680768,
+   "bytes": 27787264,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 32456704,
+   "bytes": 32563200,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -141,7 +141,7 @@
     {
      "short_id": "perseus-eng2",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-eng2",
-     "label": "English (Sir Richard Jebb, 1904)",
+     "label": "English (Sir Richard Jebb2, 1904)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -158,6 +158,13 @@
      "label": "Latin (F. H. Bothe, 1806)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "jebb1904-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb1904-eng1",
+     "label": "English (Sir Richard Jebb1, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
    "annotations": {
@@ -166,12 +173,12 @@
     "commentaries": 0,
     "metrical_lines": 0
    },
-   "label": "English (Sir Richard Jebb, 1904)"
+   "label": "English (Sir Richard Jebb1, 1904)"
   },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 30146560,
+   "bytes": 30253056,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -206,7 +213,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 85651456,
+   "bytes": 85757952,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -255,7 +262,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 33415168,
+   "bytes": 33521664,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
