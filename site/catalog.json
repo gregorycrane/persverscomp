@@ -118,8 +118,8 @@
      "text_class": "treebank-text"
     },
     {
-     "short_id": "daphne-tb-cn",
-     "urn": "urn:cts:greekLit:tlg0011.tlg002.daphne-tb-cn",
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.daphne-tb-cn1",
      "label": "Treebank (Daphne AGDT CN)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
@@ -178,12 +178,19 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 30253056,
+   "bytes": 33947648,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0011.tlg004.daphne-tb-grc1",
      "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg004.daphne-tb-cn1",
+     "label": "Treebank (Daphne AGDT CN)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -203,7 +210,7 @@
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
