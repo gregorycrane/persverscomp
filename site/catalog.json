@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 6930432,
+   "bytes": 7061504,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -163,6 +163,13 @@
      "short_id": "garbin1889-spa2",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.garbin1889-spa2",
      "label": "Spanish (A. G. Garbin, 1889)",
+     "doc_type": "translation",
+     "text_class": "spanish-text"
+    },
+    {
+     "short_id": "bolufer1921-spa2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.bolufer1921-spa2",
+     "label": "Spanish (J. A. Bolufer, 1921)",
      "doc_type": "translation",
      "text_class": "spanish-text"
     },
