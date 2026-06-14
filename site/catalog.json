@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 27787264,
+   "bytes": 18223104,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 32563200,
+   "bytes": 6930432,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -160,6 +160,13 @@
      "text_class": "latin-text"
     },
     {
+     "short_id": "garbin1889-spa2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.garbin1889-spa2",
+     "label": "Spanish (A. G. Garbin, 1889)",
+     "doc_type": "translation",
+     "text_class": "spanish-text"
+    },
+    {
      "short_id": "jebb1904-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb1904-eng1",
      "label": "English (Sir Richard Jebb1, 1904)",
@@ -178,7 +185,7 @@
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 33947648,
+   "bytes": 7426048,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -220,7 +227,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 85757952,
+   "bytes": 63963136,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -269,7 +276,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 33521664,
+   "bytes": 9703424,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",

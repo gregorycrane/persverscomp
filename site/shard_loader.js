@@ -32,7 +32,9 @@ function shardPathForWorkKey(workKey) {
 
 async function loadCatalog() {
     if (CATALOG) return CATALOG;
-    const r = await fetch(`./${DATA_DIR}/../catalog.json`);
+    // catalog.json is tiny and must always be fresh: bypass the HTTP cache so a
+    // rebuild's new sizes/versions show up without a manual hard-refresh.
+    const r = await fetch(`./${DATA_DIR}/../catalog.json?v=${Date.now()}`, { cache: "no-store" });
     if (!r.ok) throw new Error("catalog.json not found");
     CATALOG = await r.json();
     return CATALOG;
