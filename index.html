@@ -184,7 +184,8 @@
 
         /* Sidebar Stack: Force internal scroll boxes for every version panel */
         #outer-wrapper.mode-classic .reading-column.cross-panel {
-            display: flex;
+            /* display is governed by the column-count rules (#col_c3/#col_c4 hide at 3 cols);
+               do NOT set it here or it overrides those and forces c3/c4 visible in classic. */
             flex-direction: column;
             min-height: 0; /* CRITICAL: Allows flex items to shrink below text height */
             border-bottom: 1px solid #ccc;
