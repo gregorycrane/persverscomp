@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 7061504,
+   "bytes": 7348224,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -149,6 +149,13 @@
      "short_id": "hoelderlin1805-deu1",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.hoelderlin1805-deu1",
      "label": "German (F. Hölderlin, 1804)",
+     "doc_type": "translation",
+     "text_class": "german-text"
+    },
+    {
+     "short_id": "boeckh-deu2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.boeckh-deu2",
+     "label": "German (A. Boeckh, 1884)",
      "doc_type": "translation",
      "text_class": "german-text"
     },
@@ -234,7 +241,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 63963136,
+   "bytes": 64671744,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
