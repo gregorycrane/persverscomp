@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 7348224,
+   "bytes": 8540160,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -186,6 +186,13 @@
      "label": "English (Sir Richard Jebb1, 1904)",
      "doc_type": "translation",
      "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
    "annotations": {
@@ -194,7 +201,7 @@
     "commentaries": 0,
     "metrical_lines": 0
    },
-   "label": "English (Sir Richard Jebb1, 1904)"
+   "label": "Commentary (R. C. Jebb)"
   },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
