@@ -297,7 +297,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 9654272,
+   "bytes": 9826304,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
@@ -375,6 +375,13 @@
      "label": "English (Thomas Twining, 1789)",
      "doc_type": "translation",
      "text_class": "english-text"
+    },
+    {
+     "short_id": "dacier1692-fra2",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.dacier1692-fra2",
+     "label": "French (André Dacier, 1692)",
+     "doc_type": "translation",
+     "text_class": "french-text"
     },
     {
      "short_id": "bywater1909-com1",
