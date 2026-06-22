@@ -394,7 +394,7 @@
    .tb-gloss-tok { font-style: normal; }
    .tb-gloss-tok.tb-active { color: #440000; }
    /* Reader row-visibility toggles */
-   .tb-hide-arabic   .tb-token-row   { display: none; }
+   .tb-hide-original .tb-token-row   { display: none; }
    .tb-hide-translit .tb-translit-row { display: none; }
    .tb-vis-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0 8px; position: sticky; top: 0; background: #fff; z-index: 3; }
    .tb-vis-label { font-size: 9px; font-weight: bold; text-transform: uppercase; letter-spacing: .5px; color: #bbb; margin-right: 2px; }
@@ -2208,10 +2208,10 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         container.innerHTML = '';
 
         // Reader row-visibility state (persists across treebank re-renders)
-        if (!window.__tbRowVis) window.__tbRowVis = { arabic: true, translit: true };
+        if (!window.__tbRowVis) window.__tbRowVis = { original: true, translit: true };
         if (!window.__tbMode) window.__tbMode = 'text';
         if (!window.__tbGridRows) window.__tbGridRows = { translit:true, lemma:true, relation:true, pos:true, morph:true, gloss:true };
-        container.classList.toggle('tb-hide-arabic',   !window.__tbRowVis.arabic);
+        container.classList.toggle('tb-hide-original', !window.__tbRowVis.original);
         container.classList.toggle('tb-hide-translit', !window.__tbRowVis.translit);
 
         const filter = activeSectionFilter;
@@ -2282,7 +2282,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 });
                 return b;
             };
-            visBar.appendChild(mkVisToggle('Arabic', 'arabic'));
+            visBar.appendChild(mkVisToggle('Original', 'original'));
             if (!isPoetry) visBar.appendChild(mkVisToggle('Translit', 'translit'));
         }
         container.appendChild(visBar);
