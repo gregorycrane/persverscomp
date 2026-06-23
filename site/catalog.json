@@ -297,7 +297,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 11030528,
+   "bytes": 12271616,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
@@ -394,6 +394,13 @@
      "short_id": "dacier1692-com-fra1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.dacier1692-com-fra1",
      "label": "Commentary (André Dacier, 1692)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    },
+    {
+     "short_id": "twining-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.twining-com-eng1",
+     "label": "Commentary (T. Twining, 1789)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
     }
