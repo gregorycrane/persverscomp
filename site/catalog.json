@@ -108,7 +108,7 @@
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 8544256,
+   "bytes": 8548352,
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -291,6 +291,55 @@
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 15682
+   },
+   "label": "English (A.T. Murray, 1924)"
+  },
+  "tlg0012.tlg002": {
+   "textgroup": "tlg0012",
+   "work": "tlg002",
+   "bytes": 51044352,
+   "versions": [
+    {
+     "short_id": "daphne_perstb-grc1",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.daphne_perstb-grc1",
+     "label": "Treebank (Perseus AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perstb-meter-grc1",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.perstb-meter-grc1",
+     "label": "Metrical Analysis (Perseus)",
+     "doc_type": "metrical",
+     "text_class": "metrical-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2",
+     "label": "Greek (David B Monro, 1908)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-eng3",
+     "label": "English (A.T. Murray, 1924)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "butlernagy2020-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.butlernagy2020-eng2",
+     "label": "English (Butler, rev. Nagy et al., 2020)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 12110
    },
    "label": "English (A.T. Murray, 1924)"
   },
