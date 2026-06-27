@@ -3,7 +3,7 @@
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 18223104,
+   "bytes": 18276352,
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 64671744,
+   "bytes": 64860160,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -279,9 +279,9 @@
      "text_class": "english-text"
     },
     {
-     "short_id": "perseus-eng4",
-     "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-eng4",
-     "label": "English (Samuel Butler, 1898)",
+     "short_id": "butlernagy2020-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.butlernagy2020-eng2",
+     "label": "English (Butler, rev. Nagy et al., 2020)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
@@ -297,7 +297,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 12271616,
+   "bytes": 12615680,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
