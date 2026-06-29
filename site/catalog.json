@@ -304,7 +304,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 51044352,
+   "bytes": 52973568,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -338,6 +338,13 @@
      "short_id": "butlernagy2020-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg002.butlernagy2020-eng2",
      "label": "English (Butler, rev. Nagy et al., 2020)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "bryant1873-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.bryant1873-eng2",
+     "label": "English (William Cullen Bryant, 1873)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
