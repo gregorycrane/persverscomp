@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 69926912,
+   "bytes": 69607424,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -311,7 +311,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 52973568,
+   "bytes": 54677504,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -352,6 +352,13 @@
      "short_id": "bryant1873-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg002.bryant1873-eng2",
      "label": "English (William Cullen Bryant, 1873)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "pope1726watson1858-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.pope1726watson1858-eng2",
+     "label": "English (Alexander Pope, 1726, ed. Watson, 1858)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
