@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 71684096,
+   "bytes": 74047488,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -303,6 +303,13 @@
      "short_id": "hobbes1667molesworth-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg001.hobbes1667molesworth-eng2",
      "label": "English (Thomas Hobbes, 1667, ed. Molesworth 1843)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "chapman1611hooper-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.chapman1611hooper-eng2",
+     "label": "English (George Chapman , 1611, ed. Hooper 1857)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
