@@ -199,10 +199,12 @@
         #outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; }
         #outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; }
         #outer-wrapper.mode-classic #col_c3 { grid-column: 2; grid-row: 3; }
-        #outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; border-bottom: none; }
+        #outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; }
+        #outer-wrapper.mode-classic #col_c5 { grid-column: 2; grid-row: 5; }
+        #outer-wrapper.mode-classic #col_c6 { grid-column: 2; grid-row: 6; border-bottom: none; }
 
         /* Proportionate Grid Row Allocation */
-        #outer-wrapper.mode-classic:not(.four-columns):not(.five-columns) #main-container {
+        #outer-wrapper.mode-classic:not(.four-columns):not(.five-columns):not(.six-columns):not(.seven-columns) #main-container {
             grid-template-rows: 1fr 1fr;
         }
         #outer-wrapper.mode-classic.four-columns #main-container {
@@ -210,6 +212,12 @@
         }
         #outer-wrapper.mode-classic.five-columns #main-container {
             grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.six-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.seven-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         }
         
         /* Typographic Content Rendering Elements */
@@ -546,7 +554,7 @@
         .toggle-btn.col-scaler-btn { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
 
         /* Flexible Multi-Column State Handling Rules */
-        #col_c3, #col_c4, #resize-c2-c3, #resize-c3-c4 { display: none; }
+        #col_c3, #col_c4, #col_c5, #col_c6, #resize-c2-c3, #resize-c3-c4, #resize-c4-c5, #resize-c5-c6 { display: none; }
         
         .four-columns #col_c3 { display: flex !important; }
         .four-columns #resize-c2-c3 { display: block !important; }
@@ -554,7 +562,13 @@
         .five-columns #col_c3, .five-columns #col_c4 { display: flex !important; }
         .five-columns #resize-c2-c3, .five-columns #resize-c3-c4 { display: block !important; }
 
-        .four-columns.mode-parallel .reading-column,         .five-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
+        .six-columns #col_c3, .six-columns #col_c4, .six-columns #col_c5 { display: flex !important; }
+        .six-columns #resize-c2-c3, .six-columns #resize-c3-c4, .six-columns #resize-c4-c5 { display: block !important; }
+
+        .seven-columns #col_c3, .seven-columns #col_c4, .seven-columns #col_c5, .seven-columns #col_c6 { display: flex !important; }
+        .seven-columns #resize-c2-c3, .seven-columns #resize-c3-c4, .seven-columns #resize-c4-c5, .seven-columns #resize-c5-c6 { display: block !important; }
+
+        .four-columns.mode-parallel .reading-column,         .five-columns.mode-parallel .reading-column,         .six-columns.mode-parallel .reading-column,         .seven-columns.mode-parallel .reading-column { flex: 1 !important; width: auto !important; }
 
         /* Fixed Classic Asymmetric Layout Rules */
         #outer-wrapper.mode-classic #classic-left-rail { 
@@ -579,10 +593,12 @@
         #outer-wrapper.mode-classic #col_c1 { grid-column: 2; grid-row: 1; border-bottom: 1px solid #ccc; }
         #outer-wrapper.mode-classic #col_c2 { grid-column: 2; grid-row: 2; border-bottom: 1px solid #ccc; }
         #outer-wrapper.mode-classic #col_c3 { grid-column: 2; grid-row: 3; border-bottom: 1px solid #ccc; }
-        #outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; }
+        #outer-wrapper.mode-classic #col_c4 { grid-column: 2; grid-row: 4; border-bottom: 1px solid #ccc; }
+        #outer-wrapper.mode-classic #col_c5 { grid-column: 2; grid-row: 5; border-bottom: 1px solid #ccc; }
+        #outer-wrapper.mode-classic #col_c6 { grid-column: 2; grid-row: 6; }
 
         /* Dynamic Row Definitions based on Column count configuration */
-        #outer-wrapper.mode-classic:not(.four-columns):not(.five-columns) #main-container {
+        #outer-wrapper.mode-classic:not(.four-columns):not(.five-columns):not(.six-columns):not(.seven-columns) #main-container {
             grid-template-rows: 1fr 1fr;
         }
         #outer-wrapper.mode-classic.four-columns #main-container {
@@ -590,6 +606,12 @@
         }
         #outer-wrapper.mode-classic.five-columns #main-container {
             grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.six-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        }
+        #outer-wrapper.mode-classic.seven-columns #main-container {
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         }
 
         /* Ensure prose structural divisions expand naturally */
@@ -746,6 +768,22 @@
                 <select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select>
             </div>
             <div class="column-content-scroll" id="content_c4"></div>
+        </div>
+        <div class="resize-handle resize-handle-h" id="resize-c4-c5"></div>
+        <div class="reading-column cross-panel" id="col_c5">
+            <div class="panel-header">
+                <span>Comparison Version 5 <button class="make-focus-btn" onclick="swapToFocus('c5')">⇦ Focus</button></span>
+                <select class="edition-select-dropdown" id="select_c5" onchange="updateColumnContent('c5', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c5"></div>
+        </div>
+        <div class="resize-handle resize-handle-h" id="resize-c5-c6"></div>
+        <div class="reading-column cross-panel" id="col_c6">
+            <div class="panel-header">
+                <span>Comparison Version 6 <button class="make-focus-btn" onclick="swapToFocus('c6')">⇦ Focus</button></span>
+                <select class="edition-select-dropdown" id="select_c6" onchange="updateColumnContent('c6', this.value)"></select>
+            </div>
+            <div class="column-content-scroll" id="content_c6"></div>
         </div>
       </div>
     </div>
@@ -1009,7 +1047,7 @@ let activeWorkKey = "tlg0003.tlg001";
     let activeSectionFilter = null;
     let currentActiveMode = "parallel";
     let activeColumnsCount = 3;
-    let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "" };
+    let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "", c5: "", c6: "" };
 
     // ── Diff state ───────────────────────────────────────────────────
     let diffEnabled = false;
@@ -1291,7 +1329,7 @@ let activeWorkKey = "tlg0003.tlg001";
             return meta.textgroup === tg && meta.work === wk;
         });
 
-        ['f', 'c1', 'c2', 'c3', 'c4'].forEach((prefix) => {
+        ['f', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6'].forEach((prefix) => {
             const selectEl = document.getElementById("select_" + prefix);
             if (!selectEl) return;
             
@@ -1442,6 +1480,8 @@ function initializeRoutingFromURL() {
         columnEditions.c2 = params.get("right2") || "";
         columnEditions.c3 = params.get("right3") || "";
         columnEditions.c4 = params.get("right4") || "";
+        columnEditions.c5 = params.get("right5") || "";
+        columnEditions.c6 = params.get("right6") || "";
 
         const colParam = params.get("cols");
         if (colParam) {
@@ -1450,6 +1490,8 @@ function initializeRoutingFromURL() {
                 const ow = document.getElementById('outer-wrapper');
                 if (activeColumnsCount === 4) ow.classList.add('four-columns');
                 if (activeColumnsCount === 5) ow.classList.add('five-columns');
+                if (activeColumnsCount === 6) ow.classList.add('six-columns');
+                if (activeColumnsCount === 7) ow.classList.add('seven-columns');
                 document.getElementById('btn-column-scaler').innerText = `Columns: ${activeColumnsCount}`;
             }, 0);
         }
@@ -1478,7 +1520,7 @@ function initializeRoutingFromURL() {
 
         const workPrefix = activeWorkKey.split(".")[1];
         const tgPrefix = activeWorkKey.split(".")[0];
-        ['f', 'c1', 'c2', 'c3', 'c4'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6'].forEach(prefix => {
             const currentEd = columnEditions[prefix];
             if (currentEd && TEXT_REGISTRY[currentEd] &&
                 (TEXT_REGISTRY[currentEd].work !== workPrefix ||
@@ -1524,7 +1566,7 @@ function initializeRoutingFromURL() {
 
             prioritizedList = [...new Set(prioritizedList)];
 
-            const prefixes = ['f', 'c1', 'c2', 'c3', 'c4'];
+            const prefixes = ['f', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6'];
             prefixes.forEach((prefix, idx) => {
                 let currentEd = columnEditions[prefix];
                 // External-link support: a URL may carry a short_id instead of the canonical id.
@@ -1637,7 +1679,7 @@ function initializeRoutingFromURL() {
     // Find pairs of columns that share the same language class.
     // Returns [{leftPrefix, rightPrefix, cssClass}] for each same-lang pair.
     function findSameLangColumnPairs() {
-        const prefixes = ['f', 'c1', 'c2', 'c3', 'c4'];
+        const prefixes = ['f', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6'];
         // Only diff critical editions (doc_type="edition"), not translations.
         // Two translations of the same work are intentionally different —
         // diffing them produces noise, not scholarly signal.
@@ -2107,6 +2149,8 @@ function initializeRoutingFromURL() {
         if (columnEditions.c2) params.set("right2", columnEditions.c2);
         if (columnEditions.c3) params.set("right3", columnEditions.c3);
         if (columnEditions.c4) params.set("right4", columnEditions.c4);
+        if (columnEditions.c5) params.set("right5", columnEditions.c5);
+        if (columnEditions.c6) params.set("right6", columnEditions.c6);
         params.set("cols", activeColumnsCount.toString());
 
         window.history.replaceState(null, "", window.location.pathname + "?" + params.toString());
@@ -3118,7 +3162,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
     function tbPosColor(pos) { return TB_POS_COLORS[pos] || '#444'; }
 
     function renderActiveContentLayers(payload) {
-        ['f', 'c1', 'c2', 'c3', 'c4'].forEach(prefix => {
+        ['f', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6'].forEach(prefix => {
             const targetContainer = document.getElementById(`content_${prefix}`);
             if (!targetContainer) return;
             targetContainer.innerHTML = "";
@@ -3243,11 +3287,15 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             frame.className = "mode-classic";
             if (activeColumnsCount === 4) frame.classList.add('four-columns');
             if (activeColumnsCount === 5) frame.classList.add('five-columns');
+            if (activeColumnsCount === 6) frame.classList.add('six-columns');
+            if (activeColumnsCount === 7) frame.classList.add('seven-columns');
             btnClassic.classList.add("active-mode"); btnParallel.classList.remove("active-mode");
         } else {
             frame.className = "mode-parallel";
             if (activeColumnsCount === 4) frame.classList.add('four-columns');
             if (activeColumnsCount === 5) frame.classList.add('five-columns');
+            if (activeColumnsCount === 6) frame.classList.add('six-columns');
+            if (activeColumnsCount === 7) frame.classList.add('seven-columns');
             btnParallel.classList.add("active-mode"); btnClassic.classList.remove("active-mode");
         }
         
@@ -3258,16 +3306,20 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
     window.cycleColumns = function() {
         if (activeColumnsCount === 3) activeColumnsCount = 4;
         else if (activeColumnsCount === 4) activeColumnsCount = 5;
+        else if (activeColumnsCount === 5) activeColumnsCount = 6;
+        else if (activeColumnsCount === 6) activeColumnsCount = 7;
         else activeColumnsCount = 3;
 
         const btn = document.getElementById('btn-column-scaler');
         const ow = document.getElementById('outer-wrapper');
         
-        ow.classList.remove('four-columns', 'five-columns');
+        ow.classList.remove('four-columns', 'five-columns', 'six-columns', 'seven-columns');
         btn.innerText = `Columns: ${activeColumnsCount}`;
         
         if (activeColumnsCount === 4) ow.classList.add('four-columns');
         if (activeColumnsCount === 5) ow.classList.add('five-columns');
+        if (activeColumnsCount === 6) ow.classList.add('six-columns');
+        if (activeColumnsCount === 7) ow.classList.add('seven-columns');
         
         updateClassicGridForColumns();
         triggerViewRefresh();
@@ -3278,7 +3330,11 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const colF = document.getElementById('col_f');
         if (!ow || !colF || !ow.classList.contains('mode-classic')) return;
         
-        if (activeColumnsCount === 5) {
+        if (activeColumnsCount === 7) {
+            colF.style.gridRow = '1 / span 6';
+        } else if (activeColumnsCount === 6) {
+            colF.style.gridRow = '1 / span 5';
+        } else if (activeColumnsCount === 5) {
             colF.style.gridRow = '1 / span 4';
         } else if (activeColumnsCount === 4) {
             colF.style.gridRow = '1 / span 3';
@@ -3460,10 +3516,12 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             const isClassic = document.getElementById('outer-wrapper')?.classList.contains('mode-classic');
             const h1 = document.getElementById('resize-f-c1'); const h2 = document.getElementById('resize-c1-c2'); 
             const h3 = document.getElementById('resize-c2-c3'); const h4 = document.getElementById('resize-c3-c4');
+            const h5 = document.getElementById('resize-c4-c5'); const h6 = document.getElementById('resize-c5-c6');
             const ch = document.getElementById('classic-resize-col'); const rh = document.getElementById('classic-resize-row');
             
             if (isClassic) {
                 if (h1) h1.style.display = 'none'; if (h2) h2.style.display = 'none'; if (h3) h3.style.display = 'none'; if (h4) h4.style.display = 'none';
+                if (h5) h5.style.display = 'none'; if (h6) h6.style.display = 'none';
                 createClassicOverlayHandles();
                 if (ch) ch.style.display = ''; 
                 
@@ -3484,7 +3542,9 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             } else {
                 if (h1) h1.style.display = ''; if (h2) h2.style.display = ''; 
                 if (h3) h3.style.display = activeColumnsCount >= 4 ? '' : 'none';
-                if (h4) h4.style.display = activeColumnsCount === 5 ? '' : 'none';
+                if (h4) h4.style.display = activeColumnsCount >= 5 ? '' : 'none';
+                if (h5) h5.style.display = activeColumnsCount >= 6 ? '' : 'none';
+                if (h6) h6.style.display = activeColumnsCount === 7 ? '' : 'none';
                 if (ch) ch.style.display = 'none'; if (rh) rh.style.display = 'none';
             }
         });
