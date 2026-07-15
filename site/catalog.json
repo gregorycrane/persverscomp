@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 74047488,
+   "bytes": 76460032,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -309,7 +309,14 @@
     {
      "short_id": "chapman1611hooper-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg001.chapman1611hooper-eng2",
-     "label": "English (George Chapman , 1611, ed. Hooper 1857)",
+     "label": "English (George Chapman, 1611, ed. Hooper 1857)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "cowper-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.cowper-eng2",
+     "label": "English (William Cowper, 1791, ed. Southey)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
@@ -325,7 +332,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 58417152,
+   "bytes": 60391424,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -387,6 +394,13 @@
      "short_id": "chapman1615hooper-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg002.chapman1615hooper-eng2",
      "label": "English (George Chapman, 1667, ed. Hooper 1857)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "cowper-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.cowper-eng2",
+     "label": "English (William Cowper, 1791, ed. Southey)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
