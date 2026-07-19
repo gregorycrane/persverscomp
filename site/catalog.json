@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 76460032,
+   "bytes": 80818176,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -319,6 +319,13 @@
      "label": "English (William Cowper, 1791, ed. Southey)",
      "doc_type": "translation",
      "text_class": "english-text"
+    },
+    {
+     "short_id": "newman1856-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg001.newman1856-eng2",
+     "label": "English (F. W. Newman, 1856)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
    "annotations": {
@@ -332,7 +339,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 60391424,
+   "bytes": 60399616,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
