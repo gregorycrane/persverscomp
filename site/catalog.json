@@ -339,7 +339,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 60399616,
+   "bytes": 62271488,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -408,6 +408,13 @@
      "short_id": "cowper-eng2",
      "urn": "urn:cts:greekLit:tlg0012.tlg002.cowper-eng2",
      "label": "English (William Cowper, 1791, ed. Southey)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "cotterill1911-eng2",
+     "urn": "urn:cts:greekLit:tlg0012.tlg002.cotterill1911-eng2",
+     "label": "English (H. B. Cotterill, 1911)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
