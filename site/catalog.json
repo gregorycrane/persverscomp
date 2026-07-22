@@ -248,7 +248,7 @@
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 84459520,
+   "bytes": 84684800,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -339,7 +339,7 @@
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 62566400,
+   "bytes": 62705664,
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
