@@ -147,6 +147,7 @@
         .column-content-scroll { flex: 1; overflow-y: auto; padding: 15px; }
         .panel-header { background: #660000; color: #fff; padding: 4px 8px; font-size: 11px; font-weight: bold; position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
         .edition-select-dropdown { background: #fff; color: #333; font-size: 10px; padding: 1px 4px; border: 1px solid #ccc; border-radius: 2px; outline: none; cursor: pointer; }
+        .translit-mode-select { background: #fdf3e3; color: #660000; font-size: 10px; padding: 1px 4px; margin-left: 4px; border: 1px solid #d8c090; border-radius: 2px; outline: none; cursor: pointer; }
 
         /* Left Hand Rail Navigation */
         #classic-left-rail { display: none; width: auto; min-width: 80px; max-width: 320px; flex-shrink: 0; background: #f4f4f0; border-right: 1px solid #dcdcc8; padding: 10px 12px; overflow-y: auto; }
@@ -412,6 +413,13 @@
         /* ── Treebank column styles ──────────────────────────────── */
         .tb-sentence-block { border-bottom: 1px solid #f0efe8; padding: 8px 0 10px; }
         .tb-cit-label { font-size: 10px; color: #aaa; font-family: "Courier New",monospace; margin-bottom: 3px; }
+        .tb-credits-wrap { margin: 2px 0 6px; }
+        .tb-credits-toggle { font-size: 10px; color: #660000; text-decoration: none; cursor: pointer; }
+        .tb-credits-toggle:hover { text-decoration: underline; }
+        .tb-credits-box { margin-top: 4px; padding: 8px 10px; background: #f5f4ef; border: 1px solid #e0dfd5; border-radius: 3px; }
+        .tb-credits-section + .tb-credits-section { margin-top: 6px; }
+        .tb-credits-heading { font-size: 9px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 2px; }
+        .tb-credits-line { font-size: 11px; color: #444; line-height: 1.4; }
         .tb-speaker { font-size: 12px; margin-bottom: 3px; }
         .tb-speaker strong { color: #660000; }
         .tb-token-row { font-family: "Gentium Plus","GFS Didot",serif; font-size: 15px; line-height: 1.9; display: block; }
@@ -737,7 +745,7 @@
         <div class="reading-column" id="col_f">
             <div class="panel-header">
                 <span>Focus</span>
-                <select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select><select class="translit-mode-select" id="translit_f" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('f', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_f"></div>
         </div>
@@ -745,7 +753,7 @@
         <div class="reading-column cross-panel" id="col_c1">
             <div class="panel-header">
                 <span>Comparison Version 1 <button class="make-focus-btn" onclick="swapToFocus('c1')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select><select class="translit-mode-select" id="translit_c1" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c1', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c1"></div>
         </div>
@@ -753,7 +761,7 @@
         <div class="reading-column cross-panel" id="col_c2">
             <div class="panel-header">
                 <span>Comparison Version 2 <button class="make-focus-btn" onclick="swapToFocus('c2')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select><select class="translit-mode-select" id="translit_c2" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c2', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c2"></div>
         </div>
@@ -761,7 +769,7 @@
         <div class="reading-column cross-panel" id="col_c3">
             <div class="panel-header">
                 <span>Comparison Version 3 <button class="make-focus-btn" onclick="swapToFocus('c3')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c3" onchange="updateColumnContent('c3', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c3" onchange="updateColumnContent('c3', this.value)"></select><select class="translit-mode-select" id="translit_c3" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c3', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c3"></div>
         </div>
@@ -769,7 +777,7 @@
         <div class="reading-column cross-panel" id="col_c4">
             <div class="panel-header">
                 <span>Comparison Version 4 <button class="make-focus-btn" onclick="swapToFocus('c4')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select><select class="translit-mode-select" id="translit_c4" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c4', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c4"></div>
         </div>
@@ -777,7 +785,7 @@
         <div class="reading-column cross-panel" id="col_c5">
             <div class="panel-header">
                 <span>Comparison Version 5 <button class="make-focus-btn" onclick="swapToFocus('c5')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c5" onchange="updateColumnContent('c5', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c5" onchange="updateColumnContent('c5', this.value)"></select><select class="translit-mode-select" id="translit_c5" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c5', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c5"></div>
         </div>
@@ -785,7 +793,7 @@
         <div class="reading-column cross-panel" id="col_c6">
             <div class="panel-header">
                 <span>Comparison Version 6 <button class="make-focus-btn" onclick="swapToFocus('c6')">⇦ Focus</button></span>
-                <select class="edition-select-dropdown" id="select_c6" onchange="updateColumnContent('c6', this.value)"></select>
+                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c6" onchange="updateColumnContent('c6', this.value)"></select><select class="translit-mode-select" id="translit_c6" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c6', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c6"></div>
         </div>
@@ -823,6 +831,212 @@
     }
     function _jp(s, fb) { try { return JSON.parse(s); } catch (e) { return fb; } }
 
+    // ── Greek transliteration engine (client-side, no precomputation) ──────
+    // Converts polytonic Greek Unicode text into Latin transliteration on the
+    // fly. Two modes:
+    //   'simple' — plain ASCII-ish reading form, no accents/breathing marks
+    //              shown as diacritics, macrons dropped (e ~ eta, o ~ omega).
+    //   'full'   — scholarly form: acute/grave/circumflex accents rendered as
+    //              combining diacritics on the corresponding Latin vowel,
+    //              long eta/omega marked with a macron (ē/ō), iota subscript
+    //              shown as an appended -i, rough breathing as h-/rh-.
+    // Works directly on HTML strings: it only rewrites contiguous runs of
+    // Greek-range codepoints, so tags/attributes/entities pass through untouched.
+    const GK_SMOOTH      = '\u0313';
+    const GK_ROUGH        = '\u0314';
+    const GK_ACUTE        = '\u0301';
+    const GK_GRAVE        = '\u0300';
+    const GK_CIRCUMFLEX_A = '\u0342'; // perispomeni
+    const GK_CIRCUMFLEX_B = '\u0303'; // combining tilde (occasional alt encoding)
+    const GK_IOTA_SUB     = '\u0345'; // ypogegrammeni
+    const GK_DIAERESIS    = '\u0308';
+    const GK_MACRON       = '\u0304';
+    const GK_BREVE        = '\u0306';
+    const GK_COMBINING_MARKS = new Set([
+        GK_SMOOTH, GK_ROUGH, GK_ACUTE, GK_GRAVE, GK_CIRCUMFLEX_A, GK_CIRCUMFLEX_B,
+        GK_IOTA_SUB, GK_DIAERESIS, GK_MACRON, GK_BREVE
+    ]);
+
+    const GREEK_BASE_LETTERS = {
+        'α': { s: 'a',  f: 'a'  }, 'β': { s: 'b',  f: 'b'  }, 'γ': { s: 'g',  f: 'g'  },
+        'δ': { s: 'd',  f: 'd'  }, 'ε': { s: 'e',  f: 'e'  }, 'ζ': { s: 'z',  f: 'z'  },
+        'η': { s: 'e',  f: 'ē'  }, 'θ': { s: 'th', f: 'th' }, 'ι': { s: 'i',  f: 'i'  },
+        'κ': { s: 'k',  f: 'k'  }, 'λ': { s: 'l',  f: 'l'  }, 'μ': { s: 'm',  f: 'm'  },
+        'ν': { s: 'n',  f: 'n'  }, 'ξ': { s: 'x',  f: 'x'  }, 'ο': { s: 'o',  f: 'o'  },
+        'π': { s: 'p',  f: 'p'  }, 'ρ': { s: 'r',  f: 'r'  }, 'σ': { s: 's',  f: 's'  },
+        'ς': { s: 's',  f: 's'  }, 'τ': { s: 't',  f: 't'  }, 'υ': { s: 'y',  f: 'y'  },
+        'φ': { s: 'ph', f: 'ph' }, 'χ': { s: 'ch', f: 'ch' }, 'ψ': { s: 'ps', f: 'ps' },
+        'ω': { s: 'o',  f: 'ō'  },
+    };
+    const GREEK_DIPHTHONGS = {
+        'αι': { s: 'ai', f: 'ai' }, 'ει': { s: 'ei', f: 'ei' }, 'οι': { s: 'oi', f: 'oi' },
+        'υι': { s: 'yi', f: 'yi' }, 'αυ': { s: 'au', f: 'au' }, 'ευ': { s: 'eu', f: 'eu' },
+        'ηυ': { s: 'eu', f: 'ēu' }, 'ου': { s: 'ou', f: 'ou' },
+    };
+    const GREEK_PUNCT_MAP = {
+        '\u037E': '?',   // Greek question mark
+        '\u0387': ';',   // ano teleia
+        '\u1FBD': "'",   // koronis (elision)
+        '\u1FBF': "'",   // psili used standalone
+        '\u1FFE': "'",   // dasia used standalone
+    };
+    const GK_LATIN_VOWELS = 'aeiouyēō';
+
+    function _gkGroupLetters(nfdStr) {
+        const letters = [];
+        for (const ch of nfdStr) {
+            if (GK_COMBINING_MARKS.has(ch) && letters.length) {
+                letters[letters.length - 1].marks.push(ch);
+            } else {
+                letters.push({ base: ch, marks: [] });
+            }
+        }
+        return letters;
+    }
+
+    function _gkMergeDiphthongs(letters) {
+        const out = [];
+        for (let i = 0; i < letters.length; i++) {
+            const cur = letters[i];
+            const nxt = letters[i + 1];
+            if (nxt) {
+                const curLower = cur.base.toLowerCase();
+                const nxtLower = nxt.base.toLowerCase();
+                const pairKey = curLower + nxtLower;
+                const hasDiaeresis = nxt.marks.includes(GK_DIAERESIS);
+                const curHasIotaSub = cur.marks.includes(GK_IOTA_SUB);
+                if (GREEK_DIPHTHONGS[pairKey] && !hasDiaeresis && !curHasIotaSub) {
+                    out.push({
+                        diphthong: pairKey,
+                        marks: cur.marks.concat(nxt.marks),
+                        isUpper: cur.base !== curLower,
+                    });
+                    i++; // consumed the second vowel
+                    continue;
+                }
+            }
+            out.push({ base: cur.base, marks: cur.marks, isUpper: cur.base !== cur.base.toLowerCase() });
+        }
+        return out;
+    }
+
+    function _gkInsertAccent(str, accentMark) {
+        // Greek writes the accent over a diphthong's second vowel (e.g. αἵ ->
+        // haî, not hâi), so scan from the end and mark the last Latin vowel.
+        for (let i = str.length - 1; i >= 0; i--) {
+            if (GK_LATIN_VOWELS.includes(str[i])) {
+                return str.slice(0, i + 1) + accentMark + str.slice(i + 1);
+            }
+        }
+        return str + accentMark;
+    }
+
+    function _gkRenderUnit(unit, mode, nextBaseLower) {
+        let latin;
+        if (unit.diphthong) {
+            const d = GREEK_DIPHTHONGS[unit.diphthong];
+            latin = (mode === 'full') ? d.f : d.s;
+        } else {
+            const lower = unit.base.toLowerCase();
+            const entry = GREEK_BASE_LETTERS[lower];
+            if (!entry) {
+                // Not a recognized Greek letter (punctuation, space, markup char).
+                return (GREEK_PUNCT_MAP[unit.base] !== undefined) ? GREEK_PUNCT_MAP[unit.base] : unit.base;
+            }
+            latin = (mode === 'full') ? entry.f : entry.s;
+            if (lower === 'γ' && nextBaseLower && 'γκξχ'.includes(nextBaseLower)) {
+                latin = 'n'; // gamma nasal (ἄγγελος -> angelos)
+            }
+            if (lower === 'ρ') {
+                latin = unit.marks.includes(GK_ROUGH) ? 'rh' : 'r';
+            }
+        }
+        const isRho = !unit.diphthong && unit.base.toLowerCase() === 'ρ';
+        if (!isRho && unit.marks.includes(GK_ROUGH)) {
+            latin = 'h' + latin;
+        }
+        if (mode === 'full') {
+            if (unit.marks.includes(GK_ACUTE)) latin = _gkInsertAccent(latin, GK_ACUTE);
+            else if (unit.marks.includes(GK_GRAVE)) latin = _gkInsertAccent(latin, GK_GRAVE);
+            else if (unit.marks.includes(GK_CIRCUMFLEX_A) || unit.marks.includes(GK_CIRCUMFLEX_B)) latin = _gkInsertAccent(latin, '\u0302');
+            if (unit.marks.includes(GK_IOTA_SUB)) latin += 'i';
+        }
+        if (unit.isUpper) latin = latin.charAt(0).toUpperCase() + latin.slice(1);
+        return latin;
+    }
+
+    function transliterateGreekWord(word, mode) {
+        const nfd = word.normalize('NFD');
+        const letters = _gkGroupLetters(nfd);
+        const units = _gkMergeDiphthongs(letters);
+        let result = '';
+        for (let i = 0; i < units.length; i++) {
+            const nxt = units[i + 1];
+            const nextBaseLower = nxt ? (nxt.diphthong ? nxt.diphthong[0] : nxt.base.toLowerCase()) : null;
+            result += _gkRenderUnit(units[i], mode, nextBaseLower);
+        }
+        return result.normalize('NFC');
+    }
+
+    // Matches contiguous runs of Greek/Coptic + Greek Extended codepoints
+    // (letters, breathing/accent marks, and Greek-specific punctuation).
+    // Anything outside these ranges — HTML tags, attributes, English text,
+    // ASCII punctuation — is left completely untouched.
+    const GREEK_RUN_REGEX = /[\u0370-\u03FF\u1F00-\u1FFF]+/gu;
+    // Non-global sibling used purely for "does this contain any Greek at all"
+    // checks (a global regex's .test() mutates lastIndex between calls, which
+    // would silently break repeated presence checks across renders).
+    const GREEK_HAS_REGEX = /[\u0370-\u03FF\u1F00-\u1FFF]/u;
+
+    function transliterateHtmlFragment(html, mode) {
+        if (!mode) return html;
+        return html.replace(GREEK_RUN_REGEX, (run) => transliterateGreekWord(run, mode));
+    }
+
+    // Re-derives a column's displayed HTML from its stored native-Greek
+    // snapshot, applying (or clearing) transliteration without touching the DB.
+    // Walks a live DOM subtree and transliterates (or restores) its text nodes
+    // in place, without touching element structure — safe for parts of the
+    // page (like the treebank view) that attach click handlers via
+    // addEventListener rather than inline onclick, which innerHTML
+    // replacement would silently destroy.
+    function walkAndTransliterateNode(rootEl, mode) {
+        if (!rootEl) return;
+        const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, null);
+        let node;
+        while ((node = walker.nextNode())) {
+            if (node.__gkOriginal === undefined) node.__gkOriginal = node.nodeValue;
+            node.nodeValue = mode ? transliterateHtmlFragment(node.__gkOriginal, mode) : node.__gkOriginal;
+        }
+    }
+
+    function applyGreekTransliteration(prefix) {
+        const targetContainer = document.getElementById(`content_${prefix}`);
+        if (!targetContainer) return;
+        const mode = columnTranslitMode[prefix] || '';
+        if (columnGreekOriginalHtml[prefix] !== undefined) {
+            const original = columnGreekOriginalHtml[prefix];
+            targetContainer.innerHTML = mode ? transliterateHtmlFragment(original, mode) : original;
+        } else {
+            walkAndTransliterateNode(targetContainer, mode);
+        }
+    }
+
+    // Re-syncs a token detail panel (populated asynchronously on click, after
+    // the column's initial transliteration pass already ran) to whatever
+    // mode its column currently has selected.
+    function _tbApplyTranslitToPanel(panel) {
+        const containerEl = panel.closest && panel.closest('[id^="content_"]');
+        if (!containerEl) return;
+        const prefix = containerEl.id.slice(8);
+        walkAndTransliterateNode(panel, columnTranslitMode[prefix] || '');
+    }
+
+    window.onTranslitModeChange = function(prefix, mode) {
+        columnTranslitMode[prefix] = mode;
+        applyGreekTransliteration(prefix);
+    };
+
     // TREEBANK_DATA["tg.wk/vid"][chapter] -> [ {subdoc, section, tokens, prose, literal}, ... ]
     const _TB_CACHE = new Map();
     function _hydrateTreebank(tbKey) {
@@ -832,7 +1046,7 @@
         const [tg, work] = tbKey.slice(0, slash).split(".");
         const vid = tbKey.slice(slash + 1);
         const rows = _dbRows(
-            "SELECT subdoc, section, chapter, sentence_json, prose_translation, literal_translation, transliteration " +
+            "SELECT subdoc, section, chapter, sentence_json, prose_translation, literal_translation, transliteration, credits_json " +
             "FROM treebank_sentences WHERE textgroup=? AND work=? AND version_short_id=? ORDER BY id",
             [tg, work, vid]);
         let out = null;
@@ -843,7 +1057,8 @@
                     subdoc: r.subdoc, section: r.section,
                     tokens: _jp(r.sentence_json, []),
                     prose: r.prose_translation, literal: r.literal_translation,
-                    translit: r.transliteration
+                    translit: r.transliteration,
+                    credits: _jp(r.credits_json, null)
                 });
             });
         }
@@ -852,6 +1067,31 @@
     }
     const TREEBANK_DATA = new Proxy({}, {
         get: (_t, k) => (typeof k === "string" ? _hydrateTreebank(k) : undefined)
+    });
+
+    // TREEBANK_DOC_CREDITS["tg.wk/vid"] -> { annotators: [{name,address}], source: "..." }
+    // Document-level fallback credits, used whenever a sentence doesn't carry
+    // its own "# sentannotators" line (the common case).
+    const _TB_CREDITS_CACHE = new Map();
+    function _hydrateTreebankDocCredits(tbKey) {
+        if (_TB_CREDITS_CACHE.has(tbKey)) return _TB_CREDITS_CACHE.get(tbKey);
+        if (!window.dbInstance) return null;
+        const slash = tbKey.lastIndexOf("/");
+        const [tg, work] = tbKey.slice(0, slash).split(".");
+        const vid = tbKey.slice(slash + 1);
+        const rows = _dbRows(
+            "SELECT source_repo, credits_json FROM treebank_doc_credits " +
+            "WHERE textgroup=? AND work=? AND version_short_id=?",
+            [tg, work, vid]);
+        let out = { annotators: [], source: null };
+        if (rows.length) {
+            out = { annotators: _jp(rows[0].credits_json, []) || [], source: rows[0].source_repo || null };
+        }
+        _TB_CREDITS_CACHE.set(tbKey, out);
+        return out;
+    }
+    const TREEBANK_DOC_CREDITS = new Proxy({}, {
+        get: (_t, k) => (typeof k === "string" ? _hydrateTreebankDocCredits(k) : null)
     });
 
     // SPEAKERS_DATA["tg.wk"][subdoc] -> speaker
@@ -1052,6 +1292,14 @@ let activeWorkKey = "tlg0003.tlg001";
     let currentActiveMode = "parallel";
     let activeColumnsCount = 3;
     let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "", c5: "", c6: "" };
+
+    // ── Greek transliteration state ────────────────────────────────────
+    // Per-column mode: '' (native Greek) | 'simple' | 'full'. Persists across
+    // re-renders so switching chapters keeps the reader's chosen view.
+    let columnTranslitMode = { f: "", c1: "", c2: "", c3: "", c4: "", c5: "", c6: "" };
+    // Per-column snapshot of the un-transliterated HTML, captured each render
+    // so toggling back to native Greek is lossless (no round-trip decay).
+    let columnGreekOriginalHtml = {};
 
     // ── Diff state ───────────────────────────────────────────────────
     let diffEnabled = false;
@@ -2262,18 +2510,23 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const wKey = activeWorkKey;
         const vid  = activeEditionMeta.short_id;
         const tbKey = `${wKey}/${vid}`;
+        const prefix = container.id.replace('content_', '');
+        delete columnGreekOriginalHtml[prefix]; // treebank always uses the DOM-walk transliteration strategy
         const chapterData = TREEBANK_DATA[tbKey];
         if (!chapterData) {
             container.innerHTML = '<p style="color:#999;font-style:italic;padding:12px">No treebank data for this chapter.</p>';
+            setTranslitControlVisible(prefix, false);
             return;
         }
         const chapter = payload.chapter;
         const allSentences = chapterData[chapter] || [];
         if (allSentences.length === 0) {
             container.innerHTML = '<p style="color:#999;font-style:italic;padding:12px">No treebank sentences for chapter ' + chapter + '.</p>';
+            setTranslitControlVisible(prefix, false);
             return;
         }
         const speakerMap = SPEAKERS_DATA[wKey] || {};
+        const docCredits = TREEBANK_DOC_CREDITS[tbKey] || { annotators: [], source: null };
         const isPoetry = isPoetryWork(wKey);
         container.innerHTML = '';
 
@@ -2382,6 +2635,50 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 block.appendChild(spkEl);
             }
 
+            // Credits: prefer this sentence's own "# sentannotators" (the
+            // exception — some files vary annotator by sentence); otherwise
+            // fall back to the document-level roster (the common case).
+            const sentCredits = sent.credits
+                || (docCredits.annotators.length
+                    ? docCredits.annotators.map(a => ({ name: a.name, address: a.address, role: null }))
+                    : null);
+            if ((sentCredits && sentCredits.length) || docCredits.source) {
+                const credWrap = document.createElement('div');
+                credWrap.className = 'tb-credits-wrap';
+                const toggle = document.createElement('a');
+                toggle.href = 'javascript:void(0)';
+                toggle.className = 'tb-credits-toggle';
+                toggle.textContent = 'Show Metadata';
+                const box = document.createElement('div');
+                box.className = 'tb-credits-box';
+                box.style.display = 'none';
+                if (sentCredits && sentCredits.length) {
+                    const annotSection = document.createElement('div');
+                    annotSection.className = 'tb-credits-section';
+                    annotSection.innerHTML = '<div class="tb-credits-heading">Annotator</div>' +
+                        sentCredits.map(c =>
+                            `<div class="tb-credits-line">${escHtml(c.name)}${c.address ? ', ' + escHtml(c.address) : ''}</div>`
+                        ).join('');
+                    box.appendChild(annotSection);
+                }
+                if (docCredits.source) {
+                    const srcSection = document.createElement('div');
+                    srcSection.className = 'tb-credits-section';
+                    srcSection.innerHTML = '<div class="tb-credits-heading">Source</div>' +
+                        `<div class="tb-credits-line">${escHtml(docCredits.source)}</div>`;
+                    box.appendChild(srcSection);
+                }
+                toggle.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const isOpen = box.style.display !== 'none';
+                    box.style.display = isOpen ? 'none' : '';
+                    toggle.textContent = isOpen ? 'Show Metadata' : 'Hide Metadata';
+                });
+                credWrap.appendChild(toggle);
+                credWrap.appendChild(box);
+                block.appendChild(credWrap);
+            }
+
             // Prose translation on top, so Arabic / translit / gloss / treebank sit together below it
             if (sent.prose) {
                 const trans = document.createElement('div');
@@ -2429,6 +2726,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 if (panel) {
                     panel.innerHTML = renderTokenDetail(tok, headTok, depToks);
                     panel.classList.add('tb-detail-visible');
+                    _tbApplyTranslitToPanel(panel);
                 }
             };
 
@@ -2438,7 +2736,25 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 poetryGrid.className = 'poetry-grid-layout';
                 
                 let currentLineWrapper = null;
-                
+                let currentTokensRow = null;
+                let currentGlossRow = null;
+                const sentHasGloss = sent.tokens.some(t => t.gloss);
+
+                function startNewLineWrapper() {
+                    currentLineWrapper = document.createElement('div');
+                    currentLineWrapper.className = 'line-text-cell';
+                    currentTokensRow = document.createElement('div');
+                    currentTokensRow.className = 'line-tokens-row';
+                    currentLineWrapper.appendChild(currentTokensRow);
+                    if (sentHasGloss) {
+                        currentGlossRow = document.createElement('div');
+                        currentGlossRow.className = 'line-gloss-row tb-gloss-row';
+                        currentLineWrapper.appendChild(currentGlossRow);
+                    } else {
+                        currentGlossRow = null;
+                    }
+                }
+
                 sent.tokens.forEach((tok, tIdx) => {
                     const isPunct = tok.upos === 'PUNCT' || tok.upos === '_';
                     const currentTokenLine = tok.ref ? tok.ref.trim() : null;
@@ -2446,15 +2762,19 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                     // 1. Detect if this is the very start of a sentence AND it continues an existing line
                     if (tIdx === 0 && currentTokenLine && currentTokenLine === lastSeenLineNum) {
                         // Insert an inline indentation block to signal an antilabe/mid-line sentence split
+                        if (!currentLineWrapper) startNewLineWrapper();
                         const indentSpacer = document.createElement('span');
                         indentSpacer.style.display = 'inline-block';
                         indentSpacer.style.width = '3em';
                         indentSpacer.innerHTML = '&nbsp;';
-                        if (!currentLineWrapper) {
-                            currentLineWrapper = document.createElement('div');
-                            currentLineWrapper.className = 'line-text-cell';
+                        currentTokensRow.appendChild(indentSpacer);
+                        if (currentGlossRow) {
+                            const glIndentSpacer = document.createElement('span');
+                            glIndentSpacer.style.display = 'inline-block';
+                            glIndentSpacer.style.width = '3em';
+                            glIndentSpacer.innerHTML = '&nbsp;';
+                            currentGlossRow.appendChild(glIndentSpacer);
                         }
-                        currentLineWrapper.appendChild(indentSpacer);
                     }
 
                     // 2. Handle a brand new line number boundary shift
@@ -2473,14 +2793,15 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                         poetryGrid.appendChild(numCell);
 
                         // Create matching text container cell for tokens on this line
-                        currentLineWrapper = document.createElement('div');
-                        currentLineWrapper.className = 'line-text-cell';
+                        // (holds a token row and, when this sentence carries glosses, a
+                        // gloss row stacked directly beneath it so glosses follow the
+                        // poetic linebreaks rather than sentence breaks)
+                        startNewLineWrapper();
                     }
 
                     // Fallback container wrap if metadata fields are missing a Ref tag
                     if (!currentLineWrapper) {
-                        currentLineWrapper = document.createElement('div');
-                        currentLineWrapper.className = 'line-text-cell';
+                        startNewLineWrapper();
                     }
 
                     // Build token span item
@@ -2489,8 +2810,18 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                     span.dataset.tokId = tok.id;
                     span.textContent = tok.form;
 
+                    // Matching gloss span, stacked directly under this token on the
+                    // line's own gloss row (skips punctuation, same as the prose gloss row)
+                    let glossSpan = null;
+                    if (currentGlossRow && !isPunct) {
+                        glossSpan = document.createElement('span');
+                        glossSpan.className = 'tb-tok tb-gloss-tok';
+                        glossSpan.dataset.tokId = tok.id;
+                        glossSpan.textContent = tok.gloss || '·';
+                    }
+
                     if (!isPunct) {
-                        span.addEventListener('click', (e) => {
+                        const selectThisToken = (e) => {
                             e.stopPropagation();
                             const wasActive = span.classList.contains('tb-active');
                             block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
@@ -2500,13 +2831,12 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                             if (wasActive) return;
                             
                             span.classList.add('tb-active');
+                            poetryGrid.querySelectorAll(`[data-tok-id="${tok.id}"]`).forEach(s => s.classList.add('tb-active'));
                             if (tok.head > 0) {
-                                const headSpan = poetryGrid.querySelector(`[data-tok-id="${tok.head}"]`);
-                                if (headSpan) headSpan.classList.add('tb-is-head');
+                                poetryGrid.querySelectorAll(`[data-tok-id="${tok.head}"]`).forEach(s => s.classList.add('tb-is-head'));
                             }
                             sent.tokens.filter(t => t.head === tok.id).forEach(dep => {
-                                const depSpan = poetryGrid.querySelector(`[data-tok-id="${dep.id}"]`);
-                                if (depSpan) depSpan.classList.add('tb-is-dep');
+                                poetryGrid.querySelectorAll(`[data-tok-id="${dep.id}"]`).forEach(s => s.classList.add('tb-is-dep'));
                             });
                             tbHighlightLiteral(block, alignment, tok.id, true);
                             const headTok = tok.head > 0 ? sent.tokens.find(t => t.id === tok.head) : null;
@@ -2514,11 +2844,18 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                             const panel = block.querySelector('.tb-detail-panel');
                             panel.innerHTML = renderTokenDetail(tok, headTok, depToks);
                             panel.classList.add('tb-detail-visible');
-                        });
+                            _tbApplyTranslitToPanel(panel);
+                        };
+                        span.addEventListener('click', selectThisToken);
+                        if (glossSpan) glossSpan.addEventListener('click', selectThisToken);
                     }
 
-                    currentLineWrapper.appendChild(span);
-                    if (!isPunct) currentLineWrapper.appendChild(document.createTextNode(' '));
+                    currentTokensRow.appendChild(span);
+                    if (!isPunct) currentTokensRow.appendChild(document.createTextNode(' '));
+                    if (currentGlossRow) {
+                        if (glossSpan) currentGlossRow.appendChild(glossSpan);
+                        if (!isPunct) currentGlossRow.appendChild(document.createTextNode(' '));
+                    }
                 });
 
                 // Append trailing grid line row to final grid container
@@ -2620,21 +2957,38 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             ${nextBtnHtml}
         `;
         container.appendChild(footer);
+
+        // Greek transliteration: same content-based detection as reading
+        // columns, but applied via DOM text-node walking (walkAndTransliterateNode)
+        // rather than an innerHTML swap, since the treebank view attaches its
+        // click-to-highlight/detail-panel handlers with addEventListener —
+        // replacing innerHTML here would silently strip them.
+        const hasGreek = GREEK_HAS_REGEX.test(container.textContent);
+        setTranslitControlVisible(prefix, hasGreek);
+        if (hasGreek) {
+            const savedMode = document.getElementById(`translit_${prefix}`);
+            if (savedMode) savedMode.value = columnTranslitMode[prefix] || '';
+            applyGreekTransliteration(prefix);
+        }
     }
 
     function renderMetricalColumn(container, activeEditionMeta, payload) {
         const wKey  = activeWorkKey;
         const vid   = activeEditionMeta.short_id;
         const mKey  = `${wKey}/${vid}`;
+        const prefix = container.id.replace('content_', '');
+        delete columnGreekOriginalHtml[prefix]; // metrical always uses the DOM-walk transliteration strategy
         const chapterData = METRICAL_DATA[mKey];
         if (!chapterData) {
             container.innerHTML = '<p style="color:#999;font-style:italic;padding:12px">No metrical data loaded.</p>';
+            setTranslitControlVisible(prefix, false);
             return;
         }
         const chapter = payload.chapter;
         const lineMap = chapterData[chapter];
         if (!lineMap || Object.keys(lineMap).length === 0) {
             container.innerHTML = `<p style="color:#999;font-style:italic;padding:12px">No metrical data for chapter ${chapter}.</p>`;
+            setTranslitControlVisible(prefix, false);
             return;
         }
 
@@ -2774,6 +3128,17 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             wrapper.appendChild(lineUnit);
         });
         container.appendChild(wrapper);
+
+        // Greek transliteration: same DOM-walk strategy as the treebank view.
+        // Metrical lines are built purely with createElement/textContent (no
+        // click handlers at all here), so this is even lower-risk than treebank.
+        const hasGreek = GREEK_HAS_REGEX.test(container.textContent);
+        setTranslitControlVisible(prefix, hasGreek);
+        if (hasGreek) {
+            const savedMode = document.getElementById(`translit_${prefix}`);
+            if (savedMode) savedMode.value = columnTranslitMode[prefix] || '';
+            applyGreekTransliteration(prefix);
+        }
     }
 
     function tbNorm(s) {
@@ -3035,7 +3400,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                         const ht = headOf(t) ? byId.get(headOf(t)) : null;
                         const dps = (kids.get(t.id) || []).map(id => byId.get(id)).filter(d => d && d.upos !== 'PUNCT');
                         const panel = block.querySelector('.tb-detail-panel');
-                        if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); }
+                        if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); _tbApplyTranslitToPanel(panel); }
                     }
                 });
                 svg.appendChild(g);
@@ -3088,7 +3453,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             grid.querySelectorAll('.tb-gcell.tb-gcol-active').forEach(c => c.classList.remove('tb-gcol-active'));
             grid.querySelectorAll('.tb-gcell[data-tok-id="' + t.id + '"]').forEach(c => c.classList.add('tb-gcol-active'));
             const panel = block.querySelector('.tb-detail-panel');
-            if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); }
+            if (panel) { panel.innerHTML = renderTokenDetail(t, ht, dps); panel.classList.add('tb-detail-visible'); _tbApplyTranslitToPanel(panel); }
         };
 
         rows.forEach(r => {
@@ -3254,7 +3619,30 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 ${nextBtnHtml}
             `;
             targetContainer.appendChild(footer);
+
+            // Greek transliteration: gate on whether this column's *rendered
+            // content* actually contains Greek right now, not on the edition's
+            // declared class. A translation column with Greek in its footnotes,
+            // or a commentary column that's mostly English discussion around
+            // quoted Greek, both qualify — only the Greek runs get converted,
+            // everything else in the column passes through untouched.
+            const containerHtml = targetContainer.innerHTML;
+            const isGreekColumn = GREEK_HAS_REGEX.test(containerHtml);
+            setTranslitControlVisible(prefix, isGreekColumn);
+            if (isGreekColumn) {
+                columnGreekOriginalHtml[prefix] = containerHtml;
+                const savedMode = document.getElementById(`translit_${prefix}`);
+                if (savedMode) savedMode.value = columnTranslitMode[prefix] || '';
+                applyGreekTransliteration(prefix);
+            } else {
+                delete columnGreekOriginalHtml[prefix];
+            }
         });
+    }
+
+    function setTranslitControlVisible(prefix, visible) {
+        const el = document.getElementById(`translit_${prefix}`);
+        if (el) el.style.display = visible ? '' : 'none';
     }
 
     window.navigateAdjacentUrn = function(urn) {
