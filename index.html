@@ -644,7 +644,22 @@
     font-weight: bold;
 }
 
-.commentary-text .comm-entry { margin: 0.4em 0; }</style>
+.commentary-text .comm-entry { margin: 0.4em 0; }
+.commentary-text .comm-lineno {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 10.5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #996633;
+    border-radius: 3px;
+    padding: 1px 6px;
+    margin: 0.9em 0 0.3em 0;
+    letter-spacing: 0.02em;
+}
+.commentary-text .comm-lineno::before { content: "l. "; font-weight: normal; opacity: 0.85; }
+.commentary-text .comm-entry:first-child,
+.commentary-text .comm-lineno:first-child { margin-top: 0; }</style>
 </head>
 <body>
 
