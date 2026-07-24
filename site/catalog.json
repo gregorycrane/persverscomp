@@ -1,5 +1,40 @@
 {
  "works": {
+  "ferdowsi.shahnameh": {
+   "textgroup": "ferdowsi",
+   "work": "shahnameh",
+   "bytes": 7958528,
+   "versions": [
+    {
+     "short_id": "pizzi-tb-fas1",
+     "urn": "urn:cts:persLit:ferdowsi.shahnameh.pizzi-tb-fas1",
+     "label": "Treebank (Pizzi Persian selections, UD)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "pizzi1883-fas1",
+     "urn": "urn:cts:persLit:ferdowsi.shahnameh.pizzi1883-fas1",
+     "label": "Persian (I. Pizzi, ed., 1883)",
+     "doc_type": "edition",
+     "text_class": "persian-text"
+    },
+    {
+     "short_id": "pizzi1883-eng1",
+     "urn": "urn:cts:persLit:ferdowsi.shahnameh.pizzi1883-eng1",
+     "label": "English (trans. Pizzi selections, 1883)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "English (trans. Pizzi selections, 1883)"
+  },
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
