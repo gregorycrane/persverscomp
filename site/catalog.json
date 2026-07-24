@@ -203,6 +203,48 @@
    },
    "label": "Commentary (R. C. Jebb)"
   },
+  "tlg0011.tlg003": {
+   "textgroup": "tlg0011",
+   "work": "tlg003",
+   "bytes": 4333568,
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-eng2",
+     "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "label": "Commentary (R. C. Jebb)"
+  },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
@@ -430,7 +472,7 @@
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 12615680,
+   "bytes": 12779520,
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
@@ -515,6 +557,13 @@
      "label": "French (André Dacier, 1692)",
      "doc_type": "translation",
      "text_class": "french-text"
+    },
+    {
+     "short_id": "segni-ita1-aligned",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.segni-ita1-aligned",
+     "label": "Italian (Bernardo Segni, 1549)",
+     "doc_type": "translation",
+     "text_class": "italian-text"
     },
     {
      "short_id": "bywater1909-com1",
