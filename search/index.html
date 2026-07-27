@@ -100,6 +100,12 @@
   table#kwic td { border-bottom: 1px solid #eee; padding: 8px; vertical-align: top; }
   .greek { font-family: 'Gentium Plus', 'Times New Roman', serif; font-size: 17px; }
   .greek .hit { font-weight: bold; color: var(--maroon); text-decoration: underline; }
+  .verse-line { display: block; }
+  .line-num {
+    display: inline-block; min-width: 2.4em; margin-right: 8px;
+    font-family: Georgia, serif; font-size: 11px; color: #aaa; text-align: right;
+    vertical-align: baseline; user-select: none;
+  }
   .gloss { color: #555; font-style: italic; font-size: 13px; }
   .feats { font-family: monospace; font-size: 11px; color: #888; }
   .work-tag { font-size: 11px; color: #666; }
@@ -826,6 +832,38 @@ function barCard(title, counts) {
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 }
+// A KWIC row's "Location" column shows the coarse passage-chunk range
+// (e.g. "39-83") that the sentence was binned into for display purposes.
+// Within that chunk, every token still carries its own exact line number
+// in `ref` (the same per-line CTS reference used for deep-linking) -- this
+// groups tokens back into their individual lines so readers see real verse
+// line breaks and numbers, not one run-on block for the whole chunk.
+function buildLineBrokenContext(toks, hitTokId) {
+  const lines = [];
+  let currentRef = Symbol(); // sentinel guarantees the first token starts a new line
+  let currentTokens = null;
+  for (const t of toks) {
+    const ref = t.ref || "";
+    if (ref !== currentRef) {
+      currentRef = ref;
+      currentTokens = [];
+      lines.push({ ref, tokens: currentTokens });
+    }
+    currentTokens.push(t);
+  }
+
+  return lines.map(line => {
+    const lineHtml = line.tokens.map(t => {
+      const isHit = t.id === hitTokId;
+      const piece = isHit ? `<span class="hit">${escapeHtml(t.form)}</span>` : escapeHtml(t.form);
+      const noSpaceBefore = t.upos === "PUNCT";
+      return (noSpaceBefore ? "" : " ") + piece;
+    }).join("").trim();
+    const lineLabel = line.ref ? `<span class="line-num">${escapeHtml(line.ref)}</span>` : "";
+    return `<div class="verse-line">${lineLabel}${lineHtml}</div>`;
+  }).join("");
+}
+
 function highlightSubstring(text, needles, wholeWord) {
   const escaped = escapeHtml(text);
   const list = (Array.isArray(needles) ? needles : [needles]).filter(Boolean);
@@ -917,12 +955,7 @@ function renderResults(matches, terms, mode, wholeWord) {
       if (sent.sentence_json) {
         try {
           toks = JSON.parse(sent.sentence_json);
-          contextHtml = toks.map(t => {
-            const isHit = t.id === row.tok_id;
-            const piece = isHit ? `<span class="hit">${escapeHtml(t.form)}</span>` : escapeHtml(t.form);
-            const noSpaceBefore = t.upos === "PUNCT";
-            return (noSpaceBefore ? "" : " ") + piece;
-          }).join("").trim();
+          contextHtml = buildLineBrokenContext(toks, row.tok_id);
         } catch (e) { /* leave fallback contextHtml */ }
       }
       literal = sent.literal_translation || "";
