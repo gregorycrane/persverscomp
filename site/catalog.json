@@ -3,7 +3,41 @@
   "ferdowsi.shahnameh": {
    "textgroup": "ferdowsi",
    "work": "shahnameh",
-   "bytes": 10391552,
+   "parts": [
+    {
+     "part": 1,
+     "file": "ferdowsi.shahnameh.part1.db",
+     "chapters": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+     ],
+     "bytes": 13873152
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "pizzi-tb-fas1",
@@ -27,18 +61,34 @@
      "text_class": "english-text"
     }
    ],
-   "annotations": {
-    "treebanks": 1,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "English (trans. Pizzi selections, 1883)"
   },
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
-   "bytes": 18276352,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0003.tlg001.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+     ],
+     "bytes": 18288640
+    }
+   ],
+   "annotations": {
+    "treebanks": 0,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "perseus-grc2",
@@ -132,18 +182,107 @@
      "text_class": "latin-text"
     }
    ],
-   "annotations": {
-    "treebanks": 0,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "English (C. F. Smith, 1919)"
   },
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
-   "bytes": 8589312,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg002.part1.db",
+     "chapters": [
+      "1-38",
+      "39-68",
+      "69-99",
+      "100-107",
+      "110-116",
+      "117-125",
+      "127-133",
+      "134-140",
+      "141-147",
+      "148-154",
+      "155-161",
+      "162-210",
+      "211-236",
+      "237-277",
+      "278-314",
+      "315-340",
+      "343-352",
+      "354-361",
+      "365-375",
+      "376-383",
+      "384-406",
+      "407-440",
+      "441-470",
+      "471-498",
+      "499-525",
+      "526-530",
+      "531-555",
+      "556-581",
+      "583-591",
+      "593-602",
+      "605-614",
+      "615-625",
+      "626-630",
+      "631-680",
+      "681-723",
+      "724-757",
+      "758-780",
+      "781-790",
+      "791-800",
+      "801-805",
+      "806-815",
+      "817-822",
+      "823-831",
+      "834-838",
+      "839-851",
+      "853-856",
+      "858-871",
+      "872-875",
+      "876-882",
+      "883-928",
+      "929-943",
+      "944-953",
+      "955-965",
+      "966-976",
+      "977-987",
+      "988-1032",
+      "1033-1063",
+      "1064-1090",
+      "1091-1114",
+      "1115-1125",
+      "1126-1135",
+      "1137-1145",
+      "1146-1152",
+      "1155-1182",
+      "1183-1218",
+      "1219-1243",
+      "1244-1256",
+      "1257-1260",
+      "1261-1269",
+      "1270-1276",
+      "1278-1280",
+      "1281-1283",
+      "1284-1292",
+      "1293-1293",
+      "1294-1305",
+      "1306-1316",
+      "1317-1327",
+      "1328-1332",
+      "1334-1338",
+      "1339-1346",
+      "1347-1353"
+     ],
+     "bytes": 11419648
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -230,18 +369,90 @@
      "text_class": "commentary-text"
     }
    ],
-   "annotations": {
-    "treebanks": 2,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "Commentary (R. C. Jebb)"
   },
   "tlg0011.tlg003": {
    "textgroup": "tlg0011",
    "work": "tlg003",
-   "bytes": 4333568,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg003.part1.db",
+     "chapters": [
+      "1-35",
+      "36-73",
+      "74-100",
+      "101-133",
+      "134-171",
+      "172-181",
+      "182-192",
+      "193-200",
+      "201-220",
+      "221-231",
+      "233-244",
+      "245-255",
+      "257-262",
+      "263-283",
+      "284-330",
+      "331-347",
+      "348-355",
+      "356-363",
+      "364-376",
+      "377-378",
+      "379-391",
+      "392-393",
+      "394-408",
+      "410-411",
+      "412-427",
+      "428-429",
+      "430-480",
+      "481-524",
+      "525-544",
+      "545-582",
+      "583-595",
+      "596-608",
+      "609-621",
+      "622-633",
+      "635-645",
+      "646-692",
+      "693-706",
+      "707-717",
+      "719-747",
+      "748-783",
+      "784-814",
+      "815-865",
+      "866-878",
+      "879-914",
+      "915-925",
+      "926-960",
+      "961-991",
+      "992-1039",
+      "1040-1090",
+      "1091-1119",
+      "1120-1149",
+      "1150-1162",
+      "1163-1167",
+      "1168-1184",
+      "1185-1191",
+      "1192-1198",
+      "1199-1210",
+      "1211-1222",
+      "1223-1263",
+      "1264-1289",
+      "1290-1315",
+      "1316-1345",
+      "1346-1375",
+      "1376-1420"
+     ],
+     "bytes": 5824512
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -272,18 +483,98 @@
      "text_class": "commentary-text"
     }
    ],
-   "annotations": {
-    "treebanks": 1,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "Commentary (R. C. Jebb)"
   },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
    "work": "tlg004",
-   "bytes": 7471104,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg004.part1.db",
+     "chapters": [
+      "1-13",
+      "14-57",
+      "58-77",
+      "78-101",
+      "102-131",
+      "132-150",
+      "151-157",
+      "160-166",
+      "169-177",
+      "179-187",
+      "190-201",
+      "203-215",
+      "216-254",
+      "255-275",
+      "276-299",
+      "300-329",
+      "330-353",
+      "354-379",
+      "380-407",
+      "408-428",
+      "429-446",
+      "447-462",
+      "463-472",
+      "473-482",
+      "483-495",
+      "496-511",
+      "513-542",
+      "543-582",
+      "583-615",
+      "616-633",
+      "634-648",
+      "649-658",
+      "660-678",
+      "679-698",
+      "700-725",
+      "726-749",
+      "750-770",
+      "771-799",
+      "800-833",
+      "834-862",
+      "863-871",
+      "873-882",
+      "884-896",
+      "897-910",
+      "911-949",
+      "950-976",
+      "977-999",
+      "1000-1025",
+      "1026-1053",
+      "1054-1085",
+      "1086-1096",
+      "1098-1107",
+      "1110-1140",
+      "1141-1170",
+      "1171-1185",
+      "1186-1195",
+      "1196-1203",
+      "1204-1211",
+      "1212-1221",
+      "1223-1236",
+      "1237-1284",
+      "1285-1296",
+      "1297-1312",
+      "1313-1320",
+      "1321-1328",
+      "1329-1347",
+      "1349-1366",
+      "1367-1415",
+      "1416-1445",
+      "1446-1477",
+      "1478-1515",
+      "1516-1530"
+     ],
+     "bytes": 11100160
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "daphne-tb-grc1",
@@ -314,18 +605,57 @@
      "text_class": "english-text"
     }
    ],
-   "annotations": {
-    "treebanks": 2,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "English (Sir Richard Jebb, 1904)"
   },
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
    "work": "tlg001",
-   "bytes": 84684800,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0012.tlg001.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+     ],
+     "bytes": 90730496
+    },
+    {
+     "part": 2,
+     "file": "tlg0012.tlg001.part2.db",
+     "books": [
+      "22",
+      "23",
+      "24"
+     ],
+     "bytes": 15867904
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 15682
+   },
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -405,18 +735,50 @@
      "text_class": "english-text"
     }
    ],
-   "annotations": {
-    "treebanks": 1,
-    "alignments": 0,
-    "commentaries": 0,
-    "metrical_lines": 15682
-   },
    "label": "English (A.T. Murray, 1924)"
   },
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
    "work": "tlg002",
-   "bytes": 62705664,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0012.tlg002.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24"
+     ],
+     "bytes": 80113664
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 12110
+   },
    "versions": [
     {
      "short_id": "daphne_perstb-grc1",
@@ -496,18 +858,252 @@
      "text_class": "english-text"
     }
    ],
+   "label": "English (A.T. Murray, 1924)"
+  },
+  "tlg0020.tlg001": {
+   "textgroup": "tlg0020",
+   "work": "tlg001",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0020.tlg001.part1.db",
+     "chapters": [
+      "1-28",
+      "29-52",
+      "53-62",
+      "63-103",
+      "104-138",
+      "139-172",
+      "173-206",
+      "207-239",
+      "240-269",
+      "270-303",
+      "304-336",
+      "337-370",
+      "371-403",
+      "404-452",
+      "453-491",
+      "492-506",
+      "507-544",
+      "545-584",
+      "585-616",
+      "617-653",
+      "654-686",
+      "687-728",
+      "729-766",
+      "767-806",
+      "807-819",
+      "820-852",
+      "853-885",
+      "886-900",
+      "901-937",
+      "938-962",
+      "963-1002",
+      "1003-1022"
+     ],
+     "bytes": 4222976
+    }
+   ],
    "annotations": {
     "treebanks": 1,
     "alignments": 0,
     "commentaries": 0,
-    "metrical_lines": 12110
+    "metrical_lines": 0
    },
-   "label": "English (A.T. Murray, 1924)"
+   "versions": [
+    {
+     "short_id": "daphne_perstbgl-grc1",
+     "urn": "urn:cts:greekLit:tlg0020.tlg001.daphne_perstbgl-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg001.perseus-grc2",
+     "label": "Greek (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg001.perseus-eng2",
+     "label": "English (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (Hugh G. Evelyn-White, 1914)"
+  },
+  "tlg0020.tlg002": {
+   "textgroup": "tlg0020",
+   "work": "tlg002",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0020.tlg002.part1.db",
+     "chapters": [
+      "1-10",
+      "11-41",
+      "42-58",
+      "59-82",
+      "83-108",
+      "109-139",
+      "140-173",
+      "174-201",
+      "202-237",
+      "238-273",
+      "274-319",
+      "320-369",
+      "370-404",
+      "405-447",
+      "448-478",
+      "479-503",
+      "504-535",
+      "536-570",
+      "571-608",
+      "609-640",
+      "641-677",
+      "678-705",
+      "706-736",
+      "737-764",
+      "765-799",
+      "800-828"
+     ],
+     "bytes": 3420160
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne_perstbgl-grc1",
+     "urn": "urn:cts:greekLit:tlg0020.tlg002.daphne_perstbgl-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg002.perseus-grc2",
+     "label": "Greek (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg002.perseus-eng2",
+     "label": "English (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (Hugh G. Evelyn-White, 1914)"
+  },
+  "tlg0020.tlg003": {
+   "textgroup": "tlg0020",
+   "work": "tlg003",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0020.tlg003.part1.db",
+     "chapters": [
+      "1-38",
+      "39-77",
+      "78-114",
+      "115-153",
+      "154-177",
+      "178-215",
+      "216-244",
+      "245-279",
+      "280-326",
+      "327-364",
+      "365-401",
+      "402-442",
+      "443-480"
+     ],
+     "bytes": 1929216
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne_perstbgl-grc1",
+     "urn": "urn:cts:greekLit:tlg0020.tlg003.daphne_perstbgl-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg003.perseus-grc2",
+     "label": "Greek (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng2",
+     "urn": "urn:cts:greekLit:tlg0020.tlg003.perseus-eng2",
+     "label": "English (Hugh G. Evelyn-White, 1914)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (Hugh G. Evelyn-White, 1914)"
   },
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
    "work": "tlg034",
-   "bytes": 12865536,
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0086.tlg034.part1.db",
+     "chapters": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+     ],
+     "bytes": 14905344
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 2,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
    "versions": [
     {
      "short_id": "kassel-tb-grc1",
@@ -573,6 +1169,13 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "riccobono1587-lat1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.riccobono1587-lat1",
+     "label": "Latin (A. Riccobono, 1587)",
+     "doc_type": "translation",
+     "text_class": "latin-text"
+    },
+    {
      "short_id": "bywater1909-eng1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-eng1",
      "label": "English (Ingram Bywater, 1909)",
@@ -622,12 +1225,6 @@
      "text_class": "commentary-text"
     }
    ],
-   "annotations": {
-    "treebanks": 2,
-    "alignments": 2,
-    "commentaries": 0,
-    "metrical_lines": 0
-   },
    "label": "Arabic (Abū Bishr Mattā, c. 900)"
   }
  }

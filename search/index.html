@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Treebank Search | Perseus Workspace Engine</title>
+<style>
+  :root {
+    --maroon: #660000;
+    --maroon-dark: #440000;
+    --paper: #f5f0e8;
+    --line: #d0c8b8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+  }
+  header {
+    background: var(--maroon);
+    color: #fff;
+    padding: 14px 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  header h1 { font-size: 18px; margin: 0; font-weight: bold; }
+  header a { color: #f5d9d9; font-size: 12px; }
+  #status-bar {
+    font-size: 12px; color: #555; font-style: italic;
+    background: var(--paper); border-bottom: 1px solid var(--line);
+    padding: 6px 20px;
+  }
+  #controls {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    align-items: flex-end;
+  }
+  .field { display: flex; flex-direction: column; font-size: 11px; color: #555; }
+  .field label { margin-bottom: 3px; font-weight: bold; }
+  .field input[type=text] {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    padding: 6px 8px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    min-width: 220px;
+  }
+  .field select {
+    font-size: 12px; padding: 4px 6px; border: 1px solid #bbb; border-radius: 3px; background: #fff;
+  }
+  #search-btn {
+    background: var(--maroon); color: #fff; border: none; border-radius: 4px;
+    padding: 9px 22px; font-family: Georgia, serif; font-weight: bold; font-size: 14px;
+    cursor: pointer; height: 34px;
+  }
+  #search-btn:hover { background: var(--maroon-dark); }
+  #advanced-toggle { font-size: 11px; color: var(--maroon); cursor: pointer; text-decoration: underline; align-self: center; }
+  #advanced-panel { display: none; width: 100%; gap: 10px 16px; flex-wrap: wrap; padding-top: 8px; border-top: 1px dashed var(--line); margin-top: 6px; }
+  #advanced-panel.open { display: flex; }
+
+  main { padding: 18px 20px 60px; max-width: 1100px; margin: 0 auto; }
+
+  #dashboard { display: none; margin-bottom: 24px; }
+  #dashboard.open { display: block; }
+  .dash-summary {
+    font-size: 15px; margin-bottom: 12px; padding: 10px 14px;
+    background: #fbf7ef; border-left: 4px solid var(--maroon); border-radius: 2px;
+  }
+  .dash-grid { display: flex; flex-wrap: wrap; gap: 16px; }
+  .dash-card {
+    flex: 1 1 220px; border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px;
+    background: #fff;
+  }
+  .dash-card h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #777; margin: 0 0 8px; }
+  .bar-row { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-bottom: 4px; }
+  .bar-label { flex: 0 0 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bar-track { flex: 1; background: #eee; border-radius: 2px; height: 12px; overflow: hidden; }
+  .bar-fill { background: var(--maroon); height: 100%; }
+  .bar-count { flex: 0 0 34px; text-align: right; font-size: 12px; color: #555; }
+
+  #results-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  #results-toolbar span { font-size: 12px; color: #666; }
+  #csv-btn {
+    font-size: 12px; background: #fff; border: 1px solid var(--maroon); color: var(--maroon);
+    border-radius: 3px; padding: 4px 10px; cursor: pointer;
+  }
+  #csv-btn:hover { background: #fbeaea; }
+
+  table#kwic { border-collapse: collapse; width: 100%; font-size: 14px; }
+  table#kwic th {
+    text-align: left; font-size: 11px; color: #777; text-transform: uppercase;
+    border-bottom: 2px solid var(--line); padding: 6px 8px;
+  }
+  table#kwic td { border-bottom: 1px solid #eee; padding: 8px; vertical-align: top; }
+  .greek { font-family: 'Gentium Plus', 'Times New Roman', serif; font-size: 17px; }
+  .greek .hit { font-weight: bold; color: var(--maroon); text-decoration: underline; }
+  .gloss { color: #555; font-style: italic; font-size: 13px; }
+  .feats { font-family: monospace; font-size: 11px; color: #888; }
+  .work-tag { font-size: 11px; color: #666; }
+  .read-link { font-size: 12px; }
+  #empty-note, #load-note { color: #777; font-size: 13px; padding: 20px 0; }
+
+  .translation-block { margin-top: 4px; }
+  .translation-block .lit { color: #444; }
+  .translation-block .prose { color: #999; }
+  .translation-block .lbl { font-weight: bold; font-style: normal; color: #999; font-size: 11px; text-transform: uppercase; margin-right: 4px; }
+  .tb-toggle {
+    font-size: 11px; color: var(--maroon); cursor: pointer; text-decoration: underline;
+    background: none; border: none; padding: 0; margin-top: 6px; display: inline-block; font-family: Georgia, serif;
+  }
+  tr.detail-row td { background: #fbf8f3; padding: 10px 8px 14px; }
+  table.tb-detail { border-collapse: collapse; width: 100%; font-size: 12px; }
+  table.tb-detail th {
+    text-align: left; font-size: 10px; color: #999; text-transform: uppercase;
+    border-bottom: 1px solid var(--line); padding: 3px 6px;
+  }
+  table.tb-detail td { padding: 3px 6px; border-bottom: 1px solid #eee; }
+  table.tb-detail td.g { font-family: 'Gentium Plus', 'Times New Roman', serif; font-size: 15px; }
+  table.tb-detail tr.hit-token td { background: #f5e5e5; }
+  table.tb-detail td.feats-cell { font-family: monospace; font-size: 10px; color: #888; }
+
+  mark { background: #ffe9a8; padding: 0 1px; border-radius: 2px; }
+  #advanced-panel select:disabled, #advanced-panel input:disabled { opacity: .4; cursor: not-allowed; }
+
+  a.xlink {
+    color: var(--maroon); text-decoration: none; border-bottom: 1px dotted var(--maroon);
+    cursor: pointer;
+  }
+  a.xlink:hover { background: #fbeaea; }
+
+  table.lemma-work-table { border-collapse: collapse; width: 100%; font-size: 13px; margin-top: 4px; }
+  table.lemma-work-table th {
+    text-align: left; font-size: 10px; color: #999; text-transform: uppercase;
+    border-bottom: 1px solid var(--line); padding: 4px 8px;
+  }
+  table.lemma-work-table td { padding: 4px 8px; border-bottom: 1px solid #eee; }
+  table.lemma-work-table tr:hover td { background: #fbf8f3; }
+  table.lemma-work-table .rate { font-size: 10px; color: #999; }
+  table.lemma-work-table .ci { font-size: 11px; color: #777; font-family: monospace; }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Treebank Search</h1>
+  <span style="font-size:12px;opacity:.85">Bilingual word &amp; morphology search across annotated editions</span>
+  <a href="../index.html" style="margin-left:auto">&larr; Back to reader</a>
+</header>
+<div id="status-bar">Initializing…</div>
+
+<div id="controls">
+  <div class="field">
+    <label for="q" id="q-label">Word (Greek / Latin / Arabic / Persian)</label>
+    <input type="text" id="q" placeholder="e.g. λύω or λυω (accents optional)">
+  </div>
+  <div class="field">
+    <label for="mode">Match against</label>
+    <select id="mode">
+      <option value="either" selected>Lemma or form</option>
+      <option value="lemma">Lemma only</option>
+      <option value="form">Form only (exact inflection)</option>
+      <option value="gloss">English gloss (word-level)</option>
+      <option value="translation">English literal/translation (sentence-level)</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="work-filter">Work</label>
+    <select id="work-filter"><option value="">All loaded works</option></select>
+  </div>
+  <div class="field" id="whole-word-field" style="display:none">
+    <label for="whole-word">&nbsp;</label>
+    <label style="display:flex;align-items:center;gap:5px;font-weight:normal;font-size:13px;color:#333;height:34px">
+      <input type="checkbox" id="whole-word" checked> Whole word only
+    </label>
+  </div>
+  <button id="search-btn">Search</button>
+  <span id="advanced-toggle" onclick="toggleAdvanced()">Morphology filters ▾</span>
+
+  <div id="advanced-panel"></div>
+</div>
+
+<main>
+  <div id="dashboard"></div>
+  <div id="results-toolbar" style="display:none">
+    <span id="results-count"></span>
+    <button id="csv-btn" onclick="downloadCsv()">Download all matches (CSV)</button>
+  </div>
+  <div id="results"></div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+<script>
+// ─────────────────────────────────────────────────────────────────────────
+// CONFIG — adjust these three paths to match wherever this file is deployed
+// relative to the existing persverscomp `site/` output. Defaults assume this
+// file lives at  <repo-root>/search/index.html,  a sibling of the main
+// reader's  <repo-root>/index.html  and the existing  <repo-root>/site/  dir.
+// ─────────────────────────────────────────────────────────────────────────
+const CONFIG = {
+  CATALOG_URL: "../site/catalog.json",
+  DATA_DIR:    "../site/data",
+  READER_URL:  "../index.html",
+  // Cap on how many KWIC rows are rendered to the page at once. Aggregate
+  // counts/dashboards always reflect the FULL match set regardless of this.
+  RENDER_CAP: 200,
+  // ── Work title overrides ────────────────────────────────────────────
+  // catalog.json's per-work "label" comes from `SELECT MIN(label) FROM
+  // text_units WHERE textgroup=? AND work=?` in the build notebook's
+  // sharding cell — text_units holds a row for EVERY edition/translation/
+  // commentary/treebank registered under that work, so MIN() just picks
+  // whichever of THOSE labels sorts first alphabetically (e.g. "Arabic
+  // (Abū Bishr Mattā, c. 900)" for Aristotle's Poetics, or "English (A.T.
+  // Murray, 1924)" for Homer's Iliad) — not a real work title.
+  //
+  // Fill in one line per work key below to fix its display name here and
+  // now, with no need to touch or re-run the build notebook. The exact
+  // work keys in your current catalog are printed in the status bar once
+  // shards finish loading (e.g. "tlg0012.tlg001, tlg0012.tlg002, ..."), or
+  // just open the browser console and inspect `SHARDS.keys()`. Any work
+  // key left out falls back to catalog.json's label, so this degrades
+  // gracefully as you add works before getting around to titling them.
+  WORK_TITLES: {
+    // Sourced directly from app.js's AUTHOR_NAMES + WORK_TITLES/WORK_NAMES
+    // tables (the reader's own grouped work-picker data), not guessed.
+    "tlg0011.tlg002": "Sophocles, Antigone",
+    "tlg0011.tlg003": "Sophocles, Ajax",
+    "tlg0011.tlg004": "Sophocles, Oedipus Rex",
+    "tlg0012.tlg001": "Homer, Iliad",
+    "tlg0012.tlg002": "Homer, Odyssey",
+    "tlg0020.tlg001": "Hesiod, Theogony",
+    "tlg0020.tlg002": "Hesiod, Works and Days",
+    "tlg0020.tlg003": "Hesiod, Shield of Heracles",
+    "tlg0086.tlg034": "Aristotle, Poetics",
+    // Not in app.js's tables (added since, or handled outside the grouped
+    // picker) — standard English title, adjust if you'd prefer otherwise.
+    "ferdowsi.shahnameh": "Ferdowsi, Shahnameh",
+  },
+};
+
+// ── Morphological feature picklist (UD-style keys/values as used in the
+// Perseus/AGDT + Daphne CoNLL-U treebanks). "any" = no filter on that key. ──
+const FEATURE_DEFS = [
+  { key: "upos",  label: "Part of speech", isUpos: true, options: ["VERB","AUX","NOUN","PROPN","ADJ","PRON","DET","ADV","ADP","NUM","CCONJ","SCONJ","PART","INTJ","PUNCT"] },
+  { key: "Mood",    label: "Mood",     options: ["Ind","Sub","Opt","Imp"] },
+  { key: "VerbForm",label: "Verb form",options: ["Fin","Inf","Part","Ger","Gdv"] },
+  { key: "Tense",   label: "Tense",    options: ["Pres","Imp","Fut","Aor","Perf","Pqp"] },
+  { key: "Voice",   label: "Voice",    options: ["Act","Mid","Pass"] },
+  { key: "Person",  label: "Person",   options: ["1","2","3"] },
+  { key: "Number",  label: "Number",   options: ["Sing","Plur","Dual"] },
+  { key: "Case",    label: "Case",     options: ["Nom","Gen","Dat","Acc","Voc"] },
+  { key: "Gender",  label: "Gender",   options: ["Masc","Fem","Neut"] },
+  { key: "Degree",  label: "Degree",   options: ["Pos","Cmp","Sup"] },
+];
+
+let SQL = null;
+const SHARDS = new Map(); // workKey -> { dbs: Database[], label, textgroup, work }
+const TOTAL_TOKENS_BY_WORK = new Map(); // workKey -> total token count across all parts (denominator for rates)
+let LAST_MATCHES = [];    // full match set from the most recent search
+
+function setStatus(msg) { document.getElementById("status-bar").textContent = msg; }
+
+function normKey(s) {
+  if (!s) return "";
+  let t = s.normalize("NFD").replace(/\p{Mn}/gu, "");
+  t = t.normalize("NFC").toLowerCase();
+  t = t.replace(/ς/g, "σ"); // final sigma -> medial
+  return t;
+}
+
+// Splits the search box into one or more terms, so a reader can search a
+// whole set of words at once ("ἄναξ, βασιλεύς, ἥρως") instead of one at a
+// time. Spaces within a term are preserved (so a comma-free phrase like
+// "rosy-fingered dawn" still searches as one unit); only comma/semicolon/
+// newline act as separators. De-duplicated, order preserved.
+function parseTermList(raw) {
+  return [...new Set(raw.split(/[,;\n]+/).map(s => s.trim()).filter(Boolean))];
+}
+
+function queryAll(db, sql, params = []) {
+  const out = [];
+  const st = db.prepare(sql);
+  st.bind(params);
+  while (st.step()) out.push(st.getAsObject());
+  st.free();
+  return out;
+}
+
+// ── Boot: load sql.js, then catalog, then eagerly fetch every shard that
+// has treebank annotations (small corpus for now: Hesiod + Sophocles). ──
+initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${f}` })
+  .then(async engine => {
+    SQL = engine;
+    setStatus("Loading catalog…");
+    const r = await fetch(`${CONFIG.CATALOG_URL}?v=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("catalog.json not found at " + CONFIG.CATALOG_URL);
+    const catalog = await r.json();
+
+    const treebankWorks = Object.entries(catalog.works || {})
+      .filter(([, meta]) => (meta.annotations && meta.annotations.treebanks > 0));
+
+    if (treebankWorks.length === 0) {
+      setStatus("No treebank-annotated works found in catalog.json.");
+      return;
+    }
+
+    const workSelect = document.getElementById("work-filter");
+    let loaded = 0;
+    for (const [workKey, meta] of treebankWorks) {
+      const [tg, wk] = workKey.split(".");
+      // A work may be split into several book-range part files (see the
+      // notebook's book-aware sharder) to stay under GitHub's 100MB
+      // per-file limit. catalog.json's `parts` list is the source of
+      // truth for which files make up a work; fall back to the old
+      // single-file convention if a catalog predates that field.
+      const partEntries = (Array.isArray(meta.parts) && meta.parts.length)
+        ? meta.parts
+        : [{ file: `${tg}.${wk}.part1.db` }]; // last-resort guess if catalog predates `parts`
+
+      const dbs = [];
+      let totalTokens = 0;
+      for (const partEntry of partEntries) {
+        const path = `${CONFIG.DATA_DIR}/${tg}/${wk}/${partEntry.file}`;
+        setStatus(`Loading ${workKey} — part ${dbs.length + 1}/${partEntries.length}…`);
+        try {
+          const resp = await fetch(path);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+          const buf = new Uint8Array(await resp.arrayBuffer());
+          const db = new SQL.Database(buf);
+          dbs.push(db);
+          try {
+            const cnt = queryAll(db, "SELECT COUNT(*) AS n FROM treebank_tokens")[0];
+            totalTokens += cnt ? cnt.n : 0;
+          } catch (e) {
+            // shard predates the treebank_tokens table -- leave at 0
+          }
+        } catch (e) {
+          // A "last resort guess" entry not existing is expected/silent;
+          // a real catalog-listed part failing to load is worth logging.
+          if (Array.isArray(meta.parts) && meta.parts.length) {
+            console.error(`Failed to load ${workKey} part ${partEntry.file}:`, e);
+          }
+        }
+      }
+      if (dbs.length === 0) {
+        console.error(`No shard parts could be loaded for ${workKey}; skipping.`);
+        continue;
+      }
+
+      const label = CONFIG.WORK_TITLES[workKey] || meta.label || workKey;
+      SHARDS.set(workKey, { dbs, label, textgroup: tg, work: wk });
+      TOTAL_TOKENS_BY_WORK.set(workKey, totalTokens);
+      const opt = document.createElement("option");
+      opt.value = workKey; opt.textContent = label;
+      workSelect.appendChild(opt);
+      loaded++;
+    }
+    setStatus(`Ready — ${loaded} treebank-annotated work${loaded === 1 ? "" : "s"} loaded (${treebankWorks.map(w => w[0]).join(", ")}).`);
+    console.table(Array.from(SHARDS.entries()).map(([wk, s]) => ({ workKey: wk, currentLabel: s.label, parts: s.dbs.length })));
+    console.info("To fix a work's display name, add it to CONFIG.WORK_TITLES at the top of this file, e.g.:\n  \"tlg0012.tlg001\": \"Homer, Iliad\",");
+    buildAdvancedPanel();
+    if (applyStateFromURL()) runSearch();
+  })
+  .catch(err => {
+    console.error(err);
+    setStatus("Error: " + err.message);
+  });
+
+function buildAdvancedPanel() {
+  const panel = document.getElementById("advanced-panel");
+  panel.innerHTML = "";
+  for (const def of FEATURE_DEFS) {
+    const wrap = document.createElement("div");
+    wrap.className = "field";
+    const label = document.createElement("label");
+    label.textContent = def.label;
+    label.setAttribute("for", "feat-" + def.key);
+    const sel = document.createElement("select");
+    sel.id = "feat-" + def.key;
+    sel.dataset.key = def.key;
+    sel.dataset.isUpos = def.isUpos ? "1" : "";
+    sel.appendChild(new Option("any", ""));
+    for (const v of def.options) sel.appendChild(new Option(v, v));
+    wrap.appendChild(label); wrap.appendChild(sel);
+    panel.appendChild(wrap);
+  }
+  const rawWrap = document.createElement("div");
+  rawWrap.className = "field";
+  rawWrap.innerHTML = `<label for="feat-raw">Raw feats filter (advanced)</label>
+    <input type="text" id="feat-raw" placeholder="substring, e.g. Poss=Yes" style="min-width:180px;font-size:13px">`;
+  panel.appendChild(rawWrap);
+}
+
+function toggleAdvanced() {
+  document.getElementById("advanced-panel").classList.toggle("open");
+}
+
+// ── URL-driven search ────────────────────────────────────────────────────
+// Query params (all optional):
+//   q         = search term(s), comma/semicolon-separated for a set (e.g. "λύω, λύεις")
+//   mode      = either | lemma | form | gloss | translation   (default: either)
+//   work      = a loaded work key (e.g. tlg0012.tlg001) to restrict to one work
+//   whole     = 1 | 0   ("Whole word only", relevant for gloss/translation modes)
+//   upos      = a part-of-speech value (e.g. VERB)
+//   feat_KEY  = one per morphology filter (e.g. feat_Mood=Opt&feat_Person=3)
+//   rawfeat   = advanced raw feats substring
+//
+// Example: search/?q=%CE%BB%CF%8D%CF%89&mode=lemma&feat_Mood=Opt
+//
+// Applied once at load (after shards + advanced panel are ready); every
+// runSearch() call afterwards keeps the address bar's query string in sync
+// via replaceState, so the current URL is always a shareable/bookmarkable
+// link to the search actually on screen.
+
+function applyStateFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  if ([...params.keys()].length === 0) return false;
+
+  document.getElementById("q").value = params.get("q") || "";
+
+  const mode = params.get("mode") || "either";
+  if (MODE_META[mode]) {
+    const modeSelect = document.getElementById("mode");
+    modeSelect.value = mode;
+    modeSelect.dispatchEvent(new Event("change"));
+  }
+
+  const work = params.get("work") || "";
+  const workSelect = document.getElementById("work-filter");
+  if (work && [...workSelect.options].some(o => o.value === work)) {
+    workSelect.value = work;
+  }
+
+  if (params.has("whole")) {
+    document.getElementById("whole-word").checked = params.get("whole") === "1";
+  }
+
+  let anyFeature = false;
+  if (params.has("upos")) {
+    const sel = document.getElementById("feat-upos");
+    if (sel) { sel.value = params.get("upos"); anyFeature = true; }
+  }
+  for (const def of FEATURE_DEFS) {
+    if (def.isUpos) continue;
+    const paramKey = `feat_${def.key}`;
+    if (params.has(paramKey)) {
+      const sel = document.getElementById(`feat-${def.key}`);
+      if (sel) { sel.value = params.get(paramKey); anyFeature = true; }
+    }
+  }
+  if (params.has("rawfeat")) {
+    const el = document.getElementById("feat-raw");
+    if (el) { el.value = params.get("rawfeat"); anyFeature = true; }
+  }
+  if (anyFeature) document.getElementById("advanced-panel").classList.add("open");
+
+  return true; // something was present in the URL — go ahead and search
+}
+
+function syncURLFromForm(rawInput, mode, workFilter, wholeWord, upos, featClauses, rawFeat) {
+  const params = new URLSearchParams();
+  if (rawInput) params.set("q", rawInput);
+  if (mode !== "either") params.set("mode", mode);
+  if (workFilter) params.set("work", workFilter);
+  if (MODE_META[mode].englishSearch) params.set("whole", wholeWord ? "1" : "0");
+  if (upos) params.set("upos", upos);
+  for (const [k, v] of featClauses) params.set(`feat_${k}`, v);
+  if (rawFeat) params.set("rawfeat", rawFeat);
+
+  const qs = params.toString();
+  window.history.replaceState(null, "", window.location.pathname + (qs ? `?${qs}` : ""));
+}
+
+document.getElementById("search-btn").addEventListener("click", runSearch);
+document.getElementById("q").addEventListener("keydown", e => { if (e.key === "Enter") runSearch(); });
+
+// ── Mode metadata: label/placeholder text, whether morphology filters are
+// meaningful (not for sentence-level translation search), and whether this
+// is a free-text English search where "whole word only" applies. ──
+const MODE_META = {
+  either:      { label: "Word(s) (Greek / Latin / Arabic / Persian)", placeholder: "e.g. λύω, λύεις (comma-separated for a set)", morphology: true,  englishSearch: false },
+  lemma:       { label: "Word(s) (Greek / Latin / Arabic / Persian)", placeholder: "e.g. λύω, λύεις (comma-separated for a set)", morphology: true,  englishSearch: false },
+  form:        { label: "Word(s) (Greek / Latin / Arabic / Persian)", placeholder: "e.g. λύω, λύεις (comma-separated for a set)", morphology: true,  englishSearch: false },
+  gloss:       { label: "English gloss(es)",  placeholder: "e.g. boldly, wisdom (comma-separated for a set)", morphology: true,  englishSearch: true },
+  translation: { label: "English translation(s)", placeholder: "e.g. rosy-fingered dawn; wine-dark sea", morphology: false, englishSearch: true },
+};
+
+document.getElementById("mode").addEventListener("change", e => {
+  const meta = MODE_META[e.target.value];
+  document.getElementById("q-label").textContent = meta.label;
+  document.getElementById("q").placeholder = meta.placeholder;
+  document.getElementById("advanced-panel").querySelectorAll("select, input").forEach(el => {
+    el.disabled = !meta.morphology;
+  });
+  document.getElementById("advanced-toggle").style.opacity = meta.morphology ? "1" : ".4";
+  document.getElementById("whole-word-field").style.display = meta.englishSearch ? "flex" : "none";
+});
+
+function runSearch() {
+  const rawInput = document.getElementById("q").value.trim();
+  const terms = rawInput ? parseTermList(rawInput) : [];
+  const mode = document.getElementById("mode").value;
+  const workFilter = document.getElementById("work-filter").value;
+  const morphologyApplies = MODE_META[mode].morphology;
+  const upos = morphologyApplies ? ((document.getElementById("feat-upos") || {}).value || "") : "";
+  const featClauses = []; // [key, value]
+  if (morphologyApplies) {
+    document.querySelectorAll("#advanced-panel select").forEach(sel => {
+      if (sel.id === "feat-upos") return;
+      if (sel.value) featClauses.push([sel.dataset.key, sel.value]);
+    });
+  }
+  const rawFeat = morphologyApplies ? (document.getElementById("feat-raw") || {}).value.trim() : "";
+  const wholeWord = MODE_META[mode].englishSearch ? document.getElementById("whole-word").checked : false;
+
+  if (!terms.length && !upos && featClauses.length === 0 && !rawFeat) {
+    alert("Enter one or more search terms (comma-separated for a set), or choose at least one morphology filter.");
+    return;
+  }
+
+  syncURLFromForm(rawInput, mode, workFilter, wholeWord, upos, featClauses, rawFeat);
+
+  const shardsToSearch = workFilter
+    ? [[workFilter, SHARDS.get(workFilter)]]
+    : Array.from(SHARDS.entries());
+
+  let matches = mode === "translation"
+    ? searchTranslations(terms, shardsToSearch, wholeWord)
+    : searchTokens(terms, mode, upos, featClauses, rawFeat, shardsToSearch, wholeWord);
+
+  LAST_MATCHES = matches;
+  const searchedWorkKeys = shardsToSearch.filter(([, shard]) => shard).map(([wk]) => wk);
+  renderDashboard(matches, terms, searchedWorkKeys);
+  renderResults(matches, terms, mode, wholeWord);
+}
+
+// Word-boundary test against the RAW (unescaped) field text — used to weed
+// out substring false positives like "stranger"/"angered" matching "anger".
+function matchesWholeWord(text, needle) {
+  if (!text || !needle) return false;
+  const esc = needle.trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (!esc) return false;
+  return new RegExp(`\\b${esc}\\b`, "i").test(text);
+}
+
+// ── Token-level search: lemma / form / either (accent-insensitive, exact
+// match on the precomputed *_norm columns) or English gloss (substring,
+// optionally narrowed to whole-word matches post-query). `terms` may hold
+// one word or a whole set — a set is OR'd together in a single query. ──
+function searchTokens(terms, mode, upos, featClauses, rawFeat, shardsToSearch, wholeWord) {
+  const where = [];
+  const params = [];
+  if (terms.length) {
+    if (mode === "gloss") {
+      where.push("(" + terms.map(() => "gloss LIKE ?").join(" OR ") + ")");
+      for (const t of terms) params.push(`%${t}%`);
+    } else {
+      const normed = terms.map(normKey);
+      const ph = normed.map(() => "?").join(",");
+      if (mode === "lemma") { where.push(`lemma_norm IN (${ph})`); params.push(...normed); }
+      else if (mode === "form") { where.push(`form_norm IN (${ph})`); params.push(...normed); }
+      else { where.push(`(lemma_norm IN (${ph}) OR form_norm IN (${ph}))`); params.push(...normed, ...normed); }
+    }
+  }
+  if (upos) { where.push("upos = ?"); params.push(upos); }
+  for (const [k, v] of featClauses) { where.push("feats LIKE ?"); params.push(`%${k}=${v}%`); }
+  if (rawFeat) { where.push("feats LIKE ?"); params.push(`%${rawFeat}%`); }
+  const whereSql = where.length ? "WHERE " + where.join(" AND ") : "";
+
+  let matches = [];
+  for (const [workKey, shard] of shardsToSearch) {
+    if (!shard) continue;
+    for (let partIndex = 0; partIndex < shard.dbs.length; partIndex++) {
+      let rows;
+      try {
+        rows = queryAll(shard.dbs[partIndex], `SELECT * FROM treebank_tokens ${whereSql} ORDER BY id`, params);
+      } catch (e) {
+        console.error(`Query failed on ${workKey} part ${partIndex + 1} (does this shard have treebank_tokens yet?):`, e);
+        continue;
+      }
+      if (mode === "gloss" && terms.length && wholeWord) {
+        rows = rows.filter(r => terms.some(t => matchesWholeWord(r.gloss, t)));
+      }
+      for (const row of rows) {
+        row._workKey = workKey; row._workLabel = shard.label; row._isSentenceMatch = false;
+        row._partIndex = partIndex;
+        row._matchedTerm = matchedTermForToken(row, mode, terms);
+      }
+      matches = matches.concat(rows);
+    }
+  }
+  return matches;
+}
+
+// Which term (of a possibly multi-term search) this row actually matched —
+// used for the "by search term" dashboard breakdown and CSV export.
+function matchedTermForToken(row, mode, terms) {
+  if (!terms.length) return null;
+  if (mode === "gloss") {
+    return terms.find(t => row.gloss && row.gloss.toLowerCase().includes(t.toLowerCase())) || null;
+  }
+  return terms.find(t => { const n = normKey(t); return n === row.lemma_norm || n === row.form_norm; }) || null;
+}
+
+// ── Sentence-level search: substring match against literal_translation or
+// prose_translation. These rows have no single "hit" token (tok_id is null),
+// so the KWIC view shows the whole sentence unbolded and highlights the
+// matched phrase within the translation text instead. `terms` may be a set. ──
+function searchTranslations(terms, shardsToSearch, wholeWord) {
+  if (!terms.length) return [];
+  const clause = terms.map(() => "(literal_translation LIKE ? OR prose_translation LIKE ?)").join(" OR ");
+  const params = [];
+  for (const t of terms) params.push(`%${t}%`, `%${t}%`);
+
+  let matches = [];
+  for (const [workKey, shard] of shardsToSearch) {
+    if (!shard) continue;
+    for (let partIndex = 0; partIndex < shard.dbs.length; partIndex++) {
+      let rows;
+      try {
+        rows = queryAll(shard.dbs[partIndex],
+          `SELECT id AS sentence_id, textgroup, work, version_short_id, chapter, section, subdoc,
+                  literal_translation, prose_translation
+           FROM treebank_sentences
+           WHERE ${clause}
+           ORDER BY id`,
+          params);
+      } catch (e) {
+        console.error(`Translation query failed on ${workKey} part ${partIndex + 1}:`, e);
+        continue;
+      }
+      if (wholeWord) {
+        rows = rows.filter(r => terms.some(t => matchesWholeWord(r.literal_translation, t) || matchesWholeWord(r.prose_translation, t)));
+      }
+      for (const row of rows) {
+        row._workKey = workKey;
+        row._workLabel = shard.label;
+        row._isSentenceMatch = true;
+        row._partIndex = partIndex;
+        row.tok_id = null; row.form = ""; row.lemma = null; row.upos = null; row.feats = null; row.gloss = null;
+        row._matchedTerm = terms.find(t =>
+          (row.literal_translation && row.literal_translation.toLowerCase().includes(t.toLowerCase())) ||
+          (row.prose_translation && row.prose_translation.toLowerCase().includes(t.toLowerCase()))
+        ) || null;
+      }
+      matches = matches.concat(rows);
+    }
+  }
+  return matches;
+}
+
+
+// ── Dashboard: aggregate counts computed client-side over the FULL match
+// set (cheap at this corpus size — thousands, not millions, of tokens). ──
+function renderDashboard(matches, terms, searchedWorkKeys) {
+  const dash = document.getElementById("dashboard");
+  const toolbar = document.getElementById("results-toolbar");
+  if (matches.length === 0) {
+    dash.classList.remove("open");
+    toolbar.style.display = "none";
+    return;
+  }
+  toolbar.style.display = "flex";
+  document.getElementById("results-count").textContent =
+    matches.length > CONFIG.RENDER_CAP
+      ? `Showing ${CONFIG.RENDER_CAP} of ${matches.length} matches below — use filters or CSV export for the rest.`
+      : `${matches.length} match${matches.length === 1 ? "" : "es"}.`;
+
+  const byWork = countBy(matches, m => m._workLabel);
+  const byUpos = countBy(matches, m => m.upos || "—");
+  const byTense = countBy(matches.filter(m => m.upos === "VERB" || m.upos === "AUX"), m => featVal(m.feats, "Tense") || "—");
+  const byMoodVoice = countBy(matches.filter(m => m.upos === "VERB" || m.upos === "AUX"),
+    m => `${featVal(m.feats, "Mood") || "—"} / ${featVal(m.feats, "Voice") || "—"}`);
+  const distinctLemmas = new Set(matches.map(m => m.lemma).filter(Boolean));
+  const byTerm = terms.length > 1 ? countBy(matches, m => m._matchedTerm || "—") : null;
+
+  const termPhrase = terms.length === 0 ? "your filters"
+    : terms.length === 1 ? `“${escapeHtml(terms[0])}”`
+    : `any of ${terms.length} terms (${terms.map(escapeHtml).join(", ")})`;
+
+  dash.innerHTML = `
+    <div class="dash-summary">
+      <strong>${matches.length}</strong> token${matches.length === 1 ? "" : "s"} match ${termPhrase}
+      across <strong>${Object.keys(byWork).length}</strong> work(s) and <strong>${distinctLemmas.size}</strong> distinct lemma(s).
+    </div>
+    <div class="dash-grid">
+      ${byTerm ? barCard("By search term", byTerm) : ""}
+      ${barCard("By work", byWork)}
+      ${barCard("By part of speech", byUpos)}
+      ${Object.keys(byTense).length ? barCard("Verb tense", byTense) : ""}
+      ${Object.keys(byMoodVoice).length ? barCard("Verb mood / voice", byMoodVoice) : ""}
+    </div>
+    ${lemmaWorkTable(matches, searchedWorkKeys)}`;
+  dash.classList.add("open");
+}
+
+// ── Lemma × work pivot: which lemmas dominate the match set, and where.
+// Rows are lemmas (sorted by total count, capped so a broad/feature-only
+// search doesn't render hundreds of rows); columns are the distinct works
+// present, sorted the same way. Lemma cells are clickable (spawn a fresh
+// lemma search), matching the KWIC table's behavior.
+//
+// Rates are per 1,000 tokens of the relevant work (or, for the Total
+// column, per 1,000 tokens across every work actually searched — including
+// ones where this particular lemma didn't occur at all, so the rate
+// reflects the full searched corpus, not just the works that happened to
+// match). The 95% CI uses the Wilson score interval, treating each corpus
+// as a finite sample from a hypothetical much larger one of the same kind
+// of text — it answers "how much would this rate plausibly move around if
+// we had far more text of this kind," not literal sampling error within
+// the fixed corpus itself. ──
+function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
+  const withLemma = matches.filter(m => m.lemma);
+  if (withLemma.length === 0) return "";
+
+  // Columns: every work actually searched (not just ones with a hit for
+  // THIS query), so a lemma absent from a large work still gets a "0 (0.00‰)"
+  // rather than a misleading blank.
+  const works = (searchedWorkKeys.length ? searchedWorkKeys : [...new Set(withLemma.map(m => m._workKey))])
+    .filter(wk => SHARDS.has(wk))
+    .sort((a, b) => (TOTAL_TOKENS_BY_WORK.get(b) || 0) - (TOTAL_TOKENS_BY_WORK.get(a) || 0));
+  const corpusTotal = works.reduce((sum, wk) => sum + (TOTAL_TOKENS_BY_WORK.get(wk) || 0), 0);
+
+  const byLemma = new Map(); // lemma -> { total, perWork: {workKey: n} }
+  for (const m of withLemma) {
+    const entry = byLemma.get(m.lemma) || { total: 0, perWork: {} };
+    entry.total++;
+    entry.perWork[m._workKey] = (entry.perWork[m._workKey] || 0) + 1;
+    byLemma.set(m.lemma, entry);
+  }
+
+  const lemmaRows = Array.from(byLemma.entries()).sort((a, b) => b[1].total - a[1].total);
+  const truncated = lemmaRows.length > capRows;
+  const shownRows = lemmaRows.slice(0, capRows);
+
+  const headCols = works.map(wk => `<th style="text-align:center">${escapeHtml(SHARDS.get(wk).label)}</th>`).join("");
+  const bodyRows = shownRows.map(([lemma, entry]) => {
+    const cellsHtml = works.map(wk => {
+      const n = entry.perWork[wk] || 0;
+      const denom = TOTAL_TOKENS_BY_WORK.get(wk) || 0;
+      const rate = denom ? (n / denom * 1000) : 0;
+      return `<td style="text-align:center">${n}${denom ? `<br><span class="rate">${rate.toFixed(2)}‰</span>` : ""}</td>`;
+    }).join("");
+
+    const overallRate = corpusTotal ? (entry.total / corpusTotal * 1000) : 0;
+    const [lo, hi] = wilsonInterval(entry.total, corpusTotal);
+    const ciHtml = corpusTotal
+      ? `<span class="ci">${(lo * 1000).toFixed(2)}–${(hi * 1000).toFixed(2)}‰</span>`
+      : "—";
+
+    return `
+    <tr>
+      <td class="greek">${lemmaLinkHtml(lemma)}</td>
+      ${cellsHtml}
+      <td style="text-align:center"><strong>${entry.total}</strong></td>
+      <td style="text-align:center">${overallRate.toFixed(2)}‰</td>
+      <td style="text-align:center">${ciHtml}</td>
+    </tr>`;
+  }).join("");
+
+  return `
+    <div class="dash-card" style="flex-basis:100%;margin-top:16px">
+      <h3>Lemmas by work — relative frequency</h3>
+      <table class="lemma-work-table">
+        <thead><tr>
+          <th>Lemma</th>${headCols}
+          <th style="text-align:center">Total</th>
+          <th style="text-align:center">Rate /1,000</th>
+          <th style="text-align:center">95% CI /1,000</th>
+        </tr></thead>
+        <tbody>${bodyRows}</tbody>
+      </table>
+      <div style="font-size:11px;color:#999;margin-top:6px">
+        Rates are occurrences per 1,000 tokens. Per-work cells show that lemma's rate within that work alone;
+        Total/Rate/CI are computed against the full searched corpus (${corpusTotal.toLocaleString()} tokens
+        across ${works.length} work${works.length === 1 ? "" : "s"}). The 95% CI (Wilson score interval) is a
+        rough guide to how much this rate might shift with a much larger sample of similar text — not a claim
+        about this specific corpus, which is fixed and fully counted.
+        ${truncated ? ` Showing top ${capRows} of ${lemmaRows.length} lemmas.` : ""}
+      </div>
+    </div>`;
+}
+
+// Wilson score interval for a binomial proportion x/n at confidence z
+// (default z=1.96 -> 95%). Returns [lower, upper] as proportions in [0,1].
+function wilsonInterval(x, n, z = 1.96) {
+  if (!n) return [0, 0];
+  const phat = x / n;
+  const z2 = z * z;
+  const denom = 1 + z2 / n;
+  const center = phat + z2 / (2 * n);
+  const margin = z * Math.sqrt((phat * (1 - phat)) / n + z2 / (4 * n * n));
+  return [Math.max(0, (center - margin) / denom), Math.min(1, (center + margin) / denom)];
+}
+
+function countBy(arr, fn) {
+  const m = {};
+  for (const x of arr) { const k = fn(x); m[k] = (m[k] || 0) + 1; }
+  return m;
+}
+function featVal(feats, key) {
+  if (!feats) return null;
+  for (const kv of feats.split("|")) {
+    const [k, v] = kv.split("=");
+    if (k === key) return v;
+  }
+  return null;
+}
+function barCard(title, counts) {
+  const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const max = Math.max(...entries.map(e => e[1]), 1);
+  return `<div class="dash-card"><h3>${title}</h3>` +
+    entries.map(([label, n]) => `
+      <div class="bar-row">
+        <div class="bar-label" title="${escapeHtml(label)}">${escapeHtml(label)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(n / max * 100).toFixed(0)}%"></div></div>
+        <div class="bar-count">${n}</div>
+      </div>`).join("") + `</div>`;
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+function highlightSubstring(text, needles, wholeWord) {
+  const escaped = escapeHtml(text);
+  const list = (Array.isArray(needles) ? needles : [needles]).filter(Boolean);
+  if (list.length === 0) return escaped;
+  const escList = list
+    .map(n => escapeHtml(n).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .filter(Boolean);
+  if (escList.length === 0) return escaped;
+  const alt = escList.length === 1 ? escList[0] : `(?:${escList.join("|")})`;
+  const pattern = wholeWord ? `\\b${alt}\\b` : alt;
+  return escaped.replace(new RegExp(pattern, "ig"), m => `<mark>${m}</mark>`);
+}
+
+// ── Clickable lemma/gloss: let a reader spawn a fresh search straight from
+// a result row (or from the expanded full-treebank panel) instead of
+// retyping the term. data-term round-trips safely through the HTML
+// attribute (browser decodes the entities back to the raw string). ──
+function lemmaLinkHtml(lemma) {
+  if (!lemma) return "—";
+  return `<a href="#" class="xlink" data-term="${escapeHtml(lemma)}" data-mode="lemma" onclick="return spawnSearchFromEl(this)">${escapeHtml(lemma)}</a>`;
+}
+function glossLinkHtml(gloss, displayHtml) {
+  if (!gloss) return "";
+  const inner = displayHtml != null ? displayHtml : escapeHtml(gloss);
+  return `<a href="#" class="xlink" data-term="${escapeHtml(gloss)}" data-mode="gloss" onclick="return spawnSearchFromEl(this)">${inner}</a>`;
+}
+function spawnSearchFromEl(el) {
+  const term = el.dataset.term;
+  const mode = el.dataset.mode;
+  document.getElementById("q").value = term;
+  const modeSelect = document.getElementById("mode");
+  modeSelect.value = mode;
+  modeSelect.dispatchEvent(new Event("change")); // updates label/placeholder/disabled state
+  runSearch();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  return false;
+}
+
+
+// ── KWIC results: reconstruct sentence context by re-fetching the parent
+// sentence rows (batched per shard) so the matched token can be shown
+// in-line, bolded, alongside its gloss and the sentence's literal/prose
+// translation where one was recorded. ──
+// Tokens for each rendered row's sentence, keyed by row index, so the
+// expandable "full treebank" panel needs no extra DB queries — it's built
+// straight from the sentence_json already fetched for the context line.
+let ROW_TOKENS = [];
+
+function renderResults(matches, terms, mode, wholeWord) {
+  const container = document.getElementById("results");
+  ROW_TOKENS = [];
+  if (matches.length === 0) {
+    container.innerHTML = `<div id="empty-note">No matches. Try removing accents, switching “Match against” to Lemma, or loosening morphology/mode.</div>`;
+    return;
+  }
+  const shown = matches.slice(0, CONFIG.RENDER_CAP);
+
+  // Group by (work, part) so each row's sentence context is fetched from
+  // the exact part db it actually came from, in one batched query per part.
+  const byShardPart = {};
+  for (const row of shown) {
+    const key = `${row._workKey}:::${row._partIndex}`;
+    (byShardPart[key] = byShardPart[key] || []).push(row);
+  }
+
+  const sentenceCache = new Map(); // `${workKey}:${sentence_id}` -> {sentence_json, prose, literal}
+  for (const [key, rows] of Object.entries(byShardPart)) {
+    const [workKey, partIndexStr] = key.split(":::");
+    const shard = SHARDS.get(workKey);
+    if (!shard) continue;
+    const db = shard.dbs[Number(partIndexStr)];
+    if (!db) continue;
+    const ids = [...new Set(rows.map(r => r.sentence_id))];
+    if (ids.length === 0) continue;
+    const placeholders = ids.map(() => "?").join(",");
+    const sentRows = queryAll(db,
+      `SELECT id, sentence_json, prose_translation, literal_translation FROM treebank_sentences WHERE id IN (${placeholders})`,
+      ids);
+    for (const sr of sentRows) sentenceCache.set(`${workKey}:${sr.id}`, sr);
+  }
+
+  const bodyRows = shown.map((row, i) => {
+    const key = `${row._workKey}:${row.sentence_id}`;
+    const sent = sentenceCache.get(key);
+    let contextHtml = row.form ? `<span class="hit">${escapeHtml(row.form)}</span>` : "";
+    let toks = null;
+    let literal = "", prose = "";
+    if (sent) {
+      if (sent.sentence_json) {
+        try {
+          toks = JSON.parse(sent.sentence_json);
+          contextHtml = toks.map(t => {
+            const isHit = t.id === row.tok_id;
+            const piece = isHit ? `<span class="hit">${escapeHtml(t.form)}</span>` : escapeHtml(t.form);
+            const noSpaceBefore = t.upos === "PUNCT";
+            return (noSpaceBefore ? "" : " ") + piece;
+          }).join("").trim();
+        } catch (e) { /* leave fallback contextHtml */ }
+      }
+      literal = sent.literal_translation || "";
+      prose = sent.prose_translation || "";
+    }
+    ROW_TOKENS[i] = { tokens: toks, hitTokId: row.tok_id };
+
+    const literalHtml = literal ? (mode === "translation" ? highlightSubstring(literal, terms, wholeWord) : escapeHtml(literal)) : "";
+    const proseHtml = prose ? (mode === "translation" ? highlightSubstring(prose, terms, wholeWord) : escapeHtml(prose)) : "";
+    const translationHtml = (literal || prose) ? `
+      <div class="translation-block">
+        ${literal ? `<div class="lit"><span class="lbl">Literal</span>${literalHtml}</div>` : ""}
+        ${prose ? `<div class="prose"><span class="lbl">Translation</span>${proseHtml}</div>` : ""}
+      </div>` : "";
+    const matchTag = row._isSentenceMatch
+      ? `<span style="font-size:11px;color:#999;font-style:italic"> — matched via translation</span>` : "";
+
+    const glossHtml = row.gloss ? (mode === "gloss" ? highlightSubstring(row.gloss, terms, wholeWord) : escapeHtml(row.gloss)) : "";
+
+    return `
+      <tr id="row-${i}">
+        <td class="work-tag">${escapeHtml(row._workLabel)}<br>${escapeHtml(row.chapter || "")}${row.section && row.section !== "1" ? "." + escapeHtml(row.section) : ""}</td>
+        <td class="greek">
+          ${contextHtml}${matchTag}
+          ${translationHtml}
+          ${toks ? `<button class="tb-toggle" onclick="toggleDetail(${i})">▸ Full treebank</button>` : ""}
+        </td>
+        <td>${lemmaLinkHtml(row.lemma)}<br><span class="feats">${escapeHtml(row.upos || "")}${row.feats ? " · " + escapeHtml(row.feats) : ""}</span></td>
+        <td class="gloss">${glossLinkHtml(row.gloss, glossHtml)}</td>
+        <td class="read-link"><a href="${buildReaderLink(row)}" target="_blank" rel="noopener">Read in context →</a></td>
+      </tr>
+      <tr class="detail-row" id="detail-${i}" style="display:none"><td colspan="5"></td></tr>`;
+  }).join("");
+
+  container.innerHTML = `
+    <table id="kwic">
+      <thead><tr><th>Location</th><th>Context &amp; translation</th><th>Lemma / morphology</th><th>Gloss</th><th></th></tr></thead>
+      <tbody>${bodyRows}</tbody>
+    </table>`;
+}
+
+// Expand/collapse the full per-token treebank annotation for one matched
+// sentence in place, so a reader can interrogate every word (lemma, POS,
+// morphology, gloss, dependency head) without leaving the search results.
+function toggleDetail(i) {
+  const detailRow = document.getElementById(`detail-${i}`);
+  const btn = document.querySelector(`#row-${i} .tb-toggle`);
+  const isOpen = detailRow.style.display !== "none";
+  if (isOpen) {
+    detailRow.style.display = "none";
+    if (btn) btn.textContent = "▸ Full treebank";
+    return;
+  }
+  const { tokens, hitTokId } = ROW_TOKENS[i] || {};
+  if (tokens && detailRow.querySelector("td").innerHTML.trim() === "") {
+    const rows = tokens.map(t => `
+      <tr class="${t.id === hitTokId ? "hit-token" : ""}">
+        <td>${t.id}</td>
+        <td class="g">${escapeHtml(t.form)}</td>
+        <td>${t.lemma ? lemmaLinkHtml(t.lemma) : ""}</td>
+        <td>${escapeHtml(t.upos || "")}</td>
+        <td class="feats-cell">${escapeHtml(t.feats || "")}</td>
+        <td>${escapeHtml(t.deprel || "")}</td>
+        <td>${t.head != null ? t.head : ""}</td>
+        <td>${t.gloss ? glossLinkHtml(t.gloss) : ""}</td>
+      </tr>`).join("");
+    detailRow.querySelector("td").innerHTML = `
+      <table class="tb-detail">
+        <thead><tr><th>#</th><th>Form</th><th>Lemma</th><th>UPOS</th><th>Feats</th><th>Deprel</th><th>Head</th><th>Gloss</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+  detailRow.style.display = "table-row";
+  if (btn) btn.textContent = "▾ Full treebank";
+}
+
+// NOTE: this is the one spot most likely to need hand-tuning per work — it
+// mirrors the existing reader's own updateURLState()/initializeRoutingFromURL()
+// URL scheme (?w=<textgroup>.<work>:<chapter>[.<section>]&focus=<version>).
+// If a given work's "chapter" values aren't already book-qualified the way
+// the reader expects, adjust the passage string built here.
+function buildReaderLink(row) {
+  const passage = row.section && row.section !== "1" ? `${row.chapter}.${row.section}` : row.chapter;
+  const params = new URLSearchParams();
+  params.set("w", `${row._workKey}:${passage}`);
+  params.set("focus", row.version_short_id);
+  return `${CONFIG.READER_URL}?${params.toString()}`;
+}
+
+function downloadCsv() {
+  if (LAST_MATCHES.length === 0) return;
+  const cols = ["_matchedTerm","_workLabel","chapter","section","form","lemma","upos","feats","gloss","ref","version_short_id"];
+  const lines = [cols.join(",")];
+  for (const row of LAST_MATCHES) {
+    lines.push(cols.map(c => csvCell(row[c])).join(","));
+  }
+  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = "treebank_search_results.csv";
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+}
+function csvCell(v) {
+  if (v == null) return "";
+  const s = String(v);
+  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+</script>
+</body>
+</html>
