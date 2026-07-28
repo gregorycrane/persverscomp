@@ -112,6 +112,22 @@
   .read-link { font-size: 12px; }
   #empty-note, #load-note { color: #777; font-size: 13px; padding: 20px 0; }
 
+  /* Interlinear per-word transliteration under the original-script form
+     (used for Persian/Arabic tokens with a translit value; harmless no-op
+     for tokens without one). Kept as its own inline-block per word so the
+     Latin line stays aligned under its word even when the line itself is
+     RTL script running LTR word-order on the page. */
+  .word-stack { display: inline-block; text-align: center; vertical-align: top; margin: 0 1px; }
+  .word-stack .form { display: block; }
+  .word-stack .translit {
+    display: block; direction: ltr; unicode-bidi: isolate;
+    font-family: Georgia, serif; font-size: 11px; color: #999; font-style: italic;
+  }
+  .translation-block .translit-line {
+    display: block; direction: ltr; unicode-bidi: isolate;
+    color: #999; font-style: italic; font-size: 13px;
+  }
+
   .translation-block { margin-top: 4px; }
   .translation-block .lit { color: #444; }
   .translation-block .prose { color: #999; }
@@ -130,6 +146,7 @@
   table.tb-detail td.g { font-family: 'Gentium Plus', 'Times New Roman', serif; font-size: 15px; }
   table.tb-detail tr.hit-token td { background: #f5e5e5; }
   table.tb-detail td.feats-cell { font-family: monospace; font-size: 10px; color: #888; }
+  table.tb-detail td.translit-cell { direction: ltr; unicode-bidi: isolate; font-style: italic; color: #888; }
 
   mark { background: #ffe9a8; padding: 0 1px; border-radius: 2px; }
   #advanced-panel select:disabled, #advanced-panel input:disabled { opacity: .4; cursor: not-allowed; }
@@ -148,7 +165,24 @@
   table.lemma-work-table td { padding: 4px 8px; border-bottom: 1px solid #eee; }
   table.lemma-work-table tr:hover td { background: #fbf8f3; }
   table.lemma-work-table .rate { font-size: 10px; color: #999; }
-  table.lemma-work-table .ci { font-size: 11px; color: #777; font-family: monospace; }
+  table.lemma-work-table .ci { font-size: 10px; color: #999; font-family: monospace; display: block; }
+  table.lemma-work-table .cell-total .ci { font-size: 11px; color: #777; }
+  table.lemma-work-table .insufficient { font-size: 10px; color: #b5651d; font-style: italic; }
+  table.lemma-work-table .sig-cell { text-align: center; }
+  table.lemma-work-table .sig-stars { font-weight: bold; }
+  table.lemma-work-table .sig-stars.sig-yes { color: var(--maroon); }
+  table.lemma-work-table .sig-stars.sig-no { color: #999; font-weight: normal; }
+  table.lemma-work-table .sig-p { display: block; font-size: 10px; color: #999; font-family: monospace; }
+  table.lemma-work-table .sig-method { font-size: 9px; color: #aaa; }
+  .pivot-compare-bar {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+    font-size: 12px; color: #555; margin: 10px 0 6px; padding: 8px 10px;
+    background: #fbf7ef; border: 1px solid var(--line); border-radius: 3px;
+  }
+  .pivot-compare-bar select {
+    font-size: 12px; padding: 2px 4px; border: 1px solid #bbb; border-radius: 3px; background: #fff;
+  }
+  .pivot-compare-bar strong { color: var(--maroon); }
 
 </style>
 </head>
@@ -185,6 +219,14 @@
     <label style="display:flex;align-items:center;gap:5px;font-weight:normal;font-size:13px;color:#333;height:34px">
       <input type="checkbox" id="whole-word" checked> Whole word only
     </label>
+  </div>
+  <div class="field">
+    <label for="greek-translit-mode">Greek display</label>
+    <select id="greek-translit-mode" onchange="onGreekTranslitModeChange()">
+      <option value="">Original (polytonic)</option>
+      <option value="simple">Transliteration — simple</option>
+      <option value="full">Transliteration — scholarly</option>
+    </select>
   </div>
   <button id="search-btn">Search</button>
   <span id="advanced-toggle" onclick="toggleAdvanced()">Morphology filters ▾</span>
@@ -249,6 +291,199 @@ const CONFIG = {
     "ferdowsi.shahnameh": "Ferdowsi, Shahnameh",
   },
 };
+
+// ── Greek transliteration engine (client-side, no precomputation; ported
+// verbatim from the main reader's app.js so the two stay in sync). Converts
+// polytonic Greek Unicode text into Latin transliteration on the fly. Two
+// modes:
+//   'simple' — plain ASCII-ish reading form, no accents/breathing marks
+//              shown as diacritics, macrons dropped (e ~ eta, o ~ omega).
+//   'full'   — scholarly form: acute/grave/circumflex accents rendered as
+//              combining diacritics on the corresponding Latin vowel,
+//              long eta/omega marked with a macron (ē/ō), iota subscript
+//              shown as an appended -i, rough breathing as h-/rh-.
+// Works directly on HTML strings/DOM text nodes: it only rewrites contiguous
+// runs of Greek-range codepoints, so tags/attributes/entities, and any
+// Persian/Arabic text elsewhere on the page, pass through untouched.
+const GK_SMOOTH      = '\u0313';
+const GK_ROUGH        = '\u0314';
+const GK_ACUTE        = '\u0301';
+const GK_GRAVE        = '\u0300';
+const GK_CIRCUMFLEX_A = '\u0342'; // perispomeni
+const GK_CIRCUMFLEX_B = '\u0303'; // combining tilde (occasional alt encoding)
+const GK_IOTA_SUB     = '\u0345'; // ypogegrammeni
+const GK_DIAERESIS    = '\u0308';
+const GK_MACRON       = '\u0304';
+const GK_BREVE        = '\u0306';
+const GK_COMBINING_MARKS = new Set([
+  GK_SMOOTH, GK_ROUGH, GK_ACUTE, GK_GRAVE, GK_CIRCUMFLEX_A, GK_CIRCUMFLEX_B,
+  GK_IOTA_SUB, GK_DIAERESIS, GK_MACRON, GK_BREVE
+]);
+
+const GREEK_BASE_LETTERS = {
+  'α': { s: 'a',  f: 'a'  }, 'β': { s: 'b',  f: 'b'  }, 'γ': { s: 'g',  f: 'g'  },
+  'δ': { s: 'd',  f: 'd'  }, 'ε': { s: 'e',  f: 'e'  }, 'ζ': { s: 'z',  f: 'z'  },
+  'η': { s: 'e',  f: 'ē'  }, 'θ': { s: 'th', f: 'th' }, 'ι': { s: 'i',  f: 'i'  },
+  'κ': { s: 'k',  f: 'k'  }, 'λ': { s: 'l',  f: 'l'  }, 'μ': { s: 'm',  f: 'm'  },
+  'ν': { s: 'n',  f: 'n'  }, 'ξ': { s: 'x',  f: 'x'  }, 'ο': { s: 'o',  f: 'o'  },
+  'π': { s: 'p',  f: 'p'  }, 'ρ': { s: 'r',  f: 'r'  }, 'σ': { s: 's',  f: 's'  },
+  'ς': { s: 's',  f: 's'  }, 'τ': { s: 't',  f: 't'  }, 'υ': { s: 'u',  f: 'u'  },
+  'φ': { s: 'ph', f: 'ph' }, 'χ': { s: 'kh', f: 'kh' }, 'ψ': { s: 'ps', f: 'ps' },
+  'ω': { s: 'o',  f: 'ō'  },
+};
+const GREEK_DIPHTHONGS = {
+  'αι': { s: 'ai', f: 'ai' }, 'ει': { s: 'ei', f: 'ei' }, 'οι': { s: 'oi', f: 'oi' },
+  'υι': { s: 'ui', f: 'ui' }, 'αυ': { s: 'au', f: 'au' }, 'ευ': { s: 'eu', f: 'eu' },
+  'ηυ': { s: 'eu', f: 'ēu' }, 'ου': { s: 'ou', f: 'ou' },
+};
+const GREEK_PUNCT_MAP = {
+  '\u037E': '?',   // Greek question mark
+  '\u0387': ';',   // ano teleia
+  '\u1FBD': "'",   // koronis (elision)
+  '\u1FBF': "'",   // psili used standalone
+  '\u1FFE': "'",   // dasia used standalone
+};
+const GK_LATIN_VOWELS = 'aeiouyēō';
+
+function _gkGroupLetters(nfdStr) {
+  const letters = [];
+  for (const ch of nfdStr) {
+    if (GK_COMBINING_MARKS.has(ch) && letters.length) {
+      letters[letters.length - 1].marks.push(ch);
+    } else {
+      letters.push({ base: ch, marks: [] });
+    }
+  }
+  return letters;
+}
+
+function _gkMergeDiphthongs(letters) {
+  const out = [];
+  for (let i = 0; i < letters.length; i++) {
+    const cur = letters[i];
+    const nxt = letters[i + 1];
+    if (nxt) {
+      const curLower = cur.base.toLowerCase();
+      const nxtLower = nxt.base.toLowerCase();
+      const pairKey = curLower + nxtLower;
+      const hasDiaeresis = nxt.marks.includes(GK_DIAERESIS);
+      const curHasIotaSub = cur.marks.includes(GK_IOTA_SUB);
+      if (GREEK_DIPHTHONGS[pairKey] && !hasDiaeresis && !curHasIotaSub) {
+        out.push({
+          diphthong: pairKey,
+          marks: cur.marks.concat(nxt.marks),
+          isUpper: cur.base !== curLower,
+        });
+        i++; // consumed the second vowel
+        continue;
+      }
+    }
+    out.push({ base: cur.base, marks: cur.marks, isUpper: cur.base !== cur.base.toLowerCase() });
+  }
+  return out;
+}
+
+function _gkInsertAccent(str, accentMark) {
+  // Greek writes the accent over a diphthong's second vowel (e.g. αἵ ->
+  // haî, not hâi), so scan from the end and mark the last Latin vowel.
+  for (let i = str.length - 1; i >= 0; i--) {
+    if (GK_LATIN_VOWELS.includes(str[i])) {
+      return str.slice(0, i + 1) + accentMark + str.slice(i + 1);
+    }
+  }
+  return str + accentMark;
+}
+
+function _gkRenderUnit(unit, mode, nextBaseLower) {
+  let latin;
+  if (unit.diphthong) {
+    const d = GREEK_DIPHTHONGS[unit.diphthong];
+    latin = (mode === 'full') ? d.f : d.s;
+  } else {
+    const lower = unit.base.toLowerCase();
+    const entry = GREEK_BASE_LETTERS[lower];
+    if (!entry) {
+      // Not a recognized Greek letter (punctuation, space, markup char).
+      return (GREEK_PUNCT_MAP[unit.base] !== undefined) ? GREEK_PUNCT_MAP[unit.base] : unit.base;
+    }
+    latin = (mode === 'full') ? entry.f : entry.s;
+    if (lower === 'γ' && nextBaseLower && 'γκξχ'.includes(nextBaseLower)) {
+      latin = 'n'; // gamma nasal (ἄγγελος -> angelos)
+    }
+    if (lower === 'ρ') {
+      latin = unit.marks.includes(GK_ROUGH) ? 'rh' : 'r';
+    }
+  }
+  const isRho = !unit.diphthong && unit.base.toLowerCase() === 'ρ';
+  if (!isRho && unit.marks.includes(GK_ROUGH)) {
+    latin = 'h' + latin;
+  }
+  if (mode === 'full') {
+    if (unit.marks.includes(GK_ACUTE)) latin = _gkInsertAccent(latin, GK_ACUTE);
+    else if (unit.marks.includes(GK_GRAVE)) latin = _gkInsertAccent(latin, GK_GRAVE);
+    else if (unit.marks.includes(GK_CIRCUMFLEX_A) || unit.marks.includes(GK_CIRCUMFLEX_B)) latin = _gkInsertAccent(latin, '\u0302');
+    if (unit.marks.includes(GK_IOTA_SUB)) latin += 'i';
+  }
+  if (unit.isUpper) latin = latin.charAt(0).toUpperCase() + latin.slice(1);
+  return latin;
+}
+
+function transliterateGreekWord(word, mode) {
+  const nfd = word.normalize('NFD');
+  const letters = _gkGroupLetters(nfd);
+  const units = _gkMergeDiphthongs(letters);
+  let result = '';
+  for (let i = 0; i < units.length; i++) {
+    const nxt = units[i + 1];
+    const nextBaseLower = nxt ? (nxt.diphthong ? nxt.diphthong[0] : nxt.base.toLowerCase()) : null;
+    result += _gkRenderUnit(units[i], mode, nextBaseLower);
+  }
+  return result.normalize('NFC');
+}
+
+// Matches contiguous runs of Greek/Coptic + Greek Extended codepoints
+// (letters, breathing/accent marks, and Greek-specific punctuation).
+// Anything outside these ranges — HTML tags, attributes, English text,
+// Persian/Arabic script — is left completely untouched.
+const GREEK_RUN_REGEX = /[\u0370-\u03FF\u1F00-\u1FFF]+/gu;
+// Non-global sibling used purely for "does this contain any Greek at all"
+// checks (a global regex's .test() mutates lastIndex between calls, which
+// would silently break repeated presence checks across renders).
+const GREEK_HAS_REGEX = /[\u0370-\u03FF\u1F00-\u1FFF]/u;
+
+function transliterateHtmlFragment(html, mode) {
+  if (!mode) return html;
+  return html.replace(GREEK_RUN_REGEX, (run) => transliterateGreekWord(run, mode));
+}
+
+// Walks a live DOM subtree and transliterates (or restores) its text nodes
+// in place, without touching element structure or attributes — safe here
+// since every click handler in this app is an inline onclick="" (baked into
+// the HTML string itself), not addEventListener, so there's nothing a text-
+// node rewrite could silently strip.
+function walkAndTransliterateNode(rootEl, mode) {
+  if (!rootEl) return;
+  const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, null);
+  let node;
+  while ((node = walker.nextNode())) {
+    if (node.__gkOriginal === undefined) node.__gkOriginal = node.nodeValue;
+    node.nodeValue = mode ? transliterateHtmlFragment(node.__gkOriginal, mode) : node.__gkOriginal;
+  }
+}
+
+// Global (page-wide, not per-column — this app has one Greek-facing view,
+// not the reader's multi-column layout) transliteration mode, applied to
+// every freshly-rendered chunk of the dashboard/results area.
+let GREEK_TRANSLIT_MODE = "";
+window.onGreekTranslitModeChange = function () {
+  const sel = document.getElementById("greek-translit-mode");
+  GREEK_TRANSLIT_MODE = sel ? sel.value : "";
+  applyGreekTranslitEverywhere();
+};
+function applyGreekTranslitEverywhere() {
+  walkAndTransliterateNode(document.getElementById("dashboard"), GREEK_TRANSLIT_MODE);
+  walkAndTransliterateNode(document.getElementById("results"), GREEK_TRANSLIT_MODE);
+}
 
 // ── Morphological feature picklist (UD-style keys/values as used in the
 // Perseus/AGDT + Daphne CoNLL-U treebanks). "any" = no filter on that key. ──
@@ -704,6 +939,7 @@ function renderDashboard(matches, terms, searchedWorkKeys) {
     </div>
     ${lemmaWorkTable(matches, searchedWorkKeys)}`;
   dash.classList.add("open");
+  walkAndTransliterateNode(dash, GREEK_TRANSLIT_MODE);
 }
 
 // ── Lemma × work pivot: which lemmas dominate the match set, and where.
@@ -716,12 +952,30 @@ function renderDashboard(matches, terms, searchedWorkKeys) {
 // column, per 1,000 tokens across every work actually searched — including
 // ones where this particular lemma didn't occur at all, so the rate
 // reflects the full searched corpus, not just the works that happened to
-// match). The 95% CI uses the Wilson score interval, treating each corpus
-// as a finite sample from a hypothetical much larger one of the same kind
-// of text — it answers "how much would this rate plausibly move around if
-// we had far more text of this kind," not literal sampling error within
-// the fixed corpus itself. ──
+// match). Every rate — per-work cell and Total alike — carries its own 95%
+// Wilson score CI, treating each corpus as a finite sample from a
+// hypothetical much larger one of the same kind of text: it answers "how
+// much would this rate plausibly move around if we had far more text of
+// this kind," not literal sampling error within the fixed corpus itself.
+// Works too small to support a meaningful CI are flagged rather than given
+// a falsely precise-looking range.
+//
+// A separate "Compare two works" control runs a proper significance test
+// (two-proportion z-test, or Fisher's exact test when counts are too small
+// for the normal approximation) so a difference like Iliad-vs-Odyssey rates
+// can be read as significant or not, not just eyeballed. ──
+
+const MIN_TOKENS_FOR_RATE = 50; // below this a work's own token count is too small for its rate/CI to mean much
+const MIN_TOTAL_FOR_SIG = 1;    // need at least one occurrence somewhere to test anything at all
+
+// Module-level state so the "compare" dropdowns can re-render just the
+// pivot table (via updatePivotCompare()) without re-running the search.
+let PIVOT_STATE = { matches: null, searchedWorkKeys: null, compareA: null, compareB: null };
+
 function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
+  PIVOT_STATE.matches = matches;
+  PIVOT_STATE.searchedWorkKeys = searchedWorkKeys;
+
   const withLemma = matches.filter(m => m.lemma);
   if (withLemma.length === 0) return "";
 
@@ -745,52 +999,194 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
   const truncated = lemmaRows.length > capRows;
   const shownRows = lemmaRows.slice(0, capRows);
 
+  // Default / validate the two works being compared for significance.
+  if (!PIVOT_STATE.compareA || !works.includes(PIVOT_STATE.compareA)) PIVOT_STATE.compareA = works[0] || null;
+  if (!PIVOT_STATE.compareB || !works.includes(PIVOT_STATE.compareB) || PIVOT_STATE.compareB === PIVOT_STATE.compareA) {
+    PIVOT_STATE.compareB = works.find(wk => wk !== PIVOT_STATE.compareA) || null;
+  }
+  const canCompare = works.length >= 2 && PIVOT_STATE.compareA && PIVOT_STATE.compareB;
+
   const headCols = works.map(wk => `<th style="text-align:center">${escapeHtml(SHARDS.get(wk).label)}</th>`).join("");
+
   const bodyRows = shownRows.map(([lemma, entry]) => {
     const cellsHtml = works.map(wk => {
       const n = entry.perWork[wk] || 0;
       const denom = TOTAL_TOKENS_BY_WORK.get(wk) || 0;
-      const rate = denom ? (n / denom * 1000) : 0;
-      return `<td style="text-align:center">${n}${denom ? `<br><span class="rate">${rate.toFixed(2)}‰</span>` : ""}</td>`;
+      return `<td style="text-align:center">${rateWithCiHtml(n, denom)}</td>`;
     }).join("");
 
-    const overallRate = corpusTotal ? (entry.total / corpusTotal * 1000) : 0;
-    const [lo, hi] = wilsonInterval(entry.total, corpusTotal);
-    const ciHtml = corpusTotal
-      ? `<span class="ci">${(lo * 1000).toFixed(2)}–${(hi * 1000).toFixed(2)}‰</span>`
-      : "—";
+    const totalCellHtml = rateWithCiHtml(entry.total, corpusTotal, true);
+
+    const sigCellHtml = canCompare
+      ? significanceCellHtml(
+          entry.perWork[PIVOT_STATE.compareA] || 0, TOTAL_TOKENS_BY_WORK.get(PIVOT_STATE.compareA) || 0,
+          entry.perWork[PIVOT_STATE.compareB] || 0, TOTAL_TOKENS_BY_WORK.get(PIVOT_STATE.compareB) || 0
+        )
+      : "";
 
     return `
     <tr>
       <td class="greek">${lemmaLinkHtml(lemma)}</td>
       ${cellsHtml}
       <td style="text-align:center"><strong>${entry.total}</strong></td>
-      <td style="text-align:center">${overallRate.toFixed(2)}‰</td>
-      <td style="text-align:center">${ciHtml}</td>
+      <td class="cell-total" style="text-align:center">${totalCellHtml}</td>
+      ${canCompare ? `<td class="sig-cell">${sigCellHtml}</td>` : ""}
     </tr>`;
   }).join("");
 
+  const compareBarHtml = works.length >= 2 ? `
+    <div class="pivot-compare-bar">
+      <span>Test significance of the difference between</span>
+      <select id="pivot-cmp-a" onchange="updatePivotCompare()">
+        ${works.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareA ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
+      </select>
+      <span>and</span>
+      <select id="pivot-cmp-b" onchange="updatePivotCompare()">
+        ${works.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareB ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
+      </select>
+      <span>for each lemma below.</span>
+    </div>` : "";
+
   return `
-    <div class="dash-card" style="flex-basis:100%;margin-top:16px">
+    <div class="dash-card" style="flex-basis:100%;margin-top:16px" id="lemma-pivot-wrap">
       <h3>Lemmas by work — relative frequency</h3>
+      ${compareBarHtml}
       <table class="lemma-work-table">
         <thead><tr>
           <th>Lemma</th>${headCols}
           <th style="text-align:center">Total</th>
-          <th style="text-align:center">Rate /1,000</th>
-          <th style="text-align:center">95% CI /1,000</th>
+          <th style="text-align:center">Rate /1,000 &amp; 95% CI</th>
+          ${canCompare ? `<th style="text-align:center">${escapeHtml(SHARDS.get(PIVOT_STATE.compareA).label)} vs ${escapeHtml(SHARDS.get(PIVOT_STATE.compareB).label)}</th>` : ""}
         </tr></thead>
         <tbody>${bodyRows}</tbody>
       </table>
       <div style="font-size:11px;color:#999;margin-top:6px">
-        Rates are occurrences per 1,000 tokens. Per-work cells show that lemma's rate within that work alone;
-        Total/Rate/CI are computed against the full searched corpus (${corpusTotal.toLocaleString()} tokens
-        across ${works.length} work${works.length === 1 ? "" : "s"}). The 95% CI (Wilson score interval) is a
-        rough guide to how much this rate might shift with a much larger sample of similar text — not a claim
-        about this specific corpus, which is fixed and fully counted.
+        Rates are occurrences per 1,000 tokens; each cell carries its own 95% Wilson-interval CI. Per-work cells
+        use that work's own token count as the base; Total/Rate/CI use the full searched corpus
+        (${corpusTotal.toLocaleString()} tokens across ${works.length} work${works.length === 1 ? "" : "s"}).
+        A work with fewer than ${MIN_TOKENS_FOR_RATE} tokens is flagged "insufficient data" rather than given a
+        falsely precise rate. The CI is a rough guide to how much a rate might shift with a much larger sample of
+        similar text — not a claim about this specific (fixed, fully-counted) corpus.
+        ${canCompare ? ` The comparison column runs a two-proportion z-test (or Fisher's exact test when counts
+        are too small for that approximation) on the selected pair of works; "insufficient data" there means
+        neither work has enough occurrences of that lemma to test at all.` : ""}
         ${truncated ? ` Showing top ${capRows} of ${lemmaRows.length} lemmas.` : ""}
       </div>
     </div>`;
+}
+
+// Re-render just the pivot table when the compare-works dropdowns change,
+// without re-running the underlying search.
+function updatePivotCompare() {
+  const selA = document.getElementById("pivot-cmp-a");
+  const selB = document.getElementById("pivot-cmp-b");
+  if (selA) PIVOT_STATE.compareA = selA.value;
+  if (selB) PIVOT_STATE.compareB = selB.value;
+  const wrap = document.getElementById("lemma-pivot-wrap");
+  if (!wrap || !PIVOT_STATE.matches) return;
+  const html = lemmaWorkTable(PIVOT_STATE.matches, PIVOT_STATE.searchedWorkKeys);
+  wrap.outerHTML = html || wrap.outerHTML;
+  walkAndTransliterateNode(document.getElementById("lemma-pivot-wrap"), GREEK_TRANSLIT_MODE);
+}
+
+// Renders an n / rate / CI cell, or an "insufficient data" flag when the
+// work's token count is too small (or absent) to support a meaningful rate.
+function rateWithCiHtml(n, denom, alwaysShowN = false) {
+  if (!denom) return alwaysShowN ? `${n}` : "—";
+  const rate = (n / denom) * 1000;
+  if (denom < MIN_TOKENS_FOR_RATE) {
+    return `${n}<br><span class="insufficient">insufficient data (n=${denom})</span>`;
+  }
+  const [lo, hi] = wilsonInterval(n, denom);
+  return `${n}<br><span class="rate">${rate.toFixed(2)}\u2030</span>` +
+    `<span class="ci">${(lo * 1000).toFixed(2)}\u2013${(hi * 1000).toFixed(2)}\u2030</span>`;
+}
+
+// Renders the significance-test result for one lemma between two works.
+function significanceCellHtml(x1, n1, x2, n2) {
+  if (!n1 || !n2) return `<span class="insufficient">n/a</span>`;
+  if (x1 + x2 < MIN_TOTAL_FOR_SIG) return `<span class="insufficient">no occurrences</span>`;
+  const { p, method } = compareTwoProportions(x1, n1, x2, n2);
+  const stars = significanceStars(p);
+  const cls = p < 0.05 ? "sig-yes" : "sig-no";
+  return `<span class="sig-stars ${cls}">${stars}</span>` +
+    `<span class="sig-p">p=${p < 0.001 ? "<0.001" : p.toFixed(3)}</span>` +
+    `<span class="sig-method">${method === "fisher" ? "Fisher's exact" : "z-test"}</span>`;
+}
+
+function significanceStars(p) {
+  if (p < 0.001) return "***";
+  if (p < 0.01) return "**";
+  if (p < 0.05) return "*";
+  return "ns";
+}
+
+// Picks a two-proportion z-test when the normal approximation is valid
+// (both expected cell counts under the pooled proportion are >= 5), and
+// falls back to Fisher's exact test otherwise — which is exactly the case
+// where counts are too sparse for "insufficient data" per-cell CIs anyway.
+function compareTwoProportions(x1, n1, x2, n2) {
+  const pooled = (x1 + x2) / (n1 + n2);
+  const normalOk =
+    n1 * pooled >= 5 && n1 * (1 - pooled) >= 5 &&
+    n2 * pooled >= 5 && n2 * (1 - pooled) >= 5;
+  if (normalOk) {
+    const p1 = x1 / n1, p2 = x2 / n2;
+    const se = Math.sqrt(pooled * (1 - pooled) * (1 / n1 + 1 / n2));
+    const z = se === 0 ? 0 : (p1 - p2) / se;
+    const p = se === 0 ? 1 : 2 * (1 - normalCDF(Math.abs(z)));
+    return { p: Math.min(1, Math.max(0, p)), method: "z" };
+  }
+  return { p: fisherExact2x2(x1, n1 - x1, x2, n2 - x2), method: "fisher" };
+}
+
+// Standard normal CDF via the Abramowitz-Stegun erf approximation
+// (max error ~1.5e-7 — plenty for p-value bucketing/star display).
+function erf(x) {
+  const sign = x < 0 ? -1 : 1;
+  x = Math.abs(x);
+  const a1 = 0.254829592, a2 = -0.284496736, a3 = 1.421413741, a4 = -1.453152027, a5 = 1.061405429, pc = 0.3275911;
+  const t = 1 / (1 + pc * x);
+  const y = 1 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-x * x);
+  return sign * y;
+}
+function normalCDF(z) { return 0.5 * (1 + erf(z / Math.SQRT2)); }
+
+// log(nCk), summed directly rather than via lgamma of huge n, since k is
+// always small here (bounded by total occurrence count) even though n can
+// be a whole corpus's token count — this keeps it both fast and numerically
+// stable (no subtracting two enormous near-equal log-factorials).
+function logChoose(n, k) {
+  if (k < 0 || k > n) return -Infinity;
+  k = Math.min(k, n - k);
+  let result = 0;
+  for (let i = 0; i < k; i++) result += Math.log(n - i) - Math.log(i + 1);
+  return result;
+}
+
+// Fisher's exact test (two-sided) for a 2x2 table
+//   [[a, b], [c, d]]   a=x1 successes of n1=a+b,  c=x2 successes of n2=c+d
+// Enumerated over all tables sharing the same margins; since the margins
+// here are (corpus size, corpus size) x (total occurrences, total non-
+// occurrences), the enumeration range is bounded by the small "total
+// occurrences" margin even when corpora are huge, so this stays cheap.
+function fisherExact2x2(a, b, c, d) {
+  const row1 = a + b, row2 = c + d, col1 = a + c, N = row1 + row2;
+  const aMin = Math.max(0, col1 - row2), aMax = Math.min(row1, col1);
+  const logProbs = [];
+  for (let k = aMin; k <= aMax; k++) {
+    logProbs.push(logChoose(row1, k) + logChoose(row2, col1 - k) - logChoose(N, col1));
+  }
+  const maxLog = Math.max(...logProbs);
+  const weights = logProbs.map(lp => Math.exp(lp - maxLog));
+  const totalWeight = weights.reduce((s, w) => s + w, 0);
+  const observedLog = logChoose(row1, a) + logChoose(row2, col1 - a) - logChoose(N, col1);
+  const epsilon = 1e-7;
+  let qualifyingWeight = 0;
+  for (let i = 0; i < logProbs.length; i++) {
+    if (logProbs[i] <= observedLog + epsilon) qualifyingWeight += weights[i];
+  }
+  return Math.min(1, qualifyingWeight / totalWeight);
 }
 
 // Wilson score interval for a binomial proportion x/n at confidence z
@@ -838,6 +1234,39 @@ function escapeHtml(s) {
 // in `ref` (the same per-line CTS reference used for deep-linking) -- this
 // groups tokens back into their individual lines so readers see real verse
 // line breaks and numbers, not one run-on block for the whole chunk.
+// A token's transliteration is expected to arrive as a `translit` field on
+// the parsed sentence_json token object (mirroring the UD MISC "Translit="
+// convention), but ingestion pipelines vary in exactly where they put it --
+// this checks the couple of likely spots so the UI lights up automatically
+// once the data exists, without needing a matching front-end change. Lemma
+// transliteration isn't ingested yet (per-form only, for now), so this
+// intentionally only ever looks at the token/word level.
+function getTranslit(t) {
+  if (!t) return null;
+  return t.translit || t.transliteration || t.Translit
+    || featVal(t.feats, "Translit") || featVal(t.misc, "Translit")
+    || null;
+}
+
+// Same idea, one level up: a sentence-wide transliteration field, if the
+// ingestion recorded one directly. Falls back to stitching per-token
+// transliterations together (skipping the space before punctuation, same
+// convention as buildLineBrokenContext) when no direct field is present but
+// the tokens themselves carry translit -- so this degrades gracefully
+// either way the data ends up shaped.
+function getSentenceTranslit(sent, toks) {
+  if (!sent) return null;
+  const direct = sent.translit || sent.transliteration || sent.sentence_translit;
+  if (direct) return direct;
+  if (toks && toks.some(t => getTranslit(t))) {
+    return toks.map(t => {
+      const tr = getTranslit(t) || t.form;
+      return (t.upos === "PUNCT" ? "" : " ") + tr;
+    }).join("").trim();
+  }
+  return null;
+}
+
 function buildLineBrokenContext(toks, hitTokId) {
   const lines = [];
   let currentRef = Symbol(); // sentinel guarantees the first token starts a new line
@@ -855,8 +1284,12 @@ function buildLineBrokenContext(toks, hitTokId) {
   return lines.map(line => {
     const lineHtml = line.tokens.map(t => {
       const isHit = t.id === hitTokId;
-      const piece = isHit ? `<span class="hit">${escapeHtml(t.form)}</span>` : escapeHtml(t.form);
+      const formHtml = isHit ? `<span class="hit">${escapeHtml(t.form)}</span>` : escapeHtml(t.form);
+      const translit = getTranslit(t);
       const noSpaceBefore = t.upos === "PUNCT";
+      const piece = translit
+        ? `<span class="word-stack"><span class="form">${formHtml}</span><span class="translit">${escapeHtml(translit)}</span></span>`
+        : formHtml;
       return (noSpaceBefore ? "" : " ") + piece;
     }).join("").trim();
     const lineLabel = line.ref ? `<span class="line-num">${escapeHtml(line.ref)}</span>` : "";
@@ -940,7 +1373,7 @@ function renderResults(matches, terms, mode, wholeWord) {
     if (ids.length === 0) continue;
     const placeholders = ids.map(() => "?").join(",");
     const sentRows = queryAll(db,
-      `SELECT id, sentence_json, prose_translation, literal_translation FROM treebank_sentences WHERE id IN (${placeholders})`,
+      `SELECT * FROM treebank_sentences WHERE id IN (${placeholders})`,
       ids);
     for (const sr of sentRows) sentenceCache.set(`${workKey}:${sr.id}`, sr);
   }
@@ -963,10 +1396,12 @@ function renderResults(matches, terms, mode, wholeWord) {
     }
     ROW_TOKENS[i] = { tokens: toks, hitTokId: row.tok_id };
 
+    const sentTranslit = getSentenceTranslit(sent, toks);
     const literalHtml = literal ? (mode === "translation" ? highlightSubstring(literal, terms, wholeWord) : escapeHtml(literal)) : "";
     const proseHtml = prose ? (mode === "translation" ? highlightSubstring(prose, terms, wholeWord) : escapeHtml(prose)) : "";
-    const translationHtml = (literal || prose) ? `
+    const translationHtml = (literal || prose || sentTranslit) ? `
       <div class="translation-block">
+        ${sentTranslit ? `<div class="translit-line"><span class="lbl">Transliteration</span>${escapeHtml(sentTranslit)}</div>` : ""}
         ${literal ? `<div class="lit"><span class="lbl">Literal</span>${literalHtml}</div>` : ""}
         ${prose ? `<div class="prose"><span class="lbl">Translation</span>${proseHtml}</div>` : ""}
       </div>` : "";
@@ -995,6 +1430,7 @@ function renderResults(matches, terms, mode, wholeWord) {
       <thead><tr><th>Location</th><th>Context &amp; translation</th><th>Lemma / morphology</th><th>Gloss</th><th></th></tr></thead>
       <tbody>${bodyRows}</tbody>
     </table>`;
+  walkAndTransliterateNode(container, GREEK_TRANSLIT_MODE);
 }
 
 // Expand/collapse the full per-token treebank annotation for one matched
@@ -1011,10 +1447,12 @@ function toggleDetail(i) {
   }
   const { tokens, hitTokId } = ROW_TOKENS[i] || {};
   if (tokens && detailRow.querySelector("td").innerHTML.trim() === "") {
+    const anyTranslit = tokens.some(t => getTranslit(t));
     const rows = tokens.map(t => `
       <tr class="${t.id === hitTokId ? "hit-token" : ""}">
         <td>${t.id}</td>
         <td class="g">${escapeHtml(t.form)}</td>
+        ${anyTranslit ? `<td class="translit-cell">${escapeHtml(getTranslit(t) || "")}</td>` : ""}
         <td>${t.lemma ? lemmaLinkHtml(t.lemma) : ""}</td>
         <td>${escapeHtml(t.upos || "")}</td>
         <td class="feats-cell">${escapeHtml(t.feats || "")}</td>
@@ -1024,9 +1462,11 @@ function toggleDetail(i) {
       </tr>`).join("");
     detailRow.querySelector("td").innerHTML = `
       <table class="tb-detail">
-        <thead><tr><th>#</th><th>Form</th><th>Lemma</th><th>UPOS</th><th>Feats</th><th>Deprel</th><th>Head</th><th>Gloss</th></tr></thead>
+        <thead><tr><th>#</th><th>Form</th>${anyTranslit ? "<th>Translit</th>" : ""}<th>Lemma</th><th>UPOS</th><th>Feats</th><th>Deprel</th><th>Head</th><th>Gloss</th></tr></thead>
         <tbody>${rows}</tbody>
-      </table>`;
+      </table>
+      ${anyTranslit ? `<div style="font-size:10px;color:#aaa;margin-top:4px">Lemma transliteration isn't ingested yet — only word forms are transliterated so far.</div>` : ""}`;
+    walkAndTransliterateNode(detailRow, GREEK_TRANSLIT_MODE);
   }
   detailRow.style.display = "table-row";
   if (btn) btn.textContent = "▾ Full treebank";
