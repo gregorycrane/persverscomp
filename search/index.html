@@ -164,6 +164,10 @@
   }
   table.lemma-work-table td { padding: 4px 8px; border-bottom: 1px solid #eee; }
   table.lemma-work-table tr:hover td { background: #fbf8f3; }
+  table.lemma-work-table tr.totals-row td {
+    background: #f3ece0; border-bottom: 2px solid #cbb98a; border-top: none; font-weight: 600;
+  }
+  table.lemma-work-table tr.totals-row:hover td { background: #eee2cd; }
   table.lemma-work-table .rate { font-size: 10px; color: #999; }
   table.lemma-work-table .ci { font-size: 10px; color: #999; font-family: monospace; display: block; }
   table.lemma-work-table .cell-total .ci { font-size: 11px; color: #777; }
@@ -1006,7 +1010,38 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
   }
   const canCompare = works.length >= 2 && PIVOT_STATE.compareA && PIVOT_STATE.compareB;
 
+  // Column totals: summed across every matched lemma, not just the capped/
+  // shown rows, so this reflects the true totals for the search — same
+  // principle as the existing per-lemma Total column, which is likewise
+  // computed against the full corpus rather than the visible page of rows.
+  const colTotals = {}; // workKey -> n
+  for (const wk of works) colTotals[wk] = 0;
+  let grandTotal = 0;
+  for (const [, entry] of lemmaRows) {
+    grandTotal += entry.total;
+    for (const wk of works) colTotals[wk] += entry.perWork[wk] || 0;
+  }
+
   const headCols = works.map(wk => `<th style="text-align:center">${escapeHtml(SHARDS.get(wk).label)}</th>`).join("");
+
+  const totalsRowCellsHtml = works.map(wk => {
+    const denom = TOTAL_TOKENS_BY_WORK.get(wk) || 0;
+    return `<td style="text-align:center">${rateWithCiHtml(colTotals[wk], denom)}</td>`;
+  }).join("");
+  const totalsRowSigHtml = canCompare
+    ? significanceCellHtml(
+        colTotals[PIVOT_STATE.compareA] || 0, TOTAL_TOKENS_BY_WORK.get(PIVOT_STATE.compareA) || 0,
+        colTotals[PIVOT_STATE.compareB] || 0, TOTAL_TOKENS_BY_WORK.get(PIVOT_STATE.compareB) || 0
+      )
+    : "";
+  const totalsRowHtml = `
+    <tr class="totals-row">
+      <td><strong>All ${lemmaRows.length} lemma${lemmaRows.length === 1 ? "" : "s"} (total)</strong></td>
+      ${totalsRowCellsHtml}
+      <td style="text-align:center"><strong>${grandTotal}</strong></td>
+      <td class="cell-total" style="text-align:center">${rateWithCiHtml(grandTotal, corpusTotal, true)}</td>
+      ${canCompare ? `<td class="sig-cell">${totalsRowSigHtml}</td>` : ""}
+    </tr>`;
 
   const bodyRows = shownRows.map(([lemma, entry]) => {
     const cellsHtml = works.map(wk => {
@@ -1058,7 +1093,7 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
           <th style="text-align:center">Rate /1,000 &amp; 95% CI</th>
           ${canCompare ? `<th style="text-align:center">${escapeHtml(SHARDS.get(PIVOT_STATE.compareA).label)} vs ${escapeHtml(SHARDS.get(PIVOT_STATE.compareB).label)}</th>` : ""}
         </tr></thead>
-        <tbody>${bodyRows}</tbody>
+        <tbody>${totalsRowHtml}${bodyRows}</tbody>
       </table>
       <div style="font-size:11px;color:#999;margin-top:6px">
         Rates are occurrences per 1,000 tokens; each cell carries its own 95% Wilson-interval CI. Per-work cells
@@ -1070,7 +1105,7 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
         ${canCompare ? ` The comparison column runs a two-proportion z-test (or Fisher's exact test when counts
         are too small for that approximation) on the selected pair of works; "insufficient data" there means
         neither work has enough occurrences of that lemma to test at all.` : ""}
-        ${truncated ? ` Showing top ${capRows} of ${lemmaRows.length} lemmas.` : ""}
+        ${truncated ? ` Showing top ${capRows} of ${lemmaRows.length} lemmas — the totals row above sums all ${lemmaRows.length}, not just the rows shown.` : ""}
       </div>
     </div>`;
 }
@@ -1267,6 +1302,31 @@ function getSentenceTranslit(sent, toks) {
   return null;
 }
 
+// ── Citation string ("book.line" etc.) ──────────────────────────────────
+// Rows can carry up to three locus fields — subdoc, chapter, section.
+// Two different shapes show up in practice:
+//   - Regular token matches (treebank_tokens, `SELECT *`): 2-level locus,
+//     chapter=book, section=line. subdoc is empty here.
+//   - Sentence/translation matches (treebank_sentences — see the SELECT in
+//     searchTranslations()): 3-level locus, subdoc=book, chapter=this
+//     sentence's own first line, section=the broader quoted-passage range
+//     it belongs to. chapter and section overlap here (chapter is just the
+//     start of the section range), so showing both duplicates the line
+//     number — we show subdoc+section and only fall back to chapter if
+//     section isn't a meaningful range.
+function buildCitation(row) {
+  if (row.subdoc) {
+    const parts = [row.subdoc];
+    if (row.section && row.section !== "1") parts.push(row.section);
+    else if (row.chapter) parts.push(row.chapter);
+    return parts.join(".");
+  }
+  const parts = [];
+  if (row.chapter) parts.push(row.chapter);
+  if (row.section && row.section !== "1") parts.push(row.section);
+  return parts.join(".");
+}
+
 function buildLineBrokenContext(toks, hitTokId) {
   const lines = [];
   let currentRef = Symbol(); // sentinel guarantees the first token starts a new line
@@ -1412,7 +1472,7 @@ function renderResults(matches, terms, mode, wholeWord) {
 
     return `
       <tr id="row-${i}">
-        <td class="work-tag">${escapeHtml(row._workLabel)}<br>${escapeHtml(row.chapter || "")}${row.section && row.section !== "1" ? "." + escapeHtml(row.section) : ""}</td>
+        <td class="work-tag">${escapeHtml(row._workLabel)}<br>${escapeHtml(buildCitation(row))}</td>
         <td class="greek">
           ${contextHtml}${matchTag}
           ${translationHtml}
@@ -1474,11 +1534,11 @@ function toggleDetail(i) {
 
 // NOTE: this is the one spot most likely to need hand-tuning per work — it
 // mirrors the existing reader's own updateURLState()/initializeRoutingFromURL()
-// URL scheme (?w=<textgroup>.<work>:<chapter>[.<section>]&focus=<version>).
-// If a given work's "chapter" values aren't already book-qualified the way
-// the reader expects, adjust the passage string built here.
+// URL scheme (?w=<textgroup>.<work>:<subdoc>[.<chapter>][.<section>]&focus=<version>).
+// If a given work's citation isn't book-qualified the way the reader
+// expects, adjust buildCitation() (used here and in the results table).
 function buildReaderLink(row) {
-  const passage = row.section && row.section !== "1" ? `${row.chapter}.${row.section}` : row.chapter;
+  const passage = buildCitation(row);
   const params = new URLSearchParams();
   params.set("w", `${row._workKey}:${passage}`);
   params.set("focus", row.version_short_id);
