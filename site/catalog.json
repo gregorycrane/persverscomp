@@ -184,6 +184,128 @@
    ],
    "label": "English (C. F. Smith, 1919)"
   },
+  "tlg0011.tlg001": {
+   "textgroup": "tlg0011",
+   "work": "tlg001",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg001.part1.db",
+     "chapters": [
+      "1-48",
+      "49-60",
+      "61-78",
+      "79-93",
+      "94-101",
+      "103-111",
+      "112-121",
+      "122-131",
+      "132-140",
+      "141-179",
+      "180-204",
+      "205-223",
+      "225-247",
+      "248-269",
+      "270-290",
+      "291-313",
+      "314-334",
+      "335-350",
+      "351-374",
+      "375-392",
+      "393-435",
+      "436-469",
+      "470-496",
+      "497-505",
+      "507-515",
+      "517-530",
+      "531-587",
+      "588-599",
+      "600-619",
+      "620-632",
+      "633-638",
+      "640-646",
+      "647-654",
+      "655-662",
+      "663-671",
+      "672-704",
+      "705-722",
+      "723-748",
+      "749-782",
+      "783-812",
+      "813-820",
+      "821-830",
+      "831-840",
+      "841-851",
+      "852-861",
+      "863-895",
+      "896-946",
+      "947-949",
+      "950-952",
+      "953-964",
+      "965-971",
+      "972-1003",
+      "1004-1016",
+      "1017-1022",
+      "1024-1042",
+      "1044-1075",
+      "1076-1111",
+      "1112-1142",
+      "1143-1156",
+      "1157-1178",
+      "1179-1202",
+      "1203-1220",
+      "1221-1229",
+      "1230-1258",
+      "1259-1278"
+     ],
+     "bytes": 9568256
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.daphne-tb-cn1",
+     "label": "Treebank (Daphne AGDT CN)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-eng3",
+     "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "label": "Commentary (R. C. Jebb)"
+  },
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
    "work": "tlg002",
@@ -444,11 +566,11 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 5824512
+     "bytes": 10752000
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -458,6 +580,13 @@
      "short_id": "daphne-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0011.tlg003.daphne-tb-grc1",
      "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.daphne-tb-cn1",
+     "label": "Treebank (Daphne AGDT CN)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -606,6 +735,364 @@
     }
    ],
    "label": "English (Sir Richard Jebb, 1904)"
+  },
+  "tlg0011.tlg005": {
+   "textgroup": "tlg0011",
+   "work": "tlg005",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg005.part1.db",
+     "chapters": [
+      "1-22",
+      "23-50",
+      "51-76",
+      "77-85",
+      "86-102",
+      "103-120",
+      "121-136",
+      "137-152",
+      "153-172",
+      "173-192",
+      "193-212",
+      "213-231",
+      "232-250",
+      "251-281",
+      "282-309",
+      "310-340",
+      "341-368",
+      "369-384",
+      "385-414",
+      "415-430",
+      "431-463",
+      "464-471",
+      "472-486",
+      "487-502",
+      "503-515",
+      "516-551",
+      "552-557",
+      "558-609",
+      "610-633",
+      "634-659",
+      "660-679",
+      "680-730",
+      "731-763",
+      "764-787",
+      "788-803",
+      "804-822",
+      "823-835",
+      "836-848",
+      "849-859",
+      "860-870",
+      "871-891",
+      "892-919",
+      "920-946",
+      "947-989",
+      "990-1014",
+      "1015-1049",
+      "1050-1057",
+      "1060-1068",
+      "1070-1080",
+      "1081-1087",
+      "1090-1096",
+      "1097-1125",
+      "1126-1159",
+      "1160-1170",
+      "1171-1199",
+      "1200-1231",
+      "1232-1252",
+      "1253-1272",
+      "1273-1287",
+      "1288-1321",
+      "1322-1338",
+      "1339-1353",
+      "1354-1371",
+      "1372-1383",
+      "1384-1390",
+      "1391-1396",
+      "1397-1421",
+      "1422-1441",
+      "1442-1465",
+      "1466-1490",
+      "1491-1507",
+      "1508-1510"
+     ],
+     "bytes": 11751424
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.daphne-tb-cn1",
+     "label": "Treebank (Daphne AGDT CN)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-eng3",
+     "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "label": "Commentary (R. C. Jebb)"
+  },
+  "tlg0011.tlg006": {
+   "textgroup": "tlg0011",
+   "work": "tlg006",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg006.part1.db",
+     "chapters": [
+      "1-25",
+      "26-53",
+      "54-85",
+      "86-122",
+      "123-134",
+      "135-143",
+      "144-149",
+      "150-158",
+      "159-168",
+      "169-178",
+      "180-190",
+      "191-200",
+      "201-208",
+      "210-217",
+      "219-253",
+      "254-284",
+      "285-316",
+      "317-342",
+      "343-390",
+      "391-402",
+      "403-440",
+      "441-467",
+      "468-506",
+      "507-518",
+      "519-556",
+      "557-590",
+      "591-627",
+      "628-675",
+      "676-690",
+      "691-705",
+      "707-717",
+      "718-728",
+      "730-781",
+      "782-805",
+      "806-826",
+      "827-838",
+      "839-842",
+      "843-854",
+      "855-864",
+      "865-892",
+      "893-926",
+      "927-962",
+      "963-1003",
+      "1004-1044",
+      "1045-1080",
+      "1081-1100",
+      "1101-1121",
+      "1123-1145",
+      "1146-1168",
+      "1170-1216",
+      "1217-1256",
+      "1257-1287",
+      "1288-1313",
+      "1314-1347",
+      "1348-1379",
+      "1380-1401",
+      "1402-1407",
+      "1408-1444",
+      "1445-1471"
+     ],
+     "bytes": 11755520
+    }
+   ],
+   "annotations": {
+    "treebanks": 2,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "daphne-tb-cn1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.daphne-tb-cn1",
+     "label": "Treebank (Daphne AGDT CN)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-eng3",
+     "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "label": "Commentary (R. C. Jebb)"
+  },
+  "tlg0011.tlg007": {
+   "textgroup": "tlg0011",
+   "work": "tlg007",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0011.tlg007.part1.db",
+     "chapters": [
+      "1-32",
+      "33-74",
+      "75-116",
+      "117-148",
+      "149-175",
+      "176-191",
+      "192-206",
+      "207-253",
+      "254-295",
+      "296-336",
+      "337-384",
+      "385-420",
+      "421-460",
+      "461-509",
+      "510-520",
+      "521-534",
+      "535-541",
+      "542-548",
+      "549-578",
+      "579-606",
+      "607-641",
+      "642-667",
+      "668-680",
+      "681-692",
+      "693-706",
+      "707-719",
+      "720-760",
+      "761-799",
+      "800-846",
+      "848-896",
+      "897-938",
+      "939-959",
+      "960-1013",
+      "1014-1043",
+      "1044-1058",
+      "1059-1073",
+      "1074-1081",
+      "1085-1097",
+      "1098-1138",
+      "1139-1180",
+      "1181-1210",
+      "1211-1223",
+      "1225-1238",
+      "1239-1248",
+      "1249-1283",
+      "1284-1345",
+      "1346-1396",
+      "1397-1430",
+      "1431-1446",
+      "1447-1461",
+      "1462-1476",
+      "1477-1490",
+      "1491-1496",
+      "1500-1555",
+      "1556-1567",
+      "1568-1578",
+      "1579-1619",
+      "1620-1669",
+      "1670-1695",
+      "1696-1722",
+      "1723-1736",
+      "1737-1750",
+      "1751-1779"
+     ],
+     "bytes": 2465792
+    }
+   ],
+   "annotations": {
+    "treebanks": 0,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "daphne-tb-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.daphne-tb-grc1",
+     "label": "Treebank (Daphne AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-grc2",
+     "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-eng3",
+     "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "jebb-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.jebb-com-eng1",
+     "label": "Commentary (R. C. Jebb)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "label": "Commentary (R. C. Jebb)"
   },
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
