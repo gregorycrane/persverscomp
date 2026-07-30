@@ -2154,7 +2154,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 4780032
+     "bytes": 5206016
     }
    ],
    "annotations": {
@@ -2179,9 +2179,16 @@
      "text_class": "greek-text"
     },
     {
-     "short_id": "perseus-eng2",
-     "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-eng2",
+     "short_id": "perseus-eng3",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-eng3",
      "label": "English (Herbert Weir Smyth, 1926)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "perseus-eng4",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-eng4",
+     "label": "English (Robert Browning, 1889)",
      "doc_type": "translation",
      "text_class": "english-text"
     }
