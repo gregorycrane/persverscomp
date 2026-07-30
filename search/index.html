@@ -1041,7 +1041,7 @@ function runSearch() {
 
   LAST_MATCHES = matches;
   const searchedWorkKeys = shardsToSearch.filter(([, shard]) => shard).map(([wk]) => wk);
-  renderDashboard(matches, terms, searchedWorkKeys);
+  renderDashboard(matches, terms, searchedWorkKeys, mode);
   renderResults(matches, terms, mode, wholeWord);
 }
 
@@ -1163,7 +1163,7 @@ function searchTranslations(terms, shardsToSearch, wholeWord) {
 
 // ── Dashboard: aggregate counts computed client-side over the FULL match
 // set (cheap at this corpus size — thousands, not millions, of tokens). ──
-function renderDashboard(matches, terms, searchedWorkKeys) {
+function renderDashboard(matches, terms, searchedWorkKeys, mode) {
   const dash = document.getElementById("dashboard");
   const toolbar = document.getElementById("results-toolbar");
   if (matches.length === 0) {
@@ -1201,6 +1201,7 @@ function renderDashboard(matches, terms, searchedWorkKeys) {
       ${Object.keys(byTense).length ? barCard("Verb tense", byTense) : ""}
       ${Object.keys(byMoodVoice).length ? barCard("Verb mood / voice", byMoodVoice) : ""}
     </div>
+    ${glossByTermTable(matches, terms, mode)}
     ${lemmaWorkTable(matches, searchedWorkKeys)}`;
   dash.classList.add("open");
   walkAndTransliterateNode(dash, GREEK_TRANSLIT_MODE);
@@ -1235,6 +1236,93 @@ const MIN_TOTAL_FOR_SIG = 1;    // need at least one occurrence somewhere to tes
 // Module-level state so the "compare" dropdowns can re-render just the
 // pivot table (via updatePivotCompare()) without re-running the search.
 let PIVOT_STATE = { matches: null, searchedWorkKeys: null, compareA: null, compareB: null };
+
+// ── Gloss usage by search term: for a lemma/form search (one term, or a
+// comma-separated set), which English gloss(es) were actually used for each
+// hit, and how often. Generalizes the "just look at the KWIC rows" approach
+// that works fine for a single term into something readable for a whole
+// list of them at once: one row per distinct gloss seen, one column per
+// searched term, so you can see at a glance both how a single term was
+// rendered across the corpus and how several related terms compare.
+// Not shown for gloss-mode searches (there the "term" already IS a gloss
+// substring, so a term-vs-gloss table would be closer to tautological than
+// informative) or for sentence/translation matches (no single gloss to
+// attribute -- those don't carry gloss at all).
+function glossByTermTable(matches, terms, mode, capRows = 30) {
+  if (mode === "gloss" || terms.length === 0) return "";
+  const withGloss = matches.filter(m => !m._isSentenceMatch && m.gloss && m._matchedTerm);
+  if (withGloss.length === 0) return "";
+
+  // term -> Map(gloss -> count), keyed in the order the person typed them
+  const byTerm = new Map();
+  for (const t of terms) byTerm.set(t, new Map());
+  for (const m of withGloss) {
+    const gmap = byTerm.get(m._matchedTerm);
+    if (!gmap) continue; // shouldn't happen (matchedTermForToken only returns a term from the list), but be defensive
+    gmap.set(m.gloss, (gmap.get(m.gloss) || 0) + 1);
+  }
+
+  // Rank distinct glosses by total frequency across every searched term
+  // combined -- same "rank rows by total, cap the long tail" convention as
+  // the lemma x work pivot below.
+  const glossTotals = new Map();
+  for (const gmap of byTerm.values())
+    for (const [gloss, n] of gmap) glossTotals.set(gloss, (glossTotals.get(gloss) || 0) + n);
+
+  const glossRows = Array.from(glossTotals.entries()).sort((a, b) => b[1] - a[1]);
+  const truncated = glossRows.length > capRows;
+  const shownRows = glossRows.slice(0, capRows);
+
+  const colTotals = new Map();
+  for (const t of terms) {
+    let sum = 0;
+    for (const n of byTerm.get(t).values()) sum += n;
+    colTotals.set(t, sum);
+  }
+  const grandTotal = withGloss.length;
+
+  const headCols = terms.map(t => `<th style="text-align:center">${escapeHtml(t)}</th>`).join("");
+
+  const totalsRowCells = terms.map(t =>
+    `<td style="text-align:center"><strong>${colTotals.get(t)}</strong></td>`
+  ).join("");
+  const totalsRow = `
+    <tr class="totals-row">
+      <td><strong>All ${glossRows.length} gloss${glossRows.length === 1 ? "" : "es"} (total)</strong></td>
+      ${totalsRowCells}
+      <td style="text-align:center"><strong>${grandTotal}</strong></td>
+    </tr>`;
+
+  const bodyRows = shownRows.map(([gloss, total]) => {
+    const cells = terms.map(t => {
+      const n = byTerm.get(t).get(gloss) || 0;
+      return `<td style="text-align:center">${n || "&middot;"}</td>`;
+    }).join("");
+    return `
+    <tr>
+      <td>${glossLinkHtml(gloss)}</td>
+      ${cells}
+      <td style="text-align:center"><strong>${total}</strong></td>
+    </tr>`;
+  }).join("");
+
+  return `
+    <div class="dash-card" style="flex-basis:100%;margin-top:16px" id="gloss-term-wrap">
+      <h3>Glosses by search term ${terms.length > 1 ? "— how each term was translated" : "— translation terms used"}</h3>
+      <table class="lemma-work-table">
+        <thead><tr>
+          <th>Gloss</th>${headCols}
+          <th style="text-align:center">Total</th>
+        </tr></thead>
+        <tbody>${totalsRow}${bodyRows}</tbody>
+      </table>
+      <div style="font-size:11px;color:#999;margin-top:6px">
+        Counts are raw occurrences of each gloss among the matched tokens for that term (not corpus-wide rates).
+        Click a gloss to spawn a fresh gloss search for it.
+        ${truncated ? ` Showing top ${capRows} of ${glossRows.length} distinct glosses — the totals row above sums all ${glossRows.length}, not just the rows shown.` : ""}
+      </div>
+    </div>`;
+}
 
 function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
   PIVOT_STATE.matches = matches;
