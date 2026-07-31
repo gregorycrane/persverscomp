@@ -20,6 +20,13 @@
    "citation": "Cunliffe, R. J. (1924). A Lexicon of the Homeric Dialect. Blackie and Son.",
    "entry_kind": "name",
    "shard": "lexica_homer.db"
+  },
+  "pizzi-persian": {
+   "title": "Manual of the Persian Language (Glossary)",
+   "author": "Italo Pizzi",
+   "citation": "Pizzi, I. (1891). Firdusiana anthology with a compendium of Persian grammar and a dictionary. W. Gerhard.",
+   "entry_kind": "word",
+   "shard": "lexica_persian.db"
   }
  },
  "textgroups": {
@@ -29,6 +36,9 @@
   "tlg0012": [
    "cunliffe-words",
    "cunliffe-names"
+  ],
+  "ferdowsi": [
+   "pizzi-persian"
   ]
  }
 }

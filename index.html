@@ -619,6 +619,16 @@
         .tb-lex-ref:hover { color: #440000; border-bottom-style: solid; }
         .tb-lex-ref-dead { color: #888; }
 
+        /* Pizzi (Persian) additions -- dual-script headword, numbered senses,
+           Wikipedia-linked etymological labels */
+        .tb-lex-fa { font-family: "Scheherazade New","Noto Naskh Arabic",serif; direction: rtl; unicode-bidi: isolate; }
+        .tb-lex-headword-translit { font-family: Georgia,serif; font-style: italic; font-size: 13px; color: #777; font-weight: normal; margin-left: 6px; }
+        .tb-lex-wsense { margin: 4px 0; }
+        .tb-lex-sense-num { font-weight: bold; color: #660000; font-size: 11px; }
+        .tb-lex-term-link { color: #1a5276; text-decoration: none; border-bottom: 1px dotted #1a5276; }
+        .tb-lex-term-link:hover { border-bottom-style: solid; }
+
+
         /* Section focus: dim out-of-scope sentences (mirrors hidden-section on other columns) */
         .tb-sent-dimmed { display: none !important; }
 
@@ -1380,7 +1390,7 @@ function normalizeHeadwordKey(s) {
 function lookupLexiconEntries(db, lexiconId, headwordKey) {
     if (!headwordKey) return [];
     const direct = queryAll(db,
-        "SELECT entry_id, headword_display, entry_html FROM lexicon_entries " +
+        "SELECT entry_id, headword_display, headword_translit, entry_html FROM lexicon_entries " +
         "WHERE lexicon_id=? AND headword_key=?", [lexiconId, headwordKey]);
     if (direct.length) return direct;
     const aliasHit = queryAll(db,
@@ -1390,7 +1400,7 @@ function lookupLexiconEntries(db, lexiconId, headwordKey) {
         const ids = aliasHit.map(r => r.entry_id);
         const placeholders = ids.map(() => "?").join(",");
         return queryAll(db,
-            `SELECT entry_id, headword_display, entry_html FROM lexicon_entries ` +
+            `SELECT entry_id, headword_display, headword_translit, entry_html FROM lexicon_entries ` +
             `WHERE lexicon_id=? AND entry_id IN (${placeholders})`, [lexiconId, ...ids]);
     }
     return [];
@@ -1398,19 +1408,31 @@ function lookupLexiconEntries(db, lexiconId, headwordKey) {
 
 function lookupLexiconEntryById(db, lexiconId, entryId) {
     const rows = queryAll(db,
-        "SELECT entry_id, headword_display, entry_html FROM lexicon_entries " +
+        "SELECT entry_id, headword_display, headword_translit, entry_html FROM lexicon_entries " +
         "WHERE lexicon_id=? AND entry_id=?", [lexiconId, entryId]);
     return rows[0] || null;
+}
+
+function _tbHeadwordScriptClass(s) {
+    // Arabic/Persian script range -- gets RTL + Perso-Arabic font styling
+    // instead of the Greek serif used for Cunliffe/Dindorf headwords.
+    return /[\u0600-\u06FF]/.test(s || '') ? 'tb-lex-fa' : 'tb-greek';
 }
 
 function renderLexiconBlock(lexMeta, entryRows) {
     if (!entryRows.length) {
         return `<div class="tb-lex-empty">No entry in ${escHtmlTopLevel(lexMeta.title)}</div>`;
     }
-    const body = entryRows.map(row => `
-        <div class="tb-lex-headword tb-greek">${escHtmlTopLevel(row.headword_display)}</div>
+    const body = entryRows.map(row => {
+        const scriptCls = _tbHeadwordScriptClass(row.headword_display);
+        const translit = row.headword_translit
+            ? ` <span class="tb-lex-headword-translit">${escHtmlTopLevel(row.headword_translit)}</span>`
+            : '';
+        return `
+        <div class="tb-lex-headword ${scriptCls}">${escHtmlTopLevel(row.headword_display)}${translit}</div>
         <div class="tb-lex-body">${row.entry_html}</div>
-    `).join('<div class="tb-lex-divider"></div>');
+    `;
+    }).join('<div class="tb-lex-divider"></div>');
     return `
         <div class="tb-lex-entry">
             <div class="tb-lex-source">${escHtmlTopLevel(lexMeta.title)}</div>
