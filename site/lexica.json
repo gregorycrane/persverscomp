@@ -1,0 +1,34 @@
+{
+ "lexica": {
+  "dindorf-aeschylus": {
+   "title": "Lexicon Aeschyleum",
+   "author": "Wilhelm Dindorf",
+   "citation": "Dindorf, W. (1873–1876). Lexicon Aeschyleum. B. G. Teubner.",
+   "entry_kind": "word",
+   "shard": "lexica_aeschylus.db"
+  },
+  "cunliffe-words": {
+   "title": "A Lexicon of the Homeric Dialect",
+   "author": "Richard John Cunliffe",
+   "citation": "Cunliffe, R. J. (1924). A Lexicon of the Homeric Dialect. Blackie and Son.",
+   "entry_kind": "word",
+   "shard": "lexica_homer.db"
+  },
+  "cunliffe-names": {
+   "title": "A Lexicon of the Homeric Dialect (Proper Names)",
+   "author": "Richard John Cunliffe",
+   "citation": "Cunliffe, R. J. (1924). A Lexicon of the Homeric Dialect. Blackie and Son.",
+   "entry_kind": "name",
+   "shard": "lexica_homer.db"
+  }
+ },
+ "textgroups": {
+  "tlg0085": [
+   "dindorf-aeschylus"
+  ],
+  "tlg0012": [
+   "cunliffe-words",
+   "cunliffe-names"
+  ]
+ }
+}
