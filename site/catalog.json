@@ -29,7 +29,7 @@
       "19",
       "20"
      ],
-     "bytes": 14065664
+     "bytes": 3203072
     }
    ],
    "annotations": {
@@ -80,16 +80,23 @@
       "7",
       "8"
      ],
-     "bytes": 18288640
+     "bytes": 86847488
     }
    ],
    "annotations": {
-    "treebanks": 0,
+    "treebanks": 1,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
    },
    "versions": [
+    {
+     "short_id": "glaux-grc1",
+     "urn": "urn:cts:greekLit:tlg0003.tlg001.glaux-grc1",
+     "label": "Treebank (Glaux)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
     {
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
@@ -1124,7 +1131,7 @@
       "20",
       "21"
      ],
-     "bytes": 91475968
+     "bytes": 91496448
     },
     {
      "part": 2,
@@ -1662,7 +1669,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 2961408
+     "bytes": 2965504
     }
    ],
    "annotations": {
@@ -1796,7 +1803,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3112960
+     "bytes": 3117056
     }
    ],
    "annotations": {
@@ -1898,7 +1905,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 3694592
+     "bytes": 3698688
     }
    ],
    "annotations": {
@@ -2012,7 +2019,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3072000
+     "bytes": 3076096
     }
    ],
    "annotations": {
@@ -2154,7 +2161,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 5292032
+     "bytes": 5349376
     }
    ],
    "annotations": {
@@ -2472,7 +2479,7 @@
       "25",
       "26"
      ],
-     "bytes": 14905344
+     "bytes": 9785344
     }
    ],
    "annotations": {
