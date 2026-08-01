@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lexicon Browser | Perseus Workspace Engine</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+<style>
+    body {
+        margin: 0; font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+        background: #f5f4ef; color: #222;
+    }
+    #lex-header {
+        background: #660000; color: #fff; padding: 10px 20px;
+        display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    }
+    #lex-header h1 { font-size: 16px; margin: 0; font-family: Georgia, serif; }
+    #lex-header a.back-link { color: #f0d9d9; font-size: 12px; text-decoration: none; }
+    #lex-header a.back-link:hover { color: #fff; text-decoration: underline; }
+
+    #lex-picker {
+        display: flex; gap: 6px; padding: 10px 20px; background: #fff;
+        border-bottom: 1px solid #e0dfd5; flex-wrap: wrap;
+    }
+    .lex-picker-btn {
+        border: 1px solid #ccc; background: #f9f8f4; color: #444; font-size: 12px;
+        padding: 6px 12px; border-radius: 4px; cursor: pointer; font-family: inherit;
+    }
+    .lex-picker-btn.active { background: #660000; color: #fff; border-color: #440000; }
+    .lex-picker-btn:hover:not(.active) { background: #f0eee5; }
+
+    #alphabet-strip {
+        display: flex; flex-wrap: wrap; gap: 4px; padding: 10px 20px;
+        background: #faf9f5; border-bottom: 1px solid #e0dfd5;
+    }
+    .alpha-btn {
+        border: 1px solid #ddd; background: #fff; color: #660000; font-size: 13px;
+        min-width: 28px; padding: 4px 6px; border-radius: 3px; cursor: pointer;
+        font-family: "Gentium Plus","GFS Didot",serif;
+    }
+    .alpha-btn.active { background: #660000; color: #fff; border-color: #440000; }
+    .alpha-btn:hover:not(.active) { background: #f5e9e9; }
+
+    #lex-body { display: flex; height: calc(100vh - 130px); }
+    #entry-list {
+        width: 280px; overflow-y: auto; border-right: 1px solid #e0dfd5; background: #fff;
+    }
+    .entry-row {
+        padding: 8px 14px; border-bottom: 1px solid #f0efe8; cursor: pointer; font-size: 14px;
+    }
+    .entry-row:hover { background: #f5e9e9; }
+    .entry-row.selected { background: #660000; color: #fff; }
+    .entry-row .er-translit { display: block; font-size: 11px; color: #888; font-style: italic; }
+    .entry-row.selected .er-translit { color: #f0d9d9; }
+
+    #entry-detail { flex: 1; overflow-y: auto; padding: 24px 32px; }
+    #entry-detail .placeholder { color: #999; font-style: italic; }
+
+    #lex-status { padding: 6px 20px; font-size: 11px; color: #888; font-style: italic; }
+
+    #search-row {
+        display: flex; align-items: center; gap: 6px; padding: 8px 20px;
+        background: #faf9f5; border-bottom: 1px solid #e0dfd5;
+    }
+    #search-box {
+        flex: 1; max-width: 360px; padding: 6px 10px; font-size: 13px;
+        border: 1px solid #ccc; border-radius: 4px; font-family: inherit;
+    }
+    #search-box:focus { outline: none; border-color: #660000; }
+    #search-clear {
+        border: none; background: none; color: #999; font-size: 18px; line-height: 1;
+        cursor: pointer; padding: 2px 6px; display: none;
+    }
+    #search-clear:hover { color: #660000; }
+    #search-clear.visible { display: inline-block; }
+    .entry-row .er-match-count { display: block; font-size: 10px; color: #aaa; margin-top: 2px; }
+    .entry-row.selected .er-match-count { color: #f0d9d9; }
+
+    /* Same lexicon-entry rendering classes as the reading environment's
+       token-click panel (app.js renderLexiconBlock / styles.css) --
+       duplicated here so this page stays a fully self-contained file with
+       no dependency on app.js's DOMContentLoaded bootstrap, which assumes
+       the full reading-environment DOM (nav bar, columns, etc.) and would
+       error out on a page that doesn't have any of that. Keep these two
+       copies in sync if the rendering classes change. */
+    .tb-lex-headword { font-size: 26px; font-weight: bold; color: #660000; margin-bottom: 4px; }
+    .tb-lex-headword-translit { font-family: Georgia,serif; font-style: italic; font-size: 16px; color: #777; font-weight: normal; margin-left: 10px; }
+    .tb-lex-fa { font-family: "Scheherazade New","Noto Naskh Arabic",serif; direction: rtl; unicode-bidi: isolate; }
+    .tb-greek { font-family: "Gentium Plus","GFS Didot",serif; }
+    .tb-lex-source { font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 14px; }
+    .tb-lex-body { font-size: 15px; line-height: 1.7; color: #333; max-width: 640px; }
+    .tb-lex-p { margin: 6px 0; }
+    .tb-lex-sense { margin: 6px 0; }
+    .tb-lex-wsense { margin: 8px 0; }
+    .tb-lex-sense-num { font-weight: bold; color: #660000; font-size: 13px; }
+    .tb-lex-def { color: #222; }
+    .tb-lex-note { color: #777; font-size: 13.5px; }
+    .tb-lex-cit { margin: 6px 0 6px 10px; padding-left: 8px; border-left: 2px solid #e0dfd5; }
+    .tb-lex-quote { font-family: "Gentium Plus","GFS Didot",serif; font-size: 15px; color: #444; margin: 3px 0; }
+    .tb-lex-cite { font-size: 11px; color: #aaa; font-family: "Courier New",monospace; }
+    .tb-lex-term { font-style: italic; color: #555; }
+    .tb-lex-term-link { color: #1a5276; text-decoration: none; border-bottom: 1px dotted #1a5276; }
+    .tb-lex-term-link:hover { border-bottom-style: solid; }
+    .tb-lex-gloss { color: #1a5276; font-style: italic; }
+    .tb-lex-hi { font-style: italic; }
+    .tb-lex-ref { color: #660000; text-decoration: none; border-bottom: 1px dotted #660000; cursor: pointer; }
+    .tb-lex-ref:hover { color: #440000; border-bottom-style: solid; }
+    .tb-lex-ref-dead { color: #888; }
+</style>
+</head>
+<body>
+
+<div id="lex-header">
+    <h1>Lexicon Browser</h1>
+    <a class="back-link" href="./index.html">&larr; Back to reading environment</a>
+</div>
+<div id="lex-picker"></div>
+<div id="alphabet-strip"></div>
+<div id="search-row">
+    <input type="text" id="search-box" placeholder="Search headwords and glosses…" autocomplete="off">
+    <button id="search-clear" title="Clear search">&times;</button>
+</div>
+<div id="lex-status"></div>
+<div id="lex-body">
+    <div id="entry-list"><div class="placeholder" style="padding:14px;color:#999;font-style:italic;">Pick a lexicon above.</div></div>
+    <div id="entry-detail"><div class="placeholder">Select a headword to read its entry.</div></div>
+</div>
+
+<script>
+// ── Same lookup machinery as app.js (getLexiconShard / normalizeHeadwordKey
+// / lookupLexiconEntryById / renderLexiconBlock-equivalent), duplicated
+// rather than imported so this page has zero dependency on app.js's
+// DOMContentLoaded bootstrap. Keep in sync with app.js and the notebook's
+// norm_key() (Cell 1b/1c) if any of the three ever change. ──────────────────
+
+let SQL_ENGINE = null;
+let LEXICA_CATALOG = null;
+const SHARD_CACHE = new Map();
+let activeLexiconId = null;
+let activeShardDb = null;
+let selectedEntryRow = null;
+
+const sqlReady = initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${f}` })
+    .then(SQL => { SQL_ENGINE = SQL; });
+
+function escHtml(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function queryAll(db, sql, params = []) {
+    const stmt = db.prepare(sql);
+    stmt.bind(params);
+    const rows = [];
+    while (stmt.step()) rows.push(stmt.getAsObject());
+    stmt.free();
+    return rows;
+}
+
+function scriptClass(s) {
+    return /[\u0600-\u06FF]/.test(s || '') ? 'tb-lex-fa' : 'tb-greek';
+}
+
+// Same accent/case-folding as app.js's normalizeHeadwordKey and the
+// notebook's norm_key (Cell 1b/1c) -- kept in sync so a search term with or
+// without accents matches headword_key the same way lemma lookup does.
+function normalizeHeadwordKey(s) {
+    if (!s) return null;
+    let t = s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    t = t.normalize('NFC').toLowerCase();
+    t = t.replace(/\u03c2/g, '\u03c3');
+    return t;
+}
+
+async function loadCatalog() {
+    if (LEXICA_CATALOG) return LEXICA_CATALOG;
+    const r = await fetch(`./site/lexica.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("lexica.json not found -- has Cell 2c been run?");
+    LEXICA_CATALOG = await r.json();
+    return LEXICA_CATALOG;
+}
+
+async function getShard(shardFile) {
+    if (SHARD_CACHE.has(shardFile)) return SHARD_CACHE.get(shardFile);
+    await sqlReady;
+    const resp = await fetch(`./site/data/lexica/${shardFile}`);
+    if (!resp.ok) throw new Error(`shard not found: ${shardFile}`);
+    const buf = new Uint8Array(await resp.arrayBuffer());
+    const db = new SQL_ENGINE.Database(buf);
+    SHARD_CACHE.set(shardFile, db);
+    return db;
+}
+
+function setStatus(msg) { document.getElementById('lex-status').textContent = msg; }
+
+async function initPicker() {
+    setStatus("Loading lexica.json…");
+    let catalog;
+    try {
+        catalog = await loadCatalog();
+    } catch (e) {
+        setStatus(`Could not load lexica.json: ${e.message}`);
+        return;
+    }
+    const ids = Object.keys(catalog.lexica);
+    if (!ids.length) {
+        setStatus("No lexica registered in lexica.json.");
+        return;
+    }
+    const picker = document.getElementById('lex-picker');
+    picker.innerHTML = '';
+    ids.forEach((id, i) => {
+        const meta = catalog.lexica[id];
+        const btn = document.createElement('button');
+        btn.className = 'lex-picker-btn' + (i === 0 ? ' active' : '');
+        btn.textContent = meta.title;
+        btn.title = meta.author || '';
+        btn.onclick = () => selectLexicon(id, btn);
+        picker.appendChild(btn);
+    });
+    setStatus('');
+    selectLexicon(ids[0], picker.querySelector('.lex-picker-btn'));
+}
+
+async function selectLexicon(lexiconId, btnEl) {
+    document.querySelectorAll('.lex-picker-btn').forEach(b => b.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+    activeLexiconId = lexiconId;
+    document.getElementById('entry-list').innerHTML = '';
+    document.getElementById('entry-detail').innerHTML = '<div class="placeholder">Select a headword to read its entry.</div>';
+    clearSearch(false);
+
+    const catalog = await loadCatalog();
+    const meta = catalog.lexica[lexiconId];
+    setStatus(`Loading ${meta.shard}…`);
+    try {
+        activeShardDb = await getShard(meta.shard);
+    } catch (e) {
+        setStatus(`Could not load shard: ${e.message}`);
+        return;
+    }
+    setStatus('');
+    document.getElementById('alphabet-strip').style.display = '';
+    buildAlphabetStrip();
+}
+
+function buildAlphabetStrip() {
+    const rows = queryAll(activeShardDb,
+        "SELECT DISTINCT substr(sort_key,1,1) AS letter FROM lexicon_entries " +
+        "WHERE lexicon_id=? AND sort_key IS NOT NULL AND sort_key != '' ORDER BY sort_key",
+        [activeLexiconId]);
+    const strip = document.getElementById('alphabet-strip');
+    strip.innerHTML = '';
+    if (!rows.length) {
+        strip.innerHTML = '<span style="color:#999;font-style:italic;font-size:12px;">No entries in this lexicon.</span>';
+        return;
+    }
+    // A handful of entries have symbol-leading sort keys (variant-form
+    // markers like "*ἔργω", cross-reference stubs like "[δυσημερία.]") --
+    // group those into one "#" bucket rather than scattering a dozen
+    // single-symbol buttons through the strip.
+    const isLetter = ch => /[a-zA-Z\u0370-\u03ff\u1f00-\u1fff]/.test(ch);
+    const letterRows = rows.filter(r => isLetter(r.letter));
+    const hasSymbols = rows.some(r => !isLetter(r.letter));
+
+    letterRows.forEach(r => {
+        const btn = document.createElement('button');
+        btn.className = 'alpha-btn';
+        btn.textContent = r.letter;
+        btn.onclick = () => selectLetter(r.letter, btn, false);
+        strip.appendChild(btn);
+    });
+    if (hasSymbols) {
+        const btn = document.createElement('button');
+        btn.className = 'alpha-btn';
+        btn.textContent = '#';
+        btn.title = 'Entries beginning with a symbol (variant forms, cross-reference stubs)';
+        btn.onclick = () => selectLetter(null, btn, true);
+        strip.appendChild(btn);
+    }
+    const first = strip.querySelector('.alpha-btn');
+    if (first) first.click();
+}
+
+function renderEntryList(rows, extraFieldFn) {
+    const list = document.getElementById('entry-list');
+    list.innerHTML = '';
+    if (!rows.length) {
+        list.innerHTML = '<div class="placeholder" style="padding:14px;color:#999;font-style:italic;">No matches.</div>';
+        return;
+    }
+    rows.forEach(row => {
+        const div = document.createElement('div');
+        div.className = 'entry-row';
+        div.innerHTML = escHtml(row.headword_display) +
+            (row.headword_translit ? `<span class="er-translit">${escHtml(row.headword_translit)}</span>` : '') +
+            (extraFieldFn ? extraFieldFn(row) : '');
+        div.onclick = () => showEntry(row.entry_id, div);
+        list.appendChild(div);
+    });
+    showEntry(rows[0].entry_id, list.querySelector('.entry-row'));
+}
+
+function selectLetter(letter, btnEl, symbolsBucket) {
+    clearSearch(false);
+    document.querySelectorAll('.alpha-btn').forEach(b => b.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+    const rows = symbolsBucket
+        ? queryAll(activeShardDb,
+            "SELECT entry_id, headword_display, headword_translit FROM lexicon_entries " +
+            "WHERE lexicon_id=? AND substr(sort_key,1,1) NOT GLOB " +
+            "'[a-zA-Z\u0391-\u03a9\u03b1-\u03c9]' ORDER BY sort_key",
+            [activeLexiconId])
+        : queryAll(activeShardDb,
+            "SELECT entry_id, headword_display, headword_translit FROM lexicon_entries " +
+            "WHERE lexicon_id=? AND substr(sort_key,1,1)=? ORDER BY sort_key",
+            [activeLexiconId, letter]);
+    renderEntryList(rows);
+}
+
+function showEntry(entryId, rowEl) {
+    if (selectedEntryRow) selectedEntryRow.classList.remove('selected');
+    if (rowEl) { rowEl.classList.add('selected'); selectedEntryRow = rowEl; }
+
+    const rows = queryAll(activeShardDb,
+        "SELECT headword_display, headword_translit, entry_html FROM lexicon_entries " +
+        "WHERE lexicon_id=? AND entry_id=?", [activeLexiconId, entryId]);
+    const row = rows[0];
+    const detail = document.getElementById('entry-detail');
+    if (!row) { detail.innerHTML = '<div class="placeholder">Entry not found.</div>'; return; }
+
+    const translit = row.headword_translit
+        ? `<span class="tb-lex-headword-translit">${escHtml(row.headword_translit)}</span>` : '';
+    detail.innerHTML = `
+        <div class="tb-lex-headword ${scriptClass(row.headword_display)}">${escHtml(row.headword_display)}${translit}</div>
+        <div class="tb-lex-body">${row.entry_html}</div>`;
+}
+
+// Cross-reference links inside entry_html call this (baked in at build
+// time by the notebook's _lex_inline_html / _pizzi_render_child) -- same
+// contract as app.js's openLexiconEntry, scoped to this page's own state.
+async function openLexiconEntry(lexiconId, entryId) {
+    if (lexiconId !== activeLexiconId) {
+        // Cross-lexicon ref (rare) -- switch lexicon+shard first.
+        const btns = [...document.querySelectorAll('.lex-picker-btn')];
+        const catalog = await loadCatalog();
+        const idx = Object.keys(catalog.lexica).indexOf(lexiconId);
+        await selectLexicon(lexiconId, idx >= 0 ? btns[idx] : null);
+    }
+    showEntry(entryId, null);
+}
+window.openLexiconEntry = openLexiconEntry;
+
+// ── Search: headword (accent-insensitive, via headword_key/headword_translit)
+// and gloss/body text (plain substring on entry_html). The entry_html match
+// is a blunt LIKE against stored HTML rather than real full-text search, so
+// it can occasionally match on markup rather than prose -- acceptable for a
+// lexicon this size, not something to rely on for precision searching.
+function runSearch(query) {
+    if (!activeShardDb) return;
+    const clearBtn = document.getElementById('search-clear');
+    if (!query) {
+        clearBtn.classList.remove('visible');
+        setStatus('');
+        const activeAlpha = document.querySelector('.alpha-btn.active');
+        if (activeAlpha) activeAlpha.click();
+        return;
+    }
+    clearBtn.classList.add('visible');
+    document.querySelectorAll('.alpha-btn').forEach(b => b.classList.remove('active'));
+
+    const likeKey = `%${normalizeHeadwordKey(query)}%`;
+    const likeRaw = `%${query.toLowerCase()}%`;
+    const rows = queryAll(activeShardDb,
+        `SELECT entry_id, headword_display, headword_translit FROM lexicon_entries
+         WHERE lexicon_id=? AND (
+             headword_key LIKE ? OR
+             LOWER(IFNULL(headword_translit,'')) LIKE ? OR
+             LOWER(entry_html) LIKE ?
+         ) ORDER BY sort_key LIMIT 200`,
+        [activeLexiconId, likeKey, likeRaw, likeRaw]);
+
+    renderEntryList(rows);
+    const suffix = rows.length === 200 ? ' (showing first 200)' : '';
+    setStatus(`${rows.length} match${rows.length === 1 ? '' : 'es'} for "${query}"${suffix}`);
+}
+
+function clearSearch(reselect) {
+    const box = document.getElementById('search-box');
+    box.value = '';
+    document.getElementById('search-clear').classList.remove('visible');
+    if (reselect) {
+        setStatus('');
+        const activeAlpha = document.querySelector('.alpha-btn.active');
+        if (activeAlpha) activeAlpha.click();
+    }
+}
+
+let _searchDebounce = null;
+document.getElementById('search-box').addEventListener('input', e => {
+    clearTimeout(_searchDebounce);
+    const val = e.target.value.trim();
+    _searchDebounce = setTimeout(() => runSearch(val), 200);
+});
+document.getElementById('search-clear').addEventListener('click', () => clearSearch(true));
+
+initPicker();
+</script>
+</body>
+</html>

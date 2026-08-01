@@ -808,6 +808,7 @@
             <button id="btn-mode-parallel" class="toggle-btn active-mode" onclick="setWorkspaceLayoutMode('parallel')">Parallel Grid</button>
             <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
             <button id="btn-column-scaler" class="toggle-btn col-scaler-btn" onclick="cycleColumns()">Columns: 3</button>
+            <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
         </div>
       </div>
       <div id="nav-bar">
@@ -3450,7 +3451,8 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             detailPanel.className = 'tb-detail-panel';
             block.appendChild(detailPanel);
 
-            block.addEventListener('click', () => {
+            block.addEventListener('click', (e) => {
+                if (e.target.closest('.tb-detail-panel')) return; // selecting/copying text inside the panel shouldn't close it
                 block.querySelectorAll('.tb-tok').forEach(s => s.classList.remove('tb-active','tb-is-head','tb-is-dep'));
                 block.querySelectorAll('.tb-lit-word').forEach(s => s.classList.remove('tb-lit-active'));
                 detailPanel.innerHTML = '';
