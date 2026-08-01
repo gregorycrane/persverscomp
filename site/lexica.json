@@ -27,6 +27,13 @@
    "citation": "Pizzi, I. (1891). Firdusiana anthology with a compendium of Persian grammar and a dictionary. W. Gerhard.",
    "entry_kind": "word",
    "shard": "lexica_persian.db"
+  },
+  "betant-thucydides": {
+   "title": "Lexicon Thucydideum",
+   "author": "Élie-Ami Bétant",
+   "citation": "Bétant, É.-A. (1843–1847). Lexicon Thucydideum. Carey.",
+   "entry_kind": "word",
+   "shard": "lexica_thucydides.db"
   }
  },
  "textgroups": {
@@ -39,6 +46,9 @@
   ],
   "ferdowsi": [
    "pizzi-persian"
+  ],
+  "tlg0003": [
+   "betant-thucydides"
   ]
  }
 }

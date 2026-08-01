@@ -707,6 +707,13 @@
         .make-focus-btn:hover { background: rgba(255,255,255,0.35); }
 
         .toggle-btn.col-scaler-btn { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
+        .lex-latin-toggle-label { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: #ffccaa; cursor: pointer; user-select: none; }
+        .lex-latin-toggle-label input { margin: 0; }
+
+        /* Hides Bétant-style Latin definitions (tb-lex-lat) when the reader
+           has switched to English-only via the toolbar toggle; the English
+           translation (tb-lex-eng) is untouched either way. */
+        body.lexicon-hide-latin .tb-lex-lat { display: none; }
 
         /* Flexible Multi-Column State Handling Rules */
         #col_c3, #col_c4, #col_c5, #col_c6, #resize-c2-c3, #resize-c3-c4, #resize-c4-c5, #resize-c5-c6 { display: none; }
@@ -841,6 +848,10 @@
             <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
             <button id="btn-column-scaler" class="toggle-btn col-scaler-btn" onclick="cycleColumns()">Columns: 3</button>
             <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
+            <label class="lex-latin-toggle-label" title="Some lexica (e.g. Bétant's Lexicon Thucydideum) give definitions in Latin with an added English translation alongside">
+                <input type="checkbox" id="lexicon-latin-toggle" onchange="toggleLexiconLatin(this.checked)">
+                Hide Latin
+            </label>
         </div>
       </div>
       <div id="nav-bar">
@@ -1529,6 +1540,29 @@ async function openLexiconEntry(lexiconId, entryId) {
     }
 }
 window.openLexiconEntry = openLexiconEntry;
+
+// ── Lexicon language display toggle (e.g. Bétant's Latin defs + added ───
+// English translations) ─────────────────────────────────────────────────
+// A global reader preference, not per-panel: entries render both
+// <gloss xml:lang="lat"> and <gloss xml:lang="eng"> every time (tagged
+// with tb-lex-lat / tb-lex-eng classes by the notebook's _lex_inline_html),
+// and this just flips a body-level class that CSS uses to hide one side.
+// Persisted across sessions the same way column count / layout mode would
+// be if this app tracked those in storage.
+const LEXICON_LATIN_PREF_KEY = 'persvers_hideLexiconLatin';
+
+function applyLexiconLatinPref() {
+    const hidden = localStorage.getItem(LEXICON_LATIN_PREF_KEY) === '1';
+    document.body.classList.toggle('lexicon-hide-latin', hidden);
+    const cb = document.getElementById('lexicon-latin-toggle');
+    if (cb) cb.checked = hidden;
+}
+
+function toggleLexiconLatin(hidden) {
+    localStorage.setItem(LEXICON_LATIN_PREF_KEY, hidden ? '1' : '0');
+    document.body.classList.toggle('lexicon-hide-latin', hidden);
+}
+window.toggleLexiconLatin = toggleLexiconLatin;
 
 // urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:1.10  ->  parts
 function parseCtsUrn(urn) {
@@ -4838,6 +4872,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             const ow = document.getElementById('outer-wrapper');
             if (ow) modeObserver.observe(ow, { attributes: true, attributeFilter: ['class'] });
             window.addEventListener('resize', positionClassicHandles);
+            applyLexiconLatinPref();
         });
     })();
 
