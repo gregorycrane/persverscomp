@@ -402,7 +402,49 @@ function metricalForChapter(db, version, chapter) {
 // place can legitimately appear more than once if it's mentioned more than
 // once in the same chapter (e.g. "Athens" named twice in one paragraph) --
 // callers that want one pin per place should de-duplicate by place_id.
+// Detects a line-range chapter value (poetry works are navigated by
+// multi-line "card" ranges, not single lines) in any of the shapes the
+// reader can produce: bookless "0-39", book-scoped shorthand
+// "1.371-403", or fully-spelled "1.371-1.403". Returns {book, start,
+// end} (book is null for bookless works) or null if `chapter` isn't a
+// range at all (the ordinary single-citation case).
+function _parseLineRangeChapter(chapter) {
+    if (typeof chapter !== "string") return null;
+    // Accept a plain hyphen as well as en-dash/em-dash, in case the
+    // reader's own display renders ranges with typographic dashes
+    // rather than a plain "-".
+    const dashChars = ["-", "\u2013", "\u2014"];
+    const dashIdx = Math.min(...dashChars.map(d => {
+        const i = chapter.indexOf(d);
+        return i === -1 ? Infinity : i;
+    }));
+    if (!Number.isFinite(dashIdx)) return null;
+    const rawStart = chapter.slice(0, dashIdx);
+    const rawEnd = chapter.slice(dashIdx + 1);
+    const startParts = rawStart.split(".");
+    const endParts = rawEnd.split(".");
+    const book = startParts.length > 1 ? startParts[0] : null;
+    const start = parseInt(startParts[startParts.length - 1], 10);
+    const end = parseInt(endParts[endParts.length - 1], 10);
+    if (Number.isNaN(start) || Number.isNaN(end)) return null;
+    return { book, start, end };
+}
 function placesForChapter(db, chapter) {
+    const range = _parseLineRangeChapter(chapter);
+    if (range) {
+        // ToposText's own citations are single lines, always finer-
+        // grained than a card range -- so a range is handled by pulling
+        // every row for the containing book (or the whole work, if
+        // bookless) and keeping only the ones whose own line number
+        // falls inside [start, end], rather than trying to match the
+        // range string itself against anything.
+        const candidates = range.book ? placesForBook(db, range.book) : placesForWork(db);
+        return candidates.filter(r => {
+            const lineParts = String(r.chapter).split(".");
+            const line = parseInt(lineParts[lineParts.length - 1], 10);
+            return !Number.isNaN(line) && line >= range.start && line <= range.end;
+        });
+    }
     return queryAll(db,
         "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
         "FROM place_references WHERE chapter=?",
@@ -441,4 +483,3 @@ async function routeToUrn(urn) {
 }
 
 
-    // ── End shard_loader ──────────────────────────────────────────
