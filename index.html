@@ -513,7 +513,7 @@
         
         /* ── Treebank column styles ──────────────────────────────── */
         .tb-sentence-block { border-bottom: 1px solid #f0efe8; padding: 8px 0 10px; }
-        .tb-cit-label { font-size: 10px; color: #aaa; font-family: "Courier New",monospace; margin-bottom: 3px; }
+        .tb-cit-label { font-size: 11px; color: #6b6559; font-family: "Courier New",monospace; margin-bottom: 3px; }
         .tb-credits-wrap { margin: 2px 0 6px; }
         .tb-credits-toggle { font-size: 10px; color: #660000; text-decoration: none; cursor: pointer; }
         .tb-credits-toggle:hover { text-decoration: underline; }
@@ -632,7 +632,10 @@
            the relevant shard has loaded (see populateLexiconSlot in app.js). */
         .tb-lex-slot:empty { display: none; }
         .tb-lex-entry { margin-top: 10px; padding-top: 8px; border-top: 1px solid #e0dfd5; }
-        .tb-lex-source { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 4px; }
+        .tb-lex-source { font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 4px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+        .tb-lex-latin-toggle-label { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: normal; text-transform: none; letter-spacing: normal; color: #777; cursor: pointer; user-select: none; white-space: nowrap; }
+        .tb-lex-latin-toggle-label input { margin: 0; }
+        .tb-lex-latin-toggle-label:hover { color: #660000; }
         .tb-lex-headword { font-size: 15px; font-weight: bold; color: #660000; margin: 6px 0 2px; }
         .tb-lex-body { font-size: 12.5px; line-height: 1.6; color: #333; }
         .tb-lex-divider { border-top: 1px dashed #e0dfd5; margin: 8px 0; }
@@ -645,7 +648,10 @@
         .tb-lex-note { color: #777; font-size: 11.5px; }
         .tb-lex-cit { margin: 4px 0 4px 8px; padding-left: 6px; border-left: 2px solid #e0dfd5; }
         .tb-lex-quote { font-family: "Gentium Plus","GFS Didot",serif; font-size: 13px; color: #444; margin: 2px 0; }
-        .tb-lex-cite { font-size: 10px; color: #aaa; font-family: "Courier New",monospace; }
+        /* Citation refs (e.g. "1.38.6") -- kept visually secondary to the
+           definition text so the eye still lands on the translation first,
+           but dark/large enough to read without squinting (was #aaa/10px). */
+        .tb-lex-cite { font-size: 11px; color: #6b6559; font-family: "Courier New",monospace; }
         .tb-lex-term { font-style: italic; color: #555; }
         .tb-lex-gloss { color: #1a5276; font-style: italic; }
         .tb-lex-hi { font-style: italic; }
@@ -667,7 +673,7 @@
         .tb-sent-dimmed { display: none !important; }
 
         /* Clickable citation label */
-        .tb-cit-label a { color: #aaa; text-decoration: none; font-family: "Courier New",monospace; font-size: 10px; }
+        .tb-cit-label a { color: #6b6559; text-decoration: none; font-family: "Courier New",monospace; font-size: 11px; }
         .tb-cit-label a:hover { color: #660000; text-decoration: underline; }
 
         /* Literal translation word spans */
@@ -709,8 +715,6 @@
         .make-focus-btn:hover { background: rgba(255,255,255,0.35); }
 
         .toggle-btn.col-scaler-btn { background: #333; color: #aaa; border-color: #555; font-size: 10px; padding: 2px 8px; margin-left: 4px; }
-        .lex-latin-toggle-label { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: #ffccaa; cursor: pointer; user-select: none; }
-        .lex-latin-toggle-label input { margin: 0; }
 
         /* Hides Bétant-style Latin definitions (tb-lex-lat) when the reader
            has switched to English-only via the toolbar toggle; the English
@@ -850,10 +854,6 @@
             <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
             <button id="btn-column-scaler" class="toggle-btn col-scaler-btn" onclick="cycleColumns()">Columns: 3</button>
             <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
-            <label class="lex-latin-toggle-label" title="Some lexica (e.g. Bétant's Lexicon Thucydideum) give definitions in Latin with an added English translation alongside">
-                <input type="checkbox" id="lexicon-latin-toggle" onchange="toggleLexiconLatin(this.checked)">
-                Hide Latin
-            </label>
         </div>
       </div>
       <div id="nav-bar">
@@ -1484,9 +1484,25 @@ function renderLexiconBlock(lexMeta, entryRows) {
         <div class="tb-lex-body">${row.entry_html}</div>
     `;
     }).join('<div class="tb-lex-divider"></div>');
+
+    // Some lexica (e.g. Bétant's Lexicon Thucydideum) give definitions in
+    // Latin with an added English translation alongside; most don't. Rather
+    // than a permanent global toolbar toggle that's meaningless for every
+    // other lexicon, show "Hide Latin" only on the entries where it applies,
+    // right next to the source label it affects. The preference itself is
+    // still global (see toggleLexiconLatin), so flipping it here also
+    // updates any other Latin-bearing lexicon block currently on screen.
+    const hasLatin = entryRows.some(row => row.entry_html && row.entry_html.includes('tb-lex-lat'));
+    const latinToggle = hasLatin
+        ? `<label class="tb-lex-latin-toggle-label" title="Bétant's Lexicon Thucydideum gives definitions in Latin with an added English translation alongside">
+             <input type="checkbox" class="tb-lex-latin-toggle" ${localStorage.getItem(LEXICON_LATIN_PREF_KEY) === '1' ? 'checked' : ''} onchange="toggleLexiconLatin(this.checked)">
+             Hide Latin
+           </label>`
+        : '';
+
     return `
         <div class="tb-lex-entry">
-            <div class="tb-lex-source">${escHtmlTopLevel(lexMeta.title)}</div>
+            <div class="tb-lex-source">${escHtmlTopLevel(lexMeta.title)}${latinToggle}</div>
             ${body}
         </div>`;
 }
@@ -1561,13 +1577,13 @@ const LEXICON_LATIN_PREF_KEY = 'persvers_hideLexiconLatin';
 function applyLexiconLatinPref() {
     const hidden = localStorage.getItem(LEXICON_LATIN_PREF_KEY) === '1';
     document.body.classList.toggle('lexicon-hide-latin', hidden);
-    const cb = document.getElementById('lexicon-latin-toggle');
-    if (cb) cb.checked = hidden;
+    document.querySelectorAll('.tb-lex-latin-toggle').forEach(cb => { cb.checked = hidden; });
 }
 
 function toggleLexiconLatin(hidden) {
     localStorage.setItem(LEXICON_LATIN_PREF_KEY, hidden ? '1' : '0');
     document.body.classList.toggle('lexicon-hide-latin', hidden);
+    document.querySelectorAll('.tb-lex-latin-toggle').forEach(cb => { cb.checked = hidden; });
 }
 window.toggleLexiconLatin = toggleLexiconLatin;
 
