@@ -1853,12 +1853,19 @@ function buildCitation(row) {
 
 function buildLineBrokenContext(toks, hitTokId) {
   const lines = [];
-  let currentRef = Symbol(); // sentinel guarantees the first token starts a new line
+  // Tracks the last *non-empty* ref we've seen, so a ref-less token (most
+  // words/punctuation in a prose sentence -- Ref= is only stamped where the
+  // source XML has an actual citation milestone, densely for verse lines
+  // but only sparsely per prose sentence) never itself forces a break; it
+  // just continues whatever line is already open. A break only happens
+  // when a token's own ref is non-empty AND differs from that last value --
+  // i.e. a genuinely new citation point, not merely "no milestone here."
+  let currentRef = null;
   let currentTokens = null;
   for (const t of toks) {
     const ref = t.ref || "";
-    if (ref !== currentRef) {
-      currentRef = ref;
+    if (currentTokens === null || (ref && ref !== currentRef)) {
+      if (ref) currentRef = ref;
       currentTokens = [];
       lines.push({ ref, tokens: currentTokens });
     }
