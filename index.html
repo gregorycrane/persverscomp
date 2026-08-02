@@ -854,6 +854,8 @@
             <button id="btn-mode-classic" class="toggle-btn" onclick="setWorkspaceLayoutMode('classic')">Classic Asymmetric</button>
             <button id="btn-column-scaler" class="toggle-btn col-scaler-btn" onclick="cycleColumns()">Columns: 3</button>
             <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
+            <button class="toggle-btn" onclick="openMapForCurrentPassage()">Map this passage</button>
+            <button class="toggle-btn" onclick="openMapForCurrentBook()">Map this book</button>
         </div>
       </div>
       <div id="nav-bar">
@@ -1752,6 +1754,41 @@ function metricalForChapter(db, version, chapter) {
     return queryAll(db,
         "SELECT line_ref, line_json FROM metrical_lines WHERE version_short_id=? AND chapter=?",
         [version, chapter]);
+}
+// Places attested in a given chapter, sourced from ToposText's place-mention
+// index (see the place_references ingestion cell). Unlike treebank/metrical
+// data, this isn't per-edition -- a work has one place index regardless of
+// which translation/edition column is showing -- so there's no version_id
+// filter, just chapter. Returns one row per (mention, place) pair; the same
+// place can legitimately appear more than once if it's mentioned more than
+// once in the same chapter (e.g. "Athens" named twice in one paragraph) --
+// callers that want one pin per place should de-duplicate by place_id.
+function placesForChapter(db, chapter) {
+    return queryAll(db,
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
+        "FROM place_references WHERE chapter=?",
+        [chapter]);
+}
+// All places attested anywhere in a given book, for multi-book works
+// whose chapter column is the folded "book.chapter" string (e.g.
+// Thucydides' "3.5", "3.100"). A book is every row whose chapter is
+// either exactly the book number alone (rare, but possible for a
+// book-level-only citation) or starts with "<book>." -- the LIKE
+// pattern is anchored at the start of the string, so book "3" can
+// never accidentally match "13.5" or similar.
+function placesForBook(db, book) {
+    return queryAll(db,
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
+        "FROM place_references WHERE chapter=? OR chapter LIKE ?",
+        [book, `${book}.%`]);
+}
+// Every place attested anywhere in the work, for bookless works (e.g.
+// Agamemnon) where there's no book to scope to -- the natural "show
+// everything" equivalent of placesForBook for a flat-structured text.
+function placesForWork(db) {
+    return queryAll(db,
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
+        "FROM place_references");
 }
 
 // ── Entry point: deep-link routing ─────────────────────────────────────────
@@ -3181,6 +3218,55 @@ function initializeRoutingFromURL() {
             currentBk = rawBk.replace(/^Book\s+/, "");
         }
         triggerTargetNavigation(currentBk, currentCh);
+    }
+
+    // Opens map.html scoped to whatever passage is currently on screen.
+    // Reuses the exact same current-book/current-chapter DOM reading as
+    // triggerViewRefresh/updateURLState, so the "chapter" value passed here
+    // is built the same way ("book.chapter" for multi-book works, bare
+    // chapter/line otherwise) that the shard's place_references.chapter
+    // column is keyed by -- no separate lookup or reformatting needed.
+    function openMapForCurrentPassage() {
+        let currentBk = null, currentCh = "1";
+        const currentActiveChEl = document.querySelector("#chapter-items-container a.current");
+        if (currentActiveChEl) currentCh = currentActiveChEl.innerText;
+
+        if (!isFlatStructure(activeWorkKey)) {
+            const currentActiveBkEl = document.querySelector("#book-items-container a.current");
+            const rawBk = currentActiveBkEl ? currentActiveBkEl.innerText : `Book ${Object.keys(GLOBAL_STRUCTURES[activeWorkKey])[0]}`;
+            currentBk = rawBk.replace(/^Book\s+/, "");
+        }
+        const rawChapterValue = (currentBk && !currentCh.includes("."))
+            ? `${currentBk}.${currentCh}`
+            : `${currentCh}`;
+        // Roll up to book.chapter: ToposText's citation data for these
+        // pilot works (Thucydides/Iliad/Agamemnon) only goes to chapter
+        // depth, never section. If the reader has a section selected,
+        // currentCh (or the book+chapter combo) can come through with a
+        // third segment -- drop it rather than querying a depth
+        // place_references never has data at, which would silently
+        // return zero rows even when the chapter genuinely has places.
+        const parts = rawChapterValue.split(".");
+        const chapterValue = parts.length > 2 ? parts.slice(0, 2).join(".") : rawChapterValue;
+        const url = `./map.html?work=${encodeURIComponent(activeWorkKey)}&chapter=${encodeURIComponent(chapterValue)}`;
+        window.open(url, "_blank");
+    }
+
+    // Opens map.html scoped to the whole book currently on screen (e.g.
+    // all of Thucydides Book 3), rather than just the current chapter.
+    // For flat/bookless works (no book concept -- e.g. Agamemnon), maps
+    // the whole work instead, since "book" has no meaning there.
+    function openMapForCurrentBook() {
+        if (isFlatStructure(activeWorkKey)) {
+            const url = `./map.html?work=${encodeURIComponent(activeWorkKey)}&whole=1`;
+            window.open(url, "_blank");
+            return;
+        }
+        const currentActiveBkEl = document.querySelector("#book-items-container a.current");
+        const rawBk = currentActiveBkEl ? currentActiveBkEl.innerText : `Book ${Object.keys(GLOBAL_STRUCTURES[activeWorkKey])[0]}`;
+        const currentBk = rawBk.replace(/^Book\s+/, "");
+        const url = `./map.html?work=${encodeURIComponent(activeWorkKey)}&book=${encodeURIComponent(currentBk)}`;
+        window.open(url, "_blank");
     }
 
     function updateURLState(book, chapter) {
