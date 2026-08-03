@@ -21,6 +21,20 @@
    "entry_kind": "name",
    "shard": "lexica_homer.db"
   },
+  "logeion-grc": {
+   "title": "Logeion Short Definitions (Greek)",
+   "author": "Helma Dik",
+   "citation": "Logeion",
+   "entry_kind": "word",
+   "shard": "lexica_logeion_grc.db"
+  },
+  "logeion-lat": {
+   "title": "Logeion Short Definitions (Latin)",
+   "author": "Helma Dik",
+   "citation": "Logeion",
+   "entry_kind": "word",
+   "shard": "lexica_logeion_lat.db"
+  },
   "pizzi-persian": {
    "title": "Manual of the Persian Language (Glossary)",
    "author": "Italo Pizzi",
@@ -38,17 +52,29 @@
  },
  "textgroups": {
   "tlg0085": [
-   "dindorf-aeschylus"
+   "dindorf-aeschylus",
+   "logeion-grc"
   ],
   "tlg0012": [
    "cunliffe-words",
-   "cunliffe-names"
+   "cunliffe-names",
+   "logeion-grc"
+  ],
+  "tlg0003": [
+   "logeion-grc",
+   "betant-thucydides"
+  ],
+  "tlg0011": [
+   "logeion-grc"
+  ],
+  "tlg0020": [
+   "logeion-grc"
+  ],
+  "tlg0086": [
+   "logeion-grc"
   ],
   "ferdowsi": [
    "pizzi-persian"
-  ],
-  "tlg0003": [
-   "betant-thucydides"
   ]
  }
 }
