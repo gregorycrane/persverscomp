@@ -1798,6 +1798,27 @@ function placesForWork(db) {
         "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
         "FROM place_references");
 }
+// The next (book, chapter) passage after the given one, in true global
+// reading order (spans book boundaries correctly). Mirrors the same
+// "GROUP BY book, chapter ORDER BY MIN(sort_order)" pattern the build
+// notebook itself already uses to enumerate a work's passages -- not a
+// new convention invented here. Returns null at the end of the work.
+function nextPassage(db, book, chapter) {
+    const rows = queryAll(db,
+        `WITH ordered AS (
+            SELECT book, chapter, MIN(sort_order) AS so
+            FROM alignment_grid
+            GROUP BY book, chapter
+        )
+        SELECT book, chapter FROM ordered
+        WHERE so > (
+            SELECT MIN(sort_order) FROM alignment_grid
+            WHERE chapter=? AND (book=? OR (book IS NULL AND ? IS NULL))
+        )
+        ORDER BY so ASC LIMIT 1`,
+        [chapter, book || null, book || null]);
+    return rows.length ? rows[0] : null;
+}
 
 // ── Entry point: deep-link routing ─────────────────────────────────────────
 async function routeToUrn(urn) {
@@ -2450,6 +2471,19 @@ function resolvePassageSpec(workKey, spec) {
 
         if (!isRange && startSegs.length >= 2) {
             const known = (GLOBAL_STRUCTURES[workKey] && GLOBAL_STRUCTURES[workKey][book]) || [];
+            // Prose works store chapters in FOLDED "book.chapter" form
+            // (e.g. "1.1"), so a plain 2-segment ref like "1.1" needs to
+            // be checked against the FULL folded key (startRef), not
+            // just its second segment alone -- checking only startSegs[1]
+            // ("1") never matches a known list of folded keys like
+            // ["1.1","1.2",...], so a bare whole-chapter reference (e.g.
+            // "?w=tlg0003.tlg001:1.1", no section) always fell through to
+            // the range-parsing code below, which then wrongly treated
+            // that trailing "1" as a specific section to highlight
+            // instead of recognizing the whole chapter was requested.
+            if (startSegs.length === 2 && known.includes(startRef)) {
+                return { book, chapter: startRef, sectionRange: null };
+            }
             if (known.includes(startSegs[1])) {
                 return { book, chapter: startSegs[1],
                          sectionRange: startSegs[2] ? { start: startSegs[2], end: startSegs[2] } : null };

@@ -6,7 +6,6 @@
     <title>Perseus Workspace Engine | Map</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
-    <script src="./shard_loader.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -21,11 +20,96 @@
             background-color: #660000;
             color: #fff;
             font-family: Georgia, serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         #header h2 { margin: 0 0 4px; font-size: 1.2rem; }
         #header p { margin: 0; font-size: 0.85rem; color: #f0d8d8; }
+        #header-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        #back-link {
+            color: #fff;
+            font-size: 0.85rem;
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.6);
+            border-radius: 4px;
+            padding: 5px 10px;
+            white-space: nowrap;
+        }
+        #back-link:hover { background: rgba(255,255,255,0.15); }
+        #next-section-btn {
+            font-size: 0.85rem;
+            color: #660000;
+            background: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        #next-section-btn:hover { background: #f0d8d8; }
+        #next-section-btn:disabled { opacity: 0.5; cursor: default; }
+        #label-toggle-row {
+            font-size: 0.8rem;
+            color: #f0d8d8;
+            white-space: nowrap;
+        }
+        #label-toggle-row input { margin-right: 4px; vertical-align: middle; }
         #status { padding: 16px 20px; font-size: 14px; color: #555; }
-        #map { width: 100%; height: calc(100vh - 64px); }
+        #map-row { display: flex; height: calc(100vh - 64px); }
+        #map { flex: 1 1 auto; min-width: 0; }
+        #place-panel {
+            width: 320px;
+            flex: 0 0 320px;
+            border-left: 1px solid #ddd;
+            overflow-y: auto;
+            background: #faf8f5;
+        }
+        #place-panel.collapsed { display: none; }
+        #place-panel-header {
+            padding: 10px 14px;
+            background: #660000;
+            color: #fff;
+            font-family: Georgia, serif;
+            font-size: 0.95rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #place-panel-count {
+            background: rgba(255,255,255,0.25);
+            border-radius: 10px;
+            padding: 1px 8px;
+            font-size: 0.75rem;
+            font-weight: normal;
+        }
+        .place-row {
+            padding: 8px 14px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+        .place-row:hover { background: #f0e6e0; }
+        .place-row-name { font-weight: bold; color: #660000; }
+        .place-row-meta { color: #888; font-size: 0.78rem; margin-top: 2px; }
+        #panel-toggle-btn {
+            font-size: 0.8rem;
+            color: #660000;
+            background: #fff;
+            border: 1px solid rgba(255,255,255,0.6);
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
         .attribution-note { font-size: 11px; color: #888; padding: 4px 20px; }
         .map-legend {
             background: #fff;
@@ -45,21 +129,81 @@
             margin-right: 6px;
             vertical-align: middle;
         }
+        .place-label {
+            background: rgba(255,255,255,0.85);
+            border: none;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+            font-size: 11px;
+            padding: 1px 5px;
+        }
+        .place-label::before { display: none; } /* hide the little tooltip arrow -- cleaner with many labels on screen */
+        #map.hide-labels .place-label { display: none; }
     </style>
 </head>
 <body>
 
     <div id="header">
-        <h2 id="passage-title">Loading passage…</h2>
-        <p id="passage-subtitle">Places attested here (ToposText)</p>
+        <div>
+            <h2 id="passage-title">Loading passage…</h2>
+            <p id="passage-subtitle">Places attested here (ToposText)</p>
+        </div>
+        <div id="header-nav">
+            <label id="label-toggle-row">
+                <input type="checkbox" id="label-toggle" checked onchange="onLabelToggle(this.checked)">
+                Show place names
+            </label>
+            <button id="panel-toggle-btn" onclick="onPanelToggle()">Hide place list</button>
+            <button id="next-section-btn" onclick="goToNextSection()" style="display:none;">Next section &rarr;</button>
+            <a id="back-link" href="./index.html">&larr; Perseus Multitext Viewer</a>
+        </div>
     </div>
 
     <div id="status"></div>
-    <div id="map" style="display:none;"></div>
+    <div id="map-row" style="display:none;">
+        <div id="map"></div>
+        <div id="place-panel">
+            <div id="place-panel-header">
+                <span>Places in this scope</span>
+                <span id="place-panel-count"></span>
+            </div>
+            <div id="place-panel-list"></div>
+        </div>
+    </div>
 
     <script>
     function setStatus(html) {
         document.getElementById("status").innerHTML = html;
+    }
+
+    // Current passage state, set once in main() and reused by the
+    // back-link and next-section navigation -- avoids threading these
+    // through every function or re-parsing the URL repeatedly.
+    let currentWorkKey = null, currentBook = null, currentChapter = null, currentDb = null;
+    let currentMapInstance = null;
+
+    function onLabelToggle(checked) {
+        document.getElementById("map").classList.toggle("hide-labels", !checked);
+    }
+
+    function onPanelToggle() {
+        const panel = document.getElementById("place-panel");
+        const btn = document.getElementById("panel-toggle-btn");
+        const collapsed = panel.classList.toggle("collapsed");
+        btn.textContent = collapsed ? "Show place list" : "Hide place list";
+        // Leaflet needs to know its container resized, or tiles render
+        // incorrectly cropped until the next manual pan/zoom.
+        if (currentMapInstance) {
+            setTimeout(() => currentMapInstance.invalidateSize(), 0);
+        }
+    }
+
+    async function goToNextSection() {
+        if (!currentDb || !currentChapter) return;
+        const next = nextPassage(currentDb, currentBook, currentChapter);
+        if (!next) return; // already at the end -- button should be disabled in this case anyway
+        const params = new URLSearchParams({ work: currentWorkKey, chapter: next.chapter });
+        if (next.book) params.set("book", next.book);
+        window.location.href = `./map.html?${params.toString()}`;
     }
 
     // Place boundary polygons (e.g. Attika, Persia), keyed by the same
@@ -151,6 +295,13 @@
     function addLegend(map, places) {
         const typesPresent = new Set(places.map(p => primaryTypeFor(p.mentions)));
         if (typesPresent.size === 0) return;
+        // Only mention the dashed-region convention if it's actually
+        // relevant right now -- a region here means "shown as an
+        // approximate point, no polygon yet"; places whose region DOES
+        // have real polygon data render as an actual shape instead and
+        // don't need this note.
+        const hasApproxRegion = places.some(p =>
+            (p.feature_type || "").toLowerCase().includes("region"));
         const legend = L.control({ position: "bottomright" });
         legend.onAdd = function () {
             const div = L.DomUtil.create("div", "map-legend");
@@ -158,6 +309,10 @@
             for (const t of TYPE_PRIORITY) {
                 if (!typesPresent.has(t)) continue;
                 html += `<span class="legend-dot" style="background:${TYPE_COLORS[t]};"></span>${TYPE_LABELS[t]}<br/>`;
+            }
+            if (hasApproxRegion) {
+                html += `<span class="legend-dot" style="background:#fff;border:2px dashed #660000;box-sizing:border-box;"></span>` +
+                        `Region (approximate point -- no boundary data yet)<br/>`;
             }
             div.innerHTML = html;
             return div;
@@ -167,9 +322,10 @@
 
     function renderMap(places, scopeLabel, showChapterPerMention, polygons) {
         document.getElementById("status").style.display = "none";
-        document.getElementById("map").style.display = "block";
+        document.getElementById("map-row").style.display = "flex";
 
         const map = L.map('map').setView([38.0, 23.7], 6);
+        currentMapInstance = map;
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
             attribution: 'OpenStreetMap contributors, CARTO | Place data: ToposText (topostext.org)',
             subdomains: 'abcd',
@@ -188,6 +344,13 @@
             spiderfyOnMaxZoom: true
         });
         const polygonLayers = [];
+        // Per-place layer + kind, so the side panel can jump to
+        // whichever place a row represents -- markers go through the
+        // cluster group's own zoomToShowLayer (so a marker currently
+        // folded into a collapsed cluster bubble gets properly expanded
+        // to before its popup opens), polygons just get their bounds
+        // fitted directly.
+        const layerByPlaceId = new Map();
 
         for (const p of places) {
             const primaryType = primaryTypeFor(p.mentions);
@@ -205,6 +368,13 @@
                 `<div style="font-size:14px;"><strong>${p.place_name}</strong><br/>` +
                 `<span style="color:#888;">Mentioned in ${scopeLabel} as:</span><br/>${mentionList}</div>`;
 
+            // Full ZDISPLAYNAME strings are long ("Boiotia region
+            // (Boeotia) 1673 Viotia - Βοιωτία") -- fine for a popup,
+            // too cluttered as an always-visible on-map label. Just the
+            // part before the first parenthesis reads cleanly on the
+            // map itself; the popup still shows the full name on click.
+            const shortLabel = (p.place_name || "").split("(")[0].trim() || p.place_name;
+
             const geometry = polygons.get(String(p.place_id));
             if (geometry) {
                 // A region we have a real boundary for (e.g. Attika,
@@ -214,13 +384,27 @@
                     style: { color: color, weight: 2, fillColor: color, fillOpacity: 0.25 }
                 });
                 layer.bindPopup(popupHtml);
+                layer.bindTooltip(shortLabel, { permanent: true, direction: "center", className: "place-label" });
                 layer.addTo(map);
                 polygonLayers.push(layer);
+                layerByPlaceId.set(p.place_id, { kind: "polygon", layer });
             } else {
-                const marker = L.circleMarker([p.lat, p.lon],
-                    { radius: 8, fillColor: color, color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.85 });
+                // Regions (feature_type like "region/people") get a
+                // visually distinct style -- larger, dashed outline,
+                // lower fill -- reading as an approximate area standing
+                // in for the place until real polygon data exists,
+                // rather than a precise site. This is a SEPARATE visual
+                // channel from color (still mention type), not a
+                // replacement for it.
+                const isRegion = (p.feature_type || "").toLowerCase().includes("region");
+                const markerStyle = isRegion
+                    ? { radius: 11, fillColor: color, color: color, weight: 2, dashArray: "3,3", opacity: 0.9, fillOpacity: 0.35 }
+                    : { radius: 8, fillColor: color, color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.85 };
+                const marker = L.circleMarker([p.lat, p.lon], markerStyle);
                 marker.bindPopup(popupHtml);
+                marker.bindTooltip(shortLabel, { permanent: true, direction: "right", className: "place-label", offset: [8, 0] });
                 clusterGroup.addLayer(marker);
+                layerByPlaceId.set(p.place_id, { kind: "marker", layer: marker });
             }
         }
         map.addLayer(clusterGroup);
@@ -236,6 +420,37 @@
         }
 
         addLegend(map, places);
+
+        // Side panel: a scannable list of every place in this scope,
+        // sorted alphabetically, each row jumping straight to its place
+        // on click -- addresses the "too much work to hunt and click
+        // each dot" complaint more directly than the on-map labels
+        // alone can for a busy scope.
+        const sorted = places.slice().sort((a, b) =>
+            (a.place_name || "").localeCompare(b.place_name || ""));
+        document.getElementById("place-panel-count").textContent = `${places.length} present`;
+        const listEl = document.getElementById("place-panel-list");
+        listEl.innerHTML = "";
+        for (const p of sorted) {
+            const shortLabel = (p.place_name || "").split("(")[0].trim() || p.place_name;
+            const chapters = [...new Set(p.mentions.map(m => m.chapter))].join(", ");
+            const row = document.createElement("div");
+            row.className = "place-row";
+            row.innerHTML =
+                `<div class="place-row-name">${shortLabel}</div>` +
+                `<div class="place-row-meta">${chapters}</div>`;
+            row.onclick = () => {
+                const entry = layerByPlaceId.get(p.place_id);
+                if (!entry) return;
+                if (entry.kind === "polygon") {
+                    map.fitBounds(entry.layer.getBounds(), { maxZoom: 10 });
+                    entry.layer.openPopup();
+                } else {
+                    clusterGroup.zoomToShowLayer(entry.layer, () => entry.layer.openPopup());
+                }
+            };
+            listEl.appendChild(row);
+        }
     }
 
     async function main() {
@@ -249,6 +464,24 @@
             setStatus("No passage specified. Open this page from the reader's " +
                        "\u201cMap this passage\u201d or \u201cMap this book\u201d button rather than directly.");
             return;
+        }
+
+        currentWorkKey = workKey;
+        currentBook = book;
+        currentChapter = chapter;
+
+        // Back-link to the reader: round-trips to the exact same passage
+        // when we're in single-chapter mode (using the same "w=work:book.
+        // chapter" scheme the reader's own updateURLState writes, so this
+        // is a normal deep link, not a special case); for book/whole-work
+        // scope there's no single chapter to return to, so it links back
+        // to the work generally instead.
+        const backLink = document.getElementById("back-link");
+        if (chapter) {
+            const passageValue = book ? `${book}.${chapter}` : chapter;
+            backLink.href = `./index.html?w=${encodeURIComponent(workKey + ":" + passageValue)}`;
+        } else {
+            backLink.href = `./index.html?w=${encodeURIComponent(workKey)}`;
         }
 
         const scopeLabel = chapter ? chapter : (book ? `Book ${book}` : "the entire work");
@@ -282,6 +515,25 @@
             });
 
             const db = await getDbForWork(workKey, shardPathForWorkKey(workKey));
+            currentDb = db;
+
+            // "Next section" only makes sense in single-passage mode --
+            // a book/whole-work view already spans everything, so there's
+            // no single "next" to advance to. Checked once here (rather
+            // than on click) so the button can be disabled up front if
+            // we're already at the very end of the work.
+            if (chapter) {
+                const nextBtn = document.getElementById("next-section-btn");
+                const next = nextPassage(db, book, chapter);
+                if (next) {
+                    nextBtn.style.display = "";
+                    nextBtn.disabled = false;
+                } else {
+                    nextBtn.style.display = "";
+                    nextBtn.disabled = true;
+                    nextBtn.textContent = "End of work";
+                }
+            }
 
             let rows;
             try {
@@ -318,7 +570,29 @@
         }
     }
 
-    main();
+    // shard_loader.js is loaded dynamically with a cache-busting query
+    // param, rather than a static <script src> tag -- a plain tag lets
+    // browsers silently keep serving a stale cached copy even after the
+    // file changes on disk (this bit us once already: nextPassage()
+    // existed in the real file but the browser was still running an
+    // older cached version with no such function). catalog.json already
+    // avoids this the same way (see loadCatalog's own ?v=Date.now()).
+    function loadScriptCacheBusted(src) {
+        return new Promise((resolve, reject) => {
+            const s = document.createElement("script");
+            s.src = `${src}?v=${Date.now()}`;
+            s.onload = resolve;
+            s.onerror = () => reject(new Error(`Failed to load ${src}`));
+            document.head.appendChild(s);
+        });
+    }
+
+    loadScriptCacheBusted("./shard_loader.js")
+        .then(main)
+        .catch(e => {
+            console.error(e);
+            setStatus("Something went wrong loading required scripts: " + (e.message || e));
+        });
     </script>
 
     <p class="attribution-note">Place data &copy; <a href="https://topostext.org" target="_blank">ToposText</a>, used under its published terms.</p>

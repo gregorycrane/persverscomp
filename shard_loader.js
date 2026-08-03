@@ -437,6 +437,27 @@ function placesForWork(db) {
         "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
         "FROM place_references");
 }
+// The next (book, chapter) passage after the given one, in true global
+// reading order (spans book boundaries correctly). Mirrors the same
+// "GROUP BY book, chapter ORDER BY MIN(sort_order)" pattern the build
+// notebook itself already uses to enumerate a work's passages -- not a
+// new convention invented here. Returns null at the end of the work.
+function nextPassage(db, book, chapter) {
+    const rows = queryAll(db,
+        `WITH ordered AS (
+            SELECT book, chapter, MIN(sort_order) AS so
+            FROM alignment_grid
+            GROUP BY book, chapter
+        )
+        SELECT book, chapter FROM ordered
+        WHERE so > (
+            SELECT MIN(sort_order) FROM alignment_grid
+            WHERE chapter=? AND (book=? OR (book IS NULL AND ? IS NULL))
+        )
+        ORDER BY so ASC LIMIT 1`,
+        [chapter, book || null, book || null]);
+    return rows.length ? rows[0] : null;
+}
 
 // ── Entry point: deep-link routing ─────────────────────────────────────────
 async function routeToUrn(urn) {
@@ -449,3 +470,4 @@ async function routeToUrn(urn) {
 }
 
 
+    // ── End shard_loader ──────────────────────────────────────────
