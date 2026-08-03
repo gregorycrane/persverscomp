@@ -1533,7 +1533,7 @@
       "402-442",
       "443-480"
      ],
-     "bytes": 1933312
+     "bytes": 1937408
     }
    ],
    "annotations": {
@@ -2500,11 +2500,11 @@
       "25",
       "26"
      ],
-     "bytes": 14905344
+     "bytes": 18055168
     }
    ],
    "annotations": {
-    "treebanks": 2,
+    "treebanks": 3,
     "alignments": 2,
     "commentaries": 0,
     "metrical_lines": 0
@@ -2514,6 +2514,13 @@
      "short_id": "kassel-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.kassel-tb-grc1",
      "label": "Treebank (Kassel, UD 2026)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "moerbeke-tb-lat1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.moerbeke-tb-lat1",
+     "label": "Treebank (Moerbeke, UD 2026)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
