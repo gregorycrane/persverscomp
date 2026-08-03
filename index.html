@@ -1466,6 +1466,58 @@ function lookupLexiconEntryById(db, lexiconId, entryId) {
     return rows[0] || null;
 }
 
+// Logeion short-definition complement for inline treebank glosses.
+// Prefetched per-textgroup (fire-and-forget, same "lazy, first render may
+// miss it, re-render fills it in" pattern already used for the Browse
+// Lexica shards above) rather than making renderTreebankColumn async --
+// avoids restructuring its call sites, at the cost of the very first
+// render after navigating to a new work not having the complement yet.
+const LOGEION_SHARDS_FOR_TEXTGROUP = new Map(); // textgroup -> [{lexicon_id, db}]
+
+async function ensureLogeionShardsLoaded(textgroup, onLoaded) {
+    if (LOGEION_SHARDS_FOR_TEXTGROUP.has(textgroup)) return;
+    let logeionLexica = [];
+    try {
+        const lexica = await lexiconsForTextgroup(textgroup);
+        logeionLexica = lexica.filter(l => l.lexicon_id && l.lexicon_id.startsWith('logeion-'));
+    } catch (e) {
+        console.warn('[logeion] could not resolve lexica for', textgroup, e);
+    }
+    const dbs = [];
+    for (const lex of logeionLexica) {
+        try {
+            const db = await getLexiconShard(lex.shard_file);
+            dbs.push({ lexicon_id: lex.lexicon_id, db });
+        } catch (e) {
+            console.warn('[logeion] shard fetch failed for', lex.lexicon_id, e);
+        }
+    }
+    LOGEION_SHARDS_FOR_TEXTGROUP.set(textgroup, dbs);
+    if (onLoaded) onLoaded();
+}
+
+// Synchronous lookup against whatever Logeion shard(s) are already
+// cached for this textgroup -- returns null (not yet loaded, or no
+// entry for this lemma) rather than throwing, since callers use this
+// inline during synchronous DOM-building and can't await here.
+function logeionGlossFor(tok, textgroup) {
+    const dbs = LOGEION_SHARDS_FOR_TEXTGROUP.get(textgroup);
+    if (!dbs || !dbs.length) return null;
+    const key = normalizeHeadwordKey(tok.lemma);
+    if (!key) return null;
+    for (const { lexicon_id, db } of dbs) {
+        const rows = lookupLexiconEntries(db, lexicon_id, key);
+        if (rows.length) {
+            // Logeion entries are always one flat definition string with
+            // no nested markup -- strip the wrapping div/span down to
+            // plain text rather than injecting raw HTML into a gloss span.
+            const text = rows[0].entry_html.replace(/<[^>]+>/g, '').trim();
+            if (text) return text;
+        }
+    }
+    return null;
+}
+
 function _tbHeadwordScriptClass(s) {
     // Arabic/Persian script range -- gets RTL + Perso-Arabic font styling
     // instead of the Greek serif used for Cunliffe/Dindorf headwords.
@@ -1884,23 +1936,99 @@ let activeWorkKey = "tlg0003.tlg001";
     // catalog builder records bytes per part but never sums a work-level
     // total) -- and shows nothing at all rather than "NaNKB" if no usable
     // number can be found either way.
-    function countDocTypes(versions) {
-        const counts = { edition: 0, translation: 0, commentary: 0 };
-        for (const v of versions || []) {
-            if (v && Object.prototype.hasOwnProperty.call(counts, v.doc_type)) {
-                counts[v.doc_type]++;
+    // Extracts a language code from a version's short_id (e.g.
+    // "daphne-tb-grc1" -> "grc", "daphne-tb-cn1" -> "cn"). Mirrors the
+    // same suffix-scanning approach used elsewhere in this project (the
+    // Logeion lexicon's textgroup scoping): checks every hyphen-
+    // separated segment, not just the trailing one, since a real
+    // edition id has been seen embedding its code mid-string; strips
+    // trailing digits before matching; explicitly excludes "tb" itself
+    // (a literal infix in treebank ids like "kassel-tb-grc1", not a
+    // language code).
+    function _versionLangCode(shortId) {
+        const segs = (shortId || "").split("-");
+        let found = null;
+        for (const seg of segs) {
+            const code = seg.replace(/\d+$/, "").toLowerCase();
+            if (/^[a-z]{2,4}$/.test(code) && code !== "tb") {
+                found = code;
             }
         }
+        return found;
+    }
+
+    // A treebank id's language-like suffix (grc/ara/fas) marks the SOURCE
+    // text's own script, not the annotation/gloss language -- that's a
+    // different thing, and for these three it defaults to English
+    // (unmarked in the id). Only a genuinely different annotation
+    // language gets its own explicit marker (e.g. "cn" for Chinese) --
+    // and that marker-only id doesn't restate the source script itself
+    // (e.g. "daphne-tb-cn1" has no "grc" in it at all, even though it
+    // annotates the same Greek text as its "daphne-tb-grc1" sibling).
+    // So the source script comes from the WORK's own edition(s), not
+    // from each individual treebank id, and is combined with each
+    // treebank's own annotation language for display (e.g. "grc-en",
+    // "grc-cn").
+    const TREEBANK_SOURCE_SCRIPT_CODES = new Set(['grc', 'ara', 'fas']);
+
+    function countDocTypes(versions) {
+        const counts = { edition: 0, translation: 0, commentary: 0 };
+        const treebankLangs = {};
+
+        // Source script: the language of this work's own edition(s) --
+        // first one found wins (a work's editions are normally all the
+        // same source language anyway).
+        let sourceLang = null;
+        for (const v of versions || []) {
+            if (v && v.doc_type === 'edition') {
+                const code = _versionLangCode(v.short_id);
+                if (code) { sourceLang = code; break; }
+            }
+        }
+
+        for (const v of versions || []) {
+            if (!v) continue;
+            if (Object.prototype.hasOwnProperty.call(counts, v.doc_type)) {
+                counts[v.doc_type]++;
+            } else if (v.doc_type === 'treebank') {
+                const rawCode = _versionLangCode(v.short_id);
+                let source, annotationLang;
+                if (rawCode && TREEBANK_SOURCE_SCRIPT_CODES.has(rawCode)) {
+                    // This id self-describes its own source script (it
+                    // may be annotating a translation edition, not the
+                    // work's primary language -- e.g. an Arabic treebank
+                    // of Bishr Matta's translation of a Greek work) --
+                    // trust it over the work-level default.
+                    source = rawCode;
+                    annotationLang = 'en';
+                } else if (rawCode) {
+                    // A non-script code (e.g. "cn") is the annotation
+                    // language; this id doesn't self-describe a source,
+                    // so fall back to the work's own edition language.
+                    source = sourceLang || '?';
+                    annotationLang = rawCode;
+                } else {
+                    source = sourceLang || '?';
+                    annotationLang = 'en';
+                }
+                const lang = `${source}-${annotationLang}`;
+                treebankLangs[lang] = (treebankLangs[lang] || 0) + 1;
+            }
+        }
+        counts.treebankLangs = treebankLangs;
         return counts;
     }
 
     function formatWorkMeta(meta) {
         const counts = countDocTypes(meta.versions);
-        if (counts.edition || counts.translation || counts.commentary) {
+        const treebankBits = Object.keys(counts.treebankLangs).sort()
+            .map(lang => counts.treebankLangs[lang] + " tb " + lang);
+        if (counts.edition || counts.translation || counts.commentary || treebankBits.length) {
             const bits = [];
             if (counts.edition) bits.push(counts.edition + " ed" + (counts.edition > 1 ? "s" : ""));
             if (counts.translation) bits.push(counts.translation + " tr");
             if (counts.commentary) bits.push(counts.commentary + " comm");
+            bits.push(...treebankBits);
             return bits.join(" · ");
         }
 
@@ -3472,6 +3600,7 @@ function initializeRoutingFromURL() {
 
 function renderTreebankColumn(container, activeEditionMeta, payload) {
         const wKey = activeWorkKey;
+        const tgKey = wKey.split('.')[0];
         const vid  = activeEditionMeta.short_id;
         const tbKey = `${wKey}/${vid}`;
         const prefix = container.id.replace('content_', '');
@@ -3503,6 +3632,17 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const docCredits = TREEBANK_DOC_CREDITS[tbKey] || { annotators: [], source: null };
         const isPoetry = isPoetryWork(wKey);
         container.innerHTML = '';
+
+        if (!LOGEION_SHARDS_FOR_TEXTGROUP.has(tgKey)) {
+            ensureLogeionShardsLoaded(tgKey, () => {
+                // Only re-render if the reader is still looking at this
+                // same chapter's treebank -- avoids a late-resolving fetch
+                // clobbering content after they've since navigated away.
+                if (TREEBANK_DATA[tbKey] === chapterData) {
+                    renderTreebankColumn(container, activeEditionMeta, payload);
+                }
+            });
+        }
 
         // Reader row-visibility state (persists across treebank re-renders)
         if (!window.__tbRowVis) window.__tbRowVis = { original: true, translit: true };
@@ -3753,7 +3893,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 let currentLineWrapper = null;
                 let currentTokensRow = null;
                 let currentGlossRow = null;
-                const sentHasGloss = sent.tokens.some(t => t.gloss);
+                const sentHasGloss = sent.tokens.some(t => t.gloss || logeionGlossFor(t, tgKey));
 
                 function startNewLineWrapper() {
                     currentLineWrapper = document.createElement('div');
@@ -3832,7 +3972,10 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                         glossSpan = document.createElement('span');
                         glossSpan.className = 'tb-tok tb-gloss-tok';
                         glossSpan.dataset.tokId = tok.id;
-                        glossSpan.textContent = tok.gloss || '·';
+                        const logeionDef = logeionGlossFor(tok, tgKey);
+                        glossSpan.textContent = tok.gloss
+                            ? (logeionDef ? `${tok.gloss} \u00b7 ${logeionDef}` : tok.gloss)
+                            : (logeionDef || '\u00b7');
                     }
 
                     if (!isPunct) {
@@ -3901,7 +4044,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
 
             // Parallel clickable GLOSS row (one span per token, same selection) —
             // replaces the literal translation so Arabic / translit / gloss align one-to-one.
-            if (!isPoetry && sent.tokens.some(t => t.gloss)) {
+            if (!isPoetry && sent.tokens.some(t => t.gloss || logeionGlossFor(t, tgKey))) {
                 const glRow = document.createElement('div');
                 glRow.className = 'tb-gloss-row';
                 sent.tokens.forEach(tok => {
@@ -3910,7 +4053,10 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                     const span = document.createElement('span');
                     span.className = 'tb-tok tb-gloss-tok';
                     span.dataset.tokId = tok.id;
-                    span.textContent = tok.gloss || '·';
+                    const logeionDef = logeionGlossFor(tok, tgKey);
+                    span.textContent = tok.gloss
+                        ? (logeionDef ? `${tok.gloss} \u00b7 ${logeionDef}` : tok.gloss)
+                        : (logeionDef || '\u00b7');
                     span.addEventListener('click', (e) => { e.stopPropagation(); tbSelect(tok.id); });
                     glRow.appendChild(span);
                     glRow.appendChild(document.createTextNode(' '));
