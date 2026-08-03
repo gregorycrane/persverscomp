@@ -478,7 +478,12 @@
         // to the work generally instead.
         const backLink = document.getElementById("back-link");
         if (chapter) {
-            const passageValue = book ? `${book}.${chapter}` : chapter;
+            // `chapter` is already the folded "book.chapter" string for
+            // prose works (e.g. "1.41") -- prepending book again would
+            // double it up ("1.1.41"). Only prepend book when chapter is
+            // a bare poetry card label (no dot), matching the same
+            // has-a-dot check used elsewhere for this exact distinction.
+            const passageValue = (book && !chapter.includes(".")) ? `${book}.${chapter}` : chapter;
             backLink.href = `./index.html?w=${encodeURIComponent(workKey + ":" + passageValue)}`;
         } else {
             backLink.href = `./index.html?w=${encodeURIComponent(workKey)}`;

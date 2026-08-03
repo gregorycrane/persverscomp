@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Perseus Serverless Version Browser (Prototype) | Dual-Framework Workspace</title>
+    <title>Perseus Serverless Multitext Browser (Prototype)</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
     
@@ -846,7 +846,7 @@
             <div class="workspace-emblem-holder">
                 <img src="./assets/perseus_running_man.png" alt="Perseus Emblem" />
             </div>
-            <h1><a href="./" onclick="window.location.href='./'">Perseus Workspace Engine</a></h1>
+            <h1><a href="./" onclick="window.location.href='./'">Perseus Multitext Viewer</a></h1>
         </div>
         
         <div class="mode-toggle-panel">
@@ -2673,9 +2673,29 @@ function initializeRoutingFromURL() {
                         console.warn(`[url] column "${prefix}": "${currentEd}" not found for ${payload.textgroup}.${payload.work} - leaving blank. Valid ids: ${known.join(", ")}`);
                         columnEditions[prefix] = "";
                     } else {
-                        columnEditions[prefix] = prioritizedList.length > 0
-                            ? prioritizedList[idx % prioritizedList.length]
-                            : "";
+                        // Default column configuration: source edition,
+                        // translation, treebank -- or, when this work has
+                        // no treebank, a second translation instead.
+                        // Applies only to the first three columns (the
+                        // default column count); columns beyond that keep
+                        // cycling through the existing interleaved
+                        // priority list (editions/translations/
+                        // commentaries/appcrits, then treebanks, then
+                        // metrics), unchanged.
+                        let defaultId = "";
+                        if (prefix === 'f') {
+                            defaultId = editions[0] ? editions[0][0] : (prioritizedList[0] || "");
+                        } else if (prefix === 'c1') {
+                            defaultId = translations[0] ? translations[0][0] : (prioritizedList[1] || "");
+                        } else if (prefix === 'c2') {
+                            defaultId = treebanks[0] ? treebanks[0][0]
+                                : (translations[1] ? translations[1][0] : (prioritizedList[2] || ""));
+                        } else {
+                            defaultId = prioritizedList.length > 0
+                                ? prioritizedList[idx % prioritizedList.length]
+                                : "";
+                        }
+                        columnEditions[prefix] = defaultId;
                     }
                 }
             });
