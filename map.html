@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
     <style>
         body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
@@ -24,6 +27,24 @@
         #status { padding: 16px 20px; font-size: 14px; color: #555; }
         #map { width: 100%; height: calc(100vh - 64px); }
         .attribution-note { font-size: 11px; color: #888; padding: 4px 20px; }
+        .map-legend {
+            background: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+            font-size: 12px;
+            line-height: 1.7;
+            font-family: Arial, sans-serif;
+        }
+        .map-legend strong { font-size: 12px; }
+        .legend-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +60,66 @@
     <script>
     function setStatus(html) {
         document.getElementById("status").innerHTML = html;
+    }
+
+    // Place boundary polygons (e.g. Attika, Persia), keyed by the same
+    // ToposText place_id used in place_references. This is global,
+    // work-independent reference data -- a region's shape doesn't
+    // change depending on which text is open -- so it's loaded once
+    // from a single shared file rather than being part of any per-work
+    // shard. Falls back to an empty map (i.e. every place renders as a
+    // point) if the file doesn't exist yet, the same graceful-degrade
+    // pattern used everywhere else in this pipeline.
+    let PLACE_POLYGONS = null;
+    async function loadPlacePolygons() {
+        if (PLACE_POLYGONS !== null) return PLACE_POLYGONS;
+        try {
+            const r = await fetch(`./${DATA_DIR}/place_polygons.geojson`, { cache: "no-store" });
+            if (!r.ok) { PLACE_POLYGONS = new Map(); return PLACE_POLYGONS; }
+            const geojson = await r.json();
+            const map = new Map();
+            for (const feat of (geojson.features || [])) {
+                const pid = feat.properties && feat.properties.place_id;
+                if (pid && feat.geometry) map.set(String(pid), feat.geometry);
+            }
+            PLACE_POLYGONS = map;
+        } catch (e) {
+            console.warn("Could not load place polygon data (falling back to points only):", e);
+            PLACE_POLYGONS = new Map();
+        }
+        return PLACE_POLYGONS;
+    }
+
+    // Visual encoding for mention type. A "place" mention is the most
+    // literal (the passage names the location directly); "ethnic" and
+    // "demonym" are people/group mentions that carry an associated
+    // homeland. "person" is excluded by default upstream (see the
+    // ingestion cell) but kept here for completeness in case a caller
+    // ever passes --types=...,person.
+    const TYPE_COLORS = {
+        place: "#660000",
+        ethnic: "#3a6ea5",
+        demonym: "#b8860b",
+        person: "#5a5a5a"
+    };
+    const TYPE_LABELS = {
+        place: "Place",
+        ethnic: "Ethnic group",
+        demonym: "Demonym",
+        person: "Person (associated place)"
+    };
+    // A single place can be mentioned as more than one type across
+    // different mentions/chapters (e.g. once as a literal "place", once
+    // as an "ethnic" reference). The marker's color reflects whichever
+    // type is highest priority among that place's mentions -- the
+    // popup itself still lists every mention with its own type/color,
+    // so nothing is hidden, this just picks one color for the pin.
+    const TYPE_PRIORITY = ["place", "ethnic", "demonym", "person"];
+    function primaryTypeFor(mentions) {
+        for (const t of TYPE_PRIORITY) {
+            if (mentions.some(m => m.type === t)) return t;
+        }
+        return (mentions[0] && mentions[0].type) || "place";
     }
 
     // De-duplicates by place_id (a place mentioned several times in one
@@ -67,7 +148,24 @@
         return Array.from(byPlace.values());
     }
 
-    function renderMap(places, scopeLabel, showChapterPerMention) {
+    function addLegend(map, places) {
+        const typesPresent = new Set(places.map(p => primaryTypeFor(p.mentions)));
+        if (typesPresent.size === 0) return;
+        const legend = L.control({ position: "bottomright" });
+        legend.onAdd = function () {
+            const div = L.DomUtil.create("div", "map-legend");
+            let html = "<strong>Mention type</strong><br/>";
+            for (const t of TYPE_PRIORITY) {
+                if (!typesPresent.has(t)) continue;
+                html += `<span class="legend-dot" style="background:${TYPE_COLORS[t]};"></span>${TYPE_LABELS[t]}<br/>`;
+            }
+            div.innerHTML = html;
+            return div;
+        };
+        legend.addTo(map);
+    }
+
+    function renderMap(places, scopeLabel, showChapterPerMention, polygons) {
         document.getElementById("status").style.display = "none";
         document.getElementById("map").style.display = "block";
 
@@ -78,28 +176,66 @@
             maxZoom: 19
         }).addTo(map);
 
-        const markerOptions = { radius: 8, fillColor: "#660000", color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.85 };
-        const markers = [];
+        // Clustering matters most for wide scopes (a whole book, or an
+        // entire work) where dozens of pins can land close together;
+        // for a single-chapter view it just quietly does nothing extra
+        // since there's rarely more than a handful of places. Polygons
+        // (regions we have real boundary data for) are NOT clustered --
+        // a large region shape shouldn't get swallowed into a numbered
+        // cluster bubble alongside nearby point markers.
+        const clusterGroup = L.markerClusterGroup({
+            maxClusterRadius: 40,
+            spiderfyOnMaxZoom: true
+        });
+        const polygonLayers = [];
 
         for (const p of places) {
-            const marker = L.circleMarker([p.lat, p.lon], markerOptions);
+            const primaryType = primaryTypeFor(p.mentions);
+            const color = TYPE_COLORS[primaryType] || TYPE_COLORS.place;
+
             const mentionList = p.mentions
-                .map(m => showChapterPerMention
-                    ? `${m.name} <span style="color:#888;">(${m.type}, ${m.chapter})</span>`
-                    : `${m.name} <span style="color:#888;">(${m.type})</span>`)
+                .map(m => {
+                    const dot = `<span class="legend-dot" style="background:${TYPE_COLORS[m.type] || '#999'};"></span>`;
+                    return showChapterPerMention
+                        ? `${dot}${m.name} <span style="color:#888;">(${m.type}, ${m.chapter})</span>`
+                        : `${dot}${m.name} <span style="color:#888;">(${m.type})</span>`;
+                })
                 .join("<br/>");
-            marker.bindPopup(
+            const popupHtml =
                 `<div style="font-size:14px;"><strong>${p.place_name}</strong><br/>` +
-                `<span style="color:#888;">Mentioned in ${scopeLabel} as:</span><br/>${mentionList}</div>`
-            );
-            marker.addTo(map);
-            markers.push(marker);
+                `<span style="color:#888;">Mentioned in ${scopeLabel} as:</span><br/>${mentionList}</div>`;
+
+            const geometry = polygons.get(String(p.place_id));
+            if (geometry) {
+                // A region we have a real boundary for (e.g. Attika,
+                // Persia) renders as its actual shape instead of a
+                // single representative point.
+                const layer = L.geoJSON({ type: "Feature", geometry, properties: {} }, {
+                    style: { color: color, weight: 2, fillColor: color, fillOpacity: 0.25 }
+                });
+                layer.bindPopup(popupHtml);
+                layer.addTo(map);
+                polygonLayers.push(layer);
+            } else {
+                const marker = L.circleMarker([p.lat, p.lon],
+                    { radius: 8, fillColor: color, color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.85 });
+                marker.bindPopup(popupHtml);
+                clusterGroup.addLayer(marker);
+            }
+        }
+        map.addLayer(clusterGroup);
+
+        // Combine bounds from points (via the cluster group) and
+        // polygons, so the view fits everything present rather than
+        // just whichever kind happens to exist in this scope.
+        const allBounds = L.latLngBounds([]);
+        if (clusterGroup.getLayers().length > 0) allBounds.extend(clusterGroup.getBounds());
+        polygonLayers.forEach(layer => allBounds.extend(layer.getBounds()));
+        if (allBounds.isValid()) {
+            map.fitBounds(allBounds, { padding: [50, 50] });
         }
 
-        if (markers.length > 0) {
-            const group = L.featureGroup(markers);
-            map.fitBounds(group.getBounds(), { padding: [50, 50] });
-        }
+        addLegend(map, places);
     }
 
     async function main() {
@@ -116,8 +252,25 @@
         }
 
         const scopeLabel = chapter ? chapter : (book ? `Book ${book}` : "the entire work");
+
+        // Display name comes from catalog.json (already fetched/cached by
+        // the shared loadCatalog(), same data the main reader's splash
+        // page uses) rather than a hardcoded map -- so this page never
+        // needs its own copy of author/title data to keep in sync.
+        let displayName = workKey;
+        try {
+            const catalog = await loadCatalog();
+            const meta = (catalog.works || {})[workKey];
+            const author = meta ? (catalog.authors || {})[meta.textgroup] : null;
+            const title = meta ? meta.title : null;
+            if (author && title) displayName = `${author}, ${title}`;
+            else if (title) displayName = title;
+        } catch (e) {
+            console.warn("Could not load catalog.json for display name:", e);
+        }
+
         document.getElementById("passage-title").textContent =
-            `${workKey.replace(".", " ")} \u2014 ${scopeLabel}`;
+            `${displayName} \u2014 ${scopeLabel}`;
 
         setStatus("Loading map data\u2026");
 
@@ -132,7 +285,7 @@
 
             let rows;
             try {
-                if (chapter) rows = placesForChapter(db, chapter);
+                if (chapter) rows = placesForChapter(db, chapter, book);
                 else if (book) rows = placesForBook(db, book);
                 else rows = placesForWork(db);
             } catch (e) {
@@ -156,7 +309,8 @@
             }
 
             const places = groupByPlace(rows);
-            renderMap(places, scopeLabel, !chapter);
+            const polygons = await loadPlacePolygons();
+            renderMap(places, scopeLabel, !chapter, polygons);
 
         } catch (e) {
             console.error(e);

@@ -61,7 +61,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (trans. Pizzi selections, 1883)"
+   "label": "English (trans. Pizzi selections, 1883)",
+   "title": "English (trans. Pizzi selections, 1883)"
   },
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
@@ -80,7 +81,7 @@
       "7",
       "8"
      ],
-     "bytes": 87552000
+     "bytes": 87556096
     }
    ],
    "annotations": {
@@ -189,7 +190,8 @@
      "text_class": "latin-text"
     }
    ],
-   "label": "English (C. F. Smith, 1919)"
+   "label": "English (C. F. Smith, 1919)",
+   "title": "History"
   },
   "tlg0011.tlg001": {
    "textgroup": "tlg0011",
@@ -311,7 +313,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Trachiniai"
   },
   "tlg0011.tlg002": {
    "textgroup": "tlg0011",
@@ -498,7 +501,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Antigone"
   },
   "tlg0011.tlg003": {
    "textgroup": "tlg0011",
@@ -619,7 +623,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Ajax"
   },
   "tlg0011.tlg004": {
    "textgroup": "tlg0011",
@@ -741,7 +746,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Sir Richard Jebb, 1904)"
+   "label": "English (Sir Richard Jebb, 1904)",
+   "title": "Oedipus Rex"
   },
   "tlg0011.tlg005": {
    "textgroup": "tlg0011",
@@ -870,7 +876,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Electra"
   },
   "tlg0011.tlg006": {
    "textgroup": "tlg0011",
@@ -986,7 +993,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Philoctetes"
   },
   "tlg0011.tlg007": {
    "textgroup": "tlg0011",
@@ -1099,7 +1107,8 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)"
+   "label": "Commentary (R. C. Jebb)",
+   "title": "Oedipus at Colonus"
   },
   "tlg0012.tlg001": {
    "textgroup": "tlg0012",
@@ -1131,7 +1140,7 @@
       "20",
       "21"
      ],
-     "bytes": 91500544
+     "bytes": 91721728
     },
     {
      "part": 2,
@@ -1141,7 +1150,7 @@
       "23",
       "24"
      ],
-     "bytes": 16048128
+     "bytes": 16068608
     }
    ],
    "annotations": {
@@ -1229,7 +1238,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (A.T. Murray, 1924)"
+   "label": "English (A.T. Murray, 1924)",
+   "title": "Iliad"
   },
   "tlg0012.tlg002": {
    "textgroup": "tlg0012",
@@ -1352,7 +1362,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (A.T. Murray, 1924)"
+   "label": "English (A.T. Murray, 1924)",
+   "title": "Odyssey"
   },
   "tlg0020.tlg001": {
    "textgroup": "tlg0020",
@@ -1427,7 +1438,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Hugh G. Evelyn-White, 1914)"
+   "label": "English (Hugh G. Evelyn-White, 1914)",
+   "title": "Theogony"
   },
   "tlg0020.tlg002": {
    "textgroup": "tlg0020",
@@ -1496,7 +1508,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Hugh G. Evelyn-White, 1914)"
+   "label": "English (Hugh G. Evelyn-White, 1914)",
+   "title": "Works and Days"
   },
   "tlg0020.tlg003": {
    "textgroup": "tlg0020",
@@ -1552,7 +1565,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Hugh G. Evelyn-White, 1914)"
+   "label": "English (Hugh G. Evelyn-White, 1914)",
+   "title": "Shield of Heracles"
   },
   "tlg0085.tlg001": {
    "textgroup": "tlg0085",
@@ -1701,7 +1715,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Suppliant Women"
   },
   "tlg0085.tlg002": {
    "textgroup": "tlg0085",
@@ -1835,7 +1850,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Persians"
   },
   "tlg0085.tlg003": {
    "textgroup": "tlg0085",
@@ -1937,7 +1953,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Prometheus Bound"
   },
   "tlg0085.tlg004": {
    "textgroup": "tlg0085",
@@ -2051,7 +2068,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Seven Against Thebes"
   },
   "tlg0085.tlg005": {
    "textgroup": "tlg0085",
@@ -2200,7 +2218,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Agamemnon"
   },
   "tlg0085.tlg006": {
    "textgroup": "tlg0085",
@@ -2329,7 +2348,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Libation Bearers"
   },
   "tlg0085.tlg007": {
    "textgroup": "tlg0085",
@@ -2442,7 +2462,8 @@
      "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)"
+   "label": "English (Herbert Weir Smyth, 1926)",
+   "title": "Eumenides"
   },
   "tlg0086.tlg034": {
    "textgroup": "tlg0086",
@@ -2609,7 +2630,16 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Arabic (Abū Bishr Mattā, c. 900)"
+   "label": "Arabic (Abū Bishr Mattā, c. 900)",
+   "title": "Poetics"
   }
+ },
+ "authors": {
+  "tlg0003": "Thucydides",
+  "tlg0011": "Sophocles",
+  "tlg0012": "Homer",
+  "tlg0020": "Hesiod",
+  "tlg0085": "Aeschylus",
+  "tlg0086": "Aristotle"
  }
 }

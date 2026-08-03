@@ -398,70 +398,36 @@ function metricalForChapter(db, version, chapter) {
 // index (see the place_references ingestion cell). Unlike treebank/metrical
 // data, this isn't per-edition -- a work has one place index regardless of
 // which translation/edition column is showing -- so there's no version_id
-// filter, just chapter. Returns one row per (mention, place) pair; the same
-// place can legitimately appear more than once if it's mentioned more than
-// once in the same chapter (e.g. "Athens" named twice in one paragraph) --
+// filter. `book` is optional (pass it whenever the reader has one selected,
+// same as getChapterDataPayload's own "AND book=?" pattern) -- prose rows
+// always have a NULL book in place_references and match on chapter alone
+// regardless of what book is passed, since their chapter is already the
+// self-disambiguating folded "book.chapter" string; poetry rows have a
+// real book value and only match when it agrees, since bare card labels
+// like "1-21" legitimately recur across different books. Returns one row
+// per (mention, place) pair; the same place can legitimately appear more
+// than once if it's mentioned more than once in the same chapter --
 // callers that want one pin per place should de-duplicate by place_id.
-// Detects a line-range chapter value (poetry works are navigated by
-// multi-line "card" ranges, not single lines) in any of the shapes the
-// reader can produce: bookless "0-39", book-scoped shorthand
-// "1.371-403", or fully-spelled "1.371-1.403". Returns {book, start,
-// end} (book is null for bookless works) or null if `chapter` isn't a
-// range at all (the ordinary single-citation case).
-function _parseLineRangeChapter(chapter) {
-    if (typeof chapter !== "string") return null;
-    // Accept a plain hyphen as well as en-dash/em-dash, in case the
-    // reader's own display renders ranges with typographic dashes
-    // rather than a plain "-".
-    const dashChars = ["-", "\u2013", "\u2014"];
-    const dashIdx = Math.min(...dashChars.map(d => {
-        const i = chapter.indexOf(d);
-        return i === -1 ? Infinity : i;
-    }));
-    if (!Number.isFinite(dashIdx)) return null;
-    const rawStart = chapter.slice(0, dashIdx);
-    const rawEnd = chapter.slice(dashIdx + 1);
-    const startParts = rawStart.split(".");
-    const endParts = rawEnd.split(".");
-    const book = startParts.length > 1 ? startParts[0] : null;
-    const start = parseInt(startParts[startParts.length - 1], 10);
-    const end = parseInt(endParts[endParts.length - 1], 10);
-    if (Number.isNaN(start) || Number.isNaN(end)) return null;
-    return { book, start, end };
-}
-function placesForChapter(db, chapter) {
-    const range = _parseLineRangeChapter(chapter);
-    if (range) {
-        // ToposText's own citations are single lines, always finer-
-        // grained than a card range -- so a range is handled by pulling
-        // every row for the containing book (or the whole work, if
-        // bookless) and keeping only the ones whose own line number
-        // falls inside [start, end], rather than trying to match the
-        // range string itself against anything.
-        const candidates = range.book ? placesForBook(db, range.book) : placesForWork(db);
-        return candidates.filter(r => {
-            const lineParts = String(r.chapter).split(".");
-            const line = parseInt(lineParts[lineParts.length - 1], 10);
-            return !Number.isNaN(line) && line >= range.start && line <= range.end;
-        });
-    }
+function placesForChapter(db, chapter, book) {
     return queryAll(db,
-        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
-        "FROM place_references WHERE chapter=?",
-        [chapter]);
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book " +
+        "FROM place_references WHERE chapter=? AND (? IS NULL OR book IS NULL OR book=?)",
+        [chapter, book || null, book || null]);
 }
-// All places attested anywhere in a given book, for multi-book works
-// whose chapter column is the folded "book.chapter" string (e.g.
-// Thucydides' "3.5", "3.100"). A book is every row whose chapter is
-// either exactly the book number alone (rare, but possible for a
-// book-level-only citation) or starts with "<book>." -- the LIKE
-// pattern is anchored at the start of the string, so book "3" can
-// never accidentally match "13.5" or similar.
+// All places attested anywhere in a given book. Handles both addressing
+// conventions this table can contain: poetry's real `book` column
+// (Iliad: book="2", chapter="1-15"), and prose's folded "book.chapter"
+// string with book always NULL (Thucydides: book=NULL, chapter="2.13").
+// A single work's shard only ever uses one convention, so there's no
+// collision risk in checking both -- a prose row's book is always NULL
+// (never equals the poetry-style numeric match), and a poetry row's
+// bare card-label chapter (e.g. "1-21") never contains a "." so it can
+// never spuriously match the prose-style prefix check either.
 function placesForBook(db, book) {
     return queryAll(db,
-        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
-        "FROM place_references WHERE chapter=? OR chapter LIKE ?",
-        [book, `${book}.%`]);
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book " +
+        "FROM place_references WHERE book=? OR chapter=? OR chapter LIKE ?",
+        [book, book, `${book}.%`]);
 }
 // Every place attested anywhere in the work, for bookless works (e.g.
 // Agamemnon) where there's no book to scope to -- the natural "show
