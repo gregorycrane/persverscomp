@@ -707,7 +707,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 11104256
+     "bytes": 11112448
     }
    ],
    "annotations": {
@@ -1068,11 +1068,11 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 2469888
+     "bytes": 7974912
     }
    ],
    "annotations": {
-    "treebanks": 0,
+    "treebanks": 1,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -1406,7 +1406,7 @@
       "963-1002",
       "1003-1022"
      ],
-     "bytes": 4227072
+     "bytes": 4235264
     }
    ],
    "annotations": {
@@ -1476,7 +1476,7 @@
       "765-799",
       "800-828"
      ],
-     "bytes": 3424256
+     "bytes": 3432448
     }
    ],
    "annotations": {
