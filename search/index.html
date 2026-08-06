@@ -1214,6 +1214,7 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
       ${Object.keys(byTense).length ? barCard("Verb tense", byTense) : ""}
       ${Object.keys(byMoodVoice).length ? barCard("Verb mood / voice", byMoodVoice) : ""}
     </div>
+    ${clusterCard(matches, searchedWorkKeys)}
     ${glossByTermTable(matches, terms, mode)}
     ${lemmaWorkTable(matches, searchedWorkKeys)}`;
   dash.classList.add("open");
@@ -1654,6 +1655,202 @@ function wilsonInterval(x, n, z = 1.96) {
   const margin = z * Math.sqrt((phat * (1 - phat)) / n + z2 / (4 * n * n));
   return [Math.max(0, (center - margin) / denom), Math.min(1, (center + margin) / denom)];
 }
+
+// ── Cluster-by-position card: does this match set concentrate in a subset
+// of a work (books, for Homer/Thucydides-style multi-book works; roughly
+// equal position-bins otherwise, e.g. tragedies with no book structure)?
+// Collapsed behind a <details> by default -- same convention as
+// work-filter-details -- so it costs zero space until opened, and the
+// per-work bucket-count query (one SQL scan of the already-loaded shard)
+// only runs then, not on every search.
+//
+// Reuses the existing significance machinery unchanged: compareTwoProportions
+// (z-test with Fisher's exact fallback) tests each bucket against the REST
+// of the work (leave-one-out, so a bucket's own hits don't inflate the
+// baseline it's being compared to). Benjamini-Hochberg correction is applied
+// across all buckets of a work at once, since a work with e.g. 24 books is
+// running 24 simultaneous tests -- without correction, roughly one book in
+// twenty would look "significant" by chance alone even under a true null.
+
+const BUCKET_COUNTS_CACHE = new Map(); // workKey -> [{key, label, n}], memoized per work
+
+// Runs once per work (cached): groups treebank_tokens by subdoc, resolving
+// each subdoc into either a book number (if any subdoc in this work contains
+// a ".", e.g. "17.485") or a position-bin (if subdocs are bare line numbers,
+// e.g. "134" -- no book structure to key off, so fall back to ~10 equal bins
+// spanning the observed line-number range instead).
+function getBucketCounts(workKey) {
+  if (BUCKET_COUNTS_CACHE.has(workKey)) return BUCKET_COUNTS_CACHE.get(workKey);
+  const shard = SHARDS.get(workKey);
+  if (!shard) return [];
+
+  const subdocCounts = new Map(); // raw subdoc -> token count
+  for (const db of shard.dbs) {
+    let rows;
+    try {
+      rows = queryAll(db, "SELECT subdoc, COUNT(*) AS n FROM treebank_tokens WHERE subdoc IS NOT NULL GROUP BY subdoc");
+    } catch (e) {
+      continue; // shard predates subdoc column or treebank_tokens entirely
+    }
+    for (const r of rows) subdocCounts.set(r.subdoc, (subdocCounts.get(r.subdoc) || 0) + r.n);
+  }
+  if (subdocCounts.size === 0) { BUCKET_COUNTS_CACHE.set(workKey, []); return []; }
+
+  const hasDots = Array.from(subdocCounts.keys()).some(s => s.includes("."));
+  let buckets;
+
+  // Try book-mode first if any subdoc looks book-structured, but don't trust
+  // that alone: a single-document work can still have a handful of subdocs
+  // with a "." for unrelated reasons (e.g. apparatus refs like "1200.1" for
+  // an inserted/uncertain line) without actually having books. If splitting
+  // on "." produces an unreasonable number of buckets (no real classical
+  // text has more than a couple dozen books), that's a strong signal this
+  // is really a single-document work with a few decimal-style outliers, not
+  // book structure -- fall back to position-binning instead.
+  const MAX_PLAUSIBLE_BOOKS = 30;
+  let hasBooks = false;
+
+  if (hasDots) {
+    const byBook = new Map();
+    for (const [subdoc, n] of subdocCounts) {
+      const book = subdoc.split(".")[0];
+      byBook.set(book, (byBook.get(book) || 0) + n);
+    }
+    if (byBook.size <= MAX_PLAUSIBLE_BOOKS) {
+      hasBooks = true;
+      buckets = Array.from(byBook.entries())
+        .map(([book, n]) => ({ key: book, label: `Bk ${book}`, n }))
+        .sort((a, b) => (Number(a.key) || 0) - (Number(b.key) || 0));
+    }
+  }
+
+  if (!hasBooks) {
+    // Position-binning: parse the FULL numeric value of each subdoc (not
+    // just a prefix), so decimal apparatus refs like "1200.1" land in the
+    // correct fractional position rather than being misread as a new book.
+    const lines = Array.from(subdocCounts.keys())
+      .map(s => ({ line: parseFloat(s), n: subdocCounts.get(s) }))
+      .filter(r => !isNaN(r.line));
+    if (lines.length === 0) { BUCKET_COUNTS_CACHE.set(workKey, []); return []; }
+
+    const minLine = Math.min(...lines.map(r => r.line));
+    const maxLine = Math.max(...lines.map(r => r.line));
+    const NUM_BINS = 10;
+    const span = Math.max(1, maxLine - minLine);
+    const binOf = line => Math.min(NUM_BINS - 1, Math.floor(((line - minLine) / span) * NUM_BINS));
+
+    const byBin = new Array(NUM_BINS).fill(0);
+    for (const r of lines) byBin[binOf(r.line)] += r.n;
+    buckets = byBin.map((n, i) => ({
+      key: String(i),
+      label: `${Math.round((i / NUM_BINS) * 100)}\u2013${Math.round(((i + 1) / NUM_BINS) * 100)}%`,
+      n,
+      _minLine: minLine,
+      _span: span,
+    }));
+  }
+
+  BUCKET_COUNTS_CACHE.set(workKey, buckets);
+  return buckets;
+}
+
+function clusterCard(matches, searchedWorkKeys) {
+  const countsByWork = countBy(matches, m => m._workKey);
+  const works = searchedWorkKeys.filter(wk => SHARDS.has(wk) && (countsByWork[wk] || 0) >= MIN_TOTAL_FOR_SIG);
+  if (works.length === 0) return "";
+
+  const rowsHtml = works.map(wk => {
+    const buckets = getBucketCounts(wk);
+    if (buckets.length < 2) return "";
+
+    const hasBooks = buckets.some(b => b.label.startsWith("Bk"));
+    const wkMatches = matches.filter(m => m._workKey === wk);
+    const totalN = buckets.reduce((s, b) => s + b.n, 0);
+    const totalHits = wkMatches.length;
+    if (totalHits < MIN_TOTAL_FOR_SIG || totalN < MIN_TOKENS_FOR_RATE) {
+      return `<div class="bar-row"><div class="bar-label">${escapeHtml(SHARDS.get(wk).label)}</div><span class="na-flag">insufficient data</span></div>`;
+    }
+
+    const minLine = hasBooks ? 0 : (buckets[0]._minLine || 0);
+    const span = hasBooks ? 1 : (buckets[0]._span || 1);
+    const NUM_BINS = buckets.length;
+
+    const hitsByBucket = new Map(buckets.map(b => [b.key, 0]));
+    for (const m of wkMatches) {
+      if (!m.subdoc) continue;
+      let key;
+      if (hasBooks) {
+        key = m.subdoc.split(".")[0];
+      } else {
+        const line = parseFloat(m.subdoc);
+        if (isNaN(line)) continue;
+        key = String(Math.min(NUM_BINS - 1, Math.floor(((line - minLine) / span) * NUM_BINS)));
+      }
+      if (hitsByBucket.has(key)) hitsByBucket.set(key, hitsByBucket.get(key) + 1);
+    }
+
+    // Leave-one-out significance per bucket, then BH correction across all
+    // buckets of this work.
+    const pvals = buckets.map(b => {
+      const k = hitsByBucket.get(b.key) || 0;
+      const restHits = totalHits - k;
+      const restN = totalN - b.n;
+      if (b.n < 1 || restN < 1) return 1;
+      const { p } = compareTwoProportions(k, b.n, restHits, restN);
+      return p;
+    });
+    const sig = benjaminiHochberg(pvals, 0.05);
+
+    const rates = buckets.map(b => (b.n ? ((hitsByBucket.get(b.key) || 0) / b.n) * 1000 : 0));
+    const maxRate = Math.max(...rates, 1e-9);
+    const cellsHtml = buckets.map((b, i) => {
+      const k = hitsByBucket.get(b.key) || 0;
+      const rate = rates[i];
+      const intensity = Math.min(1, rate / maxRate);
+      const bg = k === 0 ? "#f0f0f0" : `rgba(102,0,0,${(0.15 + intensity * 0.7).toFixed(2)})`;
+      const border = sig[i] ? "2px solid var(--maroon)" : "1px solid #ddd";
+      const tooltip = `${b.label}: ${k} hit${k === 1 ? "" : "s"} / ${b.n} tokens (${rate.toFixed(2)}\u2030)` +
+        (sig[i] ? " \u2014 significant after correction" : "");
+      return `<div class="cluster-cell" title="${escapeHtml(tooltip)}" style="flex:1;height:22px;background:${bg};border:${border};border-radius:2px"></div>`;
+    }).join("");
+
+    return `
+      <div class="bar-row" style="align-items:center">
+        <div class="bar-label" title="${escapeHtml(SHARDS.get(wk).label)}">${escapeHtml(SHARDS.get(wk).label)}</div>
+        <div style="display:flex;gap:2px;flex:1">${cellsHtml}</div>
+      </div>`;
+  }).join("");
+
+  return `
+    <details id="cluster-details" style="margin-top:16px">
+      <summary style="cursor:pointer;font-size:12px;color:var(--maroon)">Where do these cluster? (by book / position in work)</summary>
+      <div class="dash-card" style="flex-basis:100%;margin-top:8px">
+        ${rowsHtml}
+        <div class="card-note">
+          Darker = higher rate in that book/segment. Maroon border = significantly different from the rest of
+          the work (two-proportion test, Benjamini-Hochberg corrected across all segments of that work).
+        </div>
+      </div>
+    </details>`;
+}
+
+// Minimal Benjamini-Hochberg FDR correction. Returns an array of booleans
+// (same order as input pvalues) -- true where the corrected p-value is
+// still <= alpha.
+function benjaminiHochberg(pvalues, alpha = 0.05) {
+  const n = pvalues.length;
+  const indexed = pvalues.map((p, i) => ({ p, i })).sort((a, b) => a.p - b.p);
+  const corrected = new Array(n);
+  let runningMin = 1;
+  for (let rank = n; rank >= 1; rank--) {
+    const { p, i } = indexed[rank - 1];
+    const adj = Math.min(runningMin, (p * n) / rank);
+    runningMin = adj;
+    corrected[i] = adj;
+  }
+  return corrected.map(p => p <= alpha);
+}
+
 
 function countBy(arr, fn) {
   const m = {};
