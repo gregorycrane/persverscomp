@@ -29,7 +29,7 @@
       "19",
       "20"
      ],
-     "bytes": 14098432
+     "bytes": 14139392
     }
    ],
    "annotations": {
@@ -64,6 +64,54 @@
    "label": "English (trans. Pizzi selections, 1883)",
    "title": "English (trans. Pizzi selections, 1883)"
   },
+  "phi0620.phi001": {
+   "textgroup": "phi0620",
+   "work": "phi001",
+   "parts": [
+    {
+     "part": 1,
+     "file": "phi0620.phi001.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "bytes": 13008896
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "perseus-tb-lat1",
+     "urn": "urn:cts:latinLit:phi0620.phi001.perseus-tb-lat1",
+     "label": "Treebank (Perseus AGDT)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "butler1912-lat1",
+     "urn": "urn:cts:latinLit:phi0620.phi001.butler1912-lat1",
+     "label": "Latin (H. E. Butler, ed. 1912)",
+     "doc_type": "edition",
+     "text_class": "latin-text"
+    },
+    {
+     "short_id": "butler1912-eng1",
+     "urn": "urn:cts:latinLit:phi0620.phi001.butler1912-eng1",
+     "label": "English (H. E. Butler, 1912)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (H. E. Butler, 1912)",
+   "title": "Elegies"
+  },
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
@@ -81,7 +129,7 @@
       "7",
       "8"
      ],
-     "bytes": 87556096
+     "bytes": 87728128
     }
    ],
    "annotations": {
@@ -230,7 +278,7 @@
       "656-662",
       "663-709"
      ],
-     "bytes": 2658304
+     "bytes": 290816
     }
    ],
    "annotations": {
@@ -343,7 +391,7 @@
       "1118-1158",
       "1159-1163"
      ],
-     "bytes": 4116480
+     "bytes": 417792
     }
    ],
    "annotations": {
@@ -448,7 +496,7 @@
       "1361-1388",
       "1389-1419"
      ],
-     "bytes": 4976640
+     "bytes": 471040
     }
    ],
    "annotations": {
@@ -533,7 +581,7 @@
       "1018-1052",
       "1053-1055"
      ],
-     "bytes": 3833856
+     "bytes": 385024
     }
    ],
    "annotations": {
@@ -647,7 +695,7 @@
       "1431-1461",
       "1462-1466"
      ],
-     "bytes": 5128192
+     "bytes": 487424
     }
    ],
    "annotations": {
@@ -752,7 +800,7 @@
       "1231-1283",
       "1284-1288"
      ],
-     "bytes": 1073152
+     "bytes": 434176
     }
    ],
    "annotations": {
@@ -845,7 +893,7 @@
       "1252-1292",
       "1293-1295"
      ],
-     "bytes": 4513792
+     "bytes": 442368
     }
    ],
    "annotations": {
@@ -952,7 +1000,7 @@
       "1196-1231",
       "1232-1234"
      ],
-     "bytes": 4415488
+     "bytes": 438272
     }
    ],
    "annotations": {
@@ -1024,7 +1072,7 @@
       "815-1015",
       "1016-1428"
      ],
-     "bytes": 4923392
+     "bytes": 413696
     }
    ],
    "annotations": {
@@ -1126,7 +1174,7 @@
       "1571-1605",
       "1606-1622"
      ],
-     "bytes": 5332992
+     "bytes": 569344
     }
    ],
    "annotations": {
@@ -1232,7 +1280,7 @@
       "1302-1316",
       "1317-1332"
      ],
-     "bytes": 4456448
+     "bytes": 450560
     }
    ],
    "annotations": {
@@ -1338,7 +1386,7 @@
       "1292-1320",
       "1321-1359"
      ],
-     "bytes": 4808704
+     "bytes": 462848
     }
    ],
    "annotations": {
@@ -1432,7 +1480,7 @@
       "1475-1489",
       "1490-1499"
      ],
-     "bytes": 5255168
+     "bytes": 499712
     }
    ],
    "annotations": {
@@ -1535,7 +1583,7 @@
       "1642-1687",
       "1688-1692"
      ],
-     "bytes": 6156288
+     "bytes": 565248
     }
    ],
    "annotations": {
@@ -1640,7 +1688,7 @@
       "1758-1763",
       "1764-1766"
      ],
-     "bytes": 6184960
+     "bytes": 569344
     }
    ],
    "annotations": {
@@ -1744,7 +1792,7 @@
       "1666-1681",
       "1682-1693"
      ],
-     "bytes": 6328320
+     "bytes": 577536
     }
    ],
    "annotations": {
@@ -1838,7 +1886,7 @@
       "1330-1367",
       "1368-1392"
      ],
-     "bytes": 4771840
+     "bytes": 466944
     }
    ],
    "annotations": {
@@ -1944,7 +1992,7 @@
       "1621-1626",
       "1627-1629"
      ],
-     "bytes": 6053888
+     "bytes": 577536
     }
    ],
    "annotations": {
@@ -2043,7 +2091,7 @@
       "952-992",
       "993-996"
      ],
-     "bytes": 3600384
+     "bytes": 561152
     }
    ],
    "annotations": {
@@ -2159,7 +2207,7 @@
       "1230-1258",
       "1259-1278"
      ],
-     "bytes": 9736192
+     "bytes": 1351680
     }
    ],
    "annotations": {
@@ -2298,7 +2346,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 11632640
+     "bytes": 3198976
     }
    ],
    "annotations": {
@@ -2469,7 +2517,7 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 10903552
+     "bytes": 1605632
     }
    ],
    "annotations": {
@@ -2599,7 +2647,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 11284480
+     "bytes": 532480
     }
    ],
    "annotations": {
@@ -2722,7 +2770,7 @@
       "1491-1507",
       "1508-1510"
      ],
-     "bytes": 11968512
+     "bytes": 1740800
     }
    ],
    "annotations": {
@@ -2839,7 +2887,7 @@
       "1408-1444",
       "1445-1471"
      ],
-     "bytes": 12001280
+     "bytes": 1527808
     }
    ],
    "annotations": {
@@ -2960,7 +3008,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 14176256
+     "bytes": 2469888
     }
    ],
    "annotations": {
@@ -3036,7 +3084,7 @@
       "371-378",
       "379-419"
      ],
-     "bytes": 1232896
+     "bytes": 184320
     }
    ],
    "annotations": {
@@ -3101,7 +3149,7 @@
       "20",
       "21"
      ],
-     "bytes": 91725824
+     "bytes": 92418048
     },
     {
      "part": 2,
@@ -3111,7 +3159,7 @@
       "23",
       "24"
      ],
-     "bytes": 16072704
+     "bytes": 15773696
     }
    ],
    "annotations": {
@@ -3235,7 +3283,7 @@
       "23",
       "24"
      ],
-     "bytes": 83226624
+     "bytes": 83533824
     }
    ],
    "annotations": {
@@ -3367,7 +3415,7 @@
       "963-1002",
       "1003-1022"
      ],
-     "bytes": 4235264
+     "bytes": 413696
     }
    ],
    "annotations": {
@@ -3437,7 +3485,7 @@
       "765-799",
       "800-828"
      ],
-     "bytes": 3432448
+     "bytes": 307200
     }
    ],
    "annotations": {
@@ -3494,7 +3542,7 @@
       "402-442",
       "443-480"
      ],
-     "bytes": 1937408
+     "bytes": 212992
     }
    ],
    "annotations": {
@@ -3644,7 +3692,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 2969600
+     "bytes": 2977792
     }
    ],
    "annotations": {
@@ -3779,7 +3827,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3121152
+     "bytes": 3129344
     }
    ],
    "annotations": {
@@ -3882,7 +3930,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 3702784
+     "bytes": 393216
     }
    ],
    "annotations": {
@@ -3997,7 +4045,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3080192
+     "bytes": 3084288
     }
    ],
    "annotations": {
@@ -4140,7 +4188,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 5365760
+     "bytes": 835584
     }
    ],
    "annotations": {
@@ -4277,7 +4325,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 3424256
+     "bytes": 405504
     }
    ],
    "annotations": {
@@ -4391,7 +4439,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 3309568
+     "bytes": 385024
     }
    ],
    "annotations": {
@@ -4461,7 +4509,7 @@
       "25",
       "26"
      ],
-     "bytes": 19234816
+     "bytes": 19263488
     }
    ],
    "annotations": {
@@ -4603,6 +4651,7 @@
   }
  },
  "authors": {
+  "phi0620": "Propertius",
   "tlg0003": "Thucydides",
   "tlg0006": "Euripides",
   "tlg0011": "Sophocles",
