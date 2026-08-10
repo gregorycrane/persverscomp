@@ -77,7 +77,7 @@
       "3",
       "4"
      ],
-     "bytes": 12587008
+     "bytes": 13701120
     }
    ],
    "annotations": {
@@ -95,16 +95,16 @@
      "text_class": "treebank-text"
     },
     {
-     "short_id": "perseus-lat3",
-     "urn": "urn:cts:latinLit:phi0620.phi001.perseus-lat3",
-     "label": "Latin (Lucian Muller, ed. 1898)",
+     "short_id": "butler1912-lat1",
+     "urn": "urn:cts:latinLit:phi0620.phi001.butler1912-lat1",
+     "label": "Latin (H. E. Butler, ed. 1912)",
      "doc_type": "edition",
      "text_class": "latin-text"
     },
     {
-     "short_id": "butler1912-lat1",
-     "urn": "urn:cts:latinLit:phi0620.phi001.butler1912-lat1",
-     "label": "Latin (H. E. Butler, ed. 1912)",
+     "short_id": "perseus-lat3",
+     "urn": "urn:cts:latinLit:phi0620.phi001.perseus-lat3",
+     "label": "Latin (Lucian Muller, ed. 1898)",
      "doc_type": "edition",
      "text_class": "latin-text"
     },
