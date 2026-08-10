@@ -29,7 +29,7 @@
       "19",
       "20"
      ],
-     "bytes": 14139392
+     "bytes": 14135296
     }
    ],
    "annotations": {
@@ -77,7 +77,7 @@
       "3",
       "4"
      ],
-     "bytes": 13008896
+     "bytes": 12587008
     }
    ],
    "annotations": {
@@ -93,6 +93,13 @@
      "label": "Treebank (Perseus AGDT)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-lat3",
+     "urn": "urn:cts:latinLit:phi0620.phi001.perseus-lat3",
+     "label": "Latin (Lucian Muller, ed. 1898)",
+     "doc_type": "edition",
+     "text_class": "latin-text"
     },
     {
      "short_id": "butler1912-lat1",
@@ -127,9 +134,11 @@
       "5",
       "6",
       "7",
-      "8"
+      "8",
+      "back",
+      "front"
      ],
-     "bytes": 87728128
+     "bytes": 95739904
     }
    ],
    "annotations": {
@@ -1930,8 +1939,8 @@
      "file": "tlg0006.tlg018.part1.db",
      "chapters": [
       "0-79",
-      "80-114",
       "1-48",
+      "80-114",
       "115-163",
       "164-184",
       "185-205",
@@ -3149,7 +3158,7 @@
       "20",
       "21"
      ],
-     "bytes": 92418048
+     "bytes": 92471296
     },
     {
      "part": 2,
@@ -3159,7 +3168,7 @@
       "23",
       "24"
      ],
-     "bytes": 15773696
+     "bytes": 15851520
     }
    ],
    "annotations": {
@@ -3283,7 +3292,7 @@
       "23",
       "24"
      ],
-     "bytes": 83533824
+     "bytes": 83623936
     }
    ],
    "annotations": {
@@ -4315,8 +4324,8 @@
       "946-951",
       "953-960",
       "961-964",
-      "965-971",
       "962-972",
+      "965-971",
       "973-1006",
       "1007-1009",
       "1010-1017",
@@ -4509,7 +4518,7 @@
       "25",
       "26"
      ],
-     "bytes": 19263488
+     "bytes": 19320832
     }
    ],
    "annotations": {
