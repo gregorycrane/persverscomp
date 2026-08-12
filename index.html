@@ -1010,6 +1010,31 @@
     }
     function _jp(s, fb) { try { return JSON.parse(s); } catch (e) { return fb; } }
 
+    // Cache of column-existence checks per table, since PRAGMA table_info is
+    // static for a given shard/session and this can get called once per
+    // treebank hydration. Needed because a corpus can legitimately be in a
+    // mixed state during a staged rebuild -- some works' shards carry the
+    // newer `book` column on treebank_sentences, others (not yet rebuilt)
+    // don't -- and a query that unconditionally selects a column absent from
+    // an older shard throws, which _dbRows swallows into a silent [], making
+    // that work's treebank vanish entirely rather than just losing the
+    // book-qualified lookup it would have enabled.
+    const _COLUMN_CACHE = new Map();
+    function _hasColumn(table, col) {
+        const key = `${table}.${col}`;
+        if (_COLUMN_CACHE.has(key)) return _COLUMN_CACHE.get(key);
+        let has = false;
+        try {
+            const db = window.dbInstance;
+            if (db) {
+                const res = db.exec(`PRAGMA table_info(${table})`);
+                if (res.length) has = res[0].values.some(r => r[1] === col);
+            }
+        } catch (e) { /* leave false */ }
+        _COLUMN_CACHE.set(key, has);
+        return has;
+    }
+
     // ── Greek transliteration engine (client-side, no precomputation) ──────
     // Converts polytonic Greek Unicode text into Latin transliteration on the
     // fly. Two modes:
@@ -1224,8 +1249,13 @@
         const slash = tbKey.lastIndexOf("/");
         const [tg, work] = tbKey.slice(0, slash).split(".");
         const vid = tbKey.slice(slash + 1);
+        // Older, not-yet-rebuilt shards may not have the `book` column yet
+        // (added alongside the Propertius work -- see comment below); only
+        // request it when it actually exists, so this degrades gracefully
+        // to the pre-`book` behavior instead of finding zero rows.
+        const hasBookCol = _hasColumn('treebank_sentences', 'book');
         const rows = _dbRows(
-            "SELECT subdoc, section, chapter, book, sentence_json, prose_translation, literal_translation, transliteration, credits_json " +
+            `SELECT subdoc, section, chapter, ${hasBookCol ? 'book,' : ''} sentence_json, prose_translation, literal_translation, transliteration, credits_json ` +
             "FROM treebank_sentences WHERE textgroup=? AND work=? AND version_short_id=? ORDER BY id",
             [tg, work, vid]);
         let out = null;
@@ -2878,11 +2908,37 @@ function initializeRoutingFromURL() {
             }, 50);
         }
         updateDiffToggleVisibility();
-        if (diffEnabled && !activePairId) {
+        // NOTE: previously gated on `!activePairId` too (skip reapply
+        // whenever ANY alignment pair is active, regardless of which
+        // columns), on the theory that diffing would destroy alignment
+        // token spans. Confirmed by direct test that this isn't actually
+        // true in practice -- manually toggling the diff checkbox while an
+        // unrelated alignment pair (Bywater GRC <-> Butcher ENG) was active
+        // cleanly applied 13 diffs with no corruption, because the columns
+        // being diffed (F/C3, both Greek) were entirely different from the
+        // columns holding the alignment (grc1/eng2). onDiffToggle (the
+        // manual path) never had this check and was always the one actually
+        // working; the automatic reapply was needlessly stricter than the
+        // path it's supposed to mirror. Dropped to match.
+        if (diffEnabled) {
             // Diff a single pair only — see onDiffToggle. Rendering every pairwise
             // combination overwrites shared column DOM and lights up identical neighbours.
-            const pairs = findSameLangColumnPairs();
-            if (pairs.length > 0) applyColumnDiff(pairs[0].leftPrefix, pairs[0].rightPrefix);
+            //
+            // Deferred one frame: this runs synchronously in the same tick as
+            // the appendChild calls just above that built the new chapter's
+            // content, whereas the manual "uncheck, then recheck the diff
+            // checkbox" workaround runs as a separate later browser event --
+            // i.e. always after the browser has settled the just-inserted
+            // DOM. Deferring via requestAnimationFrame makes the automatic
+            // re-apply match that same timing rather than racing it, which
+            // is the working theory for why navigating to a new chunk left
+            // the checkbox checked but nothing highlighted, requiring the
+            // manual uncheck/recheck to actually see a diff.
+            requestAnimationFrame(() => {
+                const pairs = findSameLangColumnPairs();
+                console.log("[diff-reapply] fired. pairs:", pairs.length, pairs.map(p => p.leftPrefix+"v"+p.rightPrefix));
+                if (pairs.length > 0) applyColumnDiff(pairs[0].leftPrefix, pairs[0].rightPrefix);
+            });
         }
         
         updateURLState(payload.book, payload.chapter);
@@ -3026,24 +3082,30 @@ function initializeRoutingFromURL() {
         // Validate both columns are plain prose (not treebank/metrical)
         const leftMeta  = TEXT_REGISTRY[columnEditions[leftPrefix]];
         const rightMeta = TEXT_REGISTRY[columnEditions[rightPrefix]];
-        if (!leftMeta || !rightMeta) return;
-        if (leftMeta.doc_type  === 'treebank' || leftMeta.doc_type  === 'metrical') return;
-        if (rightMeta.doc_type === 'treebank' || rightMeta.doc_type === 'metrical') return;
+        if (!leftMeta || !rightMeta) { console.log("[diff] bail: missing TEXT_REGISTRY meta", leftPrefix, rightPrefix); return; }
+        if (leftMeta.doc_type  === 'treebank' || leftMeta.doc_type  === 'metrical') { console.log("[diff] bail: left is treebank/metrical"); return; }
+        if (rightMeta.doc_type === 'treebank' || rightMeta.doc_type === 'metrical') { console.log("[diff] bail: right is treebank/metrical"); return; }
 
         const leftCol  = document.getElementById(`content_${leftPrefix}`);
         const rightCol = document.getElementById(`content_${rightPrefix}`);
-        if (!leftCol || !rightCol) return;
+        if (!leftCol || !rightCol) { console.log("[diff] bail: missing content container", leftPrefix, rightPrefix); return; }
 
-        leftCol.querySelectorAll('.section-row').forEach(leftRow => {
+        const leftRows = leftCol.querySelectorAll('.section-row');
+        console.log(`[diff] applyColumnDiff(${leftPrefix}, ${rightPrefix}): ${leftRows.length} .section-row in left column`);
+        let matchedRows = 0, proseRows = 0, poetryRows = 0, diffsApplied = 0;
+
+        leftRows.forEach(leftRow => {
             const secClass = [...leftRow.classList].find(c => c.startsWith('s-idx-'));
             if (!secClass) return;
             const rightRow = rightCol.querySelector(`.${secClass}`);
             if (!rightRow) return;
+            matchedRows++;
 
             const leftBody  = leftRow.querySelector('.prose-body-inline');
             const rightBody = rightRow.querySelector('.prose-body-inline');
 
             if (leftBody && rightBody) {
+                proseRows++;
                 // ── Prose: one diff across the whole card's text ──
                 const leftToks  = _diffTokensFromCell(leftBody);
                 const rightToks = _diffTokensFromCell(rightBody);
@@ -3052,33 +3114,79 @@ function initializeRoutingFromURL() {
                 const {leftOut, rightOut} = tokenDiff(leftToks, rightToks);
                 const hasDiff = leftOut.some(x => x.type !== "same") || rightOut.some(x => x.type !== "same");
                 if (!hasDiff) return;
+                diffsApplied++;
 
                 leftBody.innerHTML  = renderDiffTokens(leftOut);
                 rightBody.innerHTML = renderDiffTokens(rightOut);
                 return;
             }
 
-            // ── Poetry: diff line-by-line, matched by line number ──
+            // ── Poetry: align tokens across the WHOLE card, not line-by-line ──
+            // Editions routinely disagree about where line breaks fall --
+            // especially in lyric passages, where a print edition may break
+            // mid-word at a column width (Boeckh's Antigone: his line 100 is
+            // "...τὸ κάλ-", his 101 is "λιστον...", continuing the same word
+            // Storr prints whole on one line). Matching by line NUMBER then
+            // treats that as two "different" lines and the mismatch cascades
+            // for everything after it. Fix: flatten every line's tokens into
+            // one continuous sequence per column (tagging each token with
+            // which line it actually came from), diff that ONE sequence
+            // against the other column's, then regroup the aligned output
+            // back by original line before injecting it -- so alignment
+            // happens across the whole passage regardless of line breaks,
+            // but each edition still displays under its own correct line
+            // numbers afterward.
+            poetryRows++;
             const leftLines  = _poetryLineCells(leftRow);
             const rightLines = _poetryLineCells(rightRow);
-            if (!leftLines.size || !rightLines.size) return;
+            if (!leftLines.size || !rightLines.size) {
+                console.log(`[diff] poetry row ${secClass}: leftLines=${leftLines.size} rightLines=${rightLines.size} (no .line-num-cell found)`);
+                return;
+            }
 
-            leftLines.forEach((leftCell, lineN) => {
-                const rightCell = rightLines.get(lineN);
-                if (!rightCell) return; // this edition doesn't have this line at all -- nothing to compare
+            const flatten = (lineMap) => {
+                const flat = [];
+                lineMap.forEach((cell, lineN) => {
+                    _diffTokensFromCell(cell).forEach(tok => flat.push({tok, lineN, cell}));
+                });
+                return flat;
+            };
+            const leftFlat  = flatten(leftLines);
+            const rightFlat = flatten(rightLines);
+            if (!leftFlat.length || !rightFlat.length) return;
 
-                const leftToks  = _diffTokensFromCell(leftCell);
-                const rightToks = _diffTokensFromCell(rightCell);
-                if (!leftToks.length || !rightToks.length) return;
+            const {leftOut, rightOut} = tokenDiff(
+                leftFlat.map(x => x.tok), rightFlat.map(x => x.tok));
 
-                const {leftOut, rightOut} = tokenDiff(leftToks, rightToks);
-                const hasDiff = leftOut.some(x => x.type !== "same") || rightOut.some(x => x.type !== "same");
-                if (!hasDiff) return;
+            const hasDiff = leftOut.some(x => x.type !== "same") || rightOut.some(x => x.type !== "same");
+            if (!hasDiff) return;
+            diffsApplied++;
 
-                leftCell.innerHTML  = renderDiffTokens(leftOut);
-                rightCell.innerHTML = renderDiffTokens(rightOut);
+            // Regroup diff output back by the line it actually came from,
+            // preserving within-line order, then render each line's cell
+            // from just its own slice.
+            const regroup = (flat, out) => {
+                const byLine = new Map();
+                out.forEach((item, k) => {
+                    const lineN = flat[k].lineN;
+                    if (!byLine.has(lineN)) byLine.set(lineN, []);
+                    byLine.get(lineN).push(item);
+                });
+                return byLine;
+            };
+            const leftByLine  = regroup(leftFlat, leftOut);
+            const rightByLine = regroup(rightFlat, rightOut);
+
+            leftLines.forEach((cell, lineN) => {
+                const items = leftByLine.get(lineN);
+                if (items) cell.innerHTML = renderDiffTokens(items);
+            });
+            rightLines.forEach((cell, lineN) => {
+                const items = rightByLine.get(lineN);
+                if (items) cell.innerHTML = renderDiffTokens(items);
             });
         });
+        console.log(`[diff] done: ${matchedRows} rows matched left<->right (${proseRows} prose, ${poetryRows} poetry), ${diffsApplied} diffs actually applied`);
     }
 
     function clearColumnDiff() {
@@ -3611,9 +3719,23 @@ function initializeRoutingFromURL() {
             // content: mark (don't remove) the ones the current Focus
             // edition has nothing at, so it's clear at a glance which clicks
             // land on real text vs. a "not divided separately here" note.
-            const focusHasContent = isDramaOrPoetry
+            let focusHasContent = isDramaOrPoetry
                 ? getChaptersWithContent(activeWorkKey, payload.book, columnEditions.f)
                 : null;
+            // Sanity check: the chapter on screen right now is proof-positive
+            // that the focus edition has content there (it's rendering, we're
+            // looking at it). If the query disagrees -- claims the current
+            // chapter has nothing -- the query result itself is wrong for
+            // this render (bad book filter, stale/empty version_short_id,
+            // whatever the exact cause), not the data. Trusting it anyway
+            // greys out every button, including ones that plainly work, and
+            // actively misleads with "not divided separately here" on
+            // content that plainly IS there. Fail safe: skip greying
+            // entirely for this render rather than mislabel real content.
+            if (focusHasContent && payload.chapter && !focusHasContent.has(payload.chapter)) {
+                console.log("[chapter-toc] getChaptersWithContent disagrees with what's on screen -- skipping greying this render", payload.chapter, [...focusHasContent]);
+                focusHasContent = null;
+            }
             chList.forEach(ch => {
                 const a = document.createElement("a"); a.innerText = ch;
                 if(ch === payload.chapter) a.className = "current";
