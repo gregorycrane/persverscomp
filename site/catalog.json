@@ -1,5 +1,122 @@
 {
  "works": {
+  "boeckh1858.orationes": {
+   "textgroup": "boeckh1858",
+   "work": "orationes",
+   "parts": [
+    {
+     "part": 1,
+     "file": "boeckh1858.orationes.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33"
+     ],
+     "bytes": 57696256
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "perseus-tb-lat1",
+     "urn": "urn:cts:latinLit:boeckh1858.orationes.perseus-tb-lat1",
+     "label": "Treebank (Claude Sonnet 5 / DeepSeek)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "leipzig1858-lat1",
+     "urn": "urn:cts:latinLit:boeckh1858.orationes.leipzig1858-lat1",
+     "label": "Latin (F. Ascherson, ed. 1858)",
+     "doc_type": "edition",
+     "text_class": "latin-text"
+    },
+    {
+     "short_id": "leipzig1858-eng1",
+     "urn": "urn:cts:latinLit:boeckh1858.orationes.leipzig1858-eng1",
+     "label": "English (translation)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (translation)",
+   "title": "English (translation)",
+   "unit_labels": {
+    "book": "Speech",
+    "chapter": "Paragraph",
+    "section": "Sentence"
+   },
+   "book_titles": {
+    "1": "I. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. Aug. a. MDCCCXII. habita.",
+    "2": "II. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXIV. habita.",
+    "3": "III. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXVI. habita.",
+    "4": "IV. Oratio in dedicatione universitatis litterariae Bero- linensis d. XXVI. m. April. a. MDCCCXVII. habita.",
+    "5": "V. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXVII. habita.",
+    "6": "VI. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXVIII. habita.",
+    "7": "VII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXIX. habita.",
+    "8": "VIII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXX. habita.",
+    "9": "IX. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXI. habita.",
+    "10": "X. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXII. habita.",
+    "11": "XI. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXIII. habita.",
+    "12": "XII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXIV. habita.",
+    "13": "XIII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXV. habita.",
+    "14": "XIV. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXVI. habita.",
+    "15": "XV. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXVII. habita.",
+    "16": "XVI. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXVIII. habita.",
+    "17": "XVII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXIX. habita.",
+    "18": "XVIII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXX. habita.",
+    "19": "XIX. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXI. habita.",
+    "20": "XX. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXII. habita.",
+    "21": "XXI. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXIII. habita.",
+    "22": "XXII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXIV. habita.",
+    "23": "XXIII. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXV. habita.",
+    "24": "XXIV. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXVI. habita.",
+    "25": "XXV. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXVII. habita.",
+    "26": "XXVI. Oratio nataliciis Friderici Guilelmi III. celebrandis d. III. m. Aug. a. MDCCCXXXIX. habita.",
+    "27": "XXVII. Friderici Guilelmi III. laudatio d. XXVII. m. Iunii a. MDCCCXL. dicta.",
+    "28": "XXVIII. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXLI. habita.",
+    "29": "XXIX. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXXXXII. habita.",
+    "30": "XXX. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXXXXIII. habita.",
+    "31": "XXXI. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXXXXV. habita.",
+    "32": "XXXII. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXXXXVI. habita.",
+    "33": "XXXIII. Oratio nataliciis Friderici Guilelmi IV. celebrandis d. XV. m. Octobris a. MDCCCXXXXVII. habita."
+   }
+  },
   "ferdowsi.shahnameh": {
    "textgroup": "ferdowsi",
    "work": "shahnameh",
@@ -3615,6 +3732,7 @@
       "151-153",
       "154-161",
       "162-167",
+      "162a-167a",
       "168-175",
       "176-206",
       "207-233",
@@ -4321,10 +4439,11 @@
       "900-934",
       "935-941",
       "942-945",
+      "942a-945a",
       "946-951",
       "953-960",
       "961-964",
-      "962-972",
+      "962a-972",
       "965-971",
       "973-1006",
       "1007-1009",
@@ -4400,9 +4519,11 @@
       "341-346",
       "349-353",
       "354-359",
+      "354a-359a",
       "360-367",
       "368-371",
       "372-376",
+      "372a-376a",
       "377-380",
       "381-388",
       "389-396",
@@ -4448,7 +4569,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 3317760
+     "bytes": 3596288
     }
    ],
    "annotations": {
@@ -4469,6 +4590,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "sidgwick1887-grc1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.sidgwick1887-grc1",
+     "label": "Greek (Arthur Sidgwick, 1887)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
