@@ -3819,7 +3819,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 3231744
+     "bytes": 3448832
     }
    ],
    "annotations": {
@@ -3847,6 +3847,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg001.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -3961,7 +3968,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3379200
+     "bytes": 3608576
     }
    ],
    "annotations": {
@@ -3989,6 +3996,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg002.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg002.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4071,7 +4085,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 3964928
+     "bytes": 4214784
     }
    ],
    "annotations": {
@@ -4099,6 +4113,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg003.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg003.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4193,7 +4214,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3342336
+     "bytes": 3551232
     }
    ],
    "annotations": {
@@ -4221,6 +4242,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg004.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg004.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4343,7 +4371,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 5758976
+     "bytes": 6127616
     }
    ],
    "annotations": {
@@ -4371,6 +4399,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg005.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4488,7 +4523,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 3682304
+     "bytes": 3932160
     }
    ],
    "annotations": {
@@ -4516,6 +4551,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg006.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4611,7 +4653,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 3842048
+     "bytes": 4083712
     }
    ],
    "annotations": {
@@ -4646,6 +4688,13 @@
      "short_id": "hermann1852-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.hermann1852-grc2",
      "label": "Greek (Gottfried Hermann, 1852)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dindorf1882-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.dindorf1882-grc2",
+     "label": "Greek (W. Dindorf, 1882)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
