@@ -3819,7 +3819,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 2977792
+     "bytes": 3231744
     }
    ],
    "annotations": {
@@ -3840,6 +3840,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg001.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -3954,7 +3961,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3129344
+     "bytes": 3379200
     }
    ],
    "annotations": {
@@ -3975,6 +3982,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg002.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg002.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4057,7 +4071,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 3710976
+     "bytes": 3964928
     }
    ],
    "annotations": {
@@ -4078,6 +4092,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg003.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg003.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4172,7 +4193,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3084288
+     "bytes": 3342336
     }
    ],
    "annotations": {
@@ -4193,6 +4214,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg004.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4315,7 +4343,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 5369856
+     "bytes": 5758976
     }
    ],
    "annotations": {
@@ -4336,6 +4364,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4453,7 +4488,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 3432448
+     "bytes": 3682304
     }
    ],
    "annotations": {
@@ -4474,6 +4509,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2",
      "label": "Greek (Herbert Weir Smyth, 1926)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4569,7 +4611,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 3596288
+     "bytes": 3842048
     }
    ],
    "annotations": {
@@ -4597,6 +4639,13 @@
      "short_id": "sidgwick1887-grc1",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.sidgwick1887-grc1",
      "label": "Greek (Arthur Sidgwick, 1887)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1852-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.hermann1852-grc2",
+     "label": "Greek (Gottfried Hermann, 1852)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
