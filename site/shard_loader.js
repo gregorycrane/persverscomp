@@ -77,6 +77,19 @@ function queryAll(db, sql, params = []) {
 function registryForWork(db) {
     return queryAll(db, "SELECT short_id, urn, label, doc_type, text_class FROM text_units ORDER BY doc_type, short_id");
 }
+// Returns this edition's own chapter reading order (Focus-aware), falling
+// back to nothing (caller should fall back to the default/canonical order)
+// if the edition has no per-edition ordering recorded for this book -- e.g.
+// works built before this table existed, or a work with only one edition.
+function chapterOrderForEdition(db, textgroup, work, version, book) {
+    const rows = queryAll(db,
+        "SELECT chapter FROM edition_chapter_order " +
+        "WHERE textgroup=? AND work=? AND version_short_id=? AND book IS ? " +
+        "ORDER BY local_sort_index",
+        [textgroup, work, version, book]);
+    return rows.map(r => r.chapter);
+}
+
 function treebankForChapter(db, version, chapter) {
     return queryAll(db,
         "SELECT subdoc, chapter, section, sentence_json, prose_translation, literal_translation " +

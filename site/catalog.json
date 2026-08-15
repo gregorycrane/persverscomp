@@ -42,7 +42,7 @@
       "32",
       "33"
      ],
-     "bytes": 57696256
+     "bytes": 57745408
     }
    ],
    "annotations": {
@@ -146,7 +146,7 @@
       "19",
       "20"
      ],
-     "bytes": 14135296
+     "bytes": 14143488
     }
    ],
    "annotations": {
@@ -181,6 +181,81 @@
    "label": "English (trans. Pizzi selections, 1883)",
    "title": "English (trans. Pizzi selections, 1883)"
   },
+  "heike.tokyo1933": {
+   "textgroup": "heike",
+   "work": "tokyo1933",
+   "parts": [
+    {
+     "part": 1,
+     "file": "heike.tokyo1933.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "bytes": 52088832
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "tokyo1933-tb-jpn1",
+     "urn": "urn:cts:japaneseLit:heike.tokyo1933.tokyo1933-tb-jpn1",
+     "label": "Treebank (Claude Sonnet 5 / DeepSeek, in progress — Books 1–7)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "tokyo1933-jpn1",
+     "urn": "urn:cts:japaneseLit:heike.tokyo1933.tokyo1933-jpn1",
+     "label": "Japanese (Kakuichi-bon, UVA/Tufts ed.)",
+     "doc_type": "edition",
+     "text_class": "japanese-text"
+    },
+    {
+     "short_id": "tokyo1933-eng1",
+     "urn": "urn:cts:japaneseLit:heike.tokyo1933.tokyo1933-eng1",
+     "label": "English (machine translation, DeepSeek)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "sadler1918-eng1",
+     "urn": "urn:cts:japaneseLit:heike.tokyo1933.sadler1918-eng1",
+     "label": "English (A. L. Sadler, 1918–1921)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "tokyo1933-translit1",
+     "urn": "urn:cts:japaneseLit:heike.tokyo1933.tokyo1933-translit1",
+     "label": "Transliteration (romanized, DeepSeek)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (A. L. Sadler, 1918–1921)",
+   "title": "English (A. L. Sadler, 1918–1921)",
+   "unit_labels": {
+    "book": "Book",
+    "chapter": "Chapter",
+    "section": "Section"
+   }
+  },
   "phi0620.phi001": {
    "textgroup": "phi0620",
    "work": "phi001",
@@ -194,7 +269,7 @@
       "3",
       "4"
      ],
-     "bytes": 13701120
+     "bytes": 13742080
     }
    ],
    "annotations": {
@@ -255,7 +330,7 @@
       "back",
       "front"
      ],
-     "bytes": 95739904
+     "bytes": 97845248
     }
    ],
    "annotations": {
@@ -404,7 +479,7 @@
       "656-662",
       "663-709"
      ],
-     "bytes": 2662400
+     "bytes": 2670592
     }
    ],
    "annotations": {
@@ -517,7 +592,7 @@
       "1118-1158",
       "1159-1163"
      ],
-     "bytes": 4124672
+     "bytes": 4149248
     }
    ],
    "annotations": {
@@ -622,7 +697,7 @@
       "1361-1388",
       "1389-1419"
      ],
-     "bytes": 4988928
+     "bytes": 5013504
     }
    ],
    "annotations": {
@@ -707,7 +782,7 @@
       "1018-1052",
       "1053-1055"
      ],
-     "bytes": 3846144
+     "bytes": 3854336
     }
    ],
    "annotations": {
@@ -821,7 +896,7 @@
       "1431-1461",
       "1462-1466"
      ],
-     "bytes": 5136384
+     "bytes": 5160960
     }
    ],
    "annotations": {
@@ -926,7 +1001,7 @@
       "1231-1283",
       "1284-1288"
      ],
-     "bytes": 1073152
+     "bytes": 1097728
     }
    ],
    "annotations": {
@@ -1019,7 +1094,7 @@
       "1252-1292",
       "1293-1295"
      ],
-     "bytes": 4521984
+     "bytes": 4546560
     }
    ],
    "annotations": {
@@ -1126,7 +1201,7 @@
       "1196-1231",
       "1232-1234"
      ],
-     "bytes": 4423680
+     "bytes": 4448256
     }
    ],
    "annotations": {
@@ -1198,7 +1273,7 @@
       "815-1015",
       "1016-1428"
      ],
-     "bytes": 4935680
+     "bytes": 4943872
     }
    ],
    "annotations": {
@@ -1300,7 +1375,7 @@
       "1571-1605",
       "1606-1622"
      ],
-     "bytes": 5341184
+     "bytes": 5365760
     }
    ],
    "annotations": {
@@ -1406,7 +1481,7 @@
       "1302-1316",
       "1317-1332"
      ],
-     "bytes": 4464640
+     "bytes": 4489216
     }
    ],
    "annotations": {
@@ -1512,7 +1587,7 @@
       "1292-1320",
       "1321-1359"
      ],
-     "bytes": 4820992
+     "bytes": 4845568
     }
    ],
    "annotations": {
@@ -1606,7 +1681,7 @@
       "1475-1489",
       "1490-1499"
      ],
-     "bytes": 5275648
+     "bytes": 5300224
     }
    ],
    "annotations": {
@@ -1709,7 +1784,7 @@
       "1642-1687",
       "1688-1692"
      ],
-     "bytes": 6172672
+     "bytes": 6197248
     }
    ],
    "annotations": {
@@ -1814,7 +1889,7 @@
       "1758-1763",
       "1764-1766"
      ],
-     "bytes": 6197248
+     "bytes": 6221824
     }
    ],
    "annotations": {
@@ -1918,7 +1993,7 @@
       "1666-1681",
       "1682-1693"
      ],
-     "bytes": 6340608
+     "bytes": 6365184
     }
    ],
    "annotations": {
@@ -2012,7 +2087,7 @@
       "1330-1367",
       "1368-1392"
      ],
-     "bytes": 4784128
+     "bytes": 4808704
     }
    ],
    "annotations": {
@@ -2118,7 +2193,7 @@
       "1621-1626",
       "1627-1629"
      ],
-     "bytes": 6070272
+     "bytes": 6094848
     }
    ],
    "annotations": {
@@ -2217,7 +2292,7 @@
       "952-992",
       "993-996"
      ],
-     "bytes": 3604480
+     "bytes": 3629056
     }
    ],
    "annotations": {
@@ -2333,7 +2408,7 @@
       "1230-1258",
       "1259-1278"
      ],
-     "bytes": 9756672
+     "bytes": 9789440
     }
    ],
    "annotations": {
@@ -2472,7 +2547,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 11661312
+     "bytes": 11751424
     }
    ],
    "annotations": {
@@ -2643,7 +2718,7 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 10924032
+     "bytes": 10956800
     }
    ],
    "annotations": {
@@ -2773,7 +2848,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 11296768
+     "bytes": 11321344
     }
    ],
    "annotations": {
@@ -2896,7 +2971,7 @@
       "1491-1507",
       "1508-1510"
      ],
-     "bytes": 11993088
+     "bytes": 12025856
     }
    ],
    "annotations": {
@@ -3013,7 +3088,7 @@
       "1408-1444",
       "1445-1471"
      ],
-     "bytes": 12025856
+     "bytes": 12050432
     }
    ],
    "annotations": {
@@ -3134,7 +3209,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 14209024
+     "bytes": 14241792
     }
    ],
    "annotations": {
@@ -3210,7 +3285,7 @@
       "371-378",
       "379-419"
      ],
-     "bytes": 1236992
+     "bytes": 1245184
     }
    ],
    "annotations": {
@@ -3275,7 +3350,7 @@
       "20",
       "21"
      ],
-     "bytes": 92471296
+     "bytes": 92856320
     },
     {
      "part": 2,
@@ -3285,7 +3360,7 @@
       "23",
       "24"
      ],
-     "bytes": 15851520
+     "bytes": 15925248
     }
    ],
    "annotations": {
@@ -3409,7 +3484,7 @@
       "23",
       "24"
      ],
-     "bytes": 83623936
+     "bytes": 83939328
     }
    ],
    "annotations": {
@@ -3541,7 +3616,7 @@
       "963-1002",
       "1003-1022"
      ],
-     "bytes": 4247552
+     "bytes": 4255744
     }
    ],
    "annotations": {
@@ -3611,7 +3686,7 @@
       "765-799",
       "800-828"
      ],
-     "bytes": 3440640
+     "bytes": 3448832
     }
    ],
    "annotations": {
@@ -3668,7 +3743,7 @@
       "402-442",
       "443-480"
      ],
-     "bytes": 1941504
+     "bytes": 1949696
     }
    ],
    "annotations": {
@@ -3819,7 +3894,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 3715072
+     "bytes": 3780608
     }
    ],
    "annotations": {
@@ -3975,7 +4050,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3883008
+     "bytes": 3940352
     }
    ],
    "annotations": {
@@ -4099,7 +4174,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 4481024
+     "bytes": 4521984
     }
    ],
    "annotations": {
@@ -4235,7 +4310,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3829760
+     "bytes": 3878912
     }
    ],
    "annotations": {
@@ -4399,7 +4474,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 6504448
+     "bytes": 6574080
     }
    ],
    "annotations": {
@@ -4558,7 +4633,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 4251648
+     "bytes": 4304896
     }
    ],
    "annotations": {
@@ -4695,7 +4770,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 4362240
+     "bytes": 4419584
     }
    ],
    "annotations": {
@@ -4793,7 +4868,7 @@
       "25",
       "26"
      ],
-     "bytes": 19320832
+     "bytes": 19369984
     }
    ],
    "annotations": {
