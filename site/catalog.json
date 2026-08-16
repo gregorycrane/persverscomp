@@ -3350,7 +3350,7 @@
       "20",
       "21"
      ],
-     "bytes": 92856320
+     "bytes": 92884992
     },
     {
      "part": 2,
@@ -3484,7 +3484,7 @@
       "23",
       "24"
      ],
-     "bytes": 83939328
+     "bytes": 83963904
     }
    ],
    "annotations": {
@@ -3894,7 +3894,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 3780608
+     "bytes": 4739072
     }
    ],
    "annotations": {
@@ -3936,6 +3936,27 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg001.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "depauw1745-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.depauw1745-grc2",
+     "label": "Greek (J. Depauw, 1745)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4050,7 +4071,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 3940352
+     "bytes": 4624384
     }
    ],
    "annotations": {
@@ -4092,6 +4113,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg002.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg002.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg002.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4174,7 +4209,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 4521984
+     "bytes": 5226496
     }
    ],
    "annotations": {
@@ -4216,6 +4251,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg003.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg003.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg003.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4310,7 +4359,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 3878912
+     "bytes": 4624384
     }
    ],
    "annotations": {
@@ -4352,6 +4401,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg004.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg004.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg004.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4474,7 +4537,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 6574080
+     "bytes": 7532544
     }
    ],
    "annotations": {
@@ -4516,6 +4579,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg005.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4633,7 +4710,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 4304896
+     "bytes": 5009408
     }
    ],
    "annotations": {
@@ -4675,6 +4752,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg006.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -4770,7 +4861,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 4419584
+     "bytes": 5079040
     }
    ],
    "annotations": {
@@ -4819,6 +4910,20 @@
      "short_id": "mazon1920-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.mazon1920-grc2",
      "label": "Greek (P. Mazon, 1920)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wilam14-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.wilam14-grc2",
+     "label": "Greek (U. von Wilamowitz, 1914)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "wecklein1885-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.wecklein1885-grc2",
+     "label": "Greek (K. Wecklein, 1885)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
