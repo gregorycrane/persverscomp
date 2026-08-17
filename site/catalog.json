@@ -5071,7 +5071,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 5967872
+     "bytes": 6234112
     }
    ],
    "annotations": {
@@ -5185,9 +5185,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "sidgwick1887-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.sidgwick1887-com-eng1",
+     "label": "Commentary (Arthur Sidgwick, 1887)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "Commentary (Arthur Sidgwick, 1887)",
    "title": "Eumenides"
   },
   "tlg0086.tlg034": {
