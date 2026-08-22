@@ -346,6 +346,96 @@
    "label": "English (H. E. Butler, 1912)",
    "title": "Elegies"
   },
+  "tlg0001.tlg001": {
+   "textgroup": "tlg0001",
+   "work": "tlg001",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0001.tlg001.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "bytes": 28069888
+    }
+   ],
+   "annotations": {
+    "treebanks": 1,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.perseus-grc2",
+     "label": "Greek (George W. Mooney, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "brunck1810-grc2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.brunck1810-grc2",
+     "label": "Greek (R. Brunck, 1810)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "seaton1900-grc2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.seaton1900-grc2",
+     "label": "Greek (R. C. Seaton, 1900)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "fawkes1780-eng2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.fawkes1780-eng2",
+     "label": "English (F. Fawkes, 1780)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "coleridge1889-eng2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.coleridge1889-eng2",
+     "label": "English (E. P. Coleridge, 1889)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "seaton1912-eng2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.seaton1912-eng2",
+     "label": "English (R. C. Seaton, 1912)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "seatonrevised2026-eng2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.seatonrevised2026-eng2",
+     "label": "English (R. C. Seaton, rev. 2026)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "wendel1935-com-grc1",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.wendel1935-com-grc1",
+     "label": "Commentary (Carolus Wendel, 1935)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    }
+   ],
+   "label": "Commentary (Carolus Wendel, 1935)",
+   "title": "Argonautica"
+  },
   "tlg0003.tlg001": {
    "textgroup": "tlg0003",
    "work": "tlg001",
@@ -365,7 +455,7 @@
       "back",
       "front"
      ],
-     "bytes": 97845248
+     "bytes": 97869824
     }
    ],
    "annotations": {
@@ -1622,7 +1712,7 @@
       "1292-1320",
       "1321-1359"
      ],
-     "bytes": 4845568
+     "bytes": 4853760
     }
    ],
    "annotations": {
@@ -2582,7 +2672,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 11751424
+     "bytes": 11755520
     }
    ],
    "annotations": {
@@ -3385,7 +3475,7 @@
       "20",
       "21"
      ],
-     "bytes": 92884992
+     "bytes": 92897280
     },
     {
      "part": 2,
@@ -3395,7 +3485,7 @@
       "23",
       "24"
      ],
-     "bytes": 15925248
+     "bytes": 15863808
     }
    ],
    "annotations": {
@@ -3519,7 +3609,7 @@
       "23",
       "24"
      ],
-     "bytes": 83963904
+     "bytes": 83959808
     }
    ],
    "annotations": {
@@ -5106,7 +5196,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 6361088
+     "bytes": 6356992
     }
    ],
    "annotations": {
@@ -5410,6 +5500,7 @@
  },
  "authors": {
   "phi0620": "Propertius",
+  "tlg0001": "Apollonius of Rhodes",
   "tlg0003": "Thucydides",
   "tlg0006": "Euripides",
   "tlg0011": "Sophocles",
