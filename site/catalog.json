@@ -359,7 +359,7 @@
       "3",
       "4"
      ],
-     "bytes": 28069888
+     "bytes": 31760384
     }
    ],
    "annotations": {
@@ -426,14 +426,21 @@
      "text_class": "english-text"
     },
     {
-     "short_id": "wendel1935-com-grc1",
-     "urn": "urn:cts:greekLit:tlg0001.tlg001.wendel1935-com-grc1",
-     "label": "Commentary (Carolus Wendel, 1935)",
+     "short_id": "wendel1935e-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.wendel1935e-com-eng1",
+     "label": "Commentary (Carolus Wendel, 1935, translated by deepseek-v4-pro)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    },
+    {
+     "short_id": "mooney1912-com-grc1",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.mooney1912-com-grc1",
+     "label": "Commentary (George Mooney, 1912)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (Carolus Wendel, 1935)",
+   "label": "Commentary (Carolus Wendel, 1935, translated by deepseek-v4-pro)",
    "title": "Argonautica"
   },
   "tlg0003.tlg001": {
@@ -5003,7 +5010,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 5734400
+     "bytes": 6098944
     }
    ],
    "annotations": {
@@ -5059,6 +5066,13 @@
      "short_id": "wecklein1885-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg006.wecklein1885-grc2",
      "label": "Greek (K. Wecklein, 1885)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "west1990-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.west1990-grc2",
+     "label": "Greek (M. West, 1990)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -5196,7 +5210,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 6356992
+     "bytes": 6639616
     }
    ],
    "annotations": {
@@ -5259,6 +5273,13 @@
      "short_id": "wecklein1885-grc2",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.wecklein1885-grc2",
      "label": "Greek (K. Wecklein, 1885)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "west1990-grc2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.west1990-grc2",
+     "label": "Greek (M. West, 1990)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
