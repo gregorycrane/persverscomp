@@ -57,6 +57,16 @@
 
     #lex-status { padding: 6px 20px; font-size: 11px; color: #888; font-style: italic; }
 
+    /* Hides Latin definitions/notes/quotes (tb-lex-lat) when the reader
+       opts to see only the English translation -- same body-level class,
+       localStorage key, and CSS rule as the reading environment's token-
+       click lexicon panel (app.js / styles.css), so the preference is
+       shared between the two rather than tracked separately. */
+    body.lexicon-hide-latin .tb-lex-lat { display: none; }
+    .tb-lex-latin-toggle-label { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: normal; text-transform: none; letter-spacing: normal; color: #777; cursor: pointer; user-select: none; white-space: nowrap; margin-left: 10px; }
+    .tb-lex-latin-toggle-label input { margin: 0; }
+    .tb-lex-latin-toggle-label:hover { color: #660000; }
+
     #search-row {
         display: flex; align-items: center; gap: 6px; padding: 8px 20px;
         background: #faf9f5; border-bottom: 1px solid #e0dfd5;
@@ -191,6 +201,24 @@ async function getShard(shardFile) {
 }
 
 function setStatus(msg) { document.getElementById('lex-status').textContent = msg; }
+
+// ── "Hide Latin" toggle -- same localStorage key, body class, and CSS
+// rule as app.js's reading-environment lexicon panel, so the preference
+// is shared rather than tracked separately per page. ──────────────────
+const LEXICON_LATIN_PREF_KEY = 'persvers_hideLexiconLatin';
+
+function applyLexiconLatinPref() {
+    const hidden = localStorage.getItem(LEXICON_LATIN_PREF_KEY) === '1';
+    document.body.classList.toggle('lexicon-hide-latin', hidden);
+    document.querySelectorAll('.tb-lex-latin-toggle').forEach(cb => { cb.checked = hidden; });
+}
+
+function toggleLexiconLatin(hidden) {
+    localStorage.setItem(LEXICON_LATIN_PREF_KEY, hidden ? '1' : '0');
+    document.body.classList.toggle('lexicon-hide-latin', hidden);
+    document.querySelectorAll('.tb-lex-latin-toggle').forEach(cb => { cb.checked = hidden; });
+}
+window.toggleLexiconLatin = toggleLexiconLatin;
 
 async function initPicker() {
     setStatus("Loading lexica.json…");
@@ -330,8 +358,21 @@ function showEntry(entryId, rowEl) {
 
     const translit = row.headword_translit
         ? `<span class="tb-lex-headword-translit">${escHtml(row.headword_translit)}</span>` : '';
+
+    // Same "Hide Latin" toggle as app.js's renderLexiconBlock: shown only
+    // when this entry actually has Latin content to hide (Bétant, Dindorf's
+    // Aeschylus lexicon), sharing the same localStorage preference so it
+    // stays in sync with the reading environment's token-click panel.
+    const hasLatin = row.entry_html && row.entry_html.includes('tb-lex-lat');
+    const latinToggle = hasLatin
+        ? `<label class="tb-lex-latin-toggle-label" title="This lexicon gives definitions in Latin with an added English translation alongside">
+             <input type="checkbox" class="tb-lex-latin-toggle" ${localStorage.getItem(LEXICON_LATIN_PREF_KEY) === '1' ? 'checked' : ''} onchange="toggleLexiconLatin(this.checked)">
+             Hide Latin
+           </label>`
+        : '';
+
     detail.innerHTML = `
-        <div class="tb-lex-headword ${scriptClass(row.headword_display)}">${escHtml(row.headword_display)}${translit}</div>
+        <div class="tb-lex-headword ${scriptClass(row.headword_display)}">${escHtml(row.headword_display)}${translit}${latinToggle}</div>
         <div class="tb-lex-body">${row.entry_html}</div>`;
 }
 
@@ -404,6 +445,7 @@ document.getElementById('search-box').addEventListener('input', e => {
 document.getElementById('search-clear').addEventListener('click', () => clearSearch(true));
 
 initPicker();
+applyLexiconLatinPref();
 </script>
 </body>
 </html>
