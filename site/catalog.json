@@ -237,7 +237,7 @@
       "11",
       "12"
      ],
-     "bytes": 52088832
+     "bytes": 52084736
     }
    ],
    "annotations": {
@@ -359,14 +359,14 @@
       "3",
       "4"
      ],
-     "bytes": 31838208
+     "bytes": 39878656
     }
    ],
    "annotations": {
     "treebanks": 1,
     "alignments": 0,
     "commentaries": 0,
-    "metrical_lines": 0
+    "metrical_lines": 5833
    },
    "versions": [
     {
@@ -375,6 +375,13 @@
      "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perstb-meter-grc1",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.perstb-meter-grc1",
+     "label": "Metrical Analysis (David Chamberlain: https://hypotactic.com/)",
+     "doc_type": "metrical",
+     "text_class": "metrical-text"
     },
     {
      "short_id": "perseus-grc2",
@@ -398,6 +405,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "seaton1912-eng2",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.seaton1912-eng2",
+     "label": "English (R. C. Seaton, 1912)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
      "short_id": "fawkes1780-eng2",
      "urn": "urn:cts:greekLit:tlg0001.tlg001.fawkes1780-eng2",
      "label": "English (F. Fawkes, 1780)",
@@ -412,13 +426,6 @@
      "text_class": "english-text"
     },
     {
-     "short_id": "seaton1912-eng2",
-     "urn": "urn:cts:greekLit:tlg0001.tlg001.seaton1912-eng2",
-     "label": "English (R. C. Seaton, 1912)",
-     "doc_type": "translation",
-     "text_class": "english-text"
-    },
-    {
      "short_id": "seatonrevised2026-eng2",
      "urn": "urn:cts:greekLit:tlg0001.tlg001.seatonrevised2026-eng2",
      "label": "English (R. C. Seaton, rev. 2026)",
@@ -426,9 +433,16 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "wendel1935g-com-grc1",
+     "urn": "urn:cts:greekLit:tlg0001.tlg001.wendel1935g-com-grc1",
+     "label": "Commentary (Carolus Wendel, 1935)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    },
+    {
      "short_id": "wendel1935e-com-eng1",
      "urn": "urn:cts:greekLit:tlg0001.tlg001.wendel1935e-com-eng1",
-     "label": "Commentary (Carolus Wendel, 1935, translated by deepseek-v4-pro)",
+     "label": "Commentary (Carolus Wendel, 1935/2026, translated by deepseek-v4-pro)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
     },
@@ -440,7 +454,7 @@
      "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (Carolus Wendel, 1935, translated by deepseek-v4-pro)",
+   "label": "Commentary (Carolus Wendel, 1935)",
    "title": "Argonautica"
   },
   "tlg0003.tlg001": {
@@ -462,7 +476,7 @@
       "back",
       "front"
      ],
-     "bytes": 97869824
+     "bytes": 97566720
     }
    ],
    "annotations": {
@@ -3341,7 +3355,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 14241792
+     "bytes": 14204928
     }
    ],
    "annotations": {
@@ -3492,7 +3506,7 @@
       "23",
       "24"
      ],
-     "bytes": 15863808
+     "bytes": 15867904
     }
    ],
    "annotations": {
@@ -3616,7 +3630,7 @@
       "23",
       "24"
      ],
-     "bytes": 83959808
+     "bytes": 83955712
     }
    ],
    "annotations": {
@@ -4582,7 +4596,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 5304320
+     "bytes": 5300224
     }
    ],
    "annotations": {
@@ -4795,7 +4809,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 8884224
+     "bytes": 8880128
     }
    ],
    "annotations": {
@@ -5010,7 +5024,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 6098944
+     "bytes": 6094848
     }
    ],
    "annotations": {
@@ -5210,7 +5224,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 6639616
+     "bytes": 6623232
     }
    ],
    "annotations": {
@@ -5378,7 +5392,7 @@
       "25",
       "26"
      ],
-     "bytes": 19369984
+     "bytes": 19324928
     }
    ],
    "annotations": {
