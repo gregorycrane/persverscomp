@@ -654,8 +654,30 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
       return;
     }
 
+    // Fetch every work's shard(s) CONCURRENTLY instead of one at a time.
+    // The old "for...await" loop was fine when this page covered two
+    // authors, but each `await fetch(...)` blocked the next work's fetch
+    // from even starting -- with today's much larger catalog, boot time was
+    // roughly (number of works) x (one round-trip), stacked end to end. A
+    // small bounded worker pool lets the browser's normal per-origin
+    // connection parallelism (6+ on HTTP/1.1, effectively unlimited
+    // multiplexed streams on HTTP/2, which GitHub Pages serves) do the
+    // work, while MAX_CONCURRENT_WORK_LOADS avoids opening dozens of
+    // connections at once and hammering the CDN. A single work's own PART
+    // files stay sequential below (typically only 1-3 of them, from the
+    // notebook's book-aware size-based splitting) -- the real win is
+    // running DIFFERENT WORKS concurrently, not the parts within one.
+    const MAX_CONCURRENT_WORK_LOADS = 6;
     let loaded = 0;
-    for (const [workKey, meta] of treebankWorks) {
+    let nextIndex = 0;
+    let inFlight = 0;
+
+    function updateLoadingStatus() {
+      setStatus(`Loading treebank shards… ${loaded}/${treebankWorks.length} done` +
+        (inFlight ? `, ${inFlight} in flight` : ""));
+    }
+
+    async function loadOneWork([workKey, meta]) {
       const [tg, wk] = workKey.split(".");
       // A work may be split into several book-range part files (see the
       // notebook's book-aware sharder) to stay under GitHub's 100MB
@@ -670,7 +692,6 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
       let totalTokens = 0;
       for (const partEntry of partEntries) {
         const path = `${CONFIG.DATA_DIR}/${tg}/${wk}/${partEntry.file}`;
-        setStatus(`Loading ${workKey} — part ${dbs.length + 1}/${partEntries.length}…`);
         try {
           const resp = await fetch(path);
           if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
@@ -693,7 +714,7 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
       }
       if (dbs.length === 0) {
         console.error(`No shard parts could be loaded for ${workKey}; skipping.`);
-        continue;
+        return;
       }
 
       const label = CONFIG.WORK_TITLES[workKey] || meta.label || workKey;
@@ -701,6 +722,32 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
       TOTAL_TOKENS_BY_WORK.set(workKey, totalTokens);
       loaded++;
     }
+
+    async function worker() {
+      while (nextIndex < treebankWorks.length) {
+        const entry = treebankWorks[nextIndex++];
+        inFlight++;
+        updateLoadingStatus();
+        try {
+          await loadOneWork(entry);
+        } catch (e) {
+          // loadOneWork's own per-part try/catch already handles ordinary
+          // fetch failures; this outer catch is a last-resort guard so a
+          // genuinely unexpected error (e.g. SQL.Database choking on a
+          // corrupted buffer) skips just this one work instead of rejecting
+          // the whole Promise.all and aborting every other worker mid-boot.
+          console.error(`Unexpected error loading ${entry[0]}:`, e);
+        } finally {
+          inFlight--;
+          updateLoadingStatus();
+        }
+      }
+    }
+
+    updateLoadingStatus();
+    const workerCount = Math.min(MAX_CONCURRENT_WORK_LOADS, treebankWorks.length);
+    await Promise.all(Array.from({ length: workerCount }, () => worker()));
+
     setStatus(`Ready — ${loaded} treebank-annotated work${loaded === 1 ? "" : "s"} loaded (${treebankWorks.map(w => w[0]).join(", ")}).`);
     console.table(Array.from(SHARDS.entries()).map(([wk, s]) => ({ workKey: wk, currentLabel: s.label, parts: s.dbs.length })));
     console.info("To fix a work's display name, add it to CONFIG.WORK_TITLES at the top of this file, e.g.:\n  \"tlg0012.tlg001\": \"Homer, Iliad\",");

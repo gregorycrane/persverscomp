@@ -101,10 +101,15 @@ function alignmentsForPair(db, pairId, segment) {
         "SELECT src_indices, tgt_indices, src_tokens, tgt_tokens, score " +
         "FROM token_alignments WHERE pair_id=? AND segment=?", [pairId, segment]);
 }
-function metricalForChapter(db, version, chapter) {
+function metricalForChapter(db, version, book, chapter) {
+    // book is required, not optional: chapter labels are built independently
+    // per book (e.g. "1-15") and collide constantly across a 48-book work
+    // like Nonnus -- filtering on chapter alone silently returns whichever
+    // OTHER book's rows happen to share that label. Callers must now pass
+    // the book too (see app.js's own call site for the matching update).
     return queryAll(db,
-        "SELECT line_ref, line_json FROM metrical_lines WHERE version_short_id=? AND chapter=?",
-        [version, chapter]);
+        "SELECT line_ref, line_json FROM metrical_lines WHERE version_short_id=? AND book=? AND chapter=?",
+        [version, book, chapter]);
 }
 
 // ── Entry point: deep-link routing ─────────────────────────────────────────
