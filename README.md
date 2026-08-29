@@ -43,6 +43,62 @@ A work normally occupies one SQLite file. Large works may be split at ancient bo
 
 This design requires no server-side code, writable endpoint, database daemon, login, or session storage. The complete deployed corpus can be copied or mirrored as an ordinary static directory tree.
 
+## Technologies required at runtime
+
+`persverscomp` has no Node, Python, Java, PHP, or server-side database requirement in production. Python's built-in HTTP server is used in the local example above only as a convenient static server. A deployed build requires the following layers.
+
+### Hosting and web platform
+
+| Technology | Requirement | Role in `persverscomp` |
+| --- | --- | --- |
+| Static HTTP server | Required | Serves HTML, JavaScript, CSS, JSON, GeoJSON, images, WebAssembly, and SQLite files without rewriting their relative paths. GitHub Pages is one suitable host. |
+| HTTPS | Strongly recommended | Protects application and data delivery and avoids mixed-content failures when external HTTPS resources are used. |
+| HTML5 and the DOM | Required | Defines the reader, search, lexicon, and map interfaces and supports client-side interaction. |
+| CSS3 | Required | Uses Grid, Flexbox, custom properties, responsive layouts, print rules, and language-aware text presentation. |
+| Modern JavaScript | Required | Uses promises, `async`/`await`, maps and sets, template literals, typed arrays, and other broadly supported ECMAScript features. No transpiler or JavaScript framework is used. |
+| Fetch API | Required | Loads catalogs, GeoJSON, SQLite shards, and WebAssembly. The [Fetch API has been broadly available in browsers since 2017](https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch). |
+| WebAssembly | Required | Runs SQLite inside the browser through `sql.js`. |
+| Browser storage and navigation APIs | Required for the complete interface | `localStorage` remembers interface preferences; `URL`, `URLSearchParams`, and the History API support stable, shareable views. |
+| SVG | Required for treebank visualization | Draws dependency-tree graphics without a separate charting library. |
+| Blob and object-URL APIs | Required for CSV export | Creates downloadable search results entirely in the browser. |
+
+A current desktop or mobile release of Firefox, Chrome, Edge, or Safari is the intended client. JavaScript and WebAssembly must be enabled. The pages must be served over HTTP or HTTPS rather than opened through `file://`, because browser origin rules otherwise prevent reliable loading of the data and WebAssembly files.
+
+### Data and application formats
+
+| Technology or format | Role | Long-term significance |
+| --- | --- | --- |
+| SQLite 3 | Stores texts, citation structure, alignments, annotations, place references, and lexica in read-only per-work shards. | SQLite has a documented cross-platform file format and its developers plan to preserve SQLite 3 compatibility through at least 2050; see [SQLite long-term support](https://www.sqlite.org/lts.html). |
+| JSON | Stores `site/catalog.json` and `site/lexica.json`. | Plain-text, documented, and widely implemented. |
+| GeoJSON | Stores local place polygons in `site/data/place_polygons.geojson`. | An open JSON-based interchange format that is independent of the map renderer. |
+| CTS URNs | Identify textgroups, works, versions, and passages. | Keeps scholarly identifiers separate from the presentation software and hosting location. |
+| UTF-8 | Encodes HTML, JSON, JavaScript, and multilingual textual data. | Avoids platform-specific text encodings. |
+| PNG | Stores the local Perseus branding images. | Widely supported and independent of external image services. |
+
+### Third-party browser resources loaded by the current build
+
+These files are fetched when a browser loads the relevant page; they are not currently stored in this repository. Three are functional dependencies. `marked` is loaded but appears to be unused in the current generated application.
+
+| Library | Version and current source | Used by | Purpose | Maintenance risk |
+| --- | --- | --- | --- | --- |
+| [`sql.js`](https://sql.js.org/) | `1.8.0`, from cdnjs | Reader, search, lexicon browser, and map | Loads SQLite into memory and queries it through WebAssembly. Both `sql-wasm.js` and the matching `sql-wasm.wasm` are required. | Version is pinned, but the application still depends on cdnjs availability and unchanged URLs. |
+| [`marked`](https://marked.js.org/) | **Unpinned**, from jsDelivr's `npm/marked/marked.min.js` URL | Main reader | The script is loaded, and related CSS is present, but no call to the `marked` API was found in the current generated JavaScript. It is therefore not presently required for an identified feature. | It is unnecessary unpinned remote code: a later release can change without the build changing. Remove the script if it remains unused; otherwise pin and vendor the tested version. |
+| [Leaflet](https://leafletjs.com/) | `1.9.4`, from unpkg | Map | Provides the interactive slippy map, vector overlays, controls, markers, and popups. Leaflet lists 1.9.4 as its stable 1.x release. | Version is pinned, but the map still depends on unpkg availability. |
+| [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster) | `1.5.3`, from unpkg | Map | Groups dense place markers and expands them as users zoom. | Version is pinned, but it depends on both unpkg and compatibility with Leaflet 1.9.4. |
+
+The current HTML does not attach Subresource Integrity hashes to these CDN assets. A CDN outage, URL-policy change, or compromised response can therefore break or alter a build even when no repository file has changed. The unpinned `marked` script also prevents byte-for-byte reproducibility even though no active use of that library was identified.
+
+### External services and data sources
+
+| Service | Required for | Current use | Failure behavior |
+| --- | --- | --- | --- |
+| CARTO raster basemap tiles | Map background only | `map.html` requests Voyager tiles from `basemaps.cartocdn.com`, derived from OpenStreetMap data. | The local place data and overlays remain preserved, but the visual map can lose its background or stop working as intended. CARTO now requires an API key for its basemaps and says that its older raster service is being retired; see [CARTO's basemap key and migration guidance](https://carto.com/basemaps/apikey/). |
+| OpenStreetMap data | CARTO basemap content | Provides the underlying geographic data rendered by CARTO. | Attribution to both OpenStreetMap and CARTO must remain visible while that basemap is used. |
+| ToposText | Provenance and outbound links, not a live API dependency | Place-reference data is incorporated into local database and GeoJSON assets; the interface links back to ToposText. | Loss of the external site would affect outbound references, not the locally stored text, coordinates, or polygons. |
+| cdnjs, jsDelivr, and unpkg | Third-party JavaScript, CSS, and WebAssembly | Deliver the four resources listed above. | A cdnjs failure disables SQLite access; an unpkg failure disables the interactive map. The current jsDelivr resource appears unused, but it remains an unnecessary external request and reproducibility risk. |
+
+The reader, lexicon browser, and search interface do not call a Perseus application API. Beyond the host serving this repository, the functional network dependencies identified in the current runtime pages are cdnjs for `sql.js`, unpkg for the map libraries, and CARTO for map tiles.
+
 ## Features
 
 - parallel reading of editions and translations;
@@ -65,13 +121,45 @@ Publish the entire repository without changing its relative directory structure.
 
 No special SQLite server or byte-range configuration is required because shards are downloaded as complete files. HTTPS is recommended and is required when the page loads third-party dependencies over HTTPS.
 
-The main page currently obtains `marked` and `sql.js` from public CDNs. A long-term institutional deployment may instead vendor and serve those dependencies locally so that the site does not depend on external CDN availability.
+For a preservation-oriented deployment, the server should use ordinary, conservative MIME types, retain stable relative URLs, and avoid transformations of the `.db` and `.wasm` files. Long cache lifetimes are appropriate for versioned immutable assets, but `site/catalog.json` and `site/lexica.json` should remain revalidatable when the corpus is updated.
 
 ## Browser requirements and limits
 
 The reader requires a modern browser with JavaScript, WebAssembly, `fetch`, CSS Grid/Flexbox, SVG, and local storage support.
 
 Because each selected shard is downloaded and opened in browser memory, very large works can be demanding on low-memory devices. Multipart shards keep individual downloads manageable, but this architecture does not turn SQLite into a remotely paged database. Corpus-wide search is also a separate indexing problem from work-level reading.
+
+## Expected maintenance-free lifetime
+
+No web application can be guaranteed to run forever without observation: hosting accounts, domain names, browser security policies, external services, and institutional ownership can change independently of the code. `persverscomp` nevertheless has a strong preservation core because it uses static files, established browser standards, open text formats, and SQLite rather than a continuously patched server stack.
+
+The following estimates are engineering planning ranges, not warranties. “Without modification” means that the files in a frozen build do not change; it still assumes that the host, URL, HTTPS certificate, and any named third-party services remain available.
+
+| Part of the build | Current-build assessment | Principal reason |
+| --- | --- | --- |
+| SQLite, JSON, GeoJSON, images, and scholarly identifiers as preserved files | **20 years or more is a reasonable preservation target.** SQLite 3 compatibility is planned through at least 2050, and the other formats are simple and widely implemented. | These assets are open, local, and largely independent of a particular operating system or server product. |
+| Core reader, search, and lexicon interfaces in the present CDN-dependent build | **Likely to continue for years, but it should not be represented as reliably maintenance-free beyond roughly 2–5 years without testing.** | The browser APIs are mature, but SQLite access depends on third-party CDN delivery and has no local fallback. The unused, unpinned `marked` script separately undermines reproducibility. A remote change could cause immediate failure. |
+| Current interactive map, including its basemap | **The least durable component and already requires attention.** It should not be assigned a multi-year maintenance-free horizon in its present form. | Leaflet and the local overlays are durable, but the CARTO raster tile endpoint is external, now requires a key, and is being retired in favor of vector basemaps. |
+| A self-contained build with all libraries vendored and a locally controlled map strategy | **10–20 years without code modification is a defensible goal**, provided the build is checked periodically on current browsers and the hosting arrangement remains in place. | It removes the most probable causes of sudden failure. Mature HTML, JavaScript, WebAssembly, and SQLite are more likely to remain readable than the external service contracts are to remain unchanged. |
+
+The distinction between preservation and presentation is important. Even if a future browser can no longer execute this exact interface, the SQLite, JSON, and GeoJSON files should remain recoverable and can be rendered by replacement software. The current architecture therefore has a substantially longer **data lifetime** than its guaranteed **interface lifetime**.
+
+### Changes needed for a long-lived build
+
+To make “run as long as possible without maintenance” an explicit release criterion, complete the following before declaring a preservation build:
+
+1. **Vendor every executable dependency.** Store the exact `sql-wasm.js`, `sql-wasm.wasm`, Leaflet, Leaflet.markercluster, and associated CSS files under a versioned local directory such as `assets/vendor/`. Point every runtime page at those local copies.
+2. **Remove or pin `marked`.** Remove the current script reference if it remains unused. If Markdown rendering is restored, pin and vendor the tested version. The current versionless jsDelivr URL is the most avoidable reproducibility problem.
+3. **Record provenance and checksums.** Add library versions, upstream release URLs, licenses, and SHA-256 hashes to the release; generate checksums for catalogs, GeoJSON, HTML, JavaScript, WebAssembly, images, and every SQLite shard.
+4. **Replace the CARTO raster dependency.** Choose a map source with an explicit institutional agreement and stable API key, move to a supported vector service, host a legally distributable static basemap, or make the locally stored overlays usable without any basemap. A graceful no-basemap mode is valuable even when a live tile service remains the default.
+5. **Keep external links nonessential.** ToposText and other scholarly links should add provenance and context, but no locally preserved text or annotation should require those sites to respond.
+6. **Freeze rather than auto-upgrade.** A preservation release should never request `latest` dependencies. Upgrade only in a new, tested build while retaining the prior complete build.
+7. **Publish a release manifest.** Record the build date, source commit, schema version, included works, expected entry points, minimum browser assumptions, and the exact commands used for integrity checks.
+8. **Preserve source and runtime together.** Archive the matching `src-persverscomp` commit, its input registry, and the generated `persverscomp` release so that the interface can be reconstructed if necessary.
+9. **Test periodically without changing the build.** An annual automated smoke test in current Firefox, Chrome, and Safari should open the reader, load a shard, change passages, query a lexicon, run a search, and render the map. Testing is monitoring, not modification; it provides warning while migration is still easy.
+10. **Maintain independent copies.** Keep checksummed release copies in at least two administratively independent locations. Static architecture makes mirroring inexpensive and avoids treating a GitHub account or one institutional server as the preservation system.
+
+After the CDN and map dependencies are removed, normal maintenance should be limited to hosting continuity, certificate and domain renewal, integrity checks, and periodic browser testing. The application should not need routine framework upgrades, database migrations, operating-system patching, or a continuously running service.
 
 ## Update the site
 
