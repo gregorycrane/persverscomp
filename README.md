@@ -1,19 +1,121 @@
-# Perseus 6 -- Serverless Prototype
+# Perseus Version Comparison — Runtime Site
 
-Our goal is to provide public facing versions of the Perseus Digital Library that can run for as long as possible with minimal -- and ideally no -- changes. The Canadian [Endings Project](https://endings.uvic.ca/) provided an initial inspiration for this work but it was not clear to me whether this approach could accommodate the demands of the Perseus Digital Library. In his contributions to the Ajax Multicommentary Project, Charles Pletcher, however, created a [minimal computing version of this challenging philological use case](https://multi.ajmc.ch/passages/urn:cts:greekLit:tlg0011.tlg003:1-133). Pletcher's work made it clear that we could build every feature of the Perseus Digital Library, current and planned, in format that Tufts could serve far more easily than the traditional serverb-based versions of Perseus and that was designed to run, securely and without modification,for a long period of time. 
+This repository is the generated, runnable Perseus Version Comparison system. It is a static site: a browser application plus read-only SQLite data shards, catalogs, maps, and lexica. It can be served by GitHub Pages, an institutional web server, object storage, or a local static file server without an application backend.
 
-In summer 2026, there are two serverless Perseus efforts. Peter Nadel, Charles Pletcher, and Clifford Wulfman are working on a Minimum Viable Perseus (MVP) -- essentially a replacement for Perseus 4: the Hopper, a version that David Mimno first designed in 2003, that was developed through 2013 and has been running on virtual servers unchanged ever since. Minimum Viable Perseus aims to provide the functionality of Perseus 4 for all Perseus textual data -- essentially, MVP provides a streamlined digital library that can be updated and expanded over time.
+Build sources and corpus configuration live in [src-persverscomp](https://github.com/gregorycrane/src-persverscomp). Changes to generated files in this repository may be replaced by the next build.
 
-In 2018, support from the Alexander von Humboldt Foundation allowed us to create Perseus 5: the Scaife Viewer. Scaife did not fully replicate the core functionality of Perseus 4 - it did not include the morphological services, dictionary lookups or commentaries that Scaife now supports -- but it did provide us with scalable reading environment that we could update and expand. 
+## Run locally
 
-Support from the Mellon Foundation, Harvard's Center for Hellenic Studies, the National Endowment for the Humanities, and Tufts University allowed us to prototype a next generation version of the Perseus Digital Library, one that built on the 2018 Scaife Viewer. Support from Schmidt Sciences has allowed us to carry this work forward and to build this experimental serverless implementation.
+Do not open `index.html` directly from the filesystem. The application fetches JSON, SQLite, and WebAssembly resources, which browsers generally require to come from an HTTP origin.
 
-An NEH-funded project to create a digital edition of Aristotle's Poetics in Greek, Arabic and Latin has the driving force behind this particular effort to build a Perseus 6. We needed to be able to compare multiple versions of the Poetics, to include commentaries, to show word and phrase alignments between source texts and translations and to provide the rich linguistic annotations that treebanks in Greek, Latin and other languages have begun to make available.
+From this repository, run:
 
-Using Claude and Gemini, Gregory Crane developed the basic version of this Serverless Perseus 6 over ten days. We are are using GitHub Pages both because GitHub Pages can publish the front end work and because the constraints of GitHub Pages help us develop something sufficiently secure and lightweight that Tufts University -- and other institutions -- could easily host. Storage limits will prevent us from hosting the entire content of Perseus 6 on GitHub pages but the 1 gigabyte limitation should allow us to include enough content that we can thoroughly test the architecture and prepare for a complete implementation at Tufts.
+```bash
+python3 -m http.server 8000
+```
 
-## Infrastructure Sustainability Paradigm
+Then open `http://localhost:8000/`.
 
-Rather than relying on a continuous, monolithic server daemon—or fragmenting the corpus into hundreds of thousands of brittle static chunks strewn across a fragile local filesystem—durable architecture calls for a **decentralized, serverless delivery model**. The corpus is compiled into many small, self-contained binary shards: one read-only SQLite database per work, each holding all of that work's editions, translations, commentaries, and annotation layers, arranged as a flat directory tree addressed directly by CTS URN. Because SQLite's on-disk format is openly documented and exceptionally long-lived, every shard is a preservation-grade asset, and the deployed corpus is simply a tree of such files that can be copied, mirrored, or checksummed wholesale.
+## Repository layout
 
-Since each shard is small, the client fetches only the single work it needs—whole—and queries it in the browser through WebAssembly, with no byte-range paging, no special server behavior, and no headers to tune. That property is what makes the system genuinely portable: it runs identically on a globally distributed object store, an institutional web server, or a researcher's laptop behind any static file server, with no backend process, no database daemon, and no writable endpoint to maintain or attack. The result is a robust, replicable foundation for permanent digital philology that scales gracefully—simply by adding shards—toward the full extent of the textual record.
+| Path | Purpose |
+| --- | --- |
+| `index.html` | Main generated comparison reader. |
+| `lexicon-browser.html` | Standalone lexicon browser. |
+| `map.html` | Map interface for place references. |
+| `search/index.html` | Search interface. |
+| `site/catalog.json` | Catalog of authors, works, versions, annotations, and corpus shards. |
+| `site/lexica.json` | Lexicon metadata and textgroup mappings. |
+| `site/data/**/*.db` | Per-work or multipart read-only SQLite corpus shards. |
+| `site/data/lexica/*.db` | Read-only lexicon shards. |
+| `site/shard_loader.js` | Browser-side shard loader generated by the build. |
+| `assets/` | Images and other static presentation assets. |
+| `.nojekyll` | Tells GitHub Pages to publish the files without Jekyll processing. |
+
+## How it works
+
+1. The browser loads `site/catalog.json` to discover works, versions, annotations, and shard files.
+2. It downloads the shard or shards for the selected work in full.
+3. [sql.js](https://sql.js.org/) runs SQLite in WebAssembly inside the browser.
+4. The application queries editions, translations, commentaries, treebanks, metrics, alignments, and place references and renders the requested parallel view.
+
+A work normally occupies one SQLite file. Large works may be split at ancient book boundaries to keep individual files below common static-hosting limits. The client combines results from the required parts in memory.
+
+This design requires no server-side code, writable endpoint, database daemon, login, or session storage. The complete deployed corpus can be copied or mirrored as an ordinary static directory tree.
+
+## Features
+
+- parallel reading of editions and translations;
+- commentary and note display tied to the current passage;
+- structural, line, and token alignment views;
+- treebank, speaker, and metrical annotations where available;
+- dictionary lookup and a separate lexicon browser;
+- mapped place references; and
+- catalog-driven navigation across authors and works.
+
+Feature availability varies by work and is recorded in `site/catalog.json`.
+
+## Deploy
+
+Publish the entire repository without changing its relative directory structure. The host must:
+
+- serve the files over HTTP or HTTPS;
+- allow ordinary same-origin `fetch` requests for `.json`, `.js`, `.wasm`, and `.db` files; and
+- support the largest generated shard file.
+
+No special SQLite server or byte-range configuration is required because shards are downloaded as complete files. HTTPS is recommended and is required when the page loads third-party dependencies over HTTPS.
+
+The main page currently obtains `marked` and `sql.js` from public CDNs. A long-term institutional deployment may instead vendor and serve those dependencies locally so that the site does not depend on external CDN availability.
+
+## Browser requirements and limits
+
+The reader requires a modern browser with JavaScript, WebAssembly, `fetch`, CSS Grid/Flexbox, SVG, and local storage support.
+
+Because each selected shard is downloaded and opened in browser memory, very large works can be demanding on low-memory devices. Multipart shards keep individual downloads manageable, but this architecture does not turn SQLite into a remotely paged database. Corpus-wide search is also a separate indexing problem from work-level reading.
+
+## Update the site
+
+The normal update workflow begins in `src-persverscomp`:
+
+1. edit the source registry, corpus inputs, lexicon inputs, or front-end files there;
+2. run its build notebook in order;
+3. return to this repository and review the generated changes;
+4. test the site through a local HTTP server; and
+5. commit and deploy the intended runtime artifacts.
+
+In particular, `index.html`, `site/catalog.json`, `site/lexica.json`, `site/shard_loader.js`, and the databases under `site/data/` are generated artifacts. Edit their sources rather than relying on manual changes here.
+
+## Basic validation
+
+Check the generated catalogs:
+
+```bash
+python3 -m json.tool site/catalog.json >/dev/null
+python3 -m json.tool site/lexica.json >/dev/null
+```
+
+Find empty database files:
+
+```bash
+find site/data -name '*.db' -size 0 -print
+```
+
+Check an individual shard with the SQLite command-line tool:
+
+```bash
+sqlite3 site/data/tlg0085/tlg001/tlg0085.tlg001.part1.db 'PRAGMA quick_check;'
+```
+
+The expected result is `ok`. After these checks, use the browser to verify navigation, passage changes, multiple text columns, commentary, lexicon lookup, and at least one multipart work.
+
+## Project context
+
+This experimental serverless implementation explores how the Perseus Digital Library can provide durable public access with minimal operating infrastructure. It draws inspiration from the [Endings Project](https://endings.uvic.ca/) and from Charles Pletcher's minimal-computing work for the [Ajax Multicommentary](https://multi.ajmc.ch/passages/urn:cts:greekLit:tlg0011.tlg003:1-133).
+
+The comparison environment also responds to the needs of work on Aristotle's *Poetics* in Greek, Arabic, and Latin: multiple editions and translations, commentaries, phrase and word alignment, and linguistic annotation must remain available together in a sustainable reading system.
+
+Development of this strand of Perseus has benefited from support from the Alexander von Humboldt Foundation, the Mellon Foundation, Harvard's Center for Hellenic Studies, the National Endowment for the Humanities, Tufts University, and Schmidt Sciences.
+
+## Licensing
+
+No repository-level license file is currently present. The code, texts, annotations, images, and lexica may have different rights statements. Identify and document the applicable licenses before redistributing the repository or its contents outside the project's existing terms.

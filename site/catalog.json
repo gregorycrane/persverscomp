@@ -4040,7 +4040,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 5459968
+     "bytes": 5681152
     }
    ],
    "annotations": {
@@ -4147,9 +4147,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg001.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Suppliant Women"
   },
   "tlg0085.tlg002": {
@@ -4252,7 +4259,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 5226496
+     "bytes": 5443584
     }
    ],
    "annotations": {
@@ -4345,9 +4352,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg002.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Persians"
   },
   "tlg0085.tlg003": {
@@ -4418,7 +4432,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 5791744
+     "bytes": 5971968
     }
    ],
    "annotations": {
@@ -4511,9 +4525,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg003.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Prometheus Bound"
   },
   "tlg0085.tlg004": {
@@ -4596,7 +4617,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 5300224
+     "bytes": 5500928
     }
    ],
    "annotations": {
@@ -4696,9 +4717,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg004.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Seven Against Thebes"
   },
   "tlg0085.tlg005": {
@@ -4809,7 +4837,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 8880128
+     "bytes": 9179136
     }
    ],
    "annotations": {
@@ -4923,9 +4951,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg005.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Agamemnon"
   },
   "tlg0085.tlg006": {
@@ -5024,7 +5059,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 6094848
+     "bytes": 6324224
     }
    ],
    "annotations": {
@@ -5138,9 +5173,16 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg006.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     }
    ],
-   "label": "English (Herbert Weir Smyth, 1926)",
+   "label": "English (Anna Swanwick, 1886)",
    "title": "Libation Bearers"
   },
   "tlg0085.tlg007": {
@@ -5224,7 +5266,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 6623232
+     "bytes": 6795264
     }
    ],
    "annotations": {
@@ -5345,6 +5387,13 @@
      "label": "Latin (A. San Ravius, 1555)",
      "doc_type": "translation",
      "text_class": "latin-text"
+    },
+    {
+     "short_id": "swanwick1886-eng2",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.swanwick1886-eng2",
+     "label": "English (Anna Swanwick, 1886)",
+     "doc_type": "translation",
+     "text_class": "english-text"
     },
     {
      "short_id": "sidgwick1887-com-eng1",
