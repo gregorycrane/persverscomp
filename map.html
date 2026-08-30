@@ -320,17 +320,48 @@
         legend.addTo(map);
     }
 
+    // AWMC/CAWM's basemap only covers the Mediterranean Basin and Near
+    // East (it's a physical-geography map built for the ancient
+    // Mediterranean world, not a general modern basemap). Rather than
+    // picking a basemap per-work, we check the actual place coordinates
+    // for this scope -- so a Thucydides chapter that dips one place
+    // outside the box (rare, but possible) falls back gracefully rather
+    // than silently rendering blank tiles at the edge. Box is generous
+    // on purpose (roughly Iberia/Britain to Persia, Egypt to the Black
+    // Sea) -- better to include some places CAWM only sparsely covers
+    // than to bounce a genuinely Mediterranean text to the wrong map.
+    const AWMC_BOUNDS = L.latLngBounds([[10, -12], [50, 63]]);
+
+    // Fill in a free key from https://carto.com/basemaps/apikey once
+    // requested -- see the map notes for why this is here.
+    const CARTO_API_KEY = "";
+
+    function addBasemap(map, places) {
+        const withinAwmc = places.length > 0 &&
+            places.every(p => AWMC_BOUNDS.contains([p.lat, p.lon]));
+
+        if (withinAwmc) {
+            L.tileLayer('https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png', {
+                attribution: 'Map tiles &copy; <a href="https://cawm.lib.uiowa.edu">Consortium of Ancient World Mappers</a> (CC BY 4.0) | Place data: ToposText (topostext.org)',
+                maxZoom: 12
+            }).addTo(map);
+        } else {
+            const keyParam = CARTO_API_KEY ? `?api_key=${CARTO_API_KEY}` : "";
+            L.tileLayer(`https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png${keyParam}`, {
+                attribution: 'OpenStreetMap contributors, CARTO | Place data: ToposText (topostext.org)',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(map);
+        }
+    }
+
     function renderMap(places, scopeLabel, showChapterPerMention, polygons) {
         document.getElementById("status").style.display = "none";
         document.getElementById("map-row").style.display = "flex";
 
         const map = L.map('map').setView([38.0, 23.7], 6);
         currentMapInstance = map;
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-            attribution: 'OpenStreetMap contributors, CARTO | Place data: ToposText (topostext.org)',
-            subdomains: 'abcd',
-            maxZoom: 19
-        }).addTo(map);
+        addBasemap(map, places);
 
         // Clustering matters most for wide scopes (a whole book, or an
         // entire work) where dozens of pins can land close together;
