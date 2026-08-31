@@ -2700,7 +2700,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 11755520
+     "bytes": 15937536
     }
    ],
    "annotations": {
@@ -2735,6 +2735,69 @@
      "short_id": "boeckh-grc1",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.boeckh-grc1",
      "label": "Greek (A. Boeckh, 1884)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "benloew1858-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.benloew1858-grc1",
+     "label": "Greek (L. Benloew, 1858)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "bothe1806-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.bothe1806-grc1",
+     "label": "Greek (F. H. Bothe, 1806)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "colonna1978-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.colonna1978-grc1",
+     "label": "Greek (A. Colonna, 1978)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dain1955-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.dain1955-grc1",
+     "label": "Greek (A. Dain, 1955)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "dawe1979-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.dawe1979-grc1",
+     "label": "Greek (R. D. Dawe, 1979)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "hermann1830-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.hermann1830-grc1",
+     "label": "Greek (G. Hermann, 1830)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "jebb1906-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb1906-grc1",
+     "label": "Greek (R. C. Jebb, 1906)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "pearson1924-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.pearson1924-grc1",
+     "label": "Greek (A. C. Pearson, 1924)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "reinhardt1949-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.reinhardt1949-grc1",
+     "label": "Greek (K. Reinhardt, 1949)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
