@@ -2561,7 +2561,7 @@
       "1230-1258",
       "1259-1278"
      ],
-     "bytes": 10694656
+     "bytes": 11030528
     }
    ],
    "annotations": {
@@ -2603,6 +2603,13 @@
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -2714,7 +2721,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 16916480
+     "bytes": 17190912
     }
    ],
    "annotations": {
@@ -2872,6 +2879,13 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
      "short_id": "jebb-com-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb-com-eng1",
      "label": "Commentary (R. C. Jebb)",
@@ -2962,7 +2976,7 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 12083200
+     "bytes": 12398592
     }
    ],
    "annotations": {
@@ -3004,6 +3018,13 @@
      "short_id": "perseus-eng2",
      "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-eng2",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3106,7 +3127,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 13459456
+     "bytes": 13832192
     }
    ],
    "annotations": {
@@ -3148,6 +3169,13 @@
      "short_id": "perseus-eng2",
      "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-eng2",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg004.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3250,7 +3278,7 @@
       "1491-1507",
       "1508-1510"
      ],
-     "bytes": 13000704
+     "bytes": 13320192
     }
    ],
    "annotations": {
@@ -3292,6 +3320,13 @@
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3381,7 +3416,7 @@
       "1408-1444",
       "1445-1471"
      ],
-     "bytes": 13185024
+     "bytes": 13508608
     }
    ],
    "annotations": {
@@ -3423,6 +3458,13 @@
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3516,7 +3558,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 15409152
+     "bytes": 15822848
     }
    ],
    "annotations": {
@@ -3558,6 +3600,13 @@
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "campbell1906-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.campbell1906-eng1",
+     "label": "English (Lewis Campbell, 1906)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
