@@ -181,7 +181,7 @@
       "19",
       "20"
      ],
-     "bytes": 14143488
+     "bytes": 14139392
     }
    ],
    "annotations": {
@@ -359,7 +359,7 @@
       "3",
       "4"
      ],
-     "bytes": 39866368
+     "bytes": 39940096
     }
    ],
    "annotations": {
@@ -471,7 +471,7 @@
       "4",
       "5"
      ],
-     "bytes": 65015808
+     "bytes": 65159168
     },
     {
      "part": 2,
@@ -483,7 +483,7 @@
       "back",
       "front"
      ],
-     "bytes": 35180544
+     "bytes": 35241984
     }
    ],
    "annotations": {
@@ -632,7 +632,7 @@
       "656-662",
       "663-709"
      ],
-     "bytes": 2670592
+     "bytes": 2674688
     }
    ],
    "annotations": {
@@ -745,7 +745,7 @@
       "1118-1158",
       "1159-1163"
      ],
-     "bytes": 4157440
+     "bytes": 4165632
     }
    ],
    "annotations": {
@@ -850,7 +850,7 @@
       "1361-1388",
       "1389-1419"
      ],
-     "bytes": 5013504
+     "bytes": 5021696
     }
    ],
    "annotations": {
@@ -935,7 +935,7 @@
       "1018-1052",
       "1053-1055"
      ],
-     "bytes": 3862528
+     "bytes": 3870720
     }
    ],
    "annotations": {
@@ -1049,7 +1049,7 @@
       "1431-1461",
       "1462-1466"
      ],
-     "bytes": 5165056
+     "bytes": 5177344
     }
    ],
    "annotations": {
@@ -1247,7 +1247,7 @@
       "1252-1292",
       "1293-1295"
      ],
-     "bytes": 4546560
+     "bytes": 4554752
     }
    ],
    "annotations": {
@@ -1354,7 +1354,7 @@
       "1196-1231",
       "1232-1234"
      ],
-     "bytes": 4452352
+     "bytes": 4460544
     }
    ],
    "annotations": {
@@ -1426,7 +1426,7 @@
       "815-1015",
       "1016-1428"
      ],
-     "bytes": 4943872
+     "bytes": 4952064
     }
    ],
    "annotations": {
@@ -1528,7 +1528,7 @@
       "1571-1605",
       "1606-1622"
      ],
-     "bytes": 5369856
+     "bytes": 5382144
     }
    ],
    "annotations": {
@@ -1634,7 +1634,7 @@
       "1302-1316",
       "1317-1332"
      ],
-     "bytes": 4489216
+     "bytes": 4497408
     }
    ],
    "annotations": {
@@ -1740,7 +1740,7 @@
       "1292-1320",
       "1321-1359"
      ],
-     "bytes": 4853760
+     "bytes": 4861952
     }
    ],
    "annotations": {
@@ -1834,7 +1834,7 @@
       "1475-1489",
       "1490-1499"
      ],
-     "bytes": 5300224
+     "bytes": 5308416
     }
    ],
    "annotations": {
@@ -1937,7 +1937,7 @@
       "1642-1687",
       "1688-1692"
      ],
-     "bytes": 6197248
+     "bytes": 6205440
     }
    ],
    "annotations": {
@@ -2042,7 +2042,7 @@
       "1758-1763",
       "1764-1766"
      ],
-     "bytes": 6221824
+     "bytes": 6234112
     }
    ],
    "annotations": {
@@ -2146,7 +2146,7 @@
       "1666-1681",
       "1682-1693"
      ],
-     "bytes": 6365184
+     "bytes": 6377472
     }
    ],
    "annotations": {
@@ -2240,7 +2240,7 @@
       "1330-1367",
       "1368-1392"
      ],
-     "bytes": 4812800
+     "bytes": 4816896
     }
    ],
    "annotations": {
@@ -2561,7 +2561,7 @@
       "1230-1258",
       "1259-1278"
      ],
-     "bytes": 11030528
+     "bytes": 11313152
     }
    ],
    "annotations": {
@@ -2610,6 +2610,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg001.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -2721,7 +2728,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 17190912
+     "bytes": 17522688
     }
    ],
    "annotations": {
@@ -2886,6 +2893,13 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
      "short_id": "jebb-com-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.jebb-com-eng1",
      "label": "Commentary (R. C. Jebb)",
@@ -2976,7 +2990,7 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 12398592
+     "bytes": 12697600
     }
    ],
    "annotations": {
@@ -3025,6 +3039,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg003.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3127,7 +3148,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 13832192
+     "bytes": 14176256
     }
    ],
    "annotations": {
@@ -3176,6 +3197,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg004.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg004.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3278,7 +3306,7 @@
       "1491-1507",
       "1508-1510"
      ],
-     "bytes": 13320192
+     "bytes": 13651968
     }
    ],
    "annotations": {
@@ -3327,6 +3355,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg005.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3416,7 +3451,7 @@
       "1408-1444",
       "1445-1471"
      ],
-     "bytes": 13508608
+     "bytes": 13840384
     }
    ],
    "annotations": {
@@ -3465,6 +3500,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg006.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -3558,7 +3600,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 15822848
+     "bytes": 16236544
     }
    ],
    "annotations": {
@@ -3607,6 +3649,13 @@
      "short_id": "campbell1906-eng1",
      "urn": "urn:cts:greekLit:tlg0011.tlg007.campbell1906-eng1",
      "label": "English (Lewis Campbell, 1906)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "potter1788-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.potter1788-eng1",
+     "label": "English (Robert Potter, 1788)",
      "doc_type": "translation",
      "text_class": "english-text"
     },
@@ -4271,7 +4320,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 5681152
+     "bytes": 5771264
     }
    ],
    "annotations": {
@@ -4490,7 +4539,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 5443584
+     "bytes": 5451776
     }
    ],
    "annotations": {
@@ -4663,7 +4712,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 5971968
+     "bytes": 5988352
     }
    ],
    "annotations": {
@@ -4848,7 +4897,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 5500928
+     "bytes": 5517312
     }
    ],
    "annotations": {
@@ -5290,7 +5339,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 6324224
+     "bytes": 6369280
     }
    ],
    "annotations": {
@@ -5497,7 +5546,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 6795264
+     "bytes": 6832128
     }
    ],
    "annotations": {
@@ -5845,7 +5894,7 @@
       "23",
       "24"
      ],
-     "bytes": 51408896
+     "bytes": 51392512
     },
     {
      "part": 2,
