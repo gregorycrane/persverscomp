@@ -2561,7 +2561,7 @@
       "1230-1258",
       "1259-1278"
      ],
-     "bytes": 9789440
+     "bytes": 10694656
     }
    ],
    "annotations": {
@@ -2593,6 +2593,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
@@ -2605,9 +2612,16 @@
      "label": "Commentary (R. C. Jebb)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "campbell1879-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg001.campbell1879-com-eng1",
+     "label": "Commentary (Lewis Campbell, 1879)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)",
+   "label": "Commentary (Lewis Campbell, 1879)",
    "title": "Trachiniai"
   },
   "tlg0011.tlg002": {
@@ -2700,7 +2714,7 @@
       "1339-1346",
       "1347-1353"
      ],
-     "bytes": 16334848
+     "bytes": 16916480
     }
    ],
    "annotations": {
@@ -2728,6 +2742,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2",
      "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg002.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -2941,7 +2962,7 @@
       "1346-1375",
       "1376-1420"
      ],
-     "bytes": 10956800
+     "bytes": 12083200
     }
    ],
    "annotations": {
@@ -2973,6 +2994,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "perseus-eng2",
      "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-eng2",
      "label": "English (Sir Richard Jebb, 1904)",
@@ -2985,9 +3013,16 @@
      "label": "Commentary (R. C. Jebb)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "campbell1879-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg003.campbell1879-com-eng1",
+     "label": "Commentary (Lewis Campbell, 1879)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)",
+   "label": "Commentary (Lewis Campbell, 1879)",
    "title": "Ajax"
   },
   "tlg0011.tlg004": {
@@ -3071,7 +3106,7 @@
       "1478-1515",
       "1516-1530"
      ],
-     "bytes": 12914688
+     "bytes": 13459456
     }
    ],
    "annotations": {
@@ -3099,6 +3134,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2",
      "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg004.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -3208,7 +3250,7 @@
       "1491-1507",
       "1508-1510"
      ],
-     "bytes": 12025856
+     "bytes": 13000704
     }
    ],
    "annotations": {
@@ -3240,6 +3282,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
@@ -3252,9 +3301,16 @@
      "label": "Commentary (R. C. Jebb)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "campbell1879-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg005.campbell1879-com-eng1",
+     "label": "Commentary (Lewis Campbell, 1879)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)",
+   "label": "Commentary (Lewis Campbell, 1879)",
    "title": "Electra"
   },
   "tlg0011.tlg006": {
@@ -3325,7 +3381,7 @@
       "1408-1444",
       "1445-1471"
      ],
-     "bytes": 12050432
+     "bytes": 13185024
     }
    ],
    "annotations": {
@@ -3357,6 +3413,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "perseus-eng3",
      "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-eng3",
      "label": "English (Sir Richard Jebb, 1904)",
@@ -3369,9 +3432,16 @@
      "label": "Commentary (R. C. Jebb)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "campbell1879-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg006.campbell1879-com-eng1",
+     "label": "Commentary (Lewis Campbell, 1879)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
-   "label": "Commentary (R. C. Jebb)",
+   "label": "Commentary (Lewis Campbell, 1879)",
    "title": "Philoctetes"
   },
   "tlg0011.tlg007": {
@@ -3446,7 +3516,7 @@
       "1737-1750",
       "1751-1779"
      ],
-     "bytes": 14761984
+     "bytes": 15409152
     }
    ],
    "annotations": {
@@ -3474,6 +3544,13 @@
      "short_id": "perseus-grc2",
      "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-grc2",
      "label": "Greek (F. Storr, 1912)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "campbell1879-grc1",
+     "urn": "urn:cts:greekLit:tlg0011.tlg007.campbell1879-grc1",
+     "label": "Greek (Lewis Campbell, 1879)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
