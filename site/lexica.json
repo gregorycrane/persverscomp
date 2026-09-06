@@ -48,6 +48,13 @@
    "citation": "Bétant, É.-A. (1843–1847). Lexicon Thucydideum. Carey.",
    "entry_kind": "word",
    "shard": "lexica_thucydides.db"
+  },
+  "orlando-furioso-ita": {
+   "title": "Orlando Furioso — Italian glossary",
+   "author": "Generated from the Sanjaya treebank glosses",
+   "citation": "Interlinear glosses, orlando-furioso-sanjaya annotations.",
+   "entry_kind": "word",
+   "shard": "lexica_ariosto.db"
   }
  },
  "textgroups": {
@@ -90,6 +97,9 @@
   ],
   "ferdowsi": [
    "pizzi-persian"
+  ],
+  "ariosto": [
+   "orlando-furioso-ita"
   ]
  }
 }
