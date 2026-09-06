@@ -5949,7 +5949,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 8675328
+     "bytes": 9142272
     }
    ],
    "annotations": {
@@ -6023,6 +6023,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "paley1885-grc1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.paley1885-grc1",
+     "label": "Greek (F. A. Paley, 1885)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "hermann1852-appcrit-lat1",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.hermann1852-appcrit-lat1",
      "label": "Critical apparatus (Gottfried Hermann, 1852; Latin and Greek)",
@@ -6091,6 +6098,13 @@
      "label": "Commentary (Arthur Sidgwick, 1887)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "paley1885-com-eng1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.paley1885-com-eng1",
+     "label": "Commentary (F. A. Paley, 1885)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
    "label": "Commentary (Arthur Sidgwick, 1887)",
@@ -6131,7 +6145,7 @@
       "25",
       "26"
      ],
-     "bytes": 25149440
+     "bytes": 27160576
     }
    ],
    "annotations": {
@@ -6180,6 +6194,13 @@
      "short_id": "bywater1909-grc1",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.bywater1909-grc1",
      "label": "Greek (Ingram Bywater, 1909)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
+     "short_id": "ritter1839-grc1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.ritter1839-grc1",
+     "label": "Greek (Franz Ritter, 1839)",
      "doc_type": "edition",
      "text_class": "greek-text"
     },
@@ -6240,6 +6261,20 @@
      "text_class": "english-text"
     },
     {
+     "short_id": "buckley1850-eng1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.buckley1850-eng1",
+     "label": "English (Theodore Alois Buckley, 1850; 1857 printing)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    },
+    {
+     "short_id": "ritter1839-lat1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.ritter1839-lat1",
+     "label": "Latin (Franz Ritter, 1839)",
+     "doc_type": "translation",
+     "text_class": "latin-text"
+    },
+    {
      "short_id": "dacier1692-fra2",
      "urn": "urn:cts:greekLit:tlg0086.tlg034.dacier1692-fra2",
      "label": "French (André Dacier, 1692)",
@@ -6280,10 +6315,50 @@
      "label": "Commentary (Henry James Pye, 1792)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "ritter1839-commentary-lat1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg034.ritter1839-commentary-lat1",
+     "label": "Commentary (Franz Ritter, 1839)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
     }
    ],
    "label": "Arabic (Abū Bishr Mattā, c. 900)",
    "title": "Poetics"
+  },
+  "tlg0086.tlg038": {
+   "textgroup": "tlg0086",
+   "work": "tlg038",
+   "parts": [
+    {
+     "part": 1,
+     "file": "tlg0086.tlg038.part1.db",
+     "books": [
+      "1",
+      "2",
+      "3"
+     ],
+     "bytes": 843776
+    }
+   ],
+   "annotations": {
+    "treebanks": 0,
+    "alignments": 0,
+    "commentaries": 0,
+    "metrical_lines": 0
+   },
+   "versions": [
+    {
+     "short_id": "buckley1850-eng1",
+     "urn": "urn:cts:greekLit:tlg0086.tlg038.buckley1850-eng1",
+     "label": "English (Theodore Alois Buckley, 1850; 1857 printing)",
+     "doc_type": "translation",
+     "text_class": "english-text"
+    }
+   ],
+   "label": "English (Theodore Alois Buckley, 1850; 1857 printing)",
+   "title": "English (Theodore Alois Buckley, 1850; 1857 printing)"
   },
   "tlg2045.tlg001": {
    "textgroup": "tlg2045",
