@@ -4681,7 +4681,7 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 6926336
+     "bytes": 7241728
     }
    ],
    "annotations": {
@@ -4907,7 +4907,7 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 6987776
+     "bytes": 7266304
     }
    ],
    "annotations": {
@@ -5087,7 +5087,7 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 8007680
+     "bytes": 8335360
     }
    ],
    "annotations": {
@@ -5279,7 +5279,7 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 6995968
+     "bytes": 7393280
     }
    ],
    "annotations": {
@@ -5506,7 +5506,7 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 12038144
+     "bytes": 12378112
     }
    ],
    "annotations": {
@@ -5735,7 +5735,7 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 8093696
+     "bytes": 8359936
     }
    ],
    "annotations": {
@@ -5949,7 +5949,7 @@
       "1040-1043",
       "1044-1047"
      ],
-     "bytes": 9142272
+     "bytes": 10428416
     }
    ],
    "annotations": {
@@ -6030,6 +6030,13 @@
      "text_class": "greek-text"
     },
     {
+     "short_id": "blass1907-grc1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.blass1907-grc1",
+     "label": "Greek (Friedrich Blass, 1907)",
+     "doc_type": "edition",
+     "text_class": "greek-text"
+    },
+    {
      "short_id": "hermann1852-appcrit-lat1",
      "urn": "urn:cts:greekLit:tlg0085.tlg007.hermann1852-appcrit-lat1",
      "label": "Critical apparatus (Gottfried Hermann, 1852; Latin and Greek)",
@@ -6105,6 +6112,20 @@
      "label": "Commentary (F. A. Paley, 1885)",
      "doc_type": "commentary",
      "text_class": "commentary-text"
+    },
+    {
+     "short_id": "blass1907-com-deu1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.blass1907-com-deu1",
+     "label": "Commentary (Friedrich Blass, 1907)",
+     "doc_type": "commentary",
+     "text_class": "commentary-text"
+    },
+    {
+     "short_id": "blass1907-scholia-mul1",
+     "urn": "urn:cts:greekLit:tlg0085.tlg007.blass1907-scholia-mul1",
+     "label": "Selected scholia (Blass, 1907; aligned to Smith)",
+     "doc_type": "scholia",
+     "text_class": "scholia-text"
     }
    ],
    "label": "Commentary (Arthur Sidgwick, 1887)",
