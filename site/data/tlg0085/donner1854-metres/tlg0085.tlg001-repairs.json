@@ -1,0 +1,329 @@
+[
+  {
+    "kind": "classification",
+    "printed_page": 206,
+    "text": "3weiter Halbchor.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 215,
+    "text": "Die Chorführerin,",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 231,
+    "text": "führerin des ersten Halbchors.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 232,
+    "text": "führerin des zweiten Halbchors.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 232,
+    "text": "führerin des zweiten Halbchors.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 232,
+    "text": "Führerin des ersten Halbchors.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 235,
+    "text": "Erste Jungfrau des Chores.",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 208,
+    "text": "Siebente Gegenstrophe,",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 220,
+    "text": "Wechselgelang des Chores.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 233,
+    "text": "Wechſelgesang des Chores.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 234,
+    "text": "- Dritte Strophe.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 243,
+    "text": "Gesang der hinausziehenden Chőre.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 222,
+    "text": "-"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 204,
+    "before": [
+      "Rührendem Hauch, den im Namen bewährte die Zeit des",
+      "vollendenden Schicksals,"
+    ],
+    "after": "Rührendem Hauch, den im Namen bewährte die Zeit des vollendenden Schicksals,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 204,
+    "before": [
+      "Hier in den Au'n schweifend",
+      "erlitt, und von unseren"
+    ],
+    "after": "Hier in den Au'n schweifend erlitt, und von unseren"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 204,
+    "before": [
+      "Hier in den Au'n schweifend erlitt, und von unseren",
+      "Stammherrn"
+    ],
+    "after": "Hier in den Au'n schweifend erlitt, und von unseren Stammherrn"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 205,
+    "before": [
+      "Sichere Kunden verleih'n, Unverhofftes dem Ohr der Ar-",
+      "geier enthüllen."
+    ],
+    "after": "Sichere Kunden verleih'n, Unverhofftes dem Ohr der Argeier enthüllen."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 205,
+    "before": [
+      "Traf mit des Mords blutiger Hand,",
+      "sie selbst"
+    ],
+    "after": "Traf mit des Mords blutiger Hand, sie selbst"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 205,
+    "before": [
+      "Götter des Stammes, vernehmt, ihr erfahrenen Hüter des",
+      "Rechtes!"
+    ],
+    "after": "Götter des Stammes, vernehmt, ihr erfahrenen Hüter des Rechtes!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 236,
+    "before": [
+      "Mordender Schlag trennt uns blutend das Haupt vom",
+      "Rumpf!"
+    ],
+    "after": "Mordender Schlag trennt uns blutend das Haupt vom Rumpf!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 237,
+    "before": [
+      "In des Sturms Nacht an den vielsandigen Untiefen",
+      "Sarpedons"
+    ],
+    "after": "In des Sturms Nacht an den vielsandigen Untiefen Sarpedons"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 244,
+    "before": [
+      "Sich die Sehnsucht und die allsiegende, holdzaubernde",
+      "Peitho,"
+    ],
+    "after": "Sich die Sehnsucht und die allsiegende, holdzaubernde Peitho,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 244,
+    "before": [
+      "warum glückte die Seefahrt zu der windschnellen Ver-",
+      "folgung?"
+    ],
+    "after": "warum glückte die Seefahrt zu der windschnellen Verfolgung?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 244,
+    "before": [
+      "Es umgeht Keiner des Zeus ewigen, niewankenden Rath-",
+      "schluß."
+    ],
+    "after": "Es umgeht Keiner des Zeus ewigen, niewankenden Rathschluß."
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 235,
+    "text": "Ich Arme, wehe!",
+    "editorial_citation": "788a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 236,
+    "text": "O Graun, o Graun!",
+    "editorial_citation": "807a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 237,
+    "text": "Gewalt, Gewalt !",
+    "editorial_citation": "816a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 237,
+    "text": "Weh uns, weh uns!",
+    "editorial_citation": "819a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 237,
+    "text": "Ach, ach, ach, ach!",
+    "editorial_citation": "826a"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 225,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Nach des Geschicks Willen der See wogende Flut durch-",
+      "schneidend."
+    ],
+    "after": "Nach des Geschicks Willen der See wogende Flut durchschneidend."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 225,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Nach des Geschicks Willen der See wogende Flut durch-",
+      "schneidend."
+    ],
+    "after": "Nach des Geschicks Willen der See wogende Flut durchschneidend."
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": "207",
+    "n": "111",
+    "before": "•",
+    "after": "",
+    "basis": "PDF page 443 shows a speck, not a verse."
+  },
+  {
+    "kind": "parenthetical-verse",
+    "printed_page": "207",
+    "n": "114",
+    "before": "stage",
+    "after": "verse 114",
+    "basis": "PDF page 443 explicitly repeats the parenthetical verse."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "206",
+    "n": null,
+    "before": "3weiter Halbchor.",
+    "after": "Zweiter Halbchor.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "215",
+    "n": null,
+    "before": "Die Chorführerin,",
+    "after": "Die Chorführerin.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "220",
+    "n": null,
+    "before": "Wechselgelang des Chores.",
+    "after": "Wechselgesang des Chores.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "204",
+    "n": "40",
+    "before": "Jeht im Gebete zu dir",
+    "after": "Jetzt im Gebete zu dir",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "204",
+    "n": "47",
+    "before": "Jeht in der grasigen Flur",
+    "after": "Jetzt in der grasigen Flur",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "209",
+    "n": "154",
+    "before": "Kehrst du jekt dein Angesicht",
+    "after": "Kehrst du jetzt dein Angesicht",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "209",
+    "n": "164",
+    "before": "Auch jekt am Festland mahn' ich euch mit weisem Sinn:",
+    "after": "Auch jetzt am Festland mahn' ich euch mit weisem Sinn:",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "228",
+    "n": "607",
+    "before": "Höret mich jest, wenn Einmal,",
+    "after": "Höret mich jetzt, wenn Einmal,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "240",
+    "n": "893",
+    "before": "Und jest hinweg aus meinen Augen, - ungesäumt!",
+    "after": "Und jetzt hinweg aus meinen Augen, - ungesäumt!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "246",
+    "n": "1017",
+    "before": "Daf dem Recht des Rechtes Sieg",
+    "after": "Daß dem Recht des Rechtes Sieg",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

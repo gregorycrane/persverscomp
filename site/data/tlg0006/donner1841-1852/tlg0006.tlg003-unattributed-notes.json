@@ -1,0 +1,47 @@
+{
+  "notes": [
+    {
+      "id": "note-003-9",
+      "number": "139",
+      "pages": [
+        283
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Σ. μὴ φίλια.",
+      "text": "Σ. μὴ φίλια.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-003-22",
+      "number": "417",
+      "pages": [
+        284
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders: Chre, Ruhm verherrlicht auch der Fraun Geschlecht;\nNimmer belastet hinfort schmachvoller Nuf die Weiber.",
+      "text": "Anders: Chre, Ruhm verherrlicht auch der Fraun Geschlecht; Nimmer belastet hinfort schmachvoller Nuf die Weiber.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-003-33",
+      "number": "826",
+      "pages": [
+        284
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Verbinde μετ' ἄλλων mit σκέψαι, und seze nach ὁσίαν ein\nFragezeichen.",
+      "text": "Verbinde μετ' ἄλλων mit σκέψαι, und seze nach ὁσίαν ein Fragezeichen.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}

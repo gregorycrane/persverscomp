@@ -1,0 +1,88 @@
+{
+  "new_translations": 10,
+  "works_in_viewer": 11,
+  "english_versions": 12,
+  "notes_preserved": 120,
+  "tests_passed": 50,
+  "canonical_files_unchanged": true,
+  "deployed": [
+    {
+      "work": "tlg0019.tlg001",
+      "populated_cards": 64,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg002",
+      "populated_cards": 64,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg004",
+      "populated_cards": 77,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg005",
+      "populated_cards": 60,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg006",
+      "populated_cards": 81,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg007",
+      "populated_cards": 60,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg008",
+      "populated_cards": 54,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg009",
+      "populated_cards": 76,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg010",
+      "populated_cards": 46,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    },
+    {
+      "work": "tlg0019.tlg011",
+      "populated_cards": 33,
+      "xml_identical_to_validated_stage": true,
+      "cts_urn_valid": true,
+      "deployed_shard_checked": true
+    }
+  ],
+  "new_tei_schema_validated": 10,
+  "all_parentheses_preserved": true,
+  "drama_display_checks_passed": 13,
+  "populated_new_translation_cards": 615,
+  "live_browser_verified": [
+    "Knights 40-84: translated prose after inline stage direction present alongside Greek",
+    "Lysistrata 1-45: Lines navigation, separate Greek verses, and translation-specific tr. numbers"
+  ]
+}

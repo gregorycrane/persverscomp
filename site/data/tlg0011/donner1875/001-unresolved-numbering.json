@@ -1,0 +1,51 @@
+[
+  {
+    "after": 415,
+    "before": 420,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r552",
+      "r555",
+      "r556"
+    ]
+  },
+  {
+    "after": 850,
+    "before": 855,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r1077",
+      "r1078",
+      "r1079",
+      "r1081"
+    ]
+  },
+  {
+    "after": 950,
+    "before": 955,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r1223",
+      "r1224",
+      "r1225",
+      "r1226",
+      "r1228"
+    ]
+  },
+  {
+    "after": 1000,
+    "before": 1005,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r1292",
+      "r1294",
+      "r1295",
+      "r1296",
+      "r1298"
+    ]
+  }
+]

@@ -1,0 +1,659 @@
+[
+  {
+    "page": "9",
+    "differences": []
+  },
+  {
+    "page": "10",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "45",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Hephästos.",
+        "N": "Hephäftos, 45 O"
+      },
+      {
+        "type": "replace",
+        "H": "verhaßtes",
+        "N": "verhaftes"
+      }
+    ]
+  },
+  {
+    "page": "11",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Daß",
+        "N": "Daf"
+      }
+    ]
+  },
+  {
+    "page": "12",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Jest",
+        "N": "Jekt"
+      },
+      {
+        "type": "replace",
+        "H": "Lohu. Jekt",
+        "N": "Lohn. Jeht"
+      }
+    ]
+  },
+  {
+    "page": "13",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nez.",
+        "N": "Ney."
+      },
+      {
+        "type": "replace",
+        "H": "Himmlischen :",
+        "N": "Himmlischen:"
+      },
+      {
+        "type": "replace",
+        "H": "Jekt,",
+        "N": "Jezt,"
+      }
+    ]
+  },
+  {
+    "page": "14",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "abwech",
+        "N": "abwechs"
+      },
+      {
+        "type": "replace",
+        "H": "her,",
+        "N": "her."
+      }
+    ]
+  },
+  {
+    "page": "15",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "muß !",
+        "N": "muß!"
+      },
+      {
+        "type": "replace",
+        "H": "Entseyen,",
+        "N": "Entsezen,"
+      },
+      {
+        "type": "replace",
+        "H": "Kroni=",
+        "N": "Kroni-"
+      },
+      {
+        "type": "replace",
+        "H": "Feinde !",
+        "N": "Feinde!"
+      }
+    ]
+  },
+  {
+    "page": "16",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Uranos\"",
+        "N": "Uranos'"
+      },
+      {
+        "type": "replace",
+        "H": "jezt",
+        "N": "jekt"
+      },
+      {
+        "type": "replace",
+        "H": "Geschwäk,",
+        "N": "Geschwäy,"
+      },
+      {
+        "type": "replace",
+        "H": "Troy.",
+        "N": "Trok."
+      }
+    ]
+  },
+  {
+    "page": "17",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Jest",
+        "N": "Jekt"
+      },
+      {
+        "type": "replace",
+        "H": "Rathe",
+        "N": "Nathe"
+      }
+    ]
+  },
+  {
+    "page": "18",
+    "differences": [
+      {
+        "type": "delete",
+        "H": ".",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "auszuzieh'n.",
+        "N": "aufzuzieh'n."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      }
+    ]
+  },
+  {
+    "page": "19",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "•"
+      }
+    ]
+  },
+  {
+    "page": "20",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nuf",
+        "N": "Ruf"
+      },
+      {
+        "type": "replace",
+        "H": "Seeroß.)",
+        "N": "Seerof.)"
+      }
+    ]
+  },
+  {
+    "page": "21",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "sieh'",
+        "N": "sich'"
+      },
+      {
+        "type": "replace",
+        "H": "ikt",
+        "N": "ist"
+      }
+    ]
+  },
+  {
+    "page": "22",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schnöder Lohn?",
+        "N": "schnöder-Lohn?"
+      },
+      {
+        "type": "replace",
+        "H": "jego",
+        "N": "jeko"
+      },
+      {
+        "type": "replace",
+        "H": "Trog",
+        "N": "Troy"
+      }
+    ]
+  },
+  {
+    "page": "23",
+    "differences": []
+  },
+  {
+    "page": "24",
+    "differences": []
+  },
+  {
+    "page": "25",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "nekt",
+        "N": "nezt"
+      },
+      {
+        "type": "replace",
+        "H": "entseßlich",
+        "N": "entseklich"
+      },
+      {
+        "type": "replace",
+        "H": "auf.",
+        "N": "auf"
+      },
+      {
+        "type": "replace",
+        "H": "in",
+        "N": "in,"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      }
+    ]
+  },
+  {
+    "page": "26",
+    "differences": []
+  },
+  {
+    "page": "27",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Rof",
+        "N": "Noß"
+      },
+      {
+        "type": "replace",
+        "H": "Raubvögel",
+        "N": "Naubvögel"
+      }
+    ]
+  },
+  {
+    "page": "28",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "entflich'n.",
+        "N": "entflieh'n."
+      }
+    ]
+  },
+  {
+    "page": "29",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Neden;",
+        "N": "Reden;"
+      }
+    ]
+  },
+  {
+    "page": "30",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Hesione,",
+        "N": "Hefione,"
+      },
+      {
+        "type": "replace",
+        "H": "fast",
+        "N": "faßt"
+      },
+      {
+        "type": "replace",
+        "H": "Grüften",
+        "N": "Grüsten"
+      }
+    ]
+  },
+  {
+    "page": "31",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nohr",
+        "N": "Rohr"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": ":",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Rache",
+        "N": "Nache"
+      }
+    ]
+  },
+  {
+    "page": "32",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "To.",
+        "N": "Jo."
+      }
+    ]
+  },
+  {
+    "page": "33",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Jo.",
+        "N": "To."
+      }
+    ]
+  },
+  {
+    "page": "34",
+    "differences": []
+  },
+  {
+    "page": "35",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Blikstrahl",
+        "N": "Blipstrahl"
+      },
+      {
+        "type": "replace",
+        "H": "Rast",
+        "N": "Nast"
+      },
+      {
+        "type": "replace",
+        "H": "685",
+        "N": "'685"
+      },
+      {
+        "type": "replace",
+        "H": "Herz!",
+        "N": "Herz !"
+      }
+    ]
+  },
+  {
+    "page": "36",
+    "differences": []
+  },
+  {
+    "page": "37",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Ruf",
+        "N": "Nuf"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "jekt",
+        "N": "jest"
+      },
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "auf.",
+        "N": "aus."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      }
+    ]
+  },
+  {
+    "page": "38",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nathes",
+        "N": "Rathes"
+      },
+      {
+        "type": "replace",
+        "H": "To.",
+        "N": "Jo."
+      }
+    ]
+  },
+  {
+    "page": "39",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "To.",
+        "N": "Jo."
+      }
+    ]
+  },
+  {
+    "page": "40",
+    "differences": []
+  },
+  {
+    "page": "41",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "rossetummelnden",
+        "N": "roffsetummelnden"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "—"
+      },
+      {
+        "type": "replace",
+        "H": "fie",
+        "N": "sie"
+      },
+      {
+        "type": "replace",
+        "H": "lehtes",
+        "N": "lektes"
+      },
+      {
+        "type": "replace",
+        "H": "Nede",
+        "N": "Rede"
+      }
+    ]
+  },
+  {
+    "page": "42",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Sehersis,",
+        "N": "Sehersik,"
+      },
+      {
+        "type": "replace",
+        "H": "Ufer",
+        "N": "User"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "43",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "sie",
+        "N": "fie"
+      },
+      {
+        "type": "replace",
+        "H": "Leid !",
+        "N": "Leid!"
+      },
+      {
+        "type": "replace",
+        "H": "Pause.)",
+        "N": "Pause.)]"
+      }
+    ]
+  },
+  {
+    "page": "44",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Besize",
+        "N": "Besige"
+      },
+      {
+        "type": "replace",
+        "H": "Ehebund",
+        "N": "Chebund"
+      },
+      {
+        "type": "replace",
+        "H": "Trokig",
+        "N": "Trozig"
+      }
+    ]
+  },
+  {
+    "page": "45",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Bligen,",
+        "N": "Blizen,"
+      },
+      {
+        "type": "replace",
+        "H": "stehst",
+        "N": "siehst"
+      }
+    ]
+  },
+  {
+    "page": "46",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Daf",
+        "N": "Daß"
+      }
+    ]
+  },
+  {
+    "page": "47",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Rasen",
+        "N": "Nasen"
+      }
+    ]
+  },
+  {
+    "page": "48",
+    "differences": []
+  },
+  {
+    "page": "49",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "All:",
+        "N": "All :"
+      },
+      {
+        "type": "replace",
+        "H": "Nathschlüssen",
+        "N": "Rathschlüssen"
+      },
+      {
+        "type": "replace",
+        "H": "Trok.",
+        "N": "Troy."
+      }
+    ]
+  },
+  {
+    "page": "50",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Trok,",
+        "N": "Troß,"
+      }
+    ]
+  },
+  {
+    "page": "51",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "4*",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "52",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "(Hermed",
+        "N": "(Hermes"
+      },
+      {
+        "type": "replace",
+        "H": "Blik;",
+        "N": "Bliz;"
+      }
+    ]
+  }
+]

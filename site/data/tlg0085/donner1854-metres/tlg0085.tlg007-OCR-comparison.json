@@ -1,0 +1,703 @@
+[
+  {
+    "page": "161",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Phöbos,",
+        "N": "Phobos,"
+      },
+      {
+        "type": "replace",
+        "H": "schiffsbedeckten",
+        "N": "schiffbedeckten"
+      },
+      {
+        "type": "replace",
+        "H": "segt",
+        "N": "sekt"
+      }
+    ]
+  },
+  {
+    "page": "162",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Daf",
+        "N": "Daß"
+      },
+      {
+        "type": "replace",
+        "H": "sie;",
+        "N": "ste;"
+      },
+      {
+        "type": "replace",
+        "H": "entseylich,",
+        "N": "entseklich,"
+      },
+      {
+        "type": "replace",
+        "H": "wedt.",
+        "N": "weckt."
+      }
+    ]
+  },
+  {
+    "page": "163",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Heilig.",
+        "N": "Heilig-"
+      },
+      {
+        "type": "replace",
+        "H": "Nasenden;",
+        "N": "Rasenden;"
+      }
+    ]
+  },
+  {
+    "page": "164",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "bewältigen !",
+        "N": "bewältigen!"
+      },
+      {
+        "type": "replace",
+        "H": "Ehrt",
+        "N": "Chrt"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "165",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "rasse",
+        "N": "raffe"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra. 1",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "vergift.",
+        "N": "vergißt."
+      }
+    ]
+  },
+  {
+    "page": "166",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "her-",
+        "N": "her"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      },
+      {
+        "type": "replace",
+        "H": "Neze",
+        "N": "Neke"
+      }
+    ]
+  },
+  {
+    "page": "167",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "160",
+        "N": "1.60"
+      },
+      {
+        "type": "replace",
+        "H": "Ruchlose,",
+        "N": "Nuchlose,"
+      },
+      {
+        "type": "replace",
+        "H": "trok",
+        "N": "trog"
+      },
+      {
+        "type": "replace",
+        "H": "Sehersiz",
+        "N": "Sehersis"
+      }
+    ]
+  },
+  {
+    "page": "168",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "—"
+      }
+    ]
+  },
+  {
+    "page": "169",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Chegöttin",
+        "N": "Ehegöttin"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Nache",
+        "N": "Rache"
+      }
+    ]
+  },
+  {
+    "page": "170",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Netter",
+        "N": "Retter"
+      },
+      {
+        "type": "replace",
+        "H": "leyten",
+        "N": "lekten"
+      },
+      {
+        "type": "replace",
+        "H": "herein.",
+        "N": "herein-"
+      },
+      {
+        "type": "replace",
+        "H": "hier.",
+        "N": "hier.\""
+      },
+      {
+        "type": "replace",
+        "H": "sieh!",
+        "N": "sleh!"
+      },
+      {
+        "type": "replace",
+        "H": "überall :",
+        "N": "überall:"
+      }
+    ]
+  },
+  {
+    "page": "171",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schlürfen,",
+        "N": "schlürsen,"
+      }
+    ]
+  },
+  {
+    "page": "172",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "173",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "zu :",
+        "N": "zu:"
+      }
+    ]
+  },
+  {
+    "page": "174",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "unheil-",
+        "N": "unheil="
+      },
+      {
+        "type": "replace",
+        "H": "Rächer;",
+        "N": "Nächer;"
+      }
+    ]
+  },
+  {
+    "page": "175",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Ehrenamt,",
+        "N": "Chrenamt,"
+      },
+      {
+        "type": "replace",
+        "H": "Ruf,",
+        "N": "Nuf,"
+      },
+      {
+        "type": "replace",
+        "H": "Besiy",
+        "N": "Besiz"
+      },
+      {
+        "type": "replace",
+        "H": "haft,",
+        "N": "haßt,"
+      }
+    ]
+  },
+  {
+    "page": "176",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "steh'n",
+        "N": "steh'n."
+      },
+      {
+        "type": "replace",
+        "H": "verwirst",
+        "N": "verwirft"
+      },
+      {
+        "type": "replace",
+        "H": "als rechtzuthun.",
+        "N": "als_rechtzuthun."
+      }
+    ]
+  },
+  {
+    "page": "177",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Gerechtigkeit.",
+        "N": "Gerechtigkeit,"
+      },
+      {
+        "type": "replace",
+        "H": "Ixion",
+        "N": "Irion"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      },
+      {
+        "type": "replace",
+        "H": "zulekt",
+        "N": "zuleht"
+      },
+      {
+        "type": "replace",
+        "H": "Menschenmörder",
+        "N": "Renschenmörder"
+      },
+      {
+        "type": "replace",
+        "H": "Gesek,",
+        "N": "Gesen,"
+      },
+      {
+        "type": "replace",
+        "H": "ausgesühnt",
+        "N": "ausgefühnt"
+      },
+      {
+        "type": "replace",
+        "H": "schaff'",
+        "N": "schann"
+      },
+      {
+        "type": "replace",
+        "H": "Abkunft",
+        "N": "Abkunst"
+      },
+      {
+        "type": "replace",
+        "H": "gebot, Aeschylos I.",
+        "N": "gebet, Heicholas L."
+      }
+    ]
+  },
+  {
+    "page": "178",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Newgeweb'",
+        "N": "Nekgeweb'"
+      },
+      {
+        "type": "replace",
+        "H": "Nache",
+        "N": "Rache"
+      },
+      {
+        "type": "replace",
+        "H": "Sakung",
+        "N": "Sagung"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      }
+    ]
+  },
+  {
+    "page": "179",
+    "differences": []
+  },
+  {
+    "page": "180",
+    "differences": []
+  },
+  {
+    "page": "181",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "•"
+      },
+      {
+        "type": "replace",
+        "H": "Chorführerin.",
+        "N": "Chorführerin.."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "--"
+      }
+    ]
+  },
+  {
+    "page": "182",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Erinnyen.)",
+        "N": "Erinnhen.)"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "geseßt.",
+        "N": "gesest."
+      },
+      {
+        "type": "replace",
+        "H": "trafft der",
+        "N": "trafst dex"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Chorführerin.",
+        "N": "Chorführerin..."
+      }
+    ]
+  },
+  {
+    "page": "183",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Phöbos'",
+        "N": "Phobos'"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      }
+    ]
+  },
+  {
+    "page": "184",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      },
+      {
+        "type": "replace",
+        "H": "Apollon.",
+        "N": "Apollon,"
+      }
+    ]
+  },
+  {
+    "page": "185",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      },
+      {
+        "type": "replace",
+        "H": "allverhafte",
+        "N": "allverhaßte"
+      },
+      {
+        "type": "replace",
+        "H": "vergof,",
+        "N": "vergoß,"
+      }
+    ]
+  },
+  {
+    "page": "186",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Sayung,",
+        "N": "Sakung,"
+      }
+    ]
+  },
+  {
+    "page": "187",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Machtgebot.",
+        "N": "Machtgebot"
+      },
+      {
+        "type": "replace",
+        "H": "Laudes",
+        "N": "Landes"
+      }
+    ]
+  },
+  {
+    "page": "188",
+    "differences": []
+  },
+  {
+    "page": "189",
+    "differences": []
+  },
+  {
+    "page": "190",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "mißachtet,",
+        "N": "misachtet,"
+      },
+      {
+        "type": "replace",
+        "H": "Rache!",
+        "N": "Nache!"
+      }
+    ]
+  },
+  {
+    "page": "191",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "gekränkten.",
+        "N": "gekränkten,"
+      }
+    ]
+  },
+  {
+    "page": "192",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Sik",
+        "N": "Sig"
+      }
+    ]
+  },
+  {
+    "page": "193",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Weystein",
+        "N": "Wekstein"
+      },
+      {
+        "type": "replace",
+        "H": "Raserei",
+        "N": "Naserei"
+      }
+    ]
+  },
+  {
+    "page": "194",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "195",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "880",
+        "N": "-880"
+      }
+    ]
+  },
+  {
+    "page": "196",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "hier,",
+        "N": "hier"
+      },
+      {
+        "type": "replace",
+        "H": "sie",
+        "N": "fie"
+      }
+    ]
+  },
+  {
+    "page": "197",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Strophe.",
+        "N": "trophe."
+      },
+      {
+        "type": "replace",
+        "H": "reift",
+        "N": "reist"
+      },
+      {
+        "type": "replace",
+        "H": "preis'",
+        "N": "preis"
+      },
+      {
+        "type": "replace",
+        "H": "Rache",
+        "N": "Nache"
+      }
+    ]
+  },
+  {
+    "page": "198",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nuhmvoll",
+        "N": "Ruhmvoll"
+      },
+      {
+        "type": "replace",
+        "H": "trophe.",
+        "N": "Strophe."
+      },
+      {
+        "type": "replace",
+        "H": "Prieste",
+        "N": "Prieste-"
+      }
+    ]
+  },
+  {
+    "page": "199",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "200",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Gebete!",
+        "N": "Gebete'"
+      },
+      {
+        "type": "replace",
+        "H": "Festlied!",
+        "N": "Festlied !"
+      }
+    ]
+  }
+]

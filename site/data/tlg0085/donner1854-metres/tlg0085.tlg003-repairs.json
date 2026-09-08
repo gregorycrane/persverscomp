@@ -1,0 +1,437 @@
+[
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 14,
+    "text": "Horch, horch!",
+    "editorial_citation": "113a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 14,
+    "text": "Weh!",
+    "editorial_citation": "122a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 15,
+    "text": "Ach, ach!",
+    "editorial_citation": "135a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 30,
+    "text": "Ach, ach! Weh, weh!",
+    "editorial_citation": "561a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 31,
+    "text": "Weh, weh! O Graun!",
+    "editorial_citation": "573a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 37,
+    "text": "O weh mir, weh, weh!",
+    "editorial_citation": "739a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 43,
+    "text": "O Leid, o Leid !",
+    "editorial_citation": "873a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 48,
+    "text": "Weh mir!",
+    "editorial_citation": "973a"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 18,
+    "text": "."
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 31,
+    "text": ":"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 29,
+    "text": "Wechſelgesang des Chores.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 31,
+    "before": [
+      "Mit solcher wahnsinntrunkenen Angst mich Wahn=",
+      "sinnige also marterst?"
+    ],
+    "after": "Mit solcher wahnsinntrunkenen Angst mich Wahnsinnige also marterst?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 35,
+    "before": [
+      "Qualen und Marter und Angst, ein zweischneidig",
+      "Schwert,"
+    ],
+    "after": "Qualen und Marter und Angst, ein zweischneidig Schwert,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 42,
+    "before": [
+      "Glorreiche Gattin:",
+      "schmeichelt dir ein solcher Gruß? -"
+    ],
+    "after": "Glorreiche Gattin: schmeichelt dir ein solcher Gruß? -"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 43,
+    "before": [
+      "Sinnend erwogen im Geist und laut mit der Zunge ver=",
+      "kündigt,"
+    ],
+    "after": "Sinnend erwogen im Geist und laut mit der Zunge verkündigt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 44,
+    "before": [
+      "Daß der Ehbund zwischen den Gleichen allein glück-",
+      "bringend sei."
+    ],
+    "after": "Daß der Ehbund zwischen den Gleichen allein glückbringend sei."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 44,
+    "before": [
+      "Führe niemals einer der Himmlischen mich als Gattin",
+      "heim!"
+    ],
+    "after": "Führe niemals einer der Himmlischen mich als Gattin heim!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 49,
+    "before": [
+      "Dein Herz; den Zaum zerknirschend, gleich dem jungen",
+      "Roß,"
+    ],
+    "after": "Dein Herz; den Zaum zerknirschend, gleich dem jungen Roß,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 50,
+    "before": [
+      "So folg' ihm! Unrecht handeln bringt dem Weisen",
+      "Schmach."
+    ],
+    "after": "So folg' ihm! Unrecht handeln bringt dem Weisen Schmach."
+  },
+  {
+    "kind": "parenthetical-verses",
+    "printed_page": 17,
+    "basis": "Checked against printed page image",
+    "before": "(Für Kronos' Sturz vom Throne rang der eine Theil, Daß Zeus hinfort gebiete, während Andere Sich mühten, daß Zeus nimmerdar ihr König sei,)",
+    "after": [
+      "(Für Kronos' Sturz vom Throne rang der eine Theil,",
+      "Daß Zeus hinfort gebiete, während Andere",
+      "Sich mühten, daß Zeus nimmerdar ihr König sei,)"
+    ]
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 29,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Wie du dulden mußt, von unsäglicher Qual ohn' Ende",
+      "verzehrt,"
+    ],
+    "after": "Wie du dulden mußt, von unsäglicher Qual ohn' Ende verzehrt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 30,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Von den Söhnen des Tags, wer steht dir bei? Du sah'st",
+      "nicht,"
+    ],
+    "after": "Von den Söhnen des Tags, wer steht dir bei? Du sah'st nicht,"
+  },
+  {
+    "kind": "verse-boundary-retained",
+    "printed_page": 31,
+    "basis": "Checked against printed page image",
+    "reason": "Printed numbering counts both physical lines 578 and 579 despite the word crossing the verse boundary."
+  },
+  {
+    "kind": "parenthetical-verses",
+    "printed_page": 17,
+    "basis": "Checked against printed page image",
+    "before": "(Für Kronos' Sturz vom Throne rang der eine Theil, Daß Zeus hinfort gebiete, während Andere Sich mühten, daß Zeus nimmerdar ihr König sei,)",
+    "after": [
+      "(Für Kronos' Sturz vom Throne rang der eine Theil,",
+      "Daß Zeus hinfort gebiete, während Andere",
+      "Sich mühten, daß Zeus nimmerdar ihr König sei,)"
+    ]
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 29,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Wie du dulden mußt, von unsäglicher Qual ohn' Ende",
+      "verzehrt,"
+    ],
+    "after": "Wie du dulden mußt, von unsäglicher Qual ohn' Ende verzehrt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 30,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Von den Söhnen des Tags, wer steht dir bei? Du sah'st",
+      "nicht,"
+    ],
+    "after": "Von den Söhnen des Tags, wer steht dir bei? Du sah'st nicht,"
+  },
+  {
+    "kind": "verse-boundary-retained",
+    "printed_page": 31,
+    "basis": "Checked against printed page image",
+    "reason": "Printed numbering counts both physical lines 578 and 579 despite the word crossing the verse boundary."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "9",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "10",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "10",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "11",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "11",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "11",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "11",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "11",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "12",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "13",
+    "n": null,
+    "before": "Hephäftos.",
+    "after": "Hephästos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "12",
+    "n": "64",
+    "before": "Jest nimm des Demantkeiles schonungslosen Zahn,",
+    "after": "Jetzt nimm des Demantkeiles schonungslosen Zahn,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "12",
+    "n": "71",
+    "before": "Jekt um die Hüften lege noch den Eisengurt.",
+    "after": "Jetzt um die Hüften lege noch den Eisengurt.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "13",
+    "n": "98",
+    "before": "Ach, ach! Um das Jekt, um das kommende Leid",
+    "after": "Ach, ach! Um das Jetzt, um das kommende Leid",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "16",
+    "n": "167",
+    "before": "Wohl meiner dereinst, obschon er mich jezt",
+    "after": "Wohl meiner dereinst, obschon er mich jetzt",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "17",
+    "n": "193",
+    "before": "Jest offenbar' uns Alles und verkündige:",
+    "after": "Jetzt offenbar' uns Alles und verkündige:",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "20",
+    "n": "271",
+    "before": "Doch nicht beklagt das Leiden, das mich jekt bedrängt:",
+    "after": "Doch nicht beklagt das Leiden, das mich jetzt bedrängt:",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "20",
+    "n": "277",
+    "before": "Gern thun wir, Prometheus, was dein Nuf",
+    "after": "Gern thun wir, Prometheus, was dein Ruf",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "33",
+    "n": "620",
+    "before": "Soviel von mir zu hören, sei dir jest genug.",
+    "after": "Soviel von mir zu hören, sei dir jetzt genug.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "37",
+    "n": "738",
+    "before": "Denn glaube mir, die Kunden, die du jekt vernahmst,",
+    "after": "Denn glaube mir, die Kunden, die du jetzt vernahmst,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "40",
+    "n": "774",
+    "before": "Was du mir erst verheißen, nimm jekt nicht zurück.",
+    "after": "Was du mir erst verheißen, nimm jetzt nicht zurück.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "42",
+    "n": "841",
+    "before": "Jekt, was noch übrig, meld' ich euch und ihr vereint,",
+    "after": "Jetzt, was noch übrig, meld' ich euch und ihr vereint,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "46",
+    "n": "946",
+    "before": "Daf Zeus durch solche Dinge nicht geschmeidig wird.",
+    "after": "Daß Zeus durch solche Dinge nicht geschmeidig wird.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "46",
+    "n": "952",
+    "before": "Den dritten, der jest waltet, seh' ich ihnen nach",
+    "after": "Den dritten, der jetzt waltet, seh' ich ihnen nach",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

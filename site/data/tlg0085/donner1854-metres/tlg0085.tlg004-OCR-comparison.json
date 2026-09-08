@@ -1,0 +1,770 @@
+[
+  {
+    "page": "71",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Dank;",
+        "N": "Dank;\""
+      }
+    ]
+  },
+  {
+    "page": "72",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "ste,",
+        "N": "sie,"
+      }
+    ]
+  },
+  {
+    "page": "73",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "jest",
+        "N": "jekt"
+      },
+      {
+        "type": "replace",
+        "H": "ab.).",
+        "N": "ab.)"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      }
+    ]
+  },
+  {
+    "page": "74",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "weh,",
+        "N": "web,"
+      },
+      {
+        "type": "replace",
+        "H": "kampfsbereit",
+        "N": "kampfbereit"
+      },
+      {
+        "type": "replace",
+        "H": "Schlachtruf",
+        "N": "Schlachtrus"
+      }
+    ]
+  },
+  {
+    "page": "75",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schußgötter",
+        "N": "Schukgötter"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Angft!",
+        "N": "Angst!"
+      }
+    ]
+  },
+  {
+    "page": "76",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Sprößlinge",
+        "N": "Spröflinge"
+      }
+    ]
+  },
+  {
+    "page": "77",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "3wölfte.",
+        "N": "Zwölfte."
+      },
+      {
+        "type": "replace",
+        "H": "Schuß!",
+        "N": "Schuh!"
+      },
+      {
+        "type": "replace",
+        "H": "sie",
+        "N": "ste"
+      },
+      {
+        "type": "replace",
+        "H": "Troß",
+        "N": "Trok"
+      }
+    ]
+  },
+  {
+    "page": "78",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nosse",
+        "N": "Rosse"
+      }
+    ]
+  },
+  {
+    "page": "79",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Sweite",
+        "N": "Zweite"
+      }
+    ]
+  },
+  {
+    "page": "80",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "۱"
+      },
+      {
+        "type": "replace",
+        "H": "Siz.",
+        "N": "Sik."
+      },
+      {
+        "type": "replace",
+        "H": "Klageruf",
+        "N": "Klagerus"
+      },
+      {
+        "type": "replace",
+        "H": "Rosse",
+        "N": "Nosse"
+      }
+    ]
+  },
+  {
+    "page": "81",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "erschufest",
+        "N": "erschusest"
+      }
+    ]
+  },
+  {
+    "page": "82",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "verlaßt",
+        "N": "verlaft"
+      }
+    ]
+  },
+  {
+    "page": "83",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schügende",
+        "N": "schüßende"
+      },
+      {
+        "type": "replace",
+        "H": "Sik,",
+        "N": "Siz,"
+      },
+      {
+        "type": "replace",
+        "H": "Zweite",
+        "N": "Bweite"
+      },
+      {
+        "type": "replace",
+        "H": "zerfest!",
+        "N": "zerfekt!"
+      }
+    ]
+  },
+  {
+    "page": "84",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "verhaßten",
+        "N": "verhaften"
+      },
+      {
+        "type": "replace",
+        "H": "Nauche",
+        "N": "Rauche"
+      }
+    ]
+  },
+  {
+    "page": "85",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nafst",
+        "N": "Rafst"
+      },
+      {
+        "type": "replace",
+        "H": "Führerin",
+        "N": "führerin"
+      },
+      {
+        "type": "replace",
+        "H": "Dikles'",
+        "N": "Oikles'"
+      }
+    ]
+  },
+  {
+    "page": "86",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Streitroß",
+        "N": "Streitrof"
+      },
+      {
+        "type": "replace",
+        "H": "geprief'nen",
+        "N": "gepries'nen"
+      }
+    ]
+  },
+  {
+    "page": "87",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Troy",
+        "N": "Trok"
+      },
+      {
+        "type": "replace",
+        "H": "rust",
+        "N": "ruft"
+      }
+    ]
+  },
+  {
+    "page": "88",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Troß",
+        "N": "Troy"
+      },
+      {
+        "type": "replace",
+        "H": "Gewieher,",
+        "N": "Gewiehér,"
+      }
+    ]
+  },
+  {
+    "page": "89",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "verbing",
+        "N": "verbirg"
+      },
+      {
+        "type": "replace",
+        "H": "erd",
+        "N": "Herd"
+      },
+      {
+        "type": "replace",
+        "H": "deu",
+        "N": "den"
+      },
+      {
+        "type": "replace",
+        "H": "Nund,",
+        "N": "Rund,"
+      },
+      {
+        "type": "replace",
+        "H": "eingeäßt",
+        "N": "eingeäyt"
+      },
+      {
+        "type": "replace",
+        "H": "Schild :",
+        "N": "Schild:"
+      },
+      {
+        "type": "replace",
+        "H": "Troy,",
+        "N": "Trok,"
+      }
+    ]
+  },
+  {
+    "page": "90",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Bliy",
+        "N": "Blik"
+      },
+      {
+        "type": "replace",
+        "H": "verhaften",
+        "N": "verhaßten"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Trok.",
+        "N": "Troy."
+      },
+      {
+        "type": "replace",
+        "H": "heran :",
+        "N": "heran:"
+      }
+    ]
+  },
+  {
+    "page": "91",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "ab!",
+        "N": "ab !"
+      },
+      {
+        "type": "replace",
+        "H": "zuwendeten :",
+        "N": "zuwendeten:"
+      },
+      {
+        "type": "replace",
+        "H": "Troker",
+        "N": "Troßer"
+      },
+      {
+        "type": "replace",
+        "H": "schallt.",
+        "N": "schalt."
+      }
+    ]
+  },
+  {
+    "page": "92",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "*545",
+        "N": "545"
+      },
+      {
+        "type": "replace",
+        "H": "hoffe",
+        "N": "hosse"
+      },
+      {
+        "type": "replace",
+        "H": "Nuhe",
+        "N": "Ruhe"
+      }
+    ]
+  },
+  {
+    "page": "93",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Neke",
+        "N": "Neye"
+      },
+      {
+        "type": "replace",
+        "H": "—",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "einsteht,",
+        "N": "einsieht,"
+      }
+    ]
+  },
+  {
+    "page": "94",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Bestyen",
+        "N": "Besigen"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "grimmer",
+        "N": "grimmer."
+      }
+    ]
+  },
+  {
+    "page": "95",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nath",
+        "N": "Rath"
+      },
+      {
+        "type": "replace",
+        "H": "ste",
+        "N": "sie"
+      },
+      {
+        "type": "replace",
+        "H": "Daß",
+        "N": "Daf"
+      }
+    ]
+  },
+  {
+    "page": "96",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Halbchor.",
+        "N": "Halochor."
+      },
+      {
+        "type": "delete",
+        "H": "•",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "97",
+    "differences": []
+  },
+  {
+    "page": "98",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Dedipus'",
+        "N": "Oedipus'"
+      }
+    ]
+  },
+  {
+    "page": "99",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "sich:",
+        "N": "sich :"
+      },
+      {
+        "type": "replace",
+        "H": "*",
+        "N": "7*"
+      }
+    ]
+  },
+  {
+    "page": "100",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "- sein Auge,"
+      },
+      {
+        "type": "delete",
+        "H": "sein Auge,",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Rachgöttin,",
+        "N": "Nachgöttin,"
+      },
+      {
+        "type": "replace",
+        "H": "sie's!",
+        "N": "fie's!"
+      },
+      {
+        "type": "replace",
+        "H": "Oedipus'",
+        "N": "Dedipus'"
+      }
+    ]
+  },
+  {
+    "page": "101",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Oedipus'",
+        "N": "Dedipus'"
+      }
+    ]
+  },
+  {
+    "page": "102",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Zwiesache",
+        "N": "Zwiefache"
+      }
+    ]
+  },
+  {
+    "page": "103",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schwe-",
+        "N": "Schwe"
+      }
+    ]
+  },
+  {
+    "page": "104",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Dedipus",
+        "N": "Oedipus"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Todesstoß,",
+        "N": "Todesstof,"
+      }
+    ]
+  },
+  {
+    "page": "105",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "seufzend,",
+        "N": "scufzend,"
+      }
+    ]
+  },
+  {
+    "page": "106",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Zwift:",
+        "N": "Zwist:"
+      },
+      {
+        "type": "replace",
+        "H": "Die",
+        "N": "die"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Getroffen trafst du!"
+      },
+      {
+        "type": "delete",
+        "H": "Getroffen trafft du!",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "107",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Antigone.",
+        "N": "•"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Antigone."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Ihr Klagen, strömt!"
+      },
+      {
+        "type": "delete",
+        "H": "Ihr Klagen, strömt!",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Jammervollsten,",
+        "N": "Jammervousten,"
+      }
+    ]
+  },
+  {
+    "page": "108",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Stadt -",
+        "N": "Stadt-"
+      }
+    ]
+  },
+  {
+    "page": "109",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "-",
+        "N": "—"
+      },
+      {
+        "type": "replace",
+        "H": "Oedipus!",
+        "N": "Dedipus!"
+      },
+      {
+        "type": "replace",
+        "H": "schon-",
+        "N": "schon -"
+      }
+    ]
+  },
+  {
+    "page": "110",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Antigone.",
+        "N": "Antigone.."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      }
+    ]
+  },
+  {
+    "page": "111",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nath",
+        "N": "Rath"
+      },
+      {
+        "type": "replace",
+        "H": "Schooß:",
+        "N": "Schoof:"
+      },
+      {
+        "type": "replace",
+        "H": "flel",
+        "N": "fiel"
+      },
+      {
+        "type": "replace",
+        "H": "Volkes hoher Nath",
+        "N": "Volkes_hoher Rath"
+      }
+    ]
+  },
+  {
+    "page": "112",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schwestersinn!'",
+        "N": "Schwestersinn!"
+      },
+      {
+        "type": "replace",
+        "H": "Unnüzes",
+        "N": "Unnüges"
+      }
+    ]
+  },
+  {
+    "page": "113",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      },
+      {
+        "type": "replace",
+        "H": "Stolztrohende,",
+        "N": "Stolztrogende,"
+      }
+    ]
+  },
+  {
+    "page": "114",
+    "differences": []
+  }
+]

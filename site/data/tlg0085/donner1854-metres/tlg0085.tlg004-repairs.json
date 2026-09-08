@@ -1,0 +1,473 @@
+[
+  {
+    "kind": "classification",
+    "printed_page": 73,
+    "text": "Erste Jungfrau des Chores.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 75,
+    "text": "Erste Jungfrau.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 77,
+    "text": "3wölfte.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 85,
+    "text": "Führerin des ersten Halbchors.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 85,
+    "text": "Führerin des zweiten Halbchors.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 96,
+    "text": "• Eteokles.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 103,
+    "text": "Der ganze Chor.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 79,
+    "text": "Sweite Strophe.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 82,
+    "text": "Wechſelgesang des Chores.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 99,
+    "text": "*"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 105,
+    "text": "-"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 74,
+    "before": [
+      "Schwestern, vor welchem Bild der Ewigen wers' ich mich",
+      "flehend hin?"
+    ],
+    "after": "Schwestern, vor welchem Bild der Ewigen wers' ich mich flehend hin?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 75,
+    "before": [
+      "Denn die Stadt umrauscht ein Meer",
+      "von Ares' Hauch"
+    ],
+    "after": "Denn die Stadt umrauscht ein Meer von Ares' Hauch"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 76,
+    "before": [
+      "Ha!",
+      "Theurer Apollon!"
+    ],
+    "after": "Ha! Theurer Apollon!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 79,
+    "before": [
+      "Das ruht in Götterhänden.",
+      "Doch die Götter selbst"
+    ],
+    "after": "Das ruht in Götterhänden. Doch die Götter selbst"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 80,
+    "before": [
+      "Es stöhnt von Grund auf Kadmos' Stadt, vom Feind",
+      "umgarnt."
+    ],
+    "after": "Es stöhnt von Grund auf Kadmos' Stadt, vom Feind umgarnt."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 86,
+    "before": [
+      "Gleichwie das Streitroß seinen Zaum anschnaubt und",
+      "schäumt,"
+    ],
+    "after": "Gleichwie das Streitroß seinen Zaum anschnaubt und schäumt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 93,
+    "before": [
+      "Mit Schlimmen, - unheilvolle Frucht, nicht sammelns-",
+      "werth!"
+    ],
+    "after": "Mit Schlimmen, - unheilvolle Frucht, nicht sammelnswerth!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 95,
+    "before": [
+      "Speer, Doppelschienen und des Pfeil's Abwehr, den",
+      "Schild!"
+    ],
+    "after": "Speer, Doppelschienen und des Pfeil's Abwehr, den Schild!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 98,
+    "before": [
+      "Sie erscheint, Dedipus' wahnsinnigen, zornschnaubenden",
+      "Fluch führt sie hinaus;"
+    ],
+    "after": "Sie erscheint, Dedipus' wahnsinnigen, zornschnaubenden Fluch führt sie hinaus;"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 98,
+    "before": [
+      "Er verloost heimischen Lands jedem soviel, als ihm genügt,",
+      "fiel er im Kampf,"
+    ],
+    "after": "Er verloost heimischen Lands jedem soviel, als ihm genügt, fiel er im Kampf,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 100,
+    "before": [
+      "Frevel: er blendete was",
+      "sein Auge,"
+    ],
+    "after": "Frevel: er blendete was sein Auge,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 100,
+    "before": [
+      "Wer? Was vernahm ich? Mich betäubt das Schreckens-",
+      "wort."
+    ],
+    "after": "Wer? Was vernahm ich? Mich betäubt das Schreckenswort."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 102,
+    "before": [
+      "Erfüllt! Wie nenn' ich's? Leides Leid, gehäuft auf dieses",
+      "Hauses Herd!"
+    ],
+    "after": "Erfüllt! Wie nenn' ich's? Leides Leid, gehäuft auf dieses Hauses Herd!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 103,
+    "before": [
+      "Wildklagende Hymnen zu singen.",
+      "Leid!"
+    ],
+    "after": "Wildklagende Hymnen zu singen. Leid!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 105,
+    "before": [
+      "Bitteren Muths, freudeverwaist, weinend aus tiesinnerster",
+      "Brust,"
+    ],
+    "after": "Bitteren Muths, freudeverwaist, weinend aus tiesinnerster Brust,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 105,
+    "before": [
+      "Söhne dem Sohn zeugte, die solch blutigen Tod fanden",
+      "im Kampf,"
+    ],
+    "after": "Söhne dem Sohn zeugte, die solch blutigen Tod fanden im Kampf,"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 113,
+    "text": "Weh, weh!",
+    "editorial_citation": "998a"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Mordend sankst du todt dahin!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Sankst vom Speere!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Leidduldend du!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Da liegst du gemordet!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Ihr Thränen, fließt!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Tief im Busen seufzt das Herz."
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 107,
+    "basis": "Checked against printed page image",
+    "text": "Auch dir, dem Jammervollsten, weh!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 108,
+    "basis": "Checked against printed page image",
+    "text": "Des Bruders Mörder du!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 108,
+    "basis": "Checked against printed page image",
+    "text": "Zwiefache Klage!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 108,
+    "basis": "Checked against printed page image",
+    "text": "Wir Schwestern um die Brüder hier!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 108,
+    "basis": "Checked against printed page image",
+    "text": "Zeigt' er wiederkehrend uns!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Heimkehrend haucht' er aus das Leben!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Und entriß es diesem hier!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Unselig Leid!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Vom Gräul des Zweikampfs triefend noch!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Ein Graun dem Blick!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 109,
+    "basis": "Checked against printed page image",
+    "text": "Nicht minder schnell erfuhrest du's-"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "Die Lanze hobest wider ihn!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "bittres Leid!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "Und dem Land!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "Und nicht minder mir!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "An der ehrenvollsten Stätte!"
+  },
+  {
+    "kind": "restored-printed-anchor",
+    "printed_page": 110,
+    "basis": "Checked against printed page image",
+    "text": "Graun! Unselig Mißgeschick!",
+    "n": 945
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 113,
+    "basis": "Checked against printed page image",
+    "before": [
+      "Dir, Herr, folgt wohl zahlreiches Geleit",
+      "Von Trauernden."
+    ],
+    "after": "Dir, Herr, folgt wohl zahlreiches Geleit Von Trauernden."
+  },
+  {
+    "kind": "shared-verse-speakers",
+    "printed_page": "79",
+    "n": "198",
+    "before": "Das ruht in Götterhänden. Doch die Götter selbst",
+    "after": [
+      "Das ruht in Götterhänden.",
+      "Doch die Götter selbst"
+    ],
+    "basis": "PDF page 315: Chor and Eteokles share verse 198; preserve the speaker change."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "77",
+    "n": null,
+    "before": "3wölfte.",
+    "after": "Zwölfte.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "79",
+    "n": null,
+    "before": "Sweite Strophe.",
+    "after": "Zweite Strophe.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "96",
+    "n": null,
+    "before": "• Eteokles.",
+    "after": "Eteokles.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "73",
+    "n": "65",
+    "before": "Erhasche jest den rechten Augenblick im Flug!",
+    "after": "Erhasche jetzt den rechten Augenblick im Flug!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "74",
+    "n": "98",
+    "before": "Wann, wenn nicht jekt, flehen wir die Götter an?",
+    "after": "Wann, wenn nicht jetzt, flehen wir die Götter an?",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "78",
+    "n": "172",
+    "before": "Und jekt in wildverworr'ner Flucht euch dort und hier",
+    "after": "Und jetzt in wildverworr'ner Flucht euch dort und hier",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "91",
+    "n": "530",
+    "before": "Aktor, der Bruder dessen, der jest eben ging.",
+    "after": "Aktor, der Bruder dessen, der jetzt eben ging.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "96",
+    "n": "682",
+    "before": "Endlich und naht mit sanftwehendem Hauche; jest",
+    "after": "Endlich und naht mit sanftwehendem Hauche; jetzt",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "99",
+    "n": "739",
+    "before": "Denn, ach! jest reift der altverhängte Fluch,",
+    "after": "Denn, ach! jetzt reift der altverhängte Fluch,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "100",
+    "n": "764",
+    "before": "Schreitende Rachgöttin, jest erfüllt sie's!",
+    "after": "Schreitende Rachgöttin, jetzt erfüllt sie's!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "104",
+    "n": "850",
+    "before": "Alleingewalt, jekt entschied zwischen euch der Mordstahl!",
+    "after": "Alleingewalt, jetzt entschied zwischen euch der Mordstahl!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

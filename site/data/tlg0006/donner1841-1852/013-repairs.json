@@ -1,0 +1,92 @@
+[
+  {
+    "page": 123,
+    "before": [
+      "Den citherkundigen, gold=",
+      "lockigen Gott mit der Artemis, die"
+    ],
+    "after": "Den citherkundigen, goldlockigen Gott mit der Artemis, die",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 123,
+    "before": [
+      "Und begluckt sind wir. Das Andre sag' ich nicht; den Git-",
+      "tern nur"
+    ],
+    "after": "Und begluckt sind wir. Das Andre sag' ich nicht; den Gittern nur",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 123,
+    "before": [
+      "Suhnt' und würdig Opfer brachte, wohnst du rein im rei=",
+      "nen Haus,"
+    ],
+    "after": "Suhnt' und würdig Opfer brachte, wohnst du rein im reinen Haus,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 104,
+    "before": [
+      "Nun, was ich thun will Manches trifft sich manches-",
+      "mal :"
+    ],
+    "after": "Nun, was ich thun will Manches trifft sich manchesmal :",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 123,
+    "before": [
+      "Wer, des Heiligthumes Hüter, rein die Hand den Göttern",
+      "weiht,"
+    ],
+    "after": "Wer, des Heiligthumes Hüter, rein die Hand den Göttern weiht,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 123,
+    "before": [
+      "Dort gewahr' ich schon die Fremden, nahend aus dem Hei",
+      "ligthum,"
+    ],
+    "after": "Dort gewahr' ich schon die Fremden, nahend aus dem Hei ligthum,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 117,
+    "before": [
+      "Segel, und flattern an Tau'n, von dem Spiegel zum Buge;",
+      "rasch"
+    ],
+    "after": "Segel, und flattern an Tau'n, von dem Spiegel zum Buge; rasch",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 117,
+    "before": [
+      "Fliehest mit rauschendem Kiel, und es breiten sich aus in",
+      "den Lüften die"
+    ],
+    "after": "Fliehest mit rauschendem Kiel, und es breiten sich aus in den Lüften die",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 107,
+    "before": [
+      "Doch nun? Mehr, als wunderbar, (keine Sprache nennt's,)",
+      "fiel dein Loos."
+    ],
+    "after": "Doch nun? Mehr, als wunderbar, (keine Sprache nennt's,) fiel dein Loos.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 122,
+    "before": [
+      "Sühne ringsher seine Hallen.",
+      "Daß du rein ihn wiederschaust?"
+    ],
+    "shared_group": "r1633",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

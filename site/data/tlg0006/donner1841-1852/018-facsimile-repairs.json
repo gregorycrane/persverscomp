@@ -1,0 +1,81 @@
+[
+  {
+    "basis": "Opening page 5 visually checked: indented Agamemnon reply completes verse 3",
+    "old_n": "0u1",
+    "new_n": "1",
+    "part": null
+  },
+  {
+    "basis": "Opening page 5 visually checked: indented Agamemnon reply completes verse 3",
+    "old_n": "0u2",
+    "new_n": "2",
+    "part": null
+  },
+  {
+    "basis": "Opening page 5 visually checked: indented Agamemnon reply completes verse 3",
+    "old_n": "0u3",
+    "new_n": "3",
+    "part": "I"
+  },
+  {
+    "basis": "Opening page 5 visually checked: indented Agamemnon reply completes verse 3",
+    "old_n": "0u4",
+    "new_n": "3",
+    "part": "F"
+  },
+  {
+    "basis": "Opening page 5 visually checked: indented Agamemnon reply completes verse 3",
+    "old_n": "0u5",
+    "new_n": "4",
+    "part": null
+  },
+  {
+    "basis": "Song heading Schlußgesang misread by OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Schlußgefang.",
+      "raw": "Schlußgefang.",
+      "page": 11,
+      "scan": 443,
+      "ocr_line": 28,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r247",
+      "bsb_line": 27,
+      "bsb_bbox": [
+        560,
+        1597,
+        851,
+        1641
+      ],
+      "bsb_text": "Schlußgesang.",
+      "bsb_similarity": 0.9166666666666666,
+      "n": "200u1",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        200,
+        205
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "200u2",
+    "new_n": "201"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "200u3",
+    "new_n": "202"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "200u4",
+    "new_n": "203"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "200u5",
+    "new_n": "204"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Elektra tritt aus dem Hause mit einer Wasserurne auf",
+      "raw": "Elektra tritt aus dem Hause mit einer Wasserurne auf",
+      "page": 142,
+      "scan": 156,
+      "ocr_line": 30,
+      "printed_n": null,
+      "speaker": "Ein mykenischer Landmann.",
+      "rid": "r58",
+      "bsb_line": 30,
+      "bsb_bbox": [
+        288,
+        1807,
+        1176,
+        1849
+      ],
+      "bsb_text": "Elektra tritt aus dem Hause mit einer Wasserurne auf",
+      "bsb_similarity": 1.0,
+      "n": "50u5",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        50,
+        55
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Orestes, Pylades und Elektra treten aus dem Hause.",
+      "raw": "Orestes, Pylades und Elektra treten aus dem Hause.",
+      "page": 184,
+      "scan": 198,
+      "ocr_line": 10,
+      "printed_n": null,
+      "speaker": "Der Chor.",
+      "rid": "r1577",
+      "bsb_line": 9,
+      "bsb_bbox": [
+        237,
+        749,
+        1258,
+        793
+      ],
+      "bsb_text": "Orestes, Pylades und Elektra treten aus dem Hause.",
+      "bsb_similarity": 1.0,
+      "n": "1160u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1160,
+        1165
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "(Die Dioskuren erscheinen.)",
+      "raw": "(Die Dioskuren erscheinen.)",
+      "page": 186,
+      "scan": 200,
+      "ocr_line": 10,
+      "printed_n": null,
+      "speaker": "Elektra.",
+      "rid": "r1648",
+      "bsb_line": 9,
+      "bsb_bbox": [
+        749,
+        744,
+        1161,
+        787
+      ],
+      "bsb_text": "(Die Dioskuren erscheinen.)",
+      "bsb_similarity": 1.0,
+      "n": "1210u1",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1210,
+        1215
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "50u1",
+    "new_n": "51"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "50u2",
+    "new_n": "52"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "50u3",
+    "new_n": "53"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "50u4",
+    "new_n": "54"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1210u2",
+    "new_n": "1211"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1210u3",
+    "new_n": "1212"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1210u4",
+    "new_n": "1213"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1210u5",
+    "new_n": "1214"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1160u1",
+    "new_n": "1161"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1160u3",
+    "new_n": "1162"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1160u4",
+    "new_n": "1163"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1160u5",
+    "new_n": "1164"
+  }
+]

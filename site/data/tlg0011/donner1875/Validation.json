@@ -1,0 +1,44 @@
+[
+  {
+    "work": "tlg0011.tlg001",
+    "verse_elements": 1272,
+    "cards": 65,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg002",
+    "verse_elements": 1309,
+    "cards": 81,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg003",
+    "verse_elements": 1384,
+    "cards": 64,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg004",
+    "verse_elements": 1515,
+    "cards": 72,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg005",
+    "verse_elements": 1504,
+    "cards": 72,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg006",
+    "verse_elements": 1484,
+    "cards": 59,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0011.tlg007",
+    "verse_elements": 1845,
+    "cards": 63,
+    "checks": "PASS: strict XML, unique IDs, local targets, reference endpoints, verse retention, ordered card coverage, all cards rendered, graphics present"
+  }
+]

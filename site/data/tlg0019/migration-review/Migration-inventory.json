@@ -1,0 +1,296 @@
+[
+  {
+    "work": "tlg0019.tlg001",
+    "title": "Acharnians",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.ach.anon_eng.xml",
+    "target": "outputs/Aristophanes/tlg001/tlg0019.tlg001.perseus-eng1.xml",
+    "legacy_attribution": "Anonymous",
+    "cards": 64,
+    "missing_rendered_cards": [],
+    "notes": 117,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "1227--1",
+        "reference_card": "1227",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg002",
+    "title": "Knights",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.kn_eng.xml",
+    "target": "outputs/Aristophanes/tlg002/tlg0019.tlg002.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 64,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "1390--1",
+        "reference_card": "1390",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg004",
+    "title": "Wasps",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.wasps_eng.xml",
+    "target": "outputs/Aristophanes/tlg004/tlg0019.tlg004.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 77,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "1284",
+        "reference_card": "1283a",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1342",
+        "reference_card": "1341",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1529--1",
+        "reference_card": "1528",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg005",
+    "title": "Peace",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.peace_eng.xml",
+    "target": "outputs/Aristophanes/tlg005/tlg0019.tlg005.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 60,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "118",
+        "reference_card": "119",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "before Trygaeus reply; daughter remains in preceding card"
+      },
+      {
+        "source_card": "774",
+        "reference_card": "775",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1320--1",
+        "reference_card": "1320",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg006",
+    "title": "Birds",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.birds_eng.xml",
+    "target": "outputs/Aristophanes/tlg006/tlg0019.tlg006.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 81,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "498",
+        "reference_card": "499",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1372",
+        "reference_card": "1373",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1743--1",
+        "reference_card": "1743",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg007",
+    "title": "Lysistrata",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.lys.lindsay_eng.xml",
+    "target": "outputs/Aristophanes/tlg007/tlg0019.tlg007.perseus-eng1.xml",
+    "legacy_attribution": "Jack Lindsay",
+    "cards": 60,
+    "missing_rendered_cards": [],
+    "notes": 3,
+    "verse_ordinals": 1565,
+    "boundary_changes": [
+      {
+        "source_card": "258",
+        "reference_card": "256",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "532",
+        "reference_card": "531b",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1295--1",
+        "reference_card": "1295",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg008",
+    "title": "Thesmophoriazusae",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.thes_eng.xml",
+    "target": "outputs/Aristophanes/tlg008/tlg0019.tlg008.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 54,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "372",
+        "reference_card": "373",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1226--1",
+        "reference_card": "1226",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": [
+      {
+        "source": "*mnhsi/loxos",
+        "unicode": "Μνησίλοχος",
+        "location": "speaker",
+        "parentheses": false
+      }
+    ]
+  },
+  {
+    "work": "tlg0019.tlg009",
+    "title": "Frogs",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.frogs_eng.xml",
+    "target": "outputs/Aristophanes/tlg009/tlg0019.tlg009.perseus-eng1.xml",
+    "legacy_attribution": "Matthew Dillon",
+    "cards": 77,
+    "missing_rendered_cards": [
+      "0-0"
+    ],
+    "notes": 0,
+    "verse_ordinals": 1747,
+    "boundary_changes": [
+      {
+        "source_card": "89",
+        "reference_card": "60",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "116",
+        "reference_card": "60",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1110",
+        "reference_card": "1109",
+        "reason": "Matched opening speech/clause to canonical Greek; source boundary retained",
+        "placement": "source opening"
+      },
+      {
+        "source_card": "1528--1",
+        "reference_card": "1528",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg010",
+    "title": "Ecclesiazusae",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.eccl_eng.xml",
+    "target": "outputs/Aristophanes/tlg010/tlg0019.tlg010.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 46,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  },
+  {
+    "work": "tlg0019.tlg011",
+    "title": "Wealth",
+    "source": "/Users/gcrane/Desktop/OldMacintoshHD/sgml/texts/Classics/Aristophanes/copyright/aristoph.pl_eng.xml",
+    "target": "outputs/Aristophanes/tlg011/tlg0019.tlg011.perseus-eng1.xml",
+    "legacy_attribution": "Eugene O'Neill, Jr.",
+    "cards": 33,
+    "missing_rendered_cards": [],
+    "notes": 0,
+    "verse_ordinals": 0,
+    "boundary_changes": [
+      {
+        "source_card": "1171--1",
+        "reference_card": "1171",
+        "reason": "Terminal range artifact removed",
+        "placement": "source opening"
+      }
+    ],
+    "text_identical_except_recorded_beta_code": true,
+    "notes_identical_in_order": true,
+    "beta_code_conversions": []
+  }
+]

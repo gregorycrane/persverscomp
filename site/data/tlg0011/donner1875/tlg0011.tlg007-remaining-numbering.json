@@ -1,0 +1,688 @@
+{
+  "[135, 140]": [
+    {
+      "n": "135u1",
+      "text": "Seht hier, ich bin's! Aus der Stimme vernahm",
+      "page": 101,
+      "rid": "r199"
+    },
+    {
+      "n": "135u2",
+      "text": "Ich euer Begehr.",
+      "page": 101,
+      "rid": "r200"
+    },
+    {
+      "n": "135u3",
+      "text": "O Grau'n, o Grau'n!",
+      "page": 101,
+      "rid": "r202"
+    },
+    {
+      "n": "135u4",
+      "text": "Mir graut vor dem Anblick, graut vor dem Wort.",
+      "page": 101,
+      "rid": "r203"
+    },
+    {
+      "n": "135u5",
+      "text": "Schont mein, seht nicht als Frevler mich an!",
+      "page": 101,
+      "rid": "r205"
+    }
+  ],
+  "[210, 215]": [
+    {
+      "n": "210u1",
+      "text": "Sprich, nun du zum Aeußersten kamest!",
+      "page": 105,
+      "rid": "r326"
+    },
+    {
+      "n": "210u2",
+      "text": "Sag' ich es! Nicht ja verbergen kann ich's mehr.",
+      "page": 105,
+      "rid": "r328"
+    },
+    {
+      "n": "210u3",
+      "text": "Lang zaudert ihr: eil' und bekenne!",
+      "page": 105,
+      "rid": "r330"
+    },
+    {
+      "n": "210u4",
+      "text": "Wißt ihr von Laïos' Sohn?",
+      "page": 105,
+      "rid": "r332"
+    },
+    {
+      "n": "210u5",
+      "text": "Graun, o Graun!",
+      "page": 105,
+      "rid": "r334"
+    }
+  ],
+  "[215, 220]": [
+    {
+      "n": "215u1",
+      "text": "Weh, Zeus!",
+      "page": 105,
+      "rid": "r338"
+    },
+    {
+      "n": "215u2",
+      "text": "Dedipus' Jammergestalt?",
+      "page": 105,
+      "rid": "r340"
+    },
+    {
+      "n": "215u3",
+      "text": "So bist du der?",
+      "page": 105,
+      "rid": "r342"
+    },
+    {
+      "n": "215u4",
+      "text": "Nicht schreck' euch, was ich verkünde!",
+      "page": 105,
+      "rid": "r344"
+    },
+    {
+      "n": "215u5",
+      "text": "Weh, weh!",
+      "page": 106,
+      "rid": "r346"
+    },
+    {
+      "n": "215u6",
+      "text": "Ich Unglückseliger!",
+      "page": 106,
+      "rid": "r348"
+    },
+    {
+      "n": "215u7",
+      "text": "Weh!",
+      "page": 106,
+      "rid": "r351"
+    },
+    {
+      "n": "215u8",
+      "text": "Was wird uns werden, o Tochter?",
+      "page": 106,
+      "rid": "r353"
+    }
+  ],
+  "[325, 330]": [
+    {
+      "n": "325u1",
+      "text": "Leben, ach, voll Dual und Noth!",
+      "page": 110,
+      "rid": "r498"
+    },
+    {
+      "n": "325u1",
+      "text": "Weh mir und dieser!",
+      "page": 111,
+      "rid": "r501"
+    },
+    {
+      "n": "325u2",
+      "text": "Weßwegen kamst du? Und zum Dritten wehe mir!",
+      "page": 111,
+      "rid": "r503"
+    },
+    {
+      "n": "325u3",
+      "text": "Vater, nur aus Angst um dich.",
+      "page": 111,
+      "rid": "r506"
+    },
+    {
+      "n": "325u4",
+      "text": "Nach mir verlangend?",
+      "page": 111,
+      "rid": "r508"
+    },
+    {
+      "n": "325u4",
+      "text": "Und um selbst die Botin dir",
+      "page": 111,
+      "rid": "r510"
+    },
+    {
+      "n": "325u5",
+      "text": "Zu sein mit diesem mir allein noch treuen Knecht.",
+      "page": 111,
+      "rid": "r511"
+    }
+  ],
+  "[535, 540]": [
+    {
+      "n": "535u1",
+      "text": "O Grau'n! Wahrlich, tausendfacher Fluch um=",
+      "page": 120,
+      "rid": "r812"
+    },
+    {
+      "n": "535u2",
+      "text": "strickte mich!",
+      "page": 120,
+      "rid": "r813"
+    },
+    {
+      "n": "535u3",
+      "text": "Du littst -",
+      "page": 121,
+      "rid": "r815"
+    },
+    {
+      "n": "535u4",
+      "text": "Verübtest -",
+      "page": 121,
+      "rid": "r816"
+    },
+    {
+      "n": "535u5",
+      "text": "Ich litt unsäglich Leid.",
+      "page": 121,
+      "rid": "r818"
+    },
+    {
+      "n": "535u6",
+      "text": "Nichts verübt' ich.",
+      "page": 121,
+      "rid": "r822"
+    },
+    {
+      "n": "535u7",
+      "text": "Wie?",
+      "page": 121,
+      "rid": "r824"
+    },
+    {
+      "n": "535u8",
+      "text": "Mir ward ein Lohn,",
+      "page": 121,
+      "rid": "r826"
+    },
+    {
+      "n": "535u9",
+      "text": "Welchen ich nimmer verdient, ich Verlorener,",
+      "page": 121,
+      "rid": "r827"
+    },
+    {
+      "n": "535u10",
+      "text": "Von meiner Ahnen Lande, dem ich wohlthat.",
+      "page": 121,
+      "rid": "r828"
+    }
+  ],
+  "[540, 545]": [
+    {
+      "n": "540u1",
+      "text": "Was meinst du da? Was willst du mehr?",
+      "page": 121,
+      "rid": "r832"
+    },
+    {
+      "n": "540u2",
+      "text": "Dem Vater?",
+      "page": 121,
+      "rid": "r833"
+    },
+    {
+      "n": "540u3",
+      "text": "Weh, weh! Du schlägst zur ersten Wunde die andre mir!",
+      "page": 121,
+      "rid": "r836"
+    },
+    {
+      "n": "540u4",
+      "text": "Du warst sein Mörder?",
+      "page": 121,
+      "rid": "r838"
+    },
+    {
+      "n": "540u5",
+      "text": "Ich war's; indeß -",
+      "page": 121,
+      "rid": "r840"
+    },
+    {
+      "n": "540u6",
+      "text": "Nun?",
+      "page": 121,
+      "rid": "r841"
+    },
+    {
+      "n": "540u7",
+      "text": "Nicht mit Unrecht, mein' ich.",
+      "page": 121,
+      "rid": "r844"
+    },
+    {
+      "n": "540u8",
+      "text": "Wie?",
+      "page": 121,
+      "rid": "r846"
+    },
+    {
+      "n": "540u9",
+      "text": "So höre denn:",
+      "page": 122,
+      "rid": "r849"
+    }
+  ],
+  "[650, 655]": [
+    {
+      "n": "650u1",
+      "text": "Weßhalb zagst du so?",
+      "page": 127,
+      "rid": "r1007"
+    },
+    {
+      "n": "650u2",
+      "text": "Die Männer kommen",
+      "page": 127,
+      "rid": "r1009"
+    },
+    {
+      "n": "650u2",
+      "text": "Diese steh'n zu deinem Schuz.",
+      "page": 127,
+      "rid": "r1012"
+    },
+    {
+      "n": "650u3",
+      "text": "Sieh, du verläßt mich",
+      "page": 127,
+      "rid": "r1014"
+    },
+    {
+      "n": "650u3",
+      "text": "Lehre mir nicht meine Pflicht.",
+      "page": 127,
+      "rid": "r1016"
+    },
+    {
+      "n": "650u4",
+      "text": "Es zwingt die Furcht mich",
+      "page": 127,
+      "rid": "r1018"
+    },
+    {
+      "n": "650u4",
+      "text": "Mein Gemüth kennt keine Furcht.",
+      "page": 127,
+      "rid": "r1020"
+    },
+    {
+      "n": "650u5",
+      "text": "Du weißt ihr Droh'n nicht -",
+      "page": 127,
+      "rid": "r1022"
+    },
+    {
+      "n": "650u5",
+      "text": "Doch ich weiß, daß Keiner dich",
+      "page": 127,
+      "rid": "r1024"
+    }
+  ],
+  "[835, 840]": [
+    {
+      "n": "835u1",
+      "text": "Nicht gebeut, wo Macht dir fehlt!",
+      "page": 135,
+      "rid": "r1280"
+    },
+    {
+      "n": "835u1",
+      "text": "Dir sag' ich: laß sie!",
+      "page": 135,
+      "rid": "r1282"
+    },
+    {
+      "n": "835u1",
+      "text": "Ich zu dir: geh deinen Weg!",
+      "page": 135,
+      "rid": "r1284"
+    },
+    {
+      "n": "835u2",
+      "text": "Hieher, Bürger, eilt, o eilt flugs heran!",
+      "page": 135,
+      "rid": "r1286"
+    },
+    {
+      "n": "835u3",
+      "text": "Weh, es verhöhnt die Stadt, unsere Stadt Gewalt!",
+      "page": 135,
+      "rid": "r1287"
+    }
+  ],
+  "[875, 880]": [
+    {
+      "n": "875u1",
+      "text": "Ich denk's!",
+      "page": 138,
+      "rid": "r1365"
+    },
+    {
+      "n": "875u2",
+      "text": "Dieses Volk achtet' ich dann für Nichts!",
+      "page": 138,
+      "rid": "r1368"
+    },
+    {
+      "n": "875u3",
+      "text": "Der Schwache schlägt den Starken auch, hilft ihm das Recht.",
+      "page": 138,
+      "rid": "r1370"
+    },
+    {
+      "n": "875u4",
+      "text": "Vernehmt ihr, was er redet?",
+      "page": 138,
+      "rid": "r1372"
+    },
+    {
+      "n": "875u5",
+      "text": "Was er nie vollbringt!",
+      "page": 138,
+      "rid": "r1374"
+    },
+    {
+      "n": "875u6",
+      "text": "Lebt aber Zeus -",
+      "page": 138,
+      "rid": "r1375"
+    },
+    {
+      "n": "875u7",
+      "text": "Zeus weiß es, doch du weißt es nicht.",
+      "page": 138,
+      "rid": "r1377"
+    }
+  ],
+  "[880, 885]": [
+    {
+      "n": "880u1",
+      "text": "Hohn ist es; aber trag' ihn nur!",
+      "page": 138,
+      "rid": "r1381"
+    },
+    {
+      "n": "880u2",
+      "text": "Wohlauf, alles Volk! Wohlauf, Landesherr!",
+      "page": 138,
+      "rid": "r1383"
+    },
+    {
+      "n": "880u3",
+      "text": "Eilet geschwind heran, eilet! Es dringt Gewalt",
+      "page": 138,
+      "rid": "r1384"
+    },
+    {
+      "n": "880u4",
+      "text": "Gewaltvoll daher!",
+      "page": 138,
+      "rid": "r1385"
+    },
+    {
+      "n": "880u5",
+      "text": "Welch ein Lärm? Was ist gescheh'n hier? Was erschreckt' euch, daß ihr mein",
+      "page": 139,
+      "rid": "r1389"
+    }
+  ],
+  "[1090, 1095]": [
+    {
+      "n": "1090u1",
+      "text": "Vater, Vater, ach!",
+      "page": 146,
+      "rid": "r1633"
+    },
+    {
+      "n": "1090u2",
+      "text": "O gäb' ein Gott dir, ihn zu seh'n, den edelsten",
+      "page": 146,
+      "rid": "r1634"
+    },
+    {
+      "n": "1090u3",
+      "text": "Der Menschen, der uns wieder hergeführt zu dir!",
+      "page": 146,
+      "rid": "r1635"
+    },
+    {
+      "n": "1090u4",
+      "text": "Mein Kind, ihr kamet wirklich?",
+      "page": 147,
+      "rid": "r1638"
+    },
+    {
+      "n": "1090u4",
+      "text": "Ia, uns rettete",
+      "page": 147,
+      "rid": "r1640"
+    },
+    {
+      "n": "1090u5",
+      "text": "Der Arm des Theseus und der trauten Dienerschaar.",
+      "page": 147,
+      "rid": "r1641"
+    }
+  ],
+  "[1160, 1165]": [
+    {
+      "n": "1160u1",
+      "text": "Was ist dir denn?",
+      "page": 150,
+      "rid": "r1737"
+    },
+    {
+      "n": "1160u2",
+      "text": "fordre das nicht länger!",
+      "page": 150,
+      "rid": "r1739"
+    },
+    {
+      "n": "1160u2",
+      "text": "Was? Erkläre mir.",
+      "page": 150,
+      "rid": "r1741"
+    },
+    {
+      "n": "1160u3",
+      "text": "Ich weiß, belehrt von diesen, wer der Flüchtling ist.",
+      "page": 150,
+      "rid": "r1743"
+    },
+    {
+      "n": "1160u4",
+      "text": "Und wer denn ist es, den ich so verwerfen soll?",
+      "page": 150,
+      "rid": "r1745"
+    },
+    {
+      "n": "1160u5",
+      "text": "Mein böser Sohn, Herr, dessen Rede meinem Ohr",
+      "page": 150,
+      "rid": "r1747"
+    }
+  ],
+  "[1700, 1705]": [
+    {
+      "n": "1700u1",
+      "text": "Sage mir, wozu?",
+      "page": 172,
+      "rid": "r2427"
+    },
+    {
+      "n": "1700u2",
+      "text": "Gar sehr verlangt mich",
+      "page": 172,
+      "rid": "r2429"
+    },
+    {
+      "n": "1700u3",
+      "text": "Und wonach?",
+      "page": 172,
+      "rid": "r2431"
+    },
+    {
+      "n": "1700u4",
+      "text": "Den unterirdischen Herd zu schau'n",
+      "page": 172,
+      "rid": "r2433"
+    },
+    {
+      "n": "1700u5",
+      "text": "Und wessen Herd?",
+      "page": 172,
+      "rid": "r2435"
+    },
+    {
+      "n": "1700u6",
+      "text": "Des Vaters! Weh, ich Arme!",
+      "page": 172,
+      "rid": "r2437"
+    },
+    {
+      "n": "1700u7",
+      "text": "Wie wäre dies gestattet?",
+      "page": 172,
+      "rid": "r2439"
+    },
+    {
+      "n": "1700u8",
+      "text": "Das",
+      "page": 172,
+      "rid": "r2440"
+    }
+  ],
+  "[1705, 1710]": [
+    {
+      "n": "1705u1",
+      "text": "Wozu der Einwand?",
+      "page": 172,
+      "rid": "r2443"
+    },
+    {
+      "n": "1705u2",
+      "text": "Und das Andre -?",
+      "page": 172,
+      "rid": "r2445"
+    },
+    {
+      "n": "1705u3",
+      "text": "Dieses wäre ?",
+      "page": 172,
+      "rid": "r2447"
+    },
+    {
+      "n": "1705u4",
+      "text": "Fern von Menschen schied er, grablos.",
+      "page": 172,
+      "rid": "r2449"
+    },
+    {
+      "n": "1705u5",
+      "text": "Folge mir, mich dort zu tödten!",
+      "page": 172,
+      "rid": "r2451"
+    },
+    {
+      "n": "1705u6",
+      "text": "Weh, wie werd' ich Arme künftig",
+      "page": 172,
+      "rid": "r2453"
+    }
+  ],
+  "[1710, 1715]": [
+    {
+      "n": "1710u1",
+      "text": "Mein Jammerleben fristen?",
+      "page": 173,
+      "rid": "r2456"
+    },
+    {
+      "n": "1710u2",
+      "text": "zaget nicht, ihr Lieben!",
+      "page": 173,
+      "rid": "r2457"
+    },
+    {
+      "n": "1710u3",
+      "text": "Auch jüngst entfloht ihr",
+      "page": 173,
+      "rid": "r2458"
+    },
+    {
+      "n": "1710u4",
+      "text": "Doch wo flieh' ich hin?",
+      "page": 173,
+      "rid": "r2461"
+    },
+    {
+      "n": "1710u5",
+      "text": "Wem?",
+      "page": 173,
+      "rid": "r2464"
+    },
+    {
+      "n": "1710u6",
+      "text": "Dem Leide, das euch schwer bedroht.",
+      "page": 173,
+      "rid": "r2466"
+    }
+  ],
+  "[1715, 1720]": [
+    {
+      "n": "1715u1",
+      "text": "Und was denn sinnst du mehr?",
+      "page": 173,
+      "rid": "r2470"
+    },
+    {
+      "n": "1715u2",
+      "text": "Wie wir zur Heimat kommen, ich",
+      "page": 173,
+      "rid": "r2472"
+    },
+    {
+      "n": "1715u3",
+      "text": "Weiß es nicht.",
+      "page": 173,
+      "rid": "r2473"
+    },
+    {
+      "n": "1715u4",
+      "text": "Auch suche das nicht.",
+      "page": 173,
+      "rid": "r2475"
+    },
+    {
+      "n": "1715u5",
+      "text": "Noth bedrängt uns",
+      "page": 173,
+      "rid": "r2477"
+    },
+    {
+      "n": "1715u6",
+      "text": "Auch zuvor schon.",
+      "page": 173,
+      "rid": "r2479"
+    },
+    {
+      "n": "1715u7",
+      "text": "Ohne Maß, oft über Maß auch.",
+      "page": 173,
+      "rid": "r2481"
+    }
+  ]
+}

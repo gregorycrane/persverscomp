@@ -1,0 +1,51 @@
+[
+  {
+    "work": "tlg0011.tlg001",
+    "structural": 38,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 17,
+    "remaining_numbering_intervals": 4
+  },
+  {
+    "work": "tlg0011.tlg002",
+    "structural": 12,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 16,
+    "remaining_numbering_intervals": 3
+  },
+  {
+    "work": "tlg0011.tlg003",
+    "structural": 19,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 12,
+    "remaining_numbering_intervals": 3
+  },
+  {
+    "work": "tlg0011.tlg004",
+    "structural": 38,
+    "facsimile_batches": 1,
+    "corroborated_tokens": 6,
+    "remaining_numbering_intervals": 5
+  },
+  {
+    "work": "tlg0011.tlg005",
+    "structural": 41,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 19,
+    "remaining_numbering_intervals": 7
+  },
+  {
+    "work": "tlg0011.tlg006",
+    "structural": 56,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 6,
+    "remaining_numbering_intervals": 14
+  },
+  {
+    "work": "tlg0011.tlg007",
+    "structural": 81,
+    "facsimile_batches": 0,
+    "corroborated_tokens": 12,
+    "remaining_numbering_intervals": 16
+  }
+]

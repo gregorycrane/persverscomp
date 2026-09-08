@@ -1,0 +1,871 @@
+{
+  "entries": [
+    {
+      "id": "note-006-1",
+      "number": "1",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Theberstadt ist Thebe in Kilikien, wo Eetion, der Vater An-\ndromache's, herrschte.",
+      "text": "Die Theberstadt ist Thebe in Kilikien, wo Eetion, der Vater Andromache's, herrschte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-2",
+      "number": "13",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Neoptolemos oder Pyrrhos war auf der Insel Skyros geboren,\nwo sein Großvater Lykomedes König war.",
+      "text": "Neoptolemos oder Pyrrhos war auf der Insel Skyros geboren, wo sein Großvater Lykomedes König war.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-3",
+      "number": "52",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Pytho, der alte Name Delphi's.\nPhöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achil-\nleus tödtete.",
+      "text": "Pytho, der alte Name Delphi's. Phöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achilleus tödtete.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-4",
+      "number": "105",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ὀξὺς Αρης.",
+      "text": "L. ὀξὺς Αρης.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-5",
+      "number": "166",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ucheloos, ein Fluß Aetoliens, steht häufig für jeden anderen Fluß\noder Quell.",
+      "text": "Ucheloos, ein Fluß Aetoliens, steht häufig für jeden anderen Fluß oder Quell.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-6",
+      "number": "168",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ξ. χρυσός 1. Τρωάς.",
+      "text": "ξ. χρυσός 1. Τρωάς.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-7",
+      "number": "189",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Wörtlich:\nMich selbst verrathend will ich nicht erfunden sein.",
+      "text": "Wörtlich: Mich selbst verrathend will ich nicht erfunden sein.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-8",
+      "number": "195",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. πλύτα τε μεγέθει.",
+      "text": "L. πλύτα τε μεγέθει.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-9",
+      "number": "233",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Der Hiatus in diesem Verse wird durch die Pause gemildert.",
+      "text": "Der Hiatus in diesem Verse wird durch die Pause gemildert.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-10",
+      "number": "264",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Baumeister des Alterthums pflegten die Steine der Gebäude\ndurch eiserne Haken und geschmolzenes Blei zu verbinden.",
+      "text": "Die Baumeister des Alterthums pflegten die Steine der Gebäude durch eiserne Haken und geschmolzenes Blei zu verbinden.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-11",
+      "number": "275",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Götter frauen, Here, Pallas und Aphrodite, welche der Göt-\nterbote Hermes zu dem Schöfe des Paris führte.",
+      "text": "Die Götter frauen, Here, Pallas und Aphrodite, welche der Götterbote Hermes zu dem Schöfe des Paris führte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-12",
+      "number": "290",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "über das Haupt werfen, ein Ausdruck von Dingen, die man\nals Unheil fortschleudert, um jede Spur von ihnen zu vertilgen.",
+      "text": "über das Haupt werfen, ein Ausdruck von Dingen, die man als Unheil fortschleudert, um jede Spur von ihnen zu vertilgen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-13",
+      "number": "300",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Den Siz am Altare, wo Andromache Schuz vor ihren Feinden suchte.",
+      "text": "Den Siz am Altare, wo Andromache Schuz vor ihren Feinden suchte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-14",
+      "number": "371",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Jener, Neoptolemos.",
+      "text": "Jener, Neoptolemos.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-15",
+      "number": "438",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nAuch dieses Kind hier raffst du fort aus meinem Arm?",
+      "text": "Unders: Auch dieses Kind hier raffst du fort aus meinem Arm?",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-16",
+      "number": "451",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ὃς σοι δέδοκται.",
+      "text": "L. ὃς σοι δέδοκται.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-17",
+      "number": "473",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Wörtlich:\nUnd weiser Männer große Meng' ist schwächer, als -",
+      "text": "Wörtlich: Und weiser Männer große Meng' ist schwächer, als -",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-18",
+      "number": "564",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nAus meinen Armen führst du die niemals hinweg.",
+      "text": "Unders: Aus meinen Armen führst du die niemals hinweg.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-19",
+      "number": "570",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἄκλῃς', ἄφρερα δώμαθ' ἑςίας λιπών.",
+      "text": "L. ἄκλῃς', ἄφρερα δώμαθ' ἑςίας λιπών.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-20",
+      "number": "624",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Der Vater des Peleus war Ueakos, ein Sohn des Zeus.",
+      "text": "Der Vater des Peleus war Ueakos, ein Sohn des Zeus.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-21",
+      "number": "664",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Phokos ward von seinen Brüdern, Peleus und Telamon, ermordet,\nweil er es ihnen in ritterlichen Uebungen zuvorthat, worauf Neakos\nbeide aus ihrem Vaterlande Aegina vertrieb.",
+      "text": "Phokos ward von seinen Brüdern, Peleus und Telamon, ermordet, weil er es ihnen in ritterlichen Uebungen zuvorthat, worauf Neakos beide aus ihrem Vaterlande Aegina vertrieb.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-22",
+      "number": "686",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "2. δι' οἴκων τῶν δ' ἐπιοπάσας κόμης.",
+      "text": "2. δι' οἴκων τῶν δ' ἐπιοπάσας κόμης.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-23",
+      "number": "693",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders :\nOb, sie zu lösen, Einer mich verhindern wird.",
+      "text": "Anders : Ob, sie zu lösen, Einer mich verhindern wird.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-24",
+      "number": "717",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Diese, Andromache.",
+      "text": "Diese, Andromache.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-25",
+      "number": "718",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. σώφρων, καθ' ἡμᾶς σώφρον᾿ ἀντιλήψεται.",
+      "text": "Ε. σώφρων, καθ' ἡμᾶς σώφρον᾿ ἀντιλήψεται.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-006-26",
+      "number": "745",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. εἴ τι γὰρ πάσχοι τις ἀμήχανον, ἀλκᾶς.",
+      "text": "L. εἴ τι γὰρ πάσχοι τις ἀμήχανον, ἀλκᾶς.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-27",
+      "number": "760",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Bei dem Hochzeitseste des Lapithenköniges Peirithoos, zu welchem\nmit andern thessalischen Fürsten auch Peleus kam, mishandelten die\nKentauren in der Trunkenheit die Braut Hippodamia, und entzünde-\nten den Krieg, der mit der Vertreibung der Kentauren vom Pelion\nsich endigte.",
+      "text": "Bei dem Hochzeitseste des Lapithenköniges Peirithoos, zu welchem mit andern thessalischen Fürsten auch Peleus kam, mishandelten die Kentauren in der Trunkenheit die Braut Hippodamia, und entzündeten den Krieg, der mit der Vertreibung der Kentauren vom Pelion sich endigte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-28",
+      "number": "763",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Peleus war einer der Argonauten.",
+      "text": "Peleus war einer der Argonauten.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-29",
+      "number": "765",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Auf der Argonautenfahrt befreite Herakles die Tochter des trojischen\nKönigs Laomedon, Hesione, von einem Meerungeheuer, dessen Raub\nsie werden sollte, und der König verhieß ihm dafür seine schnellen\nNosse. Als Laomedon sein Wort brach, zerstörte Herakles mit Tela-\nmon und Peleus Troja.",
+      "text": "Auf der Argonautenfahrt befreite Herakles die Tochter des trojischen Königs Laomedon, Hesione, von einem Meerungeheuer, dessen Raub sie werden sollte, und der König verhieß ihm dafür seine schnellen Nosse. Als Laomedon sein Wort brach, zerstörte Herakles mit Telamon und Peleus Troja.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-30",
+      "number": "782",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nIndeß ich meiner Fürstin Tod abwehrt', o Fraun.",
+      "text": "Unders: Indeß ich meiner Fürstin Tod abwehrt', o Fraun.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-31",
+      "number": "815",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἔλιπες, ἔλιπες, ὦ πάτερ, ἐπακτίαν\nμονάδ' ἔρημον ἦσαν ἐνάλε κώπας. 3\nὀλεῖ, ὀλεῖ με· τᾷδ᾽ ἐκέτ᾽ ἐνοικήσω\nνυμφιδίῳ σέγᾳ.",
+      "text": "L. ἔλιπες, ἔλιπες, ὦ πάτερ, ἐπακτίαν μονάδ' ἔρημον ἦσαν ἐνάλε κώπας. 3 ὀλεῖ, ὀλεῖ με· τᾷδ᾽ ἐκέτ᾽ ἐνοικήσω νυμφιδίῳ σέγᾳ.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-32",
+      "number": "821",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ξ. εἴθ' εἴην 1. ἀρθείην.",
+      "text": "ξ. εἴθ' εἴην 1. ἀρθείην.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-33",
+      "number": "823",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "das tannene Fahrzeug, das Schiff Urgo.",
+      "text": "das tannene Fahrzeug, das Schiff Urgo.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-34",
+      "number": "824",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Kyanen, die kyanischen Inseln, auch Symplegaden genannt,\nzwei felsige Inseln des schwarzen Meeres an der Mündung des thra-\nkischen Bosporos.",
+      "text": "Die Kyanen, die kyanischen Inseln, auch Symplegaden genannt, zwei felsige Inseln des schwarzen Meeres an der Mündung des thrakischen Bosporos.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-35",
+      "number": "1837",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ξ. τῶνδ' Ι. ὧδ'.",
+      "text": "ξ. τῶνδ' Ι. ὧδ'.",
+      "primary_label_present": false,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening; native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening; native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-36",
+      "number": "872",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἢ τίς συμφορά σφ' ἀφείλετο;",
+      "text": "L. ἢ τίς συμφορά σφ' ἀφείλετο;",
+      "primary_label_present": false,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-006-37",
+      "number": "875",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders:\nMein Vater, welchen eben dies nach Phthia trieb.",
+      "text": "Anders: Mein Vater, welchen eben dies nach Phthia trieb.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-38",
+      "number": "880",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Von Tantalos, einem Sohne des Zeus, stammten Orestes und Hers\nmione, Sonach war Zeus der Schuzgott der verwandten Häuser.",
+      "text": "Von Tantalos, einem Sohne des Zeus, stammten Orestes und Hers mione, Sonach war Zeus der Schuzgott der verwandten Häuser.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-39",
+      "number": "888",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. πῶς ἐν ἂν εἴποι τις τάδ' ἐξημάρτανες;",
+      "text": "L. πῶς ἐν ἂν εἴποι τις τάδ' ἐξημάρτανες;",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-40",
+      "number": "903",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Der Vers hat in der ersten Stelle den Dactylus, in der dritten den\nUnapäst.",
+      "text": "Der Vers hat in der ersten Stelle den Dactylus, in der dritten den Unapäst.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-41",
+      "number": "925",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. πέμψων.",
+      "text": "L. πέμψων.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-42",
+      "number": "937",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Götterfrauen, die Erinnyen.",
+      "text": "Die Götterfrauen, die Erinnyen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-43",
+      "number": "939",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ξυμφορὰς δ' ἠνεσχόμην.",
+      "text": "L. ξυμφορὰς δ' ἠνεσχόμην.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-44",
+      "number": "953",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ὅσ᾽ εἰς ἔμ᾽ ὕβρισεν. ὅσα=ὅτι τόσα.",
+      "text": "L. ὅσ᾽ εἰς ἔμ᾽ ὕβρισεν. ὅσα=ὅτι τόσα.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-45",
+      "number": "968",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Phöbos und Poseidon hatten dem Laomedon die Mauern Troja's\nerbaut.",
+      "text": "Phöbos und Poseidon hatten dem Laomedon die Mauern Troja's erbaut.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-46",
+      "number": "971",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Monomet. anapæst. monom. jamb. monom. anapæst.",
+      "text": "Monomet. anapæst. monom. jamb. monom. anapæst.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-47",
+      "number": "983",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ein Gott, Apollon, welcher dem Orestes den Muttermord gebot.",
+      "text": "Ein Gott, Apollon, welcher dem Orestes den Muttermord gebot.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-48",
+      "number": "987",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἀδύτων ἐπιβὰς ἐκτανεν, ματρὸς φονεύς. Vorher: νιν f. νῦν,",
+      "text": "L. ἀδύτων ἐπιβὰς ἐκτανεν, ματρὸς φονεύς. Vorher: νιν f. νῦν,",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-49",
+      "number": "1026",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Der Mykenäerfremdling ist Orestes.",
+      "text": "Der Mykenäerfremdling ist Orestes.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-50",
+      "number": "1065",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ξ. ἆρ' Ι. ἄγχ'.\n;,1066. In der Nähe des heiligen Dreifußes stand ein Lorbeerbaum.",
+      "text": "ξ. ἆρ' Ι. ἄγχ'. ;,1066. In der Nähe des heiligen Dreifußes stand ein Lorbeerbaum.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-51",
+      "number": "1090",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Vielleicht eine Anspielung auf den Sprung des Achilleus aus dem\nSchiffe an's Land, der das Meer am Gestade auffluten machte, und\nwovon eine Ufergegend bei Troja Achilles ſprung genannt wurde.",
+      "text": "Vielleicht eine Anspielung auf den Sprung des Achilleus aus dem Schiffe an's Land, der das Meer am Gestade auffluten machte, und wovon eine Ufergegend bei Troja Achilles ſprung genannt wurde.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-52",
+      "number": "1122",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. αὐτός τε κακοῖς˙\nεἰς ἓν μοίρας συνέκυρσας.",
+      "text": "Ε. αὐτός τε κακοῖς˙ εἰς ἓν μοίρας συνέκυρσας.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-53",
+      "number": "1151",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ὦ φίλος, ἐλειπες ἐν δόμῳ μ' ἔρημον.",
+      "text": "ὦ φίλος, ἐλειπες ἐν δόμῳ μ' ἔρημον.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-54",
+      "number": "1163",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἀμπτάμενα φυῦδα τἀμὰ πάντα κεῖται.",
+      "text": "L. ἀμπτάμενα φυῦδα τἀμὰ πάντα κεῖται.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-55",
+      "number": "1166",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐκέτ' ἐςί μοι πόλις.\n“ 1167. Ε. σκῆπτρα τάδ' ἐῤῥέτω 'πὶ γᾶν.",
+      "text": "L. ἐκέτ' ἐςί μοι πόλις. “ 1167. Ε. σκῆπτρα τάδ' ἐῤῥέτω 'πὶ γᾶν.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-56",
+      "number": "1189",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Nach Helenos, einem Sohne des Priamos, der König im Moloffer=\nlande ward, herrschte Molottos, Andromache's Sohn, daselbst.",
+      "text": "Nach Helenos, einem Sohne des Priamos, der König im Molofferlande ward, herrschte Molottos, Andromache's Sohn, daselbst.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-57",
+      "number": "1199",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders:\nZum Gotte machen, daß du niemals alterst, und\nUnsterblich fortlebst, allem Erdenleid entrückt.",
+      "text": "Anders: Zum Gotte machen, daß du niemals alterst, und Unsterblich fortlebst, allem Erdenleid entrückt.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-58",
+      "number": "1203",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "den trocknen Fuß: ein Zeichen der Göttlichkeit.",
+      "text": "den trocknen Fuß: ein Zeichen der Göttlichkeit.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-006-59",
+      "number": "1220",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nDem Gram gebiet' ich, Herrscherin, auf dein Geheiß.\nBAYERISCHE\nSTAATS-\nBIBLIOTHEK\nMUENCHEN",
+      "text": "Unders: Dem Gram gebiet' ich, Herrscherin, auf dein Geheiß. BAYERISCHE STAATS- BIBLIOTHEK MUENCHEN",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    }
+  ],
+  "unattributed_opening": [],
+  "BSB_pages": [
+    {
+      "page": 347,
+      "canvas": 355,
+      "text": "Anmerkungen.\nV. 1. Die Theberstadt ist Thebe in Kilikien, wo Eetion, der Vater An-\ndromache's, herrschte.\n\" 13. Neoptolemos oder Pyrrhos war auf der Insel Skyros geboren,\nwo sein Großvater Lykomedes König war.\n\" 52. Pytho, der alte Name Delphi's.\nPhöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achil-\nleus tödtete.\n, 105. L. ὀξὺς Αρης.\n„166. Ucheloos, ein Fluß Aetoliens, steht häufig für jeden anderen Fluß\noder Quell.\n„ 168. ξ. χρυσός 1. Τρωάς.\n,,189. Wörtlich:\nMich selbst verrathend will ich nicht erfunden sein.\n„195. L. πλύτα τε μεγέθει.\n,,233. Der Hiatus in diesem Verse wird durch die Pause gemildert.\n„264. Die Baumeister des Alterthums pflegten die Steine der Gebäude\ndurch eiserne Haken und geschmolzenes Blei zu verbinden.\n275. Die Götter frauen, Here, Pallas und Aphrodite, welche der Göt-\nterbote Hermes zu dem Schöfe des Paris führte.\n290. über das Haupt werfen, ein Ausdruck von Dingen, die man\nals Unheil fortschleudert, um jede Spur von ihnen zu vertilgen.\n„300. Den Siz am Altare, wo Andromache Schuz vor ihren Feinden suchte.\n371. Jener, Neoptolemos.\n,,438. Unders:\nAuch dieses Kind hier raffst du fort aus meinem Arm?\n, 451. L. ὃς σοι δέδοκται."
+    },
+    {
+      "page": 348,
+      "canvas": 356,
+      "text": "348\nV. 473. Wörtlich:\nUnd weiser Männer große Meng' ist schwächer, als -\n„564. Unders:\nAus meinen Armen führst du die niemals hinweg.\n„ 570. L. ἄκλῃς', ἄφρερα δώμαθ' ἑςίας λιπών.\n,624. Der Vater des Peleus war Ueakos, ein Sohn des Zeus.\n664. Phokos ward von seinen Brüdern, Peleus und Telamon, ermordet,\nweil er es ihnen in ritterlichen Uebungen zuvorthat, worauf Neakos\nbeide aus ihrem Vaterlande Aegina vertrieb.\n,686. 2. δι' οἴκων τῶν δ' ἐπιοπάσας κόμης.\n„693. Anders :\nOb, sie zu lösen, Einer mich verhindern wird.\n717. Diese, Andromache.\n» 718. Ε. σώφρων, καθ' ἡμᾶς σώφρον᾿ ἀντιλήψεται.\n„ 745. L. εἴ τι γὰρ πάσχοι τις ἀμήχανον, ἀλκᾶς.\n,760. Bei dem Hochzeitseste des Lapithenköniges Peirithoos, zu welchem\nmit andern thessalischen Fürsten auch Peleus kam, mishandelten die\nKentauren in der Trunkenheit die Braut Hippodamia, und entzünde-\nten den Krieg, der mit der Vertreibung der Kentauren vom Pelion\nsich endigte.\n,763. Peleus war einer der Argonauten.\n,765. Auf der Argonautenfahrt befreite Herakles die Tochter des trojischen\nKönigs Laomedon, Hesione, von einem Meerungeheuer, dessen Raub\nsie werden sollte, und der König verhieß ihm dafür seine schnellen\nNosse. Als Laomedon sein Wort brach, zerstörte Herakles mit Tela-\nmon und Peleus Troja.\n„782. Unders:\nIndeß ich meiner Fürstin Tod abwehrt', o Fraun.\n„815f. L. ἔλιπες, ἔλιπες, ὦ πάτερ, ἐπακτίαν\nμονάδ' ἔρημον ἦσαν ἐνάλε κώπας. 3\nὀλεῖ, ὀλεῖ με· τᾷδ᾽ ἐκέτ᾽ ἐνοικήσω\nνυμφιδίῳ σέγᾳ.\n„821. ξ. εἴθ' εἴην 1. ἀρθείην.\n823. das tannene Fahrzeug, das Schiff Urgo.\n824. Die Kyanen, die kyanischen Inseln, auch Symplegaden genannt,\nzwei felsige Inseln des schwarzen Meeres an der Mündung des thra-\nkischen Bosporos.\n1837. ξ. τῶνδ' Ι. ὧδ'.\n,872. L. ἢ τίς συμφορά σφ' ἀφείλετο;\n,875. Anders:\nMein Vater, welchen eben dies nach Phthia trieb.\n,880. Von Tantalos, einem Sohne des Zeus, stammten Orestes und Hers\nmione, Sonach war Zeus der Schuzgott der verwandten Häuser.\n„ 888. L. πῶς ἐν ἂν εἴποι τις τάδ' ἐξημάρτανες;"
+    },
+    {
+      "page": 349,
+      "canvas": 357,
+      "text": "349\nV. 903. Der Vers hat in der ersten Stelle den Dactylus, in der dritten den\nUnapäst.\n\" 925. L. πέμψων.\n\" 937. Die Götterfrauen, die Erinnyen.\n\" 939. L. ξυμφορὰς δ' ἠνεσχόμην.\n\" 953. L. ὅσ᾽ εἰς ἔμ᾽ ὕβρισεν. ὅσα=ὅτι τόσα.\n\" 968 f. Phöbos und Poseidon hatten dem Laomedon die Mauern Troja's\nerbaut.\n\" 971. Monomet. anapæst. monom. jamb. monom. anapæst.\n\" 983. Ein Gott, Apollon, welcher dem Orestes den Muttermord gebot.\n\" 987. L. ἀδύτων ἐπιβὰς ἐκτανεν, ματρὸς φονεύς. Vorher: νιν f. νῦν,\n„1026. Der Mykenäerfremdling ist Orestes.\n„ 1065. ξ. ἆρ' Ι. ἄγχ'.\n;,1066. In der Nähe des heiligen Dreifußes stand ein Lorbeerbaum.\n„1090. Vielleicht eine Anspielung auf den Sprung des Achilleus aus dem\nSchiffe an's Land, der das Meer am Gestade auffluten machte, und\nwovon eine Ufergegend bei Troja Achilles ſprung genannt wurde.\n„ 1122. Ε. αὐτός τε κακοῖς˙\nεἰς ἓν μοίρας συνέκυρσας.\n„ 1151. ὦ φίλος, ἐλειπες ἐν δόμῳ μ' ἔρημον.\n, 1163. L. ἀμπτάμενα φυῦδα τἀμὰ πάντα κεῖται.\n„1166. L. ἐκέτ' ἐςί μοι πόλις.\n“ 1167. Ε. σκῆπτρα τάδ' ἐῤῥέτω 'πὶ γᾶν.\n„1189. Nach Helenos, einem Sohne des Priamos, der König im Moloffer=\nlande ward, herrschte Molottos, Andromache's Sohn, daselbst.\n„1199. Anders:\nZum Gotte machen, daß du niemals alterst, und\nUnsterblich fortlebst, allem Erdenleid entrückt.\n„1203. den trocknen Fuß: ein Zeichen der Göttlichkeit.\n\" 1220. Unders:\nDem Gram gebiet' ich, Herrscherin, auf dein Geheiß.\nBAYERISCHE\nSTAATS-\nBIBLIOTHEK\nMUENCHEN"
+    }
+  ],
+  "Harvard_pages": [
+    {
+      "label": "347",
+      "scan": 779,
+      "text": "Anmerkungen.\nV. 1. Die Theberstadt ist Thebe in Kilikien, wo Eetion, der Vater An-\ndromache's, herrschte.\n\"\n\"\n13. Neoptolemos oder Pyrrhos war auf der Insel Skyros geboren,\nwo sein Großvater Lykomedes König war.\n52. Pytho, der alte Name Delphi's.\nPhöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achil-\nleus tödtete.\n„105. L. ὀξὺς Αρης.\n„166. Acheloos, ein Fluß Netoliens, steht häufig für jeden anderen Fluß\noder Quell.\n, 168. ξ. χρυσός Ι. Τρωάς.\n,,189. Wörtlich:\nMich selbst verrathend will ich nicht erfunden sein.\n« 195. Ε. πλέτα τε μεγέθει.\n,,233. Der Hiatus in diesem Verse wird durch die Pause gemildert.\n,,264. Die Baumeister des Alterthums pflegten die Steine der Gebäude\ndurch eiserne Haken und geschmolzenes Blei zu verbinden.\n275. Die Götter frauen, Here, Pallas und Aphrodite, welche der Göt-\nterbote Hermes zu dem Schöfe des Paris führte.\n290. über das Haupt werfen, ein Ausdruck von Dingen, die man\nals Unheil fortschleudert, um jede Spur von ihnen zu vertilgen.\n„300. Den Siz am Altare, wo Andromache Schuz vor ihren Feinden suchte.\n371. Jener, Neoptolemos.\n,438. Unders:\nAuch dieses Kind hier raffst du fort aus meinem Arm?\n, 451. Ε. ὃς σοι δέδοκται.",
+      "page": 347,
+      "volume": 2
+    },
+    {
+      "label": "348",
+      "scan": 780,
+      "text": "348\n:\nV. 473. Wörtlich:\nUnd weiser Männer große Meng' ist schwächer, als -\n564. Anders:\nAus meinen Armen führst du die niemals hinweg.\n„ 570. L. ἄκλης', ἄφρερα δώμαθ' ἑςίας λιπών.\n,,624. Der Vater des Peleus war Neakos, ein Sohn des Zейв.\n664. Phokos ward von seinen Brüdern, Peleus und Telamon, ermordet,\nweil er es ihnen in ritterlichen Uebungen zuvorthat, worauf Acakos\nbeide aus ihrem Vaterlande Aegina vertrieb.\n, 686. Ε. δι' οἴκων τῶν δ᾽ ἐπιοπάσας κόμης.\n693. Anders:\nOb, sie zu lösen, Einer mich verhindern wird.\n,717. Diese, Andromache.\nη 718. Ε. σώφρων, καθ' ἡμᾶς σώφρον᾽ ἀντιλήψεται.\n» 745. Ε. εἴ τι γὰρ πάσχοι τις ἀμήχανον, ἀλκᾶς.\n,760. Bei dem Hochzeitfeste des Lapithenköniges Peirithoos, zu welchem\nmit andern thessalischen Fürsten auch Peleus kam, mishandelten die\nKentauren in der Trunkenheit die Braut Hippodamia, und entzünde-\nten den Krieg, der mit der Vertreibung der Kentauren vom Pelion\nsich endigte.\n,763. Peleus war einer der Argonauten.\n,765. Auf der Argonautenfahrt befreite Herakles die Tochter des trojischen\nKönigs Laomedon, Hesione, von einem Meerungeheuer, dessen Raub\nsie werden sollte, und der König verhieß ihm dafür seine schnellen\nRosse. Als Laomedon sein Wort brach, zerstörte Herakles mit Tela-\nmon und Peleus Troja.\n„782. Anders:\nIndeß ich meiner Fürstin Tod abwehrt', o Fraun.\n„815f. 2. έλιπες, έλιπες, ὦ πάτερ, ἐπακτίαν\nμονάδ' ἔρημον ἦσαν ἐνάλε κώπας.\nὀλεῖ, ὀλεῖ με· τᾷδ' ἐκἐτ᾽ ἐνοικήσω\nνυμφιδίῳ ςέγᾳ.\n„821. ξ. εἴθ' εἴην 1. ἀρθείην.\n823. das tannene Fahrzeug, das Schiff Argo.\n,824. Die Kyanen, die kyanischen Inseln, auch Symplegaden genannt,\nzwei felsige Inseln des schwarzen Meeres an der Mündung des thra-\nkischen Bosporos.\n1,837. ξ. τῶνδ' Ι. ὧδ'.\n1872. Ε. ἢ τίς συμφορά σφ' ἀφείλετο;\n,875. Anders:\n:\nMein Vater, welchen eben dies nach Phthia trieb.\n880, Von Tantalos, einem Sohne des Zeus, stammten Orestes und Hers\nmione. Sonach war Zeus der Schuzgott der verwandten Häuser.\n„ 888. L. πῶς ἐν ἂν εἶποι τις τάδ' ἐξημάρτανες;",
+      "page": 348,
+      "volume": 2
+    },
+    {
+      "label": "349",
+      "scan": 781,
+      "text": "349\nV. 903. Der Vers hat in der ersten Stelle den Dactylus, in der dritten den\nUnapäst.\n925. L. πέμψων.\n\"\n\"\n937. Die Götterfrauen, die Erinnyen.\n\"\n939. Ε. ξυμφοράς δ' ἠνεσχόμην.\n41\n953. Ε. ὅο' εἰς ἔμ᾽ ὕβρισεν. ὅσα=ὅτι τόσα.\n\"\n968 f. Phöbos und Poseidon hatten dem Laomedon die Mauern Troja's\nerbaut.\n971. Monomet. anapæst. monom. jamb. monom. anapæst.\n983. Ein Gott, Apollon, welcher dem Orestes den Muttermord gebot.\n\"\n\"\n\"\n987. L. ἀδύτων ἐπιβὰς ἐκτανεν, ματρὸς φονεύς. Vorher: viv f. vῦν.\n,,1026. Der Mykenäerfremdling ist Orestes.\n1.\n„ 1065. ξ. ἆρ' Ι. ἄγχ'.\n„1066. In der Nähe des heiligen Dreifußes stand ein Lorbeerbaum.\n„1090. Vielleicht eine Anspielung auf den Sprung des Achilleus aus dem\nSchiffe an's Land, der das Meer am Gestade auffluten machte, und\nwovon eine Ufergegend bei Troja Achilles ſprung genannt wurde.\n, 1122. Ε. αὐτός τε κακοῖς\nεἰς ἓν μοίρας συνέκυρσας.\n« 1151. ὦ φίλος, ἔλειπες ἐν δόμῳ μ' ἔρημον.\n, 1163. L. ἀμπτάμενα φυᾶδα τἀμὰ πάντα κεῖται.\n„1166. 2. ἐκέτ᾽ ἐςὶ μοι πόλις.\n# 1167. Ε. σκῆπτρα τάδ' ἐῤῥέτω 'πὶ γᾶν.\n„1189. Nach Helenos, einem Sohne des Priamos, der König im Molosser-\nlande ward, herrschte Molottos, Andromache's Sohn, daselbst.\n„1199. Anders:\nZum Gotte machen, daß du niemals alterst, und\nUnsterblich fortlebst, allem Erdenleid entrückt.\n„1203. den trocknen Fuß: ein Zeichen der Göttlichkeit.\n„1220. Unders:\nDem Gram gebiet' ich, Herrscherin, auf dein Geheiß.",
+      "page": 349,
+      "volume": 2
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+[
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "'Jason.",
+      "raw": "'Jason.",
+      "page": 261,
+      "scan": 279,
+      "ocr_line": 24,
+      "printed_n": null,
+      "speaker": "Medeia",
+      "rid": "r1131",
+      "bsb_line": 29,
+      "bsb_bbox": [
+        574,
+        1657,
+        708,
+        1700
+      ],
+      "bsb_text": "Jason.",
+      "bsb_similarity": 1.0,
+      "n": "915u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        915,
+        920
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Jason",
+      "raw": "'Jason.",
+      "page": 261,
+      "scan": 279,
+      "ocr_line": 24,
+      "printed_n": null,
+      "speaker": "Jason",
+      "rid": "r1131",
+      "bsb_line": 29,
+      "bsb_bbox": [
+        574,
+        1657,
+        708,
+        1700
+      ],
+      "bsb_text": "Jason.",
+      "bsb_similarity": 1.0,
+      "n": "915u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        915,
+        920
+      ]
+    }
+  },
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "Der eine Sohn (innen).",
+      "raw": "Der eine Sohn (innen).",
+      "page": 271,
+      "scan": 289,
+      "ocr_line": 32,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r1516",
+      "bsb_line": 32,
+      "bsb_bbox": [
+        421,
+        1780,
+        864,
+        1821
+      ],
+      "bsb_text": "Der eine Sohn (innen).",
+      "bsb_similarity": 1.0,
+      "n": "1240u4",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1240,
+        1245
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Der eine Sohn",
+      "raw": "Der eine Sohn (innen).",
+      "page": 271,
+      "scan": 289,
+      "ocr_line": 32,
+      "printed_n": null,
+      "speaker": "Der eine Sohn",
+      "rid": "r1516",
+      "bsb_line": 32,
+      "bsb_bbox": [
+        421,
+        1780,
+        864,
+        1821
+      ],
+      "bsb_text": "Der eine Sohn (innen).",
+      "bsb_similarity": 1.0,
+      "n": "1240u4",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1240,
+        1245
+      ]
+    }
+  },
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "Der andere Sohn (innen).",
+      "raw": "Der andere Sohn (innen).",
+      "page": 271,
+      "scan": 289,
+      "ocr_line": 34,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r1518",
+      "bsb_line": 34,
+      "bsb_bbox": [
+        400,
+        1882,
+        886,
+        1923
+      ],
+      "bsb_text": "Der andere Sohn (innen).",
+      "bsb_similarity": 1.0,
+      "n": "1240u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1240,
+        1245
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Der andere Sohn",
+      "raw": "Der andere Sohn (innen).",
+      "page": 271,
+      "scan": 289,
+      "ocr_line": 34,
+      "printed_n": null,
+      "speaker": "Der andere Sohn",
+      "rid": "r1518",
+      "bsb_line": 34,
+      "bsb_bbox": [
+        400,
+        1882,
+        886,
+        1923
+      ],
+      "bsb_text": "Der andere Sohn (innen).",
+      "bsb_similarity": 1.0,
+      "n": "1240u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1240,
+        1245
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Die Umme.",
+      "raw": "Die Umme.",
+      "page": 233,
+      "scan": 251,
+      "ocr_line": 32,
+      "printed_n": null,
+      "speaker": "Der Hofmeister.",
+      "rid": "r99",
+      "bsb_line": 19,
+      "bsb_bbox": [
+        523,
+        1265,
+        747,
+        1302
+      ],
+      "bsb_text": "Die Umme.",
+      "bsb_similarity": 1.0,
+      "n": "80u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        80,
+        85
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "80u1",
+    "new_n": "81"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "80u3",
+    "new_n": "82"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "80u4",
+    "new_n": "83"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "80u5",
+    "new_n": "84"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "915u1",
+    "new_n": "916"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "915u3",
+    "new_n": "917"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "915u4",
+    "new_n": "918"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "915u5",
+    "new_n": "919"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1240u1",
+    "new_n": "1241"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1240u2",
+    "new_n": "1242"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1240u3",
+    "new_n": "1243"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1240u5",
+    "new_n": "1244"
+  }
+]

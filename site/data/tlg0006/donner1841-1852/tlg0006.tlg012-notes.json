@@ -1,0 +1,884 @@
+{
+  "entries": [
+    {
+      "id": "note-012-1",
+      "number": "1",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Inachos, ein Fluß bei Argos.",
+      "text": "Inachos, ein Fluß bei Argos.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-2",
+      "number": "5",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ilos, ein alter König Troja's, von dem Ilion den Namen hat.\nUeber ihn, so wie über das trojische Königsgeschlecht überhaupt,\ns. Homer Il. 20, 215-240.",
+      "text": "Ilos, ein alter König Troja's, von dem Ilion den Namen hat. Ueber ihn, so wie über das trojische Königsgeschlecht überhaupt, s. Homer Il. 20, 215-240.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-3",
+      "number": "23",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. ποινάτορας τῦ πατρός.",
+      "text": "Ε. ποινάτορας τῦ πατρός.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-4",
+      "number": "29",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Klytämnestra glaubte sich wegen der Ermordung Agamemnons ges\nrechtfertigt, weil er unter dem Vorwande, seine Tochter Iphigenia\nmit Achilleus vermählen zu wollen, diese samt der Mutter nach\nAulis gelockt und dann geopfert hatte.",
+      "text": "Klytämnestra glaubte sich wegen der Ermordung Agamemnons ges rechtfertigt, weil er unter dem Vorwande, seine Tochter Iphigenia mit Achilleus vermählen zu wollen, diese samt der Mutter nach Aulis gelockt und dann geopfert hatte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-5",
+      "number": "58",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Wohl sank ich nicht in solche Noth, daß ich keine Dienerin\nhalten könnte, die an meiner Statt Wasser trüge.",
+      "text": "Wohl sank ich nicht in solche Noth, daß ich keine Dienerin halten könnte, die an meiner Statt Wasser trüge.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-6",
+      "number": "59",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Alten glaubten, daß die Götter Nachts auf Erden unter den\nMenschen wandelten.",
+      "text": "Die Alten glaubten, daß die Götter Nachts auf Erden unter den Menschen wandelten.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-7",
+      "number": "60",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἀφίημ', das sich an μετέρχομαι V. 57 anschließt: V. 58 und 59\nsind wie eine Parenthese zu fassen.",
+      "text": "L. ἀφίημ', das sich an μετέρχομαι V. 57 anschließt: V. 58 und 59 sind wie eine Parenthese zu fassen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-8",
+      "number": "99",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. ζητῶν τ' ἀδελφήν. Man könnte auch lesen: ζητῶ τ' ἀδελφήν,\nwo dann ζητῶ von ἵνα V. 97 abhängig wäre.",
+      "text": "Ε. ζητῶν τ' ἀδελφήν. Man könnte auch lesen: ζητῶ τ' ἀδελφήν, wo dann ζητῶ von ἵνα V. 97 abhängig wäre.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-9",
+      "number": "109",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "auf geschor'nem Haupt: Zeichen der Trauer.",
+      "text": "auf geschor'nem Haupt: Zeichen der Trauer.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-10",
+      "number": "115",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐγενόμαν ᾿Αγαμέμνονος. (Ohne κέρα.)",
+      "text": "L. ἐγενόμαν ᾿Αγαμέμνονος. (Ohne κέρα.)",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-11",
+      "number": "130",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. τλᾶμον ξύγγον, ἀλατεύεις.\nWer die alte Lesart: ξύγγονε, λατρεύεις, beibehalten will, lese den\ndeutschen Vers so:\nWeilst du dienend, in welchem Haus.",
+      "text": "Ε. τλᾶμον ξύγγον, ἀλατεύεις. Wer die alte Lesart: ξύγγονε, λατρεύεις, beibehalten will, lese den deutschen Vers so: Weilst du dienend, in welchem Haus.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-12",
+      "number": "157",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Für βελᾶς 1. ἀβελίας, „nefandi consilii, ut verba ἐκ Τροΐας ὁδῶ\nexplicentur post Trojanam expeditionem.\" Seidler.",
+      "text": "Für βελᾶς 1. ἀβελίας, „nefandi consilii, ut verba ἐκ Τροΐας ὁδῶ explicentur post Trojanam expeditionem.\" Seidler.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-13",
+      "number": "158",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Zurückkehrende Sieger schmückte man mit Bändern und Kränzen.",
+      "text": "Zurückkehrende Sieger schmückte man mit Bändern und Kränzen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-14",
+      "number": "164",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. ποτὶ σὰν αὐλὰν ἀγρότειραν.",
+      "text": "Ε. ποτὶ σὰν αὐλὰν ἀγρότειραν.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-15",
+      "number": "171",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Hera's, als der in Argos vorzugsweise verehrten Göttin.",
+      "text": "Hera's, als der in Argos vorzugsweise verehrten Göttin.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-16",
+      "number": "190",
+      "pages": [
+        191
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. δοκεῖς τοῖοι σοῖς δακρύοις.",
+      "text": "Ε. δοκεῖς τοῖοι σοῖς δακρύοις.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-17",
+      "number": "222",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. καὶ τάχ' ἐκ ἄλλως ἐρεῖς, nämlich ἢ ἐγώ, mit Beziehung auf\nseine Worte V. 220.",
+      "text": "Ε. καὶ τάχ' ἐκ ἄλλως ἐρεῖς, nämlich ἢ ἐγώ, mit Beziehung auf seine Worte V. 220.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-18",
+      "number": "244",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. τινί,",
+      "text": "Ε. τινί,",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-19",
+      "number": "247",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐν τοῖςδ᾽ ἐκείνω τηλορὸς ναίω δόμοις.",
+      "text": "L. ἐν τοῖςδ᾽ ἐκείνω τηλορὸς ναίω δόμοις.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-20",
+      "number": "256",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Das Wort ξυνῆκα ist in der Uebersezung nicht ausgedrückt.",
+      "text": "Das Wort ξυνῆκα ist in der Uebersezung nicht ausgedrückt.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-21",
+      "number": "292",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Allzuhohes Wissen, d. i. gänzliche Leidenschaftlosigkeit. Nihil\naliud Orestes dicit, nisi hoc, non esse tutum, si quis nimium\nsapiat, ita ut, exuta omni humanitate, neque gaudeat cum gau-\ndentibus, neque cum dolentibus doleat. Bothe.",
+      "text": "Allzuhohes Wissen, d. i. gänzliche Leidenschaftlosigkeit. Nihil aliud Orestes dicit, nisi hoc, non esse tutum, si quis nimium sapiat, ita ut, exuta omni humanitate, neque gaudeat cum gaudentibus, neque cum dolentibus doleat. Bothe.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-22",
+      "number": "320",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Mit Zweigen der Myrte, die den Todten heilig war, bekränzte\nman die Grabstätten.",
+      "text": "Mit Zweigen der Myrte, die den Todten heilig war, bekränzte man die Grabstätten.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-23",
+      "number": "384",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Säulen des Marktes, elende Volksredner, die, auf Stand und\nReichthum stolz, wohl auf den Markt in die Volksversammlungen\nkommen, aber nicht reden können. Bothe.",
+      "text": "Säulen des Marktes, elende Volksredner, die, auf Stand und Reichthum stolz, wohl auf den Markt in die Volksversammlungen kommen, aber nicht reden können. Bothe.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-24",
+      "number": "409",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "2. κέλευε δ' αὐτὸν, εἰς δόμες ἀφιγμένος.",
+      "text": "2. κέλευε δ' αὐτὸν, εἰς δόμες ἀφιγμένος.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-25",
+      "number": "444",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. κόραι ματεῖο᾽ ἔνθα πατήρ. ματεῦσι dorisch für ματέουσι.",
+      "text": "Ε. κόραι ματεῖο᾽ ἔνθα πατήρ. ματεῦσι dorisch für ματέουσι.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-26",
+      "number": "466",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. Σφίγγες ἀοιδοί.",
+      "text": "L. Σφίγγες ἀοιδοί.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-012-27",
+      "number": "469",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. Πειρηναῖον θηρῶσα πῶλον.",
+      "text": "Ε. Πειρηναῖον θηρῶσα πῶλον.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-012-28",
+      "number": "470",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Vierfüßige Rosse, im Gegensaze gegen das geflügelte Roß\nPegasos, das V. 469 gemeint ist.",
+      "text": "Vierfüßige Rosse, im Gegensaze gegen das geflügelte Roß Pegasos, das V. 469 gemeint ist.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-29",
+      "number": "473",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. ἃ λέχεα, suum maritum.",
+      "text": "Ε. ἃ λέχεα, suum maritum.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-30",
+      "number": "479",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. ὃν ποτ' ἐ. ἐ.",
+      "text": "Ε. ὃν ποτ' ἐ. ἐ.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-31",
+      "number": "487",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. πελάνες.",
+      "text": "Ε. πελάνες.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-32",
+      "number": "488",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. πολιόν τε oder γρατόν τε.",
+      "text": "L. πολιόν τε oder γρατόν τε.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-012-33",
+      "number": "490",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. σκίύφον τῶδ'.",
+      "text": "Ε. σκίύφον τῶδ'.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-34",
+      "number": "503",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "S. zu V. 320.",
+      "text": "S. zu V. 320.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-35",
+      "number": "537",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. σκότος λαβών ἐκείρατ' ἢ τῆςδε χθονός.",
+      "text": "Ε. σκότος λαβών ἐκείρατ' ἢ τῆςδε χθονός.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-36",
+      "number": "547",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐξέκλεψε.\n〃 631. L. παρέςαι δ' ἔτι πόσει.",
+      "text": "L. ἐξέκλεψε. 〃 631. L. παρέςαι δ' ἔτι πόσει.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-012-37",
+      "number": "644",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. δέχ᾽ ἡλίες.",
+      "text": "Ε. δέχ᾽ ἡλίες.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-38",
+      "number": "656",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἔπειτ' ἀπαντῶν μητρί.",
+      "text": "L. ἔπειτ' ἀπαντῶν μητρί.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-39",
+      "number": "675",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. καὶ σοἱ προφωνῶ, θρασύτατ' Αίγισθον θενεῖν.",
+      "text": "L. καὶ σοἱ προφωνῶ, θρασύτατ' Αίγισθον θενεῖν.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-40",
+      "number": "689",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "S. die Anmerk. zu Iphigen. in Tauri V. 185. Nach dem Tode\ndes Pelops stritten seine beiden Söhne, Atreus und Thyestes, um\ndie Thronfolge. Ein göttliches Zeichen sollte entscheiden: und siehe!\nAtreus fand in seiner Heerde ein Lamm mit goldenem Vlies. Aber\nseine Gemahlin Xerope entwendet das Thier, und schenkt es ihrem\nBuhlen Thyestes. Atreus, darüber ergrimmt, stürzt die Verrä-\ntherin in's Meer, ermordet ingeheim die Söhne des Bruders, und\ntischt ihm das Fleisch derselben auf: ein Gräuel, vor dem der er-\nschreckte Sonnengott nach Morgen zurückfloh und die Gestirne aus\nihren Bahnen wichen. Vgl. V. 715 ff.",
+      "text": "S. die Anmerk. zu Iphigen. in Tauri V. 185. Nach dem Tode des Pelops stritten seine beiden Söhne, Atreus und Thyestes, um die Thronfolge. Ein göttliches Zeichen sollte entscheiden: und siehe! Atreus fand in seiner Heerde ein Lamm mit goldenem Vlies. Aber seine Gemahlin Xerope entwendet das Thier, und schenkt es ihrem Buhlen Thyestes. Atreus, darüber ergrimmt, stürzt die Verrätherin in's Meer, ermordet ingeheim die Söhne des Bruders, und tischt ihm das Fleisch derselben auf: ein Gräuel, vor dem der erschreckte Sonnengott nach Morgen zurückfloh und die Gestirne aus ihren Bahnen wichen. Vgl. V. 715 ff.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-41",
+      "number": "696",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Auf eine steinerne Bühne traten die Herolde, wenn sie dem Volke\nEtwas kundthun wollten.",
+      "text": "Auf eine steinerne Bühne traten die Herolde, wenn sie dem Volke Etwas kundthun wollten.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-42",
+      "number": "700",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. φάσματ' ἄδειμα, Zeichen, wodurch jede Furcht vor einem ein-\nheimischen Kriege entfernt wurde. Daher die Chortänze V. 701,\ndaher die Opfer bei offenen Tempeln V. 702 ff.",
+      "text": "Ε. φάσματ' ἄδειμα, Zeichen, wodurch jede Furcht vor einem einheimischen Kriege entfernt wurde. Daher die Chortänze V. 701, daher die Opfer bei offenen Tempeln V. 702 ff.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-43",
+      "number": "708",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ὡς ἐπίλογοι Θυές8, carmina Thyesten dominum nominantia,\ncelebrantia, ἐπιλέγεσαι Θυέςην.",
+      "text": "L. ὡς ἐπίλογοι Θυές8, carmina Thyesten dominum nominantia, celebrantia, ἐπιλέγεσαι Θυέςην.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-44",
+      "number": "730",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. θνατᾶς ἕνεκ᾿ ἀδικίας.",
+      "text": "Ε. θνατᾶς ἕνεκ᾿ ἀδικίας.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-45",
+      "number": "745",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "σφαγὴν ἀϋτεῖς τήνδε μοι. Der Sinn ist: cum haec mihi dicis,\nhortaris, ut me occidam.",
+      "text": "σφαγὴν ἀϋτεῖς τήνδε μοι. Der Sinn ist: cum haec mihi dicis, hortaris, ut me occidam.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-46",
+      "number": "746",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "C. ἐπισχε, τρανῶς ἕως μάθης τύχας σέθεν. ἕως ist einsylbig zu\nlesen.",
+      "text": "C. ἐπισχε, τρανῶς ἕως μάθης τύχας σέθεν. ἕως ist einsylbig zu lesen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-47",
+      "number": "850",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. νικᾷ σεφαναφορίαν κρείσσω παρ' ᾿Αλφειῦ ῥεέθροις τελετᾶς.",
+      "text": "L. νικᾷ σεφαναφορίαν κρείσσω παρ' ᾿Αλφειῦ ῥεέθροις τελετᾶς.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-48",
+      "number": "990",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Statt des Kindes, das ich einst verlor, der Iphigeneia,\ndie in Aulis geopfert ward.",
+      "text": "Statt des Kindes, das ich einst verlor, der Iphigeneia, die in Aulis geopfert ward.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-49",
+      "number": "1042",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἥκεις.",
+      "text": "L. ἥκεις.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-50",
+      "number": "1056",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐ γὰρ ὡς ἐγώ σ᾽ ἴσασιν εὖ.",
+      "text": "L. ἐ γὰρ ὡς ἐγώ σ᾽ ἴσασιν εὖ.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-51",
+      "number": "1104",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ἄγριον ἔχεις, ἀγριοῖς.",
+      "text": "ἄγριον ἔχεις, ἀγριοῖς.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-52",
+      "number": "1175",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἄφατα φανερὰ δ' ἐξέπραξας, φόνια δ' ὤπασας.",
+      "text": "L. ἄφατα φανερὰ δ' ἐξέπραξας, φόνια δ' ὤπασας.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-53",
+      "number": "1188",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. τακόμαν δ' ἐγώ.",
+      "text": "Ε. τακόμαν δ' ἐγώ.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-54",
+      "number": "1230",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die Keren, hier die Erinnyen.",
+      "text": "Die Keren, hier die Erinnyen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-55",
+      "number": "1239",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Halirrhothios, der Sohn des Poseidon, hatte der Ulkippe,\nder Tochter des Ares, Gewalt angethan und wurde dafür von\nAres getödtet. Ares, von Poseidon auf dem Areopagos belangt,\nward von den zwölf Göttern, die dort zu Gericht saßen, frei=\ngesprochen.",
+      "text": "Halirrhothios, der Sohn des Poseidon, hatte der Ulkippe, der Tochter des Ares, Gewalt angethan und wurde dafür von Ares getödtet. Ares, von Poseidon auf dem Areopagos belangt, ward von den zwölf Göttern, die dort zu Gericht saßen, freigesprochen.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-56",
+      "number": "1250",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἀσιβές χρηςήριον.",
+      "text": "L. ἀσιβές χρηςήριον.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-57",
+      "number": "1252",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Lykäos, der Heerdengott Pan, der auf den viehreichen Triften\ndes arkadischen Lykäos gerne verweilte.",
+      "text": "Lykäos, der Heerdengott Pan, der auf den viehreichen Triften des arkadischen Lykäos gerne verweilte.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-58",
+      "number": "1258",
+      "pages": [
+        193
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Neilos' Land, Aegypten, wo Proteus als König gebot. Vgl.\nden Prolog der Helena.",
+      "text": "Neilos' Land, Aegypten, wo Proteus als König gebot. Vgl. den Prolog der Helena.",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    },
+    {
+      "id": "note-012-59",
+      "number": "1279",
+      "pages": [
+        193,
+        194
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. μοῖραν ἀνάγκης ἦγεν τὸ χρεών.\ni\ni",
+      "text": "L. μοῖραν ἀνάγκης ἦγεν τὸ χρεών. i i",
+      "primary_label_present": true,
+      "status": "located",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "Both OCR copies have the explicit number at a line opening and it resolves to a native Donner citation; note wording and extraction boundaries require proofreading."
+    }
+  ],
+  "unattributed_opening": [],
+  "BSB_pages": [
+    {
+      "page": 191,
+      "canvas": 199,
+      "text": "Anmerkungen.\nV. 1. Inachos, ein Fluß bei Argos.\n\" 5. Ilos, ein alter König Troja's, von dem Ilion den Namen hat.\nUeber ihn, so wie über das trojische Königsgeschlecht überhaupt,\ns. Homer Il. 20, 215-240.\n\" 23. Ε. ποινάτορας τῦ πατρός.\n\" 29. Klytämnestra glaubte sich wegen der Ermordung Agamemnons ges\nrechtfertigt, weil er unter dem Vorwande, seine Tochter Iphigenia\nmit Achilleus vermählen zu wollen, diese samt der Mutter nach\nAulis gelockt und dann geopfert hatte.\n\" 58. Wohl sank ich nicht in solche Noth, daß ich keine Dienerin\nhalten könnte, die an meiner Statt Wasser trüge.\n\" 59. Die Alten glaubten, daß die Götter Nachts auf Erden unter den\nMenschen wandelten.\n\" 60. L. ἀφίημ', das sich an μετέρχομαι V. 57 anschließt: V. 58 und 59\nsind wie eine Parenthese zu fassen.\n\" 99. Ε. ζητῶν τ' ἀδελφήν. Man könnte auch lesen: ζητῶ τ' ἀδελφήν,\nwo dann ζητῶ von ἵνα V. 97 abhängig wäre.\n\" 109. auf geschor'nem Haupt: Zeichen der Trauer.\n\" 115. L. ἐγενόμαν ᾿Αγαμέμνονος. (Ohne κέρα.)\n„ 130. Ε. τλᾶμον ξύγγον, ἀλατεύεις.\nWer die alte Lesart: ξύγγονε, λατρεύεις, beibehalten will, lese den\ndeutschen Vers so:\nWeilst du dienend, in welchem Haus.\n\" 157. Für βελᾶς 1. ἀβελίας, „nefandi consilii, ut verba ἐκ Τροΐας ὁδῶ\nexplicentur post Trojanam expeditionem.\" Seidler.\n\" 158. Zurückkehrende Sieger schmückte man mit Bändern und Kränzen.\n\" 164. Ε. ποτὶ σὰν αὐλὰν ἀγρότειραν.\n\" 171. Hera's, als der in Argos vorzugsweise verehrten Göttin.\n\" 190. Ε. δοκεῖς τοῖοι σοῖς δακρύοις."
+    },
+    {
+      "page": 192,
+      "canvas": 200,
+      "text": "192\nΒ. 222. Ε. καὶ τάχ' ἐκ ἄλλως ἐρεῖς, nämlich ἢ ἐγώ, mit Beziehung auf\nseine Worte V. 220.\n, 244. Ε. τινί,\n„ 247. L. ἐν τοῖςδ᾽ ἐκείνω τηλορὸς ναίω δόμοις.\n„ 256. Das Wort ξυνῆκα ist in der Uebersezung nicht ausgedrückt.\n,292. Allzuhohes Wissen, d. i. gänzliche Leidenschaftlosigkeit. Nihil\naliud Orestes dicit, nisi hoc, non esse tutum, si quis nimium\nsapiat, ita ut, exuta omni humanitate, neque gaudeat cum gau-\ndentibus, neque cum dolentibus doleat. Bothe.\n, 320. Mit Zweigen der Myrte, die den Todten heilig war, bekränzte\nman die Grabstätten.\n„384. Säulen des Marktes, elende Volksredner, die, auf Stand und\nReichthum stolz, wohl auf den Markt in die Volksversammlungen\nkommen, aber nicht reden können. Bothe.\n\" 409. 2. κέλευε δ' αὐτὸν, εἰς δόμες ἀφιγμένος.\n» 444. Ε. κόραι ματεῖο᾽ ἔνθα πατήρ. ματεῦσι dorisch für ματέουσι.\n\" 466. L. Σφίγγες ἀοιδοί.\n» 469. Ε. Πειρηναῖον θηρῶσα πῶλον.\n\" 470. Vierfüßige Rosse, im Gegensaze gegen das geflügelte Roß\nPegasos, das V. 469 gemeint ist.\n» 473. Ε. ἃ λέχεα, suum maritum.\n» 479. Ε. ὃν ποτ' ἐ. ἐ.\n» 487. Ε. πελάνες.\n\" 488. L. πολιόν τε oder γρατόν τε.\n» 490. Ε. σκίύφον τῶδ'.\n,, 503. S. zu V. 320.\n» 537. Ε. σκότος λαβών ἐκείρατ' ἢ τῆςδε χθονός.\n\" 547. L. ἐξέκλεψε.\n〃 631. L. παρέςαι δ' ἔτι πόσει.\n„ 644. Ε. δέχ᾽ ἡλίες.\n„ 656. L. ἔπειτ' ἀπαντῶν μητρί.\n„ 675. L. καὶ σοἱ προφωνῶ, θρασύτατ' Αίγισθον θενεῖν.\n689ff. S. die Anmerk. zu Iphigen. in Tauri V. 185. Nach dem Tode\ndes Pelops stritten seine beiden Söhne, Atreus und Thyestes, um\ndie Thronfolge. Ein göttliches Zeichen sollte entscheiden: und siehe!\nAtreus fand in seiner Heerde ein Lamm mit goldenem Vlies. Aber\nseine Gemahlin Xerope entwendet das Thier, und schenkt es ihrem\nBuhlen Thyestes. Atreus, darüber ergrimmt, stürzt die Verrä-\ntherin in's Meer, ermordet ingeheim die Söhne des Bruders, und\ntischt ihm das Fleisch derselben auf: ein Gräuel, vor dem der er-\nschreckte Sonnengott nach Morgen zurückfloh und die Gestirne aus\nihren Bahnen wichen. Vgl. V. 715 ff."
+    },
+    {
+      "page": 193,
+      "canvas": 201,
+      "text": "193\nV. 696. Auf eine steinerne Bühne traten die Herolde, wenn sie dem Volke\nEtwas kundthun wollten.\n\" 700. Ε. φάσματ' ἄδειμα, Zeichen, wodurch jede Furcht vor einem ein-\nheimischen Kriege entfernt wurde. Daher die Chortänze V. 701,\ndaher die Opfer bei offenen Tempeln V. 702 ff.\n\" 708. L. ὡς ἐπίλογοι Θυές8, carmina Thyesten dominum nominantia,\ncelebrantia, ἐπιλέγεσαι Θυέςην.\n\" 730. Ε. θνατᾶς ἕνεκ᾿ ἀδικίας.\n\" 745. σφαγὴν ἀϋτεῖς τήνδε μοι. Der Sinn ist: cum haec mihi dicis,\nhortaris, ut me occidam.\n\" 746. C. ἐπισχε, τρανῶς ἕως μάθης τύχας σέθεν. ἕως ist einsylbig zu\nlesen.\n\" 850. L. νικᾷ σεφαναφορίαν κρείσσω παρ' ᾿Αλφειῦ ῥεέθροις τελετᾶς.\n\" 990. Statt des Kindes, das ich einst verlor, der Iphigeneia,\ndie in Aulis geopfert ward.\n, 1042. L. ἥκεις.\n\" 1056. L. ἐ γὰρ ὡς ἐγώ σ᾽ ἴσασιν εὖ.\n„ 1104. ἄγριον ἔχεις, ἀγριοῖς.\n\" 1175. L. ἄφατα φανερὰ δ' ἐξέπραξας, φόνια δ' ὤπασας.\n\" 1188. Ε. τακόμαν δ' ἐγώ.\n„1230. Die Keren, hier die Erinnyen.\n„1239. Halirrhothios, der Sohn des Poseidon, hatte der Ulkippe,\nder Tochter des Ares, Gewalt angethan und wurde dafür von\nAres getödtet. Ares, von Poseidon auf dem Areopagos belangt,\nward von den zwölf Göttern, die dort zu Gericht saßen, frei=\ngesprochen.\n\" 1250. L. ἀσιβές χρηςήριον.\n\" 1252. Lykäos, der Heerdengott Pan, der auf den viehreichen Triften\ndes arkadischen Lykäos gerne verweilte.\n\" 1258. Neilos' Land, Aegypten, wo Proteus als König gebot. Vgl.\nden Prolog der Helena.\n„ 1279. L. μοῖραν ἀνάγκης ἦγεν τὸ χρεών.\nEuripides III. 13"
+    },
+    {
+      "page": 194,
+      "canvas": 202,
+      "text": "i\ni\n1"
+    }
+  ],
+  "Harvard_pages": [
+    {
+      "label": "191",
+      "scan": 205,
+      "text": "Anmerkungen.\nV. 1. Inachos, ein Fluß bei Argos.\n\"\n\"\n\"\n\"\n\"\n\"\n\"\n5. Ilos, ein alter König Troja's, von dem Ilion den Namen hat.\nUeber ihn, so wie über das trojische Königsgeschlecht überhaupt,\ns. Homer Il. 20, 215-240.\n23. L. ποινάτορας τῦ πατρός.\n29. Klytämnestra glaubte sich wegen der Ermordung Agamemnons ges\nrechtfertigt, weil er unter dem Vorwande, seine Tochter Iphigenia\nmit Achilleus vermählen zu wollen, diese samt der Mutter nach\nAulis gelockt und dann geopfert hatte.\n58. Wohl sank ich nicht in solche Noth, daß ich keine Dienerin\nhalten könnte, die an meiner Statt Wasser trüge.\n59. Die Alten glaubten, daß die Götter Nachts auf Erden unter den\nMenschen wandelten.\n60. L. ἀφίημ᾽, das sich an μετέρχομαι V. 57 anschließt: V. 58 und 59\nsind wie eine Parenthese zu fassen.\n99. L. ζητῶν τ' ἀδελφήν. Man könnte auch lesen: ζητῶ τ' ἀδελφήν,\nwo dann ζητῶ von ἵνα V. 97 abhängig wäre.\n109. auf geschor'nem Haupt: Zeichen der Trauer.\n„ 115. L. ἐγενόμαν ᾿Αγαμέμνονος. (Ohne κέρα.)\n„ 130. Ε. τλᾶμον ξύγγον, ἀλατεύεις.\nWer die alte Lesart: ξύγγονε, λατρεύεις, beibehalten will, lese den\ndeutschen Vers so:\nWeilst du dienend, in welchem Haus.\n„ 157. Für βελᾶς 1. ἀβελίας, „nefandi consilii, ut verba ἐκ Τροΐας ὁδῶ\nexplicentur post Trojanam expeditionem.\" Seidler.\n„ 158. Zurückkehrende Sieger schmückte man mit Bändern und Kränzen.\n„ 164. Ε. ποτὶ σὰν αὐλὰν ἀγρότειραν.\n„171. Hera's, als der in Argos vorzugsweise verehrten Göttin.\n„ 190. L. δοκεῖς τοῖσι σοῖς δακρύοις.",
+      "page": 191,
+      "volume": 3
+    },
+    {
+      "label": "192",
+      "scan": 206,
+      "text": "192\nΒ. 222. Ε. καὶ τάχ᾽ ἐκ ἄλλως ἐρεῖς, nämlich ἢ ἐγώ, mit Beziehung auf\nseine Worte V. 220.\n, 244. L. τινί.\n„ 247. L. ἐν τοῖςδ᾽ ἐκείνο τηλορὸς ναίω δόμοις.\n, 256. Das Wort ξυνήκα ist in der Uebersezung nicht ausgedrückt.\n,292. Allzuhohes Wissen, d. i. gänzliche Leidenschaftlosigkeit. Nihil\naliud Orestes dicit, nisi hoc, non esse tutum, si quis nimium\nsapiat, ita ut, exuta omni humanitate, neque gaudeat cum gau-\ndentibus, neque cum dolentibus doleat. Bothe.\n, 320. Mit Zweigen der Myrte, die den Todten heilig war, bekränzte\nman die Grabstätten.\n„384. Säulen des Marktes, elende Volksredner, die, auf Stand und\nReichthum stolz, wohl auf den Markt in die Volksversammlungen\nkommen, aber nicht reden können. Bothe.\n\"\n409. L. κέλευε δ' αὐτὸν, εἰς δόμες ἀφιγμένος.\n, 444. Σ. κόραι ματεῖσ᾽ ἔνθα πατήρ. ματεῦσι dorisch für ματέουσι.\n, 466. Ε. Σφίγγες ἀοιδοί.\n\"\n469. Ε. Πειρηναῖον θηρῶσα πῶλον.\n,470. Vierfüßige Nosse, im Gegensaze gegen das geflügelte Roß\nPegasos, das V. 469 gemeint ist.\n» 473. L. ἃ λέχεα, suum maritum.\n„ 479. Ε. ὃν ποτ' ἐ. ἐ.\n„ 487. Ε. πελάνες.\nη 488. Ε. πολιόν τε oder γρατόν τε.\n\"\n490. Ε. σκίφον τῶδ'.\n,, 503. S. zu V. 320.\n» 537. 2. σκότος λαβὼν ἐκείρατ' ἢ τῆςδε χθονός.\n„ 547. L. ἐξέκλεψε.\n, 631. Ε. παρέςαι δ' ἔτι πόσει.\n, 644. Ε. δέχ᾽ ἡλίες.\n\"\n656. L. ἔπειτ' ἀπαντῶν μητρί.\n„ 675. Ε. καὶ σοἱ προφωνῶ, θρασύτατ' Αϊγισθον θενεῖν.\n, 689ff. S. die Anmerk. zu Iphigen. in Tauri V. 185. Nach dem Tode\ndes Pelops stritten seine beiden Söhne, Atreus und Thyestes, um\ndie Thronfolge. Ein göttliches Zeichen sollte entscheiden: und siehe!\nAtreus fand in seiner Heerde ein Lamm mit goldenem Bließ. Aber\nseine Gemahlin Xerope entwendet das Thier, und schenkt es ihrem\nBuhlen Thyestes. Atreus, darüber ergrimmt, stürzt die Verrä-\ntherin in's Meer, ermordet ingeheim die Söhne des Bruders, und\ntischt ihm das Fleisch derselben auf: ein Gräuel, vor dem der er-\nschreckte Sonnengott nach Morgen zurückfloh und die Gestirne aus\nihren Bahnen wichen. Vgl. V. 715 ff.",
+      "page": 192,
+      "volume": 3
+    },
+    {
+      "label": "193",
+      "scan": 207,
+      "text": "193\nB. 696. Auf eine steinerne Bühne traten die Herolde, wenn sie dem Volke\nEtwas kundthun wollten.\n\"\n\"\n700. 2. φάσματ' ἄδειμα, Zeichen, wodurch jede Furcht vor einem ein-\nheimischen Kriege entfernt wurde. Daher die Chortanze V. 701,\ndaher die Opfer bei offenen Tempeln V. 702 ff.\n708. 2. ὡς ἐπίλογοι Θυές8, carmina Thyesten dominum nominantia,\ncelebrantia, ἐπιλέγεσαι Θυέςην.\n\"\n730. Ε. θνατᾶς ἕνεκ᾽ ἀδικίας.\n\"\n\"\n\"\n\"\n745. σφαγὴν ἀϋτεῖς τήνδε μοι. Der Sinn ist: cum haec mihi dicis,\nhortaris, ut me occidam.\n746. 2. ἐπισχε, τρανῶς ἕως μάθης τύχας σέθεν. ἕως ist einsylbig zu\nlesen.\n850. L. νικᾷ σεφαναφορίαν κρείσσω παρ' ᾿Αλφειὲ ῥεέθροις τελετᾶς.\n990. Statt des Kindes, das ich einst verlor, der Iphigeneia,\ndie in Aulis geopfert ward.\n» 1042. L. ἥκεις.\n„ 1056. L. ἐ γὰρ ὡς ἐγώ ο᾽ ἴσασιν εὖ.\n„ 1104. ἄγριον ἔχεις, ἀγριοῖς.\n» 1175. L. ἄφατα φανερὰ δ' ἐξέπραξας, φόνια δ' ὤπασας.\n« 1188. Ε. τακόμαν δ' ἐγώ.\n„1230. Die Keren, hier die Erinnyen.\n1239. Halirrhothios, der Sohn des Poseidon, hatte der Ulkippe,\nder Tochter des Ares, Gewalt angethan und wurde dafür von\nAres getödtet. Ares, von Poseidon auf dem Areopagos belangt,\nward von den zwölf Göttern, die dort zu Gericht saßen, frei=\ngesprochen.\n„ 1250. L. ἀςιβές χρηςήριον.\n„1252. Lykäos, der Heerdengott Pan, der auf den viehreichen Triften\ndes arkadischen Lykäos gerne verweilte.\n„1258. Neilos' Land, Aegypten, wo Proteus als König gebot. Vgl.\nden Prolog der Helena.\n» 1279. Ε. μοῖραν ἀνάγκης ἦγεν τὸ χρεών.\nEuripides III.\n13",
+      "page": 193,
+      "volume": 3
+    },
+    {
+      "label": "194",
+      "scan": 208,
+      "text": "",
+      "page": 194,
+      "volume": 3
+    }
+  ]
+}

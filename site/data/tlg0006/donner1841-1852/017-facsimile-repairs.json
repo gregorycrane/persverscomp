@@ -1,0 +1,60 @@
+[
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Dionysos, gebunden von Sclaven des Pentheus herbeigeführt.",
+      "raw": "Dionysos, gebunden von Sclaven des Pentheus herbeigeführt.",
+      "page": 155,
+      "scan": 587,
+      "ocr_line": 7,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r434",
+      "bsb_line": 6,
+      "bsb_bbox": [
+        264,
+        550,
+        1249,
+        597
+      ],
+      "bsb_text": "Dionysos, gebunden von Sclaven des Pentheus herbeigeführt.",
+      "bsb_similarity": 1.0,
+      "n": "365u3",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        365,
+        370
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein Sclave.",
+      "raw": "Ein Sclave.",
+      "page": 155,
+      "scan": 587,
+      "ocr_line": 10,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r436",
+      "bsb_line": 8,
+      "bsb_bbox": [
+        569,
+        672,
+        809,
+        707
+      ],
+      "bsb_text": "Ein Sclave.",
+      "bsb_similarity": 1.0,
+      "n": "365u4",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        365,
+        370
+      ]
+    }
+  }
+]

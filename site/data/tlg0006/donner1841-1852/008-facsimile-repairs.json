@@ -1,0 +1,233 @@
+[
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "Der Bote.'",
+      "raw": "Der Bote.'",
+      "page": 285,
+      "scan": 299,
+      "ocr_line": 37,
+      "printed_n": null,
+      "speaker": "Adrastos.",
+      "rid": "r974",
+      "bsb_line": 36,
+      "bsb_bbox": [
+        560,
+        2032,
+        775,
+        2068
+      ],
+      "bsb_text": "Der Bote.",
+      "bsb_similarity": 1.0,
+      "n": "755u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        755,
+        760
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Der Bote",
+      "raw": "Der Bote.'",
+      "page": 285,
+      "scan": 299,
+      "ocr_line": 37,
+      "printed_n": null,
+      "speaker": "Der Bote",
+      "rid": "r974",
+      "bsb_line": 36,
+      "bsb_bbox": [
+        560,
+        2032,
+        775,
+        2068
+      ],
+      "bsb_text": "Der Bote.",
+      "bsb_similarity": 1.0,
+      "n": "755u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        755,
+        760
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein Herold aus Thebe tritt auf. Die Vorigen.",
+      "raw": "Ein Herold aus Thebe tritt auf. Die Vorigen.",
+      "page": 273,
+      "scan": 287,
+      "ocr_line": 13,
+      "printed_n": null,
+      "speaker": "Theseus.",
+      "rid": "r513",
+      "bsb_line": 13,
+      "bsb_bbox": [
+        270,
+        916,
+        1141,
+        964
+      ],
+      "bsb_text": "Ein Herold aus Thebe tritt auf. Die Vorigen.",
+      "bsb_similarity": 1.0,
+      "n": "385u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        385,
+        390
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein zweiter Knabe.",
+      "raw": "Ein zweiter Knabe.",
+      "page": 299,
+      "scan": 313,
+      "ocr_line": 10,
+      "printed_n": null,
+      "speaker": "Adrastos.",
+      "rid": "r1459",
+      "bsb_line": 9,
+      "bsb_bbox": [
+        512,
+        723,
+        913,
+        766
+      ],
+      "bsb_text": "Ein zweiter Knabe.",
+      "bsb_similarity": 1.0,
+      "n": "1125u3",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1125,
+        1130
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein dritter Knabe.",
+      "raw": "Ein dritter Knabe.",
+      "page": 299,
+      "scan": 313,
+      "ocr_line": 26,
+      "printed_n": null,
+      "speaker": "Der Knabe.",
+      "rid": "r1475",
+      "bsb_line": 25,
+      "bsb_bbox": [
+        504,
+        1560,
+        912,
+        1597
+      ],
+      "bsb_text": "Ein dritter Knabe.",
+      "bsb_similarity": 1.0,
+      "n": "1135u3",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1135,
+        1140
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein vierter Knabe.",
+      "raw": "Ein vierter Knabe.",
+      "page": 299,
+      "scan": 313,
+      "ocr_line": 36,
+      "printed_n": null,
+      "speaker": "Der Chor.",
+      "rid": "r1485",
+      "bsb_line": 35,
+      "bsb_bbox": [
+        509,
+        2084,
+        910,
+        2122
+      ],
+      "bsb_text": "Ein vierter Knabe.",
+      "bsb_similarity": 1.0,
+      "n": "1140u4",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1140,
+        1145
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1125u1",
+    "new_n": "1126"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1125u2",
+    "new_n": "1127"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1125u4",
+    "new_n": "1128"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1125u5",
+    "new_n": "1129"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1135u1",
+    "new_n": "1136"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1135u2",
+    "new_n": "1137"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1135u4",
+    "new_n": "1138"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1135u5",
+    "new_n": "1139"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1140u1",
+    "new_n": "1141"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1140u2",
+    "new_n": "1142"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1140u3",
+    "new_n": "1143"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1140u5",
+    "new_n": "1144"
+  }
+]

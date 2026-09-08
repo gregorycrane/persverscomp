@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Suppliants: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="2.255" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=491" xml:id="donner-001-p255">
+      <desc>Suppliants; volume 2, printed page 255; PDF page 491. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/001-metres-255.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.256" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=492" xml:id="donner-001-p256">
+      <desc>Suppliants; volume 2, printed page 256; PDF page 492. </desc>
+      <graphic url="facsimiles/001-metres-256.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.257" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=493" xml:id="donner-001-p257">
+      <desc>Suppliants; volume 2, printed page 257; PDF page 493. </desc>
+      <graphic url="facsimiles/001-metres-257.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.258" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=494" xml:id="donner-001-p258">
+      <desc>Suppliants; volume 2, printed page 258; PDF page 494. </desc>
+      <graphic url="facsimiles/001-metres-258.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.259" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=495" xml:id="donner-001-p259">
+      <desc>Suppliants; volume 2, printed page 259; PDF page 495. </desc>
+      <graphic url="facsimiles/001-metres-259.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.260" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=496" xml:id="donner-001-p260">
+      <desc>Suppliants; volume 2, printed page 260; PDF page 496. </desc>
+      <graphic url="facsimiles/001-metres-260.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

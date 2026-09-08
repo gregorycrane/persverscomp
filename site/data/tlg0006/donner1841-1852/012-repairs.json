@@ -1,0 +1,104 @@
+[
+  {
+    "page": 183,
+    "before": "Klytåmnestra.",
+    "after": "Klytämnestra.",
+    "basis": "Unambiguous corrupted speaker heading; dramatis-personae and dialogue context"
+  },
+  {
+    "page": 183,
+    "before": [
+      "Der nach der zehnten Saat in sein theures Land heim-",
+      "gekehrt?\""
+    ],
+    "after": "Der nach der zehnten Saat in sein theures Land heimgekehrt?\"",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 158,
+    "before": [
+      "In den Klauen; am brusthüllenden Blech eilte die glutschnau-",
+      "bende Löwin, die sich wuthend"
+    ],
+    "after": "In den Klauen; am brusthüllenden Blech eilte die glutschnaubende Löwin, die sich wuthend",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 157,
+    "before": [
+      "Den Meerspråßling der Thetis, den schnell-",
+      "füßigen Hort der Atriden."
+    ],
+    "after": "Den Meerspråßling der Thetis, den schnellfüßigen Hort der Atriden.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 185,
+    "before": [
+      "Die Brust enthulte bei dem Mord, die Arme, (wehe,",
+      "weh mir!)"
+    ],
+    "after": "Die Brust enthulte bei dem Mord, die Arme, (wehe, weh mir!)",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 145,
+    "before": [
+      "Klagt mein Schmerz; mit dem Nagel zerfleisch' ich Nacken",
+      "und Wange mir,"
+    ],
+    "after": "Klagt mein Schmerz; mit dem Nagel zerfleisch' ich Nacken und Wange mir,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 162,
+    "before": [
+      "Im Arme wider Hoffen!",
+      "Und ich endlich dich!"
+    ],
+    "shared_group": "r764",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 162,
+    "before": [
+      "Ich ahnte dieses niemals.",
+      "Auch ich hofft' es nicht."
+    ],
+    "shared_group": "r768",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 167,
+    "before": [
+      "Nun weiß ich Alles.",
+      "Darum zeige dich als Mann!"
+    ],
+    "shared_group": "r960",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 183,
+    "before": [
+      "Den Schrei innen, hört ihr ihn?",
+      "Weh mir, weh!"
+    ],
+    "shared_group": "r1564",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 189,
+    "before": [
+      "Ich sehe dich niemals wieder.",
+      "Und ich,"
+    ],
+    "shared_group": "r1771",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 189,
+    "before": "專",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  }
+]

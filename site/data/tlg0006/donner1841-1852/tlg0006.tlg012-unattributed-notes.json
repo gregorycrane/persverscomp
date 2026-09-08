@@ -1,0 +1,61 @@
+{
+  "notes": [
+    {
+      "id": "note-012-26",
+      "number": "466",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. Σφίγγες ἀοιδοί.",
+      "text": "L. Σφίγγες ἀοιδοί.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-012-27",
+      "number": "469",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. Πειρηναῖον θηρῶσα πῶλον.",
+      "text": "Ε. Πειρηναῖον θηρῶσα πῶλον.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-012-32",
+      "number": "488",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. πολιόν τε oder γρατόν τε.",
+      "text": "L. πολιόν τε oder γρατόν τε.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-012-36",
+      "number": "547",
+      "pages": [
+        192
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἐξέκλεψε.\n〃 631. L. παρέςαι δ' ἔτι πόσει.",
+      "text": "L. ἐξέκλεψε. 〃 631. L. παρέςαι δ' ἔτι πόσει.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}

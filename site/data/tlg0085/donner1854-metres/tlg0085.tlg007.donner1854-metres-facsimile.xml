@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Eumenides: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1.210" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=228" xml:id="donner-007-p210">
+      <desc>Eumenides; volume 1, printed page 210; PDF page 228. Volume I offset is +18 here, after inserted duplicate scans; +16 would select the wrong pages.</desc>
+      <graphic url="facsimiles/007-metres-210.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.211" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=229" xml:id="donner-007-p211">
+      <desc>Eumenides; volume 1, printed page 211; PDF page 229. Volume I offset is +18 here, after inserted duplicate scans; +16 would select the wrong pages.</desc>
+      <graphic url="facsimiles/007-metres-211.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.212" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=230" xml:id="donner-007-p212">
+      <desc>Eumenides; volume 1, printed page 212; PDF page 230. Volume I offset is +18 here, after inserted duplicate scans; +16 would select the wrong pages.</desc>
+      <graphic url="facsimiles/007-metres-212.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.213" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=231" xml:id="donner-007-p213">
+      <desc>Eumenides; volume 1, printed page 213; PDF page 231. Volume I offset is +18 here, after inserted duplicate scans; +16 would select the wrong pages.</desc>
+      <graphic url="facsimiles/007-metres-213.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.214" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=232" xml:id="donner-007-p214">
+      <desc>Eumenides; volume 1, printed page 214; PDF page 232. Volume I offset is +18 here, after inserted duplicate scans; +16 would select the wrong pages.</desc>
+      <graphic url="facsimiles/007-metres-214.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

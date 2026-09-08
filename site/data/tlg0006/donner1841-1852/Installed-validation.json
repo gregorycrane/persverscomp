@@ -1,0 +1,116 @@
+{
+  "works": [
+    {
+      "work": "tlg0006.tlg007",
+      "cards": 49,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg015",
+      "cards": 61,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg016",
+      "cards": 60,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg003",
+      "cards": 61,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg005",
+      "cards": 70,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg002",
+      "cards": 69,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg018",
+      "cards": 62,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg013",
+      "cards": 50,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg017",
+      "cards": 50,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg001",
+      "cards": 28,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg014",
+      "cards": 59,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg006",
+      "cards": 61,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg011",
+      "cards": 62,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg010",
+      "cards": 58,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg012",
+      "cards": 62,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg009",
+      "cards": 28,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg008",
+      "cards": 63,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    },
+    {
+      "work": "tlg0006.tlg004",
+      "cards": 41,
+      "identical_installed_xml": true,
+      "clickable_source_links": true
+    }
+  ],
+  "cards": 994,
+  "facsimiles": 118,
+  "IA_opening_order": "Exact database rows checked; native order retained.",
+  "pipeline_tests": "49 passed on installed code"
+}

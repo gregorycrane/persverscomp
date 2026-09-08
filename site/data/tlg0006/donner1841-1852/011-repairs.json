@@ -1,0 +1,99 @@
+[
+  {
+    "page": 33,
+    "before": [
+      "Mit rothem Gluthauche des Feu-",
+      "ers verheerend, begrub er Troja's Land in Leid,"
+    ],
+    "after": "Mit rothem Gluthauche des Feuers verheerend, begrub er Troja's Land in Leid,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 33,
+    "before": [
+      "Sproste, der himmlische Kranz und der Schmuck des geseg-",
+      "neten Landes:"
+    ],
+    "after": "Sproste, der himmlische Kranz und der Schmuck des gesegneten Landes:",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 21,
+    "before": [
+      "Bald empfangt ihr mich! Ich steige siegbekrönt in's Schatten-",
+      "reich,"
+    ],
+    "after": "Bald empfangt ihr mich! Ich steige siegbekrönt in's Schattenreich,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 20,
+    "before": [
+      "Sowie du, harr' ich des Windes, dessen Hauch mein Segel",
+      "schwellt,"
+    ],
+    "after": "Sowie du, harr' ich des Windes, dessen Hauch mein Segel schwellt,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 20,
+    "before": [
+      "Trauernd reiß' ich euch vom Haupte: keusch und rein noch,",
+      "send' ich sie,"
+    ],
+    "after": "Trauernd reiß' ich euch vom Haupte: keusch und rein noch, send' ich sie,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 20,
+    "before": [
+      "Ha, du Schlimmer, schlimm begraben wirst du Nachts, und",
+      "nicht am Tag,"
+    ],
+    "after": "Ha, du Schlimmer, schlimm begraben wirst du Nachts, und nicht am Tag,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 46,
+    "before": [
+      "Wehklage, Mutter",
+      "Weh, weh!"
+    ],
+    "shared_group": "r1485",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 46,
+    "before": [
+      "Wehklag' um den Todten!",
+      "Weh!"
+    ],
+    "shared_group": "r1489",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 49,
+    "before": [
+      "Man fåhrt, man schleppt uns",
+      "Wehe, weh jammerst du!"
+    ],
+    "shared_group": "r1598",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 17,
+    "before": 350,
+    "after": 330,
+    "text": "Der Füße lieben holden Schritt!",
+    "basis": "Second OCR and surrounding anchors corroborate displaced/misread numeral.",
+    "status": "REJECTED AND REVERTED: BSB reads 350; neighbours 345 and 355 confirm 350. Erroneous initial repair."
+  },
+  {
+    "page": 17,
+    "before": 350,
+    "after": 330,
+    "text": "O Mutter, schmucke dieses sieggekrönte Haupt,",
+    "basis": "Second OCR and surrounding anchors corroborate displaced/misread numeral.",
+    "status": "REJECTED AND REVERTED: BSB reads 350; neighbours 345 and 355 confirm 350. Erroneous initial repair."
+  }
+]

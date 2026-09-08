@@ -1,0 +1,943 @@
+[
+  {
+    "kind": "classification",
+    "printed_page": 163,
+    "text": "Der ganze Chor.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 172,
+    "text": "Wechſelgesang des Chores.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 141,
+    "before": [
+      "Wie der morddürstende Felsdrache mit blaufunkelndem",
+      "Glutblick,"
+    ],
+    "after": "Wie der morddürstende Felsdrache mit blaufunkelndem Glutblick,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 141,
+    "before": [
+      "So mit viel Armen und viel Schiffen beschwingt jener den",
+      "Mordpfeil"
+    ],
+    "after": "So mit viel Armen und viel Schiffen beschwingt jener den Mordpfeil"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 142,
+    "before": [
+      "Doch der trugspinnenden Gottheit, wo entrinnt ihr ein",
+      "Geborener,"
+    ],
+    "after": "Doch der trugspinnenden Gottheit, wo entrinnt ihr ein Geborener,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 142,
+    "before": [
+      "Und entspringt ihr mit behendfliehendem Fuße leichten",
+      "Schwunges?"
+    ],
+    "after": "Und entspringt ihr mit behendfliehendem Fuße leichten Schwunges?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Meine Brust durchbohrt die Sorge; laut vor euch ver-",
+      "kündet hier"
+    ],
+    "after": "Meine Brust durchbohrt die Sorge; laut vor euch verkündet hier"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Sei das Wort, o Freunde, furchtlos bin ich keineswegs",
+      "um mich,"
+    ],
+    "after": "Sei das Wort, o Freunde, furchtlos bin ich keineswegs um mich,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Daß (o Leid!) der große Reichthum raschen Fußes mir",
+      "das Glück"
+    ],
+    "after": "Daß (o Leid!) der große Reichthum raschen Fußes mir das Glück"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Stürzt in Staub, das einst Dareios aufgebaut mit",
+      "Götterhuld."
+    ],
+    "after": "Stürzt in Staub, das einst Dareios aufgebaut mit Götterhuld."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Weder ehrt Jemand des Reichthums Fülle, die kein Mann",
+      "vertritt,"
+    ],
+    "after": "Weder ehrt Jemand des Reichthums Fülle, die kein Mann vertritt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Noch umstrahlt den Mittellosen seines Ruhms verdienter",
+      "Glanz."
+    ],
+    "after": "Noch umstrahlt den Mittellosen seines Ruhms verdienter Glanz."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Tadellos glänzt unser Reichthum; um das Auge fürcht'",
+      "ich nur:"
+    ],
+    "after": "Tadellos glänzt unser Reichthum; um das Auge fürcht' ich nur:"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Denn des Hauses Auge, mein' ich, ist die Gegenwart",
+      "des Herrn."
+    ],
+    "after": "Denn des Hauses Auge, mein' ich, ist die Gegenwart des Herrn."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Steht mir denn, nachdem des Himmels hoher Schluß es",
+      "so gefügt,"
+    ],
+    "after": "Steht mir denn, nachdem des Himmels hoher Schluß es so gefügt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 144,
+    "before": [
+      "Steht mit eurem Rath, o Perser, treue Greisesschaar,",
+      "mir bei!"
+    ],
+    "after": "Steht mit eurem Rath, o Perser, treue Greisesschaar, mir bei!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 145,
+    "before": [
+      "Uns zu Wort und That entbietest, wo die Kraft uns nicht",
+      "gebricht."
+    ],
+    "after": "Uns zu Wort und That entbietest, wo die Kraft uns nicht gebricht."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 145,
+    "before": [
+      "Was du sagst, wir sind es wahrhaft: dein getreuergebner",
+      "Nath."
+    ],
+    "after": "Was du sagst, wir sind es wahrhaft: dein getreuergebner Nath."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Sich flüchten: - lautlos, Freunde, stand ich da vor",
+      "Angst : -"
+    ],
+    "after": "Sich flüchten: - lautlos, Freunde, stand ich da vor Angst : -"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Und das Reich und alle Treuen. Spende dann Trank=",
+      "opfer auch"
+    ],
+    "after": "Und das Reich und alle Treuen. Spende dann Trankopfer auch"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Für das Erdreich und die Todten; flehe, daß mit holdem",
+      "Sinn"
+    ],
+    "after": "Für das Erdreich und die Todten; flehe, daß mit holdem Sinn"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Dein Gemahl Dareios, der dir, sagst du, Nachts im",
+      "Traum erschien,"
+    ],
+    "after": "Dein Gemahl Dareios, der dir, sagst du, Nachts im Traum erschien,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Doch vertrau'n wir, daß ein Gott dies Alles wohl zum",
+      "Ziele lenkt."
+    ],
+    "after": "Doch vertrau'n wir, daß ein Gott dies Alles wohl zum Ziele lenkt."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Meinem Sohn und meinem Hause hier ein wohlbewährtes",
+      "Wort."
+    ],
+    "after": "Meinem Sohn und meinem Hause hier ein wohlbewährtes Wort."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 146,
+    "before": [
+      "Mag sich denn, was frommt, erfüllen! Alles, wie's dein",
+      "Rath gebeut,"
+    ],
+    "after": "Mag sich denn, was frommt, erfüllen! Alles, wie's dein Rath gebeut,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Bringen wir sofort den Göttern und den theuren Schatten",
+      "dar,"
+    ],
+    "after": "Bringen wir sofort den Göttern und den theuren Schatten dar,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Wenn das Haus uns wieder aufnahm. Doch erfahren",
+      "möcht' ich noch,"
+    ],
+    "after": "Wenn das Haus uns wieder aufnahm. Doch erfahren möcht' ich noch,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Wo in aller Welt, o Freunde, sagt man, liegt die Stadt",
+      "Athen?"
+    ],
+    "after": "Wo in aller Welt, o Freunde, sagt man, liegt die Stadt Athen?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Ferne, wo des Sonnenherrschers lekter Strahl in Nacht",
+      "erlischt."
+    ],
+    "after": "Ferne, wo des Sonnenherrschers lekter Strahl in Nacht erlischt."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Dennoch trug mein Sohn Verlangen, diese Stadt zu",
+      "bändigen?"
+    ],
+    "after": "Dennoch trug mein Sohn Verlangen, diese Stadt zu bändigen?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Welches andre Gut beglückt sie?",
+      "Wohnt des Reichthums"
+    ],
+    "after": "Welches andre Gut beglückt sie? Wohnt des Reichthums"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Welches andre Gut beglückt sie? Wohnt des Reichthums",
+      "Fülle dort?"
+    ],
+    "after": "Welches andre Gut beglückt sie? Wohnt des Reichthums Fülle dort?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Silber quillt, ein Schaß des Landes, aus der Erde",
+      "reichem Schooß."
+    ],
+    "after": "Silber quillt, ein Schaß des Landes, aus der Erde reichem Schooß."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 147,
+    "before": [
+      "Glänzt des straffgespannten Bogens scharf Geschoß in",
+      "ihrer Hand?"
+    ],
+    "after": "Glänzt des straffgespannten Bogens scharf Geschoß in ihrer Hand?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 148,
+    "before": [
+      "Wer gebeut als Völkerhirte, wessen Wort beherrscht das",
+      "Heer?"
+    ],
+    "after": "Wer gebeut als Völkerhirte, wessen Wort beherrscht das Heer?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 148,
+    "before": [
+      "Wie besteh'n sie dann den Fremdling, der ihr Land als",
+      "Feind bedroht?"
+    ],
+    "after": "Wie besteh'n sie dann den Fremdling, der ihr Land als Feind bedroht?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 148,
+    "before": [
+      "Denn der Mann dort wird als Perser am behenden Lauf",
+      "erkannt,"
+    ],
+    "after": "Denn der Mann dort wird als Perser am behenden Lauf erkannt,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 162,
+    "before": [
+      "Du dort unten, vernimmst du's?",
+      "ähnlicher Fürst,"
+    ],
+    "after": "Du dort unten, vernimmst du's? ähnlicher Fürst,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 162,
+    "before": [
+      "Höre mich, Ge! Höret, ihr Gottheiten der Nacht, waltend",
+      "im Grab!"
+    ],
+    "after": "Höre mich, Ge! Höret, ihr Gottheiten der Nacht, waltend im Grab!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 163,
+    "before": [
+      "Und ein Gottweiser genannt von dem Volk, war er in",
+      "Wahrheit"
+    ],
+    "after": "Und ein Gottweiser genannt von dem Volk, war er in Wahrheit"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 164,
+    "before": [
+      "Weil ich, folgsam deinem Wehruf, aus der Tiefe stieg",
+      "an's Licht,"
+    ],
+    "after": "Weil ich, folgsam deinem Wehruf, aus der Tiefe stieg an's Licht,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 164,
+    "before": [
+      "Ohne Scheu vor meinem Antlik, Alles, was dein Herz",
+      "beschwert."
+    ],
+    "after": "Ohne Scheu vor meinem Antlik, Alles, was dein Herz beschwert."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Hemme du denn deine Thränen, deinen Schmerz, und",
+      "ohne Hehl"
+    ],
+    "after": "Hemme du denn deine Thränen, deinen Schmerz, und ohne Hehl"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Rede mir! Leicht überfällt wohl menschlich Leid die",
+      "Sterblichen;"
+    ],
+    "after": "Rede mir! Leicht überfällt wohl menschlich Leid die Sterblichen;"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Daß du neidenswerth, solang dein Auge sah zum Sonnen-",
+      "licht,"
+    ],
+    "after": "Daß du neidenswerth, solang dein Auge sah zum Sonnenlicht,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Nieder liegt, in Staub getreten, Persis' Macht! Du weißt",
+      "es nun."
+    ],
+    "after": "Nieder liegt, in Staub getreten, Persis' Macht! Du weißt es nun."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Wie? Hat Pest mein Volk geschlagen? Oder tobt Aufruhr",
+      "im Land?"
+    ],
+    "after": "Wie? Hat Pest mein Volk geschlagen? Oder tobt Aufruhr im Land?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Nimmermehr! Die Stadt Athen war's, die vertilgt dein",
+      "ganzes Heer."
+    ],
+    "after": "Nimmermehr! Die Stadt Athen war's, die vertilgt dein ganzes Heer."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 165,
+    "before": [
+      "Hat mit Landmacht oder Seevolk er den Zug gewagt,",
+      "der Thor?"
+    ],
+    "after": "Hat mit Landmacht oder Seevolk er den Zug gewagt, der Thor?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Beides: zwiefach Stirn und Antlik zeigte sein zwiefältig",
+      "Heer."
+    ],
+    "after": "Beides: zwiefach Stirn und Antlik zeigte sein zwiefältig Heer."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Wie hat solch zahlloses Landheer nur den Uebergang",
+      "vollbracht?"
+    ],
+    "after": "Wie hat solch zahlloses Landheer nur den Uebergang vollbracht?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Künstlich band er Helle's Fluten, schlug sich durch das",
+      "Meer die Bahn."
+    ],
+    "after": "Künstlich band er Helle's Fluten, schlug sich durch das Meer die Bahn."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Wohl gelang's ihm, und ein Dämon, scheint es, half die",
+      "That vollzieh'n."
+    ],
+    "after": "Wohl gelang's ihm, und ein Dämon, scheint es, half die That vollzieh'n."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Mächtig stürmt' auf ihn ein Dämon, und berückte seinen",
+      "Geist."
+    ],
+    "after": "Mächtig stürmt' auf ihn ein Dämon, und berückte seinen Geist."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Ja, der Ausgang lehrt, (o Grauen!) welches Ziel der",
+      "Frevel fand."
+    ],
+    "after": "Ja, der Ausgang lehrt, (o Grauen!) welches Ziel der Frevel fand."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 166,
+    "before": [
+      "Welches Unglück denn betraf sie, daß ihr also seufzt und",
+      "klagt?"
+    ],
+    "after": "Welches Unglück denn betraf sie, daß ihr also seufzt und klagt?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Dede, todt sieht alle Gassen Susa's Burg und jammert",
+      "laut-"
+    ],
+    "after": "Dede, todt sieht alle Gassen Susa's Burg und jammert laut-"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Götter, ach! Solch edles Kriegsheer sank dahin, des",
+      "Landes Wall!"
+    ],
+    "after": "Götter, ach! Solch edles Kriegsheer sank dahin, des Landes Wall!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Auch der Baktrer armes Volk fiel, keine wehrlos greise",
+      "Schaar."
+    ],
+    "after": "Auch der Baktrer armes Volk fiel, keine wehrlos greise Schaar."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Ha, der Thor! Welch tapfrer Jugend Blüte ward durch",
+      "ihn geknickt!"
+    ],
+    "after": "Ha, der Thor! Welch tapfrer Jugend Blüte ward durch ihn geknickt!"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Wehe! Schnell hat sich des Schicksals Wort erfüllt, und",
+      "meinem Sohn"
+    ],
+    "after": "Wehe! Schnell hat sich des Schicksals Wort erfüllt, und meinem Sohn"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 167,
+    "before": [
+      "Ward von Zeus verhängt das Ende dieses Spruchs; ich",
+      "hoffte wohl,"
+    ],
+    "after": "Ward von Zeus verhängt das Ende dieses Spruchs; ich hoffte wohl,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Aber wenn du's selbst beschleunigst, beut dir auch ein Gott",
+      "die Hand."
+    ],
+    "after": "Aber wenn du's selbst beschleunigst, beut dir auch ein Gott die Hand."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Doch mein Sohn, das nicht erkennend, trokt' in kecem",
+      "Jugendmuth,"
+    ],
+    "after": "Doch mein Sohn, das nicht erkennend, trokt' in kecem Jugendmuth,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Sklavengleich zu ketten wähnte, Bosporos, des Gottes",
+      "Strom,"
+    ],
+    "after": "Sklavengleich zu ketten wähnte, Bosporos, des Gottes Strom,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Bande Joch dem großen Heerzug kühn erschloß die große",
+      "Bahn,"
+    ],
+    "after": "Bande Joch dem großen Heerzug kühn erschloß die große Bahn,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Der, ein Mensch, die Götter alle, ja Poseidon selbst,",
+      "im Wahn"
+    ],
+    "after": "Der, ein Mensch, die Götter alle, ja Poseidon selbst, im Wahn"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Blöden Muths zu meistern hoffte! Hatte nicht Wahnsinn",
+      "den Geist"
+    ],
+    "after": "Blöden Muths zu meistern hoffte! Hatte nicht Wahnsinn den Geist"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Meines Sohns umstrickt? Ich fürchte, mein so schwer",
+      "errungner Schay"
+    ],
+    "after": "Meines Sohns umstrickt? Ich fürchte, mein so schwer errungner Schay"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 168,
+    "before": [
+      "Deines Sohns; sie sagten höhnend: deinen Kindern",
+      "habest du"
+    ],
+    "after": "Deines Sohns; sie sagten höhnend: deinen Kindern habest du"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 169,
+    "before": [
+      "Wie meinst du das? Mit welchen Waffen kämpft sie",
+      "denn?"
+    ],
+    "after": "Wie meinst du das? Mit welchen Waffen kämpft sie denn?"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 172,
+    "before": [
+      "Wie viel Städte gewann er, und wandelte nicht durch die.",
+      "Furthen des Halys,"
+    ],
+    "after": "Wie viel Städte gewann er, und wandelte nicht durch die. Furthen des Halys,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 172,
+    "before": [
+      "Auch die längs dem strymonischen Meer, von den Wogen",
+      "umspült, sich erheben,"
+    ],
+    "after": "Auch die längs dem strymonischen Meer, von den Wogen umspült, sich erheben,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 172,
+    "before": [
+      "Und die, ferne der See, sich im Schooße des Land's mit",
+      "der Mauer umgürtet,"
+    ],
+    "after": "Und die, ferne der See, sich im Schooße des Land's mit der Mauer umgürtet,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 172,
+    "before": [
+      "Dann an dem Sunde der Helle die prangenden Städt' und",
+      "die Bucht der Propontis"
+    ],
+    "after": "Dann an dem Sunde der Helle die prangenden Städt' und die Bucht der Propontis"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 172,
+    "before": [
+      "Samos, und Chios und Paros und Mykonos, Naxos",
+      "und Andros,"
+    ],
+    "after": "Samos, und Chios und Paros und Mykonos, Naxos und Andros,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 173,
+    "before": [
+      "Heilige Paphos und Solis und Salamis, Tochter der",
+      "Mutter,"
+    ],
+    "after": "Heilige Paphos und Solis und Salamis, Tochter der Mutter,"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 173,
+    "before": [
+      "Auch in der Joner Gefilden die reichen gesegneten Städte,",
+      "gedrängt von"
+    ],
+    "after": "Auch in der Joner Gefilden die reichen gesegneten Städte, gedrängt von"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 173,
+    "before": [
+      "Doch jekt dulden wir das; so ward es gewandt von den",
+      "Göttern: sie schlugen"
+    ],
+    "after": "Doch jekt dulden wir das; so ward es gewandt von den Göttern: sie schlugen"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 166,
+    "text": "Weh!",
+    "editorial_citation": "698a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 173,
+    "text": "Weh!",
+    "editorial_citation": "859a"
+  },
+  {
+    "kind": "parenthetical-verse",
+    "printed_page": 159,
+    "basis": "Checked against printed page image",
+    "text": "(Wie die Sage mir erzählt)"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "Wehe! Wehe!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "Ich schwimm' in Thränen."
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "O Leid, o Leid!"
+  },
+  {
+    "kind": "parenthetical-verse",
+    "printed_page": 159,
+    "basis": "Checked against printed page image",
+    "text": "(Wie die Sage mir erzählt)"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "Wehe! Wehe!"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "Ich schwimm' in Thränen."
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 181,
+    "basis": "Checked against printed page image",
+    "text": "O Leid, o Leid!"
+  },
+  {
+    "kind": "displaced-ending-correction",
+    "printed_page": "162",
+    "n": "615",
+    "before": [
+      "Hörst du mich, Herr, seliger Geist, hörst du mich, gott-",
+      "Du dort unten, vernimmst du's? ähnlicher Fürst,"
+    ],
+    "after": [
+      "Hörst du mich, Herr, seliger Geist, hörst du mich, gottähnlicher Fürst,",
+      "Du dort unten, vernimmst du's?"
+    ],
+    "basis": "The opening invocation addresses the godlike king; ending belongs to gott-, not the following question."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "142",
+    "n": "103a",
+    "before": "stage",
+    "after": "103a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "142",
+    "n": "108a",
+    "before": "stage",
+    "after": "108a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "159",
+    "n": "550a",
+    "before": "stage",
+    "after": "550a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "159",
+    "n": "551a",
+    "before": "stage",
+    "after": "551a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "160",
+    "n": "555a",
+    "before": "stage",
+    "after": "555a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "160",
+    "n": "558a",
+    "before": "stage",
+    "after": "558a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "160",
+    "n": "559a",
+    "before": "stage",
+    "after": "559a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "parenthetical-interjection",
+    "printed_page": "160",
+    "n": "563a",
+    "before": "stage",
+    "after": "563a",
+    "basis": "These are printed cries in the choral lyric, not stage directions; editorial suffix preserves printed numbering."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "139",
+    "n": "8",
+    "before": "Doch unheilahnend erbebt schon jekt",
+    "after": "Doch unheilahnend erbebt schon jetzt",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "144",
+    "n": "144",
+    "before": "Wenn des Glückes alte Gottheit unser Heer jest nicht verließ!",
+    "after": "Wenn des Glückes alte Gottheit unser Heer jetzt nicht verließ!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "151",
+    "n": "289",
+    "before": "Wohnt jekt in Ajas' meerumrauschtem Inselland.",
+    "after": "Wohnt jetzt in Ajas' meerumrauschtem Inselland.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "153",
+    "n": "371",
+    "before": "Gesanges heller Jubel, und mit lautem Nuf",
+    "after": "Gesanges heller Jubel, und mit lautem Ruf",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "154",
+    "n": "387",
+    "before": "Der Ahnen Gräber! Jekt um Alles gilt der Kampf!\"",
+    "after": "Der Ahnen Gräber! Jetzt um Alles gilt der Kampf!\"",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "156",
+    "n": "458",
+    "before": "Ihr Blut zu rächen hoffte jekt mein Sohn und zog",
+    "after": "Ihr Blut zu rächen hoffte jetzt mein Sohn und zog",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "158",
+    "n": "504",
+    "before": "Nuf' ich vor Allem im Gebet die Götter an;",
+    "after": "Ruf' ich vor Allem im Gebet die Götter an;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "159",
+    "n": "530",
+    "before": "Denn jest klagt die ganze Asia,",
+    "after": "Denn jetzt klagt die ganze Asia,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "161",
+    "n": "585",
+    "before": "Auch mir erscheint jekt Alles voll von Schrecknissen;",
+    "after": "Auch mir erscheint jetzt Alles voll von Schrecknissen;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "170",
+    "n": "788",
+    "before": "Jekt und in Zukunft büßen; noch versiegte nicht",
+    "after": "Jetzt und in Zukunft büßen; noch versiegte nicht",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "173",
+    "n": "853",
+    "before": "Die das Leid uns jezt gebar.",
+    "after": "Die das Leid uns jetzt gebar.",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "173",
+    "n": "858",
+    "before": "Doch jekt dulden wir das; so ward es gewandt von den Göttern: sie schlugen",
+    "after": "Doch jetzt dulden wir das; so ward es gewandt von den Göttern: sie schlugen",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

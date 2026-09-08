@@ -1,0 +1,746 @@
+[
+  {
+    "page": "203",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schutzflehenden",
+        "N": "Schutzslehenden"
+      }
+    ]
+  },
+  {
+    "page": "204",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Jeht",
+        "N": "Jezt"
+      },
+      {
+        "type": "replace",
+        "H": "entwand !",
+        "N": "entwand!"
+      },
+      {
+        "type": "replace",
+        "H": "Jeht",
+        "N": "Jekt"
+      }
+    ]
+  },
+  {
+    "page": "205",
+    "differences": []
+  },
+  {
+    "page": "206",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Gesezes",
+        "N": "Gesekes"
+      },
+      {
+        "type": "replace",
+        "H": "Schuk,",
+        "N": "Schuß,"
+      },
+      {
+        "type": "replace",
+        "H": "Lass",
+        "N": "Lass'"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "4"
+      },
+      {
+        "type": "replace",
+        "H": "3weiter",
+        "N": "Zweiter"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      },
+      {
+        "type": "replace",
+        "H": "trost",
+        "N": "troßt"
+      }
+    ]
+  },
+  {
+    "page": "207",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "zuleht",
+        "N": "zulekt"
+      },
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": "•",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Apia's !",
+        "N": "Apia's!"
+      },
+      {
+        "type": "replace",
+        "H": "Land :)",
+        "N": "Land:)"
+      },
+      {
+        "type": "replace",
+        "H": "wogenfefte",
+        "N": "wogenfeste"
+      }
+    ]
+  },
+  {
+    "page": "208",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Antliß",
+        "N": "Antlig"
+      },
+      {
+        "type": "replace",
+        "H": "geißelt's",
+        "N": "geifelt's"
+      }
+    ]
+  },
+  {
+    "page": "209",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Hauch",
+        "N": "Hauch,"
+      }
+    ]
+  },
+  {
+    "page": "210",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      },
+      {
+        "type": "replace",
+        "H": "Ruft",
+        "N": "Nuft"
+      }
+    ]
+  },
+  {
+    "page": "211",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schuh!",
+        "N": "Schuß!"
+      },
+      {
+        "type": "replace",
+        "H": "rus'",
+        "N": "ruf'"
+      },
+      {
+        "type": "replace",
+        "H": "frqf?",
+        "N": "fraß?"
+      }
+    ]
+  },
+  {
+    "page": "212",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Ruhmvoll",
+        "N": "Nuhmvoll"
+      },
+      {
+        "type": "replace",
+        "H": "Perthäbia,",
+        "N": "Perrhäbia,"
+      }
+    ]
+  },
+  {
+    "page": "213",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "aufsproßte,",
+        "N": "aufsprofte,"
+      },
+      {
+        "type": "replace",
+        "H": "sind.-",
+        "N": "sind."
+      },
+      {
+        "type": "replace",
+        "H": "Mädchenantlik",
+        "N": "Mädchenantlig"
+      }
+    ]
+  },
+  {
+    "page": "214",
+    "differences": []
+  },
+  {
+    "page": "215",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "mir's.",
+        "N": "mir's:"
+      },
+      {
+        "type": "replace",
+        "H": "entsprof",
+        "N": "entsproß"
+      },
+      {
+        "type": "replace",
+        "H": "Schoof?",
+        "N": "Schooß?"
+      },
+      {
+        "type": "replace",
+        "H": "Chorführerin,",
+        "N": "Chorführerin."
+      }
+    ]
+  },
+  {
+    "page": "216",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "unverhofsten",
+        "N": "unverhofften"
+      }
+    ]
+  },
+  {
+    "page": "217",
+    "differences": []
+  },
+  {
+    "page": "218",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "plöhlich,",
+        "N": "plöglich,"
+      }
+    ]
+  },
+  {
+    "page": "219",
+    "differences": []
+  },
+  {
+    "page": "220",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nachgeist",
+        "N": "Rachgeist"
+      },
+      {
+        "type": "replace",
+        "H": "Retterin? Wechselgelang",
+        "N": "Netterin? Wechselgesang"
+      },
+      {
+        "type": "replace",
+        "H": "Siz,",
+        "N": "Sik,"
+      },
+      {
+        "type": "replace",
+        "H": "Nosse",
+        "N": "Rosse"
+      }
+    ]
+  },
+  {
+    "page": "221",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Zweite",
+        "N": "Sweite"
+      },
+      {
+        "type": "replace",
+        "H": "Nede",
+        "N": "Rede"
+      }
+    ]
+  },
+  {
+    "page": "222",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "euch?",
+        "N": "euch ?"
+      }
+    ]
+  },
+  {
+    "page": "223",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "nicht,",
+        "N": "nicht"
+      },
+      {
+        "type": "replace",
+        "H": "Troke",
+        "N": "Troße"
+      },
+      {
+        "type": "replace",
+        "H": "Zieht",
+        "N": "Zicht"
+      }
+    ]
+  },
+  {
+    "page": "224",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schuk",
+        "N": "Schuß"
+      },
+      {
+        "type": "replace",
+        "H": "sie,",
+        "N": "fie,"
+      },
+      {
+        "type": "replace",
+        "H": "milder;",
+        "N": "milder';"
+      },
+      {
+        "type": "replace",
+        "H": "Wort..",
+        "N": "Wort."
+      }
+    ]
+  },
+  {
+    "page": "225",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Geist;",
+        "N": "Geist ;"
+      },
+      {
+        "type": "replace",
+        "H": "ste",
+        "N": "sie"
+      }
+    ]
+  },
+  {
+    "page": "226",
+    "differences": []
+  },
+  {
+    "page": "227",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Getrost,",
+        "N": "Getroft,"
+      }
+    ]
+  },
+  {
+    "page": "228",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "unverleßlich",
+        "N": "unverleklich"
+      },
+      {
+        "type": "replace",
+        "H": "Ehrlos",
+        "N": "Chrlos"
+      },
+      {
+        "type": "replace",
+        "H": "sie",
+        "N": "ste"
+      }
+    ]
+  },
+  {
+    "page": "229",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schußflehende,",
+        "N": "Schuhflehende,"
+      },
+      {
+        "type": "replace",
+        "H": "Ausruhr,",
+        "N": "Aufruhr,"
+      },
+      {
+        "type": "replace",
+        "H": "Gesek",
+        "N": "Gesez"
+      }
+    ]
+  },
+  {
+    "page": "230",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "gewähren !",
+        "N": "gewähren!"
+      }
+    ]
+  },
+  {
+    "page": "231",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "—",
+        "N": "-"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Nast",
+        "N": "Rast"
+      }
+    ]
+  },
+  {
+    "page": "232",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "ste",
+        "N": "sie"
+      },
+      {
+        "type": "replace",
+        "H": "führerin",
+        "N": "Führerin"
+      },
+      {
+        "type": "replace",
+        "H": "wahnwizig,",
+        "N": "wahnwikig,"
+      },
+      {
+        "type": "replace",
+        "H": "Führerin",
+        "N": "führerin"
+      }
+    ]
+  },
+  {
+    "page": "233",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nathsam,",
+        "N": "Rathsam,"
+      },
+      {
+        "type": "replace",
+        "H": "gefaßt",
+        "N": "gefaßt."
+      }
+    ]
+  },
+  {
+    "page": "234",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schwindelud,",
+        "N": "schwindelnd,"
+      },
+      {
+        "type": "replace",
+        "H": "Ch",
+        "N": "Eh"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Schüzlingen",
+        "N": "Schüßlingen"
+      }
+    ]
+  },
+  {
+    "page": "235",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Trok",
+        "N": "Troy"
+      },
+      {
+        "type": "replace",
+        "H": "sie",
+        "N": "fie"
+      },
+      {
+        "type": "replace",
+        "H": "Fünfte.",
+        "N": "fünfte."
+      },
+      {
+        "type": "replace",
+        "H": "Troß",
+        "N": "Troy"
+      }
+    ]
+  },
+  {
+    "page": "236",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Sez'",
+        "N": "Sey'"
+      },
+      {
+        "type": "replace",
+        "H": "Trok",
+        "N": "Troy"
+      },
+      {
+        "type": "replace",
+        "H": "Schärs'",
+        "N": "Schärf'"
+      },
+      {
+        "type": "replace",
+        "H": "Lebens !",
+        "N": "Lebens!"
+      }
+    ]
+  },
+  {
+    "page": "237",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Locken nicht.",
+        "N": "Locken.nicht."
+      }
+    ]
+  },
+  {
+    "page": "238",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "uns!",
+        "N": "uns !"
+      }
+    ]
+  },
+  {
+    "page": "239",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Schußherrn",
+        "N": "Schukherrn"
+      }
+    ]
+  },
+  {
+    "page": "240",
+    "differences": []
+  },
+  {
+    "page": "241",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Zwift",
+        "N": "Zwist"
+      },
+      {
+        "type": "replace",
+        "H": "Schuß",
+        "N": "Schuh"
+      }
+    ]
+  },
+  {
+    "page": "242",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nuhm,",
+        "N": "Ruhm,"
+      },
+      {
+        "type": "replace",
+        "H": "zieht,",
+        "N": "zicht,"
+      },
+      {
+        "type": "replace",
+        "H": "Speerstoß",
+        "N": "Speerstof"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "243",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "244",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "vergißt",
+        "N": "vergift"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      },
+      {
+        "type": "replace",
+        "H": "Ver-",
+        "N": "Ver="
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      },
+      {
+        "type": "replace",
+        "H": "Rath-",
+        "N": "Rath="
+      }
+    ]
+  },
+  {
+    "page": "245",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Chbund",
+        "N": "Ehbund"
+      },
+      {
+        "type": "replace",
+        "H": "verhaften,",
+        "N": "verhaßten,"
+      },
+      {
+        "type": "replace",
+        "H": "•1010",
+        "N": "1010"
+      }
+    ]
+  },
+  {
+    "page": "246",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "erschus",
+        "N": "erschuf"
+      },
+      {
+        "type": "replace",
+        "H": "Daf",
+        "N": "Daß"
+      }
+    ]
+  }
+]

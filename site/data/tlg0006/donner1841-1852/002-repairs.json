@@ -1,0 +1,71 @@
+[
+  {
+    "page": 358,
+    "before": "Erster Halbcho r.",
+    "after": "Erster Halbchor.",
+    "basis": "Unambiguous corrupted speaker heading; dramatis-personae and dialogue context"
+  },
+  {
+    "page": 393,
+    "before": [
+      "Bu schaun; mein Herz wird traurig, und ein Thränen-",
+      "strom"
+    ],
+    "after": "Bu schaun; mein Herz wird traurig, und ein Thränenstrom",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 370,
+    "before": [
+      "Doch Aides wiss' es, der Gott mit dem dunkelen Haar, und",
+      "der Alte,"
+    ],
+    "after": "Doch Aides wiss' es, der Gott mit dem dunkelen Haar, und der Alte,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 364,
+    "before": [
+      "Er führt, er führt mich (o sichst du nicht?) in das Haus",
+      "der Todten,"
+    ],
+    "after": "Er führt, er führt mich (o sichst du nicht?) in das Haus der Todten,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 363,
+    "before": [
+      "Schmerzlicher ist es, als den Strang hoch um den Nacken",
+      "schlingen!"
+    ],
+    "after": "Schmerzlicher ist es, als den Strang hoch um den Nacken schlingen!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 369,
+    "before": [
+      "Lebe wohl!",
+      "Verlorner ich!"
+    ],
+    "shared_group": "r518",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 387,
+    "before": [
+      "Qualen erduldest du, ich weiß es",
+      "Weh, weh!"
+    ],
+    "shared_group": "r1169",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 388,
+    "before": [
+      "Hart zu ertragen ist's, und doch",
+      "Ich Armer!"
+    ],
+    "shared_group": "r1202",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

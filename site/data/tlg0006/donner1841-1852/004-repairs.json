@@ -1,0 +1,56 @@
+[
+  {
+    "page": 351,
+    "before": [
+      "Empfangen; (zu dem Chore) zwiefach årntet ihr Gewinn",
+      "von mir:"
+    ],
+    "after": "Empfangen; (zu dem Chore) zwiefach årntet ihr Gewinn von mir:",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 342,
+    "before": [
+      "Jubelnde Tin', und im Wechseltritte schwingt wilder Tanz",
+      "die Jungfraun."
+    ],
+    "after": "Jubelnde Tin', und im Wechseltritte schwingt wilder Tanz die Jungfraun.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 342,
+    "before": [
+      "Unsere Tugend verdient es nicht, des Heimlandes beraubt zu",
+      "werden."
+    ],
+    "after": "Unsere Tugend verdient es nicht, des Heimlandes beraubt zu werden.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 335,
+    "before": [
+      "Keiner entfloh dem Geschick; kein Weiser vermag ihm zu",
+      "wehren;"
+    ],
+    "after": "Keiner entfloh dem Geschick; kein Weiser vermag ihm zu wehren;",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 333,
+    "before": [
+      "Befurchte nicht",
+      "frei den Tod bestehn."
+    ],
+    "after": "Befurchte nicht frei den Tod bestehn.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 341,
+    "before": [
+      "So siehst du nicht, wie dieser Fuß fortstrebt?",
+      "Du scheinst"
+    ],
+    "shared_group": "r956",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

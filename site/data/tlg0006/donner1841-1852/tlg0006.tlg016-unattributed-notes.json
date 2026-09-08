@@ -1,0 +1,47 @@
+{
+  "notes": [
+    {
+      "id": "note-016-9",
+      "number": "102",
+      "pages": [
+        223
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders: Die Väter fürcht' ich Iener, die der Krieg erschlug.",
+      "text": "Anders: Die Väter fürcht' ich Iener, die der Krieg erschlug.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-016-10",
+      "number": "110",
+      "pages": [
+        223
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Nach diesem Verse findet sich in den Ausgaben noch folgender:\nUnd sende hin die Tochter; denn du sprachest wohl.",
+      "text": "Nach diesem Verse findet sich in den Ausgaben noch folgender: Und sende hin die Tochter; denn du sprachest wohl.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-016-17",
+      "number": "423",
+      "pages": [
+        224
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "διὰ τριῶν, δ. ἱ. παντελῶς ἀπόλλυμαι, ich bin gänzlich\nverloren.",
+      "text": "διὰ τριῶν, δ. ἱ. παντελῶς ἀπόλλυμαι, ich bin gänzlich verloren.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    }
+  ],
+  "opening": []
+}

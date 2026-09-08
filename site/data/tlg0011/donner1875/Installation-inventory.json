@@ -1,0 +1,93 @@
+[
+  {
+    "work": "tlg0011.tlg004",
+    "title": "Oedipus Tyrannus",
+    "file": "tlg0011.tlg004.donner1875-deu1.xml",
+    "verse_elements": 1515,
+    "native_final": 1492,
+    "cards": 72,
+    "numbering_intervals_needing_review": 5,
+    "located_notes": 73,
+    "unattributed_notes": 11,
+    "metre_pages": 4,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg007",
+    "title": "Oedipus at Colonus",
+    "file": "tlg0011.tlg007.donner1875-deu1.xml",
+    "verse_elements": 1845,
+    "native_final": 1751,
+    "cards": 63,
+    "numbering_intervals_needing_review": 16,
+    "located_notes": 66,
+    "unattributed_notes": 38,
+    "metre_pages": 5,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg002",
+    "title": "Antigone",
+    "file": "tlg0011.tlg002.donner1875-deu1.xml",
+    "verse_elements": 1309,
+    "native_final": 1310,
+    "cards": 81,
+    "numbering_intervals_needing_review": 3,
+    "located_notes": 63,
+    "unattributed_notes": 5,
+    "metre_pages": 7,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg006",
+    "title": "Philoctetes",
+    "file": "tlg0011.tlg006.donner1875-deu1.xml",
+    "verse_elements": 1484,
+    "native_final": 1430,
+    "cards": 59,
+    "numbering_intervals_needing_review": 14,
+    "located_notes": 53,
+    "unattributed_notes": 6,
+    "metre_pages": 4,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg005",
+    "title": "Electra",
+    "file": "tlg0011.tlg005.donner1875-deu1.xml",
+    "verse_elements": 1504,
+    "native_final": 1472,
+    "cards": 72,
+    "numbering_intervals_needing_review": 7,
+    "located_notes": 40,
+    "unattributed_notes": 7,
+    "metre_pages": 4,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg003",
+    "title": "Ajax",
+    "file": "tlg0011.tlg003.donner1875-deu1.xml",
+    "verse_elements": 1384,
+    "native_final": 1373,
+    "cards": 64,
+    "numbering_intervals_needing_review": 3,
+    "located_notes": 47,
+    "unattributed_notes": 15,
+    "metre_pages": 4,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  },
+  {
+    "work": "tlg0011.tlg001",
+    "title": "Trachiniae",
+    "file": "tlg0011.tlg001.donner1875-deu1.xml",
+    "verse_elements": 1272,
+    "native_final": 1257,
+    "cards": 65,
+    "numbering_intervals_needing_review": 4,
+    "located_notes": 46,
+    "unattributed_notes": 0,
+    "metre_pages": 4,
+    "status": "Installed OCR review edition; full proofreading, uncertain verse division and remaining note attribution are unfinished."
+  }
+]

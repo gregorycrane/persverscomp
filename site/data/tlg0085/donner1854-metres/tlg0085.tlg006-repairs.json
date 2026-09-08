@@ -1,0 +1,695 @@
+[
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 94,
+    "text": "Ob eine neue Trauer wohl das Haus betraf?",
+    "editorial_citation": "24a"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 95,
+    "text": "(O Erdreich, o Mutter!) abzuwehren, sendet",
+    "before": "stage",
+    "after": "verse"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 100,
+    "before": [
+      "Nun,",
+      "-"
+    ],
+    "after": "Nun, -"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 100,
+    "before": [
+      "Nun, -",
+      "eine Locke seh' ich auf dem Grabe hier."
+    ],
+    "after": "Nun, eine Locke seh' ich auf dem Grabe hier."
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 101,
+    "text": "Ach!",
+    "editorial_citation": "198a"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 110,
+    "text": "Stebente Gegenstrophe.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 115,
+    "text": ":"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 115,
+    "text": ":"
+  },
+  {
+    "kind": "ocr-debris",
+    "printed_page": 115,
+    "text": "F"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 119,
+    "text": "Ein Diener.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 122,
+    "text": "Kilissa, die Amme des Orestes, kommt weinend aus der Frauenwohnung.)",
+    "before": "verse",
+    "after": "stage"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 124,
+    "text": "Kiliffa,",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 124,
+    "text": "Gib, ach!",
+    "editorial_citation": "784a"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 125,
+    "before": [
+      "Wenn er den Mord vollbracht, Herrscher in tiefgründiger",
+      "Kluft,"
+    ],
+    "after": "Wenn er den Mord vollbracht, Herrscher in tiefgründiger Kluft,"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 126,
+    "text": "Kind, Kind!",
+    "editorial_citation": "819a"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 127,
+    "before": [
+      "Horch doch, ach! Weh, was ist's? Was geschieht dort im",
+      "Haus?"
+    ],
+    "after": "Horch doch, ach! Weh, was ist's? Was geschieht dort im Haus?"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 128,
+    "text": "Hoiho! Hoiho!",
+    "editorial_citation": "873a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 135,
+    "text": "Ach, ach!",
+    "editorial_citation": "1041a"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 136,
+    "before": [
+      "Zum dritten erschien",
+      "wie nenn' ich ihn doch?"
+    ],
+    "after": "Zum dritten erschien — wie nenn' ich ihn doch?"
+  },
+  {
+    "kind": "image-verified-ocr",
+    "printed_page": 135,
+    "before": "welche Frauen seh' ich dort, Gorgonen gleich,",
+    "after": "O welche Frauen seh' ich dort, Gorgonen gleich,"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 111,
+    "basis": "Checked against printed page image",
+    "text": "Ich floh davon,"
+  },
+  {
+    "kind": "shared-verse",
+    "printed_page": 111,
+    "basis": "Checked against printed page image",
+    "text": "Ich floh davon,"
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "93",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "102",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "102",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "102",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "102",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "103",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "103",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "103",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "106",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "107",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "109",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "110",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "110",
+    "n": null,
+    "before": "Stebente Gegenstrophe.",
+    "after": "Siebente Gegenstrophe.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "110",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "111",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "111",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "112",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "113",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "113",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "113",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "113",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "114",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "114",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "114",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "115",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "115",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "115",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "115",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "115",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "116",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "119",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "119",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "120",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "121",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "122",
+    "n": null,
+    "before": "Kiliffa.",
+    "after": "Kilissa.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "123",
+    "n": null,
+    "before": "Kiliffa.",
+    "after": "Kilissa.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "124",
+    "n": null,
+    "before": "Kiliffa.",
+    "after": "Kilissa.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "124",
+    "n": null,
+    "before": "Kiliffa,",
+    "after": "Kilissa.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "126",
+    "n": null,
+    "before": "Aegifthos.",
+    "after": "Aegisthos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "127",
+    "n": null,
+    "before": "Aegifthos.",
+    "after": "Aegisthos.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "128",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "128",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "129",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "129",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "129",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "130",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "130",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "130",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "130",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "130",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "131",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "131",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "131",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "134",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "134",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "136",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "136",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "93",
+    "n": "13",
+    "before": "Denn jest erschien die Stunde, die der Gott bestimmt,",
+    "after": "Denn jetzt erschien die Stunde, die der Gott bestimmt,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "99",
+    "n": "170",
+    "before": "Jekt hört das neue Wunder, das sich hier begab !",
+    "after": "Jetzt hört das neue Wunder, das sich hier begab !",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "103",
+    "n": "228",
+    "before": "Du bist Orestes? Also sprach ich jest mit dir?",
+    "after": "Du bist Orestes? Also sprach ich jetzt mit dir?",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "104",
+    "n": "267",
+    "before": "Das Haus, das jekt in tiefe Nacht versunken scheint !",
+    "after": "Das Haus, das jetzt in tiefe Nacht versunken scheint !",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "111",
+    "n": "459",
+    "before": "Wir allzumal stimmen ein in diesen Nuf;",
+    "after": "Wir allzumal stimmen ein in diesen Ruf;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "120",
+    "n": "681",
+    "before": "Denn jekt bewahrt ein erzgetriebner Aschenkrug",
+    "after": "Denn jetzt bewahrt ein erzgetriebner Aschenkrug",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "122",
+    "n": "722",
+    "before": "Daf Peitho mit Trug in die Schranken sich stellt,",
+    "after": "Daß Peitho mit Trug in die Schranken sich stellt,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "124",
+    "n": "778",
+    "before": "Höre jest unser Fleh'n, großer Zeus,",
+    "after": "Höre jetzt unser Fleh'n, großer Zeus,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "127",
+    "n": "852",
+    "before": "Denn jest ist die Zeit, daß in ewige Nacht,",
+    "after": "Denn jetzt ist die Zeit, daß in ewige Nacht,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "127",
+    "n": "865",
+    "before": "Laßt uns hinweggeh'n, denn die That wird jest vollbracht,",
+    "after": "Laßt uns hinweggeh'n, denn die That wird jetzt vollbracht,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "136",
+    "n": "1069",
+    "before": "Wo endet sie noch, wo findet sie Nuh,",
+    "after": "Wo endet sie noch, wo findet sie Ruh,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

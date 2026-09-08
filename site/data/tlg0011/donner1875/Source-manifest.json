@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/Users/gcrane/Downloads/soph-donner-1-uiug-30112041802957-1788880206.txt",
+    "bytes": 364256,
+    "sha256": "c9b62a6e353e81bd4d662dceb49b00c26a909b672f3a78c00062e6c34f013322"
+  },
+  {
+    "path": "/Users/gcrane/Downloads/soph-donner2-uiug-30112084978920-1788880260.txt",
+    "bytes": 242919,
+    "sha256": "3e724ad45beb4703aa1006d5fa039c91ddd145e5eb727efac95c18d985e9be4a"
+  },
+  {
+    "path": "/Users/gcrane/Downloads/soph-donner1875-coo-31924026593651-1788880476.txt",
+    "bytes": 711488,
+    "sha256": "a79940a93821e2ca4d83467245f2ce91723d76fdd45a626ea6613d6170621754"
+  },
+  {
+    "path": "/Users/gcrane/Downloads/soph-donner1889-uc1-31158002547668-1788880321.txt",
+    "bytes": 705245,
+    "sha256": "87cd8637550472e2b157b7be0628974d6e4c74defe282a97e86d72724252085d"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "imageFilesVerified": 49,
+  "teiSurfacesVerified": 49,
+  "works": 7,
+  "installedFilesByteVerified": 59,
+  "liveBrowserChecks": [
+    "Agamemnon opening: selector, page navigation and image/PDF/TEI links present",
+    "Eumenides page 214 deep link: correct play and PDF page 232"
+  ],
+  "automatedBrowserTest": "Not completed: local Chromium launch failed.",
+  "httpBatchTest": "Not completed: shell network access restricted."
+}

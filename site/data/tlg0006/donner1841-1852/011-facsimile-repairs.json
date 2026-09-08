@@ -1,0 +1,129 @@
+[
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "(Sie nimmt die Fackeln.)",
+      "raw": "(Sie nimmt die Fackeln.)",
+      "page": 17,
+      "scan": 31,
+      "ocr_line": 24,
+      "printed_n": null,
+      "speaker": "Hekabe.",
+      "rid": "r442",
+      "bsb_line": 23,
+      "bsb_bbox": [
+        492,
+        1467,
+        851,
+        1512
+      ],
+      "bsb_text": "(Sie nimmt die Fackeln.)",
+      "bsb_similarity": 1.0,
+      "n": "345u3",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        345,
+        350
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "(Sie wird abgeführt.)",
+      "raw": "(Sie wird abgeführt.)",
+      "page": 21,
+      "scan": 35,
+      "ocr_line": 11,
+      "printed_n": null,
+      "speaker": "Der Chor.",
+      "rid": "r572",
+      "bsb_line": 10,
+      "bsb_bbox": [
+        869,
+        721,
+        1182,
+        759
+      ],
+      "bsb_text": "(Sie wird abgeführt.)",
+      "bsb_similarity": 1.0,
+      "n": "455u7",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        455,
+        460
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Helena wird von den Dienern herbeigeführt. Die Vorigen,",
+      "raw": "Helena wird von den Dienern herbeigeführt. Die Vorigen,",
+      "page": 35,
+      "scan": 49,
+      "ocr_line": 32,
+      "printed_n": null,
+      "speaker": "Hekabe.",
+      "rid": "r1102",
+      "bsb_line": 31,
+      "bsb_bbox": [
+        202,
+        1893,
+        1206,
+        1940
+      ],
+      "bsb_text": "Helena wird von den Dienern herbeigeführt. Die Vorigen.",
+      "bsb_similarity": 1.0,
+      "n": "880u5",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        880,
+        885
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "345u1",
+    "new_n": "346"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "345u2",
+    "new_n": "347"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "345u4",
+    "new_n": "348"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "345u5",
+    "new_n": "349"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "880u1",
+    "new_n": "881"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "880u2",
+    "new_n": "882"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "880u3",
+    "new_n": "883"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "880u4",
+    "new_n": "884"
+  }
+]

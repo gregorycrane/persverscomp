@@ -1,0 +1,320 @@
+[
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 164,
+    "before": [
+      "Ihr schlummert? He doch! Was bedarf's der Schlum-",
+      "mernden?"
+    ],
+    "after": "Ihr schlummert? He doch! Was bedarf's der Schlummernden?"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 171,
+    "text": "Die andern Erinnyen.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 182,
+    "before": [
+      "Am Morde seiner Mutter.",
+      "Du eröffne nun"
+    ],
+    "after": "Am Morde seiner Mutter. Du eröffne nun"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 182,
+    "before": [
+      "Ihr habt zu reden",
+      "ich eröffne das Gericht -;"
+    ],
+    "after": "Ihr habt zu reden — ich eröffne das Gericht -;"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 193,
+    "before": [
+      "Wohlthuend, Wohlthat nehmend, wohl geschmückt mit",
+      "Ruhm,"
+    ],
+    "after": "Wohlthuend, Wohlthat nehmend, wohl geschmückt mit Ruhm,"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 194,
+    "text": "Die Chorführerin. -",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 194,
+    "before": [
+      "Dein Wort erweicht mich, glaub' ich, und mein Groll",
+      "entflieht."
+    ],
+    "after": "Dein Wort erweicht mich, glaub' ich, und mein Groll entflieht."
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 198,
+    "before": [
+      "Dritte",
+      "trophe."
+    ],
+    "after": "Dritte trophe."
+  },
+  {
+    "kind": "classification",
+    "printed_page": 198,
+    "text": "Dritte trophe.",
+    "before": "verse",
+    "after": "head"
+  },
+  {
+    "kind": "classification",
+    "printed_page": 199,
+    "text": "Die Priefterinnen.",
+    "before": "verse",
+    "after": "speaker"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 192,
+    "before": [
+      "Weh!",
+      "Daß mich solches traf!"
+    ],
+    "after": "Weh! Daß mich solches traf!"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 192,
+    "text": "Ach, ach! Weh, weh!",
+    "editorial_citation": "802a"
+  },
+  {
+    "kind": "wrapped-verse",
+    "printed_page": 193,
+    "before": [
+      "Weh!",
+      "Daß mich solches traf!"
+    ],
+    "after": "Weh! Daß mich solches traf!"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 193,
+    "text": "Ach, ach! Weh, weh!",
+    "editorial_citation": "832a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 166,
+    "basis": "Checked against printed page image",
+    "text": "Erwecke,",
+    "editorial_citation": "134a"
+  },
+  {
+    "kind": "unnumbered-utterance",
+    "printed_page": 166,
+    "basis": "Checked against printed page image",
+    "text": "Erwecke,",
+    "editorial_citation": "134a"
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "163",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "170",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "171",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "182",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "182",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "182",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "183",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "183",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "183",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "183",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "183",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "184",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "189",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "189",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "190",
+    "n": null,
+    "before": "Dreftes.",
+    "after": "Orestes.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "194",
+    "n": null,
+    "before": "Die Chorführerin. -",
+    "after": "Die Chorführerin.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "198",
+    "n": null,
+    "before": "Dritte trophe.",
+    "after": "Dritte Strophe.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "ocr-label",
+    "printed_page": "199",
+    "n": null,
+    "before": "Die Priefterinnen.",
+    "after": "Die Priesterinnen.",
+    "basis": "Unambiguous speaker or stanza label in context."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "162",
+    "n": "36",
+    "before": "Daf mir die Glieder brechen, daß mein Schritt erstarrt;",
+    "after": "Daß mir die Glieder brechen, daß mein Schritt erstarrt;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "163",
+    "n": "67",
+    "before": "So siehst du jekt gefangen dort die Nasenden;",
+    "after": "So siehst du jetzt gefangen dort die Nasenden;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "164",
+    "n": "114",
+    "before": "Vernehmt mich; denn um meine Seele sprach ich jekt;",
+    "after": "Vernehmt mich; denn um meine Seele sprach ich jetzt;",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "172",
+    "n": "281",
+    "before": "Drum, ob sie jest in fernen Fluren Libya's,",
+    "after": "Drum, ob sie jetzt in fernen Fluren Libya's,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "181",
+    "n": "536",
+    "before": "Verkünde, Herold, schaffe Nuh' im Volk umher!",
+    "after": "Verkünde, Herold, schaffe Ruh' im Volk umher!",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  },
+  {
+    "kind": "obvious-ocr",
+    "printed_page": "195",
+    "n": "859",
+    "before": "Daf Alles, was zum Ziele schönen Sieges führt,",
+    "after": "Daß Alles, was zum Ziele schönen Sieges führt,",
+    "basis": "Recurring Fraktur OCR confusion; words unambiguous in context. Historical spelling otherwise retained."
+  }
+]

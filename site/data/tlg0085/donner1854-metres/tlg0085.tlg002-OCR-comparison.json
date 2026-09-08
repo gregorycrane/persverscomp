@@ -1,0 +1,742 @@
+[
+  {
+    "page": "139",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "daß",
+        "N": "das"
+      },
+      {
+        "type": "replace",
+        "H": "Xerxes",
+        "N": "Xerres"
+      }
+    ]
+  },
+  {
+    "page": "140",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "sie,",
+        "N": "ste,"
+      },
+      {
+        "type": "replace",
+        "H": "Troße.",
+        "N": "Troke."
+      },
+      {
+        "type": "replace",
+        "H": "Schiff,",
+        "N": "Schiffs,"
+      }
+    ]
+  },
+  {
+    "page": "141",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "ftürmenden",
+        "N": "stürmenden"
+      },
+      {
+        "type": "replace",
+        "H": "vor",
+        "N": "por"
+      }
+    ]
+  },
+  {
+    "page": "142",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Schwunges?"
+      },
+      {
+        "type": "delete",
+        "H": "Schwunges?",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "roßtummelnden",
+        "N": "roftummelnden"
+      },
+      {
+        "type": "replace",
+        "H": "Kissia's,",
+        "N": "Kissta's,"
+      }
+    ]
+  },
+  {
+    "page": "143",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "nezt",
+        "N": "nekt"
+      }
+    ]
+  },
+  {
+    "page": "144",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Weib!",
+        "N": "Weib !"
+      },
+      {
+        "type": "replace",
+        "H": "ver-",
+        "N": "ver="
+      },
+      {
+        "type": "replace",
+        "H": "Daß",
+        "N": "um mich, Daf"
+      },
+      {
+        "type": "delete",
+        "H": "um mich,",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Nath.",
+        "N": "Rath."
+      }
+    ]
+  },
+  {
+    "page": "145",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nath.",
+        "N": "Rath."
+      }
+    ]
+  },
+  {
+    "page": "146",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "147",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "4",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "lekter",
+        "N": "lehter"
+      },
+      {
+        "type": "replace",
+        "H": "fie,",
+        "N": "sie,"
+      },
+      {
+        "type": "replace",
+        "H": "quillt,",
+        "N": "quilt,"
+      }
+    ]
+  },
+  {
+    "page": "148",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atossa.",
+        "N": "Atosssa."
+      },
+      {
+        "type": "replace",
+        "H": "Port !",
+        "N": "Port!"
+      },
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "149",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Neich",
+        "N": "Reich"
+      }
+    ]
+  },
+  {
+    "page": "150",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "150",
+        "N": "150."
+      },
+      {
+        "type": "replace",
+        "H": "Athen !",
+        "N": "Athen!"
+      },
+      {
+        "type": "replace",
+        "H": "enthülle,",
+        "N": "enthülle"
+      }
+    ]
+  },
+  {
+    "page": "151",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "flel",
+        "N": "fiel"
+      }
+    ]
+  },
+  {
+    "page": "152",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atossa.",
+        "N": "Atoffa."
+      },
+      {
+        "type": "replace",
+        "H": "Feste",
+        "N": "Jeste"
+      },
+      {
+        "type": "replace",
+        "H": "Hellas",
+        "N": "Hellas'"
+      }
+    ]
+  },
+  {
+    "page": "153",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Ruf,",
+        "N": "Nuf,"
+      },
+      {
+        "type": "replace",
+        "H": "Riemenpflock.",
+        "N": "Niemenpflock."
+      },
+      {
+        "type": "replace",
+        "H": "Roßgespann",
+        "N": "Noßgespann"
+      },
+      {
+        "type": "replace",
+        "H": "Nuf",
+        "N": "Ruf"
+      }
+    ]
+  },
+  {
+    "page": "154",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Rus:",
+        "N": "Nuf:"
+      },
+      {
+        "type": "replace",
+        "H": "Siß,",
+        "N": "Sik,"
+      },
+      {
+        "type": "replace",
+        "H": "Nezesfange,",
+        "N": "Neyesfange,"
+      }
+    ]
+  },
+  {
+    "page": "155",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atoffa.",
+        "N": "Atossa."
+      },
+      {
+        "type": "replace",
+        "H": "sie?",
+        "N": "ste?"
+      }
+    ]
+  },
+  {
+    "page": "156",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "verlich,",
+        "N": "verlieh,"
+      },
+      {
+        "type": "replace",
+        "H": "Nath,",
+        "N": "Rath,"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Rache",
+        "N": "Nache"
+      },
+      {
+        "type": "replace",
+        "H": "Rest",
+        "N": "Nest"
+      }
+    ]
+  },
+  {
+    "page": "157",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "sumpfig",
+        "N": "sumpsig"
+      },
+      {
+        "type": "replace",
+        "H": "Jezt",
+        "N": "Jekt"
+      },
+      {
+        "type": "replace",
+        "H": "vieles",
+        "N": "Vieles"
+      }
+    ]
+  },
+  {
+    "page": "158",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nuf'",
+        "N": "Ruf'"
+      },
+      {
+        "type": "replace",
+        "H": "beneßt,",
+        "N": "benest,"
+      },
+      {
+        "type": "replace",
+        "H": "Gefall'nen,",
+        "N": "Gefall'nen."
+      }
+    ]
+  },
+  {
+    "page": "159",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Land :",
+        "N": "Land:"
+      },
+      {
+        "type": "replace",
+        "H": "(O",
+        "N": "("
+      }
+    ]
+  },
+  {
+    "page": "160",
+    "differences": []
+  },
+  {
+    "page": "161",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atoffa.",
+        "N": "Atossa."
+      },
+      {
+        "type": "replace",
+        "H": "jekt",
+        "N": "jest"
+      },
+      {
+        "type": "replace",
+        "H": "sproft,",
+        "N": "sproßt,"
+      },
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Gemach :",
+        "N": "Gemach:"
+      }
+    ]
+  },
+  {
+    "page": "162",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "ge.",
+        "N": "ge-"
+      },
+      {
+        "type": "replace",
+        "H": "Zweite",
+        "N": "Sweite"
+      }
+    ]
+  },
+  {
+    "page": "163",
+    "differences": []
+  },
+  {
+    "page": "164",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "herauf,",
+        "N": "heraus,"
+      },
+      {
+        "type": "replace",
+        "H": "Antlik,",
+        "N": "Antlig,"
+      },
+      {
+        "type": "replace",
+        "H": "Antliß",
+        "N": "Antlik"
+      }
+    ]
+  },
+  {
+    "page": "165",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atossa.",
+        "N": "Atoffa. *"
+      },
+      {
+        "type": "replace",
+        "H": "ein",
+        "N": "cin"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "166",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Antlik",
+        "N": "Antlig"
+      },
+      {
+        "type": "replace",
+        "H": "rif",
+        "N": "riß"
+      }
+    ]
+  },
+  {
+    "page": "167",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Atoffa.",
+        "N": "Atossa."
+      },
+      {
+        "type": "replace",
+        "H": "laut-",
+        "N": "laut -"
+      }
+    ]
+  },
+  {
+    "page": "168",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Jebo",
+        "N": "Jego"
+      },
+      {
+        "type": "replace",
+        "H": "kecem",
+        "N": "keckem"
+      },
+      {
+        "type": "replace",
+        "H": "Schay",
+        "N": "Schab"
+      },
+      {
+        "type": "replace",
+        "H": "Schay",
+        "N": "Schaz"
+      }
+    ]
+  },
+  {
+    "page": "169",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      }
+    ]
+  },
+  {
+    "page": "170",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "allzutrozig",
+        "N": "allzutrokig"
+      },
+      {
+        "type": "replace",
+        "H": "Sund?",
+        "N": "Sund ?"
+      },
+      {
+        "type": "replace",
+        "H": "Beneht,",
+        "N": "Benezt,"
+      },
+      {
+        "type": "replace",
+        "H": "gottvergess nen",
+        "N": "gottvergess'nen"
+      },
+      {
+        "type": "replace",
+        "H": "Jekt",
+        "N": "Jezt"
+      }
+    ]
+  },
+  {
+    "page": "171",
+    "differences": []
+  },
+  {
+    "page": "172",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nimmerbestegt,",
+        "N": "Nimmerbesiegt,"
+      },
+      {
+        "type": "replace",
+        "H": "Dareios!",
+        "N": "Dareios!."
+      },
+      {
+        "type": "replace",
+        "H": "die.",
+        "N": "die"
+      }
+    ]
+  },
+  {
+    "page": "173",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "jezt",
+        "N": "jekt"
+      },
+      {
+        "type": "replace",
+        "H": "jekt",
+        "N": "jest"
+      }
+    ]
+  },
+  {
+    "page": "174",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Schicksal !",
+        "N": "Schicksal!"
+      },
+      {
+        "type": "replace",
+        "H": "'Haus",
+        "N": "Haus"
+      },
+      {
+        "type": "replace",
+        "H": "Willkommgruß",
+        "N": "Wilkommgruß"
+      },
+      {
+        "type": "replace",
+        "H": "schalt,",
+        "N": "schallt,"
+      }
+    ]
+  },
+  {
+    "page": "175",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "-Wa",
+        "N": "Wo"
+      }
+    ]
+  },
+  {
+    "page": "176",
+    "differences": []
+  },
+  {
+    "page": "177",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Gruft.",
+        "N": "Grust."
+      },
+      {
+        "type": "replace",
+        "H": "namenlos!",
+        "N": "namenlos !"
+      },
+      {
+        "type": "replace",
+        "H": "O-Graun,",
+        "N": "O Graun,"
+      },
+      {
+        "type": "replace",
+        "H": "stehst",
+        "N": "siehst"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": ".."
+      }
+    ]
+  },
+  {
+    "page": "178",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "179",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Treuen..",
+        "N": "Treuen."
+      }
+    ]
+  },
+  {
+    "page": "180",
+    "differences": []
+  },
+  {
+    "page": "181",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Leides!",
+        "N": "Leides !"
+      },
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "182",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "page": 221,
+    "before": "Seitenos.",
+    "after": "Seilenos.",
+    "basis": "Unambiguous corrupted speaker heading; dramatis-personae and dialogue context"
+  },
+  {
+    "page": 222,
+    "before": [
+      "Das Eisen nun des Mannes Hals, der die Gastfreunde ver-",
+      "schlingt:"
+    ],
+    "after": "Das Eisen nun des Mannes Hals, der die Gastfreunde verschlingt:",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 224,
+    "before": [
+      "Schleift ihn, daß er, wuthend von Schmerz, euch nicht",
+      "schmåhlich bezahle!"
+    ],
+    "after": "Schleift ihn, daß er, wuthend von Schmerz, euch nicht schmåhlich bezahle!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 220,
+    "before": [
+      "(Er deutet auf einen Satyr, der auch heimlich von dem Wein kostet)",
+      "nicht mich."
+    ],
+    "after": "(Er deutet auf einen Satyr, der auch heimlich von dem Wein kostet) nicht mich.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 212,
+    "before": [
+      "Dampft in den Kohlen Gekochtes, Gebratenes: schling' es",
+      "hinab denn!"
+    ],
+    "after": "Dampft in den Kohlen Gekochtes, Gebratenes: schling' es hinab denn!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 211,
+    "before": [
+      "Und schmaus es, strecke den Bauch empor, und feucht ihn",
+      "wohl,"
+    ],
+    "after": "Und schmaus es, strecke den Bauch empor, und feucht ihn wohl,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 209,
+    "before": [
+      "Was? Ich? Verdirb, Elender!",
+      "Wenn ich Lügen sprach."
+    ],
+    "shared_group": "r386",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 219,
+    "before": [
+      "Daß Keiner ihn wegnehme.",
+      "Nein, du selber willst"
+    ],
+    "shared_group": "r754",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 220,
+    "before": [
+      "Du Schwazer! Gib so!",
+      "Nein, fürwahr, nicht eher, als"
+    ],
+    "shared_group": "r782",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 220,
+    "before": [
+      "Verwunschter Mundschenk!",
+      "Wahrlich, süß ist dieser Wein!"
+    ],
+    "shared_group": "r787",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 223,
+    "before": [
+      "Im Stehen habt ihr euch verrenkt?",
+      "Und die Augen sind"
+    ],
+    "shared_group": "r907",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 225,
+    "before": [
+      "Wo?",
+      "Gerad' am Felsen hier."
+    ],
+    "shared_group": "r994",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 225,
+    "before": [
+      "Ich mir an den Steinen.",
+      "Und sie fliehn vor dir davon."
+    ],
+    "shared_group": "r1000",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 226,
+    "before": [
+      "Nichtswürdiger, wo, wo bist du?",
+      "Weit von dir entfernt"
+    ],
+    "shared_group": "r1019",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

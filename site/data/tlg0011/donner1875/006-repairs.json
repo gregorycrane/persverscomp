@@ -1,0 +1,569 @@
+[
+  {
+    "kind": "shared-verse",
+    "page": 281,
+    "before": [
+      "Und was begehrst du?",
+      "Strebe Philoktetes' Geist"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 281,
+    "before": [
+      "Nein, ich, Odysseus, habe sie:",
+      "und sage dann"
+    ],
+    "after": "Nein, ich, Odysseus, habe sie: und sage dann",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 286,
+    "before": [
+      "Heischt des Lebens Bedarf. Wie nur, o wie trägt es der",
+      "Arme nur?"
+    ],
+    "after": "Heischt des Lebens Bedarf. Wie nur, o wie trägt es der Arme nur?",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 287,
+    "before": [
+      "Fernhindröhnenden Widerhall",
+      "quält, und rings"
+    ],
+    "after": "Fernhindröhnenden Widerhall quält, und rings",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 287,
+    "before": [
+      "Schweige still, mein Sohn!",
+      "Was ist's?",
+      "Hell scholl ein Laut,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 288,
+    "before": [
+      "Sag' an, worauf?",
+      "Auf neuen Rath:"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 295,
+    "before": [
+      "Er lebte nicht mehr;",
+      "freilich, wenn der lebte, Freund,"
+    ],
+    "after": "Er lebte nicht mehr; freilich, wenn der lebte, Freund,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 295,
+    "before": [
+      "Dann hätte man mich",
+      "meiner Waffen nie beraubt."
+    ],
+    "after": "Dann hätte man mich meiner Waffen nie beraubt.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 295,
+    "before": [
+      "O Iammer, weh mir!",
+      "Aber Tydeus' Sohn und er,"
+    ],
+    "after": "O Iammer, weh mir! Aber Tydeus' Sohn und er,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 298,
+    "before": [
+      "Ihr rüstet schon zur Reise, Kind?",
+      "Die Stunde mahut,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 301,
+    "before": [
+      "Und sollte Phönix und",
+      "die Schiffsgefährten dies"
+    ],
+    "after": "Und sollte Phönix und die Schiffsgefährten dies",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 303,
+    "before": [
+      "Die Schuld von Allem bleibe dein!",
+      "Sei's: rede nur!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 306,
+    "before": [
+      "So geh hinein.",
+      "Und du geleite mich, o Kind,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 307,
+    "before": [
+      "Doch nie hab' ich gehört durch das Gerücht, oder geseh'n",
+      "jemals,"
+    ],
+    "after": "Doch nie hab' ich gehört durch das Gerücht, oder geseh'n jemals,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 307,
+    "before": [
+      "Wie er es, wie, allein die Flut, die ihn umbraust, ver-",
+      "nehmend hier,"
+    ],
+    "after": "Wie er es, wie, allein die Flut, die ihn umbraust, vernehmend hier,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 307,
+    "before": [
+      "Der ihm stille das heißquellende Blut, welches die Wund'",
+      "ausströmt"
+    ],
+    "after": "Der ihm stille das heißquellende Blut, welches die Wund' ausströmt",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 307,
+    "before": [
+      "(Wie von der Amme fern ein Kind,) wo sich der Pfad",
+      "bequem für ihn"
+    ],
+    "after": "(Wie von der Amme fern ein Kind,) wo sich der Pfad bequem für ihn",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 308,
+    "before": [
+      "Der am lieblichen Wein nicht sich gelabt schon in das zehnte",
+      "Jahr,"
+    ],
+    "after": "Der am lieblichen Wein nicht sich gelabt schon in das zehnte Jahr,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 308,
+    "before": [
+      "An Spercheios' Gestad, wo sich der Held, prangend in",
+      "eh'rnem Schild,"
+    ],
+    "after": "An Spercheios' Gestad, wo sich der Held, prangend in eh'rnem Schild,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 309,
+    "before": [
+      "Ich bin verloren!",
+      "Nimmer kann ich, Sohn, die Qual"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 309,
+    "before": [
+      "Ach Kind, o weh!",
+      "Ich bin verloren! Wie es zehrt!"
+    ],
+    "after": "Ach Kind, o weh! Ich bin verloren! Wie es zehrt!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 309,
+    "before": [
+      "Was?",
+      "Nichts weiß ich.",
+      "Sohn, du weißt - Was red' ich noch?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 310,
+    "before": [
+      "Was kann ich thun?",
+      "Erschrocken, laß nicht ab von mir:"
+    ],
+    "after": "Was kann ich thun? Erschrocken, laß nicht ab von mir:",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 310,
+    "before": [
+      "Sobald er sich gesättigt.",
+      "Ach, Unseliger,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 312,
+    "before": [
+      "sprich, Sohn!",
+      "sprich!"
+    ],
+    "after": "sprich, Sohn! sprich!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 312,
+    "before": [
+      "Getrost! Ich bleibe.",
+      "Bleibst du?",
+      "Traue meinem Wort."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 312,
+    "before": [
+      "Gib mir die Hand zum Pfande.",
+      "Nimm! Ich bleibe hier."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 312,
+    "before": [
+      "Dorthin",
+      "ja dorthin",
+      "Wie? Wohin?",
+      "Nach oben dort"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 313,
+    "before": [
+      "laß mich, laß mich -",
+      "Und wohin?",
+      "laß mich doch!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 313,
+    "before": [
+      "Ich muß dich halten.",
+      "Dein Berühren tödtet mich."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 314,
+    "before": [
+      "Wohl, er vernimmt nichts mehr. Doch glaube mir, daß",
+      "wir des Bogens"
+    ],
+    "after": "Wohl, er vernimmt nichts mehr. Doch glaube mir, daß wir des Bogens",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 317,
+    "before": [
+      "Was sagst du? Weh mir!",
+      "Samm're nicht, bevor du hörst -"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 318,
+    "before": [
+      "Du denkst im Ernste das zu thun?",
+      "Die strenge Noth"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 320,
+    "before": [
+      "Was thun wir, Männer?",
+      "Bösewicht, was willst du thun?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 320,
+    "before": [
+      "Sohn, gib den Bogen, laß mir ihn!",
+      "Das wird er nie,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 320,
+    "before": [
+      "Die mich gewaltsam?",
+      "Wenn du nicht freiwillig gehst."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 321,
+    "before": [
+      "Ich sage: nein!",
+      "Und ich gebiet' es, du gehorchst!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 321,
+    "before": [
+      "Was willst du thun?",
+      "Vom Felsen stürz' ich mich sofort,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 323,
+    "before": [
+      "Und nun",
+      "wozu, was bindet, was entführt ihr mich,"
+    ],
+    "after": "Und nun wozu, was bindet, was entführt ihr mich,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 324,
+    "before": [
+      "Auch ihr, o Freunde,",
+      "wollt allein im öden Land"
+    ],
+    "after": "Auch ihr, o Freunde, wollt allein im öden Land",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 325,
+    "before": [
+      "Aber das Heil hast du verschmäht, und dir erwählt das",
+      "Schlimm're."
+    ],
+    "after": "Aber das Heil hast du verschmäht, und dir erwählt das Schlimm're.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 327,
+    "before": [
+      "Der zu dem Leid, das er zuvor schon mir ersann, zahllose",
+      "Schmach hinzufügt."
+    ],
+    "after": "Der zu dem Leid, das er zuvor schon mir ersann, zahllose Schmach hinzufügt.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 328,
+    "before": [
+      "Aller Genuß stets ihm gebricht, welchen der Erd' heiliger",
+      "Schooß heraufschickt?"
+    ],
+    "after": "Aller Genuß stets ihm gebricht, welchen der Erd' heiliger Schooß heraufschickt?",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 329,
+    "before": [
+      "Bleibet, o bleibt, fleh' ich, bei Zeus, welcher den Fluch",
+      "schrecklich erfüllt!"
+    ],
+    "after": "Bleibet, o bleibt, fleh' ich, bei Zeus, welcher den Fluch schrecklich erfüllt!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 329,
+    "before": [
+      "Fremdlinge, weh!",
+      "Fliehet mich nicht!"
+    ],
+    "after": "Fremdlinge, weh! Fliehet mich nicht!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 330,
+    "before": [
+      "Welches Begehr? Sprich!",
+      "Habt ihr ein Beil wo,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 330,
+    "before": [
+      "Den Vater such' ich.",
+      "Und wo?",
+      "Im Hades;"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 332,
+    "before": [
+      "Nun wieder hinzugeben?",
+      "Ich versuche mur"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 333,
+    "before": [
+      "Siehst du meine Hand",
+      "Den Griff des Schwertes fassen?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 334,
+    "before": [
+      "Ob mitzuschiffen.",
+      "Schweige, sprich nicht weiter mehr!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 334,
+    "before": [
+      "Du bleibst darauf?",
+      "Und fester, als ich's sagen kanu."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 334,
+    "before": [
+      "Geredet, schweig' ich.",
+      "Jedes Wort wär' auch umsonst."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 335,
+    "before": [
+      "Dir und Laertes' Sohne!",
+      "Nicht mehr fluche mir!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 335,
+    "before": [
+      "Und ich verbiet' es",
+      "Zeugen sind die Götter mir!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 335,
+    "before": [
+      "Die Stimm' Odysseus'?",
+      "Allerdings, und siehst ihn hier,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 336,
+    "before": [
+      "Das werd' ich nimmer!",
+      "Wehe! Was verwehrst du mir,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  }
+]

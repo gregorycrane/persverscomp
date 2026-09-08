@@ -1,0 +1,136 @@
+[
+  {
+    "basis": "BSB volume I, printed page 34; local PDF page 48, visually checked",
+    "before": [
+      {
+        "kind": "verse",
+        "text": "Vom trauten Lager sprang ich auf, im Mantel, gleich der",
+        "raw": "Vom trauten Lager sprang ich auf, im Mantel, gleich der",
+        "page": 34,
+        "scan": 52,
+        "ocr_line": 26,
+        "printed_n": null,
+        "speaker": "Chor.",
+        "rid": "r1107",
+        "bsb_line": 26,
+        "bsb_bbox": [
+          303,
+          1355,
+          1296,
+          1400
+        ],
+        "bsb_text": "Vom trauten Lager sprang ich auf, im Mantel, gleich der",
+        "bsb_similarity": 1.0,
+        "n": "905u2",
+        "number_basis": "unresolved verse division between printed anchors",
+        "uncertain_interval": [
+          905,
+          910
+        ]
+      },
+      {
+        "kind": "verse",
+        "text": "Dorerinn,",
+        "raw": "Dorerinn,",
+        "page": 34,
+        "scan": 52,
+        "ocr_line": 28,
+        "printed_n": null,
+        "speaker": "Chor.",
+        "rid": "r1109",
+        "bsb_line": 28,
+        "bsb_bbox": [
+          775,
+          1407,
+          939,
+          1447
+        ],
+        "bsb_text": "Dorerinn,",
+        "bsb_similarity": 1.0,
+        "n": "905u4",
+        "number_basis": "unresolved verse division between printed anchors",
+        "uncertain_interval": [
+          905,
+          910
+        ]
+      }
+    ],
+    "after": {
+      "kind": "verse",
+      "text": "Vom trauten Lager sprang ich auf, im Mantel, gleich der Dorerinn,",
+      "raw": "Vom trauten Lager sprang ich auf, im Mantel, gleich der",
+      "page": 34,
+      "scan": 52,
+      "ocr_line": 26,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r1107",
+      "bsb_line": 26,
+      "bsb_bbox": [
+        303,
+        1355,
+        1296,
+        1400
+      ],
+      "bsb_text": "Vom trauten Lager sprang ich auf, im Mantel, gleich der",
+      "bsb_similarity": 1.0,
+      "n": "905u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        905,
+        910
+      ]
+    },
+    "action": "Join displaced indented continuation Dorerinn to its verse; retain next verse Und warf mich hin vor."
+  },
+  {
+    "basis": "Printed page 34, anchors 905 and 910 and wrapped verse checked visually",
+    "old_n": "905u1",
+    "new_n": "906"
+  },
+  {
+    "basis": "Printed page 34, anchors 905 and 910 and wrapped verse checked visually",
+    "old_n": "905u2",
+    "new_n": "907"
+  },
+  {
+    "basis": "Printed page 34, anchors 905 and 910 and wrapped verse checked visually",
+    "old_n": "905u3",
+    "new_n": "908"
+  },
+  {
+    "basis": "Printed page 34, anchors 905 and 910 and wrapped verse checked visually",
+    "old_n": "905u5",
+    "new_n": "909"
+  },
+  {
+    "basis": "Printed opening p.5 or p.34, visually checked",
+    "n": "5",
+    "before": "Umfing, zu fallen durch den Speer von Hellas Polk;",
+    "after": "Umfing, zu fallen durch den Speer von Hellas Volk;"
+  },
+  {
+    "basis": "Printed opening p.5 or p.34, visually checked",
+    "n": "894",
+    "before": "Der Gemaht im Gemache ruht', und",
+    "after": "Der Gemahl im Gemache ruht', und"
+  },
+  {
+    "basis": "Printed opening p.5 or p.34, visually checked",
+    "n": "898",
+    "before": "Ich wand des Haares Locken mir hinauf mit Båndern, ordnete,",
+    "after": "Ich wand des Haares Locken mir hinauf mit Bändern, ordnete,"
+  },
+  {
+    "basis": "Printed opening p.5 or p.34, visually checked",
+    "n": "899",
+    "before": "In goldner Spiegel.",
+    "after": "In goldner Spiegel"
+  },
+  {
+    "basis": "Printed opening p.5 or p.34, visually checked",
+    "n": "918",
+    "before": "Dem Fluche weiht ich sie!",
+    "after": "Dem Fluche weiht’ ich sie!"
+  }
+]

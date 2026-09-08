@@ -1,0 +1,31 @@
+[
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Die Vorigen. Odysseus tritt mit den Ruderknechten auf.",
+      "raw": "Die Vorigen. Odysseus tritt mit den Ruderknechten auf.",
+      "page": 202,
+      "scan": 634,
+      "ocr_line": 6,
+      "printed_n": null,
+      "speaker": "Seilenos.",
+      "rid": "r110",
+      "bsb_line": 5,
+      "bsb_bbox": [
+        154,
+        515,
+        1278,
+        559
+      ],
+      "bsb_text": "Die Vorigen. Odysseus tritt mit den Ruderknechten auf.",
+      "bsb_similarity": 1.0,
+      "n": "95u1",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        95,
+        100
+      ]
+    }
+  }
+]

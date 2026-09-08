@@ -1,0 +1,21 @@
+# Aristophanes migration state — 2026-09-08
+
+Ten supplied English translations migrated to TEI P5 and installed in grcnewxml/data/tlg0019 with group/work __cts__.xml. Eleven Greek references and twelve English versions registered for PMV. Existing Clouds and Birds remain in canonical-greekLit and are used directly. No canonical XML or tracking files were modified.
+
+The supplied legacy Birds corresponds to the migrated perseus-eng2 (99.4% token agreement before accounting for changed quotation markup); its legacy source is also installed as perseus-eng1, as expressly requested. The revised canonical perseus-eng2 remains separately available. This does not claim every spelling/punctuation difference has been reconciled.
+
+All source text, front matter, inline notes and their order are retained. Ten TEI files pass the locally available TEI P5 Relax NG schema. Whitespace-normalized source text is identical except the single conversion of the unmarked speaker *mnhsi/loxos to Μνησίλοχος. No marked Greek Beta Code spans were found; a wider punctuation/accent scan found this one speaker. Parentheses were not globally converted. Future Beta Code work must distinguish possible vowel/rho breathings from punctuation and retain ambiguous cases.
+
+Verse lines in Lindsay's Lysistrata and Dillon's Frogs retain their original divisions and receive digital translation-specific ordinals, marked tr. in PMV. The Frogs legacy n="tr" values were placeholders, not Greek line numbers. Prose translations retain p elements and the source Greek line milestones; no verse numbering was invented for prose.
+
+Greek alignment is at source card granularity, with recorded adjustments where the canonical Greek now labels the same opening differently. Peace's daughter appeal at 118 stays in the previous card; the Greek card 119 starts before Trygaeus' reply. Frogs source cards 89 and 116 are retained as source divisions inside the Greek 60 card. Frogs 0-0 is an empty reference placeholder with no corresponding translation. All substantive translation cards render.
+
+Attribution: for the seven newly migrated 1938-compilation sources, Anonymous is translator and Eugene O'Neill, Jr. is editor, following migrated Birds and the project owner's guidance. The former translator attribution and the 1938 bibliographic provenance are explicitly documented. No independent collation with an Athenian Society printing or copyright renewal investigation was performed. Lindsay and Dillon retain their individual attributions; their source headers lack complete publication details. No new licence was asserted.
+
+Source defects were preserved, not silently corrected. In particular the Acharnians source near the Lamachus departure contains apparent duplicated note material and stray text ('f'), and gives 436 B.C. for a chronological statement requiring review. Existing gap markers in Knights and Wasps are retained; their legacy desc="*" becomes n="*" with reason="unspecified". Legacy date value attributes become padded P5 when attributes without changing the printed date wording. The unknown final-card '--1' suffixes are removed and logged.
+
+All 120 supplied notes are retained (117 Acharnians, 3 Lysistrata), with their existing XML attachment points. This is a migration audit, not an independent verification of those note locations against printed pages. No new note locations were inferred. Front matter is preserved in XML and exposed through the accompanying review pages; PMV's main passage parser reads the body.
+
+A rendered-word audit uncovered a poetry parser bug that omitted prose tails after inline stage directions/notes. The tested fix preserves those tails. After correction, all ten rendered body word sequences agree with the XML. Exact punctuation and complete note order are separately checked at XML level.
+
+Migration-inventory.json records per-play counts and boundary changes; Render-audit.json records rendered-word checks; Schema-validation.json records schema results; Canonical-before.json preserves canonical file fingerprints. Scripts in the workspace work/aristophanes directory reproduce the migration. Do not re-run the one-shot installation script over an existing installation.

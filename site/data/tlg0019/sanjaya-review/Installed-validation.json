@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "work": "tlg0019.tlg009",
+      "deployed_sentences": 1504,
+      "deployed_tokens": 8596,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 68,
+        "sanjaya-com-eng1": 39
+      }
+    },
+    {
+      "work": "tlg0019.tlg005",
+      "deployed_sentences": 1244,
+      "deployed_tokens": 7339,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 52,
+        "sanjaya-com-eng1": 26
+      }
+    },
+    {
+      "work": "tlg0019.tlg008",
+      "deployed_sentences": 1214,
+      "deployed_tokens": 6525,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 48,
+        "sanjaya-com-eng1": 19
+      }
+    },
+    {
+      "work": "tlg0019.tlg007",
+      "deployed_sentences": 1288,
+      "deployed_tokens": 7647,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 54,
+        "sanjaya-com-eng1": 36
+      }
+    },
+    {
+      "work": "tlg0019.tlg003",
+      "deployed_sentences": 1862,
+      "deployed_tokens": 11458,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 68,
+        "sanjaya-com-eng1": 48
+      }
+    },
+    {
+      "work": "tlg0019.tlg011",
+      "deployed_sentences": 1232,
+      "deployed_tokens": 7538,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 28,
+        "sanjaya-com-eng1": 19
+      }
+    },
+    {
+      "work": "tlg0019.tlg004",
+      "deployed_sentences": 1603,
+      "deployed_tokens": 9900,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 72,
+        "sanjaya-com-eng1": 39
+      }
+    },
+    {
+      "work": "tlg0019.tlg001",
+      "deployed_sentences": 1213,
+      "deployed_tokens": 7135,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 58,
+        "sanjaya-com-eng1": 38
+      }
+    },
+    {
+      "work": "tlg0019.tlg010",
+      "deployed_sentences": 1183,
+      "deployed_tokens": 6832,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 37,
+        "sanjaya-com-eng1": 23
+      }
+    },
+    {
+      "work": "tlg0019.tlg002",
+      "deployed_sentences": 1356,
+      "deployed_tokens": 8678,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 58,
+        "sanjaya-com-eng1": 42
+      }
+    },
+    {
+      "work": "tlg0019.tlg006",
+      "deployed_sentences": 1892,
+      "deployed_tokens": 11034,
+      "all_tokens_glossed": true,
+      "all_sentence_cards_exist": true,
+      "passage_counts": {
+        "sanjaya-eng1": 76,
+        "sanjaya-com-eng1": 44
+      }
+    }
+  ],
+  "canonical_greek_unchanged": true,
+  "tests_passed": 51,
+  "viewer_index_rebuilt": true,
+  "browser_check": "Frogs 316-322: Greek and Sanjaya translation display side by side; Sanjaya treebank and commentary choices are present."
+}

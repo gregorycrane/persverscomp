@@ -1,0 +1,189 @@
+[
+  {
+    "after": 150,
+    "before": 155,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r212",
+      "r213",
+      "r214"
+    ]
+  },
+  {
+    "after": 205,
+    "before": 210,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r286",
+      "r288",
+      "r289",
+      "r290",
+      "r291",
+      "r292"
+    ]
+  },
+  {
+    "after": 525,
+    "before": 530,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r676",
+      "r677",
+      "r678",
+      "r681",
+      "r682"
+    ]
+  },
+  {
+    "after": 555,
+    "before": 560,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r718",
+      "r719",
+      "r722",
+      "r723",
+      "r726"
+    ]
+  },
+  {
+    "after": 575,
+    "before": 580,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r752",
+      "r755",
+      "r757",
+      "r759",
+      "r760",
+      "r761"
+    ]
+  },
+  {
+    "after": 700,
+    "before": 705,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r922",
+      "r926",
+      "r927",
+      "r928",
+      "r929"
+    ]
+  },
+  {
+    "after": 705,
+    "before": 710,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r934",
+      "r937",
+      "r939",
+      "r940",
+      "r941"
+    ]
+  },
+  {
+    "after": 725,
+    "before": 730,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r966",
+      "r968",
+      "r970",
+      "r973",
+      "r975",
+      "r977",
+      "r980"
+    ]
+  },
+  {
+    "after": 825,
+    "before": 830,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r1130",
+      "r1131",
+      "r1132"
+    ]
+  },
+  {
+    "after": 985,
+    "before": 990,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r1364",
+      "r1365",
+      "r1366",
+      "r1367",
+      "r1368"
+    ]
+  },
+  {
+    "after": 1145,
+    "before": 1150,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r1570",
+      "r1572",
+      "r1574",
+      "r1575",
+      "r1576"
+    ]
+  },
+  {
+    "after": 1215,
+    "before": 1220,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r1697",
+      "r1699",
+      "r1701",
+      "r1702",
+      "r1705"
+    ]
+  },
+  {
+    "after": 1360,
+    "before": 1365,
+    "units": 6,
+    "expected": 4,
+    "records": [
+      "r1915",
+      "r1917",
+      "r1919",
+      "r1921",
+      "r1922",
+      "r1925"
+    ]
+  },
+  {
+    "after": 1365,
+    "before": 1370,
+    "units": 9,
+    "expected": 4,
+    "records": [
+      "r1930",
+      "r1931",
+      "r1933",
+      "r1935",
+      "r1939",
+      "r1941",
+      "r1943",
+      "r1947",
+      "r1948"
+    ]
+  }
+]

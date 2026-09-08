@@ -1,0 +1,244 @@
+[
+  {
+    "work": "tlg0019.tlg009",
+    "source_directory": "Βάτραχοι",
+    "annotation_rows": 1378,
+    "sentences": 1504,
+    "tokens": 8596,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "1373a"
+    ],
+    "empty_translation_lines": [
+      "1373a"
+    ],
+    "comment_notes": 101,
+    "invalid_heads_preserved": [
+      {
+        "sentence": "c895r186s1",
+        "line": "1053",
+        "token": 1,
+        "head": 3
+      },
+      {
+        "sentence": "c895r186s1",
+        "line": "1053",
+        "token": 2,
+        "head": 3
+      },
+      {
+        "sentence": "c895r186s1",
+        "line": "1053",
+        "token": 4,
+        "head": 3
+      },
+      {
+        "sentence": "c895r186s1",
+        "line": "1053",
+        "token": 6,
+        "head": 3
+      }
+    ],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg005",
+    "source_directory": "Εἰρήνη",
+    "annotation_rows": 1136,
+    "sentences": 1244,
+    "tokens": 7339,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "586"
+    ],
+    "empty_translation_lines": [
+      "532",
+      "586"
+    ],
+    "comment_notes": 53,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg008",
+    "source_directory": "Θεσμοφοριάζουσαι",
+    "annotation_rows": 1039,
+    "sentences": 1214,
+    "tokens": 6525,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [],
+    "empty_translation_lines": [
+      "562"
+    ],
+    "comment_notes": 49,
+    "invalid_heads_preserved": [
+      {
+        "sentence": "c846r100s1",
+        "line": "934b",
+        "token": 2,
+        "head": 3
+      },
+      {
+        "sentence": "c846r100s1",
+        "line": "934b",
+        "token": 8,
+        "head": 3
+      }
+    ],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg007",
+    "source_directory": "Λυσιστράτη",
+    "annotation_rows": 1146,
+    "sentences": 1288,
+    "tokens": 7647,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "330a",
+      "813"
+    ],
+    "empty_translation_lines": [
+      "330a",
+      "813"
+    ],
+    "comment_notes": 77,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg003",
+    "source_directory": "Νεφέλαι",
+    "annotation_rows": 1659,
+    "sentences": 1862,
+    "tokens": 11458,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "0",
+      "706",
+      "888a"
+    ],
+    "empty_translation_lines": [
+      "0",
+      "390",
+      "706",
+      "888a"
+    ],
+    "comment_notes": 103,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg011",
+    "source_directory": "Πλοῦτος",
+    "annotation_rows": 1087,
+    "sentences": 1232,
+    "tokens": 7538,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [],
+    "empty_translation_lines": [
+      "401"
+    ],
+    "comment_notes": 31,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg004",
+    "source_directory": "Σφῆκες",
+    "annotation_rows": 1415,
+    "sentences": 1603,
+    "tokens": 9900,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "1283a"
+    ],
+    "empty_translation_lines": [
+      "1283a"
+    ],
+    "comment_notes": 96,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg001",
+    "source_directory": "Ἀχαρνῆς",
+    "annotation_rows": 1078,
+    "sentences": 1213,
+    "tokens": 7135,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "1202",
+      "1206"
+    ],
+    "empty_translation_lines": [
+      "1202",
+      "1206"
+    ],
+    "comment_notes": 72,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg010",
+    "source_directory": "Ἐκκλησιάζουσαι",
+    "annotation_rows": 1055,
+    "sentences": 1183,
+    "tokens": 6832,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "919a",
+      "919aa"
+    ],
+    "empty_translation_lines": [
+      "919a",
+      "919aa"
+    ],
+    "comment_notes": 53,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg002",
+    "source_directory": "Ἱππῆς",
+    "annotation_rows": 1217,
+    "sentences": 1356,
+    "tokens": 8678,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [
+      "1409"
+    ],
+    "empty_translation_lines": [
+      "1409"
+    ],
+    "comment_notes": 113,
+    "invalid_heads_preserved": [],
+    "routing_mismatches": []
+  },
+  {
+    "work": "tlg0019.tlg006",
+    "source_directory": "Ὄρνιθες",
+    "annotation_rows": 1705,
+    "sentences": 1892,
+    "tokens": 11034,
+    "missing_glosses": 0,
+    "empty_nlp_lines": [],
+    "empty_translation_lines": [],
+    "comment_notes": 106,
+    "invalid_heads_preserved": [
+      {
+        "sentence": "c209r22s1",
+        "line": "227",
+        "token": 2,
+        "head": 1
+      },
+      {
+        "sentence": "c209r22s1",
+        "line": "227",
+        "token": 3,
+        "head": 1
+      }
+    ],
+    "routing_mismatches": []
+  }
+]

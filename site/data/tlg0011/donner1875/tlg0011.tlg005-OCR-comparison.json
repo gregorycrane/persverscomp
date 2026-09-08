@@ -1,0 +1,3117 @@
+[
+  {
+    "page": "7",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "schaun",
+        "U": "schau'n"
+      },
+      {
+        "type": "replace",
+        "C": "schaun",
+        "U": "schau'n"
+      },
+      {
+        "type": "replace",
+        "C": "Lykiers,",
+        "U": "Lyfiers,"
+      },
+      {
+        "type": "replace",
+        "C": "Liuken",
+        "U": "Linken"
+      },
+      {
+        "type": "replace",
+        "C": "Mykenä's",
+        "U": "Mykene's"
+      },
+      {
+        "type": "replace",
+        "C": "grausem",
+        "U": "grauſem"
+      },
+      {
+        "type": "replace",
+        "C": "rettet'",
+        "U": "rettet"
+      }
+    ]
+  },
+  {
+    "page": "8",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Noß",
+        "U": "Roß"
+      },
+      {
+        "type": "replace",
+        "C": "also",
+        "U": "alſo"
+      },
+      {
+        "type": "replace",
+        "C": "Rath.",
+        "U": "Rath!"
+      },
+      {
+        "type": "replace",
+        "C": "bei'm",
+        "U": "beim"
+      },
+      {
+        "type": "replace",
+        "C": "geschieht,",
+        "U": "geschicht,"
+      },
+      {
+        "type": "replace",
+        "C": "sei",
+        "U": "ſei"
+      }
+    ]
+  },
+  {
+    "page": "9",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "Den,"
+      },
+      {
+        "type": "replace",
+        "C": "Asche, schon",
+        "U": "Aſche, ſchon"
+      },
+      {
+        "type": "replace",
+        "C": "segenbringet",
+        "U": "segenbringend"
+      },
+      {
+        "type": "replace",
+        "C": "diesem",
+        "U": "dieſem"
+      },
+      {
+        "type": "replace",
+        "C": "sühnen,",
+        "U": "fühnen,"
+      },
+      {
+        "type": "replace",
+        "C": "erbau'n!",
+        "U": "erbau❜n!"
+      },
+      {
+        "type": "replace",
+        "C": "Greis. (zu Pylades)",
+        "U": "Greis! (Zu Pylades.)"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Elektra (im Hause)."
+      },
+      {
+        "type": "delete",
+        "C": "Elektra. (im Hause)",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Wehklagen",
+        "U": "Wehtlagen"
+      },
+      {
+        "type": "replace",
+        "C": "Kind.",
+        "U": "Kind!"
+      }
+    ]
+  },
+  {
+    "page": "10",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Oheiliges",
+        "U": "O heiliges"
+      },
+      {
+        "type": "replace",
+        "C": "Palaste.) Elektra. (allein)",
+        "U": "Palaſte.) Elektra (allein)."
+      },
+      {
+        "type": "replace",
+        "C": "dahinstarb.",
+        "U": "dahinſtarb."
+      }
+    ]
+  },
+  {
+    "page": "11",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Aïdes'",
+        "U": "Aides'"
+      },
+      {
+        "type": "replace",
+        "C": "O rächet",
+        "U": "Orächet"
+      },
+      {
+        "type": "replace",
+        "C": "Palaste.)",
+        "U": "Palaſte.)"
+      },
+      {
+        "type": "replace",
+        "C": "ihu,",
+        "U": "ihn,"
+      },
+      {
+        "type": "replace",
+        "C": "verstrickt",
+        "U": "verstrict"
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "edelsten",
+        "U": "edelſten"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "trösten",
+        "U": "trösten,"
+      },
+      {
+        "type": "replace",
+        "C": "fühl",
+        "U": "fühl'"
+      },
+      {
+        "type": "replace",
+        "C": "ihu,",
+        "U": "ihn,"
+      }
+    ]
+  },
+  {
+    "page": "12",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "O,",
+        "U": "D,"
+      },
+      {
+        "type": "replace",
+        "C": "erwidertet, laßt",
+        "U": "erwidertet Olaßt"
+      },
+      {
+        "type": "replace",
+        "C": "also",
+        "U": "alſo"
+      },
+      {
+        "type": "replace",
+        "C": "Nuft",
+        "U": "Ruft"
+      },
+      {
+        "type": "replace",
+        "C": "empor",
+        "U": "empor,"
+      },
+      {
+        "type": "replace",
+        "C": "geschied'nen",
+        "U": "geschied❜nen"
+      },
+      {
+        "type": "replace",
+        "C": "Itys,",
+        "U": "Stys,"
+      },
+      {
+        "type": "replace",
+        "C": "Itys",
+        "U": "Stys"
+      },
+      {
+        "type": "replace",
+        "C": "ausströmt!",
+        "U": "ausſtrömt!"
+      },
+      {
+        "type": "replace",
+        "C": "Iphianassa, 155 Und",
+        "U": "Iphianaſſa,"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "155 Und"
+      }
+    ]
+  },
+  {
+    "page": "13",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "3ch"
+      },
+      {
+        "type": "replace",
+        "C": "Allwaltend",
+        "U": "Alwaltend"
+      },
+      {
+        "type": "replace",
+        "C": "Krisa's",
+        "U": "Kriſa's"
+      },
+      {
+        "type": "replace",
+        "C": "kehren,",
+        "U": "fehren,"
+      },
+      {
+        "type": "replace",
+        "C": "Agamemnons,",
+        "U": "Agamemnon's,"
+      }
+    ]
+  },
+  {
+    "page": "14",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Tischen.",
+        "U": "Tiſchen."
+      },
+      {
+        "type": "replace",
+        "C": "Grau'n",
+        "U": "Gran'n"
+      },
+      {
+        "type": "delete",
+        "C": "O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "ſie,",
+        "U": "sie,"
+      }
+    ]
+  },
+  {
+    "page": "15",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "schont!",
+        "U": "schout!"
+      },
+      {
+        "type": "replace",
+        "C": "Bekümmerniß,",
+        "U": "Befümmerniß,"
+      },
+      {
+        "type": "replace",
+        "C": "Sammer",
+        "U": "Jammer"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "und"
+      },
+      {
+        "type": "replace",
+        "C": "Kuhm",
+        "U": "Ruhm"
+      }
+    ]
+  },
+  {
+    "page": "16",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "16.",
+        "U": "16"
+      },
+      {
+        "type": "replace",
+        "C": "ereilt;",
+        "U": "ereilt:"
+      },
+      {
+        "type": "replace",
+        "C": "bekümmert.",
+        "U": "befümmert."
+      },
+      {
+        "type": "replace",
+        "C": "Iammers",
+        "U": "Jammers"
+      },
+      {
+        "type": "replace",
+        "C": "sehn.",
+        "U": "seh'n."
+      },
+      {
+        "type": "replace",
+        "C": "Hasse",
+        "U": "Haſſe"
+      },
+      {
+        "type": "replace",
+        "C": "sizen",
+        "U": "ſizen"
+      }
+    ]
+  },
+  {
+    "page": "17",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Hause seh'n,",
+        "U": "Hauſe ſeh'n,"
+      },
+      {
+        "type": "replace",
+        "C": "Rust",
+        "U": "Ruft"
+      },
+      {
+        "type": "replace",
+        "C": "Fammer",
+        "U": "Jammer"
+      },
+      {
+        "type": "replace",
+        "C": "befrein!",
+        "U": "befrei'n!"
+      },
+      {
+        "type": "replace",
+        "C": "sie",
+        "U": "ſie"
+      },
+      {
+        "type": "replace",
+        "C": "dir",
+        "U": "Dir"
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl. 2",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "18",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "gewaltsam,",
+        "U": "gewaltsan,"
+      },
+      {
+        "type": "replace",
+        "C": "Elektra. Ia",
+        "U": "Ja"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "305 Hier außen umgeh'n! Elektra."
+      },
+      {
+        "type": "delete",
+        "C": "305 Hier außen umgeh'n!",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Sezt",
+        "U": "Jezt"
+      },
+      {
+        "type": "replace",
+        "C": "frage:",
+        "U": "frage,"
+      },
+      {
+        "type": "replace",
+        "C": "sagst,",
+        "U": "ſagſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Ob",
+        "U": "b"
+      },
+      {
+        "type": "replace",
+        "C": "gern.",
+        "U": "gerir."
+      },
+      {
+        "type": "replace",
+        "C": "säumen",
+        "U": "fäumen"
+      },
+      {
+        "type": "replace",
+        "C": "beginnt, Elektra.",
+        "U": "beginnt."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "--- Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "ruhig;",
+        "U": "ruhig"
+      }
+    ]
+  },
+  {
+    "page": "19",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "umsonst",
+        "U": "umſonſt"
+      },
+      {
+        "type": "replace",
+        "C": "zieh'",
+        "U": "zich'"
+      },
+      {
+        "type": "replace",
+        "C": "Zwar",
+        "U": "3war"
+      },
+      {
+        "type": "replace",
+        "C": "nicht",
+        "U": "nicht,"
+      },
+      {
+        "type": "replace",
+        "C": "mur.",
+        "U": "nur."
+      },
+      {
+        "type": "replace",
+        "C": "klug,",
+        "U": "flug,"
+      },
+      {
+        "type": "replace",
+        "C": "geliehn,",
+        "U": "gelieh'n,"
+      },
+      {
+        "type": "delete",
+        "C": ":",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "20",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Kache",
+        "U": "Rache"
+      },
+      {
+        "type": "replace",
+        "C": "seigen",
+        "U": "feigen"
+      },
+      {
+        "type": "replace",
+        "C": "ſtellt'",
+        "U": "stellt'"
+      },
+      {
+        "type": "replace",
+        "C": "hassest",
+        "U": "hasfest"
+      },
+      {
+        "type": "replace",
+        "C": "gesellt.",
+        "U": "geſellt."
+      },
+      {
+        "type": "replace",
+        "C": "Chor:",
+        "U": "Chor."
+      },
+      {
+        "type": "replace",
+        "C": "Naum;",
+        "U": "Raum;"
+      },
+      {
+        "type": "replace",
+        "C": "wüßtest",
+        "U": "wüßteſt"
+      },
+      {
+        "type": "replace",
+        "C": "ist,",
+        "U": "iſt,"
+      }
+    ]
+  },
+  {
+    "page": "21",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "3ch"
+      },
+      {
+        "type": "replace",
+        "C": "sollst.",
+        "U": "sollſt."
+      },
+      {
+        "type": "replace",
+        "C": "beschlossen,",
+        "U": "beſchloſſen,"
+      },
+      {
+        "type": "replace",
+        "C": "wegzuflieh'n",
+        "U": "wegzuflich'n"
+      },
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryſothemis."
+      },
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryſothemis."
+      }
+    ]
+  },
+  {
+    "page": "22",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "rus'",
+        "U": "ruf'"
+      },
+      {
+        "type": "replace",
+        "C": "ſtimmst",
+        "U": "stimmst"
+      },
+      {
+        "type": "replace",
+        "C": "Feind?",
+        "U": "Feind ?"
+      },
+      {
+        "type": "replace",
+        "C": "Nath",
+        "U": "Rath"
+      },
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryjothemis."
+      }
+    ]
+  },
+  {
+    "page": "23",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "dy,",
+        "U": "du,"
+      },
+      {
+        "type": "replace",
+        "C": "sage dies.",
+        "U": "fage dies!"
+      },
+      {
+        "type": "replace",
+        "C": "pflanzt'",
+        "U": "pflanzt"
+      },
+      {
+        "type": "replace",
+        "C": "Hierher",
+        "U": "Hieher"
+      },
+      {
+        "type": "replace",
+        "C": "folge",
+        "U": "folge,"
+      }
+    ]
+  },
+  {
+    "page": "24",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Trankopfer",
+        "U": "Tranfopfer"
+      },
+      {
+        "type": "replace",
+        "C": "sühnen",
+        "U": "fühnen"
+      },
+      {
+        "type": "replace",
+        "C": "selbst",
+        "U": "ſelbſt"
+      },
+      {
+        "type": "replace",
+        "C": "selbst",
+        "U": "ſelbſt"
+      },
+      {
+        "type": "replace",
+        "C": "ruh",
+        "U": "ruht"
+      }
+    ]
+  },
+  {
+    "page": "25",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "gehn..",
+        "U": "geh'n."
+      },
+      {
+        "type": "replace",
+        "C": "viel",
+        "U": "vielen"
+      }
+    ]
+  },
+  {
+    "page": "26",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Umstrickte",
+        "U": "Umstricte"
+      },
+      {
+        "type": "replace",
+        "C": "Schlußgesang. Pelops',",
+        "U": "Belops',"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Schlußgesang."
+      },
+      {
+        "type": "replace",
+        "C": "seid",
+        "U": "seit"
+      },
+      {
+        "type": "replace",
+        "C": "Entſeelt",
+        "U": "Entseelt"
+      },
+      {
+        "type": "replace",
+        "C": "herauszugehn.",
+        "U": "herauszugeh'n."
+      }
+    ]
+  },
+  {
+    "page": "27",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "beginnst.",
+        "U": "beginnſt."
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "-"
+      },
+      {
+        "type": "replace",
+        "C": "warum",
+        "U": "warum,"
+      },
+      {
+        "type": "replace",
+        "C": "diesen",
+        "U": "dieſen"
+      },
+      {
+        "type": "replace",
+        "C": "schlechtgesinnt?",
+        "U": "schlechtgesinnt ?"
+      },
+      {
+        "type": "replace",
+        "C": "sagt'",
+        "U": "sagt"
+      },
+      {
+        "type": "replace",
+        "C": "dünkt,",
+        "U": "dünft,"
+      }
+    ]
+  },
+  {
+    "page": "28",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "28",
+        "U": "23"
+      },
+      {
+        "type": "replace",
+        "C": "zuerst Gekränkt",
+        "U": "zuerſt Getränkt"
+      },
+      {
+        "type": "delete",
+        "C": "Doch sag' ich dir,",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Doch sag' ich dir,"
+      },
+      {
+        "type": "replace",
+        "C": "raschem",
+        "U": "raſchem"
+      },
+      {
+        "type": "replace",
+        "C": "Ersaz",
+        "U": "Erfaz"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "--"
+      }
+    ]
+  },
+  {
+    "page": "29",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "sage,",
+        "U": "sage"
+      },
+      {
+        "type": "replace",
+        "C": "gefällt)",
+        "U": "gefällt),"
+      },
+      {
+        "type": "replace",
+        "C": "magst,",
+        "U": "magſt,"
+      },
+      {
+        "type": "replace",
+        "C": "erschlugst,",
+        "U": "erſchlugſt,"
+      },
+      {
+        "type": "replace",
+        "C": "einst",
+        "U": "einſt"
+      },
+      {
+        "type": "replace",
+        "C": "entspross'nen,",
+        "U": "entſproſs'nen,"
+      },
+      {
+        "type": "replace",
+        "C": "hast.",
+        "U": "haſt."
+      },
+      {
+        "type": "replace",
+        "C": "Kache",
+        "U": "Rache"
+      },
+      {
+        "type": "replace",
+        "C": "anzutrau'n.",
+        "U": "anzutrau’n."
+      },
+      {
+        "type": "replace",
+        "C": "russt",
+        "U": "rufſt"
+      },
+      {
+        "type": "replace",
+        "C": "seist Viel",
+        "U": "seiſt Biel"
+      },
+      {
+        "type": "replace",
+        "C": "Schuld",
+        "U": "Schuld."
+      },
+      {
+        "type": "replace",
+        "C": "stets",
+        "U": "ſtets"
+      },
+      {
+        "type": "replace",
+        "C": "thät'",
+        "U": "that'"
+      }
+    ]
+  },
+  {
+    "page": "30",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "erdreisten",
+        "U": "erdreiſten"
+      },
+      {
+        "type": "replace",
+        "C": "fühl",
+        "U": "fühl'"
+      },
+      {
+        "type": "replace",
+        "C": "schmähst",
+        "U": "schmähſt"
+      },
+      {
+        "type": "replace",
+        "C": "Artemis,",
+        "U": "Artimes,"
+      },
+      {
+        "type": "replace",
+        "C": "kehrt",
+        "U": "fehrt"
+      }
+    ]
+  },
+  {
+    "page": "31",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Klytämnestra.",
+        "U": "Klytämnestra"
+      },
+      {
+        "type": "replace",
+        "C": "Begleiterinnen)",
+        "U": "Begleiterinnen)."
+      },
+      {
+        "type": "replace",
+        "C": "(sie",
+        "U": "(Sie"
+      },
+      {
+        "type": "replace",
+        "C": "Apollon)",
+        "U": "Apollon.)"
+      },
+      {
+        "type": "replace",
+        "C": "Lykeierfürst,",
+        "U": "Lyfeierfürst,"
+      },
+      {
+        "type": "replace",
+        "C": "gestatt' es,",
+        "U": "gestatt es',"
+      },
+      {
+        "type": "replace",
+        "C": "ränkevoll",
+        "U": "räntevoll"
+      },
+      {
+        "type": "replace",
+        "C": "Im",
+        "U": "3m"
+      },
+      {
+        "type": "replace",
+        "C": "Herrscherstab,",
+        "U": "Herrscherſtab,"
+      },
+      {
+        "type": "delete",
+        "C": "J",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "32",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "ist.",
+        "U": "iſt."
+      },
+      {
+        "type": "replace",
+        "C": "trasst",
+        "U": "trafft"
+      },
+      {
+        "type": "replace",
+        "C": "erblickst",
+        "U": "erblichst"
+      },
+      {
+        "type": "delete",
+        "C": "Der Pfleger.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Und auch Aegisthen, Der Pfleger."
+      },
+      {
+        "type": "delete",
+        "C": "Und auch Aegisthen,",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sagst",
+        "U": "ſagſt"
+      },
+      {
+        "type": "replace",
+        "C": "diese nicht.",
+        "U": "dieſe nicht!"
+      }
+    ]
+  },
+  {
+    "page": "33",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Elektra..",
+        "U": "Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "Bahu.",
+        "U": "Bahn."
+      },
+      {
+        "type": "replace",
+        "C": "Vielem sag'",
+        "U": "Bielem jag'"
+      },
+      {
+        "type": "replace",
+        "C": "Doppelbahn,",
+        "U": "Doppelbahn."
+      },
+      {
+        "type": "replace",
+        "C": "ich,)",
+        "U": "ich),"
+      },
+      {
+        "type": "replace",
+        "C": "Agamemnons",
+        "U": "Agamemnon's"
+      },
+      {
+        "type": "replace",
+        "C": "Sophokles",
+        "U": "Sophokles."
+      },
+      {
+        "type": "replace",
+        "C": "Donner.",
+        "U": "Donner"
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl.",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "34",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Im",
+        "U": "3m"
+      },
+      {
+        "type": "replace",
+        "C": "thessalischem",
+        "U": "thessaliſchem"
+      },
+      {
+        "type": "replace",
+        "C": "sie,",
+        "U": "ſie,"
+      },
+      {
+        "type": "replace",
+        "C": "Nasseln;",
+        "U": "Rasseln;"
+      },
+      {
+        "type": "replace",
+        "C": "vorbeizufliehn.",
+        "U": "vorbeizuflieh'n."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes",
+        "U": "Oreſtes"
+      },
+      {
+        "type": "replace",
+        "C": "laffend,",
+        "U": "lassend,"
+      },
+      {
+        "type": "replace",
+        "C": "ranmuten",
+        "U": "rannten"
+      },
+      {
+        "type": "replace",
+        "C": "Zügellenker",
+        "U": "Zügellenfer"
+      }
+    ]
+  },
+  {
+    "page": "35",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "banend",
+        "U": "bauend"
+      },
+      {
+        "type": "replace",
+        "C": "sein",
+        "U": "ſein"
+      },
+      {
+        "type": "replace",
+        "C": "Soch",
+        "U": "Joch"
+      },
+      {
+        "type": "replace",
+        "C": "Soch,",
+        "U": "Joch,"
+      },
+      {
+        "type": "replace",
+        "C": "sank,",
+        "U": "ſank,"
+      },
+      {
+        "type": "replace",
+        "C": "Nosse",
+        "U": "Rosse"
+      },
+      {
+        "type": "replace",
+        "C": "bedeckten,",
+        "U": "Bedeckten,"
+      },
+      {
+        "type": "replace",
+        "C": "Phokervolk",
+        "U": "Phofervolk"
+      }
+    ]
+  },
+  {
+    "page": "36",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Neun'",
+        "U": "Nenn'"
+      },
+      {
+        "type": "replace",
+        "C": "Klytämnestra,",
+        "U": "Klytämnestra."
+      },
+      {
+        "type": "replace",
+        "C": "kamen",
+        "U": "famen"
+      },
+      {
+        "type": "replace",
+        "C": "einst",
+        "U": "einſt"
+      },
+      {
+        "type": "replace",
+        "C": "Verlassen,",
+        "U": "Berlassen,"
+      },
+      {
+        "type": "replace",
+        "C": "Nache",
+        "U": "Rache"
+      },
+      {
+        "type": "replace",
+        "C": "austrank:",
+        "U": "austranf: -"
+      },
+      {
+        "type": "replace",
+        "C": "freun.",
+        "U": "freu'n."
+      }
+    ]
+  },
+  {
+    "page": "37",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Iezt, Crestes,",
+        "U": "Jezt, Orestes,"
+      },
+      {
+        "type": "replace",
+        "C": "geschehn?",
+        "U": "gescheh'n?"
+      },
+      {
+        "type": "replace",
+        "C": "geschehu.",
+        "U": "gescheh'n."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "Nemesis!",
+        "U": "Nemeſis!"
+      },
+      {
+        "type": "replace",
+        "C": "luns",
+        "U": "Uns"
+      },
+      {
+        "type": "replace",
+        "C": "Klytämnestra.",
+        "U": "Klytämneſtra."
+      },
+      {
+        "type": "replace",
+        "C": "(sie",
+        "U": "(Sie"
+      },
+      {
+        "type": "replace",
+        "C": "Hans.)",
+        "U": "Haus.)"
+      },
+      {
+        "type": "replace",
+        "C": "Dünkt",
+        "U": "Dünft"
+      },
+      {
+        "type": "delete",
+        "C": ":",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "38",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "O",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sein,",
+        "U": "ſein,"
+      }
+    ]
+  },
+  {
+    "page": "39",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Wie? Elektra."
+      },
+      {
+        "type": "delete",
+        "C": "Wie?",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "drückst",
+        "U": "drückſt"
+      },
+      {
+        "type": "replace",
+        "C": "bestrickt,",
+        "U": "beſtrict,"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ia,",
+        "U": "Ja,"
+      },
+      {
+        "type": "replace",
+        "C": "Ia.",
+        "U": "Ja."
+      },
+      {
+        "type": "delete",
+        "C": "harrenden kam",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "weiß:",
+        "U": "weiß"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Harrenden kam"
+      }
+    ]
+  },
+  {
+    "page": "40",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "beklagst, sah'n",
+        "U": "beklagſt, ſah'n"
+      },
+      {
+        "type": "replace",
+        "C": "885",
+        "U": "835"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "--"
+      },
+      {
+        "type": "replace",
+        "C": "Erdsöhne",
+        "U": "Erdföhne"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Eleftra."
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Der Chor.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Der Chor."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "errang, Oder",
+        "U": "errang der"
+      }
+    ]
+  },
+  {
+    "page": "41",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "raschem",
+        "U": "raſchem"
+      },
+      {
+        "type": "replace",
+        "C": "Sammer",
+        "U": "Jammer"
+      },
+      {
+        "type": "replace",
+        "C": "ist?",
+        "U": "iſt?"
+      },
+      {
+        "type": "replace",
+        "C": "gekommen,",
+        "U": "gekommen"
+      },
+      {
+        "type": "replace",
+        "C": "es,)",
+        "U": "es),"
+      },
+      {
+        "type": "replace",
+        "C": "erblickst.",
+        "U": "erblickſt."
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Vernahmst du's, daß Elektra."
+      },
+      {
+        "type": "delete",
+        "C": "Vernahmst du's, daß",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "kühn vertraust?",
+        "U": "fühn vertrauſt?"
+      },
+      {
+        "type": "replace",
+        "C": "sahst",
+        "U": "jahst"
+      },
+      {
+        "type": "replace",
+        "C": "solches",
+        "U": "folches"
+      }
+    ]
+  },
+  {
+    "page": "42",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "gesehın.",
+        "U": "geseh'n."
+      },
+      {
+        "type": "replace",
+        "C": "dazumal :",
+        "U": "dazumal:"
+      },
+      {
+        "type": "replace",
+        "C": "dieses",
+        "U": "dieſes"
+      },
+      {
+        "type": "replace",
+        "C": "Grabesschmuck.",
+        "U": "Grabesſchmuck."
+      },
+      {
+        "type": "replace",
+        "C": "beklag'",
+        "U": "beflag'"
+      },
+      {
+        "type": "delete",
+        "C": ":",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "43",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryſothemis."
+      },
+      {
+        "type": "replace",
+        "C": "au.",
+        "U": "an."
+      },
+      {
+        "type": "replace",
+        "C": "lästig",
+        "U": "läſtig"
+      },
+      {
+        "type": "replace",
+        "C": "Iemand",
+        "U": "Jemand"
+      },
+      {
+        "type": "replace",
+        "C": "Last.",
+        "U": "Laſt."
+      }
+    ]
+  },
+  {
+    "page": "44",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryjothemis."
+      },
+      {
+        "type": "replace",
+        "C": "Nacht?",
+        "U": "Nacht ?"
+      },
+      {
+        "type": "replace",
+        "C": "verstandlos",
+        "U": "verſtandlos"
+      },
+      {
+        "type": "replace",
+        "C": "Kath.",
+        "U": "Rath."
+      },
+      {
+        "type": "replace",
+        "C": "kann",
+        "U": "fann"
+      },
+      {
+        "type": "replace",
+        "C": "blick",
+        "U": "blick'"
+      }
+    ]
+  },
+  {
+    "page": "45",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "erwuchsest, also wirst",
+        "U": "erwuchſeſt, alſo wirſt"
+      },
+      {
+        "type": "replace",
+        "C": "Bahu,",
+        "U": "Bahn,"
+      },
+      {
+        "type": "replace",
+        "C": "preisen,",
+        "U": "preiſen,"
+      },
+      {
+        "type": "replace",
+        "C": "steh",
+        "U": "steh'"
+      }
+    ]
+  },
+  {
+    "page": "46",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "schwächer",
+        "U": "schwächer,"
+      },
+      {
+        "type": "replace",
+        "C": "entziehn?",
+        "U": "entzieh'n?"
+      },
+      {
+        "type": "replace",
+        "C": "uns",
+        "U": "uns,"
+      },
+      {
+        "type": "replace",
+        "C": "Nuhme,",
+        "U": "Ruhme,"
+      },
+      {
+        "type": "replace",
+        "C": "untergehn.",
+        "U": "untergeh'n."
+      },
+      {
+        "type": "replace",
+        "C": "selbst",
+        "U": "ſelbſt"
+      },
+      {
+        "type": "replace",
+        "C": "bist.",
+        "U": "biſt!"
+      },
+      {
+        "type": "replace",
+        "C": "klugbedachter",
+        "U": "flugbedachter"
+      },
+      {
+        "type": "replace",
+        "C": "würd'st",
+        "U": "würd'ſt"
+      }
+    ]
+  },
+  {
+    "page": "47",
+    "differences": [
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Weh!"
+      },
+      {
+        "type": "delete",
+        "C": "Weh! O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Lebenlang.",
+        "U": "Lebenlang!"
+      },
+      {
+        "type": "replace",
+        "C": "mahnst",
+        "U": "mahust"
+      },
+      {
+        "type": "replace",
+        "C": "klug",
+        "U": "flug"
+      },
+      {
+        "type": "replace",
+        "C": "hass'",
+        "U": "haff'"
+      },
+      {
+        "type": "replace",
+        "C": "müzen,",
+        "U": "nüzen,"
+      },
+      {
+        "type": "replace",
+        "C": "dies.",
+        "U": "dies!"
+      }
+    ]
+  },
+  {
+    "page": "48",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "sich,",
+        "U": "sieh,"
+      },
+      {
+        "type": "replace",
+        "C": "niederziehst.",
+        "U": "niederziehſt."
+      },
+      {
+        "type": "replace",
+        "C": "erscheint?",
+        "U": "erscheint ?"
+      },
+      {
+        "type": "replace",
+        "C": "fehlzugehn!",
+        "U": "fehlzugeh'n!"
+      },
+      {
+        "type": "replace",
+        "C": "hass'",
+        "U": "haff'"
+      }
+    ]
+  },
+  {
+    "page": "49",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Chrysothemis.",
+        "U": "Chryſothemis."
+      },
+      {
+        "type": "replace",
+        "C": "dünkst,",
+        "U": "dünkſt,"
+      },
+      {
+        "type": "replace",
+        "C": "dringst,",
+        "U": "dringſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Iammerruf",
+        "U": "Jammerruf"
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "(geht",
+        "U": "(Geht"
+      }
+    ]
+  },
+  {
+    "page": "50",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "klagenden.",
+        "U": "klagenden"
+      },
+      {
+        "type": "replace",
+        "C": "rufst",
+        "U": "rufft"
+      },
+      {
+        "type": "replace",
+        "C": "frömmste.",
+        "U": "frömmſte."
+      },
+      {
+        "type": "replace",
+        "C": "unselig",
+        "U": "unſelig"
+      },
+      {
+        "type": "replace",
+        "C": "höchster",
+        "U": "höchſten"
+      },
+      {
+        "type": "replace",
+        "C": "treu,",
+        "U": "tren,"
+      }
+    ]
+  },
+  {
+    "page": "51",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "forsch'",
+        "U": "forſch'"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Dreites."
+      },
+      {
+        "type": "replace",
+        "C": "Chor.",
+        "U": "Chor"
+      },
+      {
+        "type": "replace",
+        "C": "deutend)",
+        "U": "deutend)."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "Phokerland.",
+        "U": "Phokerland -"
+      },
+      {
+        "type": "replace",
+        "C": "Crestes.",
+        "U": "Orestes."
+      },
+      {
+        "type": "replace",
+        "C": "hier",
+        "U": "hier."
+      },
+      {
+        "type": "replace",
+        "C": "Frau.",
+        "U": "Frau!"
+      },
+      {
+        "type": "replace",
+        "C": "es:",
+        "U": "es"
+      },
+      {
+        "type": "replace",
+        "C": "diese Schmerzenslast! Orestes.",
+        "U": "dieſe Schmerzenslaſt! Dreites."
+      },
+      {
+        "type": "replace",
+        "C": "Loose",
+        "U": "Looſe"
+      }
+    ]
+  },
+  {
+    "page": "52",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Orestes"
+      },
+      {
+        "type": "replace",
+        "C": "Dienern)",
+        "U": "Dienern)."
+      },
+      {
+        "type": "replace",
+        "C": "Elektra.",
+        "U": "Elektra"
+      },
+      {
+        "type": "replace",
+        "C": "umfassend)",
+        "U": "umfaſſend)."
+      },
+      {
+        "type": "replace",
+        "C": "von",
+        "U": "vom"
+      },
+      {
+        "type": "replace",
+        "C": "himveg!",
+        "U": "hinweg!"
+      },
+      {
+        "type": "replace",
+        "C": "diesem",
+        "U": "dieſem"
+      },
+      {
+        "type": "replace",
+        "C": "starbst",
+        "U": "starbſt"
+      },
+      {
+        "type": "replace",
+        "C": "von Hause,",
+        "U": "vom Hauſe,"
+      },
+      {
+        "type": "replace",
+        "C": "Last",
+        "U": "Laſt"
+      },
+      {
+        "type": "replace",
+        "C": "wohl gebührt.",
+        "U": "wohlgebührt."
+      },
+      {
+        "type": "replace",
+        "C": "Beschickt",
+        "U": "Beſchicht"
+      },
+      {
+        "type": "replace",
+        "C": "Kaum.",
+        "U": "Raum."
+      },
+      {
+        "type": "replace",
+        "C": "einst",
+        "U": "einſt"
+      },
+      {
+        "type": "replace",
+        "C": "so",
+        "U": "ſo"
+      }
+    ]
+  },
+  {
+    "page": "53",
+    "differences": [
+      {
+        "type": "insert",
+        "C": "",
+        "U": "333"
+      },
+      {
+        "type": "replace",
+        "C": "lud",
+        "U": "Und"
+      },
+      {
+        "type": "replace",
+        "C": "Nächer",
+        "U": "Rächer"
+      },
+      {
+        "type": "replace",
+        "C": "Asche",
+        "U": "Aſche"
+      },
+      {
+        "type": "replace",
+        "C": "Weh,",
+        "U": "Weh!"
+      },
+      {
+        "type": "replace",
+        "C": "Sa,",
+        "U": "Ja,"
+      },
+      {
+        "type": "replace",
+        "C": "Staubgewordne,",
+        "U": "Staubgeword'ne,"
+      },
+      {
+        "type": "replace",
+        "C": "mun",
+        "U": "nun"
+      },
+      {
+        "type": "replace",
+        "C": "sein.",
+        "U": "ſein."
+      },
+      {
+        "type": "replace",
+        "C": "sterblich;",
+        "U": "sterblich:"
+      },
+      {
+        "type": "replace",
+        "C": "allzusehr.",
+        "U": "allzusehr!"
+      }
+    ]
+  },
+  {
+    "page": "54",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Creites."
+      },
+      {
+        "type": "replace",
+        "C": "Bild?",
+        "U": "Bild ? Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "Elektra. Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "rufst",
+        "U": "rufſt"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "blickst",
+        "U": "blichst"
+      },
+      {
+        "type": "replace",
+        "C": "jammerst",
+        "U": "jammerſt"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "enthült? Orestes.",
+        "U": "enthüllt? Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "schaun?",
+        "U": "schau’n?"
+      }
+    ]
+  },
+  {
+    "page": "55",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "zugesellt",
+        "U": "zugefellt"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "fühl",
+        "U": "fühl'"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Trenergebnen",
+        "U": "Treuergebnen"
+      }
+    ]
+  },
+  {
+    "page": "56",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "seze",
+        "U": "feze"
+      },
+      {
+        "type": "replace",
+        "C": "Freund. Orestes.",
+        "U": "Freund! Drejtes"
+      },
+      {
+        "type": "replace",
+        "C": "umfassend)",
+        "U": "umfassend)."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Orestes"
+      },
+      {
+        "type": "replace",
+        "C": "nehmend)",
+        "U": "nehmend)."
+      },
+      {
+        "type": "replace",
+        "C": "dich!",
+        "U": "dich,"
+      }
+    ]
+  },
+  {
+    "page": "57",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Grust",
+        "U": "Gruft"
+      },
+      {
+        "type": "replace",
+        "C": "Lebender, Elektra.",
+        "U": "Lebender."
+      },
+      {
+        "type": "replace",
+        "C": "Crestes.",
+        "U": "Elektra. Dreites."
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Elektra."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Du bist es selber?"
+      },
+      {
+        "type": "delete",
+        "C": "Du bist es selber?",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "Crestes.",
+        "U": "Orestes."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "―"
+      },
+      {
+        "type": "replace",
+        "C": "kamst?",
+        "U": "famst?"
+      }
+    ]
+  },
+  {
+    "page": "58",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "rinnt",
+        "U": "rinnt."
+      },
+      {
+        "type": "delete",
+        "C": "Otheurer Sproß,",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "theurer Sproß,"
+      },
+      {
+        "type": "replace",
+        "C": "fandest, sahest,",
+        "U": "fandeſt, ſaheſt,"
+      },
+      {
+        "type": "replace",
+        "C": "noch.",
+        "U": "noch!"
+      },
+      {
+        "type": "replace",
+        "C": "Oweh,",
+        "U": "weh,"
+      },
+      {
+        "type": "replace",
+        "C": "Graun!",
+        "U": "Grann!"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Dreites."
+      }
+    ]
+  },
+  {
+    "page": "59",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Ia",
+        "U": "Ja"
+      },
+      {
+        "type": "replace",
+        "C": "kaum",
+        "U": "faum"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Gut.",
+        "U": "Gut!"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "fasse",
+        "U": "faſſe"
+      },
+      {
+        "type": "replace",
+        "C": "Neden kurz.",
+        "U": "Reden kurz!"
+      },
+      {
+        "type": "replace",
+        "C": "erschienst,",
+        "U": "erſchienſt,"
+      },
+      {
+        "type": "replace",
+        "C": "du'",
+        "U": "du"
+      },
+      {
+        "type": "replace",
+        "C": "O,",
+        "U": ","
+      }
+    ]
+  },
+  {
+    "page": "60",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "Orestes.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Naube",
+        "U": "Raube"
+      },
+      {
+        "type": "replace",
+        "C": "sinnst,",
+        "U": "finnst,"
+      }
+    ]
+  },
+  {
+    "page": "61",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Wert, Daun",
+        "U": "Werk, Dann"
+      },
+      {
+        "type": "replace",
+        "C": "Ia,",
+        "U": "Ja,"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "-"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "-"
+      },
+      {
+        "type": "replace",
+        "C": "sehu.",
+        "U": "seh'n."
+      },
+      {
+        "type": "replace",
+        "C": "diese",
+        "U": "dieſe"
+      },
+      {
+        "type": "replace",
+        "C": "Geseh'n?",
+        "U": "Gefeh'n?"
+      },
+      {
+        "type": "replace",
+        "C": "Ia,",
+        "U": "Ja,"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "seh'n.",
+        "U": "ſeh'n."
+      },
+      {
+        "type": "replace",
+        "C": "Geh",
+        "U": "Geh'"
+      },
+      {
+        "type": "replace",
+        "C": "Iemand",
+        "U": "Jemand"
+      },
+      {
+        "type": "replace",
+        "C": "Elektra.",
+        "U": "Elektra"
+      },
+      {
+        "type": "replace",
+        "C": "verstellend)",
+        "U": "verstellend)."
+      }
+    ]
+  },
+  {
+    "page": "62",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Geist",
+        "U": "Geiſt"
+      },
+      {
+        "type": "replace",
+        "C": "selbst,",
+        "U": "ſelbſt,"
+      },
+      {
+        "type": "replace",
+        "C": "erkennt?",
+        "U": "erkennt ?"
+      },
+      {
+        "type": "replace",
+        "C": "Plane",
+        "U": "Pläne"
+      },
+      {
+        "type": "replace",
+        "C": "Hause",
+        "U": "Hauſe"
+      },
+      {
+        "type": "replace",
+        "C": "Kuchbar",
+        "U": "Ruchbar"
+      },
+      {
+        "type": "replace",
+        "C": "mun",
+        "U": "nun"
+      },
+      {
+        "type": "replace",
+        "C": "ist",
+        "U": "iſt"
+      },
+      {
+        "type": "replace",
+        "C": "das",
+        "U": "daß"
+      },
+      {
+        "type": "replace",
+        "C": "wisse,",
+        "U": "wiſſe,"
+      },
+      {
+        "type": "replace",
+        "C": "steh'lu,",
+        "U": "steh'n,"
+      }
+    ]
+  },
+  {
+    "page": "63",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "Orestes.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ihn",
+        "U": "3hn"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Dreites."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "übergabst? Elektra.",
+        "U": "übergabſt?"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Elektra. Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Phokis",
+        "U": "Phofis"
+      },
+      {
+        "type": "replace",
+        "C": "Sener",
+        "U": "Jener"
+      },
+      {
+        "type": "replace",
+        "C": "einst",
+        "U": "einſt"
+      },
+      {
+        "type": "replace",
+        "C": "mehr.",
+        "U": "mehr!"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "Dienst",
+        "U": "Dienſt"
+      },
+      {
+        "type": "replace",
+        "C": "Tag'",
+        "U": "Tag"
+      }
+    ]
+  },
+  {
+    "page": "64",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Tyndars",
+        "U": "Tyndar's"
+      },
+      {
+        "type": "replace",
+        "C": "keiner",
+        "U": "feiner"
+      },
+      {
+        "type": "replace",
+        "C": "anderen",
+        "U": "anderen."
+      },
+      {
+        "type": "replace",
+        "C": "Hauses",
+        "U": "Hauſes"
+      },
+      {
+        "type": "replace",
+        "C": "knieen",
+        "U": "knicen"
+      },
+      {
+        "type": "replace",
+        "C": "Altar",
+        "U": "Altarc"
+      },
+      {
+        "type": "replace",
+        "C": "Palast.)",
+        "U": "Palaſt.)"
+      },
+      {
+        "type": "delete",
+        "C": "O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Chor. (allein.)",
+        "U": "Chor (allein)."
+      },
+      {
+        "type": "replace",
+        "C": "(sie",
+        "U": "(Sie"
+      },
+      {
+        "type": "replace",
+        "C": "ihnen.)",
+        "U": "ihnen.)`"
+      },
+      {
+        "type": "replace",
+        "C": "schnaubend",
+        "U": "ſchnaubend"
+      },
+      {
+        "type": "replace",
+        "C": "stürmt",
+        "U": "ſtürmt"
+      },
+      {
+        "type": "replace",
+        "C": "hesten",
+        "U": "heften"
+      },
+      {
+        "type": "replace",
+        "C": "mehr.",
+        "U": "mehr"
+      }
+    ]
+  },
+  {
+    "page": "65",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Denu",
+        "U": "Denn"
+      },
+      {
+        "type": "replace",
+        "C": "Mord,",
+        "U": "Merd,"
+      },
+      {
+        "type": "replace",
+        "C": "ihu,",
+        "U": "ihn,"
+      },
+      {
+        "type": "delete",
+        "C": "O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Klytämnestra.",
+        "U": "Klytämnestra"
+      },
+      {
+        "type": "replace",
+        "C": "Hause)",
+        "U": "Hause)."
+      },
+      {
+        "type": "replace",
+        "C": "8. Aufl. 5",
+        "U": "ة"
+      }
+    ]
+  },
+  {
+    "page": "66",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Wehklageruf,",
+        "U": "Wehflageruf,"
+      },
+      {
+        "type": "replace",
+        "C": "klagt",
+        "U": "flagt"
+      },
+      {
+        "type": "replace",
+        "C": "kein",
+        "U": "fein"
+      },
+      {
+        "type": "replace",
+        "C": "sinkst! Klytämnestra.",
+        "U": "sinkſt!"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Klytämnestra."
+      },
+      {
+        "type": "replace",
+        "C": "Gestorb'nen Kächend",
+        "U": "Gestorb❜nen Rächend"
+      }
+    ]
+  },
+  {
+    "page": "67",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "triest",
+        "U": "trieft"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Dreites."
+      },
+      {
+        "type": "replace",
+        "C": "Apollons",
+        "U": "Apollon's"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "sch'",
+        "U": "seh'"
+      },
+      {
+        "type": "replace",
+        "C": "Elektra.",
+        "U": "Elektra"
+      },
+      {
+        "type": "replace",
+        "C": "Drestes",
+        "U": "Orestes"
+      },
+      {
+        "type": "replace",
+        "C": "Pylades)",
+        "U": "Pylades)."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "1395 Den Mann ? Drejtes."
+      },
+      {
+        "type": "delete",
+        "C": "1395 Den Mann?",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Von draußen kommend",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Von draußen kommend"
+      },
+      {
+        "type": "replace",
+        "C": "5*",
+        "U": "5 *"
+      }
+    ]
+  },
+  {
+    "page": "68",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "Orestes.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Elektra.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Schon",
+        "U": "Echon"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Orestes. Elektra."
+      },
+      {
+        "type": "replace",
+        "C": "Aegisthos.",
+        "U": "Acgisthos."
+      },
+      {
+        "type": "replace",
+        "C": "(zu Elektra)",
+        "U": "(Zu Elektra.)"
+      },
+      {
+        "type": "replace",
+        "C": "kümmert's",
+        "U": "fümmert's"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "3ch"
+      },
+      {
+        "type": "replace",
+        "C": "sonst",
+        "U": "soust"
+      },
+      {
+        "type": "replace",
+        "C": "mir.",
+        "U": "mir!"
+      }
+    ]
+  },
+  {
+    "page": "69",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "nur.",
+        "U": "mur."
+      },
+      {
+        "type": "replace",
+        "C": "seh'n?",
+        "U": "ſeh'n?"
+      },
+      {
+        "type": "replace",
+        "C": "soll",
+        "U": "ſoll"
+      },
+      {
+        "type": "replace",
+        "C": "soll",
+        "U": "ſoll"
+      },
+      {
+        "type": "replace",
+        "C": "schaun,",
+        "U": "schau'n,"
+      },
+      {
+        "type": "replace",
+        "C": "Ieder,",
+        "U": "Jeder,"
+      },
+      {
+        "type": "replace",
+        "C": "diesen",
+        "U": "dieſen"
+      },
+      {
+        "type": "replace",
+        "C": "sprach.",
+        "U": "ſprach."
+      }
+    ]
+  },
+  {
+    "page": "70",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "replace",
+        "C": "Argisthos.",
+        "U": "Aegisthos."
+      },
+      {
+        "type": "replace",
+        "C": "suche",
+        "U": "juche"
+      },
+      {
+        "type": "replace",
+        "C": "anderwärts. Aegisthos.",
+        "U": "anderwärts! Aegisthos Weh! Was erblickt' ich?"
+      },
+      {
+        "type": "replace",
+        "C": "auf) Weh! Was erblick' ich?",
+        "U": "auf)."
+      },
+      {
+        "type": "replace",
+        "C": "Orestes. Merkst",
+        "U": "Drejtes. Merfst"
+      },
+      {
+        "type": "replace",
+        "C": "Du,",
+        "U": "Dù,"
+      },
+      {
+        "type": "replace",
+        "C": "Abgeschiednen, sprichst",
+        "U": "Abgeſchiednen, ſprichſt"
+      },
+      {
+        "type": "replace",
+        "C": "war's,",
+        "U": "war's"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "delete",
+        "C": "Aegisthos.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Aegisthos."
+      },
+      {
+        "type": "replace",
+        "C": "kurzes",
+        "U": "furzes"
+      },
+      {
+        "type": "replace",
+        "C": "noch.",
+        "U": "noch!"
+      }
+    ]
+  },
+  {
+    "page": "71",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "diesem,",
+        "U": "dieſem,"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes"
+      },
+      {
+        "type": "replace",
+        "C": "Aegisthos)",
+        "U": "Aegisthos)."
+      },
+      {
+        "type": "replace",
+        "C": "keinen",
+        "U": "feinen"
+      },
+      {
+        "type": "replace",
+        "C": "Dunkels?",
+        "U": "Dunfels?"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "diese",
+        "U": "dieſe"
+      },
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Acgiſthos."
+      },
+      {
+        "type": "replace",
+        "C": "Argisthos. Orestes.",
+        "U": "Crestes."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Aegisthos."
+      },
+      {
+        "type": "delete",
+        "C": "Aegisthos.",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "72",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "Orestes.",
+        "U": "Drejtes."
+      },
+      {
+        "type": "replace",
+        "C": "dieses",
+        "U": "dieſes"
+      },
+      {
+        "type": "replace",
+        "C": "sei",
+        "U": "ſei"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "ungesäumt",
+        "U": "ungefäumt"
+      },
+      {
+        "type": "replace",
+        "C": "gedenkt :",
+        "U": "gedenkt:"
+      },
+      {
+        "type": "replace",
+        "C": "Der",
+        "U": "Ter"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "(Alle ab in's Haus.)"
+      },
+      {
+        "type": "delete",
+        "C": "(Alle ab in's Haus.)",
+        "U": ""
+      }
+    ]
+  }
+]

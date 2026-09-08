@@ -1,0 +1,242 @@
+[
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "Chor.",
+      "raw": "​Chor.",
+      "page": 293,
+      "scan": 725,
+      "ocr_line": 24,
+      "printed_n": null,
+      "speaker": "Theoklymenos.",
+      "rid": "r2164",
+      "bsb_line": 36,
+      "bsb_bbox": [
+        645,
+        2023,
+        756,
+        2064
+      ],
+      "bsb_text": "Chor.",
+      "bsb_similarity": 1.0,
+      "n": "1530u5",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1530,
+        1535
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Chor",
+      "raw": "​Chor.",
+      "page": 293,
+      "scan": 725,
+      "ocr_line": 24,
+      "printed_n": null,
+      "speaker": "Chor",
+      "rid": "r2164",
+      "bsb_line": 36,
+      "bsb_bbox": [
+        645,
+        2023,
+        756,
+        2064
+      ],
+      "bsb_text": "Chor.",
+      "bsb_similarity": 1.0,
+      "n": "1530u5",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1530,
+        1535
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Menelaos tritt auf in dem Aufzuge eines Schiffbrüchigen.",
+      "raw": "Menelaos tritt auf in dem Aufzuge eines Schiffbrüchigen.",
+      "page": 247,
+      "scan": 679,
+      "ocr_line": 33,
+      "printed_n": null,
+      "speaker": "Helena.",
+      "rid": "r471",
+      "bsb_line": 33,
+      "bsb_bbox": [
+        258,
+        1841,
+        1151,
+        1882
+      ],
+      "bsb_text": "Menelaos tritt auf in dem Aufzuge eines Schiffbrüchigen.",
+      "bsb_similarity": 1.0,
+      "n": "340u6",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        340,
+        345
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein Bote eilt herbei. Die Vorigen.",
+      "raw": "Ein Bote eilt herbei. Die Vorigen.",
+      "page": 256,
+      "scan": 688,
+      "ocr_line": 7,
+      "printed_n": null,
+      "speaker": "Helena.",
+      "rid": "r784",
+      "bsb_line": 6,
+      "bsb_bbox": [
+        366,
+        544,
+        1026,
+        587
+      ],
+      "bsb_text": "Ein Bote eilt herbei. Die Vorigen.",
+      "bsb_similarity": 1.0,
+      "n": "550u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        550,
+        555
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Theonoë tritt auf, begleitet von zwei Dienerinnen mit flammenden",
+      "raw": "Theonoë tritt auf, begleitet von zwei Dienerinnen mit flammenden",
+      "page": 267,
+      "scan": 699,
+      "ocr_line": 9,
+      "printed_n": null,
+      "speaker": "Helena.",
+      "rid": "r1195",
+      "bsb_line": 8,
+      "bsb_bbox": [
+        163,
+        619,
+        1224,
+        661
+      ],
+      "bsb_text": "Theonoë tritt auf, begleitet von zwei Dienerinnen mit flammenden",
+      "bsb_similarity": 1.0,
+      "n": "815u1",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        815,
+        820
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Pechfackeln. Die Vorigen.",
+      "raw": "Pechfackeln. Die Vorigen.",
+      "page": 267,
+      "scan": 699,
+      "ocr_line": 10,
+      "printed_n": null,
+      "speaker": "Helena.",
+      "rid": "r1196",
+      "bsb_line": 9,
+      "bsb_bbox": [
+        452,
+        670,
+        913,
+        713
+      ],
+      "bsb_text": "Pechfackeln. Die Vorigen.",
+      "bsb_similarity": 1.0,
+      "n": "815u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        815,
+        820
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Die Dioskuren erscheinen. Die Vorigen.",
+      "raw": "Die Dioskuren erscheinen. Die Vorigen.",
+      "page": 294,
+      "scan": 726,
+      "ocr_line": 25,
+      "printed_n": null,
+      "speaker": "Chor.",
+      "rid": "r2202",
+      "bsb_line": 24,
+      "bsb_bbox": [
+        307,
+        1469,
+        1061,
+        1514
+      ],
+      "bsb_text": "Die Dioskuren erscheinen. Die Vorigen.",
+      "bsb_similarity": 1.0,
+      "n": "1540u7",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1540,
+        1545
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "550u1",
+    "new_n": "551"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "550u3",
+    "new_n": "552"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "550u4",
+    "new_n": "553"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "550u5",
+    "new_n": "554"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "815u3",
+    "new_n": "816"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "815u4",
+    "new_n": "817"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "815u5",
+    "new_n": "818"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "815u6",
+    "new_n": "819"
+  }
+]

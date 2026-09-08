@@ -1,0 +1,61 @@
+{
+  "notes": [
+    {
+      "id": "note-009-29",
+      "number": "1",
+      "pages": [
+        250
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "308. Ε. ὃ χρὴ γὰρ ἐδεὶς τῶν θεῶν θήσει πάλιν.",
+      "text": "308. Ε. ὃ χρὴ γὰρ ἐδεὶς τῶν θεῶν θήσει πάλιν.",
+      "primary_label_present": false,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-009-33",
+      "number": "391",
+      "pages": [
+        251
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Die goldene Frucht - der Nepfel.",
+      "text": "Die goldene Frucht - der Nepfel.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-009-54",
+      "number": "726",
+      "pages": [
+        252
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ein Reim, dem die Alten überhaupt niemals aus dem Wege\ngingen, findet sich hier auch in der Urschrift.",
+      "text": "Ein Reim, dem die Alten überhaupt niemals aus dem Wege gingen, findet sich hier auch in der Urschrift.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-009-96",
+      "number": "1168",
+      "pages": [
+        254
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. βάρος ἀντίπαλον δακρύοισιν ἁμιλλᾶται. Ι. e. certat cum lacry-\nmis tuis pondus non minus grave: si dolor facit, ut nolis\nconspici, at amicitia in te Thesei postulat, ut retegas faciem.\nHermann.",
+      "text": "Ε. βάρος ἀντίπαλον δακρύοισιν ἁμιλλᾶται. Ι. e. certat cum lacrymis tuis pondus non minus grave: si dolor facit, ut nolis conspici, at amicitia in te Thesei postulat, ut retegas faciem. Hermann.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}

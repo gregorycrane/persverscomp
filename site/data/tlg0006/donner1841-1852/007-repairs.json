@@ -1,0 +1,122 @@
+[
+  {
+    "page": 29,
+    "before": "Spekabe.",
+    "after": "Hekabe.",
+    "basis": "Unambiguous corrupted speaker heading; dramatis-personae and dialogue context"
+  },
+  {
+    "page": 40,
+    "before": [
+      "Wo den Glutglanz Seirios oder Drion herab aus den Flam-",
+      "menaugen sendet?"
+    ],
+    "after": "Wo den Glutglanz Seirios oder Drion herab aus den Flammenaugen sendet?",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 40,
+    "before": [
+      "Speerschwingendes, rostummelndes, wehrkundiges Volk, wel=",
+      "ches der Kriegsgott liebt!"
+    ],
+    "after": "Speerschwingendes, rostummelndes, wehrkundiges Volk, welches der Kriegsgott liebt!",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 24,
+    "before": [
+      "Zu der Helena Raub, der Hold=",
+      "seligsten, die mit goldenem Licht"
+    ],
+    "after": "Zu der Helena Raub, der Holdseligsten, die mit goldenem Licht",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 11,
+    "before": [
+      "Dein Unglück, Mutter, bewein' ich allein mit klagenden To-",
+      "nen der Trauer;"
+    ],
+    "after": "Dein Unglück, Mutter, bewein' ich allein mit klagenden Tonen der Trauer;",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 24,
+    "before": [
+      "nur, wie ich's kann: wie mach'",
+      "ich's denn?"
+    ],
+    "after": "nur, wie ich's kann: wie mach' ich's denn?",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 7,
+    "before": [
+      "Sah ich zerfleischt, und kläglich vom Schooß mit Gewalt mir",
+      "entrissen."
+    ],
+    "after": "Sah ich zerfleischt, und kläglich vom Schooß mit Gewalt mir entrissen.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 41,
+    "before": [
+      "Du, was beginnst du?",
+      "Bei den Göttern fleh' ich dir:"
+    ],
+    "shared_group": "r1370",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 46,
+    "before": [
+      "Die Kunde schmerzt dich?",
+      "Båndigt ihr ihm nicht den Mund ?"
+    ],
+    "shared_group": "r1570",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 33,
+    "before": "i",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 33,
+    "before": "ン",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 33,
+    "before": "J",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 33,
+    "before": "יייי",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 34,
+    "before": "i",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 34,
+    "before": "い",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  },
+  {
+    "page": 34,
+    "before": "​2.Schlußgesang.",
+    "after": "2.Schlußgesang.",
+    "basis": "Restore explicit song heading, not a verse."
+  }
+]

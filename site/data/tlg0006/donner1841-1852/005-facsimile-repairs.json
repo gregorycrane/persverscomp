@@ -1,0 +1,106 @@
+[
+  {
+    "basis": "Exact dramatic speaker label, not verse; existing cast and dialogue structure",
+    "before": {
+      "kind": "verse",
+      "text": "Hippolytos.",
+      "raw": "​Hippolytos....",
+      "page": 337,
+      "scan": 355,
+      "ocr_line": 28,
+      "printed_n": null,
+      "speaker": "Artemis.",
+      "rid": "r1791",
+      "bsb_line": 35,
+      "bsb_bbox": [
+        519,
+        2062,
+        762,
+        2106
+      ],
+      "bsb_text": "Hippolytos.",
+      "bsb_similarity": 1.0,
+      "n": "1415u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1415,
+        1420
+      ]
+    },
+    "after": {
+      "kind": "speaker",
+      "text": "Hippolytos",
+      "raw": "​Hippolytos....",
+      "page": 337,
+      "scan": 355,
+      "ocr_line": 28,
+      "printed_n": null,
+      "speaker": "Hippolytos",
+      "rid": "r1791",
+      "bsb_line": 35,
+      "bsb_bbox": [
+        519,
+        2062,
+        762,
+        2106
+      ],
+      "bsb_text": "Hippolytos.",
+      "bsb_similarity": 1.0,
+      "n": "1415u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        1415,
+        1420
+      ]
+    }
+  },
+  {
+    "basis": "Explicit dramatic speaker heading in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Ein alter Diener.",
+      "raw": "Ein alter Diener.",
+      "page": 291,
+      "scan": 309,
+      "ocr_line": 28,
+      "printed_n": null,
+      "speaker": "Hippolytos.",
+      "rid": "r95",
+      "bsb_line": 27,
+      "bsb_bbox": [
+        472,
+        1584,
+        824,
+        1620
+      ],
+      "bsb_text": "Ein alter Diener.",
+      "bsb_similarity": 1.0,
+      "n": "85u3",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        85,
+        90
+      ]
+    }
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1415u1",
+    "new_n": "1416"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1415u3",
+    "new_n": "1417"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1415u4",
+    "new_n": "1418"
+  },
+  {
+    "basis": "Recount after documented speaker/line repair, compatible printed anchors",
+    "old_n": "1415u5",
+    "new_n": "1419"
+  }
+]

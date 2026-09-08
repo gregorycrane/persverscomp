@@ -1,0 +1,37 @@
+[
+  {
+    "after": 320,
+    "before": 325,
+    "units": 5,
+    "expected": 4,
+    "records": [
+      "r399",
+      "r401",
+      "r403",
+      "r405",
+      "r407"
+    ]
+  },
+  {
+    "after": 1230,
+    "before": 1235,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r1604",
+      "r1605",
+      "r1607"
+    ]
+  },
+  {
+    "after": 1255,
+    "before": 1260,
+    "units": 3,
+    "expected": 4,
+    "records": [
+      "r1640",
+      "r1641",
+      "r1643"
+    ]
+  }
+]

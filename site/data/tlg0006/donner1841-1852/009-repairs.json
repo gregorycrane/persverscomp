@@ -1,0 +1,173 @@
+[
+  {
+    "page": 232,
+    "before": [
+      "Durch den Prokne's armer einziger Sohn erlag, das könig-",
+      "liche Kind,"
+    ],
+    "after": "Durch den Prokne's armer einziger Sohn erlag, das königliche Kind,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 228,
+    "before": [
+      "Bu blutigen Thaten, nicht dionysischen Trank-",
+      "spenden, wo das Blut der Traube stromt."
+    ],
+    "after": "Bu blutigen Thaten, nicht dionysischen Trankspenden, wo das Blut der Traube stromt.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 227,
+    "before": [
+      "Grausern Tanz will ich dir lehren bald, mit Schreck be-",
+      "zaubr' ich dich! -"
+    ],
+    "after": "Grausern Tanz will ich dir lehren bald, mit Schreck bezaubr' ich dich! -",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 227,
+    "before": [
+      "Brüllt mit Macht, und ruft des Hades distre Nachtgottin-",
+      "nen auf."
+    ],
+    "after": "Brüllt mit Macht, und ruft des Hades distre Nachtgottinnen auf.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 227,
+    "before": [
+      "Nicht die Erde, nicht so graunvoll zuckt des Blizes Schmer-",
+      "zenshauch,"
+    ],
+    "after": "Nicht die Erde, nicht so graunvoll zuckt des Blizes Schmerzenshauch,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 243,
+    "before": [
+      "Der fühlt den Schmerz nicht; denn die Noth wuchs auf",
+      "mit ihm."
+    ],
+    "after": "Der fühlt den Schmerz nicht; denn die Noth wuchs auf mit ihm.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 233,
+    "before": [
+      "Und die Stadt und den Vater vertilgt und das Haus in",
+      "den Grund stürzt!"
+    ],
+    "after": "Und die Stadt und den Vater vertilgt und das Haus in den Grund stürzt!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 233,
+    "before": [
+      "Daß nicht, aus dem Schlummer geweckt, er die Bande",
+      "zerreißt,"
+    ],
+    "after": "Daß nicht, aus dem Schlummer geweckt, er die Bande zerreißt,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 233,
+    "before": [
+      "Geht weiter fort von hinnen, kein Geräusch, ihr Alten,",
+      "kein Geschrei!"
+    ],
+    "after": "Geht weiter fort von hinnen, kein Geräusch, ihr Alten, kein Geschrei!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 227,
+    "before": [
+      "Nicht des Mordes sich bewußt sein, bis ihn meine Wuth",
+      "verlåßt!"
+    ],
+    "after": "Nicht des Mordes sich bewußt sein, bis ihn meine Wuth verlåßt!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 227,
+    "before": [
+      "Ja, sein Haus will ich zertrummern, auf die Kinder sturz'",
+      "ich es,"
+    ],
+    "after": "Ja, sein Haus will ich zertrummern, auf die Kinder sturz' ich es,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 227,
+    "before": [
+      "Geh' ich denn! So brüllt des Meeres Woge nicht, so furcht",
+      "bar bebt"
+    ],
+    "after": "Geh' ich denn! So brüllt des Meeres Woge nicht, so furcht bar bebt",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 227,
+    "before": [
+      "Und im Flug euch nachzusturzen, wie der Hund dem Jäger",
+      "folgt:"
+    ],
+    "after": "Und im Flug euch nachzusturzen, wie der Hund dem Jäger folgt:",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 229,
+    "before": [
+      "Todt sind die Kinder!",
+      "Wehe!"
+    ],
+    "shared_group": "r1097",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 234,
+    "before": [
+      "Und deines Sohnes.",
+      "Ach, Ach!"
+    ],
+    "shared_group": "r1271",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 239,
+    "before": [
+      "Sprich gute Worte!",
+      "Was du verlangst, ich that' es so gern."
+    ],
+    "shared_group": "r1452",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 239,
+    "before": [
+      "Du meldest Grauses!",
+      "Alle dahin sind wir, im Fluge dahin!"
+    ],
+    "shared_group": "r1456",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 247,
+    "before": [
+      "Lebe wohl, mein Vater!",
+      "Und auch du, mein Sohn!"
+    ],
+    "shared_group": "r1767",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 248,
+    "before": [
+      "Wann erscheinst du?",
+      "Wenn du sie bestattet hast."
+    ],
+    "shared_group": "r1778",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

@@ -1,0 +1,1030 @@
+[
+  {
+    "page": "93",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "steh",
+        "N": "sieh"
+      },
+      {
+        "type": "replace",
+        "H": "Nache",
+        "N": "Rache"
+      }
+    ]
+  },
+  {
+    "page": "94",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nissen,",
+        "N": "Rissen,"
+      },
+      {
+        "type": "replace",
+        "H": "Nägelfurchen",
+        "N": "Nägelsurchen"
+      }
+    ]
+  },
+  {
+    "page": "95",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Rächermale,",
+        "N": "Nächermale,"
+      }
+    ]
+  },
+  {
+    "page": "96",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "flich'n,",
+        "N": "flieh'n,"
+      }
+    ]
+  },
+  {
+    "page": "97",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "haßt.",
+        "N": "haft."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "98",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "99",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Brust!",
+        "N": "Brust!\""
+      },
+      {
+        "type": "replace",
+        "H": "Grauen!\"",
+        "N": "Grauen!"
+      },
+      {
+        "type": "replace",
+        "H": "170",
+        "N": "*170"
+      },
+      {
+        "type": "replace",
+        "H": "O rede!",
+        "N": "Orede!"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "563734 A"
+      }
+    ]
+  },
+  {
+    "page": "100",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Elektra."
+      },
+      {
+        "type": "delete",
+        "H": "Elektra.",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Von",
+        "N": "Bon"
+      },
+      {
+        "type": "replace",
+        "H": "一 ​Die",
+        "N": "Die"
+      }
+    ]
+  },
+  {
+    "page": "101",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Eigenthum ?",
+        "N": "Eigenthum?"
+      },
+      {
+        "type": "replace",
+        "H": "würs'",
+        "N": "würf'"
+      },
+      {
+        "type": "replace",
+        "H": "sproßt",
+        "N": "sproft"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "102",
+    "differences": [
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      },
+      {
+        "type": "replace",
+        "H": "mess'",
+        "N": "mess"
+      },
+      {
+        "type": "replace",
+        "H": "Geist!",
+        "N": "Geist!\""
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      }
+    ]
+  },
+  {
+    "page": "103",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "-)",
+        "N": "-)."
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "lestes",
+        "N": "lektes"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes. -"
+      },
+      {
+        "type": "replace",
+        "H": "fieh",
+        "N": "sieh"
+      }
+    ]
+  },
+  {
+    "page": "104",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Raub",
+        "N": "Naub"
+      },
+      {
+        "type": "replace",
+        "H": "sehlt",
+        "N": "fehlt"
+      },
+      {
+        "type": "replace",
+        "H": "jekt",
+        "N": "jest"
+      },
+      {
+        "type": "replace",
+        "H": "Flammenglut ! Orestes.",
+        "N": "Flammenglut! Dreftes."
+      },
+      {
+        "type": "replace",
+        "H": "Rache",
+        "N": "Nache"
+      },
+      {
+        "type": "replace",
+        "H": "Aussay,",
+        "N": "Aussaß,"
+      }
+    ]
+  },
+  {
+    "page": "105",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "mich :",
+        "N": "mich:"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "O"
+      }
+    ]
+  },
+  {
+    "page": "106",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schublos",
+        "N": "schußlos"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      }
+    ]
+  },
+  {
+    "page": "107",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "rolt!",
+        "N": "rollt!"
+      }
+    ]
+  },
+  {
+    "page": "108",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "*Müßten",
+        "N": "Müßten"
+      },
+      {
+        "type": "replace",
+        "H": "Busen",
+        "N": "Busen-"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      }
+    ]
+  },
+  {
+    "page": "109",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Gesek,",
+        "N": "Gesey,"
+      },
+      {
+        "type": "replace",
+        "H": "lehte",
+        "N": "lekte"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "110",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "fcholl",
+        "N": "scholl"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Stebente",
+        "N": "Siebente"
+      }
+    ]
+  },
+  {
+    "page": "111",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Neunte",
+        "N": "Reunte"
+      },
+      {
+        "type": "replace",
+        "H": "Nuf;",
+        "N": "Ruf; -"
+      },
+      {
+        "type": "replace",
+        "H": "Neunte",
+        "N": "Reunte"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Loos :",
+        "N": "Loos:"
+      }
+    ]
+  },
+  {
+    "page": "112",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Trübsal ! Zehnte",
+        "N": "Trübsal! Behnte"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "113",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Brautsest",
+        "N": "Brautfest"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "delete",
+        "H": "O",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      },
+      {
+        "type": "replace",
+        "H": "Neßes",
+        "N": "Neyes"
+      },
+      {
+        "type": "replace",
+        "H": "stegen",
+        "N": "siegen"
+      },
+      {
+        "type": "replace",
+        "H": "legten",
+        "N": "lekten"
+      }
+    ]
+  },
+  {
+    "page": "114",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "'Und",
+        "N": "Und"
+      }
+    ]
+  },
+  {
+    "page": "115",
+    "differences": [
+      {
+        "type": "delete",
+        "H": ":",
+        "N": ""
+      },
+      {
+        "type": "replace",
+        "H": "hüllt",
+        "N": "hüllt'"
+      },
+      {
+        "type": "delete",
+        "H": ": F",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "116",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Nez",
+        "N": "Ney"
+      }
+    ]
+  },
+  {
+    "page": "117",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Tief-in",
+        "N": "Tief in"
+      }
+    ]
+  },
+  {
+    "page": "118",
+    "differences": []
+  },
+  {
+    "page": "119",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Richtbeil",
+        "N": "Nichtbeil"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "120",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Klhtämnestra",
+        "N": "Klytämnestra"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "das, -",
+        "N": "das,-"
+      },
+      {
+        "type": "replace",
+        "H": "ja",
+        "N": "jt"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      }
+    ]
+  },
+  {
+    "page": "121",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "Wonnesturmes",
+        "N": "Wonnefturmes"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "(Alle ab.)"
+      },
+      {
+        "type": "delete",
+        "H": "(Alle ab.)",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "122",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "hör'",
+        "N": "hör\""
+      },
+      {
+        "type": "replace",
+        "H": "hülfreich",
+        "N": "hälfreich"
+      },
+      {
+        "type": "replace",
+        "H": "Daf",
+        "N": "Daß"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      }
+    ]
+  },
+  {
+    "page": "123",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "aufzich'n",
+        "N": "aufzieh'n"
+      },
+      {
+        "type": "replace",
+        "H": "Kilissa.",
+        "N": "Kiliffa."
+      },
+      {
+        "type": "replace",
+        "H": "allverhaften",
+        "N": "allverhaßten"
+      },
+      {
+        "type": "replace",
+        "H": "schlauverhulltes",
+        "N": "schlauverhülltes"
+      },
+      {
+        "type": "replace",
+        "H": "Kilissa.",
+        "N": "Kiliffa."
+      }
+    ]
+  },
+  {
+    "page": "124",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Kilissa.",
+        "N": "Kiliffa."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "4"
+      },
+      {
+        "type": "replace",
+        "H": "jest",
+        "N": "jekt"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "125",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Bwischengesang.",
+        "N": "Zwischengesang."
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "Kluft,"
+      },
+      {
+        "type": "delete",
+        "H": "Kluft,",
+        "N": ""
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "1"
+      }
+    ]
+  },
+  {
+    "page": "126",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Zweite",
+        "N": "Sweite"
+      },
+      {
+        "type": "replace",
+        "H": "ruft,",
+        "N": "rust,"
+      },
+      {
+        "type": "replace",
+        "H": "Auf",
+        "N": "Ruf"
+      },
+      {
+        "type": "replace",
+        "H": "Aegisthos.",
+        "N": "Aegifthos."
+      },
+      {
+        "type": "replace",
+        "H": "Aegifthos.",
+        "N": "Aegisthos."
+      }
+    ]
+  },
+  {
+    "page": "127",
+    "differences": [
+      {
+        "type": "delete",
+        "H": "(Ab.)",
+        "N": ""
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "(Ab.)"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      },
+      {
+        "type": "delete",
+        "H": "1",
+        "N": ""
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": "-"
+      },
+      {
+        "type": "replace",
+        "H": "jest",
+        "N": "jekt"
+      },
+      {
+        "type": "replace",
+        "H": "rus'",
+        "N": "ruf'"
+      }
+    ]
+  },
+  {
+    "page": "128",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Riegel",
+        "N": "Niegel"
+      },
+      {
+        "type": "replace",
+        "H": "Rand,",
+        "N": "Nand,"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämneftra.",
+        "N": "Klytämnestra."
+      },
+      {
+        "type": "replace",
+        "H": "stegen,",
+        "N": "siegen,"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "Aegist ho 8.)",
+        "N": "Aegisth o s.)"
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Einer",
+        "N": "Ciner"
+      }
+    ]
+  },
+  {
+    "page": "129",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "sansten",
+        "N": "sanften"
+      },
+      {
+        "type": "replace",
+        "H": "süßer",
+        "N": "füßer"
+      },
+      {
+        "type": "replace",
+        "H": "Phlades.)",
+        "N": "Pylades.)"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra.)",
+        "N": "Alytämnestra.)"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämneftra.",
+        "N": "Klytämnestra."
+      }
+    ]
+  },
+  {
+    "page": "130",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "zwiefach",
+        "N": "zwiesach"
+      },
+      {
+        "type": "replace",
+        "H": "Klytűmnestra.",
+        "N": "Klytämnestra."
+      },
+      {
+        "type": "replace",
+        "H": "safest",
+        "N": "saßest"
+      },
+      {
+        "type": "replace",
+        "H": "Klyfämnestra.",
+        "N": "Klytämnestra."
+      }
+    ]
+  },
+  {
+    "page": "131",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "lass",
+        "N": "lass'"
+      },
+      {
+        "type": "replace",
+        "H": "Klytämneftra.",
+        "N": "Klytämnestra."
+      },
+      {
+        "type": "replace",
+        "H": "Klytämnestra.",
+        "N": "Klytämneftra."
+      },
+      {
+        "type": "replace",
+        "H": "Dreftes.",
+        "N": "Orestes."
+      },
+      {
+        "type": "replace",
+        "H": "Mund:",
+        "N": "Mund :"
+      },
+      {
+        "type": "insert",
+        "H": "",
+        "N": ":"
+      },
+      {
+        "type": "replace",
+        "H": "Schay",
+        "N": "Schak"
+      }
+    ]
+  },
+  {
+    "page": "132",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Klytämnestra",
+        "N": "Klytämnes"
+      }
+    ]
+  },
+  {
+    "page": "133",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      },
+      {
+        "type": "replace",
+        "H": "getreu.",
+        "N": "getreu.."
+      },
+      {
+        "type": "replace",
+        "H": "fußumschlingendes",
+        "N": "fufumschlingendes"
+      },
+      {
+        "type": "replace",
+        "H": "Jägernek,",
+        "N": "Jägernez,"
+      },
+      {
+        "type": "replace",
+        "H": "Vließ!",
+        "N": "Vlief!"
+      },
+      {
+        "type": "replace",
+        "H": "schaffe",
+        "N": "schasse"
+      },
+      {
+        "type": "replace",
+        "H": "Nechte",
+        "N": "Rechte"
+      },
+      {
+        "type": "replace",
+        "H": "Eheschänders",
+        "N": "Cheschänders"
+      },
+      {
+        "type": "delete",
+        "H": "-",
+        "N": ""
+      }
+    ]
+  },
+  {
+    "page": "134",
+    "differences": []
+  },
+  {
+    "page": "135",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "Delzweig",
+        "N": "Velzweig"
+      },
+      {
+        "type": "replace",
+        "H": "Ruhm",
+        "N": "Nuhm"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes. O"
+      },
+      {
+        "type": "replace",
+        "H": "Orestes.",
+        "N": "Dreftes."
+      }
+    ]
+  },
+  {
+    "page": "136",
+    "differences": [
+      {
+        "type": "replace",
+        "H": "schüge",
+        "N": "schüße"
+      }
+    ]
+  }
+]

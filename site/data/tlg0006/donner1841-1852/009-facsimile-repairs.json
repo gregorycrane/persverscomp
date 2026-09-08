@@ -1,0 +1,60 @@
+[
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Megara und Amphitryon kommen mit den Kindern aus dem Hause",
+      "raw": "Megara und Amphitryon kommen mit den Kindern aus dem Hause",
+      "page": 212,
+      "scan": 226,
+      "ocr_line": 30,
+      "printed_n": null,
+      "speaker": "Der Chor.",
+      "rid": "r498",
+      "bsb_line": 29,
+      "bsb_bbox": [
+        173,
+        1809,
+        1298,
+        1857
+      ],
+      "bsb_text": "Megara und Amphitryon kommen mit den Kindern aus dem Hause",
+      "bsb_similarity": 1.0,
+      "n": "440u1",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        440,
+        445
+      ]
+    }
+  },
+  {
+    "basis": "Explicit entrance, exit or action direction in source OCR",
+    "before": {
+      "kind": "verse",
+      "text": "Iris und Lyssa erscheinen über dem Hause.",
+      "raw": "Iris und Lyssa erscheinen über dem Hause.",
+      "page": 225,
+      "scan": 239,
+      "ocr_line": 22,
+      "printed_n": null,
+      "speaker": "Der Chor.",
+      "rid": "r966",
+      "bsb_line": 21,
+      "bsb_bbox": [
+        348,
+        1392,
+        1073,
+        1436
+      ],
+      "bsb_text": "Iris und Lyssa erscheinen über dem Hause.",
+      "bsb_similarity": 1.0,
+      "n": "790u2",
+      "number_basis": "unresolved verse division between printed anchors",
+      "uncertain_interval": [
+        790,
+        795
+      ]
+    }
+  }
+]

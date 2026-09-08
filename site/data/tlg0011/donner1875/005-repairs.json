@@ -1,0 +1,411 @@
+[
+  {
+    "kind": "anchor-ocr",
+    "page": 40,
+    "before": 885,
+    "after": 835,
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 12,
+    "before": [
+      "Und",
+      "trauernd in stiller Jugend,"
+    ],
+    "after": "Und trauernd in stiller Jugend,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 27,
+    "before": [
+      "Dein Vater",
+      "einen andern Vorwand hast du nie"
+    ],
+    "after": "Dein Vater einen andern Vorwand hast du nie",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 28,
+    "before": [
+      "Doch wenn er",
+      "denn nun red' ich auch in deinem Sinn -"
+    ],
+    "after": "Doch wenn er denn nun red' ich auch in deinem Sinn -",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 36,
+    "before": [
+      "Geschah, sie kann nicht",
+      "hassen, den ihr Schooß gebar."
+    ],
+    "after": "Geschah, sie kann nicht hassen, den ihr Schooß gebar.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 36,
+    "before": [
+      "Doch jezo,",
+      "denn an diesem Tage ward ich frei"
+    ],
+    "after": "Doch jezo, denn an diesem Tage ward ich frei",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 39,
+    "before": [
+      "Schont mein!",
+      "Wie?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 39,
+    "before": [
+      "Die mir der Tod sichtbar entrafft: drückst du mich noch tiefer",
+      "hinab,"
+    ],
+    "after": "Die mir der Tod sichtbar entrafft: drückst du mich noch tiefer hinab,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 39,
+    "before": [
+      "Ich weiß: dem betrübt",
+      "harrenden kam"
+    ],
+    "after": "Ich weiß: dem betrübt harrenden kam",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 39,
+    "before": [
+      "Rächend ein Freund; aber für mich ist er dahin; der es",
+      "mir war,"
+    ],
+    "after": "Rächend ein Freund; aber für mich ist er dahin; der es mir war,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 41,
+    "before": [
+      "Ich Arme, weh mir!",
+      "Und von welchem Sterblichen"
+    ],
+    "after": "Ich Arme, weh mir! Und von welchem Sterblichen",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 41,
+    "before": [
+      "Vernahmst du's, daß",
+      "du solchem Wort so kühn vertraust?"
+    ],
+    "after": "Vernahmst du's, daß du solchem Wort so kühn vertraust?",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 47,
+    "before": [
+      "O daß du solches",
+      "Sinnes, als der Vater starb,"
+    ],
+    "after": "O daß du solches Sinnes, als der Vater starb,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 47,
+    "before": [
+      "Gewesen wärest!",
+      "Alles hätt'st du durchgesezt."
+    ],
+    "after": "Gewesen wärest! Alles hätt'st du durchgesezt.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 50,
+    "before": [
+      "Du rufst die Schmach zum Kampfe, nimmst den Doppelpreis",
+      "in Einem Wort:"
+    ],
+    "after": "Du rufst die Schmach zum Kampfe, nimmst den Doppelpreis in Einem Wort:",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 50,
+    "before": [
+      "Doch fand ich, wie du dir den Preis errangst, den höchster",
+      "Pflichten treu,"
+    ],
+    "after": "Doch fand ich, wie du dir den Preis errangst, den höchster Pflichten treu,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 51,
+    "before": [
+      "Den König suchen,",
+      "Männer aus dem Phokerland."
+    ],
+    "after": "Den König suchen, Männer aus dem Phokerland.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 56,
+    "before": [
+      "Ich lass' es niemals.",
+      "Weh mir Armen ohne dich,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 60,
+    "before": [
+      "Du gönnst mir's?",
+      "Warum nicht?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 61,
+    "before": [
+      "Die kleinste Kränkung auch an dir",
+      "ich möchte nicht"
+    ],
+    "after": "Die kleinste Kränkung auch an dir ich möchte nicht",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 61,
+    "before": [
+      "Die Mutter innen; diese wird",
+      "das fürchte nicht!"
+    ],
+    "after": "Die Mutter innen; diese wird das fürchte nicht!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 61,
+    "before": [
+      "Sei still, ich bitte; denn heran zur Pforte naht",
+      "Iemand von innen."
+    ],
+    "after": "Sei still, ich bitte; denn heran zur Pforte naht Iemand von innen.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 63,
+    "before": [
+      "Ihn kennst du nicht mehr?",
+      "Nicht entsinnen kann ich mich."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 63,
+    "before": [
+      "Wem? Was erwähnst du?",
+      "Dessen Arm mich ehedem,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 65,
+    "before": [
+      "Wie? Was beginnen jene?",
+      "Sie bereitet jezt"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 65,
+    "before": [
+      "Und du, was eiltest du heraus?",
+      "Zu wachen, daß"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 66,
+    "before": [
+      "Schon wieder klagt es: hört ihr?",
+      "Sohn, geliebter Sohn,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 66,
+    "before": [
+      "Erbarme dich der Mutter!",
+      "Auch bei dir ja fand"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 66,
+    "before": [
+      "Rafft dich hinab das",
+      "Geschick, du sinkst, du sinkst!"
+    ],
+    "after": "Rafft dich hinab das Geschick, du sinkst, du sinkst!",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 66,
+    "before": [
+      "Weh, weh! Verwundet",
+      "Triff noch Einmal, wenn du kannst!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 66,
+    "before": [
+      "Schon wieder",
+      "weh mir!",
+      "Träfst du doch Aegisthos auch!"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 66,
+    "before": [
+      "Gestorb'nen",
+      "Kächend ihren Mördern."
+    ],
+    "after": "Gestorb'nen Kächend ihren Mördern.",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 67,
+    "before": [
+      "Wie steht's, Orestes?",
+      "Dort im Hause steht es wohl,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 67,
+    "before": [
+      "Todt ist die Unheilvolle?",
+      "Nimmer fürchte mehr,"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 67,
+    "before": [
+      "In's Haus zurück, o Kinder!",
+      "Wo gewahret ihr"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "wrapped-or-displaced-verse",
+    "page": 67,
+    "before": [
+      "Von draußen kommend",
+      "Er schreitet freudig dort auf uns heran,"
+    ],
+    "after": "Von draußen kommend Er schreitet freudig dort auf uns heran,",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 68,
+    "before": [
+      "Schon geh' ich weiter.",
+      "Eile denn, wohin dich's treibt!",
+      "Mir gebührt zu walten hier."
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 70,
+    "before": [
+      "Weh! Was erblick' ich?",
+      "Wer erschreckt, wer irrt dich hier?"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 70,
+    "before": [
+      "Ich Sohn des Unglücks?",
+      "Merkst du nicht schon lange, daß"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 70,
+    "before": [
+      "Ein kurzes Wort noch.",
+      "Dulde nicht, bei'm Himmel, daß"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  },
+  {
+    "kind": "shared-verse",
+    "page": 71,
+    "before": [
+      "Um nicht zu fliehen?",
+      "Nein, um nicht nach deinem Wunsch"
+    ],
+    "after": "same citation, separate speakers",
+    "basis": "Reviewed OCR wording and printed-anchor sequence; shared parts retain speaker changes."
+  }
+]

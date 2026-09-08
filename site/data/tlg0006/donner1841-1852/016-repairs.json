@@ -1,0 +1,554 @@
+[
+  {
+    "page": 205,
+    "before": "Erster Halbcho r.",
+    "after": "Erster Halbchor.",
+    "basis": "Unambiguous corrupted speaker heading; dramatis-personae and dialogue context"
+  },
+  {
+    "page": 205,
+    "before": [
+      "Noch die Schwester, noch den Freund, der diese That voll=",
+      "bracht mit mir;"
+    ],
+    "after": "Noch die Schwester, noch den Freund, der diese That vollbracht mit mir;",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 205,
+    "before": [
+      "Mit Menelaos uns zu messen, fürchten wir uns nimmer-",
+      "mehr;"
+    ],
+    "after": "Mit Menelaos uns zu messen, fürchten wir uns nimmermehr;",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 205,
+    "before": [
+      "Denn du bist nicht Weib geboren, noch gehörst den Man-",
+      "nern an."
+    ],
+    "after": "Denn du bist nicht Weib geboren, noch gehörst den Mannern an.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 203,
+    "before": [
+      "Hat das Weib nicht Hellas, hat sie nicht gestürzt die Phry-",
+      "ger auch?"
+    ],
+    "after": "Hat das Weib nicht Hellas, hat sie nicht gestürzt die Phryger auch?",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 203,
+    "before": [
+      "Riefst du nicht mit lauter Stimm' um Hülfe den Mene-",
+      "laos her?"
+    ],
+    "after": "Riefst du nicht mit lauter Stimm' um Hülfe den Menelaos her?",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 203,
+    "before": [
+      "Wo der Mann, der aus dem Hause meinem Schwert ent=",
+      "ronnen ist?"
+    ],
+    "after": "Wo der Mann, der aus dem Hause meinem Schwert entronnen ist?",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 201,
+    "before": [
+      "Und in flüchtigem Lauf enteilte sie, die gol-",
+      "dene Sandal' am Fuß."
+    ],
+    "after": "Und in flüchtigem Lauf enteilte sie, die goldene Sandal' am Fuß.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 196,
+    "before": [
+      "Wo Thränen um Thränen, erregt von den eisernen Ge-",
+      "schossen,"
+    ],
+    "after": "Wo Thränen um Thränen, erregt von den eisernen Geschossen,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 178,
+    "before": [
+      "Mitten durch die Stadt geleiten. Wie bewährt' ich Freun-",
+      "dessinn,"
+    ],
+    "after": "Mitten durch die Stadt geleiten. Wie bewährt' ich Freundessinn,",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 174,
+    "before": [
+      "Tyndareus? Er grollt vielleicht auch um den Tod der Toch-",
+      "ter dir."
+    ],
+    "after": "Tyndareus? Er grollt vielleicht auch um den Tod der Tochter dir.",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 206,
+    "before": [
+      "Für des Unglücks Sohn', Orestes, wie du jezt unglucklich",
+      "bist."
+    ],
+    "after": "Für des Unglücks Sohn', Orestes, wie du jezt unglucklich bist.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 206,
+    "before": [
+      "Ihr im Hause, Kinder Atreus'? Furchtbar ist ein Gluck:",
+      "licher"
+    ],
+    "after": "Ihr im Hause, Kinder Atreus'? Furchtbar ist ein Gluck: licher",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 206,
+    "before": [
+      "Baudert ihr, legt ihr die Riegel nicht des Thores Flügeln",
+      "an,"
+    ],
+    "after": "Baudert ihr, legt ihr die Riegel nicht des Thores Flügeln an,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 206,
+    "before": [
+      "Rasches Schrittes: wohl das Ungluck hört' er, das sich nun",
+      "begab."
+    ],
+    "after": "Rasches Schrittes: wohl das Ungluck hört' er, das sich nun begab.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 205,
+    "before": [
+      "Wird er Tochter und Gemahlinn beide hier als Leichen",
+      "schaun."
+    ],
+    "after": "Wird er Tochter und Gemahlinn beide hier als Leichen schaun.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 205,
+    "before": [
+      "Komm' er denn, mit blonden Locken um die Schultern brüst",
+      "er sich!"
+    ],
+    "after": "Komm' er denn, mit blonden Locken um die Schultern brüst er sich!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 204,
+    "before": [
+      "Wohl gesprochen! Deine Klugheit rettet dich: nun geh'",
+      "in's Haus."
+    ],
+    "after": "Wohl gesprochen! Deine Klugheit rettet dich: nun geh' in's Haus.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 204,
+    "before": [
+      "Vor dem Tode nur erbeb' ich; Gorgo's Haupt, ich kenn'",
+      "es nicht."
+    ],
+    "after": "Vor dem Tode nur erbeb' ich; Gorgo's Haupt, ich kenn' es nicht.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 204,
+    "before": [
+      "Fürchtest du, zum Stein zu werden, als erschiene Gorgo",
+      "dir?"
+    ],
+    "after": "Fürchtest du, zum Stein zu werden, als erschiene Gorgo dir?",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 203,
+    "before": [
+      "Schwöre, daß du nicht zu Gunst mir redest; anders mord'",
+      "ich dich."
+    ],
+    "after": "Schwöre, daß du nicht zu Gunst mir redest; anders mord' ich dich.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 203,
+    "before": [
+      "Mit dem vollsten Recht, und hatte sie den Tod dreifach",
+      "gefühlt."
+    ],
+    "after": "Mit dem vollsten Recht, und hatte sie den Tod dreifach gefühlt.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 200,
+    "before": [
+      "„Ha, Verrath lauert hier!\" Manche wohl glaubten's",
+      "nicht;"
+    ],
+    "after": "„Ha, Verrath lauert hier!\" Manche wohl glaubten's nicht;",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 197,
+    "before": [
+      "Wer? Denn ich weiß nicht, wen du meinst, erklärst du's",
+      "nicht."
+    ],
+    "after": "Wer? Denn ich weiß nicht, wen du meinst, erklärst du's nicht.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 184,
+    "before": [
+      "Der zwischen Erd' und Himmel gleichschwebend hångt in",
+      "der Mitten,"
+    ],
+    "after": "Der zwischen Erd' und Himmel gleichschwebend hångt in der Mitten,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 178,
+    "before": [
+      "Denn der Mann, obwohl ein Fremder, der zusammenstimmt",
+      "mit uns,"
+    ],
+    "after": "Denn der Mann, obwohl ein Fremder, der zusammenstimmt mit uns,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 175,
+    "before": [
+      "Sorgst du nicht, daß Argos Bürger dich ermorden, so wie",
+      "mich?"
+    ],
+    "after": "Sorgst du nicht, daß Argos Bürger dich ermorden, so wie mich?",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 175,
+    "before": [
+      "Armer, meine Leiden, scheint es, bringen Gram auch über",
+      "dich."
+    ],
+    "after": "Armer, meine Leiden, scheint es, bringen Gram auch über dich.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 175,
+    "before": [
+      "Strophios, mein Vater, trieb mich zurnend aus dem Hause",
+      "fort."
+    ],
+    "after": "Strophios, mein Vater, trieb mich zurnend aus dem Hause fort.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 174,
+    "before": [
+      "Du? Durch wen? Zu meinem Leide kommt hinzu dies",
+      "neue Leid."
+    ],
+    "after": "Du? Durch wen? Zu meinem Leide kommt hinzu dies neue Leid.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 174,
+    "before": [
+      "Siehst du nicht? Von Wachen sind wir überall umschlossen",
+      "hier."
+    ],
+    "after": "Siehst du nicht? Von Wachen sind wir überall umschlossen hier.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 174,
+    "before": [
+      "Fliehe denn, das Haus verlassend, fliehe mit der Schwester",
+      "fort!"
+    ],
+    "after": "Fliehe denn, das Haus verlassend, fliehe mit der Schwester fort!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 174,
+    "before": [
+      "Nicht zum Speereskampf erschaffen, ist er stark bei Frauen",
+      "nur."
+    ],
+    "after": "Nicht zum Speereskampf erschaffen, ist er stark bei Frauen nur.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 173,
+    "before": [
+      "Welchen Vorwand aber nahm er? Weiß ich das, genugt",
+      "es mir."
+    ],
+    "after": "Welchen Vorwand aber nahm er? Weiß ich das, genugt es mir.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 173,
+    "before": [
+      "Was (o Götter!) sagt er hierauf? Das zu wissen wunscht'",
+      "ich doch."
+    ],
+    "after": "Was (o Götter!) sagt er hierauf? Das zu wissen wunscht' ich doch.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 173,
+    "before": [
+      "Mich und meine Schwester sollt' er durch das Volk nicht",
+      "tödten sehn."
+    ],
+    "after": "Mich und meine Schwester sollt' er durch das Volk nicht tödten sehn.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 173,
+    "before": [
+      "Dort in meinem Hause, wenn ich dieses mein noch nennen",
+      "darf."
+    ],
+    "after": "Dort in meinem Hause, wenn ich dieses mein noch nennen darf.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 173,
+    "before": [
+      "Gleich als wär' er nicht gekommen, hat er kommend mir",
+      "genůzt."
+    ],
+    "after": "Gleich als wär' er nicht gekommen, hat er kommend mir genůzt.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 172,
+    "before": [
+      "Meiner Freund' und Anverwandten? Alles dies ja bist du",
+      "mir."
+    ],
+    "after": "Meiner Freund' und Anverwandten? Alles dies ja bist du mir.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 172,
+    "before": [
+      "Denn ich hört', und sah's mit Augen, wie sich Argos Volk",
+      "berieth"
+    ],
+    "after": "Denn ich hört', und sah's mit Augen, wie sich Argos Volk berieth",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 161,
+    "before": [
+      "Drei schwarze Jungfraun wähnt' ich, gleich der Nacht, zu",
+      "sehn."
+    ],
+    "after": "Drei schwarze Jungfraun wähnt' ich, gleich der Nacht, zu sehn.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 175,
+    "before": [
+      "Gut: so müssen wir berathen.",
+      "Welches Unumgängliche?"
+    ],
+    "shared_group": "r1053",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 176,
+    "before": [
+      "Wenn es sein soll, sei es.",
+      "Also besser gehen, als verziehn!"
+    ],
+    "shared_group": "r1078",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 176,
+    "before": [
+      "Auch gerecht ist meine Sache.",
+      "Daß man's glaube, flehe nur."
+    ],
+    "shared_group": "r1086",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 176,
+    "before": [
+      "Und des Vaters Tod betrauern.",
+      "Wohlbekannt ist alles dies."
+    ],
+    "shared_group": "r1098",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 177,
+    "before": [
+      "Besser ist es drum, zu schweigen.",
+      "Und an Zeit gewinnst du so."
+    ],
+    "shared_group": "r1115",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 177,
+    "before": [
+      "Daß mich Götterwuth ergreife.",
+      "Gern bin ich dein Pfleger dann."
+    ],
+    "shared_group": "r1123",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 177,
+    "before": [
+      "Hute dich vor meinem Wahnsinn!",
+      "Diese Furcht sei ferne mir!"
+    ],
+    "shared_group": "r1131",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 177,
+    "before": [
+      "Und du willst dich nicht bedenken?",
+      "Traurig, wollten Freunde das."
+    ],
+    "shared_group": "r1135",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 178,
+    "before": [
+      "Daß ich nur der Mutter Grab nicht sehe!",
+      "Feindlich war sie dir."
+    ],
+    "shared_group": "r1152",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 198,
+    "before": [
+      "Gerettet, so viel ich vermag!",
+      "Ergreifet ihr,"
+    ],
+    "shared_group": "r1880",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 198,
+    "before": [
+      "Weh, welche Männer seh' ich da?",
+      "Still, sag' ich dir:"
+    ],
+    "shared_group": "r1886",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 204,
+    "before": [
+      "Tödtest du mich also nicht, Herr?",
+      "Du bist frei."
+    ],
+    "shared_group": "r2123",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 205,
+    "before": [
+      "Freundinnen, oder schweigen?",
+      "Dies ist sicherer."
+    ],
+    "shared_group": "r2153",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 208,
+    "before": [
+      "Weihwasser schopfte deine Hand?",
+      "Was wehrte mir's?"
+    ],
+    "shared_group": "r2265",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 208,
+    "before": [
+      "Du bråchtest Opfer vor der Schlacht?",
+      "Das ziemte dir?"
+    ],
+    "shared_group": "r2269",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 209,
+    "before": [
+      "Wend' ab den Dolch von meinem Kind!",
+      "Das logest du."
+    ],
+    "shared_group": "r2290",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 209,
+    "before": [
+      "Ihr mordet meine Tochter sonst?",
+      "Ich würde das."
+    ],
+    "shared_group": "r2306",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 209,
+    "before": [
+      "Als Opfer führt' ich dir sie heim -",
+      "War's also nur!"
+    ],
+    "shared_group": "r2314",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 210,
+    "before": [
+      "Mühsal' erduldend ohne Zahl.",
+      "Doch nicht für mich."
+    ],
+    "shared_group": "r2319",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 210,
+    "before": [
+      "Ich litt so Schweres.",
+      "Ohne Nuzen warst du mir."
+    ],
+    "shared_group": "r2323",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 167,
+    "before": "Π",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  }
+]

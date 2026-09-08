@@ -1,0 +1,80 @@
+[
+  {
+    "page": 288,
+    "before": [
+      "Håtten die thebischen Schaaren im Staube mich niederge-",
+      "schmettert!"
+    ],
+    "after": "Håtten die thebischen Schaaren im Staube mich niedergeschmettert!",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 287,
+    "before": [
+      "Siehest du, Stadt der Argeier, das Schicksal, das mich um-",
+      "strickt hat?"
+    ],
+    "after": "Siehest du, Stadt der Argeier, das Schicksal, das mich umstrickt hat?",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 261,
+    "before": [
+      "Auf, zerfleischt euch Wang' und Busen blutigroth mit wei-",
+      "ßem Nagel!"
+    ],
+    "after": "Auf, zerfleischt euch Wang' und Busen blutigroth mit weißem Nagel!",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 269,
+    "before": [
+      "Hier dir umschlingen und flehn, für die Kinder ein Grab",
+      "zu bereiten!"
+    ],
+    "after": "Hier dir umschlingen und flehn, für die Kinder ein Grab zu bereiten!",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 269,
+    "before": [
+      "Nicht grablos und den Thieren ein Spiel in dem Lande",
+      "des Kadmos"
+    ],
+    "after": "Nicht grablos und den Thieren ein Spiel in dem Lande des Kadmos",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 269,
+    "before": [
+      "Fleh' ich zu dir und umfasse dein Kinn und die Hand und",
+      "die Kniee:"
+    ],
+    "after": "Fleh' ich zu dir und umfasse dein Kinn und die Hand und die Kniee:",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 261,
+    "before": [
+      "Was wir erslehn. Wohl auch vermagst du, die begluckt",
+      "lebt durch den Sohn,"
+    ],
+    "after": "Was wir erslehn. Wohl auch vermagst du, die begluckt lebt durch den Sohn,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 261,
+    "before": [
+      "Freundlichen Nath, theil' ihn mit mir, die sich in Gram",
+      "über den Tod"
+    ],
+    "after": "Freundlichen Nath, theil' ihn mit mir, die sich in Gram über den Tod",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 279,
+    "before": "J",
+    "after": null,
+    "basis": "Isolated OCR mark, without German verbal content; raw page retained."
+  }
+]

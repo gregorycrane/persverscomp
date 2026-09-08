@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Seven Against Thebes: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="2.123" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=359" xml:id="donner-004-p123">
+      <desc>Seven Against Thebes; volume 2, printed page 123; PDF page 359. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/004-metres-123.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.124" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=360" xml:id="donner-004-p124">
+      <desc>Seven Against Thebes; volume 2, printed page 124; PDF page 360. </desc>
+      <graphic url="facsimiles/004-metres-124.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.125" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=361" xml:id="donner-004-p125">
+      <desc>Seven Against Thebes; volume 2, printed page 125; PDF page 361. </desc>
+      <graphic url="facsimiles/004-metres-125.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.126" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=362" xml:id="donner-004-p126">
+      <desc>Seven Against Thebes; volume 2, printed page 126; PDF page 362. </desc>
+      <graphic url="facsimiles/004-metres-126.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.127" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=363" xml:id="donner-004-p127">
+      <desc>Seven Against Thebes; volume 2, printed page 127; PDF page 363. </desc>
+      <graphic url="facsimiles/004-metres-127.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.128" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=364" xml:id="donner-004-p128">
+      <desc>Seven Against Thebes; volume 2, printed page 128; PDF page 364. </desc>
+      <graphic url="facsimiles/004-metres-128.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.129" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=365" xml:id="donner-004-p129">
+      <desc>Seven Against Thebes; volume 2, printed page 129; PDF page 365. </desc>
+      <graphic url="facsimiles/004-metres-129.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.130" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=366" xml:id="donner-004-p130">
+      <desc>Seven Against Thebes; volume 2, printed page 130; PDF page 366. </desc>
+      <graphic url="facsimiles/004-metres-130.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.131" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=367" xml:id="donner-004-p131">
+      <desc>Seven Against Thebes; volume 2, printed page 131; PDF page 367. </desc>
+      <graphic url="facsimiles/004-metres-131.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.132" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=368" xml:id="donner-004-p132">
+      <desc>Seven Against Thebes; volume 2, printed page 132; PDF page 368. </desc>
+      <graphic url="facsimiles/004-metres-132.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

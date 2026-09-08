@@ -1,0 +1,33 @@
+{
+  "notes": [
+    {
+      "id": "note-013-51",
+      "number": "2",
+      "pages": [
+        136
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "559. L. σπεύδονθ' ἅμα.",
+      "text": "559. L. σπεύδονθ' ἅμα.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-013-100",
+      "number": "1387",
+      "pages": [
+        137
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Anders:\nWohin, wohin doch eilst du, welches Ziel, o Fürst\nThoas, verfolgst du?",
+      "text": "Anders: Wohin, wohin doch eilst du, welches Ziel, o Fürst Thoas, verfolgst du?",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}

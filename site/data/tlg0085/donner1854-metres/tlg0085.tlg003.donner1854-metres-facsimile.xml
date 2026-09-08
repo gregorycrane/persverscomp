@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prometheus Bound: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="2.59" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=295" xml:id="donner-003-p59">
+      <desc>Prometheus Bound; volume 2, printed page 59; PDF page 295. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/003-metres-059.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.60" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=296" xml:id="donner-003-p60">
+      <desc>Prometheus Bound; volume 2, printed page 60; PDF page 296. </desc>
+      <graphic url="facsimiles/003-metres-060.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.61" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=297" xml:id="donner-003-p61">
+      <desc>Prometheus Bound; volume 2, printed page 61; PDF page 297. </desc>
+      <graphic url="facsimiles/003-metres-061.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.62" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=298" xml:id="donner-003-p62">
+      <desc>Prometheus Bound; volume 2, printed page 62; PDF page 298. </desc>
+      <graphic url="facsimiles/003-metres-062.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.63" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=299" xml:id="donner-003-p63">
+      <desc>Prometheus Bound; volume 2, printed page 63; PDF page 299. </desc>
+      <graphic url="facsimiles/003-metres-063.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

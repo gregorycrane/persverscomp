@@ -1,0 +1,33 @@
+{
+  "notes": [
+    {
+      "id": "note-001-29",
+      "number": "549",
+      "pages": [
+        230
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nNein, nein; ich blickte freundlich, darum küßt' er mich.",
+      "text": "Unders: Nein, nein; ich blickte freundlich, darum küßt' er mich.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-001-34",
+      "number": "668",
+      "pages": [
+        230
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Unders:\nGewaltig, schwerbezwingbar ist des Weines Ma ch t.",
+      "text": "Unders: Gewaltig, schwerbezwingbar ist des Weines Ma ch t.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}

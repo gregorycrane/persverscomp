@@ -1,0 +1,6797 @@
+[
+  {
+    "page": "7",
+    "differences": [
+      {
+        "type": "delete",
+        "C": ":",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "greise",
+        "U": "greife"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "5",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Bittgesängen",
+        "U": "Bittgeſängen"
+      },
+      {
+        "type": "replace",
+        "C": "(zu",
+        "U": "(Zu"
+      },
+      {
+        "type": "replace",
+        "C": "Oberpriester) :",
+        "U": "Oberprieſter.)"
+      },
+      {
+        "type": "delete",
+        "C": "10",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "führen:",
+        "U": "führen;"
+      },
+      {
+        "type": "replace",
+        "C": "Beisteh'n",
+        "U": "Beiſteh'n"
+      },
+      {
+        "type": "replace",
+        "C": ": 15 Von",
+        "U": "Bon"
+      },
+      {
+        "type": "replace",
+        "C": "An",
+        "U": "In"
+      },
+      {
+        "type": "delete",
+        "C": ":",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "8",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "8 König Dedipus. Noch",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "erstarkt",
+        "U": "erſtarkt"
+      },
+      {
+        "type": "delete",
+        "C": "- Zeus'",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Wie wir,",
+        "U": "vir,"
+      },
+      {
+        "type": "replace",
+        "C": "20 Kings",
+        "U": "3"
+      },
+      {
+        "type": "replace",
+        "C": "Der Pallas",
+        "U": "Ballas"
+      },
+      {
+        "type": "delete",
+        "C": "Die",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "ungestüm Im Wogenaufruhr",
+        "U": "ungeſtüm Bogenaufruhr"
+      },
+      {
+        "type": "replace",
+        "C": "Emporzuheben",
+        "U": "rzuheben"
+      },
+      {
+        "type": "replace",
+        "C": "25 Hinsterbend",
+        "U": "rbend"
+      },
+      {
+        "type": "replace",
+        "C": "Hinsterbend",
+        "U": "rbend"
+      },
+      {
+        "type": "replace",
+        "C": "Kinderheerden",
+        "U": "Rinderheerden"
+      },
+      {
+        "type": "delete",
+        "C": "Noch",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Verwüstet",
+        "U": "iſtet"
+      },
+      {
+        "type": "replace",
+        "C": "Daß Kadmos",
+        "U": "Kadmos'"
+      },
+      {
+        "type": "delete",
+        "C": "30 Der",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Drum",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Zwar",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Doch",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Der Götter",
+        "U": "Hötter"
+      },
+      {
+        "type": "delete",
+        "C": "35 Denn",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Vom",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Noch",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Götterhülse",
+        "U": "Götterhülfe"
+      },
+      {
+        "type": "replace",
+        "C": "So sagt",
+        "U": "gt"
+      },
+      {
+        "type": "delete",
+        "C": "40 Auch",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus, Fleh'n",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "delete",
+        "C": "Uns",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ob eines",
+        "U": "nes"
+      },
+      {
+        "type": "delete",
+        "C": "Denn",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "45 Kathschlüsse",
+        "U": "hlüsse"
+      },
+      {
+        "type": "replace",
+        "C": "krönt. Auf, bester",
+        "U": "frönt. beſter"
+      },
+      {
+        "type": "delete",
+        "C": "Auf,",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "9",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 9",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "50",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "erschusest:",
+        "U": "erschufest:"
+      },
+      {
+        "type": "delete",
+        "C": "55",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Schiff",
+        "U": "Schiff,"
+      },
+      {
+        "type": "delete",
+        "C": "60",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "65",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nein,",
+        "U": "Rein,"
+      },
+      {
+        "type": "replace",
+        "C": "Bin",
+        "U": "Sin"
+      },
+      {
+        "type": "replace",
+        "C": "Versucht'",
+        "U": "Zerſucht'"
+      },
+      {
+        "type": "replace",
+        "C": "70 In",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "Menökeus',",
+        "U": "Menöfens',"
+      },
+      {
+        "type": "replace",
+        "C": "Durch",
+        "U": "urch"
+      },
+      {
+        "type": "replace",
+        "C": "Schon",
+        "U": "chon"
+      },
+      {
+        "type": "replace",
+        "C": "Seitdem",
+        "U": "eitdem"
+      },
+      {
+        "type": "replace",
+        "C": "75 Verweilt",
+        "U": "rweilt"
+      },
+      {
+        "type": "replace",
+        "C": "Doch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "Vollendet'",
+        "U": "llendet'"
+      }
+    ]
+  },
+  {
+    "page": "10",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "10 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ein Wort",
+        "U": "Bort"
+      },
+      {
+        "type": "replace",
+        "C": "du,",
+        "U": "dut,"
+      },
+      {
+        "type": "replace",
+        "C": "eben wird Von diesen",
+        "U": "ebent wird. ieſen"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 80 O Fürst",
+        "U": "Oedipus. rst"
+      },
+      {
+        "type": "replace",
+        "C": "Geschick erscheine,",
+        "U": "Herscheine,"
+      },
+      {
+        "type": "delete",
+        "C": "Wohl",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "käm'",
+        "U": "fäm'"
+      },
+      {
+        "type": "replace",
+        "C": "Mit reichen",
+        "U": "eichen"
+      },
+      {
+        "type": "replace",
+        "C": "umkränzt?",
+        "U": "umfränzt?"
+      },
+      {
+        "type": "delete",
+        "C": "Bald",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "85 O Fürst,",
+        "U": "rst,"
+      },
+      {
+        "type": "replace",
+        "C": "Mit welcher",
+        "U": "velcher"
+      },
+      {
+        "type": "replace",
+        "C": "Mit guter;",
+        "U": "uter;"
+      },
+      {
+        "type": "replace",
+        "C": "Gelangt",
+        "U": "gt"
+      },
+      {
+        "type": "replace",
+        "C": "Wie lautet,",
+        "U": "Dedipus. autet,"
+      },
+      {
+        "type": "delete",
+        "C": "Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "dreist",
+        "U": "dreiſt"
+      },
+      {
+        "type": "replace",
+        "C": "ich 90 Noch ward",
+        "U": "ich; wward"
+      },
+      {
+        "type": "replace",
+        "C": "Ich bin",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "willst In Dieser",
+        "U": "willſt ieser"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Sprich's",
+        "U": "Oedipus. 's"
+      },
+      {
+        "type": "delete",
+        "C": "Mehr",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "95 So meld'",
+        "U": "eld'"
+      },
+      {
+        "type": "replace",
+        "C": "Uns ruft",
+        "U": "uft"
+      },
+      {
+        "type": "replace",
+        "C": "klarem",
+        "U": "flarem"
+      }
+    ]
+  },
+  {
+    "page": "11",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 11 Des",
+        "U": "8"
+      },
+      {
+        "type": "delete",
+        "C": "Zu",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus. Durch",
+        "U": "Ledipus. rch"
+      },
+      {
+        "type": "replace",
+        "C": "Kreon. 100 Sei's",
+        "U": "Krcon. 's"
+      },
+      {
+        "type": "replace",
+        "C": "Verbanmung,",
+        "U": "Verbannung,"
+      },
+      {
+        "type": "replace",
+        "C": "Versöhnen;",
+        "U": "söhnen;"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus. Und",
+        "U": "Ledipus."
+      },
+      {
+        "type": "delete",
+        "C": "Der",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Laïos, Bevor,",
+        "U": "Laios, or,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 105 Aus",
+        "U": "Ledivus."
+      },
+      {
+        "type": "replace",
+        "C": "Nun",
+        "U": "i"
+      },
+      {
+        "type": "replace",
+        "C": "klar",
+        "U": "flar"
+      },
+      {
+        "type": "delete",
+        "C": "Die",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Ledipus."
+      },
+      {
+        "type": "replace",
+        "C": "sindet",
+        "U": "findet"
+      },
+      {
+        "type": "delete",
+        "C": "Die",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "110 In diesem",
+        "U": "dieſem"
+      },
+      {
+        "type": "replace",
+        "C": "sagt",
+        "U": "ſagt"
+      },
+      {
+        "type": "replace",
+        "C": "Sich finden,",
+        "U": "finden;"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Ledipus."
+      },
+      {
+        "type": "delete",
+        "C": "In",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Den",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sagt",
+        "U": "sagt'"
+      },
+      {
+        "type": "delete",
+        "C": "115 Und",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "heimgekehrt..",
+        "U": "heimgekehrt."
+      }
+    ]
+  },
+  {
+    "page": "12",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "12 König Dedipus. Dedipus. Und",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Bote",
+        "U": "Vote"
+      },
+      {
+        "type": "delete",
+        "C": "Von",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "erkundete?",
+        "U": "erkundete ?"
+      },
+      {
+        "type": "delete",
+        "C": "Sie",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nichts",
+        "U": "s"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 120 Was",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Wenn",
+        "U": "a"
+      },
+      {
+        "type": "delete",
+        "C": "Ihn",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nein,",
+        "U": ","
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Doch",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "125 Mit",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Wohl",
+        "U": "I"
+      },
+      {
+        "type": "delete",
+        "C": "Zu",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nachdem",
+        "U": "dem"
+      },
+      {
+        "type": "delete",
+        "C": "130 Uns",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Zu schauen",
+        "U": "chauen"
+      },
+      {
+        "type": "replace",
+        "C": "lassen,",
+        "U": "laſſen,"
+      },
+      {
+        "type": "delete",
+        "C": "Von",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Denn",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Daß",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "135 Drum",
+        "U": "n"
+      },
+      {
+        "type": "delete",
+        "C": "Die",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sühnen",
+        "U": "fühnen"
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "13",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 13 Vom",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "n"
+      },
+      {
+        "type": "delete",
+        "C": "140 Sich",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Drum",
+        "U": "m"
+      },
+      {
+        "type": "delete",
+        "C": "Nun",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Ein",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sammle",
+        "U": "ſammle"
+      },
+      {
+        "type": "delete",
+        "C": "145 Denn",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ob uns",
+        "U": "ans"
+      },
+      {
+        "type": "replace",
+        "C": "Erheben",
+        "U": "ben"
+      },
+      {
+        "type": "replace",
+        "C": "Hieher",
+        "U": "er"
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Gottesspruch gesandt, 150 Ein",
+        "U": "Gottesſpruch geſandt,"
+      },
+      {
+        "type": "replace",
+        "C": "(Dedipus",
+        "U": "pus"
+      },
+      {
+        "type": "replace",
+        "C": "Priester",
+        "U": "Prieſter"
+      },
+      {
+        "type": "replace",
+        "C": "Flchenden",
+        "U": "Flehenden"
+      },
+      {
+        "type": "replace",
+        "C": "ge ordnetem",
+        "U": "ge- m"
+      },
+      {
+        "type": "replace",
+        "C": "zieht",
+        "U": "zicht"
+      },
+      {
+        "type": "replace",
+        "C": "Orchestra",
+        "U": "Orcheſtra"
+      },
+      {
+        "type": "replace",
+        "C": "Liebliche",
+        "U": "che"
+      },
+      {
+        "type": "replace",
+        "C": "Goldreichem",
+        "U": "reichem"
+      },
+      {
+        "type": "replace",
+        "C": "Thebä's?",
+        "U": "'s?"
+      },
+      {
+        "type": "replace",
+        "C": "Heilschaffender,",
+        "U": "affender,"
+      },
+      {
+        "type": "replace",
+        "C": "155 Ahnend erbebt",
+        "U": "derbebt"
+      },
+      {
+        "type": "delete",
+        "C": "Oder",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Künftig",
+        "U": "ig"
+      },
+      {
+        "type": "delete",
+        "C": "Sag'",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Dich",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "rus'",
+        "U": "ruf'"
+      }
+    ]
+  },
+  {
+    "page": "14",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "14 König Dedipus. 160 Auch",
+        "U": "h"
+      },
+      {
+        "type": "replace",
+        "C": "Artemis,",
+        "U": "emis,"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "o"
+      },
+      {
+        "type": "replace",
+        "C": "Drei",
+        "U": "ei"
+      },
+      {
+        "type": "replace",
+        "C": "Schafftet",
+        "U": "hafftet"
+      },
+      {
+        "type": "replace",
+        "C": "165 Volkes",
+        "U": "fes"
+      },
+      {
+        "type": "replace",
+        "C": "Schwebte,",
+        "U": "webte,"
+      },
+      {
+        "type": "replace",
+        "C": "Weh,",
+        "U": "he,"
+      },
+      {
+        "type": "replace",
+        "C": "Quälen",
+        "U": "älen"
+      },
+      {
+        "type": "replace",
+        "C": "Waffnet",
+        "U": "ffnet"
+      },
+      {
+        "type": "replace",
+        "C": "170 Mich",
+        "U": "ch"
+      },
+      {
+        "type": "replace",
+        "C": "Erdreiches",
+        "U": "reiches"
+      },
+      {
+        "type": "replace",
+        "C": "Und es",
+        "U": "■es"
+      },
+      {
+        "type": "delete",
+        "C": "Die",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "In",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "175 Und",
+        "U": "»"
+      },
+      {
+        "type": "replace",
+        "C": "Gleich",
+        "U": "ich"
+      },
+      {
+        "type": "replace",
+        "C": "Vögeln,",
+        "U": "Vögeln"
+      },
+      {
+        "type": "replace",
+        "C": "Schneller,",
+        "U": "neller,"
+      },
+      {
+        "type": "replace",
+        "C": "entschwingen",
+        "U": "entſchwingen"
+      },
+      {
+        "type": "replace",
+        "C": "Dem",
+        "U": "n"
+      },
+      {
+        "type": "delete",
+        "C": "Ia,",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "180 Kläglich,",
+        "U": "glich,"
+      },
+      {
+        "type": "replace",
+        "C": "Schaaren",
+        "U": "aaren"
+      },
+      {
+        "type": "replace",
+        "C": "Aber",
+        "U": "r"
+      },
+      {
+        "type": "replace",
+        "C": "greisenden",
+        "U": "greifenden"
+      },
+      {
+        "type": "replace",
+        "C": "Dort",
+        "U": "t"
+      },
+      {
+        "type": "replace",
+        "C": "Stufen",
+        "U": "fen"
+      },
+      {
+        "type": "replace",
+        "C": "185 Fleht",
+        "U": "It"
+      },
+      {
+        "type": "delete",
+        "C": "Um",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "15",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 15 Hell tönt",
+        "U": "eu tout"
+      },
+      {
+        "type": "replace",
+        "C": "Päan Und",
+        "U": "Paan id"
+      },
+      {
+        "type": "replace",
+        "C": "gesellt",
+        "U": "geſellt"
+      },
+      {
+        "type": "replace",
+        "C": "Leuchte",
+        "U": "uchte"
+      },
+      {
+        "type": "replace",
+        "C": "190 Mit",
+        "U": "it"
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "Der",
+        "U": "er"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "Ihn",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "195 Hinaus,",
+        "U": "naus,"
+      },
+      {
+        "type": "replace",
+        "C": "Lager",
+        "U": "ger"
+      },
+      {
+        "type": "replace",
+        "C": "Dort,",
+        "U": "rt,"
+      },
+      {
+        "type": "replace",
+        "C": "Bucht,",
+        "U": "cht,"
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "un"
+      },
+      {
+        "type": "replace",
+        "C": "200 Uebrig",
+        "U": "rig"
+      },
+      {
+        "type": "replace",
+        "C": "Zeus,",
+        "U": "Zens,"
+      },
+      {
+        "type": "replace",
+        "C": "Rother",
+        "U": "ther"
+      },
+      {
+        "type": "replace",
+        "C": "Beherrschend,",
+        "U": "jerrschend,"
+      },
+      {
+        "type": "delete",
+        "C": "Dir",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "205 Laß",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Geschosse",
+        "U": "chosse"
+      },
+      {
+        "type": "replace",
+        "C": "Als Ketter",
+        "U": "Retter"
+      },
+      {
+        "type": "replace",
+        "C": "Womit",
+        "U": "mit"
+      },
+      {
+        "type": "replace",
+        "C": "Lykia's Artemis",
+        "U": "Lyfia's emis"
+      },
+      {
+        "type": "replace",
+        "C": "210 Auch",
+        "U": "h"
+      },
+      {
+        "type": "replace",
+        "C": "Ruf' ich,",
+        "U": "'ich,"
+      },
+      {
+        "type": "replace",
+        "C": "Sohn,",
+        "U": "u,"
+      },
+      {
+        "type": "replace",
+        "C": "Dir,",
+        "U": ","
+      },
+      {
+        "type": "replace",
+        "C": "umschwärmt, Ostürm'",
+        "U": "umſchwärmt, türm'"
+      }
+    ]
+  },
+  {
+    "page": "16",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "16 König Dedipus. 215 Mit dem",
+        "U": "i"
+      },
+      {
+        "type": "replace",
+        "C": "Auf diesen",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "s"
+      },
+      {
+        "type": "replace",
+        "C": "Bithne",
+        "U": "Bühne"
+      },
+      {
+        "type": "replace",
+        "C": "Du flehst,",
+        "U": "t,"
+      },
+      {
+        "type": "delete",
+        "C": "Anhörst",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dir werden",
+        "U": "den"
+      },
+      {
+        "type": "delete",
+        "C": "220 Und also",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Wie fremd",
+        "U": "d"
+      },
+      {
+        "type": "replace",
+        "C": "Nicht weit",
+        "U": "it"
+      },
+      {
+        "type": "replace",
+        "C": "sonst. Nun (denn",
+        "U": "sonst in"
+      },
+      {
+        "type": "replace",
+        "C": "Erklär' ich",
+        "U": "ch"
+      },
+      {
+        "type": "replace",
+        "C": "dies. 225 Wenn euer",
+        "U": "dies: er"
+      },
+      {
+        "type": "delete",
+        "C": "Getroffen",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Labdakide",
+        "U": "Labdafide"
+      },
+      {
+        "type": "replace",
+        "C": "Gebiet' ich,",
+        "U": "ch,"
+      },
+      {
+        "type": "replace",
+        "C": "Selbst wenn",
+        "U": "enn"
+      },
+      {
+        "type": "replace",
+        "C": "Zeugschaft",
+        "U": "t"
+      },
+      {
+        "type": "replace",
+        "C": "230 Nichts Arges,",
+        "U": "rges,"
+      },
+      {
+        "type": "replace",
+        "C": "Kennt aber Iemand",
+        "U": "er Jemand"
+      },
+      {
+        "type": "replace",
+        "C": "Als Thäter,",
+        "U": "ter,"
+      },
+      {
+        "type": "replace",
+        "C": "Den Lohn",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "Doch wenn",
+        "U": "in"
+      },
+      {
+        "type": "replace",
+        "C": "235 Mein Wort",
+        "U": "ort"
+      },
+      {
+        "type": "delete",
+        "C": "So sollt",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Den Mann",
+        "U": "un"
+      },
+      {
+        "type": "replace",
+        "C": "Worin Gewalt",
+        "U": "Jewalt"
+      },
+      {
+        "type": "replace",
+        "C": "Gastfreundlich",
+        "U": "dlich"
+      },
+      {
+        "type": "delete",
+        "C": "240 Noch bei",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Antheil zu",
+        "U": "u"
+      }
+    ]
+  },
+  {
+    "page": "17",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 17 Von",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Der",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Orakel",
+        "U": "fel"
+      },
+      {
+        "type": "delete",
+        "C": "245-So",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Dem",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Dem",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Allein",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Er friste",
+        "U": "riste"
+      },
+      {
+        "type": "replace",
+        "C": "250 Ich flehe,",
+        "U": "flche,"
+      },
+      {
+        "type": "replace",
+        "C": "An meinem",
+        "U": "einem"
+      },
+      {
+        "type": "delete",
+        "C": "Das",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Doch",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Für",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "255 Das",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Denn",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Es ungesühnt",
+        "U": "ngefühnt"
+      },
+      {
+        "type": "replace",
+        "C": "lassen",
+        "U": "laſſen"
+      },
+      {
+        "type": "replace",
+        "C": "Daß so",
+        "U": "ſo"
+      },
+      {
+        "type": "replace",
+        "C": "Ihr müßt",
+        "U": "nüßt"
+      },
+      {
+        "type": "replace",
+        "C": "mun",
+        "U": "nun"
+      },
+      {
+        "type": "delete",
+        "C": "260 Des",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Ward",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Hätt'",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Nun",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "265 Deßwegen",
+        "U": "egen"
+      },
+      {
+        "type": "replace",
+        "C": "Wie für",
+        "U": "ür"
+      },
+      {
+        "type": "delete",
+        "C": "Den",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Am Labdakiden,",
+        "U": "abdakiden,"
+      },
+      {
+        "type": "replace",
+        "C": "stamunt, Vom",
+        "U": "stammt,"
+      },
+      {
+        "type": "replace",
+        "C": "Agenors",
+        "U": "Agenor's"
+      },
+      {
+        "type": "replace",
+        "C": "270 Die Götter",
+        "U": "Sötter"
+      },
+      {
+        "type": "replace",
+        "C": "Dem spende",
+        "U": "ſpende"
+      },
+      {
+        "type": "replace",
+        "C": "Noch schenk'",
+        "U": "ſchenk'"
+      },
+      {
+        "type": "replace",
+        "C": "sein",
+        "U": "ſein"
+      },
+      {
+        "type": "replace",
+        "C": "Geschick Sophokles",
+        "U": "Geſchick phokles"
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl.",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "18",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "18 König Dedipus. Von heut verderb' ihn und ein noch graunvolleres!",
+        "U": "པས་ ག་ཨ་ ULLULLU ཨ་ སས་པ i now youunoutico."
+      },
+      {
+        "type": "replace",
+        "C": "mir,",
+        "U": "mix,"
+      },
+      {
+        "type": "replace",
+        "C": "275 Ihr",
+        "U": "hr"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "nd"
+      },
+      {
+        "type": "replace",
+        "C": "Wie",
+        "U": "Sie"
+      },
+      {
+        "type": "replace",
+        "C": "Herr. Nicht",
+        "U": "Herr! licht"
+      },
+      {
+        "type": "replace",
+        "C": "erschlug",
+        "U": "erſchlug"
+      },
+      {
+        "type": "replace",
+        "C": "280 Apollon",
+        "U": "pollon,"
+      },
+      {
+        "type": "replace",
+        "C": "Du",
+        "U": "Ou"
+      },
+      {
+        "type": "replace",
+        "C": "Wär's",
+        "U": "Sär's"
+      },
+      {
+        "type": "replace",
+        "C": "nicht",
+        "U": "nicht,"
+      },
+      {
+        "type": "replace",
+        "C": "285 Was",
+        "U": "Jas"
+      },
+      {
+        "type": "replace",
+        "C": "Fürst Teiresias, Ich",
+        "U": "Fürſt Teireſias, ch"
+      },
+      {
+        "type": "replace",
+        "C": "Am",
+        "U": "im"
+      },
+      {
+        "type": "replace",
+        "C": "Nicht",
+        "U": "icht"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "ch"
+      },
+      {
+        "type": "replace",
+        "C": "Nath, 290 Und",
+        "U": "Rath, nd"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Oedipus. nd"
+      },
+      {
+        "type": "replace",
+        "C": "Er",
+        "U": "r"
+      }
+    ]
+  },
+  {
+    "page": "19",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Vedipus. 19 Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "295",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Uns",
+        "U": "Ins"
+      },
+      {
+        "type": "replace",
+        "C": "300 Von",
+        "U": "Bon"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias",
+        "U": "ciresias"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Du,",
+        "U": "Oedipus. Ou,"
+      },
+      {
+        "type": "replace",
+        "C": "In",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "ist,",
+        "U": "iſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Welch",
+        "U": "Belch"
+      },
+      {
+        "type": "delete",
+        "C": "305",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Herr.",
+        "U": "Herr!"
+      },
+      {
+        "type": "replace",
+        "C": "Gab",
+        "U": "Sab"
+      },
+      {
+        "type": "replace",
+        "C": "Werd'",
+        "U": "Serd'"
+      },
+      {
+        "type": "replace",
+        "C": "Wenn",
+        "U": "Jenn"
+      },
+      {
+        "type": "replace",
+        "C": "310 Getödtet,",
+        "U": "etödtet,"
+      },
+      {
+        "type": "replace",
+        "C": "Mißgönne",
+        "U": "ißgönne"
+      },
+      {
+        "type": "replace",
+        "C": "Noch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "id"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "id"
+      },
+      {
+        "type": "replace",
+        "C": "entsündige! 315 Auf",
+        "U": "entfündige! if"
+      },
+      {
+        "type": "replace",
+        "C": "Die",
+        "U": "ie"
+      },
+      {
+        "type": "delete",
+        "C": ": 3 3",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "20",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "20 König Dedipus. Teiresias.",
+        "U": "Senepus"
+      },
+      {
+        "type": "replace",
+        "C": "sich) Weh!",
+        "U": "sich). eh!"
+      },
+      {
+        "type": "replace",
+        "C": "Dem",
+        "U": "em"
+      },
+      {
+        "type": "replace",
+        "C": "Doch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 320 Was",
+        "U": "Oedipus. as"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Laß",
+        "U": "ß"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Teirefias."
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "id"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Du",
+        "U": "Oedipus. u"
+      },
+      {
+        "type": "replace",
+        "C": "Die",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. 825 Auch",
+        "U": "Teireſias. uch"
+      },
+      {
+        "type": "replace",
+        "C": "Zum",
+        "U": "um"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus..",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "gehen.) Bei'm",
+        "U": "gehen). ei'm"
+      },
+      {
+        "type": "replace",
+        "C": "Zu",
+        "U": "u"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Ihr",
+        "U": "Teirejas. jr"
+      },
+      {
+        "type": "replace",
+        "C": "Thoren;",
+        "U": "Thoren,"
+      },
+      {
+        "type": "replace",
+        "C": "330 Damit",
+        "U": "amit"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Was",
+        "U": "Oedipus. Sas"
+      },
+      {
+        "type": "replace",
+        "C": "Uns",
+        "U": "18"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Ich",
+        "U": "Teircfias. h"
+      },
+      {
+        "type": "replace",
+        "C": "thun",
+        "U": "thun,"
+      },
+      {
+        "type": "replace",
+        "C": "Dies",
+        "U": "ies"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 335 Was,",
+        "U": "Oedipus. Sas,"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "-"
+      }
+    ]
+  },
+  {
+    "page": "21",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 21.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Leiresias.",
+        "U": "Teiresias."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 340",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias.",
+        "U": "Teireſias."
+      },
+      {
+        "type": "replace",
+        "C": "mun,",
+        "U": "nun,"
+      },
+      {
+        "type": "replace",
+        "C": "345 Ras'",
+        "U": "Nas'"
+      },
+      {
+        "type": "replace",
+        "C": "wildeste.",
+        "U": "wildeste!"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Hast mitersonnen,",
+        "U": "Dast miterſonnen,"
+      },
+      {
+        "type": "delete",
+        "C": "350",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "--"
+      },
+      {
+        "type": "replace",
+        "C": "Wahrhaftig? -",
+        "U": "Bahrhaftig?"
+      },
+      {
+        "type": "replace",
+        "C": "Verkündet,",
+        "U": "Serkündet,"
+      },
+      {
+        "type": "replace",
+        "C": "An",
+        "U": "In"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "."
+      },
+      {
+        "type": "delete",
+        "C": "355",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Nach'",
+        "U": "Rach'"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "ich"
+      },
+      {
+        "type": "delete",
+        "C": "; 3",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "22",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "22 König Dedipus. Oedipus. Von",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Kunst!",
+        "U": "Kunſt!"
+      },
+      {
+        "type": "delete",
+        "C": "Von",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 360 Welch",
+        "U": "Oedipus. h"
+      },
+      {
+        "type": "replace",
+        "C": "Einmal",
+        "U": "einmal"
+      },
+      {
+        "type": "replace",
+        "C": "deutlicher.",
+        "U": "deutlicher!"
+      },
+      {
+        "type": "replace",
+        "C": "Verstand'st",
+        "U": "and'st"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "fah'n? Oedipus. Nicht,",
+        "U": "fah❜n? t,"
+      },
+      {
+        "type": "replace",
+        "C": "denn. Teircsias. Du",
+        "U": "denn! Teireſias."
+      },
+      {
+        "type": "replace",
+        "C": "gingſt.",
+        "U": "gingst."
+      },
+      {
+        "type": "delete",
+        "C": "Dir",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "lästerst",
+        "U": "läſterſt"
+      },
+      {
+        "type": "replace",
+        "C": "Leiresias. 365 So",
+        "U": "Teiresias."
+      },
+      {
+        "type": "replace",
+        "C": "ergrimmst? So",
+        "U": "ergrimmſt? Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "lüstet;",
+        "U": "lüftet;"
+      },
+      {
+        "type": "delete",
+        "C": "Oedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Unwissend,",
+        "U": "issend,"
+      },
+      {
+        "type": "replace",
+        "C": "Ruchlosen",
+        "U": "losen"
+      },
+      {
+        "type": "replace",
+        "C": "sankst.",
+        "U": "sankſt."
+      },
+      {
+        "type": "delete",
+        "C": "Und",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. 370 Sa,",
+        "U": "Teirefias."
+      },
+      {
+        "type": "replace",
+        "C": "beschieden",
+        "U": "beſchieden"
+      },
+      {
+        "type": "delete",
+        "C": "Sie",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Der",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Bejammernswerther,",
+        "U": "mmernswerther,"
+      },
+      {
+        "type": "replace",
+        "C": "Womit",
+        "U": "nit"
+      },
+      {
+        "type": "replace",
+        "C": "Ieder",
+        "U": "Jeder"
+      }
+    ]
+  },
+  {
+    "page": "23",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 23 Dedipus. 375",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "kannst",
+        "U": "kannst,"
+      },
+      {
+        "type": "replace",
+        "C": "schau'n.",
+        "U": "schau’n."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. 380",
+        "U": "Teireſias."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Reichthümer, Herrschaft,",
+        "U": "Oedipus. Neichthümer, Herrschaft"
+      },
+      {
+        "type": "replace",
+        "C": "Kunst,",
+        "U": "Kunſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Kunst",
+        "U": "Kunſt"
+      },
+      {
+        "type": "replace",
+        "C": "Welch",
+        "U": "Welch'"
+      },
+      {
+        "type": "replace",
+        "C": "385 Unaufgefordert",
+        "U": "Inaufgefordert"
+      },
+      {
+        "type": "replace",
+        "C": "Mir",
+        "U": "Nir"
+      },
+      {
+        "type": "replace",
+        "C": "Nachschleicht",
+        "U": "lachſchleicht"
+      },
+      {
+        "type": "replace",
+        "C": "Anstellend diesen",
+        "U": "Inſtellend dieſen"
+      },
+      {
+        "type": "replace",
+        "C": "Ränkeschmid,",
+        "U": "Ränkeſchmied,"
+      },
+      {
+        "type": "delete",
+        "C": "390",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "Cenn"
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "ls"
+      },
+      {
+        "type": "replace",
+        "C": "Sprachst",
+        "U": "prachst"
+      },
+      {
+        "type": "replace",
+        "C": "Doch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "395 Den",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "Die",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Noch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "Erschien,",
+        "U": "rſchien,"
+      },
+      {
+        "type": "replace",
+        "C": "Durch",
+        "U": "urch"
+      },
+      {
+        "type": "replace",
+        "C": "400 Und",
+        "U": "d"
+      }
+    ]
+  },
+  {
+    "page": "24",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "24 König Dedipus. Kreon's erhabnem Throne nah zu stehen hoffst. Ihr",
+        "U": "cony nem Lylit my fu peyen yo r"
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "Du",
+        "U": "1"
+      },
+      {
+        "type": "replace",
+        "C": "405 Uns,",
+        "U": "8,"
+      },
+      {
+        "type": "replace",
+        "C": "Im",
+        "U": "1"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Nicht",
+        "U": "Dedipus! cht"
+      },
+      {
+        "type": "replace",
+        "C": "Wie",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Gnüge",
+        "U": "Önüge"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Wohl",
+        "U": "Teireftas. ohl"
+      },
+      {
+        "type": "replace",
+        "C": "410 Zu",
+        "U": "="
+      },
+      {
+        "type": "replace",
+        "C": "Nicht",
+        "U": "cht"
+      },
+      {
+        "type": "replace",
+        "C": "Daß",
+        "U": "ß"
+      },
+      {
+        "type": "replace",
+        "C": "Doch",
+        "U": "ch"
+      },
+      {
+        "type": "replace",
+        "C": "höhnst: Du",
+        "U": "höhuſt: i"
+      },
+      {
+        "type": "replace",
+        "C": "sankst, 415 Nicht",
+        "U": "ſankſt, ht,"
+      },
+      {
+        "type": "replace",
+        "C": "noch",
+        "U": "noch),"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "n"
+      },
+      {
+        "type": "replace",
+        "C": "Du",
+        "U": "1"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "d"
+      },
+      {
+        "type": "replace",
+        "C": "einst",
+        "U": "einſt"
+      },
+      {
+        "type": "replace",
+        "C": "Mit",
+        "U": "it"
+      },
+      {
+        "type": "replace",
+        "C": "420 Und",
+        "U": "d"
+      },
+      {
+        "type": "replace",
+        "C": "Ia,",
+        "U": ","
+      },
+      {
+        "type": "delete",
+        "C": "Wo",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nuf",
+        "U": "Ruf"
+      },
+      {
+        "type": "replace",
+        "C": "Erkennst",
+        "U": "kennst"
+      },
+      {
+        "type": "replace",
+        "C": "Chebund",
+        "U": "Ehehund"
+      },
+      {
+        "type": "delete",
+        "C": "In",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "bist? 425 Noch",
+        "U": "biſt? ch"
+      },
+      {
+        "type": "replace",
+        "C": "Das",
+        "U": "18"
+      },
+      {
+        "type": "delete",
+        "C": "So",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Seherwort In",
+        "U": "Scherwort"
+      },
+      {
+        "type": "replace",
+        "C": "Der",
+        "U": "r"
+      }
+    ]
+  },
+  {
+    "page": "25",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 25",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "430 Noch",
+        "U": "Toch"
+      },
+      {
+        "type": "replace",
+        "C": "beut? Tod",
+        "U": "bent? Eod"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Wenn",
+        "U": "Teireſias. Benn"
+      },
+      {
+        "type": "replace",
+        "C": "Mir",
+        "U": "ir"
+      },
+      {
+        "type": "delete",
+        "C": "435",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Ein",
+        "U": "Teireſias. in"
+      },
+      {
+        "type": "replace",
+        "C": "so",
+        "U": "ſo"
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. (will",
+        "U": "Ledipus. (Will"
+      },
+      {
+        "type": "replace",
+        "C": "Wie?",
+        "U": "Sie?"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Dich",
+        "U": "Teirejias. ich"
+      },
+      {
+        "type": "replace",
+        "C": "heut",
+        "U": "heut'"
+      },
+      {
+        "type": "replace",
+        "C": "440 Wie",
+        "U": "Fie"
+      },
+      {
+        "type": "replace",
+        "C": "Nun,",
+        "U": "un,"
+      },
+      {
+        "type": "replace",
+        "C": "Tüchtigste? Dedipus. Verhöhne",
+        "U": "Tüchtigste ? Oedipus. rhöhne"
+      },
+      {
+        "type": "replace",
+        "C": "Teiresias. Doch",
+        "U": "Teireſias. och"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Hab'",
+        "U": "Oedipus. b'"
+      },
+      {
+        "type": "replace",
+        "C": "445 So",
+        "U": "o"
+      },
+      {
+        "type": "replace",
+        "C": "hinweg.",
+        "U": "hinweg!"
+      },
+      {
+        "type": "replace",
+        "C": "Ja,",
+        "U": ","
+      },
+      {
+        "type": "replace",
+        "C": "Verwirrt",
+        "U": "rwirrt"
+      }
+    ]
+  },
+  {
+    "page": "26",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "26 König Dedipus. • Teiresias. Warum",
+        "U": "Teireſias. Barum"
+      },
+      {
+        "type": "replace",
+        "C": "Vor",
+        "U": "Sor"
+      },
+      {
+        "type": "replace",
+        "C": "450 Ich",
+        "U": "ich"
+      },
+      {
+        "type": "replace",
+        "C": "Durch's",
+        "U": "Curch's"
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Ils"
+      },
+      {
+        "type": "replace",
+        "C": "Als Eingebornen Thebe's,",
+        "U": "Ils Eingebor'nen Thebä's,"
+      },
+      {
+        "type": "replace",
+        "C": "455 Ihn",
+        "U": "hn"
+      },
+      {
+        "type": "replace",
+        "C": "einst sehend",
+        "U": "einſt ſehend"
+      },
+      {
+        "type": "replace",
+        "C": "Voraus",
+        "U": "Soraus"
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Ils"
+      },
+      {
+        "type": "replace",
+        "C": "460 Als",
+        "U": "18"
+      },
+      {
+        "type": "replace",
+        "C": "Beiwohnt",
+        "U": "Seiwohnt"
+      },
+      {
+        "type": "replace",
+        "C": "nachzusinnen;",
+        "U": "nachzustrenen;"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Wen",
+        "U": "Sen"
+      },
+      {
+        "type": "replace",
+        "C": "weissagende",
+        "U": "weiſſagende"
+      },
+      {
+        "type": "replace",
+        "C": "465 Wahnsinnsgraunthat",
+        "U": "Jahnsinnsgraunthat"
+      },
+      {
+        "type": "replace",
+        "C": "Nun",
+        "U": "un"
+      },
+      {
+        "type": "replace",
+        "C": "Kraftvoller",
+        "U": "raftvoller"
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "enn"
+      },
+      {
+        "type": "replace",
+        "C": "470 Mit",
+        "U": "lit"
+      },
+      {
+        "type": "replace",
+        "C": "Ihm",
+        "U": "hm"
+      },
+      {
+        "type": "replace",
+        "C": "Schrecklich,",
+        "U": "chrecklich,"
+      }
+    ]
+  },
+  {
+    "page": "27",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 27",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "enn"
+      },
+      {
+        "type": "replace",
+        "C": "Felshaupt,",
+        "U": "elshaupt,"
+      },
+      {
+        "type": "replace",
+        "C": "475 Wohl",
+        "U": "Johl"
+      },
+      {
+        "type": "replace",
+        "C": "Wildnissen,",
+        "U": "Sildnissen,"
+      },
+      {
+        "type": "replace",
+        "C": "Felsklüften,",
+        "U": "elsflüften,"
+      },
+      {
+        "type": "replace",
+        "C": "Der Verlass'ne verlassen",
+        "U": "er Verlaſſ'ne verlaſſen"
+      },
+      {
+        "type": "replace",
+        "C": "einsam",
+        "U": "einſam"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "d"
+      },
+      {
+        "type": "replace",
+        "C": "480 Hertönte,",
+        "U": "rtönte,"
+      },
+      {
+        "type": "replace",
+        "C": "Ihn",
+        "U": "ju"
+      },
+      {
+        "type": "replace",
+        "C": "Gräßliches,",
+        "U": "räßliches,"
+      },
+      {
+        "type": "replace",
+        "C": "weiſſagt Uns",
+        "U": "weifsagt s"
+      },
+      {
+        "type": "replace",
+        "C": "Nicht",
+        "U": "cht"
+      },
+      {
+        "type": "replace",
+        "C": "485 Mir",
+        "U": "ir"
+      },
+      {
+        "type": "delete",
+        "C": "In",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Liegt",
+        "U": "gt"
+      },
+      {
+        "type": "replace",
+        "C": "Denn",
+        "U": "mn"
+      },
+      {
+        "type": "replace",
+        "C": "Mit",
+        "U": "t"
+      },
+      {
+        "type": "replace",
+        "C": "490 Nimmer,",
+        "U": "umer,"
+      },
+      {
+        "type": "delete",
+        "C": "Ich",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "1"
+      },
+      {
+        "type": "replace",
+        "C": "Nächend,",
+        "U": "hend,"
+      },
+      {
+        "type": "replace",
+        "C": "Freilich",
+        "U": "ilich"
+      },
+      {
+        "type": "replace",
+        "C": "495 Kundig",
+        "U": "dig"
+      },
+      {
+        "type": "replace",
+        "C": "Doch o",
+        "U": "ho,"
+      },
+      {
+        "type": "replace",
+        "C": "weise",
+        "U": "weiset"
+      },
+      {
+        "type": "delete",
+        "C": "Im",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Ein",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Es",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "28",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "28 König Dedipus. 500 Mit der Kunst häufig den Kampf;",
+        "U": "2 ver stunt yaufig ven stampf"
+      },
+      {
+        "type": "delete",
+        "C": "505",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "delete",
+        "C": "510",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "nicht",
+        "U": "nicht."
+      },
+      {
+        "type": "replace",
+        "C": "ersteht,",
+        "U": "erſteht,"
+      },
+      {
+        "type": "delete",
+        "C": "515",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "soll?",
+        "U": "ſoll?"
+      },
+      {
+        "type": "delete",
+        "C": "520",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Krcon.",
+        "U": "Kreon."
+      }
+    ]
+  },
+  {
+    "page": "29",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 29 Der Chor.",
+        "U": "༧་་ ཅནཔ་."
+      },
+      {
+        "type": "replace",
+        "C": "Hause schon.",
+        "U": "Hauſe ſchon."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 525",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "nahst,",
+        "U": "nahſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "delete",
+        "C": "530",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "wähntest",
+        "U": "wähnteſt"
+      },
+      {
+        "type": "replace",
+        "C": "solch",
+        "U": "ſolch"
+      },
+      {
+        "type": "replace",
+        "C": "Vermessen,",
+        "U": "Bermessen,"
+      },
+      {
+        "type": "replace",
+        "C": "Ganz",
+        "U": "Hanz"
+      },
+      {
+        "type": "delete",
+        "C": "535",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "Son"
+      },
+      {
+        "type": "replace",
+        "C": "belehrt. Dedipus.",
+        "U": "belehrt! Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Auf",
+        "U": "luf"
+      },
+      {
+        "type": "replace",
+        "C": "540 Hierüber",
+        "U": "bierüber"
+      },
+      {
+        "type": "replace",
+        "C": "jezt. Dedipus. Hierüber",
+        "U": "jezt! Oedipus. Dierüber"
+      },
+      {
+        "type": "replace",
+        "C": "seist. Kreon. Wofern",
+        "U": "seiſt! Krcon. Sofern"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "Fon"
+      },
+      {
+        "type": "replace",
+        "C": "Wofern",
+        "U": "Sofern"
+      },
+      {
+        "type": "replace",
+        "C": "wähnst",
+        "U": "wähnst,"
+      },
+      {
+        "type": "delete",
+        "C": "545",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "30",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "30 König Dedipus. Kreon.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "mich.",
+        "U": "mich!"
+      },
+      {
+        "type": "replace",
+        "C": "Kreon. 550 Und",
+        "U": "Krcon. And"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "ist",
+        "U": "iſt"
+      },
+      {
+        "type": "replace",
+        "C": "das",
+        "U": "daß"
+      },
+      {
+        "type": "replace",
+        "C": "- Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "555 Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Kreon.",
+        "U": "Krcon."
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "And"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "And"
+      },
+      {
+        "type": "replace",
+        "C": "560 Gewiß:",
+        "U": "Hewiß:"
+      }
+    ]
+  },
+  {
+    "page": "31",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 31 Krcon.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "565",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "selbst;",
+        "U": "ſelbſt;"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "570",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "vermählt?",
+        "U": "vermählt ?"
+      },
+      {
+        "type": "replace",
+        "C": "Gewiß;",
+        "U": "Hewiß;"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Von",
+        "U": "Oedipus. Son"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "delete",
+        "C": "575",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nicht,",
+        "U": "licht,"
+      }
+    ]
+  },
+  {
+    "page": "32",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "32 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "lieber",
+        "U": "liever"
+      },
+      {
+        "type": "delete",
+        "C": "580",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Lust",
+        "U": "Luſt"
+      },
+      {
+        "type": "replace",
+        "C": "klug",
+        "U": "flug"
+      },
+      {
+        "type": "delete",
+        "C": "585",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "wünschen,",
+        "U": "wünſchen,"
+      },
+      {
+        "type": "replace",
+        "C": "Ieder,",
+        "U": "Jeder,"
+      },
+      {
+        "type": "delete",
+        "C": "590",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ienem",
+        "U": "Jenem"
+      },
+      {
+        "type": "delete",
+        "C": "595",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "600",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "605 Von",
+        "U": "Bon"
+      }
+    ]
+  },
+  {
+    "page": "33",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 33 Der Chor.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "610",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "Schnellentschloss'nen straucheln",
+        "U": "Schnellentſchloſs'nen ſtraucheln"
+      },
+      {
+        "type": "replace",
+        "C": "entschlossen sein.",
+        "U": "entſchloſſen ſein."
+      },
+      {
+        "type": "delete",
+        "C": "615",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Kreon.",
+        "U": "Krcon."
+      },
+      {
+        "type": "replace",
+        "C": "darfst.",
+        "U": "darfſt."
+      },
+      {
+        "type": "delete",
+        "C": "620",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sein. Dedipus. Krcon.",
+        "U": "ſein."
+      },
+      {
+        "type": "replace",
+        "C": "irrtest?",
+        "U": "irrteſt?"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Schalk!",
+        "U": "Schalt! Kreon."
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl. :",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "34",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "34 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Kreon."
+      },
+      {
+        "type": "delete",
+        "C": "Kreon.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "625 Iokasten",
+        "U": "Jokaſten"
+      },
+      {
+        "type": "replace",
+        "C": "Hause",
+        "U": "Hauſe"
+      },
+      {
+        "type": "replace",
+        "C": "Unseligen,",
+        "U": "Unſeligen,"
+      },
+      {
+        "type": "replace",
+        "C": "also",
+        "U": "alſo"
+      },
+      {
+        "type": "delete",
+        "C": "630",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Kreon.",
+        "U": "Krcon. O"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 635",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "es:",
+        "U": "es"
+      },
+      {
+        "type": "replace",
+        "C": "List.",
+        "U": "Liſt."
+      },
+      {
+        "type": "replace",
+        "C": "nenust!",
+        "U": "nennst!"
+      },
+      {
+        "type": "delete",
+        "C": "640",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "35",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 35",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "645",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ia! Dedipus.",
+        "U": "Ja! Oedipus."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "Wahn.",
+        "U": "Wahn!"
+      },
+      {
+        "type": "replace",
+        "C": "wisse:",
+        "U": "wiſſe:"
+      },
+      {
+        "type": "replace",
+        "C": "650 Verderben",
+        "U": "Berberben"
+      },
+      {
+        "type": "replace",
+        "C": "Nein,",
+        "U": "lein,"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "Sch"
+      },
+      {
+        "type": "replace",
+        "C": "schmerzt",
+        "U": "ſchmerzt"
+      },
+      {
+        "type": "replace",
+        "C": "Sammer schwindet, 655 Wenn",
+        "U": "Jammer ſchwindet, Senn"
+      },
+      {
+        "type": "replace",
+        "C": "Gesellt",
+        "U": "Sesellt"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "id"
+      },
+      {
+        "type": "replace",
+        "C": "Die",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "660 Mich",
+        "U": "lich"
+      },
+      {
+        "type": "replace",
+        "C": "Kreon. Voll Hasses, seh'",
+        "U": "Krcon. I Haſſes, ſeh'"
+      },
+      {
+        "type": "replace",
+        "C": "3*",
+        "U": "3#"
+      }
+    ]
+  },
+  {
+    "page": "36",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "36 König Dedipus. Verbraust, bereust",
+        "U": "erbraust, bereuſt"
+      },
+      {
+        "type": "replace",
+        "C": "Sich",
+        "U": "sich"
+      },
+      {
+        "type": "replace",
+        "C": "So",
+        "U": "50"
+      },
+      {
+        "type": "replace",
+        "C": "665 Von",
+        "U": "on"
+      },
+      {
+        "type": "replace",
+        "C": "(ab.) Warum,",
+        "U": "(Ab.) Jarum,"
+      },
+      {
+        "type": "replace",
+        "C": "Jokajte. Erst",
+        "U": "Jokaste. rst"
+      },
+      {
+        "type": "replace",
+        "C": "Verdacht",
+        "U": "erdacht"
+      },
+      {
+        "type": "replace",
+        "C": "670 Durch",
+        "U": "Ourch"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste.",
+        "U": "Jokajte."
+      },
+      {
+        "type": "replace",
+        "C": "Ruhe",
+        "U": "Tuhe"
+      },
+      {
+        "type": "replace",
+        "C": "Sieh,",
+        "U": "Sich,"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "Son"
+      },
+      {
+        "type": "replace",
+        "C": "suchst.",
+        "U": "suchſt."
+      },
+      {
+        "type": "replace",
+        "C": "675 Nicht Einmal",
+        "U": "Zicht einmal"
+      }
+    ]
+  },
+  {
+    "page": "37",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus, 37",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "680",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "ersonnen",
+        "U": "erſonnen"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. 685",
+        "U": "Jokajte."
+      },
+      {
+        "type": "replace",
+        "C": "kannst.",
+        "U": "kannſt."
+      },
+      {
+        "type": "replace",
+        "C": "sagt",
+        "U": "ſagt"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "And"
+      },
+      {
+        "type": "delete",
+        "C": "690",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Einst",
+        "U": "Sinst"
+      },
+      {
+        "type": "replace",
+        "C": "695 Von",
+        "U": "Son"
+      },
+      {
+        "type": "replace",
+        "C": "selbst,",
+        "U": "ſelbſt,"
+      },
+      {
+        "type": "replace",
+        "C": "Ihm",
+        "U": "hm"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Einst",
+        "U": "Einſt"
+      },
+      {
+        "type": "delete",
+        "C": "700",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": ":",
+        "U": "258072"
+      }
+    ]
+  },
+  {
+    "page": "38",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "38 König Dedipus. Geseh'n,",
+        "U": "Hejeh´n,"
+      },
+      {
+        "type": "replace",
+        "C": "ihu",
+        "U": "thu"
+      },
+      {
+        "type": "replace",
+        "C": "An",
+        "U": "In"
+      },
+      {
+        "type": "delete",
+        "C": "705",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "diese.",
+        "U": "diese!"
+      },
+      {
+        "type": "replace",
+        "C": "Werth",
+        "U": "Berth"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "710 Irrsal",
+        "U": "Irrſal"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Welch",
+        "U": "Jokaſte. Belch"
+      },
+      {
+        "type": "replace",
+        "C": "dreigespaltnem",
+        "U": "dreigespalt'nem"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 715 Wo",
+        "U": "Oedipus. Bo"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Oedipus. Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Nur",
+        "U": "Jokaste.. ur"
+      },
+      {
+        "type": "replace",
+        "C": "720 Auftrat'st",
+        "U": "luftrat'st"
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Das"
+      }
+    ]
+  },
+  {
+    "page": "39",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 39 Jokajte.",
+        "U": "འདུལ་་་ད་."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus?",
+        "U": "Oedipus?"
+      },
+      {
+        "type": "delete",
+        "C": "725",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "kaum",
+        "U": "faum"
+      },
+      {
+        "type": "replace",
+        "C": "heut",
+        "U": "heut'"
+      },
+      {
+        "type": "replace",
+        "C": "grause",
+        "U": "grauſe"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "730 Voll",
+        "U": "Boll"
+      },
+      {
+        "type": "replace",
+        "C": "sagst. Jokaste.",
+        "U": "ſagſt. Jokaite."
+      },
+      {
+        "type": "replace",
+        "C": "erwide'",
+        "U": "erwidr'"
+      },
+      {
+        "type": "replace",
+        "C": "Laïos",
+        "U": "Laios"
+      },
+      {
+        "type": "delete",
+        "C": "735",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Herold,",
+        "U": "Serold,"
+      },
+      {
+        "type": "replace",
+        "C": "Weh,",
+        "U": "Behe,"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Dedipus. 740 Und",
+        "U": "Oedipus. Ind"
+      }
+    ]
+  },
+  {
+    "page": "40",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "40 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nicht",
+        "U": "licht"
+      },
+      {
+        "type": "replace",
+        "C": "sah,",
+        "U": "ſah,"
+      },
+      {
+        "type": "replace",
+        "C": "Auf's",
+        "U": "Luf's"
+      },
+      {
+        "type": "replace",
+        "C": "745 Um",
+        "U": "Im"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Mir",
+        "U": "Nir"
+      },
+      {
+        "type": "replace",
+        "C": "Gunst. Dedipus. käm'",
+        "U": "Gunſt. Oedipus. Ofäm'"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Dedipus. 750 Mir",
+        "U": "Ledipus. Nir"
+      },
+      {
+        "type": "replace",
+        "C": "Geredet,",
+        "U": "Heredet,"
+      },
+      {
+        "type": "replace",
+        "C": "kommen.",
+        "U": "kommen!"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus.",
+        "U": "Dedipus."
+      },
+      {
+        "type": "delete",
+        "C": "755",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Is"
+      },
+      {
+        "type": "replace",
+        "C": "Mein",
+        "U": "Nein"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Ils"
+      },
+      {
+        "type": "replace",
+        "C": "760 Mich",
+        "U": "Nich"
+      },
+      {
+        "type": "replace",
+        "C": "Gastmal",
+        "U": "Gaſtmahl"
+      },
+      {
+        "type": "replace",
+        "C": "Nief",
+        "U": "Lief"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "765 An",
+        "U": "In"
+      }
+    ]
+  },
+  {
+    "page": "41",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 41",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "770 Und",
+        "U": "And"
+      },
+      {
+        "type": "replace",
+        "C": "Gen",
+        "U": "Hen"
+      },
+      {
+        "type": "replace",
+        "C": "Um",
+        "U": "Im"
+      },
+      {
+        "type": "delete",
+        "C": "775",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Nur",
+        "U": "tur"
+      },
+      {
+        "type": "replace",
+        "C": "späh'n, Hinziehend,",
+        "U": "ſpäh'n, Sinziehend,"
+      },
+      {
+        "type": "delete",
+        "C": "780",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Und also",
+        "U": "Ind alſo"
+      },
+      {
+        "type": "replace",
+        "C": "Wo,",
+        "U": "Bo,"
+      },
+      {
+        "type": "replace",
+        "C": "Und,",
+        "U": "Ind,"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "sch"
+      },
+      {
+        "type": "replace",
+        "C": "785 Kommt",
+        "U": "Rommt"
+      },
+      {
+        "type": "replace",
+        "C": "Mir",
+        "U": "Nir"
+      },
+      {
+        "type": "replace",
+        "C": "Mit",
+        "U": "Nit"
+      },
+      {
+        "type": "replace",
+        "C": "Samt",
+        "U": "čamt"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "delete",
+        "C": "790",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "nah",
+        "U": "nah'"
+      },
+      {
+        "type": "replace",
+        "C": "Und schwang",
+        "U": "Ind ſchwang"
+      },
+      {
+        "type": "replace",
+        "C": "Aus",
+        "U": "us"
+      },
+      {
+        "type": "replace",
+        "C": "795 Vom",
+        "U": "Som"
+      },
+      {
+        "type": "replace",
+        "C": "erschlug",
+        "U": "erſchlug"
+      }
+    ]
+  },
+  {
+    "page": "42",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "42 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus? 800",
+        "U": "Oedipus?"
+      },
+      {
+        "type": "replace",
+        "C": "Manu",
+        "U": "Mann"
+      },
+      {
+        "type": "replace",
+        "C": "nehmen",
+        "U": "nehmen,"
+      },
+      {
+        "type": "delete",
+        "C": "805",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "810",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "dort!",
+        "U": "dort,"
+      },
+      {
+        "type": "replace",
+        "C": "Sterblichen 815",
+        "U": "Sterblichen."
+      },
+      {
+        "type": "replace",
+        "C": "nicht.",
+        "U": "nicht!"
+      },
+      {
+        "type": "replace",
+        "C": "allein 820",
+        "U": "allein:"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste.",
+        "U": "Jokajte."
+      },
+      {
+        "type": "replace",
+        "C": "sagt,",
+        "U": "ſagt,"
+      }
+    ]
+  },
+  {
+    "page": "43",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 43 Jokaste. Und",
+        "U": "པ་་་་ Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 825 Gemeldet",
+        "U": "Oedipus. Hemeldet"
+      },
+      {
+        "type": "delete",
+        "C": "830",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste.",
+        "U": "Jofaste."
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "nd"
+      },
+      {
+        "type": "replace",
+        "C": "abweichend,",
+        "U": "abweichend"
+      },
+      {
+        "type": "replace",
+        "C": "835 Nie",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "An",
+        "U": "In"
+      },
+      {
+        "type": "replace",
+        "C": "Loxias",
+        "U": "Lorias"
+      },
+      {
+        "type": "replace",
+        "C": "Doch",
+        "U": "och"
+      },
+      {
+        "type": "replace",
+        "C": "Gemordet;",
+        "U": "emordet;"
+      },
+      {
+        "type": "replace",
+        "C": "840 Drum",
+        "U": "rum"
+      },
+      {
+        "type": "replace",
+        "C": "hierher",
+        "U": "hieher"
+      },
+      {
+        "type": "replace",
+        "C": "ich",
+        "U": "ich,"
+      },
+      {
+        "type": "replace",
+        "C": "Hinfort",
+        "U": "infort"
+      },
+      {
+        "type": "replace",
+        "C": "dessen",
+        "U": "deſſen"
+      },
+      {
+        "type": "replace",
+        "C": "Da",
+        "U": "a"
+      },
+      {
+        "type": "replace",
+        "C": "Den",
+        "U": "en"
+      },
+      {
+        "type": "replace",
+        "C": "nicht. Jokaste. Gleich",
+        "U": "nicht! Jofaste. leich"
+      },
+      {
+        "type": "replace",
+        "C": "845 Denn",
+        "U": "enn"
+      },
+      {
+        "type": "replace",
+        "C": "Ach,",
+        "U": "h,"
+      },
+      {
+        "type": "replace",
+        "C": "Rein",
+        "U": "in"
+      },
+      {
+        "type": "replace",
+        "C": "Scheu",
+        "U": "Schen"
+      }
+    ]
+  },
+  {
+    "page": "44",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "44 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "850",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "stammen",
+        "U": "ſtammen"
+      },
+      {
+        "type": "delete",
+        "C": "855",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "860",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "865",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dike",
+        "U": "Dife"
+      },
+      {
+        "type": "replace",
+        "C": "ihu,",
+        "U": "ihn,"
+      },
+      {
+        "type": "delete",
+        "C": "870",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "875",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "45",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 45 Wenn nicht",
+        "U": "wenn mæt"
+      },
+      {
+        "type": "replace",
+        "C": "den",
+        "U": "oen"
+      },
+      {
+        "type": "replace",
+        "C": "Aller,",
+        "U": "auer,"
+      },
+      {
+        "type": "replace",
+        "C": "sich erfüllt.",
+        "U": "pa erfuut."
+      },
+      {
+        "type": "replace",
+        "C": "Allherrscher",
+        "U": "herrscher"
+      },
+      {
+        "type": "replace",
+        "C": "Almacht",
+        "U": "Allmacht"
+      },
+      {
+        "type": "delete",
+        "C": "880",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Ils"
+      },
+      {
+        "type": "replace",
+        "C": "Nirgend",
+        "U": "irgend"
+      },
+      {
+        "type": "replace",
+        "C": "Apollons",
+        "U": "Apollon's"
+      },
+      {
+        "type": "replace",
+        "C": "Ihr",
+        "U": "shr"
+      },
+      {
+        "type": "replace",
+        "C": "Thebe's,",
+        "U": "Thebä's,"
+      },
+      {
+        "type": "delete",
+        "C": "885",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Räucherwerk.",
+        "U": "Näucherwerk."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Mit",
+        "U": "Nit"
+      },
+      {
+        "type": "replace",
+        "C": "890 Nein,",
+        "U": "Rein,"
+      },
+      {
+        "type": "replace",
+        "C": "Mit",
+        "U": "Nit"
+      },
+      {
+        "type": "replace",
+        "C": "Drum nah'",
+        "U": "rum`nah'"
+      },
+      {
+        "type": "replace",
+        "C": "Lykeier",
+        "U": "ykeier"
+      },
+      {
+        "type": "replace",
+        "C": "Auf",
+        "U": "uf"
+      },
+      {
+        "type": "delete",
+        "C": "895",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "on"
+      },
+      {
+        "type": "replace",
+        "C": "Botr. Gewährtet",
+        "U": "Bote. Sewährtet"
+      },
+      {
+        "type": "replace",
+        "C": "Wo",
+        "U": "So"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "replace",
+        "C": "Doch,",
+        "U": "och,"
+      }
+    ]
+  },
+  {
+    "page": "46",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "46 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "900",
+        "U": "0"
+      },
+      {
+        "type": "replace",
+        "C": "gesellt",
+        "U": "gefellt"
+      },
+      {
+        "type": "replace",
+        "C": "905",
+        "U": "5"
+      },
+      {
+        "type": "replace",
+        "C": "anzukünden",
+        "U": "anzufünden"
+      },
+      {
+        "type": "replace",
+        "C": "Frau. Jokaste.",
+        "U": "Frau!"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "910",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "freu'n,",
+        "U": "freu'n"
+      },
+      {
+        "type": "replace",
+        "C": "nicht?)",
+        "U": "nicht?),"
+      },
+      {
+        "type": "replace",
+        "C": "Jokajte.",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "isthmischen",
+        "U": "iſthmischen"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste.",
+        "U": "Jokajte."
+      },
+      {
+        "type": "replace",
+        "C": "915",
+        "U": "5"
+      }
+    ]
+  },
+  {
+    "page": "47",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 47 Jokajte.",
+        "U": "དལ་ཨ་་"
+      },
+      {
+        "type": "replace",
+        "C": "Begleiterinnen)",
+        "U": "Begleiterinnen)."
+      },
+      {
+        "type": "replace",
+        "C": "(die",
+        "U": "(Die"
+      },
+      {
+        "type": "delete",
+        "C": "920",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Iokaste,",
+        "U": "Jokaste,"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. 925",
+        "U": "Jokaſte."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "- Oedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Vom",
+        "U": "Jokaite. Bom"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 930",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "an.",
+        "U": "an!"
+      },
+      {
+        "type": "replace",
+        "C": "So",
+        "U": "o"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Ledipus. Ind"
+      }
+    ]
+  },
+  {
+    "page": "48",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "48 König Dedipus. Dedipus. 935",
+        "U": "ལ་པ་པ་ 5"
+      },
+      {
+        "type": "replace",
+        "C": "wohl?",
+        "U": "wohl ?"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Warum",
+        "U": "Watum"
+      },
+      {
+        "type": "replace",
+        "C": "kreischen,",
+        "U": "freischen,"
+      },
+      {
+        "type": "replace",
+        "C": "940",
+        "U": "10"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "mich -Verzehrte -",
+        "U": "mic Verzehrte"
+      },
+      {
+        "type": "replace",
+        "C": "945",
+        "U": "5"
+      },
+      {
+        "type": "replace",
+        "C": "sie.",
+        "U": "ſie."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. 950",
+        "U": "Jokajte. 0"
+      },
+      {
+        "type": "replace",
+        "C": "lenkt?",
+        "U": "lenft?"
+      },
+      {
+        "type": "replace",
+        "C": "Che nicht.",
+        "U": "Ehe nicht!"
+      },
+      {
+        "type": "replace",
+        "C": "955",
+        "U": "5"
+      }
+    ]
+  },
+  {
+    "page": "49",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 49 Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "alles",
+        "U": "Alles"
+      },
+      {
+        "type": "replace",
+        "C": "sprachst,",
+        "U": "sprachſt,"
+      },
+      {
+        "type": "replace",
+        "C": "sprachst",
+        "U": "ſprachſt"
+      },
+      {
+        "type": "replace",
+        "C": "Zokaste. 960",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Dec",
+        "U": "Der"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Greis.",
+        "U": "Greis,"
+      },
+      {
+        "type": "replace",
+        "C": "sezt? Dedipus. 965",
+        "U": "ſezt? Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "wissen?",
+        "U": "wiſſen?"
+      },
+      {
+        "type": "replace",
+        "C": "kund,",
+        "U": "fund,"
+      },
+      {
+        "type": "replace",
+        "C": "müsse",
+        "U": "müſſe"
+      },
+      {
+        "type": "delete",
+        "C": "970",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "schau'n?",
+        "U": "schau’n?"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "bliebst",
+        "U": "bliebſt"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Oedipus. Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Greis.",
+        "U": "Greis!"
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl.",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "50",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "50 König Dedipus, Der Bote. 975",
+        "U": "ལ་ ལ་་"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus.",
+        "U": "Ledipus."
+      },
+      {
+        "type": "delete",
+        "C": "980",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "thuſt,",
+        "U": "thust,"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "—"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Der Bote."
+      },
+      {
+        "type": "delete",
+        "C": "Der Bote.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "985",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Gräul",
+        "U": "Gräu'l"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "ängstigest?",
+        "U": "ängstigeſt?"
+      },
+      {
+        "type": "replace",
+        "C": "Herr. Dedipus. 990",
+        "U": "Herr! Oedipus."
+      }
+    ]
+  },
+  {
+    "page": "51",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 51 Der Bote. Nicht",
+        "U": "んいん ​Nicht"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Herr.",
+        "U": "Herr!"
+      },
+      {
+        "type": "delete",
+        "C": "995",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Ledipus."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Du",
+        "U": "Oedipus. Tu"
+      },
+      {
+        "type": "delete",
+        "C": "1000",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus.'",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Ledipus."
+      },
+      {
+        "type": "replace",
+        "C": "sandst",
+        "U": "fandst"
+      },
+      {
+        "type": "delete",
+        "C": "1005",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Kind.",
+        "U": "Kind!"
+      }
+    ]
+  },
+  {
+    "page": "52",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "52 König Dedipus. Oedipus.",
+        "U": "༧་པ་པ་"
+      },
+      {
+        "type": "replace",
+        "C": "durchgestochnen",
+        "U": "durchgestoch'nen"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "heut",
+        "U": "heut'"
+      },
+      {
+        "type": "replace",
+        "C": "1010",
+        "U": "OO"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "fandst",
+        "U": "fandſt"
+      },
+      {
+        "type": "replace",
+        "C": "selbst",
+        "U": "ſelbſt"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1015",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "gebot?",
+        "U": "gebot ?"
+      },
+      {
+        "type": "replace",
+        "C": "Herr. Dedipus.",
+        "U": "Herr! Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Eingebornen wisset",
+        "U": "Eingebor'nen wiſſet"
+      }
+    ]
+  },
+  {
+    "page": "53",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 53 Dedipus. 1020",
+        "U": "2tvipus. ›"
+      },
+      {
+        "type": "delete",
+        "C": "1025",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Iokaste",
+        "U": "Jokaste"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste.",
+        "U": "Jokajte."
+      },
+      {
+        "type": "delete",
+        "C": "1030",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "nach.",
+        "U": "nach!"
+      },
+      {
+        "type": "replace",
+        "C": "ist, so",
+        "U": "iſt, ſo"
+      },
+      {
+        "type": "replace",
+        "C": "Forschen!",
+        "U": "Forſchen!"
+      },
+      {
+        "type": "replace",
+        "C": "Dual",
+        "U": "Qual"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 1035",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Jokajte.",
+        "U": "Jokaste."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Jokajte.",
+        "U": "Jokaste."
+      }
+    ]
+  },
+  {
+    "page": "54",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "54 König Dedipus. Dedipus. 1040 Nun,",
+        "U": "Oedipus. un,"
+      },
+      {
+        "type": "replace",
+        "C": "dieses",
+        "U": "dieſes"
+      },
+      {
+        "type": "replace",
+        "C": "Erführst",
+        "U": "rführst"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Wird",
+        "U": "Oedipus. Sird"
+      },
+      {
+        "type": "replace",
+        "C": "Die",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Jokaste. Weh,",
+        "U": "Jokajte. Seh,"
+      },
+      {
+        "type": "replace",
+        "C": "1045 Dir",
+        "U": "ir"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Bas"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "on"
+      },
+      {
+        "type": "replace",
+        "C": "Iammer",
+        "U": "Jammer"
+      },
+      {
+        "type": "replace",
+        "C": "Aus",
+        "U": "us"
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Sas"
+      },
+      {
+        "type": "replace",
+        "C": "1050 Ich",
+        "U": "h"
+      },
+      {
+        "type": "replace",
+        "C": "Sie",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Erröthen",
+        "U": "rröthen"
+      },
+      {
+        "type": "replace",
+        "C": "Ich aber,",
+        "U": "haber,"
+      },
+      {
+        "type": "replace",
+        "C": "1055 Von dieser",
+        "U": "on dieſer"
+      },
+      {
+        "type": "replace",
+        "C": "Verwandte",
+        "U": "erwandte"
+      },
+      {
+        "type": "replace",
+        "C": "Bei",
+        "U": "sei"
+      },
+      {
+        "type": "replace",
+        "C": "Abkunst",
+        "U": "Abkunft"
+      },
+      {
+        "type": "replace",
+        "C": "Als",
+        "U": "Is"
+      },
+      {
+        "type": "replace",
+        "C": "(ab.) Wenn",
+        "U": "(Ab.) Jenn"
+      },
+      {
+        "type": "replace",
+        "C": "Geist",
+        "U": "Geiſt"
+      },
+      {
+        "type": "replace",
+        "C": "Busen",
+        "U": "Buſen"
+      },
+      {
+        "type": "delete",
+        "C": "1060",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "55",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 55 Bei'm Olympos, werden, wann",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "aufstrahlt,",
+        "U": "ausstrahlt,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus'",
+        "U": "Oedipus'"
+      },
+      {
+        "type": "delete",
+        "C": "1065",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Phöbos,",
+        "U": "Phöbus,"
+      },
+      {
+        "type": "delete",
+        "C": "1070",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "zugesellt?",
+        "U": "zugeſellt?"
+      },
+      {
+        "type": "delete",
+        "C": "1075",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus.",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Chore)",
+        "U": "Chore)."
+      },
+      {
+        "type": "delete",
+        "C": "1080",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Greise,",
+        "U": "Greiſe,"
+      },
+      {
+        "type": "replace",
+        "C": "seh'n",
+        "U": "ſeh'n"
+      },
+      {
+        "type": "replace",
+        "C": "genau",
+        "U": "genan"
+      },
+      {
+        "type": "delete",
+        "C": "1085",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "56",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "56 König Dedipus. Der Chor. Er",
+        "U": "ལ་པ་"
+      },
+      {
+        "type": "replace",
+        "C": "Wie",
+        "U": "Sie"
+      },
+      {
+        "type": "replace",
+        "C": "(der",
+        "U": "(Der"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Dedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Boten) Zuerst,",
+        "U": "Boten). uerst,"
+      },
+      {
+        "type": "replace",
+        "C": "Sprich,",
+        "U": "prich,"
+      },
+      {
+        "type": "replace",
+        "C": "diesen?",
+        "U": "dieſen?"
+      },
+      {
+        "type": "replace",
+        "C": "erblickst. Dedipus. 1090 Du,",
+        "U": "erblickſt. Oedipus. u,"
+      },
+      {
+        "type": "replace",
+        "C": "hierher,",
+        "U": "hieher,"
+      },
+      {
+        "type": "replace",
+        "C": "Auf",
+        "U": "if"
+      },
+      {
+        "type": "replace",
+        "C": "Fragen.",
+        "U": "Fragen!"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "h"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus. Und",
+        "U": "Dedipus. id"
+      },
+      {
+        "type": "replace",
+        "C": "Ich",
+        "U": "h"
+      },
+      {
+        "type": "replace",
+        "C": "1095 An",
+        "U": "u"
+      },
+      {
+        "type": "replace",
+        "C": "Es",
+        "U": "3"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Und",
+        "U": "Oedipus. id"
+      },
+      {
+        "type": "replace",
+        "C": "Von",
+        "U": "on"
+      },
+      {
+        "type": "replace",
+        "C": "Der,",
+        "U": "er,"
+      },
+      {
+        "type": "replace",
+        "C": "1100 Nicht",
+        "U": "icht"
+      }
+    ]
+  },
+  {
+    "page": "57",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 57",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "(Er",
+        "U": "Er"
+      },
+      {
+        "type": "replace",
+        "C": "Einer",
+        "U": "einer"
+      },
+      {
+        "type": "delete",
+        "C": "1105",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1110",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "ist",
+        "U": "iſt"
+      },
+      {
+        "type": "replace",
+        "C": "Nun",
+        "U": "un"
+      },
+      {
+        "type": "replace",
+        "C": "Mir",
+        "U": "Nir"
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Bas"
+      },
+      {
+        "type": "replace",
+        "C": "Der",
+        "U": "der"
+      },
+      {
+        "type": "replace",
+        "C": "Freund,",
+        "U": "Freund;"
+      },
+      {
+        "type": "delete",
+        "C": "1115",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus. Ha, diesen,",
+        "U": "Dedipus. ›a, dieſen,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "verläugnest",
+        "U": "verläugneſt"
+      },
+      {
+        "type": "replace",
+        "C": "Hirte. 1120 Ganz",
+        "U": "Hirte.. Sanz"
+      }
+    ]
+  },
+  {
+    "page": "58",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "58 König Dedipus. Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Mißhandle,",
+        "U": "Nißhandle,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Dienern) Auf,",
+        "U": "Dienern). luf,"
+      },
+      {
+        "type": "replace",
+        "C": "Wofür?",
+        "U": "Bofür?"
+      },
+      {
+        "type": "replace",
+        "C": "wünschest",
+        "U": "wünſchest"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 1125",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "gabst",
+        "U": "gabſt"
+      },
+      {
+        "type": "replace",
+        "C": "sagst.",
+        "U": "ſagſt."
+      },
+      {
+        "type": "replace",
+        "C": "Viel",
+        "U": "Biel"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Ausflüchte",
+        "U": "Oedipus. lusflüchte"
+      },
+      {
+        "type": "replace",
+        "C": "1130 Ich",
+        "U": "Sch"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Woher",
+        "U": "Oedipus. Boher"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. Von",
+        "U": "Oedipus. Son"
+      },
+      {
+        "type": "replace",
+        "C": "Oedipus. 1135",
+        "U": "Ledipus."
+      }
+    ]
+  },
+  {
+    "page": "59",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König. Dedipus. 59",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Ordipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1140",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Nit welcher Weisung?"
+      },
+      {
+        "type": "replace",
+        "C": "Mit welcher Weisung? Ihr",
+        "U": "Sie selbst, o Fürst! Oedipus. hr"
+      },
+      {
+        "type": "delete",
+        "C": "1145",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "Sie selbst, o Fürst. Oedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Wie",
+        "U": "Sie"
+      },
+      {
+        "type": "delete",
+        "C": "1",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "60",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "60 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1150",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "O"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "-"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Gedurst,",
+        "U": "Sedurft,"
+      },
+      {
+        "type": "delete",
+        "C": "-",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "gedurst,",
+        "U": "gedurft,"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "--"
+      },
+      {
+        "type": "replace",
+        "C": "zurücď.)",
+        "U": "zurück.)"
+      },
+      {
+        "type": "delete",
+        "C": "1155",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Zähl'",
+        "U": "Zähl"
+      },
+      {
+        "type": "replace",
+        "C": "1160 Als",
+        "U": "lls"
+      },
+      {
+        "type": "replace",
+        "C": "Mißgeschick,",
+        "U": "Misgeschick,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "replace",
+        "C": "1165 Glückselig",
+        "U": "Slückselig"
+      },
+      {
+        "type": "replace",
+        "C": "Trafst",
+        "U": "Trafft"
+      },
+      {
+        "type": "replace",
+        "C": "errangest",
+        "U": "errangeſt"
+      },
+      {
+        "type": "replace",
+        "C": "Zeus!) 1170",
+        "U": "Zens!)"
+      },
+      {
+        "type": "replace",
+        "C": "krummklauige",
+        "U": "frummflauige"
+      }
+    ]
+  },
+  {
+    "page": "61",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 61",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "standſt!",
+        "U": "standst!"
+      },
+      {
+        "type": "delete",
+        "C": "1175",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Thebe's",
+        "U": "Thebä's"
+      },
+      {
+        "type": "replace",
+        "C": "Sezt aber",
+        "U": "-"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Jezt aber"
+      },
+      {
+        "type": "delete",
+        "C": "1180",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus,",
+        "U": "Oedipus,"
+      },
+      {
+        "type": "delete",
+        "C": "1185",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Fluch,.",
+        "U": "Fluch,"
+      },
+      {
+        "type": "delete",
+        "C": "1190 O",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ungemessen",
+        "U": "Ingemessen"
+      },
+      {
+        "type": "delete",
+        "C": "1195",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "gabst",
+        "U": "gabſt"
+      }
+    ]
+  },
+  {
+    "page": "62",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "62 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Palaste).",
+        "U": "Palaſte)."
+      },
+      {
+        "type": "delete",
+        "C": "1200",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sühnend",
+        "U": "fühnend"
+      },
+      {
+        "type": "replace",
+        "C": "selbsterwähltes",
+        "U": "ſelbſterwähltes"
+      },
+      {
+        "type": "delete",
+        "C": "1205",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sich selbst erschuf.",
+        "U": "ſich ſelbſt erſchuf."
+      },
+      {
+        "type": "replace",
+        "C": "Iokaste's",
+        "U": "Jokaste's"
+      },
+      {
+        "type": "delete",
+        "C": "1210",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1215",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sie sonder Rast",
+        "U": "ſie ſonder Raſt"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "And"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "delete",
+        "C": "1220",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Indeß",
+        "U": "Judeß"
+      },
+      {
+        "type": "replace",
+        "C": "Mutter",
+        "U": "Mutter,"
+      }
+    ]
+  },
+  {
+    "page": "63",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus, 63 Unsel'ger",
+        "U": "Insel'ger"
+      },
+      {
+        "type": "delete",
+        "C": "1225",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus",
+        "U": "Oedipus"
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Bas"
+      },
+      {
+        "type": "replace",
+        "C": "Auf",
+        "U": "luf"
+      },
+      {
+        "type": "delete",
+        "C": "1230",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sei, Aus",
+        "U": "ſei, lus"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "Ind"
+      },
+      {
+        "type": "replace",
+        "C": "Kein",
+        "U": "tein"
+      },
+      {
+        "type": "replace",
+        "C": "Mit grausem",
+        "U": "Nit grauſem"
+      },
+      {
+        "type": "replace",
+        "C": "1235 Geführt",
+        "U": "Seführt"
+      },
+      {
+        "type": "replace",
+        "C": "Zum",
+        "U": "um"
+      },
+      {
+        "type": "replace",
+        "C": "Geknüpft",
+        "U": "Seknüpft"
+      },
+      {
+        "type": "replace",
+        "C": "Sie",
+        "U": "Eie"
+      },
+      {
+        "type": "delete",
+        "C": "1240",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ihr",
+        "U": "hr"
+      },
+      {
+        "type": "replace",
+        "C": "Erhob",
+        "U": "rhob"
+      },
+      {
+        "type": "replace",
+        "C": "1245 Und",
+        "U": "nd"
+      },
+      {
+        "type": "replace",
+        "C": "Was",
+        "U": "Sas"
+      },
+      {
+        "type": "replace",
+        "C": "Grauses;",
+        "U": "Grauses,"
+      },
+      {
+        "type": "replace",
+        "C": "Hinfort",
+        "U": "infort"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "nd"
+      },
+      {
+        "type": "replace",
+        "C": "Und",
+        "U": "id"
+      },
+      {
+        "type": "replace",
+        "C": "Einmal",
+        "U": "einmal"
+      },
+      {
+        "type": "replace",
+        "C": "1250 Die",
+        "U": "ie"
+      },
+      {
+        "type": "replace",
+        "C": "Augäpfel",
+        "U": "ugäpfel"
+      },
+      {
+        "type": "replace",
+        "C": "Des",
+        "U": "es"
+      }
+    ]
+  },
+  {
+    "page": "64",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "64 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1255",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1260",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Nuh'",
+        "U": "Ruh'"
+      },
+      {
+        "type": "replace",
+        "C": "ruft,",
+        "U": "rust,"
+      },
+      {
+        "type": "replace",
+        "C": "Kadmosvolk",
+        "U": "Kadmosvolf"
+      },
+      {
+        "type": "replace",
+        "C": "rust",
+        "U": "ruft"
+      },
+      {
+        "type": "delete",
+        "C": "1265",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sich",
+        "U": "ſich"
+      },
+      {
+        "type": "replace",
+        "C": "Schauspiel",
+        "U": "Schauſpiel"
+      },
+      {
+        "type": "delete",
+        "C": "1270",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ogräßliches",
+        "U": "gräßliches"
+      },
+      {
+        "type": "replace",
+        "C": "Ogräßlichstes,",
+        "U": "gräßlichstes,"
+      },
+      {
+        "type": "replace",
+        "C": "1275 Stürmt'",
+        "U": "Stürmt"
+      },
+      {
+        "type": "replace",
+        "C": "unseliges",
+        "U": "unſeliges"
+      }
+    ]
+  },
+  {
+    "page": "65",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 65 1280 So weckst du mir Schauder und Grauen.",
+        "U": "▪ ལ་ས།་ VIL 44124 ཡསལ་་ WILV CuLIL. Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "Oedipus.",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1285",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Ogräßliches Dedipus. Gewölk",
+        "U": "gräßliches Oedipus. Gewölf"
+      },
+      {
+        "type": "replace",
+        "C": "mir! 1290",
+        "U": "mir"
+      },
+      {
+        "type": "replace",
+        "C": "wehklagst,",
+        "U": "wehflagst,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 1295",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "harrst",
+        "U": "harrſt"
+      },
+      {
+        "type": "delete",
+        "C": "1300",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "8. Aufl.",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "66",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "66 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "keines",
+        "U": "feines"
+      },
+      {
+        "type": "replace",
+        "C": "sie.",
+        "U": "ſie."
+      },
+      {
+        "type": "delete",
+        "C": "1305",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sagst. Dedipus.",
+        "U": "ſagſt. Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1310",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Unseliger, 1315",
+        "U": "Unſeliger,"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1320",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1325",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "67",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "König Dedipus. 67",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "wohl gethan,",
+        "U": "wohlgethan,"
+      },
+      {
+        "type": "delete",
+        "C": "1330",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Rath.",
+        "U": "Rath!"
+      },
+      {
+        "type": "replace",
+        "C": "sage",
+        "U": "ſage"
+      },
+      {
+        "type": "delete",
+        "C": "1335",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "verdient?",
+        "U": "verdient ?"
+      },
+      {
+        "type": "delete",
+        "C": "1340",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "kein",
+        "U": "fein"
+      },
+      {
+        "type": "delete",
+        "C": "- 1345",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1350",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1355",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "68",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "68 König Dedipus. O",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1360",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "hierher",
+        "U": "hieher"
+      },
+      {
+        "type": "delete",
+        "C": "1365",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sonst 1370",
+        "U": "ſonſt"
+      },
+      {
+        "type": "replace",
+        "C": "säumet",
+        "U": "fäumet"
+      },
+      {
+        "type": "replace",
+        "C": "draussen",
+        "U": "draußen"
+      },
+      {
+        "type": "delete",
+        "C": "1375",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1380",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      }
+    ]
+  },
+  {
+    "page": "69",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 69 Kreon. Die Vorigen.",
+        "U": "J ILU IL. ལ་་ པ་་ས་."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus, erschein'",
+        "U": "Oedipus, erſchein'"
+      },
+      {
+        "type": "delete",
+        "C": "1385",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1390",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "hinein.",
+        "U": "hinein!"
+      },
+      {
+        "type": "delete",
+        "C": "1395",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "nahst:",
+        "U": "nahſt:"
+      },
+      {
+        "type": "replace",
+        "C": "Heil.",
+        "U": "Heil!"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1400",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "offenbart :",
+        "U": "offenbart:"
+      },
+      {
+        "type": "delete",
+        "C": "1405",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "sein",
+        "U": "ſein"
+      }
+    ]
+  },
+  {
+    "page": "70",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "70 König Dedipus. Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "replace",
+        "C": "Mann?",
+        "U": "Mann ?"
+      },
+      {
+        "type": "replace",
+        "C": "schenkst",
+        "U": "ſchenkſt"
+      },
+      {
+        "type": "replace",
+        "C": "Vertrau'n. Dedipus.",
+        "U": "Vertrau’n. Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "1410",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Lebenden 1415",
+        "U": "Lebendem"
+      },
+      {
+        "type": "replace",
+        "C": "ausersah",
+        "U": "auserjah"
+      },
+      {
+        "type": "replace",
+        "C": "Wär'",
+        "U": "Wär"
+      },
+      {
+        "type": "delete",
+        "C": "1420",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Um",
+        "U": "Und"
+      },
+      {
+        "type": "delete",
+        "C": "1425",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "dessen",
+        "U": "deſſen"
+      },
+      {
+        "type": "replace",
+        "C": "sie beständig",
+        "U": "ſie beſtändig"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "–"
+      },
+      {
+        "type": "replace",
+        "C": "Obhut:",
+        "U": "Obhut!"
+      },
+      {
+        "type": "replace",
+        "C": "1430 geh,",
+        "U": "geh',"
+      },
+      {
+        "type": "replace",
+        "C": "Geh,",
+        "U": "Geh',"
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Sie mein, wie damals,"
+      },
+      {
+        "type": "delete",
+        "C": "Sie mein, wie damals,",
+        "U": ""
+      }
+    ]
+  },
+  {
+    "page": "71",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 71 Was sag' ich?",
+        "U": "wuv juy"
+      },
+      {
+        "type": "replace",
+        "C": "1435",
+        "U": "5"
+      },
+      {
+        "type": "replace",
+        "C": "Kreon.",
+        "U": "Kreon"
+      },
+      {
+        "type": "replace",
+        "C": "Töchtern)",
+        "U": "Töchtern)."
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus. 1440",
+        "U": "Oedipus. O"
+      },
+      {
+        "type": "replace",
+        "C": "seid",
+        "U": "ſeid"
+      },
+      {
+        "type": "replace",
+        "C": "1445",
+        "U": "5"
+      },
+      {
+        "type": "replace",
+        "C": "ich,",
+        "U": "ich"
+      },
+      {
+        "type": "replace",
+        "C": "nicht,) Bedenk'",
+        "U": "nicht), Bedenk"
+      },
+      {
+        "type": "replace",
+        "C": "1450",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "sein?",
+        "U": "ſein?"
+      },
+      {
+        "type": "replace",
+        "C": "süßem",
+        "U": "füßem"
+      },
+      {
+        "type": "replace",
+        "C": "1455",
+        "U": "5"
+      },
+      {
+        "type": "replace",
+        "C": "1460",
+        "U": "O"
+      },
+      {
+        "type": "replace",
+        "C": "entsprossen,",
+        "U": "entſproſſen,"
+      }
+    ]
+  },
+  {
+    "page": "72",
+    "differences": [
+      {
+        "type": "delete",
+        "C": "72 König Dedipus.",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Im",
+        "U": "3m"
+      },
+      {
+        "type": "replace",
+        "C": "1465",
+        "U": "―"
+      },
+      {
+        "type": "replace",
+        "C": "Menökeus', -",
+        "U": "Menöfeus',"
+      },
+      {
+        "type": "replace",
+        "C": "-",
+        "U": "So nah verwandt sind,"
+      },
+      {
+        "type": "delete",
+        "C": "So nah verwandt sind,",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1470",
+        "U": ""
+      },
+      {
+        "type": "delete",
+        "C": "1475",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "geh' in's",
+        "U": "geh'in's"
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "delete",
+        "C": "Krcon. Dedipus. Weißt du, was ich scheidend hoffe ?",
+        "U": ""
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "Oedipus. Weißt du, was ich scheidend hoffe? Kreon."
+      },
+      {
+        "type": "delete",
+        "C": "1480",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Kreon.",
+        "U": "Krcon."
+      }
+    ]
+  },
+  {
+    "page": "73",
+    "differences": [
+      {
+        "type": "replace",
+        "C": "König Dedipus. 73 Dedipus.",
+        "U": "2xvipus."
+      },
+      {
+        "type": "replace",
+        "C": "Göttern.",
+        "U": "Göttern.. Meinst du?"
+      },
+      {
+        "type": "delete",
+        "C": "Meinst du?",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "Dedipus.",
+        "U": "Oedipus."
+      },
+      {
+        "type": "insert",
+        "C": "",
+        "U": "lings aus."
+      },
+      {
+        "type": "replace",
+        "C": "lings aus, Geh",
+        "U": "Geh'"
+      },
+      {
+        "type": "replace",
+        "C": "hier.",
+        "U": "hier!"
+      },
+      {
+        "type": "delete",
+        "C": "1485",
+        "U": ""
+      },
+      {
+        "type": "replace",
+        "C": "getreu",
+        "U": "getren"
+      },
+      {
+        "type": "replace",
+        "C": "Thebe,",
+        "U": "Thebä,"
+      },
+      {
+        "type": "replace",
+        "C": "Käthsel",
+        "U": "Räthsel"
+      },
+      {
+        "type": "replace",
+        "C": "Dessen",
+        "U": "Deſſen"
+      },
+      {
+        "type": "replace",
+        "C": "priesen",
+        "U": "prieſen"
+      },
+      {
+        "type": "replace",
+        "C": "versank! 1490",
+        "U": "verſank!"
+      },
+      {
+        "type": "replace",
+        "C": "Ch'",
+        "U": "Eh'"
+      }
+    ]
+  }
+]

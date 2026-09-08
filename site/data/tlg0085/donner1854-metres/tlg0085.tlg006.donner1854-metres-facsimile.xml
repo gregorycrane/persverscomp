@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Libation Bearers: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1.148" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=164" xml:id="donner-006-p148">
+      <desc>Libation Bearers; volume 1, printed page 148; PDF page 164. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/006-metres-148.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.149" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=165" xml:id="donner-006-p149">
+      <desc>Libation Bearers; volume 1, printed page 149; PDF page 165. </desc>
+      <graphic url="facsimiles/006-metres-149.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.150" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=166" xml:id="donner-006-p150">
+      <desc>Libation Bearers; volume 1, printed page 150; PDF page 166. </desc>
+      <graphic url="facsimiles/006-metres-150.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.151" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=167" xml:id="donner-006-p151">
+      <desc>Libation Bearers; volume 1, printed page 151; PDF page 167. </desc>
+      <graphic url="facsimiles/006-metres-151.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.152" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=168" xml:id="donner-006-p152">
+      <desc>Libation Bearers; volume 1, printed page 152; PDF page 168. </desc>
+      <graphic url="facsimiles/006-metres-152.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.153" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=169" xml:id="donner-006-p153">
+      <desc>Libation Bearers; volume 1, printed page 153; PDF page 169. </desc>
+      <graphic url="facsimiles/006-metres-153.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.154" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=172" xml:id="donner-006-p154">
+      <desc>Libation Bearers; volume 1, printed page 154; PDF page 172. Clear rescan at PDF page 172 replaces the blurred duplicate at PDF page 170. Intervening PDF page 171 is a duplicate Eumenides title.</desc>
+      <graphic url="facsimiles/006-metres-154.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

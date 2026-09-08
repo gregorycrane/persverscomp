@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Persians: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="2.190" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=426" xml:id="donner-002-p190">
+      <desc>Persians; volume 2, printed page 190; PDF page 426. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/002-metres-190.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.191" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=427" xml:id="donner-002-p191">
+      <desc>Persians; volume 2, printed page 191; PDF page 427. </desc>
+      <graphic url="facsimiles/002-metres-191.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.192" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=428" xml:id="donner-002-p192">
+      <desc>Persians; volume 2, printed page 192; PDF page 428. </desc>
+      <graphic url="facsimiles/002-metres-192.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.193" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=429" xml:id="donner-002-p193">
+      <desc>Persians; volume 2, printed page 193; PDF page 429. </desc>
+      <graphic url="facsimiles/002-metres-193.png" mimeType="image/png"/>
+    </surface>
+    <surface n="2.194" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=430" xml:id="donner-002-p194">
+      <desc>Persians; volume 2, printed page 194; PDF page 430. </desc>
+      <graphic url="facsimiles/002-metres-194.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

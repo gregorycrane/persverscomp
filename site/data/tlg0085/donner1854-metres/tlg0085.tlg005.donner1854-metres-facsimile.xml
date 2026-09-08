@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Agamemnon: Donner 1854 metrical facsimiles</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digital facsimile inventory, 8 September 2026.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>J. J. C. Donner, Aeschylos. Deutsch in den Versmaßen der Urschrift. Stuttgart: Hoffmann, 1854.<ref target="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf">Harvard scan of both volumes</ref></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Surfaces identify printed metrical appendix pages. This file is a facsimile inventory, not a translation edition or a CTS line alignment. No metrical quantities have been reconstructed from OCR. Continued schemes remain intact across successive page images. Verse links require independent verification against Donner’s native numbering and the Smyth reference.</p>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1.76" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=92" xml:id="donner-005-p76">
+      <desc>Agamemnon; volume 1, printed page 76; PDF page 92. Page number suppressed on appendix opening; identified from the heading and adjacent numbered pages.</desc>
+      <graphic url="facsimiles/005-metres-076.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.77" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=93" xml:id="donner-005-p77">
+      <desc>Agamemnon; volume 1, printed page 77; PDF page 93. </desc>
+      <graphic url="facsimiles/005-metres-077.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.78" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=94" xml:id="donner-005-p78">
+      <desc>Agamemnon; volume 1, printed page 78; PDF page 94. </desc>
+      <graphic url="facsimiles/005-metres-078.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.79" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=95" xml:id="donner-005-p79">
+      <desc>Agamemnon; volume 1, printed page 79; PDF page 95. </desc>
+      <graphic url="facsimiles/005-metres-079.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.80" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=96" xml:id="donner-005-p80">
+      <desc>Agamemnon; volume 1, printed page 80; PDF page 96. </desc>
+      <graphic url="facsimiles/005-metres-080.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.81" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=97" xml:id="donner-005-p81">
+      <desc>Agamemnon; volume 1, printed page 81; PDF page 97. </desc>
+      <graphic url="facsimiles/005-metres-081.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.82" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=98" xml:id="donner-005-p82">
+      <desc>Agamemnon; volume 1, printed page 82; PDF page 98. </desc>
+      <graphic url="facsimiles/005-metres-082.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.83" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=99" xml:id="donner-005-p83">
+      <desc>Agamemnon; volume 1, printed page 83; PDF page 99. </desc>
+      <graphic url="facsimiles/005-metres-083.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.84" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=100" xml:id="donner-005-p84">
+      <desc>Agamemnon; volume 1, printed page 84; PDF page 100. </desc>
+      <graphic url="facsimiles/005-metres-084.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.85" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=101" xml:id="donner-005-p85">
+      <desc>Agamemnon; volume 1, printed page 85; PDF page 101. </desc>
+      <graphic url="facsimiles/005-metres-085.png" mimeType="image/png"/>
+    </surface>
+    <surface n="1.86" source="https://archive.org/download/aeschylosdeutsc00donngoog/aeschylosdeutsc00donngoog.pdf#page=102" xml:id="donner-005-p86">
+      <desc>Agamemnon; volume 1, printed page 86; PDF page 102. </desc>
+      <graphic url="facsimiles/005-metres-086.png" mimeType="image/png"/>
+    </surface>
+  </facsimile>
+</TEI>

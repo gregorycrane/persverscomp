@@ -1,0 +1,65 @@
+[
+  {
+    "page": 321,
+    "before": [
+      "Seht, - mit Stricken die blutigen Hånd' umwunden, hin-",
+      "untergehn"
+    ],
+    "after": "Seht, - mit Stricken die blutigen Hånd' umwunden, hinuntergehn",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 315,
+    "before": [
+      "Klarer Bergquellen ihre Glanz-",
+      "gestalt; zu Paris eilten sie darauf, entbrannt"
+    ],
+    "after": "Klarer Bergquellen ihre Glanzgestalt; zu Paris eilten sie darauf, entbrannt",
+    "basis": "Explicit hyphenated continuation in same speech"
+  },
+  {
+    "page": 342,
+    "before": [
+      "Wer schwang das Schwert nicht, hob den Stein nicht",
+      "über ihm,"
+    ],
+    "after": "Wer schwang das Schwert nicht, hob den Stein nicht über ihm,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 316,
+    "before": [
+      "Der Schmach der Blutschuld wird sie dann nicht mehr",
+      "entfliehn."
+    ],
+    "after": "Der Schmach der Blutschuld wird sie dann nicht mehr entfliehn.",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 309,
+    "before": [
+      "Frommt es dir, Arme, dich bang in entstellendem Gram zu",
+      "verzehren,"
+    ],
+    "after": "Frommt es dir, Arme, dich bang in entstellendem Gram zu verzehren,",
+    "basis": "Indented continuation in BSB page coordinates, preceding line reaches right margin, same speech; no printed anchor removed."
+  },
+  {
+    "page": 339,
+    "before": [
+      "Verstoße.",
+      "Weil sie seinem Kind den Tod gedroht?"
+    ],
+    "shared_group": "r1269",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  },
+  {
+    "page": 340,
+    "before": [
+      "Erhebe dich!",
+      "Verloren bin ich, bin dahin!"
+    ],
+    "shared_group": "r1304",
+    "basis": "Complementary left/right indentation across speaker change in BSB coordinates within an overfull printed-anchor interval; separate speech parts retained."
+  }
+]

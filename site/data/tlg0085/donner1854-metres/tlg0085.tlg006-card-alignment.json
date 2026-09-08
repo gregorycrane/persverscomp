@@ -1,0 +1,610 @@
+[
+  {
+    "smyth": "1",
+    "donner": "1",
+    "donner_opening": "Hermes im Abgrund, der des Amtes wahrt von Zeus,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1-21",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "22",
+    "donner": "33",
+    "donner_opening": "Gesandt vom Hause kommen wir",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:22-31",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "32",
+    "donner": "42",
+    "donner_opening": "Wahnsinn, der hell die Haare sträubt,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:32-41",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "42",
+    "donner": "51",
+    "donner_opening": "Sie strebt mit solcher Liebe liebelos das Leid",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:42-53",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "55",
+    "donner": "61",
+    "donner_opening": "Die niebezwungne, niegebeugte Siegerin,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:55-65",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "66",
+    "donner": "71",
+    "donner_opening": "Der Strom des Blutes, den die Mutter Erde trank,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:66-70",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "71",
+    "donner": "75",
+    "donner_opening": "Wer keusche Brautgemächer kühn erstürmt, wird nie",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:71-74",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "75",
+    "donner": "79",
+    "donner_opening": "Doch ich, (denn zwiefache Noth legten mir",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:75-83b",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "84",
+    "donner": "87",
+    "donner_opening": "Ihr Mägde, die ihr Alles wohl bestellt im Haus,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:84-105",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "106",
+    "donner": "109",
+    "donner_opening": "Ich rede, (du gebeutst ja,) wie's vom Herzen kommt;",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:106-151",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "152",
+    "donner": "157",
+    "donner_opening": "Weint mit Schluchzen die schwindende Thräne",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:152-163",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "164",
+    "donner": "169",
+    "donner_opening": "Des Vatergrabes Erde trank die Spende nun.",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:164-194",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "195",
+    "donner": "198a",
+    "donner_opening": "Ach!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:195-224",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "225",
+    "donner": "229",
+    "donner_opening": "Nun siehst du doch mich selber, und erkennst mich nicht.",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:225-263",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "264",
+    "donner": "268",
+    "donner_opening": "O Kinder, eures Vaterhauses Retter ihr,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:264-305",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "306",
+    "donner": "310",
+    "donner_opening": "gewaltige Schicksalsmächte, mit Zeus",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:306-314",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "315",
+    "donner": "319",
+    "donner_opening": "Vater, verlorener Vater, was",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:315-322",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "323",
+    "donner": "327",
+    "donner_opening": "O Kind, des Abgeschiednen Geist bewältigt niemals",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:323-331",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "332",
+    "donner": "335",
+    "donner_opening": "Höre denn, Vater, auch meines Grams",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:332-339",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "340",
+    "donner": "343",
+    "donner_opening": "Doch es wandelt ein Gott wohl, wenn's ihm gefällt,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:340-344",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "345",
+    "donner": "348",
+    "donner_opening": "Daß du vor Troja doch",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:345-353",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "354",
+    "donner": "357",
+    "donner_opening": "Du lägst ein Freund bei Freunden, die dort rühmlich sanken,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:354-362",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "363",
+    "donner": "365",
+    "donner_opening": "Nein, vor den Mauern von",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:363-371",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "372",
+    "donner": "374",
+    "donner_opening": "Traun, köstlicher, Kind, als Schäße des Golds,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:372-379",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "380",
+    "donner": "382",
+    "donner_opening": "Scharf, ein durchdringender Pfeil,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:380-385",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "386",
+    "donner": "388",
+    "donner_opening": "Wie gern, ach! säng' ich einst bei Fackelschein",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:386-392",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "394",
+    "donner": "396",
+    "donner_opening": "Wann mit gewaltigem Arm",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:394-399",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "400",
+    "donner": "402",
+    "donner_opening": "Wohl ist ein Gesek, daß Tropfen des Bluts,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:400-404",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "405",
+    "donner": "407",
+    "donner_opening": "Wo seid ihr denn, des Hades Mächte, wo?",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:405-409",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "410",
+    "donner": "412",
+    "donner_opening": "Das Herzblut kocht mir stürmend wieder auf,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:410-417",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "418",
+    "donner": "420",
+    "donner_opening": "Welch Wort wohl trifft es? Nenn' ich alles Leid,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:418-422",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "423",
+    "donner": "425",
+    "donner_opening": "Sie traf mit grausen Schlägen ihn, der kissischen",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:423-428",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "429",
+    "donner": "431",
+    "donner_opening": "O Graun! Feindliche,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:429-433",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "434",
+    "donner": "436",
+    "donner_opening": "Die ganze Schmach hast du mir verkündet!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:434-438",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "439",
+    "donner": "441",
+    "donner_opening": "Verstümmelt ward, höre noch, sein Leichnam,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:439-443",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "445",
+    "donner": "446",
+    "donner_opening": "Du nennst des Vaters schnödes Loos.",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:445-450",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "451",
+    "donner": "451",
+    "donner_opening": "Was du vernommen, schreibe tief in's Herz dir ein;",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:451-455",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "456",
+    "donner": "457",
+    "donner_opening": "Dich ruf' ich an, Vater: hilf den Deinen, hilf!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:456-460",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "461",
+    "donner": "462",
+    "donner_opening": "So steht im Kampf Macht mit Macht und Recht mit Recht!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:461-465",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "466",
+    "donner": "467",
+    "donner_opening": "Ha, des Geschlechtes Fluch!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:466-470",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "471",
+    "donner": "472",
+    "donner_opening": "Nicht aus der Ferne kommt",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:471-475",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "476",
+    "donner": "477",
+    "donner_opening": "Ihr Seligen, die ihr im Abgrund herrscht,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:476-478",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "479",
+    "donner": "480",
+    "donner_opening": "O Vater, der nicht königlichen Todes starb,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:479-509",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "510",
+    "donner": "511",
+    "donner_opening": "Vollendet habt ihr euer Lied mit frommem Sinn,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:510-539",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "540",
+    "donner": "541",
+    "donner_opening": "So fleh' ich, Erde, Vatergruft, dich fleh' ich an,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:540-584",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "585",
+    "donner": "586",
+    "donner_opening": "Erde nährt wunderbar",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:585-593",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "594",
+    "donner": "594",
+    "donner_opening": "Doch des Mann's überkeck",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:594-601",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "602",
+    "donner": "602",
+    "donner_opening": "Merkt auf, wenn ihr nicht in leichtem Sinn",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:602-611",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "612",
+    "donner": "612",
+    "donner_opening": "Auch dein werde stets in Haß gedacht,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:612-622",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "623",
+    "donner": "622",
+    "donner_opening": "Doch nun ich so kundgethan so schweres Leid,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:623-630",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "631",
+    "donner": "630",
+    "donner_opening": "Vor allen Unthaten ragt im Lied hervor,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:631-638",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "639",
+    "donner": "638",
+    "donner_opening": "Das Schwert, gezückt auf Frevlerbrust,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:639-645",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "646",
+    "donner": "643",
+    "donner_opening": "Auf festem Grund ruht Dike's Stamm.",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:646-651",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "653",
+    "donner": "650",
+    "donner_opening": "Zum drittenmale rus' ich: kommt einmal heraus,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:653-690",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "691",
+    "donner": "686",
+    "donner_opening": "Ha, wie von Grund aus unser Glück zertrümmerte!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:691-718",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "719",
+    "donner": "714",
+    "donner_opening": "Auf, Freundinnen, dienstbar waltend im Haus,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:719-729",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "730",
+    "donner": "725",
+    "donner_opening": "Der fremde Mann, so scheint es, hat Unheil gebracht.",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:730-765",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "766",
+    "donner": "761",
+    "donner_opening": "Und wie gerüstet, will sie, daß er kommen soll?",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:766-782",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "783",
+    "donner": "778",
+    "donner_opening": "Höre jetzt unser Fleh'n, großer Zeus,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:783-788",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "789",
+    "donner": "784a",
+    "donner_opening": "Gib, ach!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:789-793",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "794",
+    "donner": "789",
+    "donner_opening": "Unsers vieltheuren Herrn Waise ward",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:794-799",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "800",
+    "donner": "796",
+    "donner_opening": "Götter, ihr, die den goldreichen Schak",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:800-805",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "806",
+    "donner": "802",
+    "donner_opening": "Wenn er den Mord vollbracht, Herrscher in tiefgründiger Kluft,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:806-810",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "811",
+    "donner": "806",
+    "donner_opening": "Helfe mit allgerecht Maja's Sohn!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:811-818",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "819",
+    "donner": "813",
+    "donner_opening": "Reicher Opfer Fülle bringen wir",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:819-826",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "827",
+    "donner": "819a",
+    "donner_opening": "Kind, Kind!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:827-830",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "831",
+    "donner": "824",
+    "donner_opening": "Und mit Perseus' Muth im Busen geh',",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:831-837",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "838",
+    "donner": "831",
+    "donner_opening": "Nicht ungerufen komm' ich, Boten riefen mich;",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:838-854",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "855",
+    "donner": "848",
+    "donner_opening": "Was sag' ich, o Zeus, wo beginn' ich zuerst",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:855-868",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "869",
+    "donner": "863",
+    "donner_opening": "Weh mir! O Graun, o Graun!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:869-874",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "875",
+    "donner": "868",
+    "donner_opening": "Weh, wehe mir! In seinem Blute liegt der Fürst!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:875-899",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "900",
+    "donner": "893",
+    "donner_opening": "Wo blieben dann des Pythotempels übrige",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:900-934",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "935",
+    "donner": "928",
+    "donner_opening": "Priamos' Söhnen kam endlich als Rächerin",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:935-941",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "942",
+    "donner": "935",
+    "donner_opening": "Jauchzet, o jauchzet laut, daß das erlauchte Haus",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:942-945",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "946",
+    "donner": "939",
+    "donner_opening": "Schlau kam wider ihn, der den geheimen Kampf",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:946-951",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "953",
+    "donner": "946",
+    "donner_opening": "Solches hat Loxias, der an Parnassos' Höh'n",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:953-960",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "961",
+    "donner": "953",
+    "donner_opening": "Wieder erschien das Licht,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:961-964",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "966",
+    "donner": "957",
+    "donner_opening": "Und bald zieht die Zeit, die allendende,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:965-971",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "972",
+    "donner": "964",
+    "donner_opening": "Wieder erschien das Licht!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:972-964a",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "973",
+    "donner": "965",
+    "donner_opening": "Da sehet an des Landes stolzes Herrscherpaar,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:973-1006",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1007",
+    "donner": "999",
+    "donner_opening": "Weh, weh, weh, weh! Unselige That!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1007-1009",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1010",
+    "donner": "1003",
+    "donner_opening": "Hat sie's verschuldet oder nicht? Bezeugt es mir",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1010-1017",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1018",
+    "donner": "1011",
+    "donner_opening": "Kein Sterblicher wallt, frei jeglicher Schuld,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1018-1020b",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1021",
+    "donner": "1015",
+    "donner_opening": "Da sorg' ein Andrer: weiß doch ich, wo's enden wird!",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1021-1050",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1051",
+    "donner": "1045",
+    "donner_opening": "Welch düstres Wahnbild, du des Vaters liebstes Kind,",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1051-1064",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "1065",
+    "donner": "1059",
+    "donner_opening": "So erfüllte sich denn in der Könige Haus",
+    "corresp": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2:1065-1076",
+    "basis": "Speech/stanza/clause content comparison; containing-passage alignment."
+  },
+  {
+    "smyth": "942a",
+    "donner": null,
+    "earlier_donner": "935",
+    "basis": "Refrain not repeated at this position in Donner; no translated text supplied."
+  }
+]

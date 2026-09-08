@@ -1,0 +1,74 @@
+{
+  "[320, 325]": [
+    {
+      "n": "320u1",
+      "text": "Doch nimmermehr bin ich es, der die That gethan.",
+      "page": 211,
+      "rid": "r399"
+    },
+    {
+      "n": "320u2",
+      "text": "Du bist's, verkauftest deine Seel' um goldnen Lohn.",
+      "page": 211,
+      "rid": "r401"
+    },
+    {
+      "n": "320u3",
+      "text": "Weh!",
+      "page": 212,
+      "rid": "r403"
+    },
+    {
+      "n": "320u4",
+      "text": "Schlimm wahrlich, wenn man, wähnend, auch noch Falsches wähnt!",
+      "page": 212,
+      "rid": "r405"
+    },
+    {
+      "n": "320u5",
+      "text": "Ia, wizle mit dem Wahne nur; doch stellt ihr nicht",
+      "page": 212,
+      "rid": "r407"
+    }
+  ],
+  "[1230, 1235]": [
+    {
+      "n": "1230u1",
+      "text": "weh, Sohn, Sohn!",
+      "page": 250,
+      "rid": "r1604"
+    },
+    {
+      "n": "1230u2",
+      "text": "Früh sinkend, ach, frühem Tod,",
+      "page": 250,
+      "rid": "r1605"
+    },
+    {
+      "n": "1230u3",
+      "text": "Schiedst du vom Sonnenlicht!",
+      "page": 250,
+      "rid": "r1607"
+    }
+  ],
+  "[1255, 1260]": [
+    {
+      "n": "1255u1",
+      "text": "Mein Weib, ach! entseelt,",
+      "page": 251,
+      "rid": "r1640"
+    },
+    {
+      "n": "1255u2",
+      "text": "Vom Sohn mitgerissen in graunvollen Tod?",
+      "page": 251,
+      "rid": "r1641"
+    },
+    {
+      "n": "1255u3",
+      "text": "Du kannst es sehen; nicht im Hause birgt sich's mehr.",
+      "page": 251,
+      "rid": "r1643"
+    }
+  ]
+}

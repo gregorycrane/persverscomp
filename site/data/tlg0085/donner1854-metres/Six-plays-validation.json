@@ -1,0 +1,44 @@
+[
+  {
+    "work": "tlg0085.tlg002",
+    "verse_elements": 1028,
+    "native_end": 1015,
+    "cards": 91,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0085.tlg004",
+    "verse_elements": 1049,
+    "native_end": 1024,
+    "cards": 71,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0085.tlg001",
+    "verse_elements": 1023,
+    "native_end": 1019,
+    "cards": 107,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0085.tlg003",
+    "verse_elements": 1095,
+    "native_end": 1087,
+    "cards": 59,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0085.tlg006",
+    "verse_elements": 1077,
+    "native_end": 1070,
+    "cards": 87,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  },
+  {
+    "work": "tlg0085.tlg007",
+    "verse_elements": 1002,
+    "native_end": 999,
+    "cards": 72,
+    "checks": "PASS: native coverage, shared parts, unique IDs, reference endpoints, verse retention, all cards rendered, graphics present"
+  }
+]

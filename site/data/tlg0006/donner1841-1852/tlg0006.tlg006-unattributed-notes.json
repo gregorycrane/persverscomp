@@ -1,0 +1,89 @@
+{
+  "notes": [
+    {
+      "id": "note-006-3",
+      "number": "52",
+      "pages": [
+        347
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Pytho, der alte Name Delphi's.\nPhöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achil-\nleus tödtete.",
+      "text": "Pytho, der alte Name Delphi's. Phöbos Apollon gab dem Paris den Pfeil, mit welchem er den Achilleus tödtete.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-25",
+      "number": "718",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Ε. σώφρων, καθ' ἡμᾶς σώφρον᾿ ἀντιλήψεται.",
+      "text": "Ε. σώφρων, καθ' ἡμᾶς σώφρον᾿ ἀντιλήψεται.",
+      "primary_label_present": true,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-006-28",
+      "number": "763",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Peleus war einer der Argonauten.",
+      "text": "Peleus war einer der Argonauten.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-35",
+      "number": "1837",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "ξ. τῶνδ' Ι. ὧδ'.",
+      "text": "ξ. τῶνδ' Ι. ὧδ'.",
+      "primary_label_present": false,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening; native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening; native citation unresolved or absent"
+    },
+    {
+      "id": "note-006-36",
+      "number": "872",
+      "pages": [
+        348
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "L. ἢ τίς συμφορά σφ' ἀφείλετο;",
+      "text": "L. ἢ τίς συμφορά σφ' ἀφείλετο;",
+      "primary_label_present": false,
+      "status": "unattributed: printed label not independently recognized at an OCR line opening",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "printed label not independently recognized at an OCR line opening"
+    },
+    {
+      "id": "note-006-46",
+      "number": "971",
+      "pages": [
+        349
+      ],
+      "label_source": "BSB page coordinates",
+      "raw_text": "Monomet. anapæst. monom. jamb. monom. anapæst.",
+      "text": "Monomet. anapæst. monom. jamb. monom. anapæst.",
+      "primary_label_present": true,
+      "status": "unattributed: native citation unresolved or absent",
+      "wording_status": "OCR review: BSB note transcription; original Harvard OCR preserved alongside.",
+      "location_basis": "native citation unresolved or absent"
+    }
+  ],
+  "opening": []
+}
