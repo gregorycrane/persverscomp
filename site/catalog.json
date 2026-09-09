@@ -8320,11 +8320,11 @@
       "1204-1226",
       "1227-1234"
      ],
-     "bytes": 5885952
+     "bytes": 11694080
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8334,6 +8334,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg001.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg001.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -8442,11 +8449,11 @@
       "1372-1389",
       "1390-1409"
      ],
-     "bytes": 7151616
+     "bytes": 14073856
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8456,6 +8463,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg002.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg002.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -8568,11 +8582,11 @@
       "1452-1475",
       "1476-1511"
      ],
-     "bytes": 9199616
+     "bytes": 16887808
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8582,6 +8596,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg003.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -8703,11 +8724,11 @@
       "1523-1527",
       "1528-1537"
      ],
-     "bytes": 7966720
+     "bytes": 15568896
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8717,6 +8738,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg004.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg004.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -8821,11 +8849,11 @@
       "1316-1319",
       "1320-1357"
      ],
-     "bytes": 5943296
+     "bytes": 12288000
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8835,6 +8863,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg005.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg005.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -8960,11 +8995,11 @@
       "1737-1742",
       "1743-1765"
      ],
-     "bytes": 8978432
+     "bytes": 17526784
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -8974,6 +9009,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg006.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -9085,11 +9127,11 @@
       "1279-1294",
       "1295-1320"
      ],
-     "bytes": 6320128
+     "bytes": 12726272
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -9099,6 +9141,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg007.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -9197,11 +9246,11 @@
       "1160-1225",
       "1226-1231"
      ],
-     "bytes": 5234688
+     "bytes": 11063296
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -9211,6 +9260,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg008.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg008.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -9332,11 +9388,11 @@
       "1500-1527",
       "1528-1533"
      ],
-     "bytes": 7188480
+     "bytes": 14462976
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -9346,6 +9402,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg009.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -9436,11 +9499,11 @@
       "1155-1162",
       "1163-1183"
      ],
-     "bytes": 5464064
+     "bytes": 11489280
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -9450,6 +9513,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg010.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
@@ -9527,11 +9597,11 @@
       "1135-1170",
       "1171-1209"
      ],
-     "bytes": 6037504
+     "bytes": 12374016
     }
    ],
    "annotations": {
-    "treebanks": 1,
+    "treebanks": 2,
     "alignments": 0,
     "commentaries": 0,
     "metrical_lines": 0
@@ -9541,6 +9611,13 @@
      "short_id": "sanjaya-tb-grc1",
      "urn": "urn:cts:greekLit:tlg0019.tlg011.sanjaya-tb-grc1",
      "label": "Treebank + glosses + translations (Sanjaya, generated)",
+     "doc_type": "treebank",
+     "text_class": "treebank-text"
+    },
+    {
+     "short_id": "perseus-grc2-oga020-src",
+     "urn": "urn:cts:greekLit:tlg0019.tlg011.perseus-grc2-oga020-src",
+     "label": "Treebank (Perseus AGDT/OGA, glossed)",
      "doc_type": "treebank",
      "text_class": "treebank-text"
     },
