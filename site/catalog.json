@@ -9698,11 +9698,13 @@
       "label": "Commentary (Sanjaya, generated; selected passages)",
       "title": "Wealth"
     },
-    "tlg0085.frag_athamas": {
+    "tlg0085.fragmenta": {
       "textgroup": "tlg0085",
-      "work": "frag_athamas",
-      "title": "Athamas",
+      "work": "fragmenta",
+      "title": "Fragments",
       "experimental_fragment": true,
+      "fragment_corpus": true,
+      "work_urn": "urn:cts:greekLit:tlg0085.fragmenta",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9711,7 +9713,507 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_athamas.part1.db",
+          "file": "tlg0085.fragmenta.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166",
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172",
+            "173",
+            "174",
+            "175",
+            "176",
+            "177",
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183",
+            "184",
+            "185",
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191",
+            "192",
+            "193",
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234",
+            "235",
+            "236",
+            "237",
+            "238",
+            "239",
+            "240",
+            "241",
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251",
+            "252",
+            "253",
+            "254",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "263",
+            "264",
+            "265",
+            "266",
+            "267",
+            "268",
+            "269",
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276",
+            "277",
+            "278",
+            "279",
+            "280",
+            "281",
+            "282",
+            "283",
+            "284",
+            "285",
+            "286",
+            "287",
+            "288",
+            "289",
+            "290",
+            "291",
+            "292",
+            "293",
+            "294",
+            "295",
+            "296",
+            "297",
+            "298",
+            "299",
+            "300",
+            "301",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "319",
+            "320",
+            "321",
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330",
+            "331",
+            "332",
+            "333",
+            "334",
+            "335",
+            "336",
+            "337",
+            "338",
+            "339",
+            "340",
+            "341",
+            "342",
+            "343",
+            "344",
+            "345",
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351",
+            "352",
+            "353",
+            "354",
+            "355",
+            "356",
+            "357",
+            "358",
+            "359",
+            "360",
+            "361",
+            "362",
+            "363",
+            "364",
+            "365",
+            "366",
+            "367",
+            "368",
+            "369",
+            "370",
+            "371",
+            "372",
+            "373",
+            "374",
+            "375",
+            "376",
+            "377",
+            "378",
+            "379",
+            "380",
+            "381",
+            "382",
+            "383",
+            "384",
+            "385",
+            "386",
+            "387",
+            "388",
+            "389",
+            "390",
+            "391",
+            "392",
+            "393",
+            "394",
+            "395",
+            "396",
+            "397",
+            "398",
+            "399",
+            "400",
+            "401",
+            "402",
+            "403",
+            "404",
+            "405",
+            "406",
+            "407",
+            "408",
+            "409",
+            "410",
+            "411",
+            "412",
+            "413",
+            "414",
+            "415",
+            "416",
+            "417",
+            "418",
+            "419",
+            "420",
+            "421",
+            "422",
+            "423",
+            "424",
+            "425",
+            "426",
+            "427",
+            "428",
+            "429",
+            "430",
+            "431",
+            "432",
+            "433",
+            "434",
+            "435",
+            "436",
+            "437",
+            "438",
+            "439",
+            "440",
+            "441",
+            "442",
+            "443",
+            "444",
+            "445",
+            "446",
+            "447",
+            "448",
+            "449",
+            "450",
+            "451",
+            "452",
+            "453",
+            "454",
+            "455",
+            "456",
+            "457",
+            "458",
+            "459",
+            "460",
+            "461",
+            "462",
+            "463",
+            "464",
+            "465",
+            "466"
+          ],
+          "bytes": 811008
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg0085_fragmenta_nauck1889",
+          "short_id": "nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
+          "label": "Greek (Nauck, 1889; transcription preview)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg0085.athamas": {
+      "textgroup": "tlg0085",
+      "work": "athamas",
+      "title": "Athamas",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:athamas",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0085.athamas.part1.db",
           "books": [],
           "chapters": [
             "1",
@@ -9724,9 +10226,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_athamas_nauck1889",
+          "canonical_id": "tlg0085_athamas_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_athamas.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9734,11 +10236,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_aigyptioi": {
+    "tlg0085.aigyptioi": {
       "textgroup": "tlg0085",
-      "work": "frag_aigyptioi",
+      "work": "aigyptioi",
       "title": "Aigyptioi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:aigyptioi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9747,7 +10251,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_aigyptioi.part1.db",
+          "file": "tlg0085.aigyptioi.part1.db",
           "books": [],
           "chapters": [
             "5"
@@ -9757,9 +10261,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_aigyptioi_nauck1889",
+          "canonical_id": "tlg0085_aigyptioi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_aigyptioi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9767,11 +10271,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_aitnaiai": {
+    "tlg0085.aitnaiai": {
       "textgroup": "tlg0085",
-      "work": "frag_aitnaiai",
+      "work": "aitnaiai",
       "title": "Aitnaiai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:aitnaiai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9780,7 +10286,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_aitnaiai.part1.db",
+          "file": "tlg0085.aitnaiai.part1.db",
           "books": [],
           "chapters": [
             "6",
@@ -9795,9 +10301,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_aitnaiai_nauck1889",
+          "canonical_id": "tlg0085_aitnaiai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_aitnaiai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9805,11 +10311,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_alkmene": {
+    "tlg0085.alkmene": {
       "textgroup": "tlg0085",
-      "work": "frag_alkmene",
+      "work": "alkmene",
       "title": "Alkmene",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:alkmene",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9818,7 +10326,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_alkmene.part1.db",
+          "file": "tlg0085.alkmene.part1.db",
           "books": [],
           "chapters": [
             "12"
@@ -9828,9 +10336,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_alkmene_nauck1889",
+          "canonical_id": "tlg0085_alkmene_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_alkmene.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9838,11 +10346,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_amymone": {
+    "tlg0085.amymone": {
       "textgroup": "tlg0085",
-      "work": "frag_amymone",
+      "work": "amymone",
       "title": "Amymone",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:amymone",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9851,7 +10361,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_amymone.part1.db",
+          "file": "tlg0085.amymone.part1.db",
           "books": [],
           "chapters": [
             "13",
@@ -9863,9 +10373,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_amymone_nauck1889",
+          "canonical_id": "tlg0085_amymone_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_amymone.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9873,11 +10383,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_argeioi": {
+    "tlg0085.argeioi": {
       "textgroup": "tlg0085",
-      "work": "frag_argeioi",
+      "work": "argeioi",
       "title": "Argeioi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:argeioi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9886,7 +10398,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_argeioi.part1.db",
+          "file": "tlg0085.argeioi.part1.db",
           "books": [],
           "chapters": [
             "16",
@@ -9899,9 +10411,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_argeioi_nauck1889",
+          "canonical_id": "tlg0085_argeioi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_argeioi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9909,11 +10421,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_argo": {
+    "tlg0085.argo": {
       "textgroup": "tlg0085",
-      "work": "frag_argo",
+      "work": "argo",
       "title": "Argo",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:argo",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9922,7 +10436,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_argo.part1.db",
+          "file": "tlg0085.argo.part1.db",
           "books": [],
           "chapters": [
             "20",
@@ -9933,9 +10447,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_argo_nauck1889",
+          "canonical_id": "tlg0085_argo_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_argo.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9943,11 +10457,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_bakchai": {
+    "tlg0085.bakchai": {
       "textgroup": "tlg0085",
-      "work": "frag_bakchai",
+      "work": "bakchai",
       "title": "Bakchai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:bakchai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9956,7 +10472,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_bakchai.part1.db",
+          "file": "tlg0085.bakchai.part1.db",
           "books": [],
           "chapters": [
             "22"
@@ -9966,9 +10482,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_bakchai_nauck1889",
+          "canonical_id": "tlg0085_bakchai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_bakchai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -9976,11 +10492,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_bassarai": {
+    "tlg0085.bassarai": {
       "textgroup": "tlg0085",
-      "work": "frag_bassarai",
+      "work": "bassarai",
       "title": "Bassarai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:bassarai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -9989,7 +10507,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_bassarai.part1.db",
+          "file": "tlg0085.bassarai.part1.db",
           "books": [],
           "chapters": [
             "23",
@@ -10001,9 +10519,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_bassarai_nauck1889",
+          "canonical_id": "tlg0085_bassarai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_bassarai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10011,11 +10529,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_glaykos_pontios": {
+    "tlg0085.glaykos_pontios": {
       "textgroup": "tlg0085",
-      "work": "frag_glaykos_pontios",
+      "work": "glaykos_pontios",
       "title": "Glaykos Pontios",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:glaykos_pontios",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10024,7 +10544,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_glaykos_pontios.part1.db",
+          "file": "tlg0085.glaykos_pontios.part1.db",
           "books": [],
           "chapters": [
             "26",
@@ -10043,9 +10563,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_glaykos_pontios_nauck1889",
+          "canonical_id": "tlg0085_glaykos_pontios_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_glaykos_pontios.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10053,11 +10573,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_glaykos_potnieys": {
+    "tlg0085.glaykos_potnieys": {
       "textgroup": "tlg0085",
-      "work": "frag_glaykos_potnieys",
+      "work": "glaykos_potnieys",
       "title": "Glaykos Potnieys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:glaykos_potnieys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10066,7 +10588,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_glaykos_potnieys.part1.db",
+          "file": "tlg0085.glaykos_potnieys.part1.db",
           "books": [],
           "chapters": [
             "36",
@@ -10082,9 +10604,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_glaykos_potnieys_nauck1889",
+          "canonical_id": "tlg0085_glaykos_potnieys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_glaykos_potnieys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10092,11 +10614,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_danaides": {
+    "tlg0085.danaides": {
       "textgroup": "tlg0085",
-      "work": "frag_danaides",
+      "work": "danaides",
       "title": "Danaides",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:danaides",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10105,7 +10629,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_danaides.part1.db",
+          "file": "tlg0085.danaides.part1.db",
           "books": [],
           "chapters": [
             "43",
@@ -10118,9 +10642,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_danaides_nauck1889",
+          "canonical_id": "tlg0085_danaides_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_danaides.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10128,11 +10652,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_diktyoylkoi": {
+    "tlg0085.diktyoylkoi": {
       "textgroup": "tlg0085",
-      "work": "frag_diktyoylkoi",
+      "work": "diktyoylkoi",
       "title": "Diktyoylkoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:diktyoylkoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10141,7 +10667,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_diktyoylkoi.part1.db",
+          "file": "tlg0085.diktyoylkoi.part1.db",
           "books": [],
           "chapters": [
             "47",
@@ -10153,9 +10679,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_diktyoylkoi_nauck1889",
+          "canonical_id": "tlg0085_diktyoylkoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_diktyoylkoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10163,11 +10689,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_dionysoy_trophoi": {
+    "tlg0085.dionysoy_trophoi": {
       "textgroup": "tlg0085",
-      "work": "frag_dionysoy_trophoi",
+      "work": "dionysoy_trophoi",
       "title": "Dionysoy Trophoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:dionysoy_trophoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10176,7 +10704,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_dionysoy_trophoi.part1.db",
+          "file": "tlg0085.dionysoy_trophoi.part1.db",
           "books": [],
           "chapters": [
             "50",
@@ -10189,9 +10717,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_dionysoy_trophoi_nauck1889",
+          "canonical_id": "tlg0085_dionysoy_trophoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_dionysoy_trophoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10199,11 +10727,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_eleysinioi": {
+    "tlg0085.eleysinioi": {
       "textgroup": "tlg0085",
-      "work": "frag_eleysinioi",
+      "work": "eleysinioi",
       "title": "Eleysinioi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:eleysinioi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10212,7 +10742,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_eleysinioi.part1.db",
+          "file": "tlg0085.eleysinioi.part1.db",
           "books": [],
           "chapters": [
             "54"
@@ -10222,9 +10752,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_eleysinioi_nauck1889",
+          "canonical_id": "tlg0085_eleysinioi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_eleysinioi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10232,11 +10762,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_epigonoi": {
+    "tlg0085.epigonoi": {
       "textgroup": "tlg0085",
-      "work": "frag_epigonoi",
+      "work": "epigonoi",
       "title": "Epigonoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:epigonoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10245,7 +10777,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_epigonoi.part1.db",
+          "file": "tlg0085.epigonoi.part1.db",
           "books": [],
           "chapters": [
             "55",
@@ -10256,9 +10788,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_epigonoi_nauck1889",
+          "canonical_id": "tlg0085_epigonoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_epigonoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10266,11 +10798,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_edonoi": {
+    "tlg0085.edonoi": {
       "textgroup": "tlg0085",
-      "work": "frag_edonoi",
+      "work": "edonoi",
       "title": "Edonoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:edonoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10279,7 +10813,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_edonoi.part1.db",
+          "file": "tlg0085.edonoi.part1.db",
           "books": [],
           "chapters": [
             "57",
@@ -10299,9 +10833,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_edonoi_nauck1889",
+          "canonical_id": "tlg0085_edonoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_edonoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10309,11 +10843,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_heliades": {
+    "tlg0085.heliades": {
       "textgroup": "tlg0085",
-      "work": "frag_heliades",
+      "work": "heliades",
       "title": "Heliades",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:heliades",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10322,7 +10858,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_heliades.part1.db",
+          "file": "tlg0085.heliades.part1.db",
           "books": [],
           "chapters": [
             "68",
@@ -10337,9 +10873,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_heliades_nauck1889",
+          "canonical_id": "tlg0085_heliades_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_heliades.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10347,11 +10883,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_herakleidai": {
+    "tlg0085.herakleidai": {
       "textgroup": "tlg0085",
-      "work": "frag_herakleidai",
+      "work": "herakleidai",
       "title": "Herakleidai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:herakleidai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10360,7 +10898,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_herakleidai.part1.db",
+          "file": "tlg0085.herakleidai.part1.db",
           "books": [],
           "chapters": [
             "74",
@@ -10373,9 +10911,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_herakleidai_nauck1889",
+          "canonical_id": "tlg0085_herakleidai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_herakleidai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10383,11 +10921,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_thalamopoioi": {
+    "tlg0085.thalamopoioi": {
       "textgroup": "tlg0085",
-      "work": "frag_thalamopoioi",
+      "work": "thalamopoioi",
       "title": "Thalamopoioi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:thalamopoioi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10396,7 +10936,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_thalamopoioi.part1.db",
+          "file": "tlg0085.thalamopoioi.part1.db",
           "books": [],
           "chapters": [
             "78"
@@ -10406,9 +10946,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_thalamopoioi_nauck1889",
+          "canonical_id": "tlg0085_thalamopoioi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_thalamopoioi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10416,11 +10956,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_theoroi": {
+    "tlg0085.theoroi": {
       "textgroup": "tlg0085",
-      "work": "frag_theoroi",
+      "work": "theoroi",
       "title": "Theoroi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:theoroi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10429,7 +10971,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_theoroi.part1.db",
+          "file": "tlg0085.theoroi.part1.db",
           "books": [],
           "chapters": [
             "79",
@@ -10442,9 +10984,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_theoroi_nauck1889",
+          "canonical_id": "tlg0085_theoroi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_theoroi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10452,11 +10994,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_threissai": {
+    "tlg0085.threissai": {
       "textgroup": "tlg0085",
-      "work": "frag_threissai",
+      "work": "threissai",
       "title": "Threissai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:threissai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10465,7 +11009,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_threissai.part1.db",
+          "file": "tlg0085.threissai.part1.db",
           "books": [],
           "chapters": [
             "83",
@@ -10477,9 +11021,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_threissai_nauck1889",
+          "canonical_id": "tlg0085_threissai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_threissai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10487,11 +11031,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_iereiai": {
+    "tlg0085.iereiai": {
       "textgroup": "tlg0085",
-      "work": "frag_iereiai",
+      "work": "iereiai",
       "title": "Iereiai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:iereiai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10500,7 +11046,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_iereiai.part1.db",
+          "file": "tlg0085.iereiai.part1.db",
           "books": [],
           "chapters": [
             "86",
@@ -10512,9 +11058,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_iereiai_nauck1889",
+          "canonical_id": "tlg0085_iereiai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_iereiai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10522,11 +11068,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_ixion": {
+    "tlg0085.ixion": {
       "textgroup": "tlg0085",
-      "work": "frag_ixion",
+      "work": "ixion",
       "title": "Ixion",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:ixion",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10535,7 +11083,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_ixion.part1.db",
+          "file": "tlg0085.ixion.part1.db",
           "books": [],
           "chapters": [
             "89",
@@ -10549,9 +11097,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_ixion_nauck1889",
+          "canonical_id": "tlg0085_ixion_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_ixion.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10559,11 +11107,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_iphigeneia": {
+    "tlg0085.iphigeneia": {
       "textgroup": "tlg0085",
-      "work": "frag_iphigeneia",
+      "work": "iphigeneia",
       "title": "Iphigeneia",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:iphigeneia",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10572,7 +11122,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_iphigeneia.part1.db",
+          "file": "tlg0085.iphigeneia.part1.db",
           "books": [],
           "chapters": [
             "94"
@@ -10582,9 +11132,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_iphigeneia_nauck1889",
+          "canonical_id": "tlg0085_iphigeneia_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_iphigeneia.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10592,11 +11142,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kabeiroi": {
+    "tlg0085.kabeiroi": {
       "textgroup": "tlg0085",
-      "work": "frag_kabeiroi",
+      "work": "kabeiroi",
       "title": "Kabeiroi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kabeiroi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10605,7 +11157,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kabeiroi.part1.db",
+          "file": "tlg0085.kabeiroi.part1.db",
           "books": [],
           "chapters": [
             "95",
@@ -10617,9 +11169,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kabeiroi_nauck1889",
+          "canonical_id": "tlg0085_kabeiroi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kabeiroi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10627,11 +11179,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kallisto": {
+    "tlg0085.kallisto": {
       "textgroup": "tlg0085",
-      "work": "frag_kallisto",
+      "work": "kallisto",
       "title": "Kallisto",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kallisto",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10640,7 +11194,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kallisto.part1.db",
+          "file": "tlg0085.kallisto.part1.db",
           "books": [],
           "chapters": [
             "98"
@@ -10650,9 +11204,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kallisto_nauck1889",
+          "canonical_id": "tlg0085_kallisto_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kallisto.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10660,11 +11214,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kares": {
+    "tlg0085.kares": {
       "textgroup": "tlg0085",
-      "work": "frag_kares",
+      "work": "kares",
       "title": "Kares",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kares",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10673,7 +11229,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kares.part1.db",
+          "file": "tlg0085.kares.part1.db",
           "books": [],
           "chapters": [
             "99",
@@ -10685,9 +11241,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kares_nauck1889",
+          "canonical_id": "tlg0085_kares_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kares.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10695,11 +11251,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kerkyon": {
+    "tlg0085.kerkyon": {
       "textgroup": "tlg0085",
-      "work": "frag_kerkyon",
+      "work": "kerkyon",
       "title": "Kerkyon",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kerkyon",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10708,7 +11266,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kerkyon.part1.db",
+          "file": "tlg0085.kerkyon.part1.db",
           "books": [],
           "chapters": [
             "102",
@@ -10723,9 +11281,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kerkyon_nauck1889",
+          "canonical_id": "tlg0085_kerkyon_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kerkyon.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10733,11 +11291,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kerykes": {
+    "tlg0085.kerykes": {
       "textgroup": "tlg0085",
-      "work": "frag_kerykes",
+      "work": "kerykes",
       "title": "Kerykes",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kerykes",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10746,7 +11306,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kerykes.part1.db",
+          "file": "tlg0085.kerykes.part1.db",
           "books": [],
           "chapters": [
             "108",
@@ -10761,9 +11321,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kerykes_nauck1889",
+          "canonical_id": "tlg0085_kerykes_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kerykes.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10771,11 +11331,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kirke": {
+    "tlg0085.kirke": {
       "textgroup": "tlg0085",
-      "work": "frag_kirke",
+      "work": "kirke",
       "title": "Kirke",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kirke",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10784,7 +11346,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kirke.part1.db",
+          "file": "tlg0085.kirke.part1.db",
           "books": [],
           "chapters": [
             "114",
@@ -10795,9 +11357,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kirke_nauck1889",
+          "canonical_id": "tlg0085_kirke_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kirke.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10805,11 +11367,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_kressai": {
+    "tlg0085.kressai": {
       "textgroup": "tlg0085",
-      "work": "frag_kressai",
+      "work": "kressai",
       "title": "Kressai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:kressai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10818,7 +11382,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_kressai.part1.db",
+          "file": "tlg0085.kressai.part1.db",
           "books": [],
           "chapters": [
             "116",
@@ -10832,9 +11396,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_kressai_nauck1889",
+          "canonical_id": "tlg0085_kressai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_kressai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10842,11 +11406,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_laios": {
+    "tlg0085.laios": {
       "textgroup": "tlg0085",
-      "work": "frag_laios",
+      "work": "laios",
       "title": "Laios",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:laios",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10855,7 +11421,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_laios.part1.db",
+          "file": "tlg0085.laios.part1.db",
           "books": [],
           "chapters": [
             "121",
@@ -10866,9 +11432,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_laios_nauck1889",
+          "canonical_id": "tlg0085_laios_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_laios.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10876,11 +11442,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_leon": {
+    "tlg0085.leon": {
       "textgroup": "tlg0085",
-      "work": "frag_leon",
+      "work": "leon",
       "title": "Leon",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:leon",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10889,7 +11457,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_leon.part1.db",
+          "file": "tlg0085.leon.part1.db",
           "books": [],
           "chapters": [
             "123"
@@ -10899,9 +11467,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_leon_nauck1889",
+          "canonical_id": "tlg0085_leon_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_leon.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10909,11 +11477,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_lykourgos": {
+    "tlg0085.lykourgos": {
       "textgroup": "tlg0085",
-      "work": "frag_lykourgos",
+      "work": "lykourgos",
       "title": "Lykourgos",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:lykourgos",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10922,7 +11492,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_lykourgos.part1.db",
+          "file": "tlg0085.lykourgos.part1.db",
           "books": [],
           "chapters": [
             "124",
@@ -10934,9 +11504,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_lykourgos_nauck1889",
+          "canonical_id": "tlg0085_lykourgos_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_lykourgos.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10944,11 +11514,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_memnon": {
+    "tlg0085.memnon": {
       "textgroup": "tlg0085",
-      "work": "frag_memnon",
+      "work": "memnon",
       "title": "Memnon",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:memnon",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10957,7 +11529,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_memnon.part1.db",
+          "file": "tlg0085.memnon.part1.db",
           "books": [],
           "chapters": [
             "127",
@@ -10970,9 +11542,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_memnon_nauck1889",
+          "canonical_id": "tlg0085_memnon_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_memnon.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -10980,11 +11552,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_myrmidones": {
+    "tlg0085.myrmidones": {
       "textgroup": "tlg0085",
-      "work": "frag_myrmidones",
+      "work": "myrmidones",
       "title": "Myrmidones",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:myrmidones",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -10993,7 +11567,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_myrmidones.part1.db",
+          "file": "tlg0085.myrmidones.part1.db",
           "books": [],
           "chapters": [
             "131",
@@ -11014,9 +11588,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_myrmidones_nauck1889",
+          "canonical_id": "tlg0085_myrmidones_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_myrmidones.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11024,11 +11598,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_mysoi": {
+    "tlg0085.mysoi": {
       "textgroup": "tlg0085",
-      "work": "frag_mysoi",
+      "work": "mysoi",
       "title": "Mysoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:mysoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11037,7 +11613,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_mysoi.part1.db",
+          "file": "tlg0085.mysoi.part1.db",
           "books": [],
           "chapters": [
             "143",
@@ -11049,9 +11625,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_mysoi_nauck1889",
+          "canonical_id": "tlg0085_mysoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_mysoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11059,11 +11635,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_neaniskoi": {
+    "tlg0085.neaniskoi": {
       "textgroup": "tlg0085",
-      "work": "frag_neaniskoi",
+      "work": "neaniskoi",
       "title": "Neaniskoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:neaniskoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11072,7 +11650,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_neaniskoi.part1.db",
+          "file": "tlg0085.neaniskoi.part1.db",
           "books": [],
           "chapters": [
             "146",
@@ -11085,9 +11663,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_neaniskoi_nauck1889",
+          "canonical_id": "tlg0085_neaniskoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_neaniskoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11095,11 +11673,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_nereides": {
+    "tlg0085.nereides": {
       "textgroup": "tlg0085",
-      "work": "frag_nereides",
+      "work": "nereides",
       "title": "Nereides",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:nereides",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11108,7 +11688,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_nereides.part1.db",
+          "file": "tlg0085.nereides.part1.db",
           "books": [],
           "chapters": [
             "150",
@@ -11122,9 +11702,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_nereides_nauck1889",
+          "canonical_id": "tlg0085_nereides_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_nereides.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11132,11 +11712,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_niobe": {
+    "tlg0085.niobe": {
       "textgroup": "tlg0085",
-      "work": "frag_niobe",
+      "work": "niobe",
       "title": "Niobe",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:niobe",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11145,7 +11727,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_niobe.part1.db",
+          "file": "tlg0085.niobe.part1.db",
           "books": [],
           "chapters": [
             "155",
@@ -11167,9 +11749,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_niobe_nauck1889",
+          "canonical_id": "tlg0085_niobe_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_niobe.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11177,11 +11759,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_xantriai": {
+    "tlg0085.xantriai": {
       "textgroup": "tlg0085",
-      "work": "frag_xantriai",
+      "work": "xantriai",
       "title": "Xantriai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:xantriai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11190,7 +11774,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_xantriai.part1.db",
+          "file": "tlg0085.xantriai.part1.db",
           "books": [],
           "chapters": [
             "168",
@@ -11204,9 +11788,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_xantriai_nauck1889",
+          "canonical_id": "tlg0085_xantriai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_xantriai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11214,11 +11798,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_oidipoys": {
+    "tlg0085.oidipoys": {
       "textgroup": "tlg0085",
-      "work": "frag_oidipoys",
+      "work": "oidipoys",
       "title": "Oidipoys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:oidipoys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11227,7 +11813,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_oidipoys.part1.db",
+          "file": "tlg0085.oidipoys.part1.db",
           "books": [],
           "chapters": [
             "173"
@@ -11237,9 +11823,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_oidipoys_nauck1889",
+          "canonical_id": "tlg0085_oidipoys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_oidipoys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11247,11 +11833,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_oplon_krisis": {
+    "tlg0085.oplon_krisis": {
       "textgroup": "tlg0085",
-      "work": "frag_oplon_krisis",
+      "work": "oplon_krisis",
       "title": "Oplon Krisis",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:oplon_krisis",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11260,7 +11848,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_oplon_krisis.part1.db",
+          "file": "tlg0085.oplon_krisis.part1.db",
           "books": [],
           "chapters": [
             "174",
@@ -11274,9 +11862,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_oplon_krisis_nauck1889",
+          "canonical_id": "tlg0085_oplon_krisis_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_oplon_krisis.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11284,11 +11872,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_ostologoi": {
+    "tlg0085.ostologoi": {
       "textgroup": "tlg0085",
-      "work": "frag_ostologoi",
+      "work": "ostologoi",
       "title": "Ostologoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:ostologoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11297,7 +11887,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_ostologoi.part1.db",
+          "file": "tlg0085.ostologoi.part1.db",
           "books": [],
           "chapters": [
             "179",
@@ -11308,9 +11898,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_ostologoi_nauck1889",
+          "canonical_id": "tlg0085_ostologoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_ostologoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11318,11 +11908,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_palamedes": {
+    "tlg0085.palamedes": {
       "textgroup": "tlg0085",
-      "work": "frag_palamedes",
+      "work": "palamedes",
       "title": "Palamedes",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:palamedes",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11331,7 +11923,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_palamedes.part1.db",
+          "file": "tlg0085.palamedes.part1.db",
           "books": [],
           "chapters": [
             "181",
@@ -11342,9 +11934,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_palamedes_nauck1889",
+          "canonical_id": "tlg0085_palamedes_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_palamedes.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11352,11 +11944,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_pentheys": {
+    "tlg0085.pentheys": {
       "textgroup": "tlg0085",
-      "work": "frag_pentheys",
+      "work": "pentheys",
       "title": "Pentheys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:pentheys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11365,7 +11959,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_pentheys.part1.db",
+          "file": "tlg0085.pentheys.part1.db",
           "books": [],
           "chapters": [
             "183"
@@ -11375,9 +11969,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_pentheys_nauck1889",
+          "canonical_id": "tlg0085_pentheys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_pentheys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11385,11 +11979,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_perraibides": {
+    "tlg0085.perraibides": {
       "textgroup": "tlg0085",
-      "work": "frag_perraibides",
+      "work": "perraibides",
       "title": "Perraibides",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:perraibides",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11398,7 +11994,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_perraibides.part1.db",
+          "file": "tlg0085.perraibides.part1.db",
           "books": [],
           "chapters": [
             "184",
@@ -11410,9 +12006,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_perraibides_nauck1889",
+          "canonical_id": "tlg0085_perraibides_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_perraibides.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11420,11 +12016,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_penelope": {
+    "tlg0085.penelope": {
       "textgroup": "tlg0085",
-      "work": "frag_penelope",
+      "work": "penelope",
       "title": "Penelope",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:penelope",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11433,7 +12031,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_penelope.part1.db",
+          "file": "tlg0085.penelope.part1.db",
           "books": [],
           "chapters": [
             "187"
@@ -11443,9 +12041,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_penelope_nauck1889",
+          "canonical_id": "tlg0085_penelope_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_penelope.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11453,11 +12051,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_promethes": {
+    "tlg0085.promethes": {
       "textgroup": "tlg0085",
-      "work": "frag_promethes",
+      "work": "promethes",
       "title": "Promethes",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:promethes",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11466,7 +12066,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_promethes.part1.db",
+          "file": "tlg0085.promethes.part1.db",
           "books": [],
           "chapters": [
             "188",
@@ -11477,9 +12077,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_promethes_nauck1889",
+          "canonical_id": "tlg0085_promethes_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_promethes.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11487,11 +12087,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_prometheys_lyomenos": {
+    "tlg0085.prometheys_lyomenos": {
       "textgroup": "tlg0085",
-      "work": "frag_prometheys_lyomenos",
+      "work": "prometheys_lyomenos",
       "title": "Prometheys Lyomenos",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:prometheys_lyomenos",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11500,7 +12102,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_prometheys_lyomenos.part1.db",
+          "file": "tlg0085.prometheys_lyomenos.part1.db",
           "books": [],
           "chapters": [
             "190",
@@ -11524,9 +12126,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_prometheys_lyomenos_nauck1889",
+          "canonical_id": "tlg0085_prometheys_lyomenos_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_prometheys_lyomenos.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11534,11 +12136,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_prometheys_pyrkaeys": {
+    "tlg0085.prometheys_pyrkaeys": {
       "textgroup": "tlg0085",
-      "work": "frag_prometheys_pyrkaeys",
+      "work": "prometheys_pyrkaeys",
       "title": "Prometheys Pyrkaeys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:prometheys_pyrkaeys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11547,7 +12151,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_prometheys_pyrkaeys.part1.db",
+          "file": "tlg0085.prometheys_pyrkaeys.part1.db",
           "books": [],
           "chapters": [
             "205",
@@ -11559,9 +12163,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_prometheys_pyrkaeys_nauck1889",
+          "canonical_id": "tlg0085_prometheys_pyrkaeys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_prometheys_pyrkaeys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11569,11 +12173,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_prometheys_pyrphoros": {
+    "tlg0085.prometheys_pyrphoros": {
       "textgroup": "tlg0085",
-      "work": "frag_prometheys_pyrphoros",
+      "work": "prometheys_pyrphoros",
       "title": "Prometheys Pyrphoros",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:prometheys_pyrphoros",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11582,7 +12188,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_prometheys_pyrphoros.part1.db",
+          "file": "tlg0085.prometheys_pyrphoros.part1.db",
           "books": [],
           "chapters": [
             "208"
@@ -11592,9 +12198,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_prometheys_pyrphoros_nauck1889",
+          "canonical_id": "tlg0085_prometheys_pyrphoros_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_prometheys_pyrphoros.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11602,11 +12208,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_propompoi": {
+    "tlg0085.propompoi": {
       "textgroup": "tlg0085",
-      "work": "frag_propompoi",
+      "work": "propompoi",
       "title": "Propompoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:propompoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11615,7 +12223,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_propompoi.part1.db",
+          "file": "tlg0085.propompoi.part1.db",
           "books": [],
           "chapters": [
             "209"
@@ -11625,9 +12233,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_propompoi_nauck1889",
+          "canonical_id": "tlg0085_propompoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_propompoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11635,11 +12243,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_proteys": {
+    "tlg0085.proteys": {
       "textgroup": "tlg0085",
-      "work": "frag_proteys",
+      "work": "proteys",
       "title": "Proteys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:proteys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11648,7 +12258,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_proteys.part1.db",
+          "file": "tlg0085.proteys.part1.db",
           "books": [],
           "chapters": [
             "210",
@@ -11663,9 +12273,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_proteys_nauck1889",
+          "canonical_id": "tlg0085_proteys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_proteys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11673,11 +12283,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_salaminai": {
+    "tlg0085.salaminai": {
       "textgroup": "tlg0085",
-      "work": "frag_salaminai",
+      "work": "salaminai",
       "title": "Salaminai",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:salaminai",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11686,7 +12298,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_salaminai.part1.db",
+          "file": "tlg0085.salaminai.part1.db",
           "books": [],
           "chapters": [
             "216",
@@ -11700,9 +12312,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_salaminai_nauck1889",
+          "canonical_id": "tlg0085_salaminai_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_salaminai.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11710,11 +12322,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_semele": {
+    "tlg0085.semele": {
       "textgroup": "tlg0085",
-      "work": "frag_semele",
+      "work": "semele",
       "title": "Semele",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:semele",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11723,7 +12337,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_semele.part1.db",
+          "file": "tlg0085.semele.part1.db",
           "books": [],
           "chapters": [
             "221",
@@ -11736,9 +12350,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_semele_nauck1889",
+          "canonical_id": "tlg0085_semele_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_semele.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11746,11 +12360,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_sisyphos": {
+    "tlg0085.sisyphos": {
       "textgroup": "tlg0085",
-      "work": "frag_sisyphos",
+      "work": "sisyphos",
       "title": "Sisyphos",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:sisyphos",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11759,7 +12375,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_sisyphos.part1.db",
+          "file": "tlg0085.sisyphos.part1.db",
           "books": [],
           "chapters": [
             "225",
@@ -11778,9 +12394,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_sisyphos_nauck1889",
+          "canonical_id": "tlg0085_sisyphos_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_sisyphos.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11788,11 +12404,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_sphigx": {
+    "tlg0085.sphigx": {
       "textgroup": "tlg0085",
-      "work": "frag_sphigx",
+      "work": "sphigx",
       "title": "Sphigx",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:sphigx",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11801,7 +12419,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_sphigx.part1.db",
+          "file": "tlg0085.sphigx.part1.db",
           "books": [],
           "chapters": [
             "235",
@@ -11813,9 +12431,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_sphigx_nauck1889",
+          "canonical_id": "tlg0085_sphigx_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_sphigx.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11823,11 +12441,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_telephos": {
+    "tlg0085.telephos": {
       "textgroup": "tlg0085",
-      "work": "frag_telephos",
+      "work": "telephos",
       "title": "Telephos",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:telephos",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11836,7 +12456,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_telephos.part1.db",
+          "file": "tlg0085.telephos.part1.db",
           "books": [],
           "chapters": [
             "238",
@@ -11848,9 +12468,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_telephos_nauck1889",
+          "canonical_id": "tlg0085_telephos_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_telephos.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11858,11 +12478,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_toxotides": {
+    "tlg0085.toxotides": {
       "textgroup": "tlg0085",
-      "work": "frag_toxotides",
+      "work": "toxotides",
       "title": "Toxotides",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:toxotides",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11871,7 +12493,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_toxotides.part1.db",
+          "file": "tlg0085.toxotides.part1.db",
           "books": [],
           "chapters": [
             "241",
@@ -11886,9 +12508,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_toxotides_nauck1889",
+          "canonical_id": "tlg0085_toxotides_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_toxotides.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11896,11 +12518,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_hypsipyle": {
+    "tlg0085.hypsipyle": {
       "textgroup": "tlg0085",
-      "work": "frag_hypsipyle",
+      "work": "hypsipyle",
       "title": "Hypsipyle",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:hypsipyle",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11909,7 +12533,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_hypsipyle.part1.db",
+          "file": "tlg0085.hypsipyle.part1.db",
           "books": [],
           "chapters": [
             "247",
@@ -11920,9 +12544,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_hypsipyle_nauck1889",
+          "canonical_id": "tlg0085_hypsipyle_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_hypsipyle.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11930,11 +12554,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_philoktetes": {
+    "tlg0085.philoktetes": {
       "textgroup": "tlg0085",
-      "work": "frag_philoktetes",
+      "work": "philoktetes",
       "title": "Philoktetes",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:philoktetes",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11943,7 +12569,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_philoktetes.part1.db",
+          "file": "tlg0085.philoktetes.part1.db",
           "books": [],
           "chapters": [
             "249",
@@ -11961,9 +12587,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_philoktetes_nauck1889",
+          "canonical_id": "tlg0085_philoktetes_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_philoktetes.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -11971,11 +12597,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_phineys": {
+    "tlg0085.phineys": {
       "textgroup": "tlg0085",
-      "work": "frag_phineys",
+      "work": "phineys",
       "title": "Phineys",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:phineys",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -11984,7 +12612,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_phineys.part1.db",
+          "file": "tlg0085.phineys.part1.db",
           "books": [],
           "chapters": [
             "258",
@@ -11996,9 +12624,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_phineys_nauck1889",
+          "canonical_id": "tlg0085_phineys_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_phineys.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12006,11 +12634,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_phorkides": {
+    "tlg0085.phorkides": {
       "textgroup": "tlg0085",
-      "work": "frag_phorkides",
+      "work": "phorkides",
       "title": "Phorkides",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:phorkides",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12019,7 +12649,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_phorkides.part1.db",
+          "file": "tlg0085.phorkides.part1.db",
           "books": [],
           "chapters": [
             "261",
@@ -12030,9 +12660,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_phorkides_nauck1889",
+          "canonical_id": "tlg0085_phorkides_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_phorkides.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12040,11 +12670,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_phryges": {
+    "tlg0085.phryges": {
       "textgroup": "tlg0085",
-      "work": "frag_phryges",
+      "work": "phryges",
       "title": "Phryges",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:phryges",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12053,7 +12685,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_phryges.part1.db",
+          "file": "tlg0085.phryges.part1.db",
           "books": [],
           "chapters": [
             "263",
@@ -12072,9 +12704,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_phryges_nauck1889",
+          "canonical_id": "tlg0085_phryges_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_phryges.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12082,11 +12714,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_psychagogoi": {
+    "tlg0085.psychagogoi": {
       "textgroup": "tlg0085",
-      "work": "frag_psychagogoi",
+      "work": "psychagogoi",
       "title": "Psychagogoi",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:psychagogoi",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12095,7 +12729,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_psychagogoi.part1.db",
+          "file": "tlg0085.psychagogoi.part1.db",
           "books": [],
           "chapters": [
             "273",
@@ -12110,9 +12744,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_psychagogoi_nauck1889",
+          "canonical_id": "tlg0085_psychagogoi_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_psychagogoi.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12120,11 +12754,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_psychostasia": {
+    "tlg0085.psychostasia": {
       "textgroup": "tlg0085",
-      "work": "frag_psychostasia",
+      "work": "psychostasia",
       "title": "Psychostasia",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:psychostasia",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12133,7 +12769,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_psychostasia.part1.db",
+          "file": "tlg0085.psychostasia.part1.db",
           "books": [],
           "chapters": [
             "279",
@@ -12144,9 +12780,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_psychostasia_nauck1889",
+          "canonical_id": "tlg0085_psychostasia_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_psychostasia.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12154,11 +12790,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_oreithyia": {
+    "tlg0085.oreithyia": {
       "textgroup": "tlg0085",
-      "work": "frag_oreithyia",
+      "work": "oreithyia",
       "title": "Oreithyia",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:oreithyia",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12167,7 +12805,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_oreithyia.part1.db",
+          "file": "tlg0085.oreithyia.part1.db",
           "books": [],
           "chapters": [
             "281"
@@ -12177,9 +12815,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_oreithyia_nauck1889",
+          "canonical_id": "tlg0085_oreithyia_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_oreithyia.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12187,11 +12825,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_incertae": {
+    "tlg0085.incertae": {
       "textgroup": "tlg0085",
-      "work": "frag_incertae",
+      "work": "incertae",
       "title": "Uncertain-play fragments",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:incertae",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12200,7 +12840,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_incertae.part1.db",
+          "file": "tlg0085.incertae.part1.db",
           "books": [],
           "chapters": [
             "282",
@@ -12374,14 +13014,14 @@
             "450",
             "451"
           ],
-          "bytes": 307200
+          "bytes": 311296
         }
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_incertae_nauck1889",
+          "canonical_id": "tlg0085_incertae_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_incertae.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
@@ -12389,11 +13029,13 @@
       ],
       "annotations": {}
     },
-    "tlg0085.frag_dubia_spuria": {
+    "tlg0085.dubia_spuria": {
       "textgroup": "tlg0085",
-      "work": "frag_dubia_spuria",
+      "work": "dubia_spuria",
       "title": "Dubious and spurious fragments",
       "experimental_fragment": true,
+      "fragmentary": true,
+      "object_urn": "urn:cite2:perseus:fragmentaryplays.v1:dubia_spuria",
       "default_columns": 1,
       "unit_labels": {
         "chapter": "Fragment",
@@ -12402,7 +13044,7 @@
       "parts": [
         {
           "part": 1,
-          "file": "tlg0085.frag_dubia_spuria.part1.db",
+          "file": "tlg0085.dubia_spuria.part1.db",
           "books": [],
           "chapters": [
             "452",
@@ -12426,9 +13068,9 @@
       ],
       "versions": [
         {
-          "canonical_id": "tlg0085_frag_dubia_spuria_nauck1889",
+          "canonical_id": "tlg0085_dubia_spuria_nauck1889",
           "short_id": "nauck1889grc1",
-          "urn": "urn:cts:perseusDemo:tlg0085.frag_dubia_spuria.nauck1889grc1",
+          "urn": "urn:cts:greekLit:tlg0085.fragmenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; transcription preview)",
           "doc_type": "edition",
           "text_class": "greek-text"
