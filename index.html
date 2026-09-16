@@ -183,6 +183,11 @@
         .cross-panel { background: #fafafa; }
         .column-content-scroll { flex: 1; overflow-y: auto; padding: 15px; }
         .panel-header { background: #660000; color: #fff; padding: 4px 8px; font-size: 11px; font-weight: bold; position: sticky; top: 0; z-index: 5; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+        /* Wrap controls before long edition labels can push display modes offscreen. */
+        .panel-header { flex-wrap: wrap; gap: 4px 8px; }
+        .column-edition-controls { display: flex; flex: 1 1 240px; flex-wrap: wrap; align-items: center; gap: 4px; min-width: 0; max-width: 100%; }
+        .column-edition-controls .edition-select-dropdown { flex: 1 1 160px; min-width: 0; max-width: 100%; }
+        .column-edition-controls .translit-mode-select { flex: 0 0 auto; max-width: 100%; margin-left: 0; }
         .edition-select-dropdown { background: #fff; color: #333; font-size: 10px; padding: 1px 4px; border: 1px solid #ccc; border-radius: 2px; outline: none; cursor: pointer; }
         .translit-mode-select { background: #fdf3e3; color: #660000; font-size: 10px; padding: 1px 4px; margin-left: 4px; border: 1px solid #d8c090; border-radius: 2px; outline: none; cursor: pointer; }
 
@@ -1082,7 +1087,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column" id="col_f">
             <div class="panel-header">
                 <span>Focus</span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select><select class="translit-mode-select" id="translit_f" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('f', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_f" onchange="updateColumnContent('f', this.value)"></select><select class="translit-mode-select" id="translit_f" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('f', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_f"></div>
         </div>
@@ -1090,7 +1095,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c1">
             <div class="panel-header">
                 <span>Comparison Version 1 <button class="make-focus-btn" onclick="swapToFocus('c1')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select><select class="translit-mode-select" id="translit_c1" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c1', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c1" onchange="updateColumnContent('c1', this.value)"></select><select class="translit-mode-select" id="translit_c1" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c1', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c1"></div>
         </div>
@@ -1098,7 +1103,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c2">
             <div class="panel-header">
                 <span>Comparison Version 2 <button class="make-focus-btn" onclick="swapToFocus('c2')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select><select class="translit-mode-select" id="translit_c2" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c2', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c2" onchange="updateColumnContent('c2', this.value)"></select><select class="translit-mode-select" id="translit_c2" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c2', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c2"></div>
         </div>
@@ -1106,7 +1111,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c3">
             <div class="panel-header">
                 <span>Comparison Version 3 <button class="make-focus-btn" onclick="swapToFocus('c3')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c3" onchange="updateColumnContent('c3', this.value)"></select><select class="translit-mode-select" id="translit_c3" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c3', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c3" onchange="updateColumnContent('c3', this.value)"></select><select class="translit-mode-select" id="translit_c3" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c3', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c3"></div>
         </div>
@@ -1114,7 +1119,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c4">
             <div class="panel-header">
                 <span>Comparison Version 4 <button class="make-focus-btn" onclick="swapToFocus('c4')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select><select class="translit-mode-select" id="translit_c4" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c4', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c4" onchange="updateColumnContent('c4', this.value)"></select><select class="translit-mode-select" id="translit_c4" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c4', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c4"></div>
         </div>
@@ -1122,7 +1127,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c5">
             <div class="panel-header">
                 <span>Comparison Version 5 <button class="make-focus-btn" onclick="swapToFocus('c5')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c5" onchange="updateColumnContent('c5', this.value)"></select><select class="translit-mode-select" id="translit_c5" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c5', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c5" onchange="updateColumnContent('c5', this.value)"></select><select class="translit-mode-select" id="translit_c5" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c5', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c5"></div>
         </div>
@@ -1130,7 +1135,7 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
         <div class="reading-column cross-panel" id="col_c6">
             <div class="panel-header">
                 <span>Comparison Version 6 <button class="make-focus-btn" onclick="swapToFocus('c6')">⇦ Focus</button></span>
-                <div style="display:flex;align-items:center;"><select class="edition-select-dropdown" id="select_c6" onchange="updateColumnContent('c6', this.value)"></select><select class="translit-mode-select" id="translit_c6" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c6', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
+                <div class="column-edition-controls"><select class="edition-select-dropdown" id="select_c6" onchange="updateColumnContent('c6', this.value)"></select><select class="translit-mode-select" id="translit_c6" style="display:none" title="Greek display mode" onchange="onTranslitModeChange('c6', this.value)"><option value="">Greek</option><option value="simple">Simple Translit</option><option value="full">Full Translit</option></select></div>
             </div>
             <div class="column-content-scroll" id="content_c6"></div>
         </div>
