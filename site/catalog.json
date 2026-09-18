@@ -6287,7 +6287,7 @@
             "1040-1043",
             "1044-1047"
           ],
-          "bytes": 11882496
+          "bytes": 11759616
         }
       ],
       "annotations": {
@@ -9698,6 +9698,97 @@
       "label": "Commentary (Sanjaya, generated; selected passages)",
       "title": "Wealth"
     },
+    "tlg0527.tlg032": {
+      "textgroup": "tlg0527",
+      "work": "tlg032",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0527.tlg032.part1.db",
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42"
+          ],
+          "bytes": 1757184
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "1st1K-grc1",
+          "urn": "urn:cts:greekLit:tlg0527.tlg032.1st1K-grc1",
+          "label": "Septuagint Greek (H. B. Swete, 1896)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        },
+        {
+          "short_id": "duport1676-grc1",
+          "urn": "urn:cts:greekLit:tlg0527.tlg032.duport1676-grc1",
+          "label": "Homeric Greek (James Duport, 1676) (OCR draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        },
+        {
+          "short_id": "duport1676-lat1",
+          "urn": "urn:cts:greekLit:tlg0527.tlg032.duport1676-lat1",
+          "label": "Latin (James Duport, 1676) (OCR draft)",
+          "doc_type": "translation",
+          "text_class": "latin-text"
+        }
+      ],
+      "label": "Homeric Greek (James Duport, 1676) (OCR draft)",
+      "title": "Job",
+      "unit_labels": {
+        "book": "Part",
+        "chapter": "Chapter",
+        "section": "Section"
+      }
+    },
     "tlg0085.fragmenta": {
       "textgroup": "tlg0085",
       "work": "fragmenta",
@@ -13094,6 +13185,7 @@
     "tlg0019": "Aristophanes",
     "tlg0020": "Hesiod",
     "tlg0085": "Aeschylus",
+    "tlg0527": "Septuaginta",
     "tlg0086": "Aristotle",
     "tlg2045": "Nonnus"
   }
