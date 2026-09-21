@@ -178,7 +178,7 @@
     // Current passage state, set once in main() and reused by the
     // back-link and next-section navigation -- avoids threading these
     // through every function or re-parsing the URL repeatedly.
-    let currentWorkKey = null, currentBook = null, currentChapter = null, currentDb = null;
+    let currentWorkKey = null, currentBook = null, currentChapter = null, currentSection = null, currentDb = null;
     let currentMapInstance = null;
 
     function onLabelToggle(checked) {
@@ -199,10 +199,20 @@
 
     async function goToNextSection() {
         if (!currentDb || !currentChapter) return;
-        const next = nextPassage(currentDb, currentBook, currentChapter);
+        const next = currentSection
+            ? queryAll(currentDb,
+                `SELECT book, chapter, section FROM alignment_grid
+                 WHERE sort_order > (
+                    SELECT sort_order FROM alignment_grid
+                    WHERE chapter=? AND section=? AND (book=? OR (book IS NULL AND ? IS NULL))
+                    LIMIT 1)
+                 ORDER BY sort_order LIMIT 1`,
+                [currentChapter, currentSection, currentBook || null, currentBook || null])[0]
+            : nextPassage(currentDb, currentBook, currentChapter);
         if (!next) return; // already at the end -- button should be disabled in this case anyway
         const params = new URLSearchParams({ work: currentWorkKey, chapter: next.chapter });
         if (next.book) params.set("book", next.book);
+        if (currentSection && next.section) params.set("section", next.section);
         window.location.href = `./map.html?${params.toString()}`;
     }
 
@@ -287,7 +297,8 @@
                     mentions: []
                 });
             }
-            byPlace.get(r.place_id).mentions.push({ name: r.mention_name, type: r.mention_type, chapter: r.chapter });
+            const citation = [r.book, r.chapter, r.section].filter(v => v !== null && v !== undefined && v !== "").join(".");
+            byPlace.get(r.place_id).mentions.push({ name: r.mention_name, type: r.mention_type, chapter: citation || r.chapter });
         }
         return Array.from(byPlace.values());
     }
@@ -489,6 +500,7 @@
         const workKey = params.get("work");
         const chapter = params.get("chapter");
         const book = params.get("book");
+        const section = params.get("section");
         const whole = params.get("whole");
 
         if (!workKey || (!chapter && !book && !whole)) {
@@ -500,6 +512,7 @@
         currentWorkKey = workKey;
         currentBook = book;
         currentChapter = chapter;
+        currentSection = section;
 
         // Back-link to the reader: round-trips to the exact same passage
         // when we're in single-chapter mode (using the same "w=work:book.
@@ -514,13 +527,16 @@
             // double it up ("1.1.41"). Only prepend book when chapter is
             // a bare poetry card label (no dot), matching the same
             // has-a-dot check used elsewhere for this exact distinction.
-            const passageValue = (book && !chapter.includes(".")) ? `${book}.${chapter}` : chapter;
+            let passageValue = (book && !chapter.includes(".")) ? `${book}.${chapter}` : chapter;
+            if (section) passageValue += `.${section}`;
             backLink.href = `./index.html?w=${encodeURIComponent(workKey + ":" + passageValue)}`;
         } else {
             backLink.href = `./index.html?w=${encodeURIComponent(workKey)}`;
         }
 
-        const scopeLabel = chapter ? chapter : (book ? `Book ${book}` : "the entire work");
+        const scopeLabel = chapter
+            ? [book && !chapter.includes(".") ? book : null, chapter, section].filter(Boolean).join(".")
+            : (book ? `Book ${book}` : "the entire work");
 
         // Display name comes from catalog.json (already fetched/cached by
         // the shared loadCatalog(), same data the main reader's splash
@@ -560,7 +576,16 @@
             // we're already at the very end of the work.
             if (chapter) {
                 const nextBtn = document.getElementById("next-section-btn");
-                const next = nextPassage(db, book, chapter);
+                const next = section
+                    ? queryAll(db,
+                        `SELECT book, chapter, section FROM alignment_grid
+                         WHERE sort_order > (
+                            SELECT sort_order FROM alignment_grid
+                            WHERE chapter=? AND section=? AND (book=? OR (book IS NULL AND ? IS NULL))
+                            LIMIT 1)
+                         ORDER BY sort_order LIMIT 1`,
+                        [chapter, section, book || null, book || null])[0]
+                    : nextPassage(db, book, chapter);
                 if (next) {
                     nextBtn.style.display = "";
                     nextBtn.disabled = false;
@@ -573,7 +598,7 @@
 
             let rows;
             try {
-                if (chapter) rows = placesForChapter(db, chapter, book);
+                if (chapter) rows = placesForChapter(db, chapter, book, section);
                 else if (book) rows = placesForBook(db, book);
                 else rows = placesForWork(db);
             } catch (e) {

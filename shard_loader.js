@@ -408,9 +408,20 @@ function metricalForChapter(db, version, chapter) {
 // per (mention, place) pair; the same place can legitimately appear more
 // than once if it's mentioned more than once in the same chapter --
 // callers that want one pin per place should de-duplicate by place_id.
-function placesForChapter(db, chapter, book) {
+function placeReferencesHaveSection(db) {
+    return queryAll(db, "PRAGMA table_info(place_references)")
+        .some(row => row.name === "section");
+}
+function placesForChapter(db, chapter, book, section = null) {
+    if (placeReferencesHaveSection(db)) {
+        return queryAll(db,
+            "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book, section " +
+            "FROM place_references WHERE chapter=? AND (? IS NULL OR book IS NULL OR book=?) " +
+            "AND (? IS NULL OR section IS NULL OR section=?)",
+            [chapter, book || null, book || null, section, section]);
+    }
     return queryAll(db,
-        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book " +
+        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book, NULL AS section " +
         "FROM place_references WHERE chapter=? AND (? IS NULL OR book IS NULL OR book=?)",
         [chapter, book || null, book || null]);
 }
@@ -424,8 +435,9 @@ function placesForChapter(db, chapter, book) {
 // bare card-label chapter (e.g. "1-21") never contains a "." so it can
 // never spuriously match the prose-style prefix check either.
 function placesForBook(db, book) {
+    const sectionExpr = placeReferencesHaveSection(db) ? "section" : "NULL AS section";
     return queryAll(db,
-        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book " +
+        `SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book, ${sectionExpr} ` +
         "FROM place_references WHERE book=? OR chapter=? OR chapter LIKE ?",
         [book, book, `${book}.%`]);
 }
@@ -433,8 +445,9 @@ function placesForBook(db, book) {
 // Agamemnon) where there's no book to scope to -- the natural "show
 // everything" equivalent of placesForBook for a flat-structured text.
 function placesForWork(db) {
+    const sectionExpr = placeReferencesHaveSection(db) ? "section" : "NULL AS section";
     return queryAll(db,
-        "SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter " +
+        `SELECT mention_type, mention_name, place_id, place_name, lat, lon, feature_type, chapter, book, ${sectionExpr} ` +
         "FROM place_references");
 }
 // The next (book, chapter) passage after the given one, in true global
