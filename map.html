@@ -343,10 +343,11 @@
     // than to bounce a genuinely Mediterranean text to the wrong map.
     const AWMC_BOUNDS = L.latLngBounds([[10, -12], [50, 63]]);
 
-    // Fill in a free key from https://carto.com/basemaps/apikey once
-    // requested -- see the map notes for why this is here.
-    const CARTO_API_KEY = "";
-
+    // CAWM supplies the ancient-world layer without an API key. For scopes
+    // outside its Mediterranean coverage, use the official OpenStreetMap
+    // standard raster endpoint, which also requires no key. Keep attribution
+    // visible and avoid retina/double-resolution requests in accordance with
+    // the OSM tile usage policy.
     function addBasemap(map, places) {
         const withinAwmc = places.length > 0 &&
             places.every(p => AWMC_BOUNDS.contains([p.lat, p.lon]));
@@ -357,11 +358,12 @@
                 maxZoom: 12
             }).addTo(map);
         } else {
-            const keyParam = CARTO_API_KEY ? `?api_key=${CARTO_API_KEY}` : "";
-            L.tileLayer(`https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png${keyParam}`, {
-                attribution: 'OpenStreetMap contributors, CARTO | Place data: ToposText (topostext.org)',
-                subdomains: 'abcd',
-                maxZoom: 19
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> | Place data: ToposText (topostext.org)',
+                maxZoom: 19,
+                detectRetina: false,
+                updateWhenIdle: true,
+                keepBuffer: 2
             }).addTo(map);
         }
     }

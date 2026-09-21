@@ -7648,7 +7648,7 @@
             "1040-1043",
             "1044-1047"
           ],
-          "bytes": 13840384
+          "bytes": 14020608
         }
       ],
       "annotations": {
@@ -7909,6 +7909,17 @@
           "source_version": null,
           "source_certainty": null,
           "source_note": null,
+          "translation_of": null
+        },
+        {
+          "short_id": "chs-smyth-bannon-nagy-eng1",
+          "urn": "urn:cts:greekLit:tlg0085.tlg007.chs-smyth-bannon-nagy-eng1",
+          "label": "English (H. W. Smyth; revised C. Bannon and G. Nagy, CHS) (OCR draft)",
+          "doc_type": "translation",
+          "text_class": "english-text",
+          "source_version": "perseus-grc2",
+          "source_certainty": "explicit",
+          "source_note": "The CHS page identifies Herbert Weir Smyth as translator, Cynthia Bannon as reviser, and Gregory Nagy as further reviser. Source line markers and speech openings are aligned to Smyth perseus-grc2.",
           "translation_of": null
         },
         {
@@ -11917,23 +11928,41 @@
             "2",
             "3",
             "4",
-            "5",
+            "5"
+          ],
+          "bytes": 79769600
+        },
+        {
+          "part": 2,
+          "file": "tlg0525.tlg001.part2.db",
+          "books": [
             "6",
             "7",
             "8",
             "9",
             "10"
           ],
-          "bytes": 8167424
+          "bytes": 82165760
         }
       ],
       "annotations": {
-        "treebanks": 0,
+        "treebanks": 1,
         "alignments": 0,
         "commentaries": 0,
         "metrical_lines": 0
       },
       "versions": [
+        {
+          "short_id": "perseus-grc2-oga020-src",
+          "urn": "urn:cts:greekLit:tlg0525.tlg001.perseus-grc2-oga020-src",
+          "label": "Treebank + glosses + translations (Perseus AGDT/OGA; DeepSeek, 2026)",
+          "doc_type": "treebank",
+          "text_class": "treebank-text",
+          "source_version": "perseus-grc2",
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        },
         {
           "short_id": "perseus-grc2",
           "urn": "urn:cts:greekLit:tlg0525.tlg001.perseus-grc2",
@@ -11955,9 +11984,20 @@
           "source_certainty": null,
           "source_note": null,
           "translation_of": null
+        },
+        {
+          "short_id": "chs-nagy2018-eng1",
+          "urn": "urn:cts:greekLit:tlg0525.tlg001.chs-nagy2018-eng1",
+          "label": "English (Jones and Ormerod; retranslated G. Nagy, CHS, 2018) (OCR draft)",
+          "doc_type": "translation",
+          "text_class": "english-text",
+          "source_version": "perseus-grc2",
+          "source_certainty": "explicit",
+          "source_note": "The CHS page identifies this as Gregory Nagy’s retranslation based on W. H. S. Jones (and H. A. Ormerod for Scroll 2). CHS book.chapter.section markers align it to perseus-grc2.",
+          "translation_of": null
         }
       ],
-      "label": "English (W. H. S. Jones and H. A. Ormerod, 1918–1935)",
+      "label": "English (Jones and Ormerod; retranslated G. Nagy, CHS, 2018) (OCR draft)",
       "title": "Description of Greece",
       "unit_labels": {
         "book": "Book",
