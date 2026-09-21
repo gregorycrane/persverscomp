@@ -351,6 +351,36 @@
             font-weight: 600;
             border-bottom: 1px dotted currentColor;
         }
+        .tei-note-ref {
+            display: inline-block;
+            min-width: 1.15em;
+            margin-left: 0.08em;
+            color: #7a0000;
+            font: 700 0.72em/1.2 Georgia, serif;
+            text-align: center;
+            vertical-align: super;
+            cursor: help;
+            border-bottom: 1px dotted currentColor;
+        }
+        .tei-note-ref:focus { outline: 2px solid #b68b32; outline-offset: 2px; }
+        #tei-note-popover {
+            position: fixed;
+            z-index: 10001;
+            max-width: min(32rem, calc(100vw - 24px));
+            padding: 0.7rem 0.85rem;
+            color: #2f241f;
+            background: #fffdf7;
+            border: 1px solid #b9a88d;
+            border-radius: 5px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+            font: 0.92rem/1.45 Georgia, serif;
+        }
+        #tei-note-popover .note-pop-label {
+            margin-bottom: 0.3rem;
+            color: #790000;
+            font-weight: 700;
+        }
+        #tei-note-popover .note-pop-hint { margin-top: 0.4rem; color: #756b62; font-size: 0.78rem; }
         .commentary-text .tei-quote {
             color: #3f3028;
         }
@@ -6550,6 +6580,64 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             if (el && !el.hidden && !(el.contains(e.target))) hide();
         });
         document.addEventListener('keydown', e => { if (e.key === 'Escape') hide(); });
+    })();
+
+    // ── Source-footnote popover ──────────────────────────────────────────
+    // Stand-off TEI notes are embedded on their linked <ref type="note">
+    // markers during ingestion. Hover gives a quick preview; click or
+    // keyboard activation pins the note so it remains readable.
+    (function initTeiNotePopover() {
+        let el = null, pinned = false, hideTimer = null;
+        const ensure = () => {
+            if (el) return el;
+            el = document.createElement('div');
+            el.id = 'tei-note-popover';
+            el.hidden = true;
+            el.setAttribute('role', 'note');
+            el.addEventListener('mouseenter', () => clearTimeout(hideTimer));
+            el.addEventListener('mouseleave', () => { if (!pinned) hide(); });
+            document.body.appendChild(el);
+            return el;
+        };
+        const esc = s => { const d = document.createElement('div'); d.innerText = s == null ? '' : s; return d.innerHTML; };
+        const show = anchor => {
+            clearTimeout(hideTimer);
+            const box = ensure();
+            const label = anchor.getAttribute('data-note-label') || anchor.textContent.trim();
+            const body = anchor.getAttribute('data-note') || '';
+            box.innerHTML = `<div class="note-pop-label">Footnote ${esc(label)}</div><div>${esc(body)}</div>` +
+                (pinned ? '<div class="note-pop-hint">click outside or press Escape to dismiss</div>' : '');
+            box.hidden = false;
+            const r = anchor.getBoundingClientRect();
+            const w = box.offsetWidth, h = box.offsetHeight;
+            let left = r.left, top = r.bottom + 6;
+            if (left + w > window.innerWidth - 8) left = window.innerWidth - w - 8;
+            if (top + h > window.innerHeight - 8) top = r.top - h - 6;
+            box.style.left = Math.max(8, Math.round(left)) + 'px';
+            box.style.top = Math.max(8, Math.round(top)) + 'px';
+        };
+        const hide = () => { if (el) el.hidden = true; pinned = false; };
+        document.addEventListener('mouseover', e => {
+            const a = e.target.closest && e.target.closest('.tei-note-ref[data-note]');
+            if (a && !pinned) show(a);
+        });
+        document.addEventListener('mouseout', e => {
+            if (pinned) return;
+            const a = e.target.closest && e.target.closest('.tei-note-ref[data-note]');
+            if (a) hideTimer = setTimeout(hide, 120);
+        });
+        document.addEventListener('click', e => {
+            const a = e.target.closest && e.target.closest('.tei-note-ref[data-note]');
+            if (a) { e.stopPropagation(); pinned = true; show(a); return; }
+            if (el && !el.hidden && !el.contains(e.target)) hide();
+        });
+        document.addEventListener('keydown', e => {
+            const a = e.target.closest && e.target.closest('.tei-note-ref[data-note]');
+            if (a && (e.key === 'Enter' || e.key === ' ')) {
+                e.preventDefault(); pinned = true; show(a); return;
+            }
+            if (e.key === 'Escape') hide();
+        });
     })();
 </script>
 </body>
