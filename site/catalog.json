@@ -31,7 +31,8 @@
             "21",
             "22"
           ],
-          "bytes": 89698304
+          "bytes": 89698304,
+          "sha256": "ee3f95f14c01cc8e0194c9259f92b8b7c77e9bac945520d4dd843fcd47513aad"
         },
         {
           "part": 2,
@@ -49,7 +50,8 @@
             "32",
             "33"
           ],
-          "bytes": 50843648
+          "bytes": 50843648,
+          "sha256": "781d6a8c8226ba1aa10e568fa48bf6217b942cb6c40383bc485494c91179d47c"
         },
         {
           "part": 3,
@@ -68,7 +70,8 @@
             "44",
             "45"
           ],
-          "bytes": 52023296
+          "bytes": 52023296,
+          "sha256": "f495ff6ecfcac98006e044dcf762143c1ffba77b432e8eaadce4fcfce3ddf250"
         },
         {
           "part": 4,
@@ -76,7 +79,8 @@
           "books": [
             "46"
           ],
-          "bytes": 5861376
+          "bytes": 5861376,
+          "sha256": "0d89da86595009ac9180861c205b0fb766c9516d2d867f1fd4fac4a4c94c7a94"
         }
       ],
       "annotations": {
@@ -94,7 +98,8 @@
           "text_class": "treebank-text",
           "source_version": "debenedetti1928-ita1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "debenedetti1928-ita1",
@@ -104,7 +109,8 @@
           "text_class": "italian-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rose1823-eng1",
@@ -114,7 +120,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (William Stewart Rose, 1823) (OCR draft)",
@@ -167,7 +174,8 @@
             "32",
             "33"
           ],
-          "bytes": 81698816
+          "bytes": 81698816,
+          "sha256": "2753194e25f8d33e67c236a6296b911e21fe42a0773544db3d4a05760f5ace26"
         }
       ],
       "annotations": {
@@ -185,7 +193,8 @@
           "text_class": "treebank-text",
           "source_version": "leipzig1858-lat1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "leipzig1858-lat1",
@@ -195,7 +204,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "leipzig1858-eng1",
@@ -205,7 +215,8 @@
           "text_class": "english-text",
           "source_version": "leipzig1858-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (translation) (OCR draft)",
@@ -315,7 +326,8 @@
             "19",
             "20"
           ],
-          "bytes": 18436096
+          "bytes": 18436096,
+          "sha256": "01ac4e515652068a110fd72307c925b7a3f19c3c05d6515bdb0daf7baa3eb1f7"
         }
       ],
       "annotations": {
@@ -333,7 +345,8 @@
           "text_class": "treebank-text",
           "source_version": "pizzi1883-fas1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pizzi1883-fas1",
@@ -343,7 +356,8 @@
           "text_class": "persian-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pizzi1883-eng1",
@@ -353,7 +367,8 @@
           "text_class": "english-text",
           "source_version": "pizzi1883-fas1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (trans. Pizzi selections, 1883)",
@@ -380,7 +395,8 @@
             "11",
             "12"
           ],
-          "bytes": 57982976
+          "bytes": 69644288,
+          "sha256": "9a00d7727e447201e0ea219388c4ae6343f29ab23c4a687782074d7992e7141b"
         }
       ],
       "annotations": {
@@ -398,7 +414,8 @@
           "text_class": "treebank-text",
           "source_version": "tokyo1933-jpn1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "tokyo1933-jpn1",
@@ -408,7 +425,8 @@
           "text_class": "japanese-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "tokyo1933-eng1",
@@ -418,7 +436,8 @@
           "text_class": "english-text",
           "source_version": "tokyo1933-jpn1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "sadler1918-eng1",
@@ -428,7 +447,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "tokyo1933-translit1",
@@ -438,7 +458,8 @@
           "text_class": "english-text",
           "source_version": "tokyo1933-jpn1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (A. L. Sadler, 1918–1921) (OCR draft)",
@@ -462,7 +483,8 @@
             "3",
             "4"
           ],
-          "bytes": 18259968
+          "bytes": 18296832,
+          "sha256": "8b4e2b74e986fcaf8234c4777648edd3eeb3f9703260671168a1314fea890e2f"
         }
       ],
       "annotations": {
@@ -480,7 +502,8 @@
           "text_class": "treebank-text",
           "source_version": "butler1912-lat1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butler1912-lat1",
@@ -490,7 +513,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-lat3",
@@ -500,7 +524,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butler1912-eng1",
@@ -510,7 +535,8 @@
           "text_class": "english-text",
           "source_version": "butler1912-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (H. E. Butler, 1912) (OCR draft)",
@@ -529,7 +555,8 @@
             "3",
             "4"
           ],
-          "bytes": 48398336
+          "bytes": 48480256,
+          "sha256": "6510c99bfe84dc4764f5198208959fec5ac8062a621985d9662aba53f26bc5c4"
         }
       ],
       "annotations": {
@@ -547,7 +574,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perstb-meter-grc1",
@@ -557,7 +585,8 @@
           "text_class": "metrical-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -567,7 +596,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "brunck1810-grc2",
@@ -577,7 +607,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "seaton1900-grc2",
@@ -587,7 +618,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "seaton1912-eng2",
@@ -597,7 +629,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "fawkes1780-eng2",
@@ -607,7 +640,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "coleridge1889-eng2",
@@ -617,7 +651,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "seatonrevised2026-eng2",
@@ -627,7 +662,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "wendel1935g-com-grc1",
@@ -637,7 +673,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "wendel1935e-com-eng1",
@@ -647,7 +684,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1912-com-grc1",
@@ -657,7 +695,8 @@
           "text_class": "commentary-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Carolus Wendel, 1935) (OCR draft)",
@@ -677,7 +716,8 @@
             "4",
             "5"
           ],
-          "bytes": 73998336
+          "bytes": 73998336,
+          "sha256": "e0418bdd99c6bc51ee7a804e60d9f5dd3f59116b86ba61791553ac2ff442a5e7"
         },
         {
           "part": 2,
@@ -689,7 +729,8 @@
             "back",
             "front"
           ],
-          "bytes": 40148992
+          "bytes": 40148992,
+          "sha256": "6e341dfb5e52eb2c42e5493232b500f72ff0d5838aa999346146580c74cd5c19"
         }
       ],
       "annotations": {
@@ -707,7 +748,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -717,7 +759,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-eng1",
@@ -727,7 +770,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-eng2",
@@ -737,7 +781,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng4",
@@ -747,7 +792,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng6",
@@ -757,7 +803,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1k-fre1",
@@ -767,7 +814,8 @@
           "text_class": "french-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-fre2",
@@ -777,7 +825,8 @@
           "text_class": "french-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-ger1",
@@ -787,7 +836,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-ger2",
@@ -797,7 +847,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-ger3",
@@ -807,7 +858,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-ger4",
@@ -817,7 +869,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-ita1",
@@ -827,7 +880,8 @@
           "text_class": "italian-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1k-lat2",
@@ -837,7 +891,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (C. F. Smith, 1919)",
@@ -880,7 +935,8 @@
             "656-662",
             "663-709"
           ],
-          "bytes": 3817472
+          "bytes": 3825664,
+          "sha256": "bbfdef3158f60a9db303e8b14c82bf21cd4123c4034fad4932691b8dc2f38ac0"
         }
       ],
       "annotations": {
@@ -898,7 +954,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -908,7 +965,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -918,7 +976,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -928,7 +987,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1012,7 +1072,8 @@
             "1118-1158",
             "1159-1163"
           ],
-          "bytes": 6418432
+          "bytes": 6443008,
+          "sha256": "20544727da7d08ea15e572446396fb0ccbf847561e6ae7bb227909854afb3d2f"
         }
       ],
       "annotations": {
@@ -1030,7 +1091,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1040,7 +1102,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1050,7 +1113,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1060,7 +1124,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -1070,7 +1135,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1146,7 +1212,8 @@
             "1361-1388",
             "1389-1419"
           ],
-          "bytes": 7569408
+          "bytes": 7585792,
+          "sha256": "bc7fbd4ecc725dac82dca68e0fe6c921e46c23aa887889b9a183d98d62e5a99e"
         }
       ],
       "annotations": {
@@ -1164,7 +1231,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1174,7 +1242,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1184,7 +1253,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1194,7 +1264,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -1204,7 +1275,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1260,7 +1332,8 @@
             "1018-1052",
             "1053-1055"
           ],
-          "bytes": 5955584
+          "bytes": 5980160,
+          "sha256": "cbdb0c3a6280dfc92bcf93057a5a16870c0253bb4041ede34589cc65406a9f56"
         }
       ],
       "annotations": {
@@ -1278,7 +1351,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1288,7 +1362,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1298,7 +1373,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1308,7 +1384,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -1318,7 +1395,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1403,7 +1481,8 @@
             "1431-1461",
             "1462-1466"
           ],
-          "bytes": 7647232
+          "bytes": 7663616,
+          "sha256": "4f5f1c82b6c4cc60992eae35facba5cc2714dba18a65472a512b5325d8b4a5a3"
         }
       ],
       "annotations": {
@@ -1421,7 +1500,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1431,7 +1511,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1441,7 +1522,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1451,7 +1533,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -1461,7 +1544,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1537,7 +1621,8 @@
             "1231-1283",
             "1284-1288"
           ],
-          "bytes": 1961984
+          "bytes": 1990656,
+          "sha256": "13c09d31a4134930eb9c21fb70475227261a6a17a02fecd41a826c5fa8657fad"
         }
       ],
       "annotations": {
@@ -1555,7 +1640,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1565,7 +1651,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1575,7 +1662,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1585,7 +1673,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -1595,7 +1684,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1659,7 +1749,8 @@
             "1252-1292",
             "1293-1295"
           ],
-          "bytes": 6848512
+          "bytes": 6868992,
+          "sha256": "23e26e072a1b0282d00e091dfa485e370332f89ff1c320acfb3fda7f956f417a"
         }
       ],
       "annotations": {
@@ -1677,7 +1768,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1687,7 +1779,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1697,7 +1790,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1707,7 +1801,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -1717,7 +1812,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1795,7 +1891,8 @@
             "1196-1231",
             "1232-1234"
           ],
-          "bytes": 6660096
+          "bytes": 6672384,
+          "sha256": "17e3fdefff6cbed52ead41b1602a12df7b80b02cd98a62f8b96c45ff08d2ac1c"
         }
       ],
       "annotations": {
@@ -1813,7 +1910,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1823,7 +1921,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1833,7 +1932,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1843,7 +1943,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -1853,7 +1954,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -1896,7 +1998,8 @@
             "815-1015",
             "1016-1428"
           ],
-          "bytes": 7430144
+          "bytes": 7446528,
+          "sha256": "62a3f122a0bbfc46c544191ba8cb24d8057c0e1f47ab3d959ef1efaabda15288"
         }
       ],
       "annotations": {
@@ -1914,7 +2017,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -1924,7 +2028,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -1934,7 +2039,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -1944,7 +2050,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -1954,7 +2061,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2027,7 +2135,8 @@
             "1571-1605",
             "1606-1622"
           ],
-          "bytes": 10412032
+          "bytes": 10551296,
+          "sha256": "4eeb9c1a489830d5b00fc4583571ab6fc0493e194327cb8d61ae18cd441bb521"
         }
       ],
       "annotations": {
@@ -2045,7 +2154,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2055,7 +2165,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bayfield1924-grc1",
@@ -2065,7 +2176,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "verrall1890-grc1",
@@ -2075,7 +2187,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "wilamowitz1926-grc1",
@@ -2085,7 +2198,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2095,7 +2209,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2105,7 +2220,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "verrall1890-eng1",
@@ -2115,7 +2231,8 @@
           "text_class": "english-text",
           "source_version": "verrall1890-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -2125,7 +2242,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bayfield1924-eng1",
@@ -2135,7 +2253,8 @@
           "text_class": "commentary-text",
           "source_version": "bayfield1924-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "verrall1890comm-eng1",
@@ -2145,7 +2264,8 @@
           "text_class": "commentary-text",
           "source_version": "verrall1890-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "wilamowitz1926-deu1",
@@ -2155,7 +2275,8 @@
           "text_class": "commentary-text",
           "source_version": "wilamowitz1926-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (A. W. Verrall, 1890) (OCR draft)",
@@ -2232,7 +2353,8 @@
             "1302-1316",
             "1317-1332"
           ],
-          "bytes": 6770688
+          "bytes": 6782976,
+          "sha256": "69f25314bf50babfc8fcc998158a0ce48f20309006189060fd9ab554b2c3a268"
         }
       ],
       "annotations": {
@@ -2250,7 +2372,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2260,7 +2383,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2270,7 +2394,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2280,7 +2405,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -2290,7 +2416,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2367,7 +2494,8 @@
             "1292-1320",
             "1321-1359"
           ],
-          "bytes": 7286784
+          "bytes": 7299072,
+          "sha256": "f04a179f7b0b06e8045a097b647cd4079f2f3318e4780538413ac7b0c74cc374"
         }
       ],
       "annotations": {
@@ -2385,7 +2513,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2395,7 +2524,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2405,7 +2535,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2415,7 +2546,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1852-deu1",
@@ -2425,7 +2557,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2490,7 +2623,8 @@
             "1475-1489",
             "1490-1499"
           ],
-          "bytes": 8159232
+          "bytes": 8163328,
+          "sha256": "a5a16298571645f4f7cff51d24fd2b932131c36d4a8dfe6964981ae3c6f82209"
         }
       ],
       "annotations": {
@@ -2508,7 +2642,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2518,7 +2653,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2528,7 +2664,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2538,7 +2675,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -2548,7 +2686,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2622,7 +2761,8 @@
             "1642-1687",
             "1688-1692"
           ],
-          "bytes": 9379840
+          "bytes": 9396224,
+          "sha256": "45b20fd219fdd030834110e9db4825daffd0f562712ec1d837d0cc3539d450cb"
         }
       ],
       "annotations": {
@@ -2640,7 +2780,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2650,7 +2791,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2660,7 +2802,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2670,7 +2813,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -2680,7 +2824,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2756,7 +2901,8 @@
             "1758-1763",
             "1764-1766"
           ],
-          "bytes": 9355264
+          "bytes": 9379840,
+          "sha256": "46cd8f81683247292731df32987aa516ae270c588cd2dc26773e540e55a56cac"
         }
       ],
       "annotations": {
@@ -2774,7 +2920,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2784,7 +2931,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2794,7 +2942,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2804,7 +2953,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -2814,7 +2964,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -2889,7 +3040,8 @@
             "1666-1681",
             "1682-1693"
           ],
-          "bytes": 9703424
+          "bytes": 9715712,
+          "sha256": "be4690e148da1fb601411f66f07370bab64e1a58db6b3b443f0779ee1f3b7354"
         }
       ],
       "annotations": {
@@ -2907,7 +3059,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -2917,7 +3070,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -2927,7 +3081,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -2937,7 +3092,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1841-deu1",
@@ -2947,7 +3103,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -3012,7 +3169,8 @@
             "1330-1367",
             "1368-1392"
           ],
-          "bytes": 7208960
+          "bytes": 7221248,
+          "sha256": "27aff6fcac8e88699f6e1f53947826ba430a736855833bfa194c5c64b78fcb47"
         }
       ],
       "annotations": {
@@ -3030,7 +3188,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -3040,7 +3199,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -3050,7 +3210,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -3060,7 +3221,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -3070,7 +3232,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -3147,7 +3310,8 @@
             "1621-1626",
             "1627-1629"
           ],
-          "bytes": 9019392
+          "bytes": 9023488,
+          "sha256": "b1f00015422e4ec06a578bdd83dfee9e189b634b9883a4502f8f542c09e6736d"
         }
       ],
       "annotations": {
@@ -3165,7 +3329,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -3175,7 +3340,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -3185,7 +3351,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -3195,7 +3362,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1845-deu1",
@@ -3205,7 +3373,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -3275,7 +3444,8 @@
             "952-992",
             "993-996"
           ],
-          "bytes": 5287936
+          "bytes": 5292032,
+          "sha256": "0ea64dd740437cac642b808db4532e62e649b3d2aed3f6f3542788f517fae4c8"
         }
       ],
       "annotations": {
@@ -3293,7 +3463,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -3303,7 +3474,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng3",
@@ -3313,7 +3485,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng4",
@@ -3323,7 +3496,8 @@
           "text_class": "english-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "potter1781-eng1",
@@ -3333,7 +3507,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Edward P. Coleridge, 1906)",
@@ -3413,7 +3588,8 @@
             "1230-1258",
             "1259-1278"
           ],
-          "bytes": 15863808
+          "bytes": 15892480,
+          "sha256": "b8376d4990cc73c1e9c6d5bea3417212f1e1b687d55f1e1eb4c2fc3ea0fe8390"
         }
       ],
       "annotations": {
@@ -3431,7 +3607,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -3441,7 +3618,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -3451,7 +3629,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -3461,7 +3640,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng3",
@@ -3471,7 +3651,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -3481,7 +3662,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -3491,7 +3673,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -3501,7 +3684,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -3511,7 +3695,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -3521,7 +3706,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -3531,7 +3717,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -3627,7 +3814,8 @@
             "1339-1346",
             "1347-1353"
           ],
-          "bytes": 22163456
+          "bytes": 22331392,
+          "sha256": "c654fd9a26d4a133db1b61ca155cee18f58b0c900d1f8a00872e4f4ee3a198e5"
         }
       ],
       "annotations": {
@@ -3645,7 +3833,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -3655,7 +3844,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -3665,7 +3855,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -3675,7 +3866,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "boeckh-grc1",
@@ -3685,7 +3877,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "benloew1858-grc1",
@@ -3695,7 +3888,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bothe1806-grc1",
@@ -3705,7 +3899,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "colonna1978-grc1",
@@ -3715,7 +3910,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "dain1955-grc1",
@@ -3725,7 +3921,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "dawe1979-grc1",
@@ -3735,7 +3932,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "hermann1830-grc1",
@@ -3745,7 +3943,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb1906-grc1",
@@ -3755,7 +3954,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pearson1924-grc1",
@@ -3765,7 +3965,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "reinhardt1949-grc1",
@@ -3775,7 +3976,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -3785,7 +3987,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "hoelderlin1805-deu1",
@@ -3795,7 +3998,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "boeckh-deu2",
@@ -3805,7 +4009,8 @@
           "text_class": "german-text",
           "source_version": "boeckh-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "bothe1806-lat1",
@@ -3815,7 +4020,8 @@
           "text_class": "latin-text",
           "source_version": "bothe1806-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "garbin1889-spa2",
@@ -3825,7 +4031,8 @@
           "text_class": "spanish-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bolufer1921-spa2",
@@ -3835,7 +4042,8 @@
           "text_class": "spanish-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb1904-eng1",
@@ -3845,7 +4053,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -3855,7 +4064,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -3865,7 +4075,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -3875,7 +4086,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -3885,7 +4097,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -3895,7 +4108,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -3905,7 +4119,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -3984,7 +4199,8 @@
             "1346-1375",
             "1376-1420"
           ],
-          "bytes": 17481728
+          "bytes": 17506304,
+          "sha256": "280459ab6b10c53cd0241c720c76855c5ce802e9396035f699c2321bf3e9effd"
         }
       ],
       "annotations": {
@@ -4002,7 +4218,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -4012,7 +4229,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -4022,7 +4240,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -4032,7 +4251,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -4042,7 +4262,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -4052,7 +4273,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -4062,7 +4284,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -4072,7 +4295,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -4082,7 +4306,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -4092,7 +4317,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -4102,7 +4328,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -4189,7 +4416,8 @@
             "1478-1515",
             "1516-1530"
           ],
-          "bytes": 19939328
+          "bytes": 19955712,
+          "sha256": "8dc9f5cbef9bb9bbb89d775a3895944d99b73993e469523779ea6e49ff725baf"
         }
       ],
       "annotations": {
@@ -4207,7 +4435,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -4217,7 +4446,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -4227,7 +4457,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -4237,7 +4468,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -4247,7 +4479,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -4257,7 +4490,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -4267,7 +4501,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -4277,7 +4512,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -4287,7 +4523,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -4297,7 +4534,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -4307,7 +4545,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -4394,7 +4633,8 @@
             "1491-1507",
             "1508-1510"
           ],
-          "bytes": 18755584
+          "bytes": 18776064,
+          "sha256": "12a26bb5669684be59316f4686c0392ee46016e4123d7bab2b270e1b61fa3b0e"
         }
       ],
       "annotations": {
@@ -4412,7 +4652,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -4422,7 +4663,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -4432,7 +4674,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -4442,7 +4685,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -4452,7 +4696,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -4462,7 +4707,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -4472,7 +4718,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -4482,7 +4729,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -4492,7 +4740,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -4502,7 +4751,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -4512,7 +4762,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -4586,7 +4837,8 @@
             "1408-1444",
             "1445-1471"
           ],
-          "bytes": 18640896
+          "bytes": 18665472,
+          "sha256": "bfa590a842af812cbc498c742684f4097039d2a1359b719aad16c299f0446e95"
         }
       ],
       "annotations": {
@@ -4604,7 +4856,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -4614,7 +4867,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -4624,7 +4878,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -4634,7 +4889,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -4644,7 +4900,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -4654,7 +4911,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -4664,7 +4922,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -4674,7 +4933,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -4684,7 +4944,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -4694,7 +4955,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -4704,7 +4966,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -4782,7 +5045,8 @@
             "1737-1750",
             "1751-1779"
           ],
-          "bytes": 21254144
+          "bytes": 21295104,
+          "sha256": "999cc126567b6eb6a650fdb6232cb67946cc2f2bf83ead280b84ddc867e84a53"
         }
       ],
       "annotations": {
@@ -4800,7 +5064,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "daphne-tb-cn1",
@@ -4810,7 +5075,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -4820,7 +5086,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-grc1",
@@ -4830,7 +5097,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1906-eng1",
@@ -4840,7 +5108,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "potter1788-eng1",
@@ -4850,7 +5119,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "francklin1758-eng1",
@@ -4860,7 +5130,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "donner1875-deu1",
@@ -4870,7 +5141,8 @@
           "text_class": "german-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -4880,7 +5152,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "jebb-com-eng1",
@@ -4890,7 +5163,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "campbell1879-com-eng1",
@@ -4900,7 +5174,8 @@
           "text_class": "commentary-text",
           "source_version": "campbell1879-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Lewis Campbell, 1879) (OCR draft)",
@@ -4933,7 +5208,8 @@
             "371-378",
             "379-419"
           ],
-          "bytes": 2183168
+          "bytes": 2183168,
+          "sha256": "0398b98fae290f15a279f1a46a13733f40a69a6d60ef18b9f4b76907b064a3f0"
         }
       ],
       "annotations": {
@@ -5050,7 +5326,8 @@
             "16",
             "17"
           ],
-          "bytes": 99131392
+          "bytes": 99258368,
+          "sha256": "33c33cf49fa9879b28ac379606defeb5d05d48355c87d2ffe8f7159c334b946a"
         },
         {
           "part": 2,
@@ -5064,7 +5341,8 @@
             "23",
             "24"
           ],
-          "bytes": 40652800
+          "bytes": 40734720,
+          "sha256": "f7d98ab64e31cb772c6f69620642b2f121646190bf169bdd33522ea598aad899"
         }
       ],
       "annotations": {
@@ -5082,7 +5360,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perstb-meter-grc1",
@@ -5092,7 +5371,8 @@
           "text_class": "metrical-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -5102,7 +5382,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng3",
@@ -5112,7 +5393,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butlernagy2020-eng2",
@@ -5122,7 +5404,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bryant1870-eng2",
@@ -5132,7 +5415,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pope1720watson1857-eng2",
@@ -5142,7 +5426,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "hobbes1667molesworth-eng2",
@@ -5152,7 +5437,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "chapman1611hooper-eng2",
@@ -5162,7 +5448,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "cowper-eng2",
@@ -5172,7 +5459,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "newman1856-eng2",
@@ -5182,7 +5470,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "parrish2021-eng1",
@@ -5192,7 +5481,8 @@
           "text_class": "bridge-translation-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "dueebbott2010-eng1",
@@ -5202,7 +5492,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Casey Dué and Mary Ebbott, 2010) (OCR draft)",
@@ -5239,7 +5530,8 @@
             "21",
             "22"
           ],
-          "bytes": 98377728
+          "bytes": 98586624,
+          "sha256": "da6abb1bf229a85ed36baee67aca514986228df726be9daff81344648db45766"
         },
         {
           "part": 2,
@@ -5248,7 +5540,8 @@
             "23",
             "24"
           ],
-          "bytes": 10629120
+          "bytes": 10641408,
+          "sha256": "e5a4379858b0cdc4b140275632b3bee966f5dda6c7886fe0f36b8e89c31e8893"
         }
       ],
       "annotations": {
@@ -5266,7 +5559,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perstb-meter-grc1",
@@ -5276,7 +5570,8 @@
           "text_class": "metrical-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -5286,7 +5581,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng3",
@@ -5296,7 +5592,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butlernagy2020-eng2",
@@ -5306,7 +5603,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bryant1873-eng2",
@@ -5316,7 +5614,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pope1726watson1858-eng2",
@@ -5326,7 +5625,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "hobbes1667molesworth-eng2",
@@ -5336,7 +5636,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "chapman1615hooper-eng2",
@@ -5346,7 +5647,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "cowper-eng2",
@@ -5356,7 +5658,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "cotterill1911-eng2",
@@ -5366,7 +5669,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "parrish2023-eng1",
@@ -5376,7 +5680,8 @@
           "text_class": "bridge-translation-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (A.T. Murray, 1924)",
@@ -5423,7 +5728,8 @@
             "963-1002",
             "1003-1022"
           ],
-          "bytes": 5799936
+          "bytes": 5799936,
+          "sha256": "630b16651e58a44fd144ee07f38c397262db9327c5a5369bc0c0fff52dfecd7f"
         }
       ],
       "annotations": {
@@ -5441,7 +5747,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -5451,7 +5758,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -5461,7 +5769,8 @@
           "text_class": "english-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (Hugh G. Evelyn-White, 1914)",
@@ -5502,7 +5811,8 @@
             "765-799",
             "800-828"
           ],
-          "bytes": 4751360
+          "bytes": 4751360,
+          "sha256": "06ab53d448d0eca5137e4eed30407855daa4043f304fdf8154056cb625c7e803"
         }
       ],
       "annotations": {
@@ -5520,7 +5830,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -5530,7 +5841,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -5540,7 +5852,8 @@
           "text_class": "english-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (Hugh G. Evelyn-White, 1914)",
@@ -5568,7 +5881,8 @@
             "402-442",
             "443-480"
           ],
-          "bytes": 2605056
+          "bytes": 2605056,
+          "sha256": "f52461927cd72142ae902b7686438678360459f5b79f8e49b88910323f9fa7bc"
         }
       ],
       "annotations": {
@@ -5586,7 +5900,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -5596,7 +5911,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -5606,7 +5922,8 @@
           "text_class": "english-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (Hugh G. Evelyn-White, 1914)",
@@ -5728,7 +6045,8 @@
             "1062-1067",
             "1068-1073"
           ],
-          "bytes": 9469952
+          "bytes": 9469952,
+          "sha256": "3ca2647bad790a5585369a6152f516901eef1c9df1fc1b523f92d859cc1b81e8"
         }
       ],
       "annotations": {
@@ -6062,7 +6380,8 @@
             "1060-1065",
             "1066-1076"
           ],
-          "bytes": 8536064
+          "bytes": 8536064,
+          "sha256": "3578438e16077a38a02cf50cd8e4c232d10fa03ec379d1936573ed7c337d700a"
         }
       ],
       "annotations": {
@@ -6342,7 +6661,8 @@
             "1040-1079",
             "1080-1093"
           ],
-          "bytes": 10878976
+          "bytes": 10878976,
+          "sha256": "98f6e6e6e0dd6ecd78b2d5b6bddb9c46f8e112fba366b01dddc662c66190adc5"
         }
       ],
       "annotations": {
@@ -6634,7 +6954,8 @@
             "1032-1047",
             "1048-1084"
           ],
-          "bytes": 9609216
+          "bytes": 9609216,
+          "sha256": "e8e399f295776f6ff95b93fc7dc36f0d75e88cc86f2539b855a714f14d87821f"
         }
       ],
       "annotations": {
@@ -6965,7 +7286,8 @@
             "1617-1648",
             "1649-1673"
           ],
-          "bytes": 14761984
+          "bytes": 14761984,
+          "sha256": "6a9465c4501fb596d21d792be91ec471e832f6837ece916e24bf861a842fb07a"
         }
       ],
       "annotations": {
@@ -7314,7 +7636,8 @@
             "1051-1064",
             "1065-1076"
           ],
-          "bytes": 10358784
+          "bytes": 10358784,
+          "sha256": "ca89b31e4390a3dc4e28a5e68bf0fd16fd68d5cb1887e87e57e285245450be13"
         }
       ],
       "annotations": {
@@ -7648,7 +7971,8 @@
             "1040-1043",
             "1044-1047"
           ],
-          "bytes": 14028800
+          "bytes": 14028800,
+          "sha256": "17d9dbcc19861541aae2f946bff9f1ed07a81d2a9a391db95e95768ff50f67b7"
         }
       ],
       "annotations": {
@@ -8035,7 +8359,8 @@
             "25",
             "26"
           ],
-          "bytes": 41828352
+          "bytes": 41816064,
+          "sha256": "80feebb862920f8937e38d6fa8e7ff7907bdd5b9491ddc8171f4b7634cebde2f"
         }
       ],
       "annotations": {
@@ -8053,7 +8378,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "moerbeke-tb-lat1",
@@ -8063,7 +8389,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bishrmatta-tb-ara1",
@@ -8073,7 +8400,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -8083,7 +8411,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "digicorpus-grc2",
@@ -8093,7 +8422,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bywater1909-grc1",
@@ -8103,7 +8433,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "ritter1839-grc1",
@@ -8113,7 +8444,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butcher1911-grc2",
@@ -8123,7 +8455,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "moerbeke1277-lat1",
@@ -8133,7 +8466,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -8143,7 +8477,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butcher1911-eng2",
@@ -8153,7 +8488,8 @@
           "text_class": "english-text",
           "source_version": "butcher1911-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "riccobono1587-lat1",
@@ -8163,7 +8499,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bywater1909-eng1",
@@ -8173,7 +8510,8 @@
           "text_class": "english-text",
           "source_version": "bywater1909-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "twining1789-eng1",
@@ -8183,7 +8521,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pye1792-eng1",
@@ -8193,7 +8532,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "buckley1850-eng1",
@@ -8203,7 +8543,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "ritter1839-lat1",
@@ -8213,7 +8554,8 @@
           "text_class": "latin-text",
           "source_version": "ritter1839-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "dacier1692-fra2",
@@ -8223,7 +8565,8 @@
           "text_class": "french-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "segni-ita1-aligned",
@@ -8233,7 +8576,8 @@
           "text_class": "italian-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "tkatsch-ara1",
@@ -8243,7 +8587,8 @@
           "text_class": "arabic-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "tkatsch-ara",
@@ -8253,7 +8598,8 @@
           "text_class": "arabic-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "bywater1909-com1",
@@ -8263,7 +8609,8 @@
           "text_class": "commentary-text",
           "source_version": "bywater1909-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "dacier1692-com-fra1",
@@ -8273,7 +8620,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "twining-com-eng1",
@@ -8283,7 +8631,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "pye1792comm-eng1",
@@ -8293,7 +8642,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "ritter1839-commentary-lat1",
@@ -8303,7 +8653,8 @@
           "text_class": "commentary-text",
           "source_version": "ritter1839-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "buckley1850-intro-eng1",
@@ -8313,7 +8664,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Arabic (Abū Bishr Mattā, c. 900) (OCR draft)",
@@ -8331,7 +8683,8 @@
             "2",
             "3"
           ],
-          "bytes": 864256
+          "bytes": 864256,
+          "sha256": "5e5ed9abdd34432bd91da5984243ae3cc86705f805528d72765d940766cd883a"
         }
       ],
       "annotations": {
@@ -8349,7 +8702,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "buckley1850-intro-eng1",
@@ -8359,7 +8713,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Theodore Alois Buckley, 1850; 1857 printing) (OCR draft)",
@@ -8394,7 +8749,8 @@
             "19",
             "20"
           ],
-          "bytes": 56111104
+          "bytes": 56135680,
+          "sha256": "7672127aa25edb130869374267b10510755d6fa24cddd9a00653e1a12c02c3f3"
         },
         {
           "part": 2,
@@ -8422,7 +8778,8 @@
             "40",
             "41"
           ],
-          "bytes": 53518336
+          "bytes": 53547008,
+          "sha256": "52a6a7e946b9dc874e55a5e640ad47d9f552ac1916adc65591dd6d9e519c415b"
         },
         {
           "part": 3,
@@ -8436,7 +8793,8 @@
             "47",
             "48"
           ],
-          "bytes": 21524480
+          "bytes": 21536768,
+          "sha256": "4a40b8f0a667e34f8abce8694d9d2fecc7476f614a5f7bf662a2216545bd2de8"
         }
       ],
       "annotations": {
@@ -8454,7 +8812,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perstb-meter-grc1",
@@ -8464,7 +8823,8 @@
           "text_class": "metrical-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -8474,7 +8834,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rouse1940-eng2",
@@ -8484,7 +8845,8 @@
           "text_class": "english-text",
           "source_version": "perseus-grc2",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (W. H. D. Rouse, 1940) from https://topostext.org/work/529 (OCR draft)",
@@ -8589,7 +8951,8 @@
             "89",
             "Remarks on Julius Caesar"
           ],
-          "bytes": 2293760
+          "bytes": 2293760,
+          "sha256": "ddaa6616f9d771bab12ee330c56200ca162adb14cda24e21d2f83339902456b9"
         }
       ],
       "annotations": {
@@ -8607,7 +8970,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-lat1",
@@ -8617,7 +8981,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "butlercary1927-lat1",
@@ -8627,7 +8992,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "peck1893-lat1",
@@ -8637,7 +9003,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -8647,7 +9014,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -8657,7 +9025,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -8667,7 +9036,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -8677,7 +9047,8 @@
           "text_class": "english-text",
           "source_version": "rolfe-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "butlercary1927-com-eng1",
@@ -8687,7 +9058,8 @@
           "text_class": "english-text",
           "source_version": "butlercary1927-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "peck1893-com-eng1",
@@ -8697,7 +9069,8 @@
           "text_class": "english-text",
           "source_version": "peck1893-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Butler and Cary, 1927; English; OCR draft)",
@@ -8814,7 +9187,8 @@
             "101",
             "Remarks on Augustus"
           ],
-          "bytes": 2899968
+          "bytes": 2904064,
+          "sha256": "5055c2a3b2640c5133e7a49606bc2411d21e6ea350539cdf8feebb3fa5443bb1"
         }
       ],
       "annotations": {
@@ -8832,7 +9206,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "peck1893-lat1",
@@ -8842,7 +9217,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -8852,7 +9228,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -8862,7 +9239,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -8872,7 +9250,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -8882,7 +9261,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "peck1893-com-eng1",
@@ -8892,7 +9272,8 @@
           "text_class": "english-text",
           "source_version": "peck1893-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "shuckburgh1896-com-eng1",
@@ -8902,7 +9283,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Peck, 1893, second edition; English; OCR draft)",
@@ -8994,7 +9376,8 @@
             "76",
             "Remarks on  Tiberius"
           ],
-          "bytes": 962560
+          "bytes": 962560,
+          "sha256": "bb2d7eb88d5f8aaa42138b03d6fd8df16f48fc10752e061b6e94be2e5533cad1"
         }
       ],
       "annotations": {
@@ -9012,7 +9395,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9022,7 +9406,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9032,7 +9417,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9042,7 +9428,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9052,7 +9439,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Holland, 1899; selective 1606 variants) (OCR draft)",
@@ -9128,7 +9516,8 @@
             "60",
             "Remarks on Caligula"
           ],
-          "bytes": 815104
+          "bytes": 815104,
+          "sha256": "b3a9421169c991d48f6975a42dd01264d0deb27f3dbdca65445fffad43482917"
         }
       ],
       "annotations": {
@@ -9146,7 +9535,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9156,7 +9546,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9166,7 +9557,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9176,7 +9568,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9186,7 +9579,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Holland, 1899; selective 1606 variants) (OCR draft)",
@@ -9248,7 +9642,8 @@
             "46",
             "Remarks on Claudius"
           ],
-          "bytes": 696320
+          "bytes": 696320,
+          "sha256": "71b0d825bae66d6fe560775b43bef013b318de5ff0a2f5950545ae79ad153753"
         }
       ],
       "annotations": {
@@ -9266,7 +9661,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9276,7 +9672,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9286,7 +9683,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9296,7 +9694,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9306,7 +9705,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Holland, 1899; selective 1606 variants) (OCR draft)",
@@ -9379,7 +9779,8 @@
             "57",
             "Remarks on  Nero"
           ],
-          "bytes": 888832
+          "bytes": 888832,
+          "sha256": "4bb6466d2e8f0db196a1c4ac72788c354fcf04ed0ef0a1f4426da7146a432b0a"
         }
       ],
       "annotations": {
@@ -9397,7 +9798,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9407,7 +9809,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9417,7 +9820,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9427,7 +9831,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9437,7 +9842,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "English (Holland, 1899; selective 1606 variants) (OCR draft)",
@@ -9476,7 +9882,8 @@
             "23",
             "Remarks on Galba"
           ],
-          "bytes": 774144
+          "bytes": 774144,
+          "sha256": "67263f4fb6ce3e5de7b27215fc910cf52ab86b6d71f499adb46861ef0f906638"
         }
       ],
       "annotations": {
@@ -9494,7 +9901,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -9504,7 +9912,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9514,7 +9923,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9524,7 +9934,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9534,7 +9945,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9544,7 +9956,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -9554,7 +9967,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -9564,7 +9978,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Mooney, 1930; English; OCR draft)",
@@ -9592,7 +10007,8 @@
             "12",
             "Remarks on Otho"
           ],
-          "bytes": 536576
+          "bytes": 536576,
+          "sha256": "ef10acb915e00dfd765173c52970d9ed6e2e109ab0bc32a74cc4773e1a3e1b90"
         }
       ],
       "annotations": {
@@ -9610,7 +10026,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -9620,7 +10037,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9630,7 +10048,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9640,7 +10059,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9650,7 +10070,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9660,7 +10081,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -9670,7 +10092,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -9680,7 +10103,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Mooney, 1930; English; OCR draft)",
@@ -9714,7 +10138,8 @@
             "18",
             "Remarks on Vitellius"
           ],
-          "bytes": 692224
+          "bytes": 692224,
+          "sha256": "2a0e2f8734e1bd78b54f3985813040748076df903baddace5bec56113b615320"
         }
       ],
       "annotations": {
@@ -9732,7 +10157,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -9742,7 +10168,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9752,7 +10179,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9762,7 +10190,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9772,7 +10201,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9782,7 +10212,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -9792,7 +10223,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -9802,7 +10234,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Mooney, 1930; English; OCR draft)",
@@ -9843,7 +10276,8 @@
             "25",
             "Remarks on Vespasian"
           ],
-          "bytes": 1167360
+          "bytes": 1167360,
+          "sha256": "6c3ac5bdb69f971f78e3fe2a256c0c2e1e56267bed25401dab4d59a6a2caf42c"
         }
       ],
       "annotations": {
@@ -9861,7 +10295,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -9871,7 +10306,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -9881,7 +10317,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -9891,7 +10328,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -9901,7 +10339,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -9911,7 +10350,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -9921,7 +10361,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -9931,7 +10372,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "braithwaite1927-com-eng1",
@@ -9941,7 +10383,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Braithwaite, 1927; English; OCR draft)",
@@ -9968,7 +10411,8 @@
             "11",
             "Remarks on Titus"
           ],
-          "bytes": 446464
+          "bytes": 446464,
+          "sha256": "78cc282901267f074b64a8b5598528ca4f0b8411db6a6fa81168be50c13a150f"
         }
       ],
       "annotations": {
@@ -9986,7 +10430,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -9996,7 +10441,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -10006,7 +10452,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -10016,7 +10463,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -10026,7 +10474,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -10036,7 +10485,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -10046,7 +10496,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -10056,7 +10507,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Mooney, 1930; English; OCR draft)",
@@ -10095,7 +10547,8 @@
             "23",
             "Remarks on Domitian"
           ],
-          "bytes": 1032192
+          "bytes": 1032192,
+          "sha256": "b9240bb2ac1cc1a10ab37b9a72695dda68a825ca61a6f175338ee5ff81504b73"
         }
       ],
       "annotations": {
@@ -10113,7 +10566,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-lat1",
@@ -10123,7 +10577,8 @@
           "text_class": "latin-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -10133,7 +10588,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe-eng1",
@@ -10143,7 +10599,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "holland1899-eng1",
@@ -10153,7 +10610,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "rolfe1914review-eng1",
@@ -10163,7 +10621,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-eng1",
@@ -10173,7 +10632,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "mooney1930-com-eng1",
@@ -10183,7 +10643,8 @@
           "text_class": "english-text",
           "source_version": "mooney1930-lat1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "Commentary (Mooney, 1930; English; OCR draft)",
@@ -10262,7 +10723,8 @@
             "1204-1226",
             "1227-1234"
           ],
-          "bytes": 11694080
+          "bytes": 11694080,
+          "sha256": "4539ad23a3582870e734fa9c8bc1f4a3650eb587ce89f8a6969eaf1eeedee4d5"
         }
       ],
       "annotations": {
@@ -10280,7 +10742,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -10290,7 +10753,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -10300,7 +10764,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -10310,7 +10775,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -10320,7 +10786,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -10330,7 +10797,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -10409,7 +10877,8 @@
             "1372-1389",
             "1390-1409"
           ],
-          "bytes": 14073856
+          "bytes": 14073856,
+          "sha256": "60703aac33e0ac7196f4a9c0b7cd9e25000dce3774819389ee9c899e24534373"
         }
       ],
       "annotations": {
@@ -10427,7 +10896,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -10437,7 +10907,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -10447,7 +10918,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -10457,7 +10929,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -10467,7 +10940,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -10477,7 +10951,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -10560,7 +11035,8 @@
             "1452-1475",
             "1476-1511"
           ],
-          "bytes": 16887808
+          "bytes": 16887808,
+          "sha256": "06020ba1748e7e563a246073559c99c94808749f489b8acbb40aee14d05bfa24"
         }
       ],
       "annotations": {
@@ -10578,7 +11054,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -10588,7 +11065,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -10598,7 +11076,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -10608,7 +11087,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -10618,7 +11098,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -10628,7 +11109,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -10720,7 +11202,8 @@
             "1523-1527",
             "1528-1537"
           ],
-          "bytes": 15568896
+          "bytes": 15568896,
+          "sha256": "a32aad1eb53f9f8bdabb51d58368a8409a8b158e5902b576efcabc66473bec24"
         }
       ],
       "annotations": {
@@ -10738,7 +11221,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -10748,7 +11232,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -10758,7 +11243,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -10768,7 +11254,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -10778,7 +11265,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -10788,7 +11276,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -10863,7 +11352,8 @@
             "1316-1319",
             "1320-1357"
           ],
-          "bytes": 12288000
+          "bytes": 12288000,
+          "sha256": "b35197a2233246f70f3d911518550733e6d5c0fde959c683495dc6d189036887"
         }
       ],
       "annotations": {
@@ -10881,7 +11371,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -10891,7 +11382,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -10901,7 +11393,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -10911,7 +11404,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -10921,7 +11415,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -10931,7 +11426,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11027,7 +11523,8 @@
             "1737-1742",
             "1743-1765"
           ],
-          "bytes": 17526784
+          "bytes": 17526784,
+          "sha256": "a4c05c0995dd67c573fdfda124a93f611401e508bd0e9ad8bd47f2daad1a9b18"
         }
       ],
       "annotations": {
@@ -11045,7 +11542,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11055,7 +11553,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11065,7 +11564,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng2",
@@ -11075,7 +11575,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11085,7 +11586,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11095,7 +11597,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11105,7 +11608,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11180,7 +11684,8 @@
             "1279-1294",
             "1295-1320"
           ],
-          "bytes": 12726272
+          "bytes": 12726272,
+          "sha256": "bf83991c4343641dd3457d2775d01669ba4f4bd9c3923df8f01dd2898f266e36"
         }
       ],
       "annotations": {
@@ -11198,7 +11703,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11208,7 +11714,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11218,7 +11725,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11228,7 +11736,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11238,7 +11747,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11248,7 +11758,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11317,7 +11828,8 @@
             "1160-1225",
             "1226-1231"
           ],
-          "bytes": 11063296
+          "bytes": 11063296,
+          "sha256": "14eef86ca94ea3185d44b71087b41e95db776c7e58d28b7538d1d0d3729684bf"
         }
       ],
       "annotations": {
@@ -11335,7 +11847,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11345,7 +11858,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11355,7 +11869,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11365,7 +11880,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11375,7 +11891,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11385,7 +11902,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11477,7 +11995,8 @@
             "1500-1527",
             "1528-1533"
           ],
-          "bytes": 14462976
+          "bytes": 14462976,
+          "sha256": "33a0a1e3f888cf4131c017a1f8b87414254f65a96eca070ab7428ce72a4698ef"
         }
       ],
       "annotations": {
@@ -11495,7 +12014,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11505,7 +12025,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11515,7 +12036,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11525,7 +12047,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11535,7 +12058,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11545,7 +12069,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11606,7 +12131,8 @@
             "1155-1162",
             "1163-1183"
           ],
-          "bytes": 11489280
+          "bytes": 11489280,
+          "sha256": "3032f4f391fc0b8f2465e9c2e616b4bd9fe9212939a0158458ffbe5c1254223f"
         }
       ],
       "annotations": {
@@ -11624,7 +12150,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11634,7 +12161,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11644,7 +12172,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11654,7 +12183,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11664,7 +12194,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11674,7 +12205,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11722,7 +12254,8 @@
             "1135-1170",
             "1171-1209"
           ],
-          "bytes": 12374016
+          "bytes": 12374016,
+          "sha256": "71cef7a811909f8c539f834a2ba6c75bd139bd37cfdb39bcd29de486fcdf4857"
         }
       ],
       "annotations": {
@@ -11740,7 +12273,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2-oga020-src",
@@ -11750,7 +12284,8 @@
           "text_class": "treebank-text",
           "source_version": "perseus-grc2",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-grc2",
@@ -11760,7 +12295,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "perseus-eng1",
@@ -11770,7 +12306,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-eng1",
@@ -11780,7 +12317,8 @@
           "text_class": "english-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "sanjaya-com-eng1",
@@ -11790,7 +12328,8 @@
           "text_class": "commentary-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         }
       ],
       "label": "Commentary (Sanjaya, generated; selected passages) (OCR draft)",
@@ -11847,7 +12386,8 @@
             "41",
             "42"
           ],
-          "bytes": 24416256
+          "bytes": 24416256,
+          "sha256": "01ea77ab5b30a85ad9005a19b5b5fdefb11e2ca021c97cbf41793fdd016f9642"
         }
       ],
       "annotations": {
@@ -11865,7 +12405,8 @@
           "text_class": "treebank-text",
           "source_version": "duport1676-grc1",
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "1st1K-grc1",
@@ -11875,7 +12416,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "duport1676-grc1",
@@ -11885,7 +12427,8 @@
           "text_class": "greek-text",
           "source_version": null,
           "source_certainty": null,
-          "source_note": null
+          "source_note": null,
+          "translation_of": null
         },
         {
           "short_id": "duport1676-lat1",
@@ -11895,7 +12438,8 @@
           "text_class": "latin-text",
           "source_version": "duport1676-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         },
         {
           "short_id": "duport1676-eng1",
@@ -11905,7 +12449,8 @@
           "text_class": "english-text",
           "source_version": "duport1676-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available."
+          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "translation_of": null
         }
       ],
       "label": "English (DeepSeek, 2026) (OCR draft)",
@@ -11930,7 +12475,8 @@
             "4",
             "5"
           ],
-          "bytes": 79769600
+          "bytes": 79769600,
+          "sha256": "4527d276014ceffca5205cce02a4392c4c4b00cee41964ea1117d170ed0c82a3"
         },
         {
           "part": 2,
@@ -11942,7 +12488,8 @@
             "9",
             "10"
           ],
-          "bytes": 82165760
+          "bytes": 82165760,
+          "sha256": "89af7e4b319bcea629a6f977bce2ae65b938c35ad49df933738f9d648a49b5ad"
         }
       ],
       "annotations": {
