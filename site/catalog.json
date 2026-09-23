@@ -7971,7 +7971,7 @@
             "1040-1043",
             "1044-1047"
           ],
-          "bytes": 14028800,
+          "bytes": 14032896,
           "sha256": "17d9dbcc19861541aae2f946bff9f1ed07a81d2a9a391db95e95768ff50f67b7"
         }
       ],
@@ -12551,6 +12551,186 @@
         "chapter": "Chapter",
         "section": "Section"
       }
+    },
+    "anon.beowulf": {
+      "textgroup": "anon",
+      "work": "beowulf",
+      "parts": [
+        {
+          "part": 1,
+          "file": "anon.beowulf.part1.db",
+          "chapters": [
+            "1-52",
+            "53-114",
+            "115-188",
+            "189-257",
+            "258-319",
+            "320-370",
+            "371-455",
+            "456-498",
+            "499-558",
+            "559-661",
+            "662-709",
+            "710-790",
+            "791-836",
+            "837-924",
+            "925-990",
+            "991-1049",
+            "1050-1124",
+            "1125-1191",
+            "1192-1250",
+            "1251-1320",
+            "1321-1382",
+            "1383-1472",
+            "1473-1556",
+            "1557-1650",
+            "1651-1739",
+            "1740-1816",
+            "1817-1887",
+            "1888-1962",
+            "1963-2038",
+            "2039-2143",
+            "2144-2220",
+            "2221-2311",
+            "2312-2390",
+            "2391-2459",
+            "2460-2601",
+            "2602-2693",
+            "2694-2751",
+            "2752-2820",
+            "2821-2891",
+            "2892-2945",
+            "2946-3057",
+            "3058-3136",
+            "3137-3182"
+          ],
+          "bytes": 15511552,
+          "sha256": "c298e9ff69c5ccc0d12862bf1c36eac3e9f2ea1b79f669b72dbbaa4b28503e9c"
+        }
+      ],
+      "annotations": {
+        "treebanks": 1,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "brunetti-deepseek2026-tb-ang1",
+          "urn": "urn:cts:angLit:anon.beowulf.brunetti-deepseek2026-tb-ang1",
+          "label": "Treebank + glosses (Brunetti/DeepSeek, 2026) (AI draft)",
+          "doc_type": "treebank",
+          "text_class": "treebank-text",
+          "source_version": "perseus-ang1",
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        },
+        {
+          "short_id": "perseus-ang1",
+          "urn": "urn:cts:angLit:anon.beowulf.perseus-ang1",
+          "label": "Old English (Fr. Klaeber, 1922)",
+          "doc_type": "edition",
+          "text_class": "old-english-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        },
+        {
+          "short_id": "perseus-eng1",
+          "urn": "urn:cts:angLit:anon.beowulf.perseus-eng1",
+          "label": "English (James M. Garnett, 1912)",
+          "doc_type": "translation",
+          "text_class": "english-text",
+          "source_version": "perseus-ang1",
+          "source_certainty": "explicit",
+          "source_note": "Garnett translates Beowulf and uses the standard continuous line citation shared with the Klaeber edition.",
+          "translation_of": null
+        },
+        {
+          "short_id": "brunetti-deepseek2026-eng1",
+          "urn": "urn:cts:angLit:anon.beowulf.brunetti-deepseek2026-eng1",
+          "label": "English (DeepSeek, 2026) using Brunetti analysis (AI draft)",
+          "doc_type": "translation",
+          "text_class": "english-text",
+          "source_version": "perseus-ang1",
+          "source_certainty": "explicit",
+          "source_note": "Generated sentence by sentence from Klaeber's Old English text; Giuseppe Brunetti's analysis supplied the fixed token, lemma, morphology, POS, and dictionary-gloss layer.",
+          "translation_of": null
+        },
+        {
+          "short_id": "perseus-com-eng1",
+          "urn": "urn:cts:angLit:anon.beowulf.perseus-com-eng1",
+          "label": "Commentary (Fr. Klaeber, 1922)",
+          "doc_type": "commentary",
+          "text_class": "commentary-text",
+          "source_version": "perseus-ang1",
+          "source_certainty": "explicit",
+          "source_note": "The commentary and Old English text belong to Klaeber’s 1922 edition.",
+          "translation_of": null
+        }
+      ],
+      "label": "Beowulf",
+      "title": "Beowulf"
+    },
+    "anon.klaeber_glossary": {
+      "textgroup": "anon",
+      "work": "klaeber_glossary",
+      "parts": [
+        {
+          "part": 1,
+          "file": "anon.klaeber_glossary.part1.db",
+          "chapters": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "finnsburg",
+            "g",
+            "h",
+            "i",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "proper names",
+            "r",
+            "s",
+            "t",
+            "th",
+            "u",
+            "w",
+            "y"
+          ],
+          "bytes": 753664,
+          "sha256": "a9e96fe3e91274ef98c085660cebaa7ceaa33cc70c97bb8b5dc57191256f3f61"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "perseus-mul1",
+          "urn": "urn:cts:angLit:anon.klaeber_glossary.perseus-mul1",
+          "label": "Old English–English glossary (Fr. Klaeber, 1922)",
+          "doc_type": "edition",
+          "text_class": "glossary-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "Klaeber's Beowulf Glossary",
+      "title": "Klaeber's Beowulf Glossary"
     },
     "tlg0085.fragmenta": {
       "textgroup": "tlg0085",
@@ -21698,6 +21878,7 @@
     "boeckh1858": "August Boeckh",
     "ferdowsi": "Ferdowsi",
     "heike": "Heike Monogatari",
+    "anon": "Beowulf Poet",
     "tlg0001": "Apollonius of Rhodes",
     "tlg0003": "Thucydides",
     "tlg0006": "Euripides",
