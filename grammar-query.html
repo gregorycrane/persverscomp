@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Greek Grammar Counts · Perseus Multitext Viewer</title>
+  <link rel="stylesheet" href="grammar-query.css">
+</head>
+<body>
+  <header class="masthead">
+    <a href="./">← PMV</a>
+    <div><span class="eyebrow">Perseus Multitext Viewer</span><h1>Greek grammar counts</h1></div>
+  </header>
+  <main>
+    <section class="query-card">
+      <h2>Define a corpus query</h2>
+      <div class="query-grid">
+        <label>Stemtype<select id="stemtype"></select></label>
+        <label>Part of speech<select id="pos"></select></label>
+        <label>Tense<select id="Tense"></select></label>
+        <label>Mood<select id="Mood"></select></label>
+        <label>Voice<select id="Voice"></select></label>
+        <label>Person<select id="Person"></select></label>
+        <label>Number<select id="Number"></select></label>
+        <label>Gender<select id="Gender"></select></label>
+        <label>Case<select id="Case"></select></label>
+      </div>
+      <label class="works-field">PMV work keys
+        <input id="works" placeholder="All 57 works, or e.g. tlg0059.tlg003; comma-separated">
+      </label>
+      <div class="actions">
+        <button id="run" type="button">Count tokens</button>
+        <a id="paradigm" href="./paradigm-viewer.html">View ranked paradigm →</a>
+        <a id="occurrences" href="./search/" target="_blank" rel="noopener">Inspect morphological candidates in PMV →</a>
+      </div>
+      <p id="occurrence-note" class="search-note"></p>
+    </section>
+
+    <section id="result" class="result-card" aria-live="polite">
+      <p class="loading">Loading the OGA–Morpheus query cube…</p>
+    </section>
+
+    <section class="method-card">
+      <h2>What is being counted?</h2>
+      <p id="method"></p>
+      <p>OGA supplies the token and morphological features. Morpheus supplies the stemtype. A token enters a stemtype count only when an analysis agrees with OGA on both lemma and part of speech. These counts describe annotations and should be checked against curated controls as coverage expands.</p>
+    </section>
+  </main>
+  <script src="grammar-query.js"></script>
+</body>
+</html>

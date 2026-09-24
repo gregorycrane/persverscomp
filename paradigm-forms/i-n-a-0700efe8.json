@@ -1,0 +1,1 @@
+{"schema_version":1,"paradigm":"i|n|a","columns":["work","title","form","lemma","pos","Tense","Mood","Voice","Person","Number","Gender","Case","count","stemtype"],"gloss_source":"Logeion Short Definitions (Greek), Helma Dik","glosses":{"εἰμί":["to be","come, go"]},"rows":[["tlg0059.tlg003","Crito","ἦμεν","εἰμί","v","i","n","a","","","","",2,"irreg_mi"]]}

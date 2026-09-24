@@ -1,5 +1,34 @@
 # Perseus 6 -- Serverless Prototype
 
+## Grammar counts
+
+`grammar-query.html` counts combinations of OGA morphology and matching
+Morpheus stemtypes, optionally restricted to comma-separated PMV work keys.
+Its static data file is regenerated from the PMV Morpheus report with:
+
+```sh
+cd /Users/gcrane/github/morpheus
+python3 tools/build_grammar_query_data.py \
+  --output /Users/gcrane/github/persverscomp/grammar-query-data.json
+```
+
+For example, `grammar-query.html?stemtype=w_stem&pos=v&tense=i&mood=i&voice=a`
+counts imperfect indicative active verb tokens whose OGA lemma and POS agree
+with a Morpheus `w_stem` analysis.
+
+`paradigm-viewer.html` displays ranked surface forms by grammatical slot for a
+stemtype and selected corpus. Its 147 stemtype shards are generated with:
+
+```sh
+cd /Users/gcrane/github/morpheus
+python3 tools/build_stemtype_form_shards.py \
+  --output-dir /Users/gcrane/github/persverscomp/stemtype-forms
+```
+
+The viewer fetches only the chosen stemtype shard, shows the top three forms in
+each cell by default, and lets the reader expand individual cells or globally
+request all forms.
+
     Our goal is to provide public facing versions of the Perseus Digital Library that can run for as long as possible with minimal -- and ideally no -- changes. The Canadian [Endings Project](https://endings.uvic.ca/) provided an initial inspiration for this work but it was not clear to me whether this approach could accommodate the demands of the Perseus Digital Library. In his contributions to the Ajax Multicommentary Project, Charles Pletcher, however, created a [minimal computing version of this challenging philological use case](https://multi.ajmc.ch/passages/urn:cts:greekLit:tlg0011.tlg003:1-133). Pletcher's work made it clear that we could build every feature of the Perseus Digital Library, current and planned, in format that Tufts could serve far more easily than the traditional serverb-based versions of Perseus and that was designed to run, securely and without modification,for a long period of time. 
 
     In summer 2026, there are two serverless Perseus efforts. Peter Nadel, Charles Pletcher, and Clifford Wulfman are working on a Minimum Viable Perseus (MVP) -- essentially a replacement for Perseus 4: the Hopper, a version that David Mimno first designed in 2003, that was developed through 2013 and has been running on virtual servers unchanged ever since. Minimum Viable Perseus aims to provide the functionality of Perseus 4 for all Perseus textual data -- essentially, MVP provides a streamlined digital library that can be updated and expanded over time.

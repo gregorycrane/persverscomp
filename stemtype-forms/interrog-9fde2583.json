@@ -1,0 +1,1 @@
+{"schema_version":2,"stemtype":"interrog","total":1,"columns":["work","title","form","lemma","pos","Tense","Mood","Voice","Person","Number","Gender","Case","count"],"gloss_source":"Logeion Short Definitions (Greek), Helma Dik","glosses":{"πότε":["ever, sometime","when? at what time?"]},"rows":[["tlg0006.tlg001","Cyclops","πότʼ","πότε","n","","","","","s","m","n",1]]}

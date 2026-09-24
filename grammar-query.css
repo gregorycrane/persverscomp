@@ -1,0 +1,31 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #292622; background: #f5f1ea; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.masthead { display: flex; gap: 1.5rem; align-items: center; padding: 1.4rem max(1rem, calc((100vw - 1180px)/2)); color: white; background: #740b0b; }
+.masthead a { color: white; }
+.masthead h1 { margin: .1rem 0 0; font: 700 2rem Georgia, serif; }
+.eyebrow { opacity: .75; font-size: .75rem; letter-spacing: .09em; text-transform: uppercase; }
+main { max-width: 1180px; margin: 2rem auto; padding: 0 1rem 3rem; }
+.query-card, .result-card, .method-card { background: white; border: 1px solid #d8cdbf; border-radius: .65rem; padding: 1.4rem; margin-bottom: 1.25rem; }
+h2 { margin-top: 0; color: #740b0b; font: 700 1.4rem Georgia, serif; }
+.query-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(10rem,1fr)); gap: .75rem; }
+label { display: grid; gap: .3rem; color: #5a5148; font-size: .78rem; font-weight: 700; }
+select, input { min-width: 0; border: 1px solid #a99c8d; border-radius: .3rem; padding: .55rem; background: white; font: inherit; color: #292622; }
+.works-field { margin-top: .9rem; }
+.actions { display: flex; gap: 1rem; align-items: center; margin-top: 1rem; }
+button { border: 0; border-radius: .3rem; padding: .7rem 1.2rem; color: white; background: #740b0b; font-weight: 750; cursor: pointer; }
+#occurrences, #paradigm { color: #174f83; font-weight: 700; }
+.search-note { margin: .65rem 0 0; color: #74695f; font-size: .78rem; }
+.query-sentence { font: 700 1.3rem Georgia, serif; }
+.stats { display: grid; grid-template-columns: repeat(3,minmax(8rem,1fr)); gap: .8rem; margin: 1rem 0; }
+.stat { border: 1px solid #dfd6c9; border-radius: .45rem; padding: .8rem; }
+.stat strong { display: block; color: #740b0b; font-size: 1.7rem; }
+.stat span { color: #70665d; font-size: .78rem; }
+.warning { padding: .7rem; color: #754600; background: #fff2d5; border-left: .25rem solid #ce7a00; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .45rem .55rem; border-bottom: 1px solid #e4dcd1; text-align: left; }
+th:nth-child(n+3), td:nth-child(n+3) { text-align: right; }
+tbody tr:hover { background: #faf5ed; }
+.work-id { color: #81766d; font: .75rem ui-monospace, monospace; }
+.method-card { color: #544c45; }
+@media (max-width: 650px) { .stats { grid-template-columns: 1fr; } .actions { align-items: flex-start; flex-direction: column; } }

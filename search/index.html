@@ -115,6 +115,9 @@
   }
   .gloss { color: #555; font-style: italic; font-size: 13px; }
   .feats { font-family: monospace; font-size: 11px; color: #888; }
+  .stemtype-links { display: block; margin-top: 3px; font: 11px Georgia,serif; color: #777; }
+  .stemtype-link { color: var(--maroon); text-decoration: none; border-bottom: 1px dotted var(--maroon); }
+  .stemtype-link:hover { background: #fbeaea; }
   .work-tag { font-size: 11px; color: #666; }
   .read-link { font-size: 12px; }
   #empty-note, #load-note { color: #777; font-size: 13px; padding: 20px 0; }
@@ -319,6 +322,8 @@ const CONFIG = {
   CATALOG_URL: "../site/catalog.json",
   DATA_DIR:    "../site/data",
   READER_URL:  "../index.html",
+  STEMTYPE_INDEX_URL: "../paradigm-forms/lemma-stemtypes.json",
+  STEMTYPE_TOKEN_INDEX_URL: "../paradigm-forms/token-stemtypes/index.json",
   // Cap on how many KWIC rows are rendered to the page at once. Aggregate
   // counts/dashboards always reflect the FULL match set regardless of this.
   RENDER_CAP: 200,
@@ -648,6 +653,10 @@ const FEATURE_DEFS = [
 let SQL = null;
 const SHARDS = new Map(); // workKey -> { dbs: Database[], label, textgroup, work }
 const TOTAL_TOKENS_BY_WORK = new Map(); // workKey -> total token count across all parts (denominator for rates)
+let STEMTYPES_BY_LEMMA = new Map();
+let STEMTYPES_BY_NORMALIZED_LEMMA = new Map();
+let STEMTYPE_TOKEN_INDEX = {};
+const STEMTYPE_TOKEN_LOOKUPS = new Map();
 let LAST_MATCHES = [];    // full match set from the most recent search
 
 function setStatus(msg) { document.getElementById("status-bar").textContent = msg; }
@@ -684,6 +693,10 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
   .then(async engine => {
     SQL = engine;
     setStatus("Loading catalog…");
+    const stemtypeIndexPromise = Promise.all([
+      fetch(`${CONFIG.STEMTYPE_INDEX_URL}?v=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {}),
+      fetch(`${CONFIG.STEMTYPE_TOKEN_INDEX_URL}?v=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.json() : {}),
+    ]).catch(e => { console.warn("Stemtype indexes unavailable:", e); return [{},{}]; });
     const r = await fetch(`${CONFIG.CATALOG_URL}?v=${Date.now()}`, { cache: "no-store" });
     if (!r.ok) throw new Error("catalog.json not found at " + CONFIG.CATALOG_URL);
     const catalog = await r.json();
@@ -789,6 +802,16 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
     updateLoadingStatus();
     const workerCount = Math.min(MAX_CONCURRENT_WORK_LOADS, treebankWorks.length);
     await Promise.all(Array.from({ length: workerCount }, () => worker()));
+
+    const [stemtypeIndex,stemtypeTokenIndex] = await stemtypeIndexPromise;
+    STEMTYPE_TOKEN_INDEX = stemtypeTokenIndex;
+    STEMTYPES_BY_LEMMA = new Map(Object.entries(stemtypeIndex));
+    STEMTYPES_BY_NORMALIZED_LEMMA = new Map();
+    for (const [lemma, stemtypes] of STEMTYPES_BY_LEMMA) {
+      const key = normKey(lemma).replace(/\d+$/, "");
+      const merged = new Set([...(STEMTYPES_BY_NORMALIZED_LEMMA.get(key) || []), ...stemtypes]);
+      STEMTYPES_BY_NORMALIZED_LEMMA.set(key, [...merged].sort());
+    }
 
     setStatus(`Ready — ${loaded} treebank-annotated work${loaded === 1 ? "" : "s"} loaded (${treebankWorks.map(w => w[0]).join(", ")}).`);
     console.table(Array.from(SHARDS.entries()).map(([wk, s]) => ({ workKey: wk, currentLabel: s.label, parts: s.dbs.length })));
@@ -1106,7 +1129,7 @@ document.getElementById("mode").addEventListener("change", e => {
   document.getElementById("whole-word-field").style.display = meta.englishSearch ? "flex" : "none";
 });
 
-function runSearch() {
+async function runSearch() {
   const rawInput = document.getElementById("q").value.trim();
   const terms = rawInput ? parseTermList(rawInput) : [];
   const mode = document.getElementById("mode").value;
@@ -1141,7 +1164,9 @@ function runSearch() {
     ? searchTranslations(terms, shardsToSearch, wholeWord)
     : searchTokens(terms, mode, upos, featClauses, rawFeat, shardsToSearch, wholeWord);
 
+  await ensureStemtypeLookups(matches.map(match => match._workKey));
   LAST_MATCHES = matches;
+  for (const match of matches) match._stemtypes = stemtypesForToken(match);
   const searchedWorkKeys = shardsToSearch.filter(([, shard]) => shard).map(([wk]) => wk);
   renderDashboard(matches, terms, searchedWorkKeys, mode);
   renderResults(matches, terms, mode, wholeWord);
@@ -1281,6 +1306,8 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
 
   const distinctWorks = new Set(matches.map(m => m._workKey)).size;
   const byUpos = countBy(matches, m => m.upos || "—");
+  const byStemtype = {};
+  for (const match of matches) for (const stemtype of (match._stemtypes || [])) byStemtype[stemtype] = (byStemtype[stemtype] || 0) + 1;
   const byTense = countBy(matches.filter(m => m.upos === "VERB" || m.upos === "AUX"), m => featVal(m.feats, "Tense") || "—");
   const byMoodVoice = countBy(matches.filter(m => m.upos === "VERB" || m.upos === "AUX"),
     m => `${featVal(m.feats, "Mood") || "—"} / ${featVal(m.feats, "Voice") || "—"}`);
@@ -1300,6 +1327,7 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
       ${byTerm ? barCard("By search term", byTerm) : ""}
       ${byWorkFreqCard(matches)}
       ${barCard("By part of speech", byUpos)}
+      ${Object.keys(byStemtype).length ? stemtypeCard(byStemtype, matches) : ""}
       ${Object.keys(byTense).length ? barCard("Verb tense", byTense) : ""}
       ${Object.keys(byMoodVoice).length ? barCard("Verb mood / voice", byMoodVoice) : ""}
     </div>
@@ -2056,6 +2084,19 @@ function barCard(title, counts) {
         <div class="bar-count">${n}</div>
       </div>`).join("") + `</div>`;
 }
+function stemtypeCard(counts, matches) {
+  const entries = Object.entries(counts).sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0])).slice(0, 12);
+  const max = Math.max(...entries.map(entry => entry[1]), 1);
+  const works = [...new Set(matches.map(match => match._workKey).filter(Boolean))];
+  return `<div class="dash-card"><h3>By stemtype — browse paradigms</h3>` + entries.map(([stemtype,n]) => {
+    const href = paradigmHref(stemtype, null, works);
+    return `<div class="bar-row">
+      <div class="bar-label" title="Browse ${escapeHtml(stemtype)}"><a class="stemtype-link" href="${href}" target="_blank" rel="noopener">${escapeHtml(stemtype)}</a></div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(n/max*100).toFixed(0)}%"></div></div>
+      <div class="bar-count">${n}</div>
+    </div>`;
+  }).join("") + `<div class="card-note">Counts are token assignments; one token may have more than one compatible Morpheus stemtype.</div></div>`;
+}
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 }
@@ -2195,6 +2236,49 @@ function lemmaLinkHtml(lemma) {
   if (!lemma) return "—";
   return `<a href="#" class="xlink" data-term="${escapeHtml(lemma)}" data-mode="lemma" onclick="return spawnSearchFromEl(this)">${escapeHtml(lemma)}</a>`;
 }
+function stemtypesForLemma(lemma) {
+  if (!lemma) return [];
+  return STEMTYPES_BY_LEMMA.get(lemma) || STEMTYPES_BY_NORMALIZED_LEMMA.get(normKey(lemma).replace(/\d+$/, "")) || [];
+}
+function compactPos(row) {
+  return ({VERB:"v",AUX:"v",NOUN:"n",PROPN:"n",ADJ:"a",PRON:"p",DET:"l",ADV:"d",ADP:"r",NUM:"m",CCONJ:"c",SCONJ:"c",PART:"g",INTJ:"i"})[row.upos] || (row.xpos || "").charAt(0).toLowerCase();
+}
+function compactFeature(row,key,map) { const value=featVal(row.feats,key); return value ? (map[value] || value.toLowerCase()) : ""; }
+function tokenStemtypeKey(row) {
+  let mood=compactFeature(row,"Mood",{Ind:"i",Sub:"s",Opt:"o",Imp:"m"});
+  const verbForm=featVal(row.feats,"VerbForm"); if(verbForm==="Inf")mood="n";else if(verbForm==="Part")mood="p";
+  return [normKey(row.form),normKey(row.lemma),compactPos(row),
+    compactFeature(row,"Tense",{Pres:"p",Imp:"i",Fut:"f",Aor:"a",Perf:"r",Pqp:"l"}),mood,
+    compactFeature(row,"Voice",{Act:"a",Mid:"m",Pass:"p"}),featVal(row.feats,"Person")||"",
+    compactFeature(row,"Number",{Sing:"s",Plur:"p",Dual:"d"}),
+    compactFeature(row,"Gender",{Masc:"m",Fem:"f",Neut:"n",Com:"c"}),
+    compactFeature(row,"Case",{Nom:"n",Gen:"g",Dat:"d",Acc:"a",Voc:"v"})].join("\t");
+}
+async function ensureStemtypeLookups(workKeys) {
+  const unique=[...new Set(workKeys.filter(Boolean))];
+  await Promise.all(unique.map(async work=>{
+    if(STEMTYPE_TOKEN_LOOKUPS.has(work))return;
+    const file=STEMTYPE_TOKEN_INDEX[work]; if(!file){STEMTYPE_TOKEN_LOOKUPS.set(work,{});return;}
+    try{const r=await fetch(`../paradigm-forms/token-stemtypes/${file}`,{cache:"no-store"});STEMTYPE_TOKEN_LOOKUPS.set(work,r.ok?await r.json():{});}catch(e){console.warn(`Stemtype lookup unavailable for ${work}:`,e);STEMTYPE_TOKEN_LOOKUPS.set(work,{});}
+  }));
+}
+function stemtypesForToken(row) {
+  const exact=STEMTYPE_TOKEN_LOOKUPS.get(row._workKey)?.[tokenStemtypeKey(row)];
+  return exact?.length ? exact : stemtypesForLemma(row.lemma);
+}
+function paradigmHref(stemtype, lemma, works) {
+  const params = new URLSearchParams({ stemtype });
+  if (lemma) params.set("lemma", lemma);
+  if (works && works.length) params.set("works", works.join(","));
+  return `../paradigm-viewer.html?${params.toString()}`;
+}
+function stemtypeLinksHtml(lemma, works, stemtypes = null) {
+  const values = stemtypes || stemtypesForLemma(lemma);
+  if (!values.length) return "";
+  return `<span class="stemtype-links">Stemtype: ${values.map(stemtype =>
+    `<a class="stemtype-link" href="${paradigmHref(stemtype, null, works)}" target="_blank" rel="noopener" title="Browse ${escapeHtml(stemtype)} paradigm">${escapeHtml(stemtype)}</a>`
+  ).join(", ")}</span>`;
+}
 function glossLinkHtml(gloss, displayHtml) {
   if (!gloss) return "";
   const inner = displayHtml != null ? displayHtml : escapeHtml(gloss);
@@ -2271,7 +2355,7 @@ function renderResults(matches, terms, mode, wholeWord) {
       literal = sent.literal_translation || "";
       prose = sent.prose_translation || "";
     }
-    ROW_TOKENS[i] = { tokens: toks, hitTokId: row.tok_id };
+    ROW_TOKENS[i] = { tokens: toks, hitTokId: row.tok_id, workKey: row._workKey };
 
     const sentTranslit = getSentenceTranslit(sent, toks);
     const literalHtml = literal ? (mode === "translation" ? highlightSubstring(literal, terms, wholeWord) : escapeHtml(literal)) : "";
@@ -2295,7 +2379,7 @@ function renderResults(matches, terms, mode, wholeWord) {
           ${translationHtml}
           ${toks ? `<button class="tb-toggle" onclick="toggleDetail(${i})">▸ Full treebank</button>` : ""}
         </td>
-        <td>${lemmaLinkHtml(row.lemma)}<br><span class="feats">${escapeHtml(row.upos || "")}${row.feats ? " · " + escapeHtml(row.feats) : ""}</span></td>
+        <td>${lemmaLinkHtml(row.lemma)}<br><span class="feats">${escapeHtml(row.upos || "")}${row.feats ? " · " + escapeHtml(row.feats) : ""}</span>${stemtypeLinksHtml(row.lemma,[row._workKey],row._stemtypes)}</td>
         <td class="gloss">${glossLinkHtml(row.gloss, glossHtml)}</td>
         <td class="read-link"><a href="${buildReaderLink(row)}" target="_blank" rel="noopener">Read in context →</a></td>
       </tr>
@@ -2322,7 +2406,7 @@ function toggleDetail(i) {
     if (btn) btn.textContent = "▸ Full treebank";
     return;
   }
-  const { tokens, hitTokId } = ROW_TOKENS[i] || {};
+  const { tokens, hitTokId, workKey } = ROW_TOKENS[i] || {};
   if (tokens && detailRow.querySelector("td").innerHTML.trim() === "") {
     const anyTranslit = tokens.some(t => getTranslit(t));
     const rows = tokens.map(t => `
@@ -2330,7 +2414,7 @@ function toggleDetail(i) {
         <td>${t.id}</td>
         <td class="g">${escapeHtml(t.form)}</td>
         ${anyTranslit ? `<td class="translit-cell">${escapeHtml(getTranslit(t) || "")}</td>` : ""}
-        <td>${t.lemma ? lemmaLinkHtml(t.lemma) : ""}</td>
+        <td>${t.lemma ? lemmaLinkHtml(t.lemma) + stemtypeLinksHtml(t.lemma,[],stemtypesForToken({...t,_workKey:workKey})) : ""}</td>
         <td>${escapeHtml(t.upos || "")}</td>
         <td class="feats-cell">${escapeHtml(t.feats || "")}</td>
         <td>${escapeHtml(t.deprel || "")}</td>
@@ -2364,10 +2448,10 @@ function buildReaderLink(row) {
 
 function downloadCsv() {
   if (LAST_MATCHES.length === 0) return;
-  const cols = ["_matchedTerm","_workLabel","chapter","section","form","lemma","upos","feats","gloss","ref","version_short_id"];
+  const cols = ["_matchedTerm","_workLabel","chapter","section","form","lemma","stemtypes","upos","feats","gloss","ref","version_short_id"];
   const lines = [cols.join(",")];
   for (const row of LAST_MATCHES) {
-    lines.push(cols.map(c => csvCell(row[c])).join(","));
+    lines.push(cols.map(c => csvCell(c === "stemtypes" ? (row._stemtypes || []).join("|") : row[c])).join(","));
   }
   const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
   const url = URL.createObjectURL(blob);

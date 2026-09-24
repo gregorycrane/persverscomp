@@ -1,0 +1,1 @@
+{"schema_version":1,"paradigm":"t|i|","columns":["work","title","form","lemma","pos","Tense","Mood","Voice","Person","Number","Gender","Case","count","stemtype"],"gloss_source":"Logeion Short Definitions (Greek), Helma Dik","glosses":{"βιβρώσκω":["to eat, eat up"]},"rows":[["tlg0012.tlg002","Odyssey","βεβρώσεται","βιβρώσκω","v","t","i","","3","s","","",1,"fut_perf"]]}

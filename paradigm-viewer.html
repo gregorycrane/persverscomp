@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Corpus Paradigm Viewer · Perseus Multitext Viewer</title>
+  <link rel="stylesheet" href="paradigm-viewer.css">
+</head><body>
+  <header class="masthead"><a href="./">← PMV</a><div><span>PERSEUS MULTITEXT VIEWER</span><h1>Corpus paradigm viewer</h1></div></header>
+  <main>
+    <section class="controls">
+      <h2>Attested morphology</h2>
+      <div class="control-grid">
+        <label>Layout<select id="layout"><option value="stemtype">One stemtype</option><option value="compare">Compare all stemtypes</option></select></label>
+        <label id="family-field">Paradigm family<select id="family"><option value="verb">Verbs</option><option value="noun">Nouns</option><option value="adjective">Adjectives</option></select></label>
+        <label>Stemtype<select id="stemtype"></select></label>
+        <label>View<select id="scope"><option value="class">Stemtype overview</option><option value="lemma">Single lemma</option></select></label>
+        <label id="lemma-field">Lemma<input id="lemma" list="lemma-options" placeholder="e.g. φέρω"><datalist id="lemma-options"></datalist></label>
+        <label>Tense<select id="tense"></select></label>
+        <label>Mood<select id="mood"></select></label>
+        <label>Voice<select id="voice"></select></label>
+        <label>Forms per cell<select id="limit"><option value="1">Top 1</option><option value="3" selected>Top 3</option><option value="5">Top 5</option><option value="0">All</option></select></label>
+      </div>
+      <label class="works">PMV work keys<input id="works" placeholder="All works, or e.g. tlg0012.tlg001"></label>
+      <button id="show" type="button">Show paradigm</button>
+    </section>
+    <section id="summary" class="summary" aria-live="polite">Loading stemtype index…</section>
+    <section class="grid-wrap"><table id="grid"></table></section>
+    <section class="method"><h2>Reading the grid</h2><p>Rows are grammatical slots. In the one-stemtype layout, columns are tense–mood–voice combinations. In the comparison layout, choose one exact tense, mood, and voice; columns then show every attested stemtype for that paradigm. Each cell ranks attested surface forms, initially showing only the most frequent. Click a lemma to switch to its own forms while preserving the corpus and morphology filters. Counts combine OGA morphology with Morpheus analyses that agree on lemma and part of speech. Short definitions are from <cite>Logeion Short Definitions (Greek)</cite> by Helma Dik.</p></section>
+  </main>
+  <script src="paradigm-viewer.js"></script>
+</body></html>
