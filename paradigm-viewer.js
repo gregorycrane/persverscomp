@@ -10,6 +10,9 @@
     number:{s:"SG",p:"PL",d:"DU"}, gender:{m:"M",f:"F",n:"N",c:"C"}, case:{n:"NOM",g:"GEN",d:"DAT",a:"ACC",v:"VOC"}
   };
   const ORDER = ["INF","1SG","2SG","3SG","1DU","2DU","3DU","1PL","2PL","3PL","PART"];
+  const DAPHNE_AUTHORS = new Map([
+    ["tlg0012", "Homer"], ["tlg0085", "Aeschylus"], ["tlg0011", "Sophocles"]
+  ]);
   let INDEX, PARADIGM_INDEX, DATA;
   let COLUMN_STEMTYPES = [], INITIAL_STEMTYPES = [], AVAILABLE_STEMTYPES = [], LOADED_PARADIGM = '';
   const EXPANDED = new Set();
@@ -42,6 +45,15 @@
   function columnLabel(key,q) { if(q.layout==='compare')return key;if(q.family!=='verb')return familyLabel(q.family);const [t,m,v]=key.split('|'); return [LABELS.tense[t]||t,LABELS.mood[m]||m,LABELS.voice[v]||v].filter(Boolean).join(' '); }
   function paradigmLabel(q) { if(q.family==='noun')return 'Noun declension';if(q.family==='adjective')return 'Adjective declension';return [LABELS.tense[q.tense]||q.tense,LABELS.mood[q.mood]||q.mood,LABELS.voice[q.voice]||q.voice].filter(Boolean).join(' '); }
   function familyLabel(family) { return ({verb:'Verb paradigm',noun:'Noun declension',adjective:'Adjective declension',other:'Other morphology'})[family]||'Morphology'; }
+  function listNames(values) { if(values.length<2)return values[0]||'';if(values.length===2)return values.join(' and ');return `${values.slice(0,-1).join(', ')}, and ${values[values.length-1]}`; }
+  function updateCredits(rows, requestedWorks) {
+    const workIds=requestedWorks.length?requestedWorks:rows.map(row=>row[0]);
+    const authors=[...new Set(workIds.map(work=>DAPHNE_AUTHORS.get(work.split('.')[0])).filter(Boolean))];
+    const target=$("treebank-credit");
+    if(!authors.length){target.textContent='';target.hidden=true;return;}
+    target.hidden=false;
+    target.innerHTML=`${authors.length===1?'Treebank':'Treebanks'} for ${esc(listNames(authors))}: <a href="https://github.com/francescomambrini/Daphne" target="_blank" rel="noopener">Daphne</a>.`;
+  }
   function rowFamily(r) { return r[4]==='v'?'verb':r[4]==='n'?'noun':r[4]==='a'?'adjective':'other'; }
   function recognizeFamily(rows) { const totals={verb:0,noun:0,adjective:0,other:0};for(const r of rows)totals[rowFamily(r)]+=r[12];return Object.entries(totals).sort((a,b)=>b[1]-a[1])[0][0]; }
   function stemtypeFamily(stemtype) { return INDEX.stemtypes.find(x=>x.stemtype===stemtype)?.family; }
@@ -65,6 +77,7 @@
     const lemmaCounts=populateLemmas(classRows);
     const selectedRows=q.layout==='compare'?classRows.filter(r=>COLUMN_STEMTYPES.includes(r[13])):classRows;
     const rows=q.lemma?selectedRows.filter(r=>r[3]===q.lemma):selectedRows;
+    updateCredits(rows,q.works);
     const columnTotals=new Map(); for(const r of rows){const key=column(r,q);columnTotals.set(key,(columnTotals.get(key)||0)+r[12]);}
     const columns=q.layout==='compare'?[...COLUMN_STEMTYPES]:[...columnTotals.keys()].sort((a,b)=>columnLabel(a,q).localeCompare(columnLabel(b,q)));
     const cells=new Map();

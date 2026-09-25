@@ -3,7 +3,7 @@
 .masthead { display:flex; gap:1.5rem; align-items:center; padding:1.2rem max(1rem,calc((100vw - 1450px)/2)); background:#740b0b; color:white; }
 .masthead a { color:white; }.masthead span { font-size:.7rem; opacity:.75; letter-spacing:.1em; }.masthead h1 { margin:.1rem 0 0; font:700 2rem Georgia,serif; }
 main { max-width:1450px; margin:1.5rem auto; padding:0 1rem 3rem; }
-.controls,.summary,.grid-wrap,.method { background:white; border:1px solid #d7cbbd; border-radius:.55rem; padding:1.2rem; margin-bottom:1rem; }
+.controls,.summary,.credits,.grid-wrap,.method { background:white; border:1px solid #d7cbbd; border-radius:.55rem; padding:1.2rem; margin-bottom:1rem; }
 h2 { margin-top:0; color:#740b0b; font:700 1.3rem Georgia,serif; }
 .control-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(9rem,1fr)); gap:.7rem; }
 label { display:grid; gap:.25rem; font-size:.75rem; font-weight:750; color:#5d554d; }
@@ -16,6 +16,8 @@ label.inactive { opacity:.45; }
 #family-field.recognized { opacity:1; } #family-field.recognized select { color:#740b0b; font-weight:750; background:#fbf7ef; }
 button { padding:.6rem 1rem; border:0; border-radius:.25rem; background:#740b0b; color:white; font-weight:750; cursor:pointer; }
 .summary strong { color:#740b0b; font-size:1.4rem; }.summary span { color:#70665e; }.summary .scope-link { display:inline-block; margin-left:1rem; color:#174f83; font-weight:750; font-size:.82rem; }
+.credits { display:flex; flex-wrap:wrap; gap:.35rem 1.2rem; padding:.7rem 1.2rem; color:#625951; font-size:.78rem; }
+.credits strong { color:#740b0b; }.credits a { color:#174f83; font-weight:700; }
 .grid-wrap { overflow-x:auto; padding:0; }.grid-wrap table { min-width:100%; border-collapse:collapse; }
 th,td { border:1px solid #d5d0c9; padding:.6rem; vertical-align:top; } thead th { position:sticky; top:0; z-index:2; background:#ececec; font:750 .85rem Georgia,serif; text-transform:uppercase; }
 thead th small { display:block; margin-top:.2rem; color:#70675f; font:600 .68rem Inter,ui-sans-serif,sans-serif; }
