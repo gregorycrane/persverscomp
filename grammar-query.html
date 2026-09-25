@@ -25,8 +25,9 @@
         <label>Gender<select id="Gender"></select></label>
         <label>Case<select id="Case"></select></label>
       </div>
-      <label class="works-field">PMV work keys
-        <input id="works" placeholder="All 57 works, or e.g. tlg0059.tlg003; comma-separated">
+      <label class="works-field">PMV works
+        <input id="works" placeholder="All works, or e.g. Ar. Ach., Ar. Nub.; comma-separated">
+        <span class="work-help">Aristophanes: Ach., Eq., Nub., Vesp., Pax, Av., Lys., Thesm., Ran., Eccl., Plut.</span>
       </label>
       <div class="actions">
         <button id="run" type="button">Count tokens</button>
@@ -46,6 +47,6 @@
       <p>OGA supplies the token and morphological features. Morpheus supplies the stemtype. A token enters a stemtype count only when an analysis agrees with OGA on both lemma and part of speech. These counts describe annotations and should be checked against curated controls as coverage expands.</p>
     </section>
   </main>
-  <script src="grammar-query.js"></script>
+  <script src="grammar-query.js?v=20260924"></script>
 </body>
 </html>

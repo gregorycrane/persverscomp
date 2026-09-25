@@ -12,6 +12,8 @@ h2 { margin-top: 0; color: #740b0b; font: 700 1.4rem Georgia, serif; }
 label { display: grid; gap: .3rem; color: #5a5148; font-size: .78rem; font-weight: 700; }
 select, input { min-width: 0; border: 1px solid #a99c8d; border-radius: .3rem; padding: .55rem; background: white; font: inherit; color: #292622; }
 .works-field { margin-top: .9rem; }
+.work-help { display:block; margin-top:.25rem; color:#756b62; font-size:.82rem; font-weight:400; }
+.work-abbr { color:#756b62; white-space:nowrap; }
 .actions { display: flex; gap: 1rem; align-items: center; margin-top: 1rem; }
 button { border: 0; border-radius: .3rem; padding: .7rem 1.2rem; color: white; background: #740b0b; font-weight: 750; cursor: pointer; }
 #occurrences, #paradigm { color: #174f83; font-weight: 700; }

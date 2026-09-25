@@ -15,13 +15,33 @@
   const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const fmt = value => Number(value || 0).toLocaleString();
   let DATA;
+  const WORK_ALIASES = new Map([
+    ['ach','tlg0019.tlg001'],['arach','tlg0019.tlg001'],['acharnians','tlg0019.tlg001'],
+    ['eq','tlg0019.tlg002'],['areq','tlg0019.tlg002'],['equ','tlg0019.tlg002'],['knights','tlg0019.tlg002'],
+    ['nub','tlg0019.tlg003'],['arnub','tlg0019.tlg003'],['clouds','tlg0019.tlg003'],
+    ['vesp','tlg0019.tlg004'],['arvesp','tlg0019.tlg004'],['wasps','tlg0019.tlg004'],
+    ['pax','tlg0019.tlg005'],['arpax','tlg0019.tlg005'],['peace','tlg0019.tlg005'],
+    ['av','tlg0019.tlg006'],['arav','tlg0019.tlg006'],['birds','tlg0019.tlg006'],
+    ['lys','tlg0019.tlg007'],['arlys','tlg0019.tlg007'],['lysistrata','tlg0019.tlg007'],
+    ['thesm','tlg0019.tlg008'],['arthesm','tlg0019.tlg008'],['thesmophoriazusae','tlg0019.tlg008'],
+    ['ran','tlg0019.tlg009'],['arran','tlg0019.tlg009'],['frogs','tlg0019.tlg009'],
+    ['eccl','tlg0019.tlg010'],['areccl','tlg0019.tlg010'],['ecclesiazusae','tlg0019.tlg010'],
+    ['plut','tlg0019.tlg011'],['arplut','tlg0019.tlg011'],['wealth','tlg0019.tlg011']
+  ]);
+  function resolveWork(value) { const original=String(value||'').trim();return WORK_ALIASES.get(original.toLowerCase().replace(/[^a-z0-9]+/g,''))||original; }
+  const ARISTOPHANES_ABBREVIATIONS = {
+    'tlg0019.tlg001':'Ar. Ach.','tlg0019.tlg002':'Ar. Eq.','tlg0019.tlg003':'Ar. Nub.',
+    'tlg0019.tlg004':'Ar. Vesp.','tlg0019.tlg005':'Ar. Pax','tlg0019.tlg006':'Ar. Av.',
+    'tlg0019.tlg007':'Ar. Lys.','tlg0019.tlg008':'Ar. Thesm.','tlg0019.tlg009':'Ar. Ran.',
+    'tlg0019.tlg010':'Ar. Eccl.','tlg0019.tlg011':'Ar. Plut.'
+  };
 
   function option(value, label) { return `<option value="${esc(value)}">${esc(label)}</option>`; }
   function populate(id, values, labels) {
     $(id).innerHTML = option("", "Any") + values.map(value => option(value, labels?.[value] || value)).join("");
   }
   function selectedWorks() {
-    return new Set($("works").value.split(",").map(v => v.trim()).filter(Boolean));
+    return new Set($("works").value.split(",").map(resolveWork).filter(Boolean));
   }
   function description(filters) {
     const words = [];
@@ -78,7 +98,7 @@
       <div class="stat"><strong>${fmt(rows.length)}</strong><span>works with matches</span></div>
       <div class="stat"><strong>${rate.toFixed(2)}</strong><span>per 10,000 joined tokens</span></div></div>
       <table><thead><tr><th>Work</th><th>CTS work key</th><th>Count</th><th>Per 10k</th></tr></thead><tbody>
-      ${rows.map(row => `<tr><td>${esc(row.title)}</td><td class="work-id">${esc(row.id)}</td><td>${fmt(row.count)}</td><td>${(row.count/row.tokens*10000).toFixed(2)}</td></tr>`).join("")}
+      ${rows.map(row => `<tr><td>${esc(row.title)}${ARISTOPHANES_ABBREVIATIONS[row.id]?` <span class="work-abbr">(${esc(ARISTOPHANES_ABBREVIATIONS[row.id])})</span>`:''}</td><td class="work-id">${esc(row.id)}</td><td>${fmt(row.count)}</td><td>${(row.count/row.tokens*10000).toFixed(2)}</td></tr>`).join("")}
       </tbody></table>`;
     $("occurrences").href = searchLink(filters,works);
     const paradigm = new URLSearchParams();

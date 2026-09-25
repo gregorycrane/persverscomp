@@ -9,22 +9,23 @@
     <section class="controls">
       <h2>Attested morphology</h2>
       <div class="control-grid">
-        <label>Layout<select id="layout"><option value="stemtype">One stemtype</option><option value="compare">Compare all stemtypes</option></select></label>
-        <label id="family-field">Paradigm family<select id="family"><option value="verb">Verbs</option><option value="noun">Nouns</option><option value="adjective">Adjectives</option></select></label>
-        <label>Stemtype<select id="stemtype"></select></label>
-        <label>View<select id="scope"><option value="class">Stemtype overview</option><option value="lemma">Single lemma</option></select></label>
+        <label>View<select id="layout"><option value="compare">Compare a paradigm</option><option value="stemtype">One stemtype</option></select></label>
+        <label id="family-field">Paradigm family<select id="family"><option value="verb">Verbs</option><option value="noun">Nouns</option><option value="adjective">Adjectives</option><option value="other">Other morphology</option></select></label>
+        <label id="stemtype-field">Stemtype<select id="stemtype"></select></label>
+        <label>Scope<select id="scope"><option value="class">All lemmas</option><option value="lemma">Single lemma</option></select></label>
         <label id="lemma-field">Lemma<input id="lemma" list="lemma-options" placeholder="e.g. φέρω"><datalist id="lemma-options"></datalist></label>
         <label>Tense<select id="tense"></select></label>
         <label>Mood<select id="mood"></select></label>
         <label>Voice<select id="voice"></select></label>
         <label>Forms per cell<select id="limit"><option value="1">Top 1</option><option value="3" selected>Top 3</option><option value="5">Top 5</option><option value="0">All</option></select></label>
       </div>
-      <label class="works">PMV work keys<input id="works" placeholder="All works, or e.g. tlg0012.tlg001"></label>
+      <div id="column-bar" class="column-bar"><span>Each table column has its own stemtype selector. The three most frequent compatible types are shown first.</span><button id="add-column" type="button">+ Add stemtype column</button><strong id="column-count"></strong></div>
+      <label class="works">PMV works <span class="control-hint">CTS keys or abbreviations; comma-separated</span><input id="works" placeholder="All works, or e.g. Ar. Ach., Ar. Nub."><span class="control-hint">Aristophanes: Ach., Eq., Nub., Vesp., Pax, Av., Lys., Thesm., Ran., Eccl., Plut.</span></label>
       <button id="show" type="button">Show paradigm</button>
     </section>
     <section id="summary" class="summary" aria-live="polite">Loading stemtype index…</section>
     <section class="grid-wrap"><table id="grid"></table></section>
-    <section class="method"><h2>Reading the grid</h2><p>Rows are grammatical slots. In the one-stemtype layout, columns are tense–mood–voice combinations. In the comparison layout, choose one exact tense, mood, and voice; columns then show every attested stemtype for that paradigm. Each cell ranks attested surface forms, initially showing only the most frequent. Click a lemma to switch to its own forms while preserving the corpus and morphology filters. Counts combine OGA morphology with Morpheus analyses that agree on lemma and part of speech. Short definitions are from <cite>Logeion Short Definitions (Greek)</cite> by Helma Dik.</p></section>
+    <section class="method"><h2>Reading the grid</h2><p>Choose a paradigm first. The viewer opens the three most frequent compatible stemtypes as parallel columns. As in the main PMV reader, every column has its own selector, so it can be changed independently; add or remove columns as needed, up to six. Verbs use tense–mood–voice paradigms; nouns and adjectives use declensional slots. Participles remain verbal stemtypes but use number–case–gender rows. Each cell ranks attested surface forms, initially showing only the most frequent. Counts combine OGA morphology with Morpheus analyses that agree on lemma and part of speech. Short definitions are from <cite>Logeion Short Definitions (Greek)</cite> by Helma Dik.</p></section>
   </main>
-  <script src="paradigm-viewer.js"></script>
+  <script src="paradigm-viewer.js?v=20260925"></script>
 </body></html>

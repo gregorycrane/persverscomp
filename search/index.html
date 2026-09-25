@@ -384,6 +384,19 @@ const CONFIG = {
 
     "tlg0012.tlg001": "Homer, Iliad",
     "tlg0012.tlg002": "Homer, Odyssey",
+
+    "tlg0019.tlg001": "Aristophanes, Acharnians (Ar. Ach.)",
+    "tlg0019.tlg002": "Aristophanes, Knights (Ar. Eq.)",
+    "tlg0019.tlg003": "Aristophanes, Clouds (Ar. Nub.)",
+    "tlg0019.tlg004": "Aristophanes, Wasps (Ar. Vesp.)",
+    "tlg0019.tlg005": "Aristophanes, Peace (Ar. Pax)",
+    "tlg0019.tlg006": "Aristophanes, Birds (Ar. Av.)",
+    "tlg0019.tlg007": "Aristophanes, Lysistrata (Ar. Lys.)",
+    "tlg0019.tlg008": "Aristophanes, Thesmophoriazusae (Ar. Thesm.)",
+    "tlg0019.tlg009": "Aristophanes, Frogs (Ar. Ran.)",
+    "tlg0019.tlg010": "Aristophanes, Ecclesiazusae (Ar. Eccl.)",
+    "tlg0019.tlg011": "Aristophanes, Wealth (Ar. Plut.)",
+
     "tlg0020.tlg001": "Hesiod, Theogony",
     "tlg0020.tlg002": "Hesiod, Works and Days",
     "tlg0020.tlg003": "Hesiod, Shield of Heracles",
@@ -398,6 +411,8 @@ const CONFIG = {
     "tlg0086.tlg034": "Aristotle, Poetics",
 
     "tlg2045.tlg001": "Nonnus, Dionysiaca",
+
+    "tlg0527.tlg032": "Job (Duport, 1676)",
 
     // Not in the notebook's tables (added since, or handled outside the
     // grouped picker) — standard English title, adjust if you'd prefer
@@ -422,6 +437,7 @@ const CONFIG = {
     "tlg0006": "Euripides",
     "tlg0011": "Sophocles",
     "tlg0012": "Homer",
+    "tlg0019": "Aristophanes",
     "tlg0020": "Hesiod",
     "tlg0085": "Aeschylus",
     "tlg0086": "Aristotle",
@@ -441,6 +457,24 @@ const CONFIG = {
     "Epic": ["tlg0012", "tlg0020"],
   },
 };
+
+const ARISTOPHANES_WORK_ALIASES = new Map([
+  ["ach", "tlg0019.tlg001"], ["arach", "tlg0019.tlg001"], ["acharnians", "tlg0019.tlg001"],
+  ["eq", "tlg0019.tlg002"], ["areq", "tlg0019.tlg002"], ["equ", "tlg0019.tlg002"], ["knights", "tlg0019.tlg002"],
+  ["nub", "tlg0019.tlg003"], ["arnub", "tlg0019.tlg003"], ["clouds", "tlg0019.tlg003"],
+  ["vesp", "tlg0019.tlg004"], ["arvesp", "tlg0019.tlg004"], ["wasps", "tlg0019.tlg004"],
+  ["pax", "tlg0019.tlg005"], ["arpax", "tlg0019.tlg005"], ["peace", "tlg0019.tlg005"],
+  ["av", "tlg0019.tlg006"], ["arav", "tlg0019.tlg006"], ["birds", "tlg0019.tlg006"],
+  ["lys", "tlg0019.tlg007"], ["arlys", "tlg0019.tlg007"], ["lysistrata", "tlg0019.tlg007"],
+  ["thesm", "tlg0019.tlg008"], ["arthesm", "tlg0019.tlg008"], ["thesmophoriazusae", "tlg0019.tlg008"],
+  ["ran", "tlg0019.tlg009"], ["arran", "tlg0019.tlg009"], ["frogs", "tlg0019.tlg009"],
+  ["eccl", "tlg0019.tlg010"], ["areccl", "tlg0019.tlg010"], ["ecclesiazusae", "tlg0019.tlg010"],
+  ["plut", "tlg0019.tlg011"], ["arplut", "tlg0019.tlg011"], ["wealth", "tlg0019.tlg011"]
+]);
+function resolveWorkAlias(value) {
+  const original = String(value || "").trim();
+  return ARISTOPHANES_WORK_ALIASES.get(original.toLowerCase().replace(/[^a-z0-9]+/g, "")) || original;
+}
 
 // ── Greek transliteration engine (client-side, no precomputation; ported
 // verbatim from the main reader's app.js so the two stay in sync). Converts
@@ -1054,10 +1088,10 @@ function applyStateFromURL() {
   // one-work selection. Neither present -> leave the default (everything
   // selected, set when the tree was built).
   if (params.has("works")) {
-    const keys = params.get("works").split(",").map(s => s.trim()).filter(Boolean);
+    const keys = params.get("works").split(",").map(resolveWorkAlias).filter(Boolean);
     setSelectedWorkKeys(new Set(keys));
   } else if (params.has("work")) {
-    const work = params.get("work");
+    const work = resolveWorkAlias(params.get("work"));
     if (work) setSelectedWorkKeys(new Set([work]));
   }
 
