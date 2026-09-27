@@ -162,6 +162,17 @@
         .toggle-btn { background: #440000; color: #ffccaa; border: 1px solid #993333; font-size: 11px; padding: 3px 10px; border-radius: 3px; cursor: pointer; font-weight: bold; }
         .toggle-btn.active-mode { background: #fff; color: #660000; border-color: #fff; }
 
+        /* Keep a small restore control visible when the reading navigation is
+           collapsed; hiding the entire header would otherwise strand the
+           reader with no way to turn it back on. */
+        #header-container.navigation-collapsed #nav-bar,
+        #header-container.navigation-collapsed #browse-bar,
+        #header-container.navigation-collapsed .fc-browse-nav,
+        #header-container.navigation-collapsed .banner-logo-title-group,
+        #header-container.navigation-collapsed .mode-toggle-panel > :not(#top-nav-toggle) { display: none !important; }
+        #header-container.navigation-collapsed #perseus-banner { justify-content: flex-end; padding: 2px 8px; }
+        #top-nav-toggle { white-space: nowrap; }
+
         #nav-bar { background: #ddddcc; border-bottom: 1px solid #999988; padding: 4px 15px; font-size: 11px; font-weight: bold; }
         #browse-bar { background: #eeeeee; border-bottom: 1px solid #cccccc; padding: 6px 15px; font-size: 11px; display: flex; flex-wrap: wrap; gap: 5px; }
         .browse-row { display: flex; align-items: flex-start; width: 100%; }
@@ -894,6 +905,7 @@ a.tei-page-break:focus-visible {
         .viewport-footer-controls { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 20px; padding-top: 10px; border-top: 1px solid #ddd; width: 100%; clear: both; }
         .poetry-grid-layout .viewport-footer-controls { grid-column: 1 / span 2; display: flex !important; }
         .footer-group-left { display: flex; gap: 6px; }
+        .viewport-location-label { flex: 1; color: #555; font-size: 11px; font-weight: bold; text-align: center; white-space: nowrap; }
         .action-btn { display: inline-block; background: #660000; color: #fff !important; padding: 4px 10px; font-size: 11px; font-weight: bold; border-radius: 2px; border: none; cursor: pointer; text-align: center; }
         .action-btn.secondary { background: #666; }
         .action-btn:hover { background: #330000; text-decoration: none; }
@@ -1233,6 +1245,8 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
             <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
             <button class="toggle-btn" onclick="openMapForCurrentPassage()">Map this passage</button>
             <button class="toggle-btn" onclick="openMapForCurrentBook()">Map this book</button>
+            <button id="top-nav-toggle" class="toggle-btn" type="button"
+                    aria-expanded="true" onclick="toggleTopNavigation()">Hide navigation</button>
         </div>
       </div>
       <div id="nav-bar">
@@ -2620,6 +2634,31 @@ let activeWorkKey = "tlg0003.tlg001";
     let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "", c5: "", c6: "" };
     let columnCommentaryLanguage = { f: "translation", c1: "translation", c2: "translation", c3: "translation", c4: "translation", c5: "translation", c6: "translation" };
 
+    const TOP_NAV_COLLAPSED_KEY = "pmv.topNavigationCollapsed";
+
+    function applyTopNavigationState(collapsed) {
+        const header = document.getElementById("header-container");
+        const button = document.getElementById("top-nav-toggle");
+        if (!header || !button) return;
+        header.classList.toggle("navigation-collapsed", collapsed);
+        button.setAttribute("aria-expanded", collapsed ? "false" : "true");
+        button.innerText = collapsed ? "Show navigation" : "Hide navigation";
+        button.title = collapsed ? "Restore the top navigation" : "Collapse the top navigation";
+    }
+
+    window.toggleTopNavigation = function() {
+        const header = document.getElementById("header-container");
+        const collapsed = !(header && header.classList.contains("navigation-collapsed"));
+        applyTopNavigationState(collapsed);
+        try { localStorage.setItem(TOP_NAV_COLLAPSED_KEY, collapsed ? "1" : "0"); } catch (_) {}
+    };
+
+    try {
+        applyTopNavigationState(localStorage.getItem(TOP_NAV_COLLAPSED_KEY) === "1");
+    } catch (_) {
+        applyTopNavigationState(false);
+    }
+
     // Minimal default styling for TOC buttons the current Focus edition has
     // no real content at (see getChaptersWithContent / renderNavigationControls).
     // If a real stylesheet already defines .chapter-unavailable-focus, that
@@ -3126,10 +3165,70 @@ let activeWorkKey = "tlg0003.tlg001";
         });
     }
 
+    function citationFromUrn(urn) {
+        if (!urn) return "";
+        const parts = String(urn).split(":");
+        return parts[parts.length - 1];
+    }
+
+    function activeSectionNavigationFor(payload) {
+        if (activeSectionFilter === null || activeSectionRange || !payload.sectionNavigation) return null;
+        return payload.sectionNavigation[String(activeSectionFilter)] || null;
+    }
+
+    function currentPassageUrnFor(payload) {
+        const sectionNav = activeSectionNavigationFor(payload);
+        if (sectionNav && sectionNav.current) return sectionNav.current;
+        if (activeSectionRange) {
+            const suffix = activeSectionRange.start === activeSectionRange.end
+                ? activeSectionRange.start
+                : `${activeSectionRange.start}-${activeSectionRange.end}`;
+            return `${payload.urn}.${suffix}`;
+        }
+        return payload.urn;
+    }
+
+    function currentLocationLabelFor(payload) {
+        const labels = getUnitLabels(activeWorkKey);
+        const sectionNav = activeSectionNavigationFor(payload);
+        if (sectionNav && sectionNav.current) {
+            const refs = citationFromUrn(sectionNav.current).split(".");
+            const section = refs.pop();
+            if (payload.book != null && refs.length > 1) {
+                const book = refs.shift();
+                return `${labels.book} ${book} · ${labels.chapter} ${refs.join(".")} · ${labels.section} ${section}`;
+            }
+            return `${labels.chapter} ${refs.join(".")} · ${labels.section} ${section}`;
+        }
+        if (activeSectionRange) {
+            const sectionText = activeSectionRange.start === activeSectionRange.end
+                ? `${labels.section} ${activeSectionRange.start}`
+                : `${labels.section}s ${activeSectionRange.start}–${activeSectionRange.end}`;
+            return payload.book != null
+                ? `${labels.book} ${payload.book} · ${labels.chapter} ${payload.chapter} · ${sectionText}`
+                : `${labels.chapter} ${payload.chapter} · ${sectionText}`;
+        }
+        return payload.book != null
+            ? `${labels.book} ${payload.book} · ${labels.chapter} ${payload.chapter}`
+            : `${labels.chapter} ${payload.chapter}`;
+    }
+
     function getChapterDataPayload(workKey, book, chapter) {
         if (!window.dbInstance) { console.warn("getChapterDataPayload: no DB loaded"); return null; }
         const parts = workKey.split(".");
-        let queryStr = `SELECT passage_urn, section, prev_urn, next_urn FROM alignment_grid WHERE textgroup='${parts[0]}' AND work='${parts[1]}' AND chapter='${chapter}'`;
+        // prev_urn/next_urn in some corpora link the same section number in
+        // adjacent chapters (4.3 -> 5.3), so they are not section-reading
+        // navigation. Compute true neighbouring rows from sort_order across
+        // the whole work, then narrow the outer query to this chapter.
+        let queryStr = `WITH ordered AS (
+            SELECT passage_urn, section, prev_urn, next_urn, book, chapter, sort_order,
+                   LAG(passage_urn) OVER (ORDER BY sort_order, passage_urn) AS reading_prev_urn,
+                   LEAD(passage_urn) OVER (ORDER BY sort_order, passage_urn) AS reading_next_urn
+            FROM alignment_grid
+            WHERE textgroup='${parts[0]}' AND work='${parts[1]}'
+        )
+        SELECT passage_urn, section, prev_urn, next_urn, reading_prev_urn, reading_next_urn
+        FROM ordered WHERE chapter='${chapter}'`;
         if (book) queryStr += ` AND book='${book}'`;
         queryStr += " ORDER BY sort_order";
         
@@ -3138,14 +3237,20 @@ let activeWorkKey = "tlg0003.tlg001";
         
         const baseRows = gridResult[0].values;
         const sectionsPayload = {};
+        const sectionNavigation = {};
         let masterUrn = "";
         let navigation = { prev: null, next: null };
         
-        baseRows.forEach(([pUrn, sec, prevUrn, nextUrn]) => {
+        baseRows.forEach(([pUrn, sec, prevUrn, nextUrn, readingPrevUrn, readingNextUrn]) => {
             if(!masterUrn) masterUrn = pUrn.substring(0, pUrn.lastIndexOf('.'));
             navigation.prev = prevUrn;
             navigation.next = nextUrn;
             sectionsPayload[sec] = {};
+            sectionNavigation[String(sec)] = {
+                current: pUrn,
+                prev: readingPrevUrn || null,
+                next: readingNextUrn || null
+            };
             
             const contentQuery = window.dbInstance.exec(`SELECT version_short_id, content_html FROM text_segments WHERE passage_urn='${pUrn}'`);
             if (contentQuery.length > 0) {
@@ -3157,7 +3262,7 @@ let activeWorkKey = "tlg0003.tlg001";
         
         return {
             urn: masterUrn, textgroup: parts[0], work: parts[1], book: book, chapter: chapter,
-            sections: sectionsPayload, navigation: navigation
+            sections: sectionsPayload, navigation: navigation, sectionNavigation: sectionNavigation
         };
     }
 
@@ -3435,13 +3540,22 @@ function resolvePassageSpec(workKey, spec) {
     if (isFlatStructure(workKey)) {
         const startLine = startSegs[startSegs.length - 1];
         const endLine = endSegs[endSegs.length - 1];
+        const flatChapters = GLOBAL_STRUCTURES[workKey] || [];
 
         // Prefer a named card before containment: IA has overlapping 0-79 and 1-48.
-        if (isRange && (GLOBAL_STRUCTURES[workKey] || []).includes(spec)) {
+        if (flatChapters.includes(spec)) {
             return { book: null, chapter: spec, sectionRange: null };
         }
 
-        if (!isRange && (GLOBAL_STRUCTURES[workKey] || []).includes(startLine)) {
+        // A two-level citation in a flat prose work is chapter.section, not
+        // a request for the chapter named by its final component. Without
+        // this check, reloading Galba 4.3 incorrectly opened chapter 3.
+        if (!isRange && startSegs.length === 2 && flatChapters.includes(startSegs[0])) {
+            return { book: null, chapter: startSegs[0],
+                     sectionRange: { start: startSegs[1], end: startSegs[1] } };
+        }
+
+        if (!isRange && flatChapters.includes(startLine)) {
             return { book: null, chapter: startLine, sectionRange: null };
         }
 
@@ -3573,12 +3687,22 @@ function initializeRoutingFromURL() {
             const spec = ctsUrn.endRef && ctsUrn.endRef !== ctsUrn.startRef
                 ? `${ctsUrn.startRef}-${ctsUrn.endRef}` : (ctsUrn.startRef || "1");
             const resolved = resolvePassageSpec(activeWorkKey, spec);
-            b = resolved.book; ch = resolved.chapter; activeSectionRange = resolved.sectionRange;
+            b = resolved.book; ch = resolved.chapter;
+            if (resolved.sectionRange && resolved.sectionRange.start === resolved.sectionRange.end) {
+                activeSectionFilter = resolved.sectionRange.start;
+            } else {
+                activeSectionRange = resolved.sectionRange;
+            }
         } else if (rawParam.includes(":")) {
             const querySegments = rawParam.split(":");
             activeWorkKey = querySegments[0];
             const resolved = resolvePassageSpec(activeWorkKey, querySegments[1]);
-            b = resolved.book; ch = resolved.chapter; activeSectionRange = resolved.sectionRange;
+            b = resolved.book; ch = resolved.chapter;
+            if (resolved.sectionRange && resolved.sectionRange.start === resolved.sectionRange.end) {
+                activeSectionFilter = resolved.sectionRange.start;
+            } else {
+                activeSectionRange = resolved.sectionRange;
+            }
         } else {
             activeWorkKey = rawParam;
             if (isFlatStructure(activeWorkKey)) {
@@ -3607,7 +3731,7 @@ function initializeRoutingFromURL() {
     function triggerTargetNavigation(book, chapter) {
         const payload = getChapterDataPayload(activeWorkKey, book, chapter);
         if (!payload) return;
-        activeUrnContext = payload.urn;
+        activeUrnContext = currentPassageUrnFor(payload);
         
         // Human-readable author/work name from catalog.json's "authors" map
         // and each work's "title" field -- same source buildWorkPickerFromCatalog
@@ -3621,7 +3745,8 @@ function initializeRoutingFromURL() {
         const _workTitle = (CATALOG && CATALOG.works && CATALOG.works[_labelWorkKey]
             && CATALOG.works[_labelWorkKey].title) || payload.work;
         document.getElementById("frame-context-label").innerText =
-            _authorName + ", " + _workTitle + "  —  " + payload.urn;
+            _authorName + ", " + _workTitle + "  —  " + activeUrnContext +
+            "  (" + currentLocationLabelFor(payload) + ")";
         
         const validEditions = Object.entries(TEXT_REGISTRY).filter(([key, meta]) => {
             return meta.textgroup === payload.textgroup && meta.work === payload.work;
@@ -5445,13 +5570,20 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
         const footer = document.createElement('div');
         footer.className = 'viewport-footer-controls';
         let prevBtnHtml = '', nextBtnHtml = '';
-        if (payload.navigation && payload.navigation.prev) {
+        const sectionNav = activeSectionNavigationFor(payload);
+        if (sectionNav && sectionNav.prev) {
+            const label = citationFromUrn(sectionNav.prev);
+            prevBtnHtml = `<a class="action-btn" onclick="navigateAdjacentSectionUrn('${sectionNav.prev}')">&larr; Previous (sec.) ${label}</a>`;
+        } else if (!sectionNav && payload.navigation && payload.navigation.prev) {
             const prevParts = payload.navigation.prev.split(':');
             const prevPsg   = prevParts[prevParts.length - 1].split('.');
             const label     = isPoetry ? `Lines ${prevPsg[1]}` : (isFlatStructure(wKey) ? `Ch ${prevPsg[0]}` : `Bk ${prevPsg[0]} Ch ${prevPsg[1]}`);
             prevBtnHtml = `<a class="action-btn" onclick="navigateAdjacentUrn('${payload.navigation.prev}')">&larr; Previous (${label})</a>`;
         }
-        if (payload.navigation && payload.navigation.next) {
+        if (sectionNav && sectionNav.next) {
+            const label = citationFromUrn(sectionNav.next);
+            nextBtnHtml = `<a class="action-btn" onclick="navigateAdjacentSectionUrn('${sectionNav.next}')">Next (sec.) ${label} &rarr;</a>`;
+        } else if (!sectionNav && payload.navigation && payload.navigation.next) {
             const nextParts = payload.navigation.next.split(':');
             const nextPsg   = nextParts[nextParts.length - 1].split('.');
             const label     = isPoetry ? `Lines ${nextPsg[1]}` : (isFlatStructure(wKey) ? `Ch ${nextPsg[0]}` : `Bk ${nextPsg[0]} Ch ${nextPsg[1]}`);
@@ -5462,6 +5594,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                 ${prevBtnHtml}
                 <a href="javascript:void(0)" class="action-btn secondary" onclick="clearSectionFilter(event)">Full View</a>
             </div>
+            <span class="viewport-location-label">${_escapeHtml(currentLocationLabelFor(payload))}</span>
             ${nextBtnHtml}
         `;
         container.appendChild(footer);
@@ -6250,13 +6383,20 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             const footer = document.createElement("div");
             footer.className = "viewport-footer-controls";
             let prevBtnHtml = "", nextBtnHtml = "";
-            if (payload.navigation.prev) {
+            const sectionNav = activeSectionNavigationFor(payload);
+            if (sectionNav && sectionNav.prev) {
+                const label = citationFromUrn(sectionNav.prev);
+                prevBtnHtml = `<a class="action-btn" onclick="navigateAdjacentSectionUrn('${sectionNav.prev}')">&larr; Previous (sec.) ${label}</a>`;
+            } else if (!sectionNav && payload.navigation.prev) {
                 const prevParts = payload.navigation.prev.split(":");
                 const prevPsg = prevParts[prevParts.length - 1].split(".");
                 const label = isPoetry ? "Chapter" : (isFlatStructure(activeWorkKey) ? `Ch ${prevPsg[0]}` : `Bk ${prevPsg[0]} Ch ${prevPsg[1]}`);
                 prevBtnHtml = `<a class="action-btn" onclick="navigateAdjacentUrn('${payload.navigation.prev}')">&larr; Previous (${label})</a>`;
             }
-            if (payload.navigation.next) {
+            if (sectionNav && sectionNav.next) {
+                const label = citationFromUrn(sectionNav.next);
+                nextBtnHtml = `<a class="action-btn" onclick="navigateAdjacentSectionUrn('${sectionNav.next}')">Next (sec.) ${label} &rarr;</a>`;
+            } else if (!sectionNav && payload.navigation.next) {
                 const nextParts = payload.navigation.next.split(":");
                 const nextPsg = nextParts[nextParts.length - 1].split(".");
                 const label = isPoetry ? "Chapter" : (isFlatStructure(activeWorkKey) ? `Ch ${nextPsg[0]}` : `Bk ${nextPsg[0]} Ch ${nextPsg[1]}`);
@@ -6268,6 +6408,7 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
                     ${prevBtnHtml}
                     <a href="javascript:void(0)" class="action-btn secondary" onclick="clearSectionFilter(event)">Full View</a>
                 </div>
+                <span class="viewport-location-label">${_escapeHtml(currentLocationLabelFor(payload))}</span>
                 ${nextBtnHtml}
             `;
             targetContainer.appendChild(footer);
@@ -6306,6 +6447,32 @@ function renderTreebankColumn(container, activeEditionMeta, payload) {
             triggerTargetNavigation(null, psg[0]);
         } else {
             triggerTargetNavigation(psg[0], psg[1]);
+        }
+    };
+
+    window.navigateAdjacentSectionUrn = function(urn) {
+        activeSectionRange = null;
+        const rows = window.dbInstance
+            ? queryAll(window.dbInstance,
+                "SELECT book, chapter, section FROM alignment_grid WHERE passage_urn=? LIMIT 1",
+                [urn])
+            : [];
+        if (rows.length) {
+            activeSectionFilter = String(rows[0].section);
+            triggerTargetNavigation(rows[0].book || null, rows[0].chapter);
+            return;
+        }
+
+        // Defensive fallback for an older shard whose adjacent URN is not
+        // represented in alignment_grid. Standard prose citations are
+        // chapter.section for flat works and book.chapter.section otherwise.
+        const psg = citationFromUrn(urn).split(".");
+        if (psg.length < 2) { navigateAdjacentUrn(urn); return; }
+        activeSectionFilter = psg[psg.length - 1];
+        if (isFlatStructure(activeWorkKey)) {
+            triggerTargetNavigation(null, psg.slice(0, -1).join("."));
+        } else {
+            triggerTargetNavigation(psg[0], psg.slice(1, -1).join("."));
         }
     };
 
