@@ -73,6 +73,7 @@
     background: #fbf7ef; border-left: 4px solid var(--maroon); border-radius: 2px;
   }
   .dash-grid { display: flex; flex-wrap: wrap; gap: 16px; }
+  .dash-grid-secondary { margin-top: 16px; }
   .dash-card {
     flex: 1 1 220px; border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px;
     background: #fff;
@@ -90,6 +91,33 @@
   }
   .dash-card .card-note { font-size: 10px; color: #aaa; margin-top: 6px; }
   .dash-card .na-flag { font-size: 11px; color: #b5651d; font-style: italic; line-height: 12px; display: block; }
+  .work-frequency-card { flex: 1 1 100%; padding: 14px; }
+  .work-frequency-card > h3 { margin-bottom: 12px; }
+  .work-frequency-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+  .work-frequency-panel { min-width: 0; }
+  .work-frequency-panel + .work-frequency-panel { border-left: 1px solid var(--line); padding-left: 18px; }
+  .work-frequency-panel h4 { margin: 0 0 7px; font: bold 13px Georgia, serif; color: var(--maroon); }
+  .work-frequency-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 12px; }
+  .work-frequency-table th {
+    padding: 0 6px 5px; border-bottom: 1px solid var(--line); color: #888;
+    font-size: 10px; font-weight: normal; text-align: left; text-transform: uppercase; letter-spacing: .04em;
+  }
+  .work-frequency-table th:last-child { text-align: right; }
+  .work-frequency-table td { padding: 4px 6px; border-bottom: 1px solid #f1ece4; vertical-align: middle; }
+  .work-frequency-table tr:last-child td { border-bottom: 0; }
+  .work-frequency-table .work-name { width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .work-frequency-table .frequency-graphic { width: auto; }
+  .work-frequency-table .frequency-value { width: 62px; text-align: right; font-variant-numeric: tabular-nums; color: #555; }
+  .work-frequency-table .bar-track { width: 100%; }
+  .work-frequency-row { outline: none; transition: background-color .12s ease, box-shadow .12s ease; }
+  .work-frequency-row:hover,
+  .work-frequency-row:focus,
+  .work-frequency-row.is-linked-highlight { background: #f6e3df; box-shadow: inset 3px 0 0 var(--maroon); }
+  .work-frequency-row.is-linked-highlight .work-name { color: var(--maroon); font-weight: bold; }
+  @media (max-width: 760px) {
+    .work-frequency-pair { grid-template-columns: 1fr; }
+    .work-frequency-panel + .work-frequency-panel { border-left: 0; border-top: 1px solid var(--line); padding: 14px 0 0; }
+  }
 
   #results-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
   #results-toolbar span { font-size: 12px; color: #666; }
@@ -201,6 +229,11 @@
   .pivot-compare-bar select {
     font-size: 12px; padding: 2px 4px; border: 1px solid #bbb; border-radius: 3px; background: #fff;
   }
+  .pivot-compare-bar button {
+    font-size: 12px; padding: 3px 9px; border: 1px solid var(--maroon); border-radius: 3px;
+    color: #fff; background: var(--maroon); cursor: pointer;
+  }
+  .pivot-compare-bar button:hover { background: #5f0000; }
   .pivot-compare-bar strong { color: var(--maroon); }
 
   /* ── Hierarchical work-filter checkbox tree ─────────────────────────── */
@@ -692,6 +725,7 @@ let STEMTYPES_BY_NORMALIZED_LEMMA = new Map();
 let STEMTYPE_TOKEN_INDEX = {};
 const STEMTYPE_TOKEN_LOOKUPS = new Map();
 let LAST_MATCHES = [];    // full match set from the most recent search
+let LAST_RESULT_CONTEXT = { terms: [], mode: "either", wholeWord: false };
 
 function setStatus(msg) { document.getElementById("status-bar").textContent = msg; }
 
@@ -1200,6 +1234,8 @@ async function runSearch() {
 
   await ensureStemtypeLookups(matches.map(match => match._workKey));
   LAST_MATCHES = matches;
+  LAST_RESULT_CONTEXT = { terms: [...terms], mode, wholeWord };
+  PIVOT_STATE.comparisonActive = false;
   for (const match of matches) match._stemtypes = stemtypesForToken(match);
   const searchedWorkKeys = shardsToSearch.filter(([, shard]) => shard).map(([wk]) => wk);
   renderDashboard(matches, terms, searchedWorkKeys, mode);
@@ -1333,10 +1369,7 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
     return;
   }
   toolbar.style.display = "flex";
-  document.getElementById("results-count").textContent =
-    matches.length > CONFIG.RENDER_CAP
-      ? `Showing ${CONFIG.RENDER_CAP} of ${matches.length} matches below — use filters or CSV export for the rest.`
-      : `${matches.length} match${matches.length === 1 ? "" : "es"}.`;
+  updateResultsCount(matches);
 
   const distinctWorks = new Set(matches.map(m => m._workKey)).size;
   const byUpos = countBy(matches, m => m.upos || "—");
@@ -1358,8 +1391,10 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
       across <strong>${distinctWorks}</strong> work(s) and <strong>${distinctLemmas.size}</strong> distinct lemma(s).
     </div>
     <div class="dash-grid">
-      ${byTerm ? barCard("By search term", byTerm) : ""}
       ${byWorkFreqCard(matches)}
+    </div>
+    <div class="dash-grid dash-grid-secondary">
+      ${byTerm ? barCard("By search term", byTerm) : ""}
       ${barCard("By part of speech", byUpos)}
       ${Object.keys(byStemtype).length ? stemtypeCard(byStemtype, matches) : ""}
       ${Object.keys(byTense).length ? barCard("Verb tense", byTense) : ""}
@@ -1369,6 +1404,7 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
     ${glossByTermTable(matches, terms, mode)}
     ${lemmaWorkTable(matches, searchedWorkKeys)}`;
   dash.classList.add("open");
+  wireWorkFrequencyHighlighting();
   walkAndTransliterateNode(dash, GREEK_TRANSLIT_MODE);
 }
 
@@ -1398,9 +1434,16 @@ function renderDashboard(matches, terms, searchedWorkKeys, mode) {
 const MIN_TOKENS_FOR_RATE = 50; // below this a work's own token count is too small for its rate/CI to mean much
 const MIN_TOTAL_FOR_SIG = 1;    // need at least one occurrence somewhere to test anything at all
 
-// Module-level state so the "compare" dropdowns can re-render just the
-// pivot table (via updatePivotCompare()) without re-running the search.
-let PIVOT_STATE = { matches: null, searchedWorkKeys: null, compareA: null, compareB: null, showCounts: false };
+// Module-level state so applying a completed comparison can re-render just
+// the pivot table without re-running the search.
+let PIVOT_STATE = {
+  matches: null,
+  searchedWorkKeys: null,
+  compareA: null,
+  compareB: null,
+  showCounts: false,
+  comparisonActive: false
+};
 
 // ── Gloss usage by search term: for a lemma/form search (one term, or a
 // comma-separated set), which English gloss(es) were actually used for each
@@ -1493,15 +1536,28 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
   PIVOT_STATE.matches = matches;
   PIVOT_STATE.searchedWorkKeys = searchedWorkKeys;
 
-  const withLemma = matches.filter(m => m.lemma);
-  if (withLemma.length === 0) return "";
+  const allWithLemma = matches.filter(m => m.lemma);
+  if (allWithLemma.length === 0) return "";
 
-  // Columns: every work actually searched (not just ones with a hit for
-  // THIS query), so a lemma absent from a large work still gets a "0 (0.00‰)"
-  // rather than a misleading blank.
-  const works = (searchedWorkKeys.length ? searchedWorkKeys : [...new Set(withLemma.map(m => m._workKey))])
+  // All works remain available in the comparison selectors. The selectors
+  // themselves are deliberately inert: only the Apply button focuses the
+  // table and everything below it on the completed pair.
+  const allWorks = (searchedWorkKeys.length ? searchedWorkKeys : [...new Set(allWithLemma.map(m => m._workKey))])
     .filter(wk => SHARDS.has(wk))
     .sort((a, b) => (TOTAL_TOKENS_BY_WORK.get(b) || 0) - (TOTAL_TOKENS_BY_WORK.get(a) || 0));
+
+  if (!PIVOT_STATE.compareA || !allWorks.includes(PIVOT_STATE.compareA)) PIVOT_STATE.compareA = allWorks[0] || null;
+  if (!PIVOT_STATE.compareB || !allWorks.includes(PIVOT_STATE.compareB) || PIVOT_STATE.compareB === PIVOT_STATE.compareA) {
+    PIVOT_STATE.compareB = allWorks.find(wk => wk !== PIVOT_STATE.compareA) || null;
+  }
+  const canCompare = allWorks.length >= 2 && PIVOT_STATE.compareA && PIVOT_STATE.compareB &&
+    PIVOT_STATE.compareA !== PIVOT_STATE.compareB;
+  const comparisonScoped = PIVOT_STATE.comparisonActive && canCompare;
+  const works = comparisonScoped ? [PIVOT_STATE.compareA, PIVOT_STATE.compareB] : allWorks;
+  const focusedWorkSet = comparisonScoped ? new Set(works) : null;
+  const withLemma = comparisonScoped
+    ? allWithLemma.filter(m => focusedWorkSet.has(m._workKey))
+    : allWithLemma;
   const corpusTotal = works.reduce((sum, wk) => sum + (TOTAL_TOKENS_BY_WORK.get(wk) || 0), 0);
 
   const byLemma = new Map(); // lemma -> { total, perWork: {workKey: n} }
@@ -1515,13 +1571,6 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
   const lemmaRows = Array.from(byLemma.entries()).sort((a, b) => b[1].total - a[1].total);
   const truncated = lemmaRows.length > capRows;
   const shownRows = lemmaRows.slice(0, capRows);
-
-  // Default / validate the two works being compared for significance.
-  if (!PIVOT_STATE.compareA || !works.includes(PIVOT_STATE.compareA)) PIVOT_STATE.compareA = works[0] || null;
-  if (!PIVOT_STATE.compareB || !works.includes(PIVOT_STATE.compareB) || PIVOT_STATE.compareB === PIVOT_STATE.compareA) {
-    PIVOT_STATE.compareB = works.find(wk => wk !== PIVOT_STATE.compareA) || null;
-  }
-  const canCompare = works.length >= 2 && PIVOT_STATE.compareA && PIVOT_STATE.compareB;
 
   // Column totals: summed across every matched lemma, not just the capped/
   // shown rows, so this reflects the true totals for the search — same
@@ -1583,17 +1632,18 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
     </tr>`;
   }).join("");
 
-  const compareBarHtml = works.length >= 2 ? `
+  const compareBarHtml = allWorks.length >= 2 ? `
     <div class="pivot-compare-bar">
-      <span>Test significance of the difference between</span>
-      <select id="pivot-cmp-a" onchange="updatePivotCompare()">
-        ${works.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareA ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
+      <span>Compare and focus below on</span>
+      <select id="pivot-cmp-a">
+        ${allWorks.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareA ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
       </select>
       <span>and</span>
-      <select id="pivot-cmp-b" onchange="updatePivotCompare()">
-        ${works.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareB ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
+      <select id="pivot-cmp-b">
+        ${allWorks.map(wk => `<option value="${wk}" ${wk === PIVOT_STATE.compareB ? "selected" : ""}>${escapeHtml(SHARDS.get(wk).label)}</option>`).join("")}
       </select>
-      <span>for each lemma below.</span>
+      <button type="button" onclick="applyPivotCompare()">Apply comparison</button>
+      <span>${comparisonScoped ? "— the table, matches, and CSV below use only these works." : "for each lemma below."}</span>
     </div>` : "";
 
   const countsToggleHtml = `
@@ -1619,7 +1669,7 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
         Each cell shows the rate (occurrences per 1,000 tokens) as a dot on its own 95% Wilson-interval CI —
         the whisker span is the interval, the dot is the point estimate; the horizontal scale is fixed per
         lemma row so cells within a row are visually comparable. Per-work cells use that work's own token
-        count as the base; the Total column uses the full searched corpus
+        count as the base; the Total column uses ${comparisonScoped ? "the selected pair" : "the full searched corpus"}
         (${corpusTotal.toLocaleString()} tokens across ${works.length} work${works.length === 1 ? "" : "s"}).
         A work with fewer than ${MIN_TOKENS_FOR_RATE} tokens is flagged "insufficient data" rather than given a
         falsely precise rate. The CI is a rough guide to how much a rate might shift with a much larger sample of
@@ -1633,14 +1683,22 @@ function lemmaWorkTable(matches, searchedWorkKeys = [], capRows = 40) {
     </div>`;
 }
 
-// Re-render just the pivot table when the compare-works dropdowns change,
-// without re-running the underlying search.
-function updatePivotCompare() {
+// Apply a complete pair at once. In particular, do not re-render from either
+// select's change event: replacing a select while its native menu is closing
+// can crash WebKit, and it prevents the person from choosing the second work.
+function applyPivotCompare() {
   const selA = document.getElementById("pivot-cmp-a");
   const selB = document.getElementById("pivot-cmp-b");
-  if (selA) PIVOT_STATE.compareA = selA.value;
-  if (selB) PIVOT_STATE.compareB = selB.value;
+  if (!selA || !selB || !selA.value || !selB.value) return;
+  if (selA.value === selB.value) {
+    window.alert("Choose two different works before applying the comparison.");
+    return;
+  }
+  PIVOT_STATE.compareA = selA.value;
+  PIVOT_STATE.compareB = selB.value;
+  PIVOT_STATE.comparisonActive = true;
   rerenderPivotTable();
+  renderComparisonScopedResults();
 }
 
 // Flip the raw-counts toggle and re-render.
@@ -1657,6 +1715,39 @@ function rerenderPivotTable() {
   walkAndTransliterateNode(document.getElementById("lemma-pivot-wrap"), GREEK_TRANSLIT_MODE);
 }
 
+function comparisonScopeKeys() {
+  if (!PIVOT_STATE.comparisonActive || !PIVOT_STATE.compareA || !PIVOT_STATE.compareB ||
+      PIVOT_STATE.compareA === PIVOT_STATE.compareB) return [];
+  return [PIVOT_STATE.compareA, PIVOT_STATE.compareB];
+}
+
+function comparisonScopedMatches() {
+  const scopeKeys = comparisonScopeKeys();
+  if (scopeKeys.length !== 2) return LAST_MATCHES;
+  const scope = new Set(scopeKeys);
+  return LAST_MATCHES.filter(match => scope.has(match._workKey));
+}
+
+function updateResultsCount(matches, scopeKeys = []) {
+  const suffix = scopeKeys.length === 2
+    ? ` in ${scopeKeys.map(wk => SHARDS.has(wk) ? SHARDS.get(wk).label : wk).join(" and ")}`
+    : "";
+  const focused = scopeKeys.length === 2 ? " focused" : "";
+  document.getElementById("results-count").textContent = matches.length > CONFIG.RENDER_CAP
+    ? `Showing ${CONFIG.RENDER_CAP} of ${matches.length}${focused} matches${suffix} — use CSV export for the rest.`
+    : `${matches.length}${focused} match${matches.length === 1 ? "" : "es"}${suffix}.`;
+  const csvButton = document.getElementById("csv-btn");
+  csvButton.textContent = scopeKeys.length === 2 ? "Download focused matches (CSV)" : "Download all matches (CSV)";
+  csvButton.disabled = matches.length === 0;
+}
+
+function renderComparisonScopedResults() {
+  const scopeKeys = comparisonScopeKeys();
+  const matches = comparisonScopedMatches();
+  updateResultsCount(matches, scopeKeys);
+  renderResults(matches, LAST_RESULT_CONTEXT.terms, LAST_RESULT_CONTEXT.mode, LAST_RESULT_CONTEXT.wholeWord);
+}
+
 // Classifies an n/denom pair into one of three states so the caller can
 // decide how to render it, and (for the "ok" state) precomputes the rate
 // and its 95% Wilson CI in per-1,000 terms.
@@ -1668,6 +1759,18 @@ function computeCellStat(n, denom) {
   if (denom < MIN_TOKENS_FOR_RATE) return { state: "insufficient", n, denom };
   const [lo, hi] = wilsonInterval(n, denom);
   return { state: "ok", n, denom, rate: (n / denom) * 1000, lo: lo * 1000, hi: hi * 1000 };
+}
+
+function absoluteFrequencyTooltip(n) {
+  return `Absolute frequency: ${Number(n || 0).toLocaleString()} occurrence${n === 1 ? "" : "s"}`;
+}
+
+function relativeFrequencyTooltip(stat) {
+  if (!stat || stat.state === "none") return "Relative frequency unavailable (no corpus denominator)";
+  if (stat.state === "insufficient") {
+    return `Relative frequency unavailable (${Number(stat.denom || 0).toLocaleString()} corpus tokens; insufficient data)`;
+  }
+  return `Relative frequency: ${stat.rate.toFixed(2)}\u2030 (${Number(stat.n).toLocaleString()} of ${Number(stat.denom).toLocaleString()} tokens; 95% CI ${stat.lo.toFixed(2)}\u2013${stat.hi.toFixed(2)}\u2030)`;
 }
 
 // Shared horizontal scale for a row of cell stats, so every glyph in that
@@ -1685,27 +1788,32 @@ function rowScaleMax(stats) {
 // only when the "Show raw counts" toggle is on.
 function rateGlyphHtml(stat, scaleMax, alwaysShowN = false) {
   if (stat.state === "none") {
-    if (alwaysShowN) return `${stat.n}`;
-    return PIVOT_STATE.showCounts ? `<span class="rate-glyph-n">n=${stat.n}</span>` : "—";
+    if (alwaysShowN) return `<span title="${escapeHtml(relativeFrequencyTooltip(stat))}">${stat.n}</span>`;
+    return PIVOT_STATE.showCounts ? `<span class="rate-glyph-n" title="${escapeHtml(relativeFrequencyTooltip(stat))}">n=${stat.n}</span>` : "—";
   }
   if (stat.state === "insufficient") {
-    return `<span class="insufficient">insufficient data (n=${stat.denom})</span>` +
-      (PIVOT_STATE.showCounts ? `<span class="rate-glyph-n">n=${stat.n}</span>` : "");
+    return `<span class="insufficient" title="${escapeHtml(absoluteFrequencyTooltip(stat.n))}">insufficient data (n=${stat.denom})</span>` +
+      (PIVOT_STATE.showCounts ? `<span class="rate-glyph-n" title="${escapeHtml(relativeFrequencyTooltip(stat))}">n=${stat.n}</span>` : "");
   }
   const W = 84, H = 20, pad = 5;
   const clampX = v => pad + Math.max(0, Math.min(1, v / scaleMax)) * (W - 2 * pad);
-  const tooltip = `${stat.rate.toFixed(2)}\u2030 (95% CI ${stat.lo.toFixed(2)}\u2013${stat.hi.toFixed(2)}\u2030)`;
+  const tooltip = `${relativeFrequencyTooltip(stat)}; ${absoluteFrequencyTooltip(stat.n)}`;
+  const absoluteTitle = escapeHtml(absoluteFrequencyTooltip(stat.n));
+  const relativeTitle = escapeHtml(relativeFrequencyTooltip(stat));
   const svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" class="rate-glyph-svg" ` +
-    `role="img" aria-label="rate ${tooltip}">` +
-    `<title>${tooltip}</title>` +
+    `role="img" aria-label="${escapeHtml(tooltip)}">` +
+    `<title>${escapeHtml(tooltip)}</title>` +
     `<line x1="${clampX(stat.lo)}" y1="${H / 2}" x2="${clampX(stat.hi)}" y2="${H / 2}" stroke="#999" stroke-width="1.3"/>` +
+    `<circle cx="${clampX(stat.rate)}" cy="${H / 2}" r="3.2" fill="var(--maroon)"/>` +
+    // Paint the end caps last. On a shared row scale a precise interval can
+    // be narrower than the point marker; keeping the caps on top makes that
+    // interval visible without exaggerating its width.
     `<line x1="${clampX(stat.lo)}" y1="${H / 2 - 3.5}" x2="${clampX(stat.lo)}" y2="${H / 2 + 3.5}" stroke="#999" stroke-width="1.3"/>` +
     `<line x1="${clampX(stat.hi)}" y1="${H / 2 - 3.5}" x2="${clampX(stat.hi)}" y2="${H / 2 + 3.5}" stroke="#999" stroke-width="1.3"/>` +
-    `<circle cx="${clampX(stat.rate)}" cy="${H / 2}" r="3.2" fill="var(--maroon)"/>` +
     `</svg>`;
-  const rateLabel = `<span class="rate-glyph-rate">${stat.rate.toFixed(2)}\u2030</span>`;
-  const nLabel = PIVOT_STATE.showCounts ? `<span class="rate-glyph-n">n=${stat.n}</span>` : "";
-  return `<span class="rate-glyph-cell">${svg}${rateLabel}${nLabel}</span>`;
+  const rateLabel = `<span class="rate-glyph-rate" title="${absoluteTitle}">${stat.rate.toFixed(2)}\u2030</span>`;
+  const nLabel = PIVOT_STATE.showCounts ? `<span class="rate-glyph-n" title="${relativeTitle}">n=${stat.n}</span>` : "";
+  return `<span class="rate-glyph-cell" title="${absoluteTitle}">${svg}${rateLabel}${nLabel}</span>`;
 }
 
 // Renders the significance-test result for one lemma between two works.
@@ -2016,19 +2124,11 @@ function featVal(feats, key) {
   }
   return null;
 }
-// Module-level state so the "show absolute counts" toggle on the by-work
-// card can re-render just that card without re-running the search — same
-// pattern as PIVOT_STATE for the lemma x work pivot below.
-let BYWORK_STATE = { matches: null, showAbsolute: false };
-
-// ── By-work summary card: leads with relative frequency (rate per 1,000
-// tokens of that work, with a 95% Wilson CI whisker) rather than raw match
-// counts, because raw counts are dominated by work length -- a short work
-// like Suppliant Women can have a far higher rate of a given lemma than a
-// long work like the Iliad while showing fewer total hits. An "absolute
-// counts" toggle is available for people who want the raw numbers instead. ──
+// ── By-work summary: absolute counts and relative frequency belong beside
+// one another so readers can compare rank by corpus size with rank by rate.
+// The two tables sort independently, but matching work rows highlight as a
+// pair on hover or keyboard focus.
 function byWorkFreqCard(matches) {
-  BYWORK_STATE.matches = matches;
   const counts = countBy(matches, m => m._workKey);
   const rows = Object.entries(counts).map(([wk, n]) => ({
     wk, n,
@@ -2036,55 +2136,69 @@ function byWorkFreqCard(matches) {
     stat: computeCellStat(n, TOTAL_TOKENS_BY_WORK.get(wk) || 0)
   }));
 
-  const toggleHtml = `
-    <label class="freq-toggle">
-      <input type="checkbox" id="bywork-show-absolute" ${BYWORK_STATE.showAbsolute ? "checked" : ""}
-        onchange="toggleByWorkAbsolute(this.checked)">
-      Show absolute counts
-    </label>`;
+  const absoluteRows = rows.slice().sort((a, b) => b.n - a.n || a.label.localeCompare(b.label));
+  const relativeRows = rows.slice().sort((a, b) => {
+    const ra = a.stat.state === "ok" ? a.stat.rate : -1;
+    const rb = b.stat.state === "ok" ? b.stat.rate : -1;
+    return rb - ra || b.n - a.n || a.label.localeCompare(b.label);
+  });
+  const maxCount = Math.max(...absoluteRows.map(r => r.n), 1);
+  const scaleMax = rowScaleMax(relativeRows.map(r => r.stat));
 
-  let bodyHtml, noteHtml;
-  if (BYWORK_STATE.showAbsolute) {
-    const sorted = rows.slice().sort((a, b) => b.n - a.n);
-    const max = Math.max(...sorted.map(r => r.n), 1);
-    bodyHtml = sorted.map(r => `
-      <div class="bar-row">
-        <div class="bar-label" title="${escapeHtml(r.label)}">${escapeHtml(r.label)}</div>
-        <div class="bar-track"><div class="bar-fill" style="width:${(r.n / max * 100).toFixed(0)}%"></div></div>
-        <div class="bar-count">${r.n}</div>
-      </div>`).join("");
-    noteHtml = "";
-  } else {
-    const scaleMax = rowScaleMax(rows.map(r => r.stat));
-    const sorted = rows.slice().sort((a, b) => {
-      const ra = a.stat.state === "ok" ? a.stat.rate : -1;
-      const rb = b.stat.state === "ok" ? b.stat.rate : -1;
-      return rb - ra;
-    });
-    bodyHtml = sorted.map(r => `
-      <div class="bar-row">
-        <div class="bar-label" title="${escapeHtml(r.label)}">${escapeHtml(r.label)}</div>
-        <div class="bar-track">${whiskerBarHtml(r.stat, scaleMax)}</div>
-        <div class="bar-count wide">${r.stat.state === "ok" ? r.stat.rate.toFixed(2) + "\u2030" : "n/a"}</div>
-      </div>`).join("");
-    noteHtml = `<div class="card-note">Rate per 1,000 tokens of that work; whisker = 95% Wilson CI.</div>`;
-  }
+  const absoluteBody = absoluteRows.map(r => `
+    <tr class="work-frequency-row" data-work-key="${escapeHtml(r.wk)}" tabindex="0"
+        title="${escapeHtml(relativeFrequencyTooltip(r.stat))}">
+      <td class="work-name" title="${escapeHtml(r.label)}">${escapeHtml(r.label)}</td>
+      <td class="frequency-graphic"><div class="bar-track"><div class="bar-fill" style="width:${(r.n / maxCount * 100).toFixed(0)}%"></div></div></td>
+      <td class="frequency-value">${r.n.toLocaleString()}</td>
+    </tr>`).join("");
+
+  const relativeBody = relativeRows.map(r => `
+    <tr class="work-frequency-row" data-work-key="${escapeHtml(r.wk)}" tabindex="0"
+        title="${escapeHtml(absoluteFrequencyTooltip(r.n))}">
+      <td class="work-name" title="${escapeHtml(r.label)}">${escapeHtml(r.label)}</td>
+      <td class="frequency-graphic"><div class="bar-track">${whiskerBarHtml(r.stat, scaleMax)}</div></td>
+      <td class="frequency-value">${r.stat.state === "ok" ? r.stat.rate.toFixed(2) + "\u2030" : "n/a"}</td>
+    </tr>`).join("");
 
   return `
-    <div class="dash-card" id="bywork-card">
-      <h3>By work — relative frequency</h3>
-      ${toggleHtml}
-      ${bodyHtml}
-      ${noteHtml}
+    <div class="dash-card work-frequency-card" id="bywork-pair">
+      <h3>Frequency by work</h3>
+      <div class="work-frequency-pair">
+        <section class="work-frequency-panel" aria-labelledby="absolute-frequency-heading">
+          <h4 id="absolute-frequency-heading">Absolute frequency</h4>
+          <table class="work-frequency-table">
+            <thead><tr><th>Work</th><th>Occurrences</th><th>Count</th></tr></thead>
+            <tbody>${absoluteBody}</tbody>
+          </table>
+        </section>
+        <section class="work-frequency-panel" aria-labelledby="relative-frequency-heading">
+          <h4 id="relative-frequency-heading">Relative frequency</h4>
+          <table class="work-frequency-table">
+            <thead><tr><th>Work</th><th>95% confidence interval</th><th>Per 1,000</th></tr></thead>
+            <tbody>${relativeBody}</tbody>
+          </table>
+        </section>
+      </div>
+      <div class="card-note">Hover or focus a work to locate it in both rankings. Relative frequency is per 1,000 tokens; whisker = 95% Wilson CI.</div>
     </div>`;
 }
 
-// Re-render just the by-work card when its toggle changes.
-function toggleByWorkAbsolute(checked) {
-  BYWORK_STATE.showAbsolute = !!checked;
-  const card = document.getElementById("bywork-card");
-  if (!card || !BYWORK_STATE.matches) return;
-  card.outerHTML = byWorkFreqCard(BYWORK_STATE.matches);
+function wireWorkFrequencyHighlighting() {
+  const pair = document.getElementById("bywork-pair");
+  if (!pair) return;
+  const rows = [...pair.querySelectorAll(".work-frequency-row")];
+  const setHighlight = (workKey, active) => {
+    for (const row of rows) {
+      row.classList.toggle("is-linked-highlight", active && row.dataset.workKey === workKey);
+    }
+  };
+  for (const row of rows) {
+    row.addEventListener("mouseenter", () => setHighlight(row.dataset.workKey, true));
+    row.addEventListener("mouseleave", () => setHighlight(row.dataset.workKey, false));
+    row.addEventListener("focus", () => setHighlight(row.dataset.workKey, true));
+    row.addEventListener("blur", () => setHighlight(row.dataset.workKey, false));
+  }
 }
 
 // Dot-and-whisker: the whisker spans the 95% Wilson CI, the dot marks the
@@ -2096,10 +2210,10 @@ function toggleByWorkAbsolute(checked) {
 function whiskerBarHtml(stat, scaleMax) {
   if (stat.state !== "ok") return `<span class="na-flag">insufficient data (n=${stat.denom})</span>`;
   const pct = v => Math.max(0, Math.min(100, (v / scaleMax) * 100));
-  const tooltip = `${stat.rate.toFixed(2)}\u2030 (95% CI ${stat.lo.toFixed(2)}\u2013${stat.hi.toFixed(2)}\u2030)`;
+  const tooltip = `${relativeFrequencyTooltip(stat)}; ${absoluteFrequencyTooltip(stat.n)}`;
   return `<svg class="whisker-svg" width="100%" height="12" viewBox="0 0 100 12" preserveAspectRatio="none" ` +
-    `role="img" aria-label="rate ${tooltip}">` +
-    `<title>${tooltip}</title>` +
+    `role="img" aria-label="${escapeHtml(tooltip)}">` +
+    `<title>${escapeHtml(tooltip)}</title>` +
     `<line x1="${pct(stat.lo)}" y1="6" x2="${pct(stat.hi)}" y2="6" stroke="#999" stroke-width="1"/>` +
     `<line x1="${pct(stat.lo)}" y1="3" x2="${pct(stat.lo)}" y2="9" stroke="#999" stroke-width="1"/>` +
     `<line x1="${pct(stat.hi)}" y1="3" x2="${pct(stat.hi)}" y2="9" stroke="#999" stroke-width="1"/>` +
@@ -2481,10 +2595,11 @@ function buildReaderLink(row) {
 }
 
 function downloadCsv() {
-  if (LAST_MATCHES.length === 0) return;
+  const exportMatches = comparisonScopedMatches();
+  if (exportMatches.length === 0) return;
   const cols = ["_matchedTerm","_workLabel","chapter","section","form","lemma","stemtypes","upos","feats","gloss","ref","version_short_id"];
   const lines = [cols.join(",")];
-  for (const row of LAST_MATCHES) {
+  for (const row of exportMatches) {
     lines.push(cols.map(c => csvCell(c === "stemtypes" ? (row._stemtypes || []).join("|") : row[c])).join(","));
   }
   const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });

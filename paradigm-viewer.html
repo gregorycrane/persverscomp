@@ -2,22 +2,22 @@
 <html lang="en"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Corpus Paradigm Viewer · Perseus Multitext Viewer</title>
-  <link rel="stylesheet" href="paradigm-viewer.css">
+  <link rel="stylesheet" href="paradigm-viewer.css?v=20260925c">
 </head><body>
   <header class="masthead"><a href="./">← PMV</a><div><span>PERSEUS MULTITEXT VIEWER</span><h1>Corpus paradigm viewer</h1></div></header>
   <main>
     <section class="controls">
       <h2>Attested morphology</h2>
       <div class="control-grid">
-        <label>View<select id="layout"><option value="compare">Compare a paradigm</option><option value="stemtype">One stemtype</option></select></label>
+        <label>View<select id="layout"><option value="lemma">All paradigms for a lemma</option><option value="compare">Compare a paradigm</option><option value="stemtype">One stemtype</option></select></label>
         <label id="family-field">Paradigm family<select id="family"><option value="verb">Verbs</option><option value="noun">Nouns</option><option value="adjective">Adjectives</option><option value="other">Other morphology</option></select></label>
         <label id="stemtype-field">Stemtype<select id="stemtype"></select></label>
-        <label>Scope<select id="scope"><option value="class">All lemmas</option><option value="lemma">Single lemma</option></select></label>
+        <label id="scope-field">Scope<select id="scope"><option value="class">All lemmas</option><option value="lemma">Single lemma</option></select></label>
         <label id="lemma-field">Lemma<input id="lemma" list="lemma-options" placeholder="e.g. φέρω"><datalist id="lemma-options"></datalist></label>
         <label>Tense<select id="tense"></select></label>
         <label>Mood<select id="mood"></select></label>
         <label>Voice<select id="voice"></select></label>
-        <label>Forms per cell<select id="limit"><option value="1">Top 1</option><option value="3" selected>Top 3</option><option value="5">Top 5</option><option value="0">All</option></select></label>
+        <label id="limit-field">Forms per cell<select id="limit"><option value="1">Top 1</option><option value="3" selected>Top 3</option><option value="5">Top 5</option><option value="0">All</option></select></label>
       </div>
       <div id="column-bar" class="column-bar"><span>Each table column has its own stemtype selector. The three most frequent compatible types are shown first.</span><button id="add-column" type="button">+ Add stemtype column</button><strong id="column-count"></strong></div>
       <label class="works">PMV works <span class="control-hint">CTS keys or abbreviations; comma-separated</span><input id="works" placeholder="All works, or e.g. Ar. Ach., Ar. Nub."><span class="control-hint">Aristophanes: Ach., Eq., Nub., Vesp., Pax, Av., Lys., Thesm., Ran., Eccl., Plut.</span></label>
@@ -29,8 +29,8 @@
       <span>Short definitions: <a href="https://logeion.uchicago.edu/" target="_blank" rel="noopener">Logeion</a>.</span>
       <span id="treebank-credit"></span>
     </section>
-    <section class="grid-wrap"><table id="grid"></table></section>
-    <section class="method"><h2>Reading the grid</h2><p>Choose a paradigm first. The viewer opens the three most frequent compatible stemtypes as parallel columns. As in the main PMV reader, every column has its own selector, so it can be changed independently; add or remove columns as needed, up to six. Verbs use tense–mood–voice paradigms; nouns and adjectives use declensional slots. Participles remain verbal stemtypes but use number–case–gender rows. Each cell ranks attested surface forms, initially showing only the most frequent. Counts combine registered treebank morphology with compatible Morpheus analyses.</p></section>
+    <section class="grid-wrap"><div id="lemma-grid" hidden></div><table id="grid"></table></section>
+    <section class="method"><h2>Reading the grid</h2><p><strong>All paradigms for a lemma</strong> gathers every attested form of one lemma and displays each tense–mood–voice or declensional paradigm in a separate table. <strong>Compare a paradigm</strong> opens the three most frequent compatible stemtypes as parallel columns; every column has its own selector and up to six may be shown. <strong>One stemtype</strong> reviews a single morphological class. Participles remain verbal stemtypes but use number–case–gender rows. Counts combine registered treebank morphology with compatible Morpheus analyses.</p></section>
   </main>
-  <script src="paradigm-viewer.js?v=20260925b"></script>
+  <script src="paradigm-viewer.js?v=20260925c"></script>
 </body></html>

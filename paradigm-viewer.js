@@ -13,7 +13,7 @@
   const DAPHNE_AUTHORS = new Map([
     ["tlg0012", "Homer"], ["tlg0085", "Aeschylus"], ["tlg0011", "Sophocles"]
   ]);
-  let INDEX, PARADIGM_INDEX, DATA;
+  let INDEX, PARADIGM_INDEX, LEMMA_STEMTYPES, DATA;
   let COLUMN_STEMTYPES = [], INITIAL_STEMTYPES = [], AVAILABLE_STEMTYPES = [], LOADED_PARADIGM = '';
   const EXPANDED = new Set();
   const WORK_ALIASES = new Map([
@@ -30,8 +30,11 @@
     ['plut','tlg0019.tlg011'],['arplut','tlg0019.tlg011'],['wealth','tlg0019.tlg011']
   ]);
   function resolveWork(value) { const original=String(value||'').trim();return WORK_ALIASES.get(original.toLowerCase().replace(/[^a-z0-9]+/g,''))||original; }
+  function normalizedLemma(value) { return String(value||'').normalize('NFD').replace(/\p{M}/gu,'').toLocaleLowerCase().replaceAll('ς','σ'); }
+  function resolveLemma(value) { const original=String(value||'').trim();if(LEMMA_STEMTYPES[original])return original;const key=normalizedLemma(original);return Object.keys(LEMMA_STEMTYPES).find(lemma=>normalizedLemma(lemma)===key)||original; }
+  function populateAllLemmaOptions() { if($("lemma-options").dataset.complete)return;$("lemma-options").innerHTML=Object.keys(LEMMA_STEMTYPES).sort((a,b)=>a.localeCompare(b)).map(lemma=>`<option value="${esc(lemma)}"></option>`).join('');$("lemma-options").dataset.complete='true'; }
   function options(values, labels, any=true) { return (any?'<option value="">Any</option>':'') + values.map(v=>`<option value="${esc(v)}">${esc(labels?.[v]||v)}</option>`).join(''); }
-  function query() { return {layout:$("layout").value,family:$("family").value,stemtype:$("stemtype").value,stemtypes:[...COLUMN_STEMTYPES],scope:$("scope").value,lemma:$("scope").value==='lemma'?$("lemma").value.trim():'',tense:$("tense").value,mood:$("mood").value,voice:$("voice").value,works:$("works").value.split(',').map(resolveWork).filter(Boolean),limit:Number($("limit").value)}; }
+  function query() { const layout=$("layout").value;return {layout,family:$("family").value,stemtype:$("stemtype").value,stemtypes:[...COLUMN_STEMTYPES],scope:$("scope").value,lemma:layout==='lemma'||$("scope").value==='lemma'?$("lemma").value.trim():'',tense:$("tense").value,mood:$("mood").value,voice:$("voice").value,works:$("works").value.split(',').map(resolveWork).filter(Boolean),limit:Number($("limit").value)}; }
   function slot(r) {
     const mood=r[6], person=r[8], number=r[9], gender=r[10], cas=r[11];
     if(r[4]==='n'||r[4]==='a') return `${LABELS.number[number]||'?'} ${LABELS.case[cas]||'?'} ${LABELS.gender[gender]||'?'}`;
@@ -61,16 +64,39 @@
   function nominalRank(value) { const [num,cas,gen]=value.replace(/^PART /,'').split(' '),at=(values,item)=>{const i=values.indexOf(item);return i<0?9:i;};return at(["SG","DU","PL"],num)*100+at(["NOM","GEN","DAT","ACC","VOC"],cas)*10+at(["M","F","N","C"],gen); }
   function formLink(form, works) { const p=new URLSearchParams({q:form,mode:'form'}); if(works.length)p.set('works',works.join(',')); return `./search/index.html?${p}`; }
   function gloss(lemma) { return (DATA.glosses?.[lemma] || []).join('; '); }
-  function lemmaLabel(lemma) { const text=gloss(lemma); return `<a class="lemma" href="./paradigm-viewer.html?${viewerParams(query(),lemma)}">${esc(lemma)}</a>${text?`<span class="lemma-gloss">${esc(text)}</span>`:''}`; }
-  function viewerParams(q, lemma='') { const p=new URLSearchParams();if(q.layout==='stemtype')p.set('stemtype',q.stemtype);else{p.set('layout','compare');p.set('family',q.family);if(q.stemtypes.length)p.set('stemtypes',q.stemtypes.join(','));}for(const k of ['tense','mood','voice'])if(q[k]&&q.family==='verb')p.set(k,q[k]);if(q.works.length)p.set('works',q.works.join(','));if(q.limit!==3)p.set('limit',String(q.limit));if(lemma)p.set('lemma',lemma);return p; }
-  function populateLemmas(rows) { const counts=new Map(); for(const r of rows)counts.set(r[3],(counts.get(r[3])||0)+r[12]); $("lemma-options").innerHTML=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([lemma,count])=>`<option value="${esc(lemma)}">${fmt(count)} tokens</option>`).join(''); return counts; }
-  function setLayoutControls() { const compare=$("layout").value==='compare',nonverbal=$("family").value!=='verb';$("family").disabled=!compare;$("family-field").classList.toggle('recognized',!compare);$("stemtype").disabled=compare;$("stemtype-field").classList.toggle('inactive',compare);$("column-bar").classList.toggle('hidden',!compare);for(const id of ['tense','mood','voice']){$(id).disabled=nonverbal;$(id).closest('label').classList.toggle('inactive',nonverbal);} }
+  function lemmaLabel(lemma) { const text=gloss(lemma),q={...query(),layout:'lemma'}; return `<a class="lemma" href="./paradigm-viewer.html?${viewerParams(q,lemma)}">${esc(lemma)}</a>${text?`<span class="lemma-gloss">${esc(text)}</span>`:''}`; }
+  function viewerParams(q, lemma='') { const p=new URLSearchParams();if(q.layout==='lemma'){p.set('layout','lemma');}else if(q.layout==='stemtype')p.set('stemtype',q.stemtype);else{p.set('layout','compare');p.set('family',q.family);if(q.stemtypes.length)p.set('stemtypes',q.stemtypes.join(','));}for(const k of ['tense','mood','voice'])if(q[k]&&q.family==='verb'&&q.layout!=='lemma')p.set(k,q[k]);if(q.works.length)p.set('works',q.works.join(','));if(q.limit!==3&&q.layout!=='lemma')p.set('limit',String(q.limit));if(lemma)p.set('lemma',lemma);return p; }
+  function populateLemmas(rows) { const counts=new Map(); for(const r of rows)counts.set(r[3],(counts.get(r[3])||0)+r[12]);delete $("lemma-options").dataset.complete; $("lemma-options").innerHTML=[...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([lemma,count])=>`<option value="${esc(lemma)}">${fmt(count)} tokens</option>`).join(''); return counts; }
+  function setLayoutControls() { const layout=$("layout").value,compare=layout==='compare',lemmaView=layout==='lemma',nonverbal=$("family").value!=='verb';$("family").disabled=!compare;$("family-field").classList.toggle('recognized',!compare&&!lemmaView);$("family-field").classList.toggle('inactive',lemmaView);$("stemtype").disabled=layout!=='stemtype';$("stemtype-field").classList.toggle('inactive',layout!=='stemtype');$("column-bar").classList.toggle('hidden',!compare);$("scope").disabled=lemmaView;$("scope-field").classList.toggle('inactive',lemmaView);$("limit").disabled=lemmaView;$("limit-field").classList.toggle('inactive',lemmaView);$("show").textContent=lemmaView?'Show all forms':'Show paradigm';for(const id of ['tense','mood','voice']){const inactive=lemmaView||nonverbal;$(id).disabled=inactive;$(id).closest('label').classList.toggle('inactive',inactive);} }
   function rankedStemtypes(rows) { const counts=new Map();for(const r of rows)counts.set(r[13],(counts.get(r[13])||0)+r[12]);return [...counts].map(([stemtype,count])=>({stemtype,count})).sort((a,b)=>b.count-a.count||a.stemtype.localeCompare(b.stemtype)); }
   function reconcileColumns(rows, reset=false) { AVAILABLE_STEMTYPES=rankedStemtypes(rows);const allowed=new Set(AVAILABLE_STEMTYPES.map(x=>x.stemtype));let chosen=reset?INITIAL_STEMTYPES:COLUMN_STEMTYPES;chosen=[...new Set(chosen.filter(x=>allowed.has(x)))].slice(0,6);for(const item of AVAILABLE_STEMTYPES){if(chosen.length>=3)break;if(!chosen.includes(item.stemtype))chosen.push(item.stemtype);}COLUMN_STEMTYPES=chosen;INITIAL_STEMTYPES=[]; }
   function columnSelectHtml(stemtype,index) { const selectedElsewhere=new Set(COLUMN_STEMTYPES.filter((_,i)=>i!==index));const opts=AVAILABLE_STEMTYPES.map(item=>`<option value="${esc(item.stemtype)}"${item.stemtype===stemtype?' selected':''}${selectedElsewhere.has(item.stemtype)?' disabled':''}>${esc(item.stemtype)} · ${fmt(item.count)}</option>`).join('');return `<div class="column-heading"><select class="column-stemtype" data-column="${index}" aria-label="Stemtype for column ${index+1}">${opts}</select>${COLUMN_STEMTYPES.length>1?`<button class="remove-column" data-column="${index}" type="button" title="Remove this column" aria-label="Remove column ${index+1}">×</button>`:''}</div>`; }
   function updateColumnBar() { const compare=$("layout").value==='compare';$("column-count").textContent=compare?`${COLUMN_STEMTYPES.length} of 6 columns`:'';$("add-column").disabled=!compare||COLUMN_STEMTYPES.length>=6||COLUMN_STEMTYPES.length>=AVAILABLE_STEMTYPES.length; }
+  function sortedSlots(rows) { const slots=[...new Set(rows.map(slot))];slots.sort((a,b)=>{const ai=ORDER.indexOf(a.split(' ')[0]),bi=ORDER.indexOf(b.split(' ')[0]);if(ai===ORDER.indexOf('PART')&&bi===ai)return nominalRank(a)-nominalRank(b)||a.localeCompare(b);if(ai>=0||bi>=0)return (ai<0?99:ai)-(bi<0?99:bi)||a.localeCompare(b);return nominalRank(a)-nominalRank(b)||a.localeCompare(b)});return slots; }
+  function lemmaParadigmKey(r) { const family=rowFamily(r);return family==='verb'?`verb|${r[5]}|${r[6]}|${r[7]}`:family; }
+  function lemmaParadigmLabel(key) { const [family,t='',m='',v='']=key.split('|');if(family!=='verb')return familyLabel(family);return [LABELS.tense[t]||t,LABELS.mood[m]||m,LABELS.voice[v]||v].filter(Boolean).join(' ')||'Unspecified verb morphology'; }
+  function lemmaParadigmRank(key) { const [family,t='',m='',v='']=key.split('|'),at=(values,item)=>{const i=values.indexOf(item);return i<0?99:i;};if(family!=='verb')return 100000+at(['noun','adjective','other'],family)*1000;return at(['p','i','f','a','r','l','t',''],t)*1000+at(['i','s','o','m','n','p',''],m)*100+at(['a','m','p','e',''],v); }
+  function renderLemmaOverview(q, rows) {
+    $("grid").hidden=true;$("lemma-grid").hidden=false;
+    updateCredits(rows,q.works);
+    const total=rows.reduce((sum,r)=>sum+r[12],0),forms=new Set(rows.map(r=>r[2])).size,stemtypes=new Set(rows.map(r=>r[13])).size,works=new Set(rows.map(r=>r[0])).size;
+    const groups=new Map();for(const r of rows){const key=lemmaParadigmKey(r);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r);}
+    const paradigms=[...groups].sort((a,b)=>lemmaParadigmRank(a[0])-lemmaParadigmRank(b[0])||lemmaParadigmLabel(a[0]).localeCompare(lemmaParadigmLabel(b[0])));
+    const selectedGloss=gloss(q.lemma);
+    if(!rows.length){$("summary").innerHTML=`<strong>No attested forms</strong> · <span>lemma <span class="summary-lemma">${esc(q.lemma)}</span>${q.works.length?` in ${fmt(q.works.length)} selected work${q.works.length===1?'':'s'}`:''}</span>`;$("lemma-grid").innerHTML='';history.replaceState(null,'',`${location.pathname}?${viewerParams(q,q.lemma)}`);return;}
+    $("summary").innerHTML=`<strong>${fmt(forms)} attested form${forms===1?'':'s'}</strong> · <span>lemma <span class="summary-lemma">${esc(q.lemma)}</span>${selectedGloss?` <span class="summary-gloss">${esc(selectedGloss)}</span>`:''}: ${fmt(total)} stemtype assignments across ${fmt(paradigms.length)} paradigm${paradigms.length===1?'':'s'}, ${fmt(stemtypes)} stemtype${stemtypes===1?'':'s'}, and ${fmt(works)} work${works===1?'':'s'}</span>`;
+    let html='<div class="lemma-paradigms">';
+    for(const [key,groupRows] of paradigms){const columns=rankedStemtypes(groupRows).map(x=>x.stemtype),columnTotals=new Map(),cells=new Map();for(const r of groupRows){columnTotals.set(r[13],(columnTotals.get(r[13])||0)+r[12]);const cellKey=`${slot(r)}\t${r[13]}`;if(!cells.has(cellKey))cells.set(cellKey,{total:0,forms:new Map()});const cell=cells.get(cellKey);cell.total+=r[12];const formKey=r[2];cell.forms.set(formKey,(cell.forms.get(formKey)||0)+r[12]);}
+      html+=`<section class="paradigm-section"><h2>${esc(lemmaParadigmLabel(key))}<small>${fmt(groupRows.reduce((sum,r)=>sum+r[12],0))} assignments</small></h2><div class="paradigm-table-wrap"><table><thead><tr><th class="slot">Slot</th>${columns.map(c=>`<th>${esc(c)}<small>${fmt(columnTotals.get(c))} tokens</small></th>`).join('')}</tr></thead><tbody>`;
+      for(const s of sortedSlots(groupRows)){html+=`<tr><th class="slot">${esc(s)}</th>`;for(const col of columns){const cell=cells.get(`${s}\t${col}`);if(!cell){html+='<td class="empty">—</td>';continue;}const ranked=[...cell.forms].map(([form,count])=>({form,count})).sort((a,b)=>b.count-a.count||a.form.localeCompare(b.form));html+=`<td><div class="cell-head"><span>${fmt(ranked.length)} form${ranked.length===1?'':'s'}</span><span class="cell-total">${fmt(cell.total)}</span></div><div class="forms">${ranked.map(x=>`<div class="form-row"><span><a href="${formLink(x.form,q.works)}" target="_blank" rel="noopener">${esc(x.form)}</a></span><b>${fmt(x.count)}</b></div>`).join('')}</div></td>`;}html+='</tr>';}
+      html+='</tbody></table></div></section>';
+    }
+    $("lemma-grid").innerHTML=html+'</div>';history.replaceState(null,'',`${location.pathname}?${viewerParams(q,q.lemma)}`);
+  }
   function render() {
     const q=query(), works=new Set(q.works);
+    if(q.layout==='lemma'){const rows=DATA.rows.filter(r=>(!works.size||works.has(r[0]))&&r[3]===q.lemma);renderLemmaOverview(q,rows);return;}
+    $("grid").hidden=false;$("lemma-grid").hidden=true;$("lemma-grid").innerHTML='';
     const useVerbFilters=q.family==='verb';
     const classRows=DATA.rows.filter(r=>rowFamily(r)===q.family&&(!works.size||works.has(r[0]))&&(!useVerbFilters||!q.tense||r[5]===q.tense)&&(!useVerbFilters||!q.mood||r[6]===q.mood)&&(!useVerbFilters||!q.voice||r[7]===q.voice));
     if(q.layout==='compare'&&!COLUMN_STEMTYPES.length)reconcileColumns(classRows,true);
@@ -82,7 +108,7 @@
     const columns=q.layout==='compare'?[...COLUMN_STEMTYPES]:[...columnTotals.keys()].sort((a,b)=>columnLabel(a,q).localeCompare(columnLabel(b,q)));
     const cells=new Map();
     for(const r of rows){ const key=`${slot(r)}\t${column(r,q)}`; if(!cells.has(key))cells.set(key,{total:0,forms:new Map()}); const c=cells.get(key); c.total+=r[12]; const fk=`${r[2]}\t${r[3]}`; c.forms.set(fk,(c.forms.get(fk)||0)+r[12]); }
-    let slots=[...new Set(rows.map(slot))]; slots.sort((a,b)=>{const ai=ORDER.indexOf(a.split(' ')[0]),bi=ORDER.indexOf(b.split(' ')[0]);if(ai===ORDER.indexOf('PART')&&bi===ai)return nominalRank(a)-nominalRank(b)||a.localeCompare(b);if(ai>=0||bi>=0)return (ai<0?99:ai)-(bi<0?99:bi)||a.localeCompare(b);return nominalRank(a)-nominalRank(b)||a.localeCompare(b)});
+    const slots=sortedSlots(rows);
     const total=rows.reduce((sum,r)=>sum+r[12],0), forms=new Set(rows.map(r=>r[2])).size, lemmas=new Set(rows.map(r=>r[3])).size;
     const selectedGloss=q.lemma?gloss(q.lemma):'';
     const scopeText=q.lemma?`lemma <span class="summary-lemma">${esc(q.lemma)}</span>${selectedGloss?` <span class="summary-gloss">${esc(selectedGloss)}</span>`:''}`:(q.layout==='compare'?`${esc(paradigmLabel(q))} · ${q.stemtypes.map(esc).join(', ')}`:`stemtype ${esc(q.stemtype)} · ${esc(familyLabel(q.family))}`);
@@ -99,8 +125,17 @@
     history.replaceState(null,'',`${location.pathname}?${viewerParams(q,q.lemma)}`);
   }
   async function loadData() {
-    const q=query(); EXPANDED.clear(); $("summary").textContent='Loading attested forms…'; $("grid").innerHTML='';
-    if(q.layout==='compare'){
+    let q=query(); EXPANDED.clear(); $("summary").textContent='Loading attested forms…'; $("grid").innerHTML='';$("lemma-grid").innerHTML='';
+    if(q.layout==='lemma'){
+      if(!q.lemma){$("summary").textContent='Enter a lemma to review all of its paradigms and attested forms.';updateCredits([],q.works);return;}
+      const lemma=resolveLemma(q.lemma),stemtypes=LEMMA_STEMTYPES[lemma]||[];
+      if(lemma!==q.lemma){$("lemma").value=lemma;q=query();}
+      if(!stemtypes.length){$("summary").innerHTML=`<strong>No indexed lemma</strong> · <span>No attested morphology was found for <span class="summary-lemma">${esc(q.lemma)}</span>.</span>`;updateCredits([],q.works);return;}
+      const payloads=await Promise.all(stemtypes.map(stemtype=>{const entry=INDEX.stemtypes.find(x=>x.stemtype===stemtype);return entry?fetch(`stemtype-forms/${entry.file}`,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.json()}):null;}));
+      const rows=[],glosses={};for(const payload of payloads.filter(Boolean)){Object.assign(glosses,payload.glosses||{});for(const row of payload.rows)if(row[3]===q.lemma)rows.push([...row,payload.stemtype]);}
+      DATA={columns:[...(payloads.find(Boolean)?.columns||[]),'stemtype'],glosses,rows};LOADED_PARADIGM='';COLUMN_STEMTYPES=[];AVAILABLE_STEMTYPES=[];
+      const family=rows.length?recognizeFamily(rows):'verb';$("family").value=family;setLayoutControls();render();return;
+    }else if(q.layout==='compare'){
       if(q.family==='verb'&&(!q.tense||!q.mood||!q.voice)){$("summary").textContent='Choose one tense, mood, and voice to compare verbal stemtypes.';return;}
       const key=q.family==='verb'?[q.tense,q.mood,q.voice].join('|'):q.family==='other'?'||':q.family,entry=PARADIGM_INDEX.paradigms.find(x=>x.paradigm===key);
       if(!entry){$("summary").textContent=`No forms are available for ${paradigmLabel(q)}.`;return;}
@@ -118,21 +153,21 @@
     render();
   }
   async function initialize() {
-    [INDEX,PARADIGM_INDEX]=await Promise.all([fetch('stemtype-forms/index.json',{cache:'no-store'}).then(r=>r.json()),fetch('paradigm-forms/index.json',{cache:'no-store'}).then(r=>r.json())]); const p=new URLSearchParams(location.search);
+    [INDEX,PARADIGM_INDEX,LEMMA_STEMTYPES]=await Promise.all([fetch('stemtype-forms/index.json',{cache:'no-store'}).then(r=>r.json()),fetch('paradigm-forms/index.json',{cache:'no-store'}).then(r=>r.json()),fetch('paradigm-forms/lemma-stemtypes.json',{cache:'no-store'}).then(r=>r.json())]); const p=new URLSearchParams(location.search);
     const legacySelected=p.get('layout')==='selected',explicitStemtype=p.has('stemtype')&&!p.has('layout');
-    $("layout").value=explicitStemtype?'stemtype':'compare';
+    $("layout").value=p.get('layout')==='lemma'?'lemma':explicitStemtype?'stemtype':'compare';
     $("stemtype").innerHTML=groupedStemtypeOptions(); $("stemtype").value=p.get('stemtype')||'w_stem';
     INITIAL_STEMTYPES=(p.get('stemtypes')||'').split(',').filter(Boolean).slice(0,6);
     const inferredFamily=INITIAL_STEMTYPES.length?stemtypeFamily(INITIAL_STEMTYPES[0]):'';
     $("family").value=['noun','adjective','other'].includes(p.get('family'))?p.get('family'):(legacySelected&&inferredFamily?inferredFamily:'verb');
     $("tense").innerHTML=options(Object.keys(LABELS.tense),LABELS.tense); $("mood").innerHTML=options(Object.keys(LABELS.mood),LABELS.mood); $("voice").innerHTML=options(Object.keys(LABELS.voice).filter(Boolean),LABELS.voice);
-    $("tense").value=p.get('tense')||''; $("mood").value=p.get('mood')||''; $("voice").value=p.get('voice')||''; $("works").value=p.get('works')||''; $("limit").value=p.get('limit')||'3'; $("lemma").value=p.get('lemma')||''; $("scope").value=p.has('lemma')?'lemma':'class';
+    $("tense").value=p.get('tense')||''; $("mood").value=p.get('mood')||''; $("voice").value=p.get('voice')||''; $("works").value=p.get('works')||''; $("limit").value=p.get('limit')||'3'; $("lemma").value=p.get('lemma')||''; $("scope").value=p.has('lemma')||$("layout").value==='lemma'?'lemma':'class';
     if($("layout").value==='compare'&&$("family").value==='verb'){if(!$("tense").value)$("tense").value='a';if(!$("mood").value)$("mood").value='s';if(!$("voice").value)$("voice").value='a';}
-    const setScope=()=>{$("lemma-field").classList.toggle('inactive',$("scope").value!=='lemma');$("lemma").disabled=$("scope").value!=='lemma';};
+    const setScope=()=>{const enabled=$("layout").value==='lemma'||$("scope").value==='lemma';$("lemma-field").classList.toggle('inactive',!enabled);$("lemma").disabled=!enabled;if($("layout").value==='lemma')populateAllLemmaOptions();};
     setScope();setLayoutControls();
     $("scope").addEventListener('change',()=>{setScope();if($("scope").value==='lemma'&&!$("lemma").value){const first=$("lemma-options").querySelector('option');if(first)$("lemma").value=first.value;}render();});
-    $("lemma").addEventListener('change',()=>{$("scope").value='lemma';setScope();render();});
-    $("layout").addEventListener('change',()=>{COLUMN_STEMTYPES=[];INITIAL_STEMTYPES=[];if($("layout").value==='compare'&&$("family").value==='verb'){if(!$("tense").value)$("tense").value='a';if(!$("mood").value)$("mood").value='s';if(!$("voice").value)$("voice").value='a';}setLayoutControls();loadData();});
+    $("lemma").addEventListener('change',()=>{$("scope").value='lemma';setScope();if($("layout").value==='lemma')loadData();else render();});
+    $("layout").addEventListener('change',()=>{COLUMN_STEMTYPES=[];INITIAL_STEMTYPES=[];if($("layout").value==='lemma')$("scope").value='lemma';if($("layout").value==='compare'&&$("family").value==='verb'){if(!$("tense").value)$("tense").value='a';if(!$("mood").value)$("mood").value='s';if(!$("voice").value)$("voice").value='a';}setScope();setLayoutControls();loadData();});
     $("family").addEventListener('change',()=>{COLUMN_STEMTYPES=[];INITIAL_STEMTYPES=[];LOADED_PARADIGM='';if($("family").value==='verb'){if(!$("tense").value)$("tense").value='a';if(!$("mood").value)$("mood").value='s';if(!$("voice").value)$("voice").value='a';}else for(const id of ['tense','mood','voice'])$(id).value='';setLayoutControls();loadData();});
     $("add-column").addEventListener('click',()=>{const next=AVAILABLE_STEMTYPES.find(item=>!COLUMN_STEMTYPES.includes(item.stemtype));if(next&&COLUMN_STEMTYPES.length<6){COLUMN_STEMTYPES.push(next.stemtype);EXPANDED.clear();render();}});
     $("show").addEventListener('click',loadData); $("stemtype").addEventListener('change',loadData); await loadData();
