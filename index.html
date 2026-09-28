@@ -162,6 +162,16 @@
         .toggle-btn { background: #440000; color: #ffccaa; border: 1px solid #993333; font-size: 11px; padding: 3px 10px; border-radius: 3px; cursor: pointer; font-weight: bold; }
         .toggle-btn.active-mode { background: #fff; color: #660000; border-color: #fff; }
 
+        /* Leave the restore control visible when the reading navigation is
+           collapsed; hiding the whole header would otherwise strand the user. */
+        #header-container.navigation-collapsed #nav-bar,
+        #header-container.navigation-collapsed #browse-bar,
+        #header-container.navigation-collapsed .fc-browse-nav,
+        #header-container.navigation-collapsed .banner-logo-title-group,
+        #header-container.navigation-collapsed .mode-toggle-panel > :not(#top-nav-toggle) { display: none !important; }
+        #header-container.navigation-collapsed #perseus-banner { justify-content: flex-end; padding: 2px 8px; }
+        #top-nav-toggle { white-space: nowrap; }
+
         #nav-bar { background: #ddddcc; border-bottom: 1px solid #999988; padding: 4px 15px; font-size: 11px; font-weight: bold; }
         #browse-bar { background: #eeeeee; border-bottom: 1px solid #cccccc; padding: 6px 15px; font-size: 11px; display: flex; flex-wrap: wrap; gap: 5px; }
         .browse-row { display: flex; align-items: flex-start; width: 100%; }
@@ -1233,6 +1243,8 @@ body:has(#outer-wrapper.one-column) #row-alignment-panel{display:none!important}
             <a class="toggle-btn" href="./lexicon-browser.html" style="text-decoration:none;display:inline-flex;align-items:center;">Browse Lexica</a>
             <button class="toggle-btn" onclick="openMapForCurrentPassage()">Map this passage</button>
             <button class="toggle-btn" onclick="openMapForCurrentBook()">Map this book</button>
+            <button id="top-nav-toggle" class="toggle-btn" type="button"
+                    aria-expanded="true" onclick="toggleTopNavigation()">Hide navigation</button>
         </div>
       </div>
       <div id="nav-bar">
@@ -2619,6 +2631,31 @@ let activeWorkKey = "tlg0003.tlg001";
     let activeColumnsCount = 3;
     let columnEditions = { f: "", c1: "", c2: "", c3: "", c4: "", c5: "", c6: "" };
     let columnCommentaryLanguage = { f: "translation", c1: "translation", c2: "translation", c3: "translation", c4: "translation", c5: "translation", c6: "translation" };
+
+    const TOP_NAV_COLLAPSED_KEY = "pmv.topNavigationCollapsed";
+
+    function applyTopNavigationState(collapsed) {
+        const header = document.getElementById("header-container");
+        const button = document.getElementById("top-nav-toggle");
+        if (!header || !button) return;
+        header.classList.toggle("navigation-collapsed", collapsed);
+        button.setAttribute("aria-expanded", collapsed ? "false" : "true");
+        button.innerText = collapsed ? "Show navigation" : "Hide navigation";
+        button.title = collapsed ? "Restore the top navigation" : "Collapse the top navigation";
+    }
+
+    window.toggleTopNavigation = function() {
+        const header = document.getElementById("header-container");
+        const collapsed = !(header && header.classList.contains("navigation-collapsed"));
+        applyTopNavigationState(collapsed);
+        try { localStorage.setItem(TOP_NAV_COLLAPSED_KEY, collapsed ? "1" : "0"); } catch (_) {}
+    };
+
+    try {
+        applyTopNavigationState(localStorage.getItem(TOP_NAV_COLLAPSED_KEY) === "1");
+    } catch (_) {
+        applyTopNavigationState(false);
+    }
 
     // Minimal default styling for TOC buttons the current Focus edition has
     // no real content at (see getChaptersWithContent / renderNavigationControls).
