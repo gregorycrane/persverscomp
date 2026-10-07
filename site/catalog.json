@@ -6045,8 +6045,8 @@
             "1062-1067",
             "1068-1073"
           ],
-          "bytes": 9469952,
-          "sha256": "3ca2647bad790a5585369a6152f516901eef1c9df1fc1b523f92d859cc1b81e8"
+          "bytes": 9531392,
+          "sha256": "29e6de709f64daf221ad14516368a9b27470c6cddf513948d7eb2bf828af7a1a"
         }
       ],
       "annotations": {
@@ -6380,8 +6380,8 @@
             "1060-1065",
             "1066-1076"
           ],
-          "bytes": 8536064,
-          "sha256": "3578438e16077a38a02cf50cd8e4c232d10fa03ec379d1936573ed7c337d700a"
+          "bytes": 8585216,
+          "sha256": "8469af5e637f99b059c81057a036098b1a4af9cca84acea3ee225e90974a1cf9"
         }
       ],
       "annotations": {
@@ -6661,8 +6661,8 @@
             "1040-1079",
             "1080-1093"
           ],
-          "bytes": 10878976,
-          "sha256": "98f6e6e6e0dd6ecd78b2d5b6bddb9c46f8e112fba366b01dddc662c66190adc5"
+          "bytes": 11157504,
+          "sha256": "4728eb948827500f41960d3564bc7563314d2a712844173662afb97191245976"
         }
       ],
       "annotations": {
@@ -6786,6 +6786,17 @@
           "short_id": "buckley1849-eng2",
           "urn": "urn:cts:greekLit:tlg0085.tlg003.buckley1849-eng2",
           "label": "English (T. Buckley, 1849) (OCR draft)",
+          "doc_type": "translation",
+          "text_class": "english-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        },
+        {
+          "short_id": "potter1779-eng2",
+          "urn": "urn:cts:greekLit:tlg0085.tlg003.potter1779-eng2",
+          "label": "English (Robert Potter, 1779) (OCR draft)",
           "doc_type": "translation",
           "text_class": "english-text",
           "source_version": null,
@@ -6954,8 +6965,8 @@
             "1032-1047",
             "1048-1084"
           ],
-          "bytes": 9609216,
-          "sha256": "e8e399f295776f6ff95b93fc7dc36f0d75e88cc86f2539b855a714f14d87821f"
+          "bytes": 9678848,
+          "sha256": "c49fee21ff6f37ccea71159947dd37683c56eb5c1fbecc92c34ff0054956ff1e"
         }
       ],
       "annotations": {
@@ -7286,8 +7297,8 @@
             "1617-1648",
             "1649-1673"
           ],
-          "bytes": 15216640,
-          "sha256": "d9c39f70fc7936fc3701da65d2c2bfa92bcc62de3cba3968c169e5336fbaf8d2"
+          "bytes": 15351808,
+          "sha256": "4287cd9abeec903fdb82121e635454a87db9beba8154f0e5c8a1f5c2ad099489"
         }
       ],
       "annotations": {
@@ -7647,8 +7658,8 @@
             "1051-1064",
             "1065-1076"
           ],
-          "bytes": 10326016,
-          "sha256": "684ad5e0c1674056b8ee857bac3195603bd016180ba76d099b844f2f41cb63db"
+          "bytes": 10403840,
+          "sha256": "fc5bc0abcf36a82cd935df43dcd23ef4a49feb99c8f0f92280bd68f1e3a5053a"
         }
       ],
       "annotations": {
