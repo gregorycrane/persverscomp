@@ -7993,8 +7993,8 @@
             "1040-1043",
             "1044-1047"
           ],
-          "bytes": 14090240,
-          "sha256": "131981a0896a33069c36fa8a228ce929b6b0ac9ea157b831bd098e73723ad3a2"
+          "bytes": 14082048,
+          "sha256": "8f8a417bbf8783e4e42fedf47c3218f746396f12f773e44fa322f4df657ed725"
         }
       ],
       "annotations": {
@@ -8276,7 +8276,7 @@
           "text_class": "commentary-text",
           "source_version": "sidgwick1887-grc1",
           "source_certainty": "inferred_same_publication",
-          "source_note": "Creator and publication year match the registered source edition; verify against the original volume when available.",
+          "source_note": "Live TEI: urn:cts:greekLit:viaf54220216.viaf001.perseus-eng1 in canonical-pdlrefwk. Creator and publication year match the registered Sidgwick Greek edition; verify against the original volume when available.",
           "translation_of": null
         },
         {
@@ -8381,8 +8381,8 @@
             "25",
             "26"
           ],
-          "bytes": 41816064,
-          "sha256": "3eaf9a5d87e8d3e7b623db1e68eaf3c2791619e49ad9345fdd8b6789cb8a712c"
+          "bytes": 50933760,
+          "sha256": "96469c5a3652c17d4915d9386d3793c3ce8f75010c9360b512aeb424cbd97b93"
         }
       ],
       "annotations": {
@@ -8417,12 +8417,12 @@
         {
           "short_id": "bishrmatta-tb-ara1",
           "urn": "urn:cts:greekLit:tlg0086.tlg034.bishrmatta-tb-ara1",
-          "label": "Treebank (Bishr Mattā Arabic, UD) (OCR draft)",
+          "label": "Treebank (Abū Bishr Mattā Arabic, UD 2026) (experimental LLM draft; scholarly review pending)",
           "doc_type": "treebank",
           "text_class": "treebank-text",
-          "source_version": "perseus-grc2",
-          "source_certainty": null,
-          "source_note": null,
+          "source_version": "tkatsch-ara1",
+          "source_certainty": "direct_annotation",
+          "source_note": "The token text matches the registered Tkatsch Arabic version; subdoc identifiers follow the Kassel 1965 chapter.section alignment grid.",
           "translation_of": null
         },
         {
