@@ -3780,8 +3780,14 @@
       "edition": "nauck1889grc1",
       "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:155",
       "same_as": [],
-      "lines": [],
-      "context": "ἀγρεύματα\n\nHesych. 1 p. 31 : ἀγρεύματα· σκῦλα. Εὐριπίδης Ἀνδρομέδᾳ (ἀνδρόμε. . cod.) . cf. Anecd. Bekk. p. 340 , 16 Etym. M. p. 14 , 1 .",
+      "lines": [
+        {
+          "ref": "1",
+          "source_id": "tlg0006-fr155-l1",
+          "text": "ἀγρεύματα"
+        }
+      ],
+      "context": "Hesych. 1 p. 31 : ἀγρεύματα· σκῦλα. Εὐριπίδης Ἀνδρομέδᾳ (ἀνδρόμε. . cod.) . cf. Anecd. Bekk. p. 340 , 16 Etym. M. p. 14 , 1 .",
       "play_title": "ΑΝΔΡΟΜΕΔΑ",
       "play_work": "andromeda",
       "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_andromeda"
@@ -3792,8 +3798,14 @@
       "edition": "nauck1889grc1",
       "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:156",
       "same_as": [],
-      "lines": [],
-      "context": "ἀμείβεται\n\nHesych. 1 p. 143 : ἀμείβεται· παραιττεῖται. Εὐριπίδης Ἀνδρομέδᾳ . similiter omissa Euripidis mentione Etym. M. p. 81 , 36 . ΑΝΤΙΓΟΝΗ Mythum Euripideae Antigonae eum fuisse quem in cognomini fabula Sophocles proposuit, testatur Aristophanes grammaticus in Argum. Soph. Ant. : κεῖται ἡ μυθοποιία καὶ παρὰ Εὐριπίδῃ ἐν Ἀντιγόνῃ· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον (τίκτει τὸν Μαίονα*) . Schol. Soph. Ant. 1350 : ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη (l. ἐκεῖ μὲν) διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον, ἐνταῦθα δὲ τοὐναντίον. pluribus de argumento Euripideae fabulae et de loco quem singula fragmenta tenuerint disputavit Wecklein Sitzungsb. der philos.–philol. u. histor. Cl. der K. B. Akademie der Wissensch. zu Munchen 1878 vol. 2 p. 186-198 , qui huc referri vult fr. 212 213 214 215 216 853 . dissentit Max. Mayer de Eur. mythopoeia p. 73-77 , qui dramatis argumentum cum Welckero arbitratur contineri iis quae prodit Hyginus fab. 72 : Creon Menoecei filius edixit ne quis Polynicen aut qui una venerunt sepulturae traderet, quod patriam oppugnatum venerint. Antigona soror et Argia coniunx clam noctu Polynicis corpus sublatum in eadem pyra qua Eteocles sepultus est imposuerunt. quae cum a custodibus deprehensae essent, Argia profugit, Antigona ad regem est perducta. ille eam Haemoni, cuius sponsa fuerat, dedit interficiendam. Haemon amore captus patris imperium neglexit et Antigonam ad pastores demandavit ementitusque est se eam interfecisse. quae cum filium procreasset et is ad puberem aetatem venisset, Thebas ad ludos venit. hunc Creon rex, quod ex draconteo genere omnes in corpore insigne habebant, agnovit. cum Hercules pro Haemone deprecaretur ut ei ignosceret, non impetravit. Haemon se et Antigonam coniugem interfecit. at Creon Megaram filiam suam Herculi dedit in coniugium : ex qua nati sunt Therimachus et Diopithes. Heydemann Hygini narrationem ex recentioris cuiusdam poetae Antigona derivatam esse conicit.",
+      "lines": [
+        {
+          "ref": "1",
+          "source_id": "tlg0006-fr156-l1",
+          "text": "ἀμείβεται"
+        }
+      ],
+      "context": "Hesych. 1 p. 143 : ἀμείβεται· παραιττεῖται. Εὐριπίδης Ἀνδρομέδᾳ . similiter omissa Euripidis mentione Etym. M. p. 81 , 36 . ΑΝΤΙΓΟΝΗ Mythum Euripideae Antigonae eum fuisse quem in cognomini fabula Sophocles proposuit, testatur Aristophanes grammaticus in Argum. Soph. Ant. : κεῖται ἡ μυθοποιία καὶ παρὰ Εὐριπίδῃ ἐν Ἀντιγόνῃ· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον (τίκτει τὸν Μαίονα*) . Schol. Soph. Ant. 1350 : ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη (l. ἐκεῖ μὲν) διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον, ἐνταῦθα δὲ τοὐναντίον. pluribus de argumento Euripideae fabulae et de loco quem singula fragmenta tenuerint disputavit Wecklein Sitzungsb. der philos.–philol. u. histor. Cl. der K. B. Akademie der Wissensch. zu Munchen 1878 vol. 2 p. 186-198 , qui huc referri vult fr. 212 213 214 215 216 853 . dissentit Max. Mayer de Eur. mythopoeia p. 73-77 , qui dramatis argumentum cum Welckero arbitratur contineri iis quae prodit Hyginus fab. 72 : Creon Menoecei filius edixit ne quis Polynicen aut qui una venerunt sepulturae traderet, quod patriam oppugnatum venerint. Antigona soror et Argia coniunx clam noctu Polynicis corpus sublatum in eadem pyra qua Eteocles sepultus est imposuerunt. quae cum a custodibus deprehensae essent, Argia profugit, Antigona ad regem est perducta. ille eam Haemoni, cuius sponsa fuerat, dedit interficiendam. Haemon amore captus patris imperium neglexit et Antigonam ad pastores demandavit ementitusque est se eam interfecisse. quae cum filium procreasset et is ad puberem aetatem venisset, Thebas ad ludos venit. hunc Creon rex, quod ex draconteo genere omnes in corpore insigne habebant, agnovit. cum Hercules pro Haemone deprecaretur ut ei ignosceret, non impetravit. Haemon se et Antigonam coniugem interfecit. at Creon Megaram filiam suam Herculi dedit in coniugium : ex qua nati sunt Therimachus et Diopithes. Heydemann Hygini narrationem ex recentioris cuiusdam poetae Antigona derivatam esse conicit.",
       "play_title": "ΑΝΔΡΟΜΕΔΑ",
       "play_work": "andromeda",
       "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_andromeda"
@@ -17471,8 +17483,14 @@
       "edition": "nauck1889grc1",
       "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:643",
       "same_as": [],
-      "lines": [],
-      "context": "βαρὺ τὸ φόρημ’ οἴησις ἀνθρώπου κακοῦ .\n\nStob. Flor. 22 , 1 : Εὐριπίδου Γλαύκῳ (sic SA, in M lemma per errorem ad ecl. 2 translatum est, v. Eur. fr. 425) . ‘βαρὺ τὸ — κακοῦ’ . φόρημ’ Salmasius, φρόνημ’ SΜΑ. βαρύ τι φόρημ’ coni. Wagner, ἦ βαρὺ φόρημ’ (ex Aesch. fr. 392) Cobet coll. crit. p. 226 , qui ipsum versum tragoedia vix dignum censet. οἴησις in ὄνησις mutari vult F. G. Schmidt Krit. Stud. 2 p. 483 . in A codice cum hoc versu coniuncta sunt verba ὅστις γὰρ ἀστῶν πλέον ἔχειν πέφυκ’ ἀνήρ, φίλοις τ’ ἄμικτός ἐστι καὶ πάσῃ πόλει (fr. 425) .",
+      "lines": [
+        {
+          "ref": "1",
+          "source_id": "tlg0006-fr643-l1",
+          "text": "βαρὺ τὸ φόρημ’ οἴησις ἀνθρώπου κακοῦ ."
+        }
+      ],
+      "context": "Stob. Flor. 22 , 1 : Εὐριπίδου Γλαύκῳ (sic SA, in M lemma per errorem ad ecl. 2 translatum est, v. Eur. fr. 425) . ‘βαρὺ τὸ — κακοῦ’ . φόρημ’ Salmasius, φρόνημ’ SΜΑ. βαρύ τι φόρημ’ coni. Wagner, ἦ βαρὺ φόρημ’ (ex Aesch. fr. 392) Cobet coll. crit. p. 226 , qui ipsum versum tragoedia vix dignum censet. οἴησις in ὄνησις mutari vult F. G. Schmidt Krit. Stud. 2 p. 483 . in A codice cum hoc versu coniuncta sunt verba ὅστις γὰρ ἀστῶν πλέον ἔχειν πέφυκ’ ἀνήρ, φίλοις τ’ ἄμικτός ἐστι καὶ πάσῃ πόλει (fr. 425) .",
       "play_title": "ΠΟΛΥΙΔΟΣ",
       "play_work": "polyidos",
       "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_polyidos"
@@ -20459,8 +20477,14 @@
       "edition": "nauck1889grc1",
       "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:770",
       "same_as": [],
-      "lines": [],
-      "context": "νεαρός\n\nAntiatt. p. 109 , 15 : νεαρός· ἀντὶ τοῦ νέος. Εὐριπίδης Ὑψιπύλῃ .",
+      "lines": [
+        {
+          "ref": "1",
+          "source_id": "tlg0006-fr770-l1",
+          "text": "νεαρός"
+        }
+      ],
+      "context": "Antiatt. p. 109 , 15 : νεαρός· ἀντὶ τοῦ νέος. Εὐριπίδης Ὑψιπύλῃ .",
       "play_title": "ΥΨΙΠΥΛΗ",
       "play_work": "ypsipyle",
       "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle"
@@ -34830,8 +34854,14 @@
           "edition": "nauck1889grc1",
           "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:155",
           "same_as": [],
-          "lines": [],
-          "context": "ἀγρεύματα\n\nHesych. 1 p. 31 : ἀγρεύματα· σκῦλα. Εὐριπίδης Ἀνδρομέδᾳ (ἀνδρόμε. . cod.) . cf. Anecd. Bekk. p. 340 , 16 Etym. M. p. 14 , 1 .",
+          "lines": [
+            {
+              "ref": "1",
+              "source_id": "tlg0006-fr155-l1",
+              "text": "ἀγρεύματα"
+            }
+          ],
+          "context": "Hesych. 1 p. 31 : ἀγρεύματα· σκῦλα. Εὐριπίδης Ἀνδρομέδᾳ (ἀνδρόμε. . cod.) . cf. Anecd. Bekk. p. 340 , 16 Etym. M. p. 14 , 1 .",
           "play_title": "ΑΝΔΡΟΜΕΔΑ",
           "play_work": "andromeda",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_andromeda",
@@ -34844,8 +34874,14 @@
           "edition": "nauck1889grc1",
           "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:156",
           "same_as": [],
-          "lines": [],
-          "context": "ἀμείβεται\n\nHesych. 1 p. 143 : ἀμείβεται· παραιττεῖται. Εὐριπίδης Ἀνδρομέδᾳ . similiter omissa Euripidis mentione Etym. M. p. 81 , 36 . ΑΝΤΙΓΟΝΗ Mythum Euripideae Antigonae eum fuisse quem in cognomini fabula Sophocles proposuit, testatur Aristophanes grammaticus in Argum. Soph. Ant. : κεῖται ἡ μυθοποιία καὶ παρὰ Εὐριπίδῃ ἐν Ἀντιγόνῃ· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον (τίκτει τὸν Μαίονα*) . Schol. Soph. Ant. 1350 : ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη (l. ἐκεῖ μὲν) διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον, ἐνταῦθα δὲ τοὐναντίον. pluribus de argumento Euripideae fabulae et de loco quem singula fragmenta tenuerint disputavit Wecklein Sitzungsb. der philos.–philol. u. histor. Cl. der K. B. Akademie der Wissensch. zu Munchen 1878 vol. 2 p. 186-198 , qui huc referri vult fr. 212 213 214 215 216 853 . dissentit Max. Mayer de Eur. mythopoeia p. 73-77 , qui dramatis argumentum cum Welckero arbitratur contineri iis quae prodit Hyginus fab. 72 : Creon Menoecei filius edixit ne quis Polynicen aut qui una venerunt sepulturae traderet, quod patriam oppugnatum venerint. Antigona soror et Argia coniunx clam noctu Polynicis corpus sublatum in eadem pyra qua Eteocles sepultus est imposuerunt. quae cum a custodibus deprehensae essent, Argia profugit, Antigona ad regem est perducta. ille eam Haemoni, cuius sponsa fuerat, dedit interficiendam. Haemon amore captus patris imperium neglexit et Antigonam ad pastores demandavit ementitusque est se eam interfecisse. quae cum filium procreasset et is ad puberem aetatem venisset, Thebas ad ludos venit. hunc Creon rex, quod ex draconteo genere omnes in corpore insigne habebant, agnovit. cum Hercules pro Haemone deprecaretur ut ei ignosceret, non impetravit. Haemon se et Antigonam coniugem interfecit. at Creon Megaram filiam suam Herculi dedit in coniugium : ex qua nati sunt Therimachus et Diopithes. Heydemann Hygini narrationem ex recentioris cuiusdam poetae Antigona derivatam esse conicit.",
+          "lines": [
+            {
+              "ref": "1",
+              "source_id": "tlg0006-fr156-l1",
+              "text": "ἀμείβεται"
+            }
+          ],
+          "context": "Hesych. 1 p. 143 : ἀμείβεται· παραιττεῖται. Εὐριπίδης Ἀνδρομέδᾳ . similiter omissa Euripidis mentione Etym. M. p. 81 , 36 . ΑΝΤΙΓΟΝΗ Mythum Euripideae Antigonae eum fuisse quem in cognomini fabula Sophocles proposuit, testatur Aristophanes grammaticus in Argum. Soph. Ant. : κεῖται ἡ μυθοποιία καὶ παρὰ Εὐριπίδῃ ἐν Ἀντιγόνῃ· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον (τίκτει τὸν Μαίονα*) . Schol. Soph. Ant. 1350 : ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη (l. ἐκεῖ μὲν) διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον, ἐνταῦθα δὲ τοὐναντίον. pluribus de argumento Euripideae fabulae et de loco quem singula fragmenta tenuerint disputavit Wecklein Sitzungsb. der philos.–philol. u. histor. Cl. der K. B. Akademie der Wissensch. zu Munchen 1878 vol. 2 p. 186-198 , qui huc referri vult fr. 212 213 214 215 216 853 . dissentit Max. Mayer de Eur. mythopoeia p. 73-77 , qui dramatis argumentum cum Welckero arbitratur contineri iis quae prodit Hyginus fab. 72 : Creon Menoecei filius edixit ne quis Polynicen aut qui una venerunt sepulturae traderet, quod patriam oppugnatum venerint. Antigona soror et Argia coniunx clam noctu Polynicis corpus sublatum in eadem pyra qua Eteocles sepultus est imposuerunt. quae cum a custodibus deprehensae essent, Argia profugit, Antigona ad regem est perducta. ille eam Haemoni, cuius sponsa fuerat, dedit interficiendam. Haemon amore captus patris imperium neglexit et Antigonam ad pastores demandavit ementitusque est se eam interfecisse. quae cum filium procreasset et is ad puberem aetatem venisset, Thebas ad ludos venit. hunc Creon rex, quod ex draconteo genere omnes in corpore insigne habebant, agnovit. cum Hercules pro Haemone deprecaretur ut ei ignosceret, non impetravit. Haemon se et Antigonam coniugem interfecit. at Creon Megaram filiam suam Herculi dedit in coniugium : ex qua nati sunt Therimachus et Diopithes. Heydemann Hygini narrationem ex recentioris cuiusdam poetae Antigona derivatam esse conicit.",
           "play_title": "ΑΝΔΡΟΜΕΔΑ",
           "play_work": "andromeda",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_andromeda",
@@ -35400,7 +35436,7 @@
           "source": "tlg0006.fragmenta.nauck1889grc1.xml"
         }
       ],
-      "line_count": 156,
+      "line_count": 158,
       "status": "Fragmentary text"
     },
     "tlg0006-antiope": {
@@ -50306,8 +50342,14 @@
           "edition": "nauck1889grc1",
           "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:643",
           "same_as": [],
-          "lines": [],
-          "context": "βαρὺ τὸ φόρημ’ οἴησις ἀνθρώπου κακοῦ .\n\nStob. Flor. 22 , 1 : Εὐριπίδου Γλαύκῳ (sic SA, in M lemma per errorem ad ecl. 2 translatum est, v. Eur. fr. 425) . ‘βαρὺ τὸ — κακοῦ’ . φόρημ’ Salmasius, φρόνημ’ SΜΑ. βαρύ τι φόρημ’ coni. Wagner, ἦ βαρὺ φόρημ’ (ex Aesch. fr. 392) Cobet coll. crit. p. 226 , qui ipsum versum tragoedia vix dignum censet. οἴησις in ὄνησις mutari vult F. G. Schmidt Krit. Stud. 2 p. 483 . in A codice cum hoc versu coniuncta sunt verba ὅστις γὰρ ἀστῶν πλέον ἔχειν πέφυκ’ ἀνήρ, φίλοις τ’ ἄμικτός ἐστι καὶ πάσῃ πόλει (fr. 425) .",
+          "lines": [
+            {
+              "ref": "1",
+              "source_id": "tlg0006-fr643-l1",
+              "text": "βαρὺ τὸ φόρημ’ οἴησις ἀνθρώπου κακοῦ ."
+            }
+          ],
+          "context": "Stob. Flor. 22 , 1 : Εὐριπίδου Γλαύκῳ (sic SA, in M lemma per errorem ad ecl. 2 translatum est, v. Eur. fr. 425) . ‘βαρὺ τὸ — κακοῦ’ . φόρημ’ Salmasius, φρόνημ’ SΜΑ. βαρύ τι φόρημ’ coni. Wagner, ἦ βαρὺ φόρημ’ (ex Aesch. fr. 392) Cobet coll. crit. p. 226 , qui ipsum versum tragoedia vix dignum censet. οἴησις in ὄνησις mutari vult F. G. Schmidt Krit. Stud. 2 p. 483 . in A codice cum hoc versu coniuncta sunt verba ὅστις γὰρ ἀστῶν πλέον ἔχειν πέφυκ’ ἀνήρ, φίλοις τ’ ἄμικτός ἐστι καὶ πάσῃ πόλει (fr. 425) .",
           "play_title": "ΠΟΛΥΙΔΟΣ",
           "play_work": "polyidos",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_polyidos",
@@ -50418,7 +50460,7 @@
           "source": "tlg0006.fragmenta.nauck1889grc1.xml"
         }
       ],
-      "line_count": 34,
+      "line_count": 35,
       "status": "Fragmentary text"
     },
     "tlg0006-protesilaos": {
@@ -53824,8 +53866,14 @@
           "edition": "nauck1889grc1",
           "source_fragment_urn": "urn:cts:greekLit:tlg0006.fragmenta.nauck1889grc1:770",
           "same_as": [],
-          "lines": [],
-          "context": "νεαρός\n\nAntiatt. p. 109 , 15 : νεαρός· ἀντὶ τοῦ νέος. Εὐριπίδης Ὑψιπύλῃ .",
+          "lines": [
+            {
+              "ref": "1",
+              "source_id": "tlg0006-fr770-l1",
+              "text": "νεαρός"
+            }
+          ],
+          "context": "Antiatt. p. 109 , 15 : νεαρός· ἀντὶ τοῦ νέος. Εὐριπίδης Ὑψιπύλῃ .",
           "play_title": "ΥΨΙΠΥΛΗ",
           "play_work": "ypsipyle",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0006_ypsipyle",
@@ -53841,7 +53889,7 @@
           "source": "tlg0006.fragmenta.nauck1889grc1.xml"
         }
       ],
-      "line_count": 40,
+      "line_count": 41,
       "status": "Fragmentary text"
     },
     "tlg0006-phaethon": {

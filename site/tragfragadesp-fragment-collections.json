@@ -8837,8 +8837,14 @@
       "edition": "nauck1889grc1",
       "source_fragment_urn": "urn:cts:greekLit:tragfragadesp.fragmenta.nauck1889grc1:440",
       "same_as": [],
-      "lines": [],
-      "context": "ταὐτὸ πρὸς τύμβον τε κλαίειν καὶ πρὸς ἄνδρα νήπιον.\n\nSchol. Aesch. Choeph. 926 : ἔοικα θρηνεῖν ζῶσα πρὸς τύμβον μάτην] παροιμίαν (παροιμία M m. sec.) εἶναι τοῦτο φασὶ πρὸς τύμβου (τύμβον Robort.) τε κλαίειν καὶ πρὸς ἄνδρα νήπιον. prodi videtur versus tragicus. παροιμία εἶναι ταὐτόν φησι probabiliter correxit Hartung. νήπιον dubito num sanum sit, expectes ἀνήμερον.",
+      "lines": [
+        {
+          "ref": "1",
+          "source_id": "tragfragadesp-fr440-l1",
+          "text": "ταὐτὸ πρὸς τύμβον τε κλαίειν καὶ πρὸς ἄνδρα νήπιον."
+        }
+      ],
+      "context": "Schol. Aesch. Choeph. 926 : ἔοικα θρηνεῖν ζῶσα πρὸς τύμβον μάτην] παροιμίαν (παροιμία M m. sec.) εἶναι τοῦτο φασὶ πρὸς τύμβου (τύμβον Robort.) τε κλαίειν καὶ πρὸς ἄνδρα νήπιον. prodi videtur versus tragicus. παροιμία εἶναι ταὐτόν φησι probabiliter correxit Hartung. νήπιον dubito num sanum sit, expectes ἀνήμερον.",
       "play_title": "ΩΡΑΙ (?)",
       "play_work": "orai",
       "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tragfragadesp_orai"
@@ -22414,8 +22420,14 @@
           "edition": "nauck1889grc1",
           "source_fragment_urn": "urn:cts:greekLit:tragfragadesp.fragmenta.nauck1889grc1:440",
           "same_as": [],
-          "lines": [],
-          "context": "ταὐτὸ πρὸς τύμβον τε κλαίειν καὶ πρὸς ἄνδρα νήπιον.\n\nSchol. Aesch. Choeph. 926 : ἔοικα θρηνεῖν ζῶσα πρὸς τύμβον μάτην] παροιμίαν (παροιμία M m. sec.) εἶναι τοῦτο φασὶ πρὸς τύμβου (τύμβον Robort.) τε κλαίειν καὶ πρὸς ἄνδρα νήπιον. prodi videtur versus tragicus. παροιμία εἶναι ταὐτόν φησι probabiliter correxit Hartung. νήπιον dubito num sanum sit, expectes ἀνήμερον.",
+          "lines": [
+            {
+              "ref": "1",
+              "source_id": "tragfragadesp-fr440-l1",
+              "text": "ταὐτὸ πρὸς τύμβον τε κλαίειν καὶ πρὸς ἄνδρα νήπιον."
+            }
+          ],
+          "context": "Schol. Aesch. Choeph. 926 : ἔοικα θρηνεῖν ζῶσα πρὸς τύμβον μάτην] παροιμίαν (παροιμία M m. sec.) εἶναι τοῦτο φασὶ πρὸς τύμβου (τύμβον Robort.) τε κλαίειν καὶ πρὸς ἄνδρα νήπιον. prodi videtur versus tragicus. παροιμία εἶναι ταὐτόν φησι probabiliter correxit Hartung. νήπιον dubito num sanum sit, expectes ἀνήμερον.",
           "play_title": "ΩΡΑΙ (?)",
           "play_work": "orai",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tragfragadesp_orai",
@@ -26296,7 +26308,7 @@
           "source": "tragfragadesp.fragmenta.nauck1889grc1.xml"
         }
       ],
-      "line_count": 891,
+      "line_count": 892,
       "status": "Fragmentary text"
     }
   },
