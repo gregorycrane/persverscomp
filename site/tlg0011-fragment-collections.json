@@ -7,19 +7,29 @@
     {
       "short_id": "dindorf1893-grc1",
       "edition_urn": null,
-      "label": "Greek (Dindorf, 1893; OCR draft)",
+      "label": "Greek (Dindorf, 8th ed., 1893; OCR draft)",
+      "collection_year": 1830,
+      "collection_order": 1,
+      "source_edition_number": 8,
+      "source_edition_year": 1893,
       "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
     },
     {
       "short_id": "nauck1889grc1",
       "edition_urn": null,
       "label": "Greek (Nauck, 1889; OCR draft)",
+      "collection_year": 1889,
+      "collection_order": 2,
+      "source_edition_year": 1889,
       "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
     },
     {
       "short_id": "pearson1917-grc1",
       "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
       "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+      "collection_year": 1917,
+      "collection_order": 3,
+      "source_edition_year": 1917,
       "source": [
         "sophocles.fragments.jebbetal1917v1-mul1.xml",
         "sophocles.fragments.jebbetal1917v2-mul1.xml",

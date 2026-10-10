@@ -3,14 +3,18 @@
   "textgroup": "tlg0019",
   "author": "Aristophanes",
   "corpus_title": "Aristophanes, Fragments",
-  "source_label": "Greek (Dindorf, 1893; OCR draft)",
+  "source_label": "Greek (Dindorf, 8th ed., 1893; OCR draft)",
   "canonical_source": "/Users/gcrane/github/grcnewxml/data/tlg0019",
   "source_format": "tei-play-level",
   "versions": [
     {
       "short_id": "dindorf1893-grc1",
       "edition_urn": null,
-      "label": "Greek (Dindorf, 1893; OCR draft)",
+      "label": "Greek (Dindorf, 8th ed., 1893; OCR draft)",
+      "collection_year": 1830,
+      "collection_order": 1,
+      "source_edition_number": 8,
+      "source_edition_year": 1893,
       "source": "/Users/gcrane/github/grcnewxml/data/tlg0019"
     }
   ],

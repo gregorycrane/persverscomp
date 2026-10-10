@@ -7,13 +7,20 @@
     {
       "short_id": "dindorf1893-grc1",
       "edition_urn": null,
-      "label": "Greek (Dindorf, 1893; OCR draft)",
+      "label": "Greek (Dindorf, 8th ed., 1893; OCR draft)",
+      "collection_year": 1830,
+      "collection_order": 1,
+      "source_edition_number": 8,
+      "source_edition_year": 1893,
       "source": "/Users/gcrane/github/grcnewxml/data/tlg0006"
     },
     {
       "short_id": "nauck1889grc1",
       "edition_urn": null,
       "label": "Greek (Nauck, 1889; OCR draft)",
+      "collection_year": 1889,
+      "collection_order": 2,
+      "source_edition_year": 1889,
       "source": "/Users/gcrane/github/grcnewxml/data/tlg0006"
     }
   ],
