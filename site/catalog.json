@@ -6045,8 +6045,8 @@
       "1062-1067",
       "1068-1073"
      ],
-     "bytes": 9531392,
-     "sha256": "0ddd17879095276dc703e90ed8bac3848e8150dc919cfc8af8cda9f2b2609c50"
+     "bytes": 9969664,
+     "sha256": "e71b227ee632bdd3cae93fb678ac7262bdf7cf4310553facb9f4716934748720"
     }
    ],
    "annotations": {
@@ -6380,8 +6380,8 @@
       "1060-1065",
       "1066-1076"
      ],
-     "bytes": 8585216,
-     "sha256": "ebe4d873facd6ca10786faed243405dbc11c22a1af7dc33f44f64caaa744edd1"
+     "bytes": 9035776,
+     "sha256": "67bdc5cd8e9bd1770ca5c52435f33ff78c230e3a3d0d410c7d419fa390251b3b"
     }
    ],
    "annotations": {
@@ -6661,8 +6661,8 @@
       "1040-1079",
       "1080-1093"
      ],
-     "bytes": 11157504,
-     "sha256": "6e96d0e5b929c74b57d8da25fd314de62562b9023126a7fd6f494602407bce85"
+     "bytes": 11620352,
+     "sha256": "06062521b40d5c421d5d20233112a91db4ecde1035168922ac4f1ee25c5b5734"
     }
    ],
    "annotations": {
@@ -6965,8 +6965,8 @@
       "1032-1047",
       "1048-1084"
      ],
-     "bytes": 9678848,
-     "sha256": "6145326f3605efa824431a91143febe7dd3f3c030d34a269e9286631075c40ab"
+     "bytes": 10108928,
+     "sha256": "364138794e165d381429eba212e581719990248ea066ae3716d49ab031764157"
     }
    ],
    "annotations": {
@@ -7297,8 +7297,8 @@
       "1617-1648",
       "1649-1673"
      ],
-     "bytes": 15351808,
-     "sha256": "81ea8aa968647ff04d773fbf4d63eae9a85b58ac4d178fae0728b9631f8836ac"
+     "bytes": 15753216,
+     "sha256": "349e335c1f56c6cef186f5fc0637a67f45b6ffbdfcbdbcf7e6c4f46f37cc8348"
     }
    ],
    "annotations": {
@@ -7549,14 +7549,6 @@
      "source_certainty": null,
      "source_note": null,
      "translation_of": null
-    },
-    {
-     "canonical_id": "tlg0085_tlg005_claudel_1896_translation",
-     "short_id": "claudel1896-fra1",
-     "urn": "urn:cts:greekLit:tlg0085.tlg005.claudel1896-fra1",
-     "label": "French (Paul Claudel, 1896; OCR, approximate alignment)",
-     "doc_type": "translation",
-     "text_class": "french-text"
     }
    ],
    "label": "Commentary (N. Wecklein, 1888; German; OCR draft)",
@@ -7658,8 +7650,8 @@
       "1051-1064",
       "1065-1076"
      ],
-     "bytes": 10403840,
-     "sha256": "da50c251fb32127f1041fbbd5c6138d99ada11e9ce4ecbeed49018a123daf685"
+     "bytes": 10760192,
+     "sha256": "3e9628ca3d973a05521c68168fe9aa3cb34371faa8274598845da5fbf3b16617"
     }
    ],
    "annotations": {
@@ -7899,14 +7891,6 @@
      "source_certainty": null,
      "source_note": null,
      "translation_of": null
-    },
-    {
-     "canonical_id": "tlg0085_tlg006_claudel_1920_translation",
-     "short_id": "claudel1920-fra1",
-     "urn": "urn:cts:greekLit:tlg0085.tlg006.claudel1920-fra1",
-     "label": "French (Paul Claudel, 1920; OCR, approximate alignment)",
-     "doc_type": "translation",
-     "text_class": "french-text"
     }
    ],
    "label": "Commentary (N. Wecklein, 1888; German; OCR draft)",
