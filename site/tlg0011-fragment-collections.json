@@ -7,29 +7,19 @@
     {
       "short_id": "dindorf1893-grc1",
       "edition_urn": null,
-      "label": "Greek (Dindorf, 8th ed., 1893; OCR draft)",
-      "collection_year": 1830,
-      "collection_order": 1,
-      "source_edition_number": 8,
-      "source_edition_year": 1893,
-      "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+      "label": "Greek (Dindorf, 1893; OCR draft)",
+      "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
     },
     {
       "short_id": "nauck1889grc1",
       "edition_urn": null,
       "label": "Greek (Nauck, 1889; OCR draft)",
-      "collection_year": 1889,
-      "collection_order": 2,
-      "source_edition_year": 1889,
-      "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+      "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
     },
     {
       "short_id": "pearson1917-grc1",
       "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
       "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
-      "collection_year": 1917,
-      "collection_order": 3,
-      "source_edition_year": 1917,
       "source": [
         "sophocles.fragments.jebbetal1917v1-mul1.xml",
         "sophocles.fragments.jebbetal1917v2-mul1.xml",
@@ -764,13 +754,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.athamas_a_kai_b.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.athamas_a_kai_b.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -2237,13 +2227,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aias_lokros.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aias_lokros.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -3569,13 +3559,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aigeys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aigeys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -4322,7 +4312,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aigisthos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -4921,13 +4911,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aithiopes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aithiopes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -7380,13 +7370,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aichmalotides.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aichmalotides.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -10935,13 +10925,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.akrisios.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.akrisios.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -13938,13 +13928,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aleadai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aleadai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -16006,13 +15996,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.alexandros.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.alexandros.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -17591,13 +17581,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aletes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.aletes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -18739,13 +18729,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amykos_satyrikos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amykos_satyrikos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -19752,13 +19742,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amphiareos_satyrikos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amphiareos_satyrikos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -20888,13 +20878,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amphitryon.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.amphitryon.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -21259,13 +21249,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.andromache.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.andromache.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -22297,13 +22287,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.andromeda.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.andromeda.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -23555,13 +23545,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.antenoridai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.antenoridai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -24040,13 +24030,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.atreys_e_mykenaiai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.atreys_e_mykenaiai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -24915,7 +24905,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.achaion_syllogos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -26481,13 +26471,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.achilleos_erastai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.achilleos_erastai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -27860,13 +27850,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.daidalos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.daidalos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -28863,13 +28853,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.danae.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.danae.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -29606,13 +29596,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.dionysiskos_satyrikos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.dionysiskos_satyrikos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -30012,13 +30002,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.dolopes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.dolopes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -30611,13 +30601,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.elenes_apaitesis.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.elenes_apaitesis.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -31419,13 +31409,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.elenes_gamos_satyrikos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.elenes_gamos_satyrikos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -31998,13 +31988,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.epigonoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.epigonoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 12,
@@ -33114,13 +33104,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eriphyle.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eriphyle.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -34317,13 +34307,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eris.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eris.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -34772,13 +34762,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ermione.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ermione.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -35152,13 +35142,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eymelos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eymelos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -35376,7 +35366,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eyryalos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 0,
@@ -39024,7 +39014,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.eyrysakes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -39854,13 +39844,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.erakles_epi_tainaroi_satyroi_erakleiskos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.erakles_epi_tainaroi_satyroi_erakleiskos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -40863,13 +40853,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.erigone.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.erigone.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -41857,13 +41847,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.thamyras.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.thamyras.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -42774,13 +42764,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.theseys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.theseys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -44803,13 +44793,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.thyestes_en_sikyoni.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.thyestes_en_sikyoni.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -48850,13 +48840,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.inachos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.inachos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -51112,13 +51102,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ixion.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ixion.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -51419,13 +51409,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.iobates.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.iobates.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -52058,13 +52048,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ipponoys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ipponoys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -53199,13 +53189,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.iphigeneia.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.iphigeneia.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -54228,13 +54218,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ichneytai_satyroi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ichneytai_satyroi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -54805,13 +54795,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ion.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ion.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -55547,13 +55537,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kamikoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kamikoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -56514,13 +56504,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kedalion.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kedalion.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -57170,13 +57160,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.klytaimestra.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.klytaimestra.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -58365,13 +58355,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kolchides.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -60433,13 +60423,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kreoysa.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kreoysa.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -61609,13 +61599,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.krisis.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.krisis.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -62102,13 +62092,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kophoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.kophoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -62749,13 +62739,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.lakainai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.lakainai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -63740,13 +63730,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.laokoon.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.laokoon.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -64809,7 +64799,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.larisaioi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -65710,13 +65700,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.lemniai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.lemniai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -67101,13 +67091,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.manteis.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.manteis.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -68459,13 +68449,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.meleagros.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.meleagros.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -69938,13 +69928,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.mysoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.mysoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -71322,13 +71312,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.momos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.momos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -71951,7 +71941,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.nayplios_katapleon.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 9,
@@ -72805,7 +72795,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.nayplios_pyrkaeys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -73846,13 +73836,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.naysikaa.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.naysikaa.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -74911,13 +74901,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.niobe.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.niobe.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -75793,13 +75783,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.xoanephoroi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.xoanephoroi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -76657,13 +76647,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.odysseys_akanthoplex.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.odysseys_akanthoplex.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -77894,13 +77884,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.odysseys_mainomenos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.odysseys_mainomenos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -78522,7 +78512,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.oikles.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -79487,13 +79477,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.oinomaos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.oinomaos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -80627,13 +80617,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.palamedes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.palamedes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -81395,13 +81385,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.pandora.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.pandora.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -82662,13 +82652,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.peleys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.peleys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -85347,13 +85337,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.poimenes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.poimenes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -87948,13 +87938,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.polyxene.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.polyxene.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -88950,13 +88940,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.priamos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.priamos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -89339,13 +89329,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.prokris.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.prokris.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -89839,13 +89829,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.rizotomoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.rizotomoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -90663,13 +90653,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.salmoneys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.salmoneys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -91364,13 +91354,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.sinon.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.sinon.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -91741,13 +91731,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.sisyphos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.sisyphos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -92360,13 +92350,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.skythai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.skythai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -93818,13 +93808,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.skyrioi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.skyrioi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -95945,7 +95935,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tantalos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -96637,13 +96627,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.teykros.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.teykros.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -97159,13 +97149,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.telephos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.telephos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -98995,13 +98985,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tereys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tereys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -102425,13 +102415,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.triptolemos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.triptolemos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -105475,13 +105465,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.troilos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.troilos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -107640,13 +107630,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tympanistai.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tympanistai.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -108645,13 +108635,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tyndareos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tyndareos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -110885,13 +110875,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tyro.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.tyro.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -113338,13 +113328,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ybris.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ybris.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -113820,13 +113810,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phaiakes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phaiakes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -115503,13 +115493,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phaidra.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phaidra.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -117393,13 +117383,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phthiotides.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phthiotides.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -118275,13 +118265,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.philoktetes.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.philoktetes.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -119715,13 +119705,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phineys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phineys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -120978,13 +120968,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phoinix.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phoinix.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -121524,13 +121514,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phrixos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phrixos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -121908,13 +121898,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phryges.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.phryges.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -122475,13 +122465,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.chryses.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.chryses.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -141972,7 +141962,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "pearson1917-grc1",
@@ -164447,13 +164437,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.achaion_syllogos_e_syndeipnoi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.achaion_syllogos_e_syndeipnoi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 47,
@@ -165205,13 +165195,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.alkmeon.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.alkmeon.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 6,
@@ -165881,7 +165871,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.gklomenta_bybia_et_drykia.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 54,
@@ -174141,7 +174131,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.inoeetakym_gabyi_akym_reaomenta.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 491,
@@ -182914,7 +182904,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.minos.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 1,
@@ -183303,7 +183293,7 @@
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.nayplios_katapleon_et_nayplios_pyrkaeys.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 26,
@@ -183745,13 +183735,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.pelias.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.pelias.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 1,
@@ -183937,13 +183927,13 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ydrophoroi.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         },
         {
           "short_id": "nauck1889grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.ydrophoroi.nauck1889grc1",
           "label": "Greek (Nauck, 1889; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 4,
@@ -184123,7 +184113,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.iolaos.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 2,
@@ -184205,7 +184195,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.oineys.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 0,
@@ -184309,7 +184299,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.oreithyia.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 3,
@@ -184399,7 +184389,7 @@
           "short_id": "dindorf1893-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.soteres.dindorf1893-grc1",
           "label": "Greek (Dindorf, 1893; OCR draft)",
-          "source": "/Users/gcrane/github/grcnewxml/data/tlg0011"
+          "source": "/Users/gcrane/github/grcnewfragments/data/tlg0011"
         }
       ],
       "line_count": 0,
