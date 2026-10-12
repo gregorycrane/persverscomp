@@ -129,6 +129,31 @@
             margin-right: 6px;
             vertical-align: middle;
         }
+        .confidence-swatch {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 6px;
+            vertical-align: -2px;
+            background: #660000;
+            border: 2px solid #660000;
+            box-sizing: border-box;
+        }
+        .confidence-probable { background: rgba(102,0,0,0.5); border-style: dashed; }
+        .confidence-uncertain { background: rgba(102,0,0,0.2); border-style: dotted; }
+        .precision-swatch {
+            display: inline-block;
+            border: 1px solid #555;
+            border-radius: 50%;
+            margin: 0 8px 0 2px;
+            vertical-align: middle;
+        }
+        .precision-point { width: 7px; height: 7px; }
+        .precision-centroid { width: 11px; height: 11px; }
+        .precision-approximate { width: 15px; height: 15px; }
+        .place-evidence { margin-top: 7px; padding-top: 6px; border-top: 1px solid #ddd; color: #555; }
+        .place-evidence b { color: #333; }
         .place-label {
             background: rgba(255,255,255,0.85);
             border: none;
@@ -145,7 +170,7 @@
     <div id="header">
         <div>
             <h2 id="passage-title">Loading passage…</h2>
-            <p id="passage-subtitle">Places attested here (ToposText)</p>
+            <p id="passage-subtitle">Places attested here</p>
         </div>
         <div id="header-nav">
             <label id="label-toggle-row">
@@ -180,6 +205,36 @@
     // through every function or re-parsing the URL repeatedly.
     let currentWorkKey = null, currentBook = null, currentChapter = null, currentSection = null, currentDb = null;
     let currentMapInstance = null;
+
+    // Place references can come from different scholarly datasets. Most of
+    // the original map pilots use ToposText, while ŠKZ uses the geographic
+    // data supplied with the Shamsian/Berti inscription corpus. Keep the
+    // attribution tied to the work instead of making a false global claim.
+    const DEFAULT_PLACE_SOURCE = {
+        label: "ToposText",
+        url: "https://topostext.org/",
+        terms: "used under its published terms"
+    };
+    const PLACE_SOURCE_BY_WORK = {
+        "skz.inscription": {
+            label: "ŠKZ project (Shamsian and Berti)",
+            url: "https://github.com/farnoosh-shamsian/SKZ",
+            terms: "CC BY-SA 4.0"
+        }
+    };
+    let currentPlaceSource = DEFAULT_PLACE_SOURCE;
+
+    function placeSourceHtml() {
+        return `<a href="${currentPlaceSource.url}" target="_blank" rel="noopener">${currentPlaceSource.label}</a>`;
+    }
+
+    function setPlaceSource(workKey) {
+        currentPlaceSource = PLACE_SOURCE_BY_WORK[workKey] || DEFAULT_PLACE_SOURCE;
+        document.getElementById("passage-subtitle").textContent =
+            `Places attested here (${currentPlaceSource.label})`;
+        document.getElementById("place-data-attribution").innerHTML =
+            `Place data: ${placeSourceHtml()}, ${currentPlaceSource.terms}.`;
+    }
 
     function onLabelToggle(checked) {
         document.getElementById("map").classList.toggle("hide-labels", !checked);
@@ -269,6 +324,30 @@
     // popup itself still lists every mention with its own type/color,
     // so nothing is hidden, this just picks one color for the pin.
     const TYPE_PRIORITY = ["place", "ethnic", "demonym", "person"];
+    const CERTAINTY_LABELS = {
+        certain: "Certain identification",
+        probable: "Probable identification",
+        uncertain: "Uncertain identification",
+        unidentified: "Unidentified"
+    };
+    const PRECISION_LABELS = {
+        point: "Point coordinate",
+        centroid: "Regional centroid",
+        approximate: "Approximate coordinate"
+    };
+    function certaintyVisual(certainty) {
+        if (certainty === "probable") return { fillOpacity: 0.52, opacity: 0.9, dashArray: "6,4" };
+        if (certainty === "uncertain") return { fillOpacity: 0.22, opacity: 0.72, dashArray: "2,5" };
+        return { fillOpacity: 0.85, opacity: 1, dashArray: null };
+    }
+    function precisionRadius(precision) {
+        if (precision === "approximate") return 14;
+        if (precision === "centroid") return 11;
+        return 8;
+    }
+    function evidenceLabel(value, labels, fallback) {
+        return labels[value] || value || fallback;
+    }
     function primaryTypeFor(mentions) {
         for (const t of TYPE_PRIORITY) {
             if (mentions.some(m => m.type === t)) return t;
@@ -294,6 +373,11 @@
                     lat: r.lat,
                     lon: r.lon,
                     feature_type: r.feature_type,
+                    certainty: r.certainty,
+                    coord_source: r.coord_source,
+                    coord_precision: r.coord_precision,
+                    place_note: r.place_note,
+                    resolution_note: r.resolution_note,
                     mentions: []
                 });
             }
@@ -325,6 +409,14 @@
                 html += `<span class="legend-dot" style="background:#fff;border:2px dashed #660000;box-sizing:border-box;"></span>` +
                         `Region (approximate point -- no boundary data yet)<br/>`;
             }
+            html += `<br/><strong>Identification confidence</strong><br/>` +
+                    `<span class="confidence-swatch"></span>Certain<br/>` +
+                    `<span class="confidence-swatch confidence-probable"></span>Probable<br/>` +
+                    `<span class="confidence-swatch confidence-uncertain"></span>Uncertain<br/>` +
+                    `<br/><strong>Coordinate precision</strong><br/>` +
+                    `<span class="precision-swatch precision-point"></span>Point<br/>` +
+                    `<span class="precision-swatch precision-centroid"></span>Centroid<br/>` +
+                    `<span class="precision-swatch precision-approximate"></span>Approximate<br/>`;
             div.innerHTML = html;
             return div;
         };
@@ -354,12 +446,12 @@
 
         if (withinAwmc) {
             L.tileLayer('https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png', {
-                attribution: 'Map tiles &copy; <a href="https://cawm.lib.uiowa.edu">Consortium of Ancient World Mappers</a> (CC BY 4.0) | Place data: ToposText (topostext.org)',
+                attribution: `Map tiles &copy; <a href="https://cawm.lib.uiowa.edu">Consortium of Ancient World Mappers</a> (CC BY 4.0) | Place data: ${placeSourceHtml()}`,
                 maxZoom: 12
             }).addTo(map);
         } else {
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> | Place data: ToposText (topostext.org)',
+                attribution: `&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> | Place data: ${placeSourceHtml()}`,
                 maxZoom: 19,
                 detectRetina: false,
                 updateWhenIdle: true,
@@ -399,6 +491,9 @@
         for (const p of places) {
             const primaryType = primaryTypeFor(p.mentions);
             const color = TYPE_COLORS[primaryType] || TYPE_COLORS.place;
+            const confidence = certaintyVisual(p.certainty);
+            const certaintyLabel = evidenceLabel(p.certainty, CERTAINTY_LABELS, "Certainty not recorded");
+            const precisionLabel = evidenceLabel(p.coord_precision, PRECISION_LABELS, "Coordinate precision not recorded");
 
             const mentionList = p.mentions
                 .map(m => {
@@ -408,9 +503,15 @@
                         : `${dot}${m.name} <span style="color:#888;">(${m.type})</span>`;
                 })
                 .join("<br/>");
+            const evidenceNotes = [p.place_note, p.resolution_note].filter(Boolean).join(" ");
+            const evidenceHtml =
+                `<div class="place-evidence"><b>Identification:</b> ${certaintyLabel}<br/>` +
+                `<b>Coordinate:</b> ${precisionLabel}` +
+                `${p.coord_source ? ` (${p.coord_source})` : ""}` +
+                `${evidenceNotes ? `<br/><b>Annotator note:</b> ${evidenceNotes}` : ""}</div>`;
             const popupHtml =
                 `<div style="font-size:14px;"><strong>${p.place_name}</strong><br/>` +
-                `<span style="color:#888;">Mentioned in ${scopeLabel} as:</span><br/>${mentionList}</div>`;
+                `<span style="color:#888;">Mentioned in ${scopeLabel} as:</span><br/>${mentionList}${evidenceHtml}</div>`;
 
             // Full ZDISPLAYNAME strings are long ("Boiotia region
             // (Boeotia) 1673 Viotia - Βοιωτία") -- fine for a popup,
@@ -425,7 +526,9 @@
                 // Persia) renders as its actual shape instead of a
                 // single representative point.
                 const layer = L.geoJSON({ type: "Feature", geometry, properties: {} }, {
-                    style: { color: color, weight: 2, fillColor: color, fillOpacity: 0.25 }
+                    style: { color: color, weight: 2, fillColor: color,
+                             fillOpacity: confidence.fillOpacity * 0.4,
+                             opacity: confidence.opacity, dashArray: confidence.dashArray }
                 });
                 layer.bindPopup(popupHtml);
                 layer.bindTooltip(shortLabel, { permanent: true, direction: "center", className: "place-label" });
@@ -441,9 +544,15 @@
                 // channel from color (still mention type), not a
                 // replacement for it.
                 const isRegion = (p.feature_type || "").toLowerCase().includes("region");
-                const markerStyle = isRegion
-                    ? { radius: 11, fillColor: color, color: color, weight: 2, dashArray: "3,3", opacity: 0.9, fillOpacity: 0.35 }
-                    : { radius: 8, fillColor: color, color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.85 };
+                const markerStyle = {
+                    radius: precisionRadius(p.coord_precision) + (isRegion ? 2 : 0),
+                    fillColor: color,
+                    color: color,
+                    weight: p.certainty === "uncertain" ? 3 : 2,
+                    dashArray: confidence.dashArray,
+                    opacity: confidence.opacity,
+                    fillOpacity: confidence.fillOpacity
+                };
                 const marker = L.circleMarker([p.lat, p.lon], markerStyle);
                 marker.bindPopup(popupHtml);
                 marker.bindTooltip(shortLabel, { permanent: true, direction: "right", className: "place-label", offset: [8, 0] });
@@ -478,11 +587,13 @@
         for (const p of sorted) {
             const shortLabel = (p.place_name || "").split("(")[0].trim() || p.place_name;
             const chapters = [...new Set(p.mentions.map(m => m.chapter))].join(", ");
+            const certainty = evidenceLabel(p.certainty, CERTAINTY_LABELS, "Certainty not recorded");
+            const precision = evidenceLabel(p.coord_precision, PRECISION_LABELS, "Precision not recorded");
             const row = document.createElement("div");
             row.className = "place-row";
             row.innerHTML =
                 `<div class="place-row-name">${shortLabel}</div>` +
-                `<div class="place-row-meta">${chapters}</div>`;
+                `<div class="place-row-meta">${certainty} · ${precision}<br/>${chapters}</div>`;
             row.onclick = () => {
                 const entry = layerByPlaceId.get(p.place_id);
                 if (!entry) return;
@@ -515,6 +626,7 @@
         currentBook = book;
         currentChapter = chapter;
         currentSection = section;
+        setPlaceSource(workKey);
 
         // Back-link to the reader: round-trips to the exact same passage
         // when we're in single-chapter mode (using the same "w=work:book.
@@ -658,6 +770,6 @@
         });
     </script>
 
-    <p class="attribution-note">Place data &copy; <a href="https://topostext.org" target="_blank">ToposText</a>, used under its published terms.</p>
+    <p class="attribution-note" id="place-data-attribution">Place data attribution loading…</p>
 </body>
 </html>
