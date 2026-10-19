@@ -718,7 +718,7 @@ const FEATURE_DEFS = [
 ];
 
 let SQL = null;
-const SHARDS = new Map(); // workKey -> { dbs: Database[], label, textgroup, work }
+const SHARDS = new Map(); // workKey -> { dbs: Database[], label, textgroup, work, unitLabels, bookTitles }
 const TOTAL_TOKENS_BY_WORK = new Map(); // workKey -> total token count across all parts (denominator for rates)
 let STEMTYPES_BY_LEMMA = new Map();
 let STEMTYPES_BY_NORMALIZED_LEMMA = new Map();
@@ -841,7 +841,14 @@ initSqlJs({ locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.
       }
 
       const label = CONFIG.WORK_TITLES[workKey] || meta.label || workKey;
-      SHARDS.set(workKey, { dbs, label, textgroup: tg, work: wk });
+      SHARDS.set(workKey, {
+        dbs,
+        label,
+        textgroup: tg,
+        work: wk,
+        unitLabels: meta.unit_labels || {},
+        bookTitles: meta.book_titles || {},
+      });
       TOTAL_TOKENS_BY_WORK.set(workKey, totalTokens);
       loaded++;
     }
@@ -1943,6 +1950,41 @@ function getBucketCounts(workKey) {
   const shard = SHARDS.get(workKey);
   if (!shard) return [];
 
+  // Prefer the explicit structural division carried by treebank_tokens.book.
+  // This is authoritative and avoids guessing from opaque subdoc identifiers
+  // such as ``orat10.2.14``.  In particular, Boeckh's Orationes contains 33
+  // speeches: the legacy inference guard below deliberately rejects more than
+  // 30 inferred books, but an explicit ``book`` value must not be rejected.
+  const explicitBookCounts = new Map();
+  for (const db of shard.dbs) {
+    let rows;
+    try {
+      rows = queryAll(db,
+        "SELECT book, COUNT(*) AS n FROM treebank_tokens " +
+        "WHERE book IS NOT NULL AND TRIM(book) <> '' GROUP BY book");
+    } catch (e) {
+      continue; // legacy shard without the book column
+    }
+    for (const r of rows) {
+      explicitBookCounts.set(String(r.book),
+        (explicitBookCounts.get(String(r.book)) || 0) + r.n);
+    }
+  }
+  if (explicitBookCounts.size >= 2) {
+    const divisionLabel = (shard.unitLabels && shard.unitLabels.book) || "Book";
+    const buckets = Array.from(explicitBookCounts.entries())
+      .map(([book, n]) => ({
+        key: book,
+        label: `${divisionLabel} ${book}`,
+        title: shard.bookTitles && shard.bookTitles[book],
+        n,
+        _byBook: true,
+      }))
+      .sort((a, b) => (Number(a.key) || 0) - (Number(b.key) || 0));
+    BUCKET_COUNTS_CACHE.set(workKey, buckets);
+    return buckets;
+  }
+
   const subdocCounts = new Map(); // raw subdoc -> token count
   for (const db of shard.dbs) {
     let rows;
@@ -1978,7 +2020,7 @@ function getBucketCounts(workKey) {
     if (byBook.size <= MAX_PLAUSIBLE_BOOKS) {
       hasBooks = true;
       buckets = Array.from(byBook.entries())
-        .map(([book, n]) => ({ key: book, label: `Bk ${book}`, n }))
+        .map(([book, n]) => ({ key: book, label: `Book ${book}`, n, _byBook: true }))
         .sort((a, b) => (Number(a.key) || 0) - (Number(b.key) || 0));
     }
   }
@@ -2022,7 +2064,7 @@ function clusterCard(matches, searchedWorkKeys) {
     const buckets = getBucketCounts(wk);
     if (buckets.length < 2) return "";
 
-    const hasBooks = buckets.some(b => b.label.startsWith("Bk"));
+    const hasBooks = buckets.some(b => b._byBook);
     const wkMatches = matches.filter(m => m._workKey === wk);
     const totalN = buckets.reduce((s, b) => s + b.n, 0);
     const totalHits = wkMatches.length;
@@ -2036,11 +2078,17 @@ function clusterCard(matches, searchedWorkKeys) {
 
     const hitsByBucket = new Map(buckets.map(b => [b.key, 0]));
     for (const m of wkMatches) {
-      if (!m.subdoc) continue;
       let key;
       if (hasBooks) {
-        key = m.subdoc.split(".")[0];
+        if (m.book !== null && m.book !== undefined && String(m.book).trim() !== "") {
+          key = String(m.book);
+        } else if (m.subdoc) {
+          key = m.subdoc.split(".")[0];
+        } else {
+          continue;
+        }
       } else {
+        if (!m.subdoc) continue;
         const line = parseFloat(m.subdoc);
         if (isNaN(line)) continue;
         key = String(Math.min(NUM_BINS - 1, Math.floor(((line - minLine) / span) * NUM_BINS)));
@@ -2068,7 +2116,7 @@ function clusterCard(matches, searchedWorkKeys) {
       const intensity = Math.min(1, rate / maxRate);
       const bg = k === 0 ? "#f0f0f0" : `rgba(102,0,0,${(0.15 + intensity * 0.7).toFixed(2)})`;
       const border = sig[i] ? "2px solid var(--maroon)" : "1px solid #ddd";
-      const tooltip = `${b.label}: ${k} hit${k === 1 ? "" : "s"} / ${b.n} tokens (${rate.toFixed(2)}\u2030)` +
+      const tooltip = `${b.label}${b.title ? ` — ${b.title}` : ""}: ${k} hit${k === 1 ? "" : "s"} / ${b.n} tokens (${rate.toFixed(2)}\u2030)` +
         (sig[i] ? " \u2014 significant after correction" : "");
       return `<div class="cluster-cell" title="${escapeHtml(tooltip)}" style="flex:1;height:22px;background:${bg};border:${border};border-radius:2px"></div>`;
     }).join("");
