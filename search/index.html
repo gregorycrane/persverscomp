@@ -1239,6 +1239,12 @@ async function runSearch() {
     ? searchTranslations(terms, shardsToSearch, wholeWord)
     : searchTokens(terms, mode, upos, featClauses, rawFeat, shardsToSearch, wholeWord);
 
+  // SQLite row ids reflect ingestion order, which is not necessarily textual
+  // order (some works were loaded in batches from the end or middle).  Put the
+  // complete cross-shard result set into citation order before it reaches the
+  // dashboard, reader, or CSV export.
+  matches = sortMatchesInTextOrder(matches, shardsToSearch.map(([workKey]) => workKey));
+
   await ensureStemtypeLookups(matches.map(match => match._workKey));
   LAST_MATCHES = matches;
   LAST_RESULT_CONTEXT = { terms: [...terms], mode, wholeWord };
@@ -1247,6 +1253,61 @@ async function runSearch() {
   const searchedWorkKeys = shardsToSearch.filter(([, shard]) => shard).map(([wk]) => wk);
   renderDashboard(matches, terms, searchedWorkKeys, mode);
   renderResults(matches, terms, mode, wholeWord);
+}
+
+// Compare citation components naturally: 9 precedes 10, while non-numeric
+// labels and mixed references such as "2.9a" or "103-105" remain deterministic.
+function naturalCitationCompare(left, right) {
+  const a = String(left == null ? "" : left).trim();
+  const b = String(right == null ? "" : right).trim();
+  if (a === b) return 0;
+  if (!a) return -1;
+  if (!b) return 1;
+  const aParts = a.match(/\d+|\D+/g) || [];
+  const bParts = b.match(/\d+|\D+/g) || [];
+  const length = Math.max(aParts.length, bParts.length);
+  for (let i = 0; i < length; i++) {
+    if (i >= aParts.length) return -1;
+    if (i >= bParts.length) return 1;
+    const aPart = aParts[i];
+    const bPart = bParts[i];
+    const aNumeric = /^\d+$/.test(aPart);
+    const bNumeric = /^\d+$/.test(bPart);
+    let comparison;
+    if (aNumeric && bNumeric) {
+      comparison = Number(aPart) - Number(bPart);
+    } else {
+      comparison = aPart.localeCompare(bPart, undefined, { sensitivity: "base" });
+    }
+    if (comparison) return comparison;
+  }
+  return a.localeCompare(b, undefined, { sensitivity: "base" });
+}
+
+function sortMatchesInTextOrder(matches, workKeys) {
+  const workOrder = new Map(workKeys.map((workKey, index) => [workKey, index]));
+  const citationFields = ["book", "chapter", "section", "subdoc", "ref"];
+  return matches
+    .map((match, originalIndex) => ({ match, originalIndex }))
+    .sort((left, right) => {
+      const a = left.match;
+      const b = right.match;
+      const workComparison = (workOrder.get(a._workKey) ?? Number.MAX_SAFE_INTEGER) -
+        (workOrder.get(b._workKey) ?? Number.MAX_SAFE_INTEGER);
+      if (workComparison) return workComparison;
+      for (const field of citationFields) {
+        const comparison = naturalCitationCompare(a[field], b[field]);
+        if (comparison) return comparison;
+      }
+      const partComparison = (Number(a._partIndex) || 0) - (Number(b._partIndex) || 0);
+      if (partComparison) return partComparison;
+      const sentenceComparison = (Number(a.sentence_id) || 0) - (Number(b.sentence_id) || 0);
+      if (sentenceComparison) return sentenceComparison;
+      const tokenComparison = (Number(a.tok_id) || 0) - (Number(b.tok_id) || 0);
+      if (tokenComparison) return tokenComparison;
+      return left.originalIndex - right.originalIndex;
+    })
+    .map(({ match }) => match);
 }
 
 // Word-boundary test against the RAW (unescaped) field text — used to weed
