@@ -8121,6 +8121,20 @@
     },
     {
       "work": "uncertain_play_fragments",
+      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:753",
+      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:768",
+      "confidence": 1.0,
+      "method": "exact-normalized-greek"
+    },
+    {
+      "work": "uncertain_play_fragments",
+      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:755",
+      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:908",
+      "confidence": 1.0,
+      "method": "exact-normalized-greek"
+    },
+    {
+      "work": "uncertain_play_fragments",
       "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:756",
       "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:909",
       "confidence": 1.0,
@@ -8144,20 +8158,6 @@
       "work": "uncertain_play_fragments",
       "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:764",
       "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:892",
-      "confidence": 1.0,
-      "method": "exact-normalized-greek"
-    },
-    {
-      "work": "uncertain_play_fragments",
-      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:753",
-      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:768",
-      "confidence": 1.0,
-      "method": "exact-normalized-greek"
-    },
-    {
-      "work": "uncertain_play_fragments",
-      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:755",
-      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:908",
       "confidence": 1.0,
       "method": "exact-normalized-greek"
     },
@@ -8786,13 +8786,6 @@
     },
     {
       "work": "uncertain_play_fragments",
-      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932a",
-      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:1085",
-      "confidence": 1.0,
-      "method": "fuzzy-quoted-text-in-source-context"
-    },
-    {
-      "work": "uncertain_play_fragments",
       "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:940",
       "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:1093",
       "confidence": 1.0,
@@ -8872,6 +8865,13 @@
       "work": "uncertain_play_fragments",
       "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:961",
       "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:1115",
+      "confidence": 1.0,
+      "method": "fuzzy-quoted-text-in-source-context"
+    },
+    {
+      "work": "uncertain_play_fragments",
+      "dindorf": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932a",
+      "pearson": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1:1085",
       "confidence": 1.0,
       "method": "fuzzy-quoted-text-in-source-context"
     },

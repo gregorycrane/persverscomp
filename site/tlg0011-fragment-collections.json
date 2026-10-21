@@ -58292,20 +58292,6 @@
           "attributed_by": "Wilhelm Dindorf"
         },
         {
-          "number": "314b",
-          "source_id": "fragment-kolchides-dindorf1893_grc1-314b",
-          "edition": "dindorf1893-grc1",
-          "source_fragment_urn": "urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1:314b",
-          "same_as": [],
-          "lines": [],
-          "context": "Vide fragm. 216.",
-          "play_title": "ΚΟΛΧΙΔΕΣ",
-          "play_work": "kolchides",
-          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides",
-          "attribution_id": "dindorf1893-grc1-tlg0011-kolchides",
-          "attributed_by": "Wilhelm Dindorf"
-        },
-        {
           "number": "315",
           "source_id": "fragment-kolchides-dindorf1893_grc1-315",
           "edition": "dindorf1893-grc1",
@@ -58343,6 +58329,20 @@
             }
           ],
           "context": "Galenus vol. IX. p. 385. Charter. (V. p. 454. Basil.) Δοκεῖ μὲν γὰρ αὐτὴν (τὴν πέμφιγα) ἐπὶ τῆς πνοῆς Σοφοκλῆς ἐν Κόλχοις λέγειν\n\n—ἐπὶ δὲ τῶν ἀκτίνων αὐτῶν δοκεῖ χρῆσθαι τῷ ὀνόματι Σ. ἐν Κόλχοις κατὰ τάδε τὰ ἔπη\n\nVersum primum Hermannus in dissertatione de Æschyli Prometheo soluto p. 24. ita corrigit, Ἀπῇξε πέμφιξ ὡς ἰπνοῦ σελασφόρου. Idem in altero loco emendavit vulgatum ἐθαύμασα.",
+          "play_title": "ΚΟΛΧΙΔΕΣ",
+          "play_work": "kolchides",
+          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides",
+          "attribution_id": "dindorf1893-grc1-tlg0011-kolchides",
+          "attributed_by": "Wilhelm Dindorf"
+        },
+        {
+          "number": "314b",
+          "source_id": "fragment-kolchides-dindorf1893_grc1-314b",
+          "edition": "dindorf1893-grc1",
+          "source_fragment_urn": "urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1:314b",
+          "same_as": [],
+          "lines": [],
+          "context": "Vide fragm. 216.",
           "play_title": "ΚΟΛΧΙΔΕΣ",
           "play_work": "kolchides",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides",
@@ -59389,23 +59389,6 @@
         },
         {
           "dindorf": {
-            "number": "314b",
-            "source_id": "fragment-kolchides-dindorf1893_grc1-314b",
-            "edition": "dindorf1893-grc1",
-            "source_fragment_urn": "urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1:314b",
-            "same_as": [],
-            "lines": [],
-            "context": "Vide fragm. 216.",
-            "play_title": "ΚΟΛΧΙΔΕΣ",
-            "play_work": "kolchides",
-            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides",
-            "attribution_id": "dindorf1893-grc1-tlg0011-kolchides",
-            "attributed_by": "Wilhelm Dindorf"
-          },
-          "label": "D314b"
-        },
-        {
-          "dindorf": {
             "number": "315",
             "source_id": "fragment-kolchides-dindorf1893_grc1-315",
             "edition": "dindorf1893-grc1",
@@ -59453,6 +59436,23 @@
             "attributed_by": "Wilhelm Dindorf"
           },
           "label": "D319"
+        },
+        {
+          "dindorf": {
+            "number": "314b",
+            "source_id": "fragment-kolchides-dindorf1893_grc1-314b",
+            "edition": "dindorf1893-grc1",
+            "source_fragment_urn": "urn:cts:greekLit:tlg0011.kolchides.dindorf1893-grc1:314b",
+            "same_as": [],
+            "lines": [],
+            "context": "Vide fragm. 216.",
+            "play_title": "ΚΟΛΧΙΔΕΣ",
+            "play_work": "kolchides",
+            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_kolchides",
+            "attribution_id": "dindorf1893-grc1-tlg0011-kolchides",
+            "attributed_by": "Wilhelm Dindorf"
+          },
+          "label": "D314b"
         }
       ]
     },
@@ -140971,20 +140971,6 @@
           "attributed_by": "Wilhelm Dindorf"
         },
         {
-          "number": "760",
-          "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-760",
-          "edition": "dindorf1893-grc1",
-          "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:760",
-          "same_as": [],
-          "lines": [],
-          "context": "Schol. Pindari Nem. XI, 7.\n\nὮ πρῷρα λοιβῆς Ἑστία. Adde κλύεις τάδε ex Schol. Arist. Vesp. 842. qui ex Χρύσῃ attulit.",
-          "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
-          "play_work": "uncertain_play_fragments",
-          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
-          "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
-          "attributed_by": "Wilhelm Dindorf"
-        },
-        {
           "number": "752",
           "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-752",
           "edition": "dindorf1893-grc1",
@@ -140992,6 +140978,20 @@
           "same_as": [],
           "lines": [],
           "context": "Eustathius p. 1538.\n\nΛέγει δέ που καὶ πάλιν Σοφοκλῆς τὸ, Τηροῦντα τοὺς λέγοντας καὶ συνάγοντα τὰς ὀφρῦς καὶ τὰς ἀκάνθας ἐπεγείροντα· εἰπὼν τοῦτο ἐκεῖνος ὡς ἀπὸ ἰχθύων, οἱ τὰς ἀκάνθας ὀρθοῦσι καιρῷ θυμοῦ.\n\n“Fefellit procul dubio memoria Eustathium: quæ tanquam Sophoclis profert, tragicum minime redolent; Aristophanis potius esse crediderim.” BRUNCK.",
+          "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
+          "play_work": "uncertain_play_fragments",
+          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
+          "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
+          "attributed_by": "Wilhelm Dindorf"
+        },
+        {
+          "number": "760",
+          "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-760",
+          "edition": "dindorf1893-grc1",
+          "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:760",
+          "same_as": [],
+          "lines": [],
+          "context": "Schol. Pindari Nem. XI, 7.\n\nὮ πρῷρα λοιβῆς Ἑστία. Adde κλύεις τάδε ex Schol. Arist. Vesp. 842. qui ex Χρύσῃ attulit.",
           "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
           "play_work": "uncertain_play_fragments",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
@@ -141786,20 +141786,6 @@
           "attributed_by": "Wilhelm Dindorf"
         },
         {
-          "number": "932b",
-          "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-932b",
-          "edition": "dindorf1893-grc1",
-          "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932b",
-          "same_as": [],
-          "lines": [],
-          "context": "Strabo VIII, p. 364.\n\nΣοφοκλῆς δὲ καὶ Ἴων τὸ ῥάδιον (λέγουσι) ῥᾴ.",
-          "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
-          "play_work": "uncertain_play_fragments",
-          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
-          "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
-          "attributed_by": "Wilhelm Dindorf"
-        },
-        {
           "number": "933",
           "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-933",
           "edition": "dindorf1893-grc1",
@@ -141950,6 +141936,20 @@
           "same_as": [],
           "lines": [],
           "context": "Schol. Aristoph. Ran. 1065.\n\nΜουσαίος – ὁ δὲ Σοφοκλῆς χρησμολόγον αὐτόν φησι.",
+          "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
+          "play_work": "uncertain_play_fragments",
+          "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
+          "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
+          "attributed_by": "Wilhelm Dindorf"
+        },
+        {
+          "number": "932b",
+          "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-932b",
+          "edition": "dindorf1893-grc1",
+          "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932b",
+          "same_as": [],
+          "lines": [],
+          "context": "Strabo VIII, p. 364.\n\nΣοφοκλῆς δὲ καὶ Ἴων τὸ ῥάδιον (λέγουσι) ῥᾴ.",
           "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
           "play_work": "uncertain_play_fragments",
           "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
@@ -161318,23 +161318,6 @@
         },
         {
           "dindorf": {
-            "number": "760",
-            "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-760",
-            "edition": "dindorf1893-grc1",
-            "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:760",
-            "same_as": [],
-            "lines": [],
-            "context": "Schol. Pindari Nem. XI, 7.\n\nὮ πρῷρα λοιβῆς Ἑστία. Adde κλύεις τάδε ex Schol. Arist. Vesp. 842. qui ex Χρύσῃ attulit.",
-            "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
-            "play_work": "uncertain_play_fragments",
-            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
-            "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
-            "attributed_by": "Wilhelm Dindorf"
-          },
-          "label": "D760"
-        },
-        {
-          "dindorf": {
             "number": "752",
             "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-752",
             "edition": "dindorf1893-grc1",
@@ -161349,6 +161332,23 @@
             "attributed_by": "Wilhelm Dindorf"
           },
           "label": "D752"
+        },
+        {
+          "dindorf": {
+            "number": "760",
+            "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-760",
+            "edition": "dindorf1893-grc1",
+            "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:760",
+            "same_as": [],
+            "lines": [],
+            "context": "Schol. Pindari Nem. XI, 7.\n\nὮ πρῷρα λοιβῆς Ἑστία. Adde κλύεις τάδε ex Schol. Arist. Vesp. 842. qui ex Χρύσῃ attulit.",
+            "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
+            "play_work": "uncertain_play_fragments",
+            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
+            "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
+            "attributed_by": "Wilhelm Dindorf"
+          },
+          "label": "D760"
         },
         {
           "dindorf": {
@@ -162274,23 +162274,6 @@
         },
         {
           "dindorf": {
-            "number": "932b",
-            "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-932b",
-            "edition": "dindorf1893-grc1",
-            "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932b",
-            "same_as": [],
-            "lines": [],
-            "context": "Strabo VIII, p. 364.\n\nΣοφοκλῆς δὲ καὶ Ἴων τὸ ῥάδιον (λέγουσι) ῥᾴ.",
-            "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
-            "play_work": "uncertain_play_fragments",
-            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
-            "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
-            "attributed_by": "Wilhelm Dindorf"
-          },
-          "label": "D932b"
-        },
-        {
-          "dindorf": {
             "number": "933",
             "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-933",
             "edition": "dindorf1893-grc1",
@@ -162475,6 +162458,23 @@
             "attributed_by": "Wilhelm Dindorf"
           },
           "label": "D960"
+        },
+        {
+          "dindorf": {
+            "number": "932b",
+            "source_id": "fragment-uncertain_play_fragments-dindorf1893_grc1-932b",
+            "edition": "dindorf1893-grc1",
+            "source_fragment_urn": "urn:cts:greekLit:tlg0011.uncertain_play_fragments.dindorf1893-grc1:932b",
+            "same_as": [],
+            "lines": [],
+            "context": "Strabo VIII, p. 364.\n\nΣοφοκλῆς δὲ καὶ Ἴων τὸ ῥάδιον (λέγουσι) ῥᾴ.",
+            "play_title": "ΑΔΗΛΩΝ ΔΡΑΜΑΤΩΝ",
+            "play_work": "uncertain_play_fragments",
+            "play_urn": "urn:cite2:perseus:fragmentaryplays.v1:tlg0011_uncertain_play_fragments",
+            "attribution_id": "dindorf1893-grc1-tlg0011-uncertain_play_fragments",
+            "attributed_by": "Wilhelm Dindorf"
+          },
+          "label": "D932b"
         }
       ]
     },
