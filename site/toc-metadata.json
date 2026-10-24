@@ -3428,56 +3428,6 @@
         }
       ]
     },
-    "tlg9001": {
-      "author": "Callicrates Comicus [Local Id]",
-      "fragmentary_play_count": 1,
-      "evidence_only_play_count": 0,
-      "editions": [
-        {
-          "short_id": "kock1884-grc1",
-          "edition": "Kock",
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1884,
-          "source_edition_statement": "vol. 2, 1884",
-          "collection_label": "Kock, vol. 2",
-          "collection_volume": 2
-        }
-      ]
-    },
-    "tlg9002": {
-      "author": "Dromon Comicus [Local Id]",
-      "fragmentary_play_count": 2,
-      "evidence_only_play_count": 0,
-      "editions": [
-        {
-          "short_id": "kock1884-grc1",
-          "edition": "Kock",
-          "fragment_count": 2,
-          "word_count": 44,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1884,
-          "source_edition_statement": "vol. 2, 1884",
-          "collection_label": "Kock, vol. 2",
-          "collection_volume": 2
-        },
-        {
-          "short_id": "kock1888-grc1",
-          "edition": "Kock",
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1888,
-          "source_edition_statement": "vol. 3, 1888",
-          "collection_label": "Kock, vol. 3",
-          "collection_volume": 3
-        }
-      ]
-    },
     "tlg0395": {
       "author": "Diophantus",
       "fragmentary_play_count": 1,
@@ -4373,14 +4323,57 @@
     },
     "tlg0448": {
       "author": "Dromo",
-      "fragmentary_play_count": 1,
+      "fragmentary_play_count": 2,
       "evidence_only_play_count": 0,
       "editions": [
+        {
+          "short_id": "kock1884-grc1",
+          "edition": "Kock",
+          "fragment_count": 2,
+          "word_count": 44,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1884,
+          "source_edition_statement": "vol. 2, 1884",
+          "collection_label": "Kock, vol. 2",
+          "collection_volume": 2
+        },
+        {
+          "short_id": "kock1888-grc1",
+          "edition": "Kock",
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1888,
+          "source_edition_statement": "vol. 3, 1888",
+          "collection_label": "Kock, vol. 3",
+          "collection_volume": 3
+        },
         {
           "short_id": "meineke1840-grc1",
           "edition": "Meineke",
           "fragment_count": 2,
           "word_count": 49
+        }
+      ]
+    },
+    "tlg1783": {
+      "author": "Callicrates",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "kock1884-grc1",
+          "edition": "Kock",
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1884,
+          "source_edition_statement": "vol. 2, 1884",
+          "collection_label": "Kock, vol. 2",
+          "collection_volume": 2
         }
       ]
     }
@@ -60466,49 +60459,6 @@
       ],
       "evidence_only": false
     },
-    "tlg9001.moschion": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "kock1884-grc1",
-          "edition": "Kock",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1884,
-          "source_edition_statement": "vol. 2, 1884",
-          "collection_label": "Kock, vol. 2",
-          "collection_volume": 2
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg9002.psaltria": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "kock1884-grc1",
-          "edition": "Kock",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 44,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1884,
-          "source_edition_statement": "vol. 2, 1884",
-          "collection_label": "Kock, vol. 2",
-          "collection_volume": 2
-        }
-      ],
-      "evidence_only": false
-    },
     "tlg0395.metoikizomenos": {
       "record_type": "fragmentary_play",
       "editions": [
@@ -68488,27 +68438,6 @@
       ],
       "evidence_only": false
     },
-    "tlg9002.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "kock1888-grc1",
-          "edition": "Kock",
-          "numbers": [
-            "2"
-          ],
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1880,
-          "collection_order": 2,
-          "source_edition_year": 1888,
-          "source_edition_statement": "vol. 3, 1888",
-          "collection_label": "Kock, vol. 3",
-          "collection_volume": 3
-        }
-      ],
-      "evidence_only": false
-    },
     "tlg0403.seriphioi": {
       "record_type": "fragmentary_play",
       "editions": [
@@ -68851,6 +68780,486 @@
           ],
           "fragment_count": 1,
           "word_count": 71
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0402.atthis": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "1_2",
+            "2",
+            "2_2"
+          ],
+          "fragment_count": 4,
+          "word_count": 137
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0402.lokroi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 13
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0402.parasitos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "fragment_count": 3,
+          "word_count": 62
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0402.sorakoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 5
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0404.alkmaion": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0404.leykas": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 11
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0405.phialephoros": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 13
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0405.zographoi_e_geographoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "1_2",
+            "2"
+          ],
+          "fragment_count": 3,
+          "word_count": 3
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0409.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 18
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.aiolos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 47
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.akontizomene": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 25
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.moixoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 26
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.pontikos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 20
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.pyraynos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 8
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0410.tyrrenos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 59
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0419.omoia": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 42
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0445.akontizomenos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 18
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0445.sozoysa": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 25
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0445.thesmophoros": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 299
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0448.psaltria": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 49
+        },
+        {
+          "short_id": "kock1884-grc1",
+          "edition": "Kock",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 44,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1884,
+          "source_edition_statement": "vol. 2, 1884",
+          "collection_label": "Kock, vol. 2",
+          "collection_volume": 2
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0452.bakcheia": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 17
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0452.bakxeia": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "3"
+          ],
+          "fragment_count": 1,
+          "word_count": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0484.abpa": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "2"
+          ],
+          "fragment_count": 1,
+          "word_count": 31
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0484.patriotai": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 22
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0489.kynagis": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "2_2",
+            "3"
+          ],
+          "fragment_count": 4,
+          "word_count": 168
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0502.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 34
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0515.synerithoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1840-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "synerithoi"
+          ],
+          "fragment_count": 2,
+          "word_count": 20
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg1783.moschion": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "kock1884-grc1",
+          "edition": "Kock",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1884,
+          "source_edition_statement": "vol. 2, 1884",
+          "collection_label": "Kock, vol. 2",
+          "collection_volume": 2
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0448.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "kock1888-grc1",
+          "edition": "Kock",
+          "numbers": [
+            "2"
+          ],
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1880,
+          "collection_order": 2,
+          "source_edition_year": 1888,
+          "source_edition_statement": "vol. 3, 1888",
+          "collection_label": "Kock, vol. 3",
+          "collection_volume": 3
         }
       ],
       "evidence_only": false
@@ -71404,428 +71813,6 @@
           ],
           "fragment_count": 1,
           "word_count": 14
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0402.atthis": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2",
-            "2",
-            "2_2"
-          ],
-          "fragment_count": 4,
-          "word_count": 137
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0402.lokroi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 13
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0402.parasitos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "3"
-          ],
-          "fragment_count": 3,
-          "word_count": 62
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0402.sorakoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 5
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0404.alkmaion": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 0
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0404.leykas": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 11
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0405.phialephoros": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 13
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0405.zographoi_e_geographoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2",
-            "2"
-          ],
-          "fragment_count": 3,
-          "word_count": 3
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0409.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 18
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.aiolos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 47
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.akontizomene": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 25
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.moixoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 26
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.pontikos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 20
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.pyraynos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 8
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0410.tyrrenos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 59
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0419.omoia": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 42
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0445.akontizomenos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 18
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0445.sozoysa": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 25
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0445.thesmophoros": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 299
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0448.psaltria": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 49
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0452.bakcheia": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 17
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0452.bakxeia": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "3"
-          ],
-          "fragment_count": 1,
-          "word_count": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0484.abpa": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "2"
-          ],
-          "fragment_count": 1,
-          "word_count": 31
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0484.patriotai": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 22
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0489.kynagis": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "2_2",
-            "3"
-          ],
-          "fragment_count": 4,
-          "word_count": 168
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0502.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 34
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0515.synerithoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1840-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "synerithoi"
-          ],
-          "fragment_count": 2,
-          "word_count": 20
         }
       ],
       "evidence_only": false
