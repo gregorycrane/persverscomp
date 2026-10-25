@@ -19,7 +19,7 @@
     {
       "short_id": "pearson1917-grc1",
       "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-      "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+      "label": "Greek with commentary (A. C. Pearson, 1917, vols. I–III) (OCR draft)",
       "source": [
         "sophocles.fragments.jebbetal1917v1-mul1.xml",
         "sophocles.fragments.jebbetal1917v2-mul1.xml",
@@ -765,12 +765,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 20,
@@ -2238,12 +2239,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 33,
@@ -3570,12 +3572,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 35,
@@ -4317,12 +4320,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 3,
@@ -4922,12 +4926,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 18,
@@ -7381,12 +7386,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 57,
@@ -10936,12 +10942,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 72,
@@ -13939,12 +13946,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 100,
@@ -16007,12 +16015,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 19,
@@ -17592,12 +17601,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 74,
@@ -18740,12 +18750,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 7,
@@ -19753,12 +19764,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 36,
@@ -20889,12 +20901,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 10,
@@ -21260,12 +21273,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 2,
@@ -22298,12 +22312,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 39,
@@ -23556,12 +23571,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 7,
@@ -24041,12 +24057,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 8,
@@ -24910,12 +24927,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 55,
@@ -26482,12 +26500,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 58,
@@ -27861,12 +27880,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 14,
@@ -28864,12 +28884,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 18,
@@ -29607,12 +29628,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 11,
@@ -30013,12 +30035,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 5,
@@ -30612,12 +30635,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 19,
@@ -31420,12 +31444,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 12,
@@ -33115,12 +33140,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 44,
@@ -34318,12 +34344,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 7,
@@ -34773,12 +34800,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 5,
@@ -35153,12 +35181,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 4,
@@ -37139,12 +37168,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 250,
@@ -39019,12 +39049,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 2,
@@ -39855,12 +39886,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 26,
@@ -40864,12 +40896,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 11,
@@ -41858,12 +41891,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 44,
@@ -42775,12 +42809,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 4,
@@ -44804,12 +44839,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 93,
@@ -48851,12 +48887,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 95,
@@ -51113,12 +51150,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 2,
@@ -51420,12 +51458,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 6,
@@ -52059,12 +52098,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 17,
@@ -53200,12 +53240,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 24,
@@ -54229,12 +54270,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. I) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "1"
         }
       ],
       "line_count": 12,
@@ -54806,12 +54848,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 10,
@@ -55548,12 +55591,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 20,
@@ -56515,12 +56559,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 22,
@@ -57171,12 +57216,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 5,
@@ -58366,12 +58412,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 48,
@@ -60434,12 +60481,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 69,
@@ -61610,12 +61658,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 4,
@@ -62103,12 +62152,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 8,
@@ -62750,12 +62800,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 16,
@@ -63741,12 +63792,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 39,
@@ -64804,12 +64856,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 21,
@@ -65711,12 +65764,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 18,
@@ -67102,12 +67156,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 40,
@@ -68460,12 +68515,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 16,
@@ -68994,12 +69050,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 1,
@@ -69939,12 +69996,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 37,
@@ -71323,12 +71381,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 9,
@@ -72800,12 +72859,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 33,
@@ -73847,12 +73907,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 8,
@@ -74912,12 +74973,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 51,
@@ -75794,12 +75856,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 0,
@@ -76658,12 +76721,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 38,
@@ -77895,12 +77959,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 14,
@@ -78517,12 +78582,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 7,
@@ -79488,12 +79554,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 52,
@@ -80628,12 +80695,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 15,
@@ -81396,12 +81464,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 15,
@@ -82663,12 +82732,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 41,
@@ -85348,12 +85418,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 77,
@@ -87949,12 +88020,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 45,
@@ -88951,12 +89023,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 8,
@@ -89340,12 +89413,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 2,
@@ -89840,12 +89914,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 35,
@@ -90664,12 +90739,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 21,
@@ -91365,12 +91441,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 6,
@@ -91742,12 +91819,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 2,
@@ -92361,12 +92439,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 24,
@@ -93819,12 +93898,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 59,
@@ -95183,12 +95263,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 26,
@@ -95940,12 +96021,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 29,
@@ -96638,12 +96720,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 26,
@@ -97160,12 +97243,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 2,
@@ -98996,12 +99080,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 146,
@@ -102426,12 +102511,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 58,
@@ -105476,12 +105562,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 42,
@@ -107641,12 +107728,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 32,
@@ -108646,12 +108734,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 13,
@@ -110886,12 +110975,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 143,
@@ -113339,12 +113429,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 12,
@@ -113821,12 +113912,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 4,
@@ -115504,12 +115596,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 84,
@@ -117394,12 +117487,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 17,
@@ -118276,12 +118370,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 18,
@@ -119716,12 +119811,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 32,
@@ -120979,12 +121075,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 9,
@@ -121525,12 +121622,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 6,
@@ -121909,12 +122007,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 14,
@@ -122476,12 +122575,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. II) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "2"
         }
       ],
       "line_count": 13,
@@ -141967,12 +142067,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. III) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "3"
         }
       ],
       "line_count": 811,
@@ -163154,12 +163255,13 @@
         {
           "short_id": "pearson1917-grc1",
           "edition_urn": "urn:cts:greekLit:tlg0011.fragmenta.pearson1917-grc1",
-          "label": "Greek with commentary (A. C. Pearson, 1917) (OCR draft)",
+          "label": "Greek with commentary (A. C. Pearson, 1917, vol. III) (OCR draft)",
           "source": [
             "sophocles.fragments.jebbetal1917v1-mul1.xml",
             "sophocles.fragments.jebbetal1917v2-mul1.xml",
             "sophocles.fragments.jebbetal1917v3-mul1.xml"
-          ]
+          ],
+          "source_volume": "3"
         }
       ],
       "line_count": 50,
