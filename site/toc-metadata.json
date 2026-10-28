@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "counting_note": "Complete-work counts use the first available text version, preferring source-edition treebank tokens with punctuation excluded. Fragment counts include quoted authorial text only; transmitting sources, notes, and punctuation-only tokens are excluded.",
+  "schema_version": 2,
+  "counting_note": "Complete-work counts use the first available text version, preferring source-edition treebank tokens with punctuation excluded. Fragment counts include quoted authorial text only; transmitting sources, notes, and punctuation-only tokens are excluded. Author totals add surviving-play words to the largest fragmentary edition; alternative fragment editions are listed separately and are not added together.",
   "authors": {
     "tlg0006": {
       "author": "Euripides",
@@ -29,7 +29,11 @@
           "source_edition_statement": "1889 ed."
         }
       ],
-      "surviving_play_count": 19
+      "surviving_play_count": 19,
+      "surviving_word_count": 140511,
+      "counted_fragment_word_count": 17770,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 158281
     },
     "tlg0011": {
       "author": "Sophocles",
@@ -68,7 +72,11 @@
           "source_edition_statement": "1917 ed."
         }
       ],
-      "surviving_play_count": 7
+      "surviving_play_count": 7,
+      "surviving_word_count": 120654,
+      "counted_fragment_word_count": 8513,
+      "counted_fragment_edition": "Pearson",
+      "total_word_count": 129167
     },
     "tlg0019": {
       "author": "Aristophanes",
@@ -123,7 +131,11 @@
           "collection_volume": 2
         }
       ],
-      "surviving_play_count": 11
+      "surviving_play_count": 11,
+      "surviving_word_count": 175035,
+      "counted_fragment_word_count": 5552,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 180587
     },
     "tlg0085": {
       "author": "Aeschylus",
@@ -152,7 +164,11 @@
           "source_edition_statement": "1889 ed."
         }
       ],
-      "surviving_play_count": 7
+      "surviving_play_count": 7,
+      "surviving_word_count": 40350,
+      "counted_fragment_word_count": 2715,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 43065
     },
     "tlg0216": {
       "author": "Alexander Aetolus",
@@ -169,7 +185,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 0
     },
     "tlg0301": {
       "author": "Thespis",
@@ -186,7 +206,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 126,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 126
     },
     "tlg0302": {
       "author": "Choerilus",
@@ -203,7 +227,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 18,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 18
     },
     "tlg0303": {
       "author": "Phrynichus",
@@ -220,7 +248,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 256,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 256
     },
     "tlg0305": {
       "author": "Aristias",
@@ -237,7 +269,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 78,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 78
     },
     "tlg0306": {
       "author": "Aristarchus",
@@ -254,7 +290,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 156,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 156
     },
     "tlg0307": {
       "author": "Neophron",
@@ -271,7 +311,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 274,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 274
     },
     "tlg0308": {
       "author": "Ion of Chios",
@@ -288,7 +332,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 774,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 774
     },
     "tlg0309": {
       "author": "Achaeus",
@@ -305,7 +353,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 794,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 794
     },
     "tlg0311": {
       "author": "Iophon",
@@ -322,7 +374,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 52,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 52
     },
     "tlg0312": {
       "author": "Philocles",
@@ -339,7 +395,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 22,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 22
     },
     "tlg0313": {
       "author": "Theognis",
@@ -356,7 +416,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 2,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 2
     },
     "tlg0315": {
       "author": "Sthenelus",
@@ -373,7 +437,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 7,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 7
     },
     "tlg0316": {
       "author": "Xenocles",
@@ -390,7 +458,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 12
     },
     "tlg0318": {
       "author": "Agathon",
@@ -407,7 +479,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 498,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 498
     },
     "tlg0319": {
       "author": "Critias",
@@ -424,7 +500,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 592,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 592
     },
     "tlg0320": {
       "author": "Diogenes of Athens",
@@ -441,7 +521,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 110,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 110
     },
     "tlg0321": {
       "author": "Aeschylus of Alexandria",
@@ -458,7 +542,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 26,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 26
     },
     "tlg0322": {
       "author": "Dicaeogenes",
@@ -475,7 +563,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 116,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 116
     },
     "tlg0323": {
       "author": "Antiphon",
@@ -492,7 +584,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 70,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 70
     },
     "tlg0324": {
       "author": "Patrocles of Thurii",
@@ -509,7 +605,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 43,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 43
     },
     "tlg0325": {
       "author": "Astydamas",
@@ -526,7 +626,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 276,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 276
     },
     "tlg0326": {
       "author": "Sophocles the Younger",
@@ -543,7 +647,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 0
     },
     "tlg0327": {
       "author": "Carcinus",
@@ -560,7 +668,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 310,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 310
     },
     "tlg0328": {
       "author": "Chaeremon",
@@ -577,7 +689,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 808,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 808
     },
     "tlg0329": {
       "author": "Theodectes",
@@ -594,7 +710,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 832,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 832
     },
     "tlg0330": {
       "author": "Dionysius",
@@ -611,7 +731,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 222,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 222
     },
     "tlg0331": {
       "author": "Polyidus",
@@ -628,7 +752,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 0
     },
     "tlg0332": {
       "author": "Cleaenetus",
@@ -645,7 +773,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 17,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 17
     },
     "tlg0334": {
       "author": "Diogenes of Sinope",
@@ -662,7 +794,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 40,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 40
     },
     "tlg0335": {
       "author": "Philiscus",
@@ -679,7 +815,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 12
     },
     "tlg0336": {
       "author": "Crates",
@@ -696,7 +836,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 69,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 69
     },
     "tlg0337": {
       "author": "Python",
@@ -713,7 +857,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 222,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 222
     },
     "tlg0338": {
       "author": "Sosiphanes",
@@ -730,7 +878,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 120,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 120
     },
     "tlg0339": {
       "author": "Moschion",
@@ -747,7 +899,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 802,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 802
     },
     "tlg0340": {
       "author": "Sositheus",
@@ -764,7 +920,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 312,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 312
     },
     "tlg0341": {
       "author": "Lycophron",
@@ -781,7 +941,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 212,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 212
     },
     "tlg0344": {
       "author": "Melanthius",
@@ -798,7 +962,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 6,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 6
     },
     "tlg0345": {
       "author": "Apollonides",
@@ -815,7 +983,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 40,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 40
     },
     "tlg0346": {
       "author": "Pompeius Macer",
@@ -832,7 +1004,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 39,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 39
     },
     "tlg0347": {
       "author": "Serapion",
@@ -849,7 +1025,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 13,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 13
     },
     "tlg0348": {
       "author": "Biotus",
@@ -866,7 +1046,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 24,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 24
     },
     "tlg0349": {
       "author": "Demonax",
@@ -883,7 +1067,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 11,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 11
     },
     "tlg0351": {
       "author": "Hippothoon",
@@ -900,7 +1088,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 80,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 80
     },
     "tlg0352": {
       "author": "Isidorus",
@@ -917,7 +1109,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 29,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 29
     },
     "tlg0354": {
       "author": "Zenodotus",
@@ -934,7 +1130,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 13,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 13
     },
     "tlg0355": {
       "author": "Zopyrus",
@@ -951,7 +1151,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 12
     },
     "tlg0482": {
       "author": "Nicomachus",
@@ -992,7 +1196,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 391,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 391
     },
     "tlg0604": {
       "author": "Ptolemy Philopator",
@@ -1009,7 +1217,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 0
     },
     "tlg1256": {
       "author": "Chares",
@@ -1026,7 +1238,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 57,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 57
     },
     "tlg1511": {
       "author": "Mimnermus",
@@ -1043,7 +1259,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 52,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 52
     },
     "tlg1833": {
       "author": "Pratinas",
@@ -1060,7 +1280,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 4,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 4
     },
     "tlg1848": {
       "author": "Meletus",
@@ -1077,7 +1301,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 0
     },
     "tragfragadesp": {
       "author": "Adespota",
@@ -1094,7 +1322,11 @@
           "source_edition_year": 1889,
           "source_edition_statement": "1889 ed."
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 9134,
+      "counted_fragment_edition": "Nauck",
+      "total_word_count": 9134
     },
     "tlg0252": {
       "author": "Hermippus",
@@ -1125,7 +1357,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 1082,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 1082
     },
     "tlg0264": {
       "author": "Susarion",
@@ -1156,7 +1392,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 30,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 30
     },
     "tlg0400": {
       "author": "Alcaeus Comicus",
@@ -1187,7 +1427,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 154,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 154
     },
     "tlg0403": {
       "author": "Amipsias",
@@ -1218,7 +1462,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 263,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 263
     },
     "tlg0414": {
       "author": "Apollophanes",
@@ -1261,7 +1509,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 31,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 31
     },
     "tlg0417": {
       "author": "Archippus",
@@ -1304,7 +1556,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 332,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 332
     },
     "tlg0418": {
       "author": "Aristagoras",
@@ -1335,7 +1591,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 30,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 30
     },
     "tlg0419": {
       "author": "Aristomenes",
@@ -1402,7 +1662,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 172,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 172
     },
     "tlg0420": {
       "author": "Aristonymus",
@@ -1433,7 +1697,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 23,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 23
     },
     "tlg0426": {
       "author": "Callias",
@@ -1476,7 +1744,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 134,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 134
     },
     "tlg0428": {
       "author": "Cantharus",
@@ -1507,7 +1779,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 26,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 26
     },
     "tlg0429": {
       "author": "Cephisodorus",
@@ -1538,7 +1814,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 81,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 81
     },
     "tlg0431": {
       "author": "Chionides",
@@ -1569,7 +1849,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 82,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 82
     },
     "tlg0433": {
       "author": "Crates",
@@ -1612,7 +1896,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 445,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 445
     },
     "tlg0434": {
       "author": "Cratinus",
@@ -1655,7 +1943,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3387,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 3387
     },
     "tlg0439": {
       "author": "Demetrius Comicus",
@@ -1710,7 +2002,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 71,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 71
     },
     "tlg0443": {
       "author": "Diocles Comicus",
@@ -1741,7 +2037,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 109,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 109
     },
     "tlg0449": {
       "author": "Ecphantides",
@@ -1784,7 +2084,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 43,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 43
     },
     "tlg0453": {
       "author": "Epilycus",
@@ -1827,7 +2131,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 32,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 32
     },
     "tlg0459": {
       "author": "Eunicus",
@@ -1858,7 +2166,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 6,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 6
     },
     "tlg0461": {
       "author": "Eupolis",
@@ -1901,7 +2213,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3545,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 3545
     },
     "tlg0463": {
       "author": "Hegemon",
@@ -1932,7 +2248,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 13,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 13
     },
     "tlg0470": {
       "author": "Leuco",
@@ -1963,7 +2283,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 29,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 29
     },
     "tlg0472": {
       "author": "Lysippus",
@@ -2006,7 +2330,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 144,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 144
     },
     "tlg0474": {
       "author": "Magnes",
@@ -2049,7 +2377,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 39,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 39
     },
     "tlg0475": {
       "author": "Metagenes",
@@ -2092,7 +2424,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 251,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 251
     },
     "tlg0477": {
       "author": "Myrtilus",
@@ -2135,7 +2471,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 12
     },
     "tlg0480": {
       "author": "Nicochares",
@@ -2166,7 +2506,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 92,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 92
     },
     "tlg0483": {
       "author": "Nicophon",
@@ -2197,7 +2541,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 191,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 191
     },
     "tlg0486": {
       "author": "Pherecrates",
@@ -2240,7 +2588,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3098,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 3098
     },
     "tlg0492": {
       "author": "Philonides",
@@ -2283,7 +2635,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 110,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 110
     },
     "tlg0494": {
       "author": "Philyllius",
@@ -2314,7 +2670,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 249,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 249
     },
     "tlg0496": {
       "author": "Phrynichus",
@@ -2357,7 +2717,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 623,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 623
     },
     "tlg0497": {
       "author": "Plato Comicus",
@@ -2400,7 +2764,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 1961,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 1961
     },
     "tlg0499": {
       "author": "Polyzelus",
@@ -2431,7 +2799,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 141,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 141
     },
     "tlg0501": {
       "author": "Sannyrion",
@@ -2462,7 +2834,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 67,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 67
     },
     "tlg0508": {
       "author": "Strattis",
@@ -2505,7 +2881,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 676,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 676
     },
     "tlg0510": {
       "author": "Teleclides",
@@ -2536,7 +2916,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 514,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 514
     },
     "tlg0513": {
       "author": "Theopompus",
@@ -2567,7 +2951,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 702,
+      "counted_fragment_edition": "Kock, vol. 1",
+      "total_word_count": 702
     },
     "tlg0398": {
       "author": "Simylus",
@@ -2586,7 +2974,11 @@
           "collection_label": "Kock, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 1,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 1
     },
     "tlg0402": {
       "author": "Alexis",
@@ -2629,7 +3021,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 8209,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 8209
     },
     "tlg0404": {
       "author": "Amphis",
@@ -2672,7 +3068,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 944,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 944
     },
     "tlg0405": {
       "author": "Anaxandrides",
@@ -2703,7 +3103,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 1909,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 1909
     },
     "tlg0406": {
       "author": "Anaxilas",
@@ -2746,7 +3150,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 918,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 918
     },
     "tlg0409": {
       "author": "Antidotus",
@@ -2777,7 +3185,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 62,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 62
     },
     "tlg0410": {
       "author": "Antiphanes",
@@ -2820,7 +3232,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 7786,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 7786
     },
     "tlg0415": {
       "author": "Araros",
@@ -2863,7 +3279,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 89,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 89
     },
     "tlg0421": {
       "author": "Aristophon",
@@ -2906,7 +3326,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 584,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 584
     },
     "tlg0424": {
       "author": "Axionicus",
@@ -2949,7 +3373,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 384,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 384
     },
     "tlg0432": {
       "author": "Clearchus",
@@ -2980,7 +3408,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 143,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 143
     },
     "tlg0435": {
       "author": "Cratinus Junior",
@@ -3011,7 +3443,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 190,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 190
     },
     "tlg0444": {
       "author": "Diodorus",
@@ -3054,7 +3490,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 561,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 561
     },
     "tlg0445": {
       "author": "Dionysius",
@@ -3097,7 +3537,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 342,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 342
     },
     "tlg0447": {
       "author": "Diphilus",
@@ -3140,7 +3584,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3362,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 3362
     },
     "tlg0450": {
       "author": "Ephippus",
@@ -3183,7 +3631,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 802,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 802
     },
     "tlg0451": {
       "author": "Epicrates",
@@ -3226,7 +3678,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 671,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 671
     },
     "tlg0452": {
       "author": "Epigenes",
@@ -3269,7 +3725,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 126,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 126
     },
     "tlg0455": {
       "author": "Eriphus",
@@ -3312,7 +3772,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 194,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 194
     },
     "tlg0457": {
       "author": "Eubulides",
@@ -3343,7 +3807,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 11,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 11
     },
     "tlg0458": {
       "author": "Eubulus",
@@ -3386,7 +3854,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3190,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 3190
     },
     "tlg0465": {
       "author": "Heniochus",
@@ -3417,7 +3889,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 239,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 239
     },
     "tlg0466": {
       "author": "Heraclides",
@@ -3448,7 +3924,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 39,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 39
     },
     "tlg0476": {
       "author": "Mnesimachus",
@@ -3479,7 +3959,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 528,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 528
     },
     "tlg0478": {
       "author": "Nausicrates",
@@ -3510,7 +3994,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 167,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 167
     },
     "tlg0484": {
       "author": "Nicostratus",
@@ -3553,7 +4041,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 541,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 541
     },
     "tlg0485": {
       "author": "Ophelio",
@@ -3584,7 +4076,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 32,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 32
     },
     "tlg0487": {
       "author": "Philemon",
@@ -3627,7 +4123,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 7230,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 7230
     },
     "tlg0488": {
       "author": "Philemon Junior",
@@ -3658,7 +4158,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 183,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 183
     },
     "tlg0489": {
       "author": "Philetaerus",
@@ -3701,7 +4205,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 366,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 366
     },
     "tlg0502": {
       "author": "Sophilus",
@@ -3732,7 +4240,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 105,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 105
     },
     "tlg0505": {
       "author": "Sotades",
@@ -3763,7 +4275,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 231,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 231
     },
     "tlg0512": {
       "author": "Theophilus",
@@ -3806,7 +4322,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 261,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 261
     },
     "tlg0515": {
       "author": "Timocles",
@@ -3849,7 +4369,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 1350,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 1350
     },
     "tlg0517": {
       "author": "Timotheus",
@@ -3880,7 +4404,11 @@
           "collection_label": "Kock, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 37,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 37
     },
     "tlg0518": {
       "author": "Xenarchus",
@@ -3923,7 +4451,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 480,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 480
     },
     "tlg1784": {
       "author": "[Heraclitus] Comicus",
@@ -3954,7 +4486,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 0
     },
     "tlg0395": {
       "author": "Diophantus",
@@ -3973,7 +4509,11 @@
           "collection_label": "Kock, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 3,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 3
     },
     "tlg0399": {
       "author": "Eudoxus",
@@ -4004,7 +4544,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 0
     },
     "tlg0401": {
       "author": "Alexander",
@@ -4035,7 +4579,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 37,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 37
     },
     "tlg0407": {
       "author": "Anaxippus",
@@ -4066,7 +4614,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 403,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 403
     },
     "tlg0408": {
       "author": "Comica Adespota (CAF)",
@@ -4097,7 +4649,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 9177,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 9177
     },
     "tlg0411": {
       "author": "Apollodorus Carystius",
@@ -4128,7 +4684,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 557,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 557
     },
     "tlg0412": {
       "author": "Apollodorus Carystius vel Gelous",
@@ -4159,7 +4719,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 703,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 703
     },
     "tlg0413": {
       "author": "Apollodorus Gelous",
@@ -4190,7 +4754,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 59,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 59
     },
     "tlg0416": {
       "author": "Archedicus",
@@ -4221,7 +4789,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 162,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 162
     },
     "tlg0422": {
       "author": "Athenio",
@@ -4252,7 +4824,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 586,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 586
     },
     "tlg0425": {
       "author": "Baton",
@@ -4283,7 +4859,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 650,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 650
     },
     "tlg0427": {
       "author": "Callippus",
@@ -4314,7 +4894,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 26,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 26
     },
     "tlg0430": {
       "author": "Chariclides",
@@ -4333,7 +4917,11 @@
           "collection_label": "Kock, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 7,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 7
     },
     "tlg0436": {
       "author": "Crito",
@@ -4364,7 +4952,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 50,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 50
     },
     "tlg0437": {
       "author": "Crobylus",
@@ -4395,7 +4987,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 179,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 179
     },
     "tlg0438": {
       "author": "Damoxenus",
@@ -4426,7 +5022,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 620,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 620
     },
     "tlg0441": {
       "author": "Demonicus",
@@ -4457,7 +5057,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 26,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 26
     },
     "tlg0442": {
       "author": "Dexicrates",
@@ -4488,7 +5092,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 30,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 30
     },
     "tlg0446": {
       "author": "Dioxippus",
@@ -4519,7 +5127,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 79,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 79
     },
     "tlg0454": {
       "author": "Epinicus",
@@ -4550,7 +5162,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 135,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 135
     },
     "tlg0456": {
       "author": "Euangelus",
@@ -4581,7 +5197,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 83,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 83
     },
     "tlg0460": {
       "author": "Euphron",
@@ -4612,7 +5232,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 556,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 556
     },
     "tlg0462": {
       "author": "Euthycles",
@@ -4643,7 +5267,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 14,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 14
     },
     "tlg0464": {
       "author": "Hegesippus",
@@ -4674,7 +5302,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 239,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 239
     },
     "tlg0468": {
       "author": "Hipparchus",
@@ -4705,7 +5337,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 109,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 109
     },
     "tlg0469": {
       "author": "Laon",
@@ -4736,7 +5372,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 27,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 27
     },
     "tlg0471": {
       "author": "Lynceus",
@@ -4767,7 +5407,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 156,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 156
     },
     "tlg0473": {
       "author": "Machon",
@@ -4798,7 +5442,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 92,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 92
     },
     "tlg0479": {
       "author": "Nico",
@@ -4829,7 +5477,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 38,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 38
     },
     "tlg0481": {
       "author": "Nicolaus",
@@ -4860,7 +5512,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 271,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 271
     },
     "tlg0490": {
       "author": "Philippides",
@@ -4891,7 +5547,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 682,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 682
     },
     "tlg0493": {
       "author": "Philostephanus",
@@ -4922,7 +5582,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 26,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 26
     },
     "tlg0495": {
       "author": "Phoenicides",
@@ -4953,7 +5617,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 328,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 328
     },
     "tlg0498": {
       "author": "Poliochus",
@@ -4984,7 +5652,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 53,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 53
     },
     "tlg0500": {
       "author": "Posidippus",
@@ -5015,7 +5687,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 954,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 954
     },
     "tlg0503": {
       "author": "Sosicrates",
@@ -5046,7 +5722,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 70,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 70
     },
     "tlg0504": {
       "author": "Sosipater",
@@ -5077,7 +5757,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 372,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 372
     },
     "tlg0506": {
       "author": "Stephanus",
@@ -5108,7 +5792,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 36,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 36
     },
     "tlg0507": {
       "author": "Straton",
@@ -5139,7 +5827,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 577,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 577
     },
     "tlg0511": {
       "author": "Theognetus",
@@ -5170,7 +5862,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 146,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 146
     },
     "tlg0514": {
       "author": "Thugenides",
@@ -5201,7 +5897,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 7,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 7
     },
     "tlg0516": {
       "author": "Timostratus",
@@ -5232,7 +5932,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 29,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 29
     },
     "tlg0519": {
       "author": "Xeno",
@@ -5263,7 +5967,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 10,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 10
     },
     "tlg0541": {
       "author": "Menander",
@@ -5294,7 +6002,11 @@
           "collection_label": "Meineke, vol. 4",
           "collection_volume": 4
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 21075,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 21075
     },
     "tlg1361": {
       "author": "Eumedes",
@@ -5313,7 +6025,11 @@
           "collection_label": "Kock, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 0
     },
     "tlg1788": {
       "author": "Phormis",
@@ -5332,7 +6048,11 @@
           "collection_label": "Kock, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 0
     },
     "tlg0423": {
       "author": "Autocrates",
@@ -5351,7 +6071,11 @@
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 76,
+      "counted_fragment_edition": "Meineke, vol. 2",
+      "total_word_count": 76
     },
     "tlg0448": {
       "author": "Dromo",
@@ -5394,7 +6118,11 @@
           "collection_label": "Meineke, vol. 3",
           "collection_volume": 3
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 49,
+      "counted_fragment_edition": "Meineke, vol. 3",
+      "total_word_count": 49
     },
     "tlg1783": {
       "author": "Callicrates",
@@ -5413,7 +6141,11 @@
           "collection_label": "Kock, vol. 2",
           "collection_volume": 2
         }
-      ]
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Kock, vol. 2",
+      "total_word_count": 0
     }
   },
   "works": {
