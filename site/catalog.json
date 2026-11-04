@@ -112439,6 +112439,3894 @@
         }
       ],
       "annotations": {}
+    },
+    "tlg0020.dk068a": {
+      "textgroup": "tlg0020",
+      "work": "dk068a",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0020.dk068a.part1.db",
+          "chapters": [
+            "194",
+            "195",
+            "196"
+          ],
+          "bytes": 94208,
+          "sha256": "2541ece806b5f4820f4ab5a142b6041c22432258c8e9ceddb94043ff059efea1"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0020.dk068a.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "68a. HESIODOS.",
+      "title": "68a. HESIODOS."
+    },
+    "tlg0267.dk011": {
+      "textgroup": "tlg0267",
+      "work": "dk011",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0267.dk011.part1.db",
+          "chapters": [
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67"
+          ],
+          "bytes": 221184,
+          "sha256": "55e6d2b62d678c967027d8a15754b9d8ced84e8fe7b7dc6c65333f760f839bc1"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0267.dk011.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "11. XENOPHANES.",
+      "title": "11. XENOPHANES."
+    },
+    "tlg0308.dk025": {
+      "textgroup": "tlg0308",
+      "work": "dk025",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0308.dk025.part1.db",
+          "chapters": [
+            "285",
+            "286",
+            "287",
+            "288"
+          ],
+          "bytes": 102400,
+          "sha256": "59b09eb00e152a1bda488fed32f8622642e1a2e4cb6178ad7fb38e2a7017c660"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0308.dk025.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "25. ION VON CHIOS.",
+      "title": "25. ION VON CHIOS."
+    },
+    "tlg0319.dk081": {
+      "textgroup": "tlg0319",
+      "work": "dk081",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0319.dk081.part1.db",
+          "chapters": [
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "319",
+            "320",
+            "321",
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
+            "328",
+            "329"
+          ],
+          "bytes": 196608,
+          "sha256": "e98852dae1b7718afe774822a2a6d0161b346c48797559ae3d773c50b30f585f"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0319.dk081.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "81. KRITIAS.",
+      "title": "81. KRITIAS."
+    },
+    "tlg0392.dk073": {
+      "textgroup": "tlg0392",
+      "work": "dk073",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0392.dk073.part1.db",
+          "chapters": [
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212"
+          ],
+          "bytes": 110592,
+          "sha256": "9d0ac81b254bc563c90a31e5f33e1faabc02a8fcf8411e35ca9e223f2d764cff"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0392.dk073.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "73. AKUSILAOS.",
+      "title": "73. AKUSILAOS."
+    },
+    "tlg0521.dk013": {
+      "textgroup": "tlg0521",
+      "work": "dk013",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0521.dk013.part1.db",
+          "chapters": [
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131"
+          ],
+          "bytes": 172032,
+          "sha256": "da8fe4f5fb3bfc1543a19c73667ed2d043f2ab9ae85749fbf622bae4c240aaa8"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0521.dk013.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "13. EPICHARMOS.",
+      "title": "13. EPICHARMOS."
+    },
+    "tlg0579.dk066": {
+      "textgroup": "tlg0579",
+      "work": "dk066",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0579.dk066.part1.db",
+          "chapters": [
+            "163",
+            "164",
+            "165",
+            "166",
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172",
+            "173",
+            "174",
+            "175",
+            "176",
+            "177",
+            "178"
+          ],
+          "bytes": 163840,
+          "sha256": "ae22c2ae04da88442d85c63e901348403e7ca43f0106aef2ccc7fceaa6915f26"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0579.dk066.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "66. ORPHEUS.",
+      "title": "66. ORPHEUS."
+    },
+    "tlg0593.dk076": {
+      "textgroup": "tlg0593",
+      "work": "dk076",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0593.dk076.part1.db",
+          "chapters": [
+            "235",
+            "236",
+            "237",
+            "238",
+            "239",
+            "240",
+            "241",
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251",
+            "252",
+            "253",
+            "254",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "263",
+            "264",
+            "265",
+            "266"
+          ],
+          "bytes": 258048,
+          "sha256": "d3107443136dfbd0e39dd77bc45fedebf11271373969ae0c503f8191d5fb1c7c"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0593.dk076.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "76. GORGIAS.",
+      "title": "76. GORGIAS."
+    },
+    "tlg0595.dk019": {
+      "textgroup": "tlg0595",
+      "work": "dk019",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0595.dk019.part1.db",
+          "chapters": [
+            "165",
+            "166",
+            "167",
+            "168",
+            "169",
+            "170",
+            "171",
+            "172",
+            "173",
+            "174",
+            "175"
+          ],
+          "bytes": 147456,
+          "sha256": "c60c37205bfbb205a041862575d141c6c8cbc051ceed018a038a2925cfe16910"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0595.dk019.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "19. ZENON.",
+      "title": "19. ZENON."
+    },
+    "tlg0617.dk003": {
+      "textgroup": "tlg0617",
+      "work": "dk003",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0617.dk003.part1.db",
+          "chapters": [
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+          ],
+          "bytes": 114688,
+          "sha256": "757235222921ed06297743aa782e875fae495ce2762848d98bbd8e4dea466b16"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0617.dk003.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "3. ANAXIMENES.",
+      "title": "3. ANAXIMENES."
+    },
+    "tlg0620.dk035": {
+      "textgroup": "tlg0620",
+      "work": "dk035",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0620.dk035.part1.db",
+          "chapters": [
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330",
+            "331",
+            "332",
+            "333",
+            "334",
+            "335",
+            "336",
+            "337",
+            "338"
+          ],
+          "bytes": 163840,
+          "sha256": "c2949084f994c96a393d2c39e06ad5cf55adea8cb00a05e4d78c79ab4ffa6a25"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0620.dk035.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "35. ARCHYTAS.",
+      "title": "35. ARCHYTAS."
+    },
+    "tlg0626.dk012": {
+      "textgroup": "tlg0626",
+      "work": "dk012",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0626.dk012.part1.db",
+          "chapters": [
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113"
+          ],
+          "bytes": 356352,
+          "sha256": "60924e576da092e42f54763317faf2e65b067188fc8fa61098e6753d1d2bbb58"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0626.dk012.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "12. HERAKLEITOS.",
+      "title": "12. HERAKLEITOS."
+    },
+    "tlg0630.dk071": {
+      "textgroup": "tlg0630",
+      "work": "dk071",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0630.dk071.part1.db",
+          "chapters": [
+            "198",
+            "199",
+            "200",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205"
+          ],
+          "bytes": 122880,
+          "sha256": "e240d9e75f3b6399a7f4d63772cb0989caa48d2889a2fb03e0413ed12f802889"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0630.dk071.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "71. PHEREKYDES VON SYROS.",
+      "title": "71. PHEREKYDES VON SYROS."
+    },
+    "tlg0632.dk004": {
+      "textgroup": "tlg0632",
+      "work": "dk004",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0632.dk004.part1.db",
+          "chapters": [
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "bytes": 139264,
+          "sha256": "1c4b6f2eb4f44f9f52e6ba2422f83aa84e4ec214ccf5f91c3fadf9242b40a621"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0632.dk004.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "4. PYTHAGORAS.",
+      "title": "4. PYTHAGORAS."
+    },
+    "tlg0633.dk034": {
+      "textgroup": "tlg0633",
+      "work": "dk034",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0633.dk034.part1.db",
+          "chapters": [
+            "321",
+            "322"
+          ],
+          "bytes": 77824,
+          "sha256": "5c825ed6b3c60d43bb35d82f4f7dcecdf1a25101e231f205912e403234dcc614"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0633.dk034.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "34. ARCHIPPOS. LYSIS. OPSIMOS.",
+      "title": "34. ARCHIPPOS. LYSIS. OPSIMOS."
+    },
+    "tlg0713.dk046": {
+      "textgroup": "tlg0713",
+      "work": "dk046",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0713.dk046.part1.db",
+          "chapters": [
+            "375",
+            "376",
+            "377",
+            "378",
+            "379",
+            "380",
+            "381",
+            "382",
+            "383",
+            "384",
+            "385",
+            "386",
+            "387",
+            "388",
+            "389",
+            "390",
+            "391",
+            "392",
+            "393",
+            "394",
+            "395",
+            "396",
+            "397",
+            "398",
+            "399",
+            "400",
+            "401",
+            "402",
+            "403",
+            "404",
+            "405",
+            "406",
+            "407",
+            "408",
+            "409",
+            "410"
+          ],
+          "bytes": 331776,
+          "sha256": "ff4c7636ada91e6202a4a3d1e058ffab67362d985f56c2bc445a6d6bba722391"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0713.dk046.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "46. ANAXAGORAS.",
+      "title": "46. ANAXAGORAS."
+    },
+    "tlg0714.dk059": {
+      "textgroup": "tlg0714",
+      "work": "dk059",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0714.dk059.part1.db",
+          "chapters": [
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149"
+          ],
+          "bytes": 110592,
+          "sha256": "92213df63f444f64d8cd2216dc168ccf36a53703ba10e78730df70b2f1c308e6"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg0714.dk059.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "59. ANAXARCHOS.",
+      "title": "59. ANAXARCHOS."
+    },
+    "tlg0725.dk002": {
+      "textgroup": "tlg0725",
+      "work": "dk002",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0725.dk002.part1.db",
+          "chapters": [
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "bytes": 139264,
+          "sha256": "85a2e860968e174570a11002c2129a17d83a16f5d5f84f440756562c056eed08"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0725.dk002.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "2. ΑΝΑΞΙΜΑΝΔΡΟΣ.",
+      "title": "2. ΑΝΑΞΙΜΑΝΔΡΟΣ."
+    },
+    "tlg0766.dk014": {
+      "textgroup": "tlg0766",
+      "work": "dk014",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg0766.dk014.part1.db",
+          "chapters": [
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136"
+          ],
+          "bytes": 110592,
+          "sha256": "1ccdf74c744c209782ba7509d1edf6f9e3cf45e892569ab9a7804d9ea5f0ce68"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg0766.dk014.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "14. ALKMAION.",
+      "title": "14. ALKMAION."
+    },
+    "tlg1134.dk082": {
+      "textgroup": "tlg1134",
+      "work": "dk082",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1134.dk082.part1.db",
+          "chapters": [
+            "329",
+            "330",
+            "331",
+            "332",
+            "333",
+            "334"
+          ],
+          "bytes": 110592,
+          "sha256": "14404cf6ae6e04a4cd2117421e1e3aeb30c7f98200695bc293157412ab85fc87"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1134.dk082.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "82. ANONYMUS IAMBLICHI.",
+      "title": "82. ANONYMUS IAMBLICHI."
+    },
+    "tlg1147.dk080": {
+      "textgroup": "tlg1147",
+      "work": "dk080",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1147.dk080.part1.db",
+          "chapters": [
+            "289",
+            "290",
+            "291",
+            "292",
+            "293",
+            "294",
+            "295",
+            "296",
+            "297",
+            "298",
+            "299",
+            "300",
+            "301",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308"
+          ],
+          "bytes": 184320,
+          "sha256": "0cf4dd146da4e0910858051a2fe3e6384cc4d8b426d4ed185ef2458b13d8d7a5"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1147.dk080.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "80. ANTIPHON DER SOPHIST.",
+      "title": "80. ANTIPHON DER SOPHIST."
+    },
+    "tlg1230.dk007": {
+      "textgroup": "tlg1230",
+      "work": "dk007",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1230.dk007.part1.db",
+          "chapters": [
+            "35",
+            "36"
+          ],
+          "bytes": 86016,
+          "sha256": "7d4f602b5a4243e78d2061669fbbb6e23a5bc25e11b86b62a25db937cab1585f"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1230.dk007.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "7. BROTINOS.",
+      "title": "7. BROTINOS."
+    },
+    "tlg1275.dk070": {
+      "textgroup": "tlg1275",
+      "work": "dk070",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1275.dk070.part1.db",
+          "chapters": [
+            "197",
+            "198"
+          ],
+          "bytes": 86016,
+          "sha256": "f6652dc2406cec2957e4f428443594921581daef80f4b23c2a931423fa390839"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1275.dk070.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "70. KLEOSTRATOS.",
+      "title": "70. KLEOSTRATOS."
+    },
+    "tlg1277.dk041": {
+      "textgroup": "tlg1277",
+      "work": "dk041",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1277.dk041.part1.db",
+          "chapters": [
+            "342"
+          ],
+          "bytes": 77824,
+          "sha256": "fd64a612307e1b55e9b02b5e0455c62637f9129034b335f90b846d7f68fa0cf1"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1277.dk041.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "41. PROROS. AMYKLAS. KLEINIAS.",
+      "title": "41. PROROS. AMYKLAS. KLEINIAS."
+    },
+    "tlg1304.dk055": {
+      "textgroup": "tlg1304",
+      "work": "dk055",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1304.dk055.part1.db",
+          "chapters": [
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140"
+          ],
+          "bytes": 864256,
+          "sha256": "37fba6d74b14f708ee78b6c3fc8a70aaa8c7d30d94a64d473680b97988ee1abb"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1304.dk055.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "55. DEMOKRITOS.",
+      "title": "55. DEMOKRITOS."
+    },
+    "tlg1306.dk065": {
+      "textgroup": "tlg1306",
+      "work": "dk065",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1306.dk065.part1.db",
+          "chapters": [
+            "160",
+            "161",
+            "163"
+          ],
+          "bytes": 77824,
+          "sha256": "b27688a19c763b8dd2081043217c7ed0a95927908799b372b2545a5dac4e5426"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1306.dk065.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "65. BOLOS.",
+      "title": "65. BOLOS."
+    },
+    "tlg1309.dk083": {
+      "textgroup": "tlg1309",
+      "work": "dk083",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1309.dk083.part1.db",
+          "chapters": [
+            "334",
+            "335",
+            "336",
+            "337",
+            "338",
+            "339",
+            "340",
+            "341",
+            "342",
+            "343",
+            "344",
+            "345"
+          ],
+          "bytes": 147456,
+          "sha256": "4da52365b713dbc0799bccc1765e88738c6f97ed2d19a4f323350566115bb182"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1309.dk083.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "83. DIALEXEIS.",
+      "title": "83. DIALEXEIS."
+    },
+    "tlg1319.dk051": {
+      "textgroup": "tlg1319",
+      "work": "dk051",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1319.dk051.part1.db",
+          "chapters": [
+            "416",
+            "417",
+            "418",
+            "419",
+            "420",
+            "421",
+            "422",
+            "423",
+            "424",
+            "425",
+            "426",
+            "427",
+            "428",
+            "429",
+            "430",
+            "431",
+            "432"
+          ],
+          "bytes": 176128,
+          "sha256": "f75d8d0697f15855f2ca4d535ae0e96a441154366f694c63cbe3f2aaaef104ad"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1319.dk051.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "51. DIOGENES VON APOLLONIA.",
+      "title": "51. DIOGENES VON APOLLONIA."
+    },
+    "tlg1341.dk038": {
+      "textgroup": "tlg1341",
+      "work": "dk038",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1341.dk038.part1.db",
+          "chapters": [
+            "340",
+            "341"
+          ],
+          "bytes": 77824,
+          "sha256": "907a1cf527faf6bb8e1efc0d00afbe958909d467bf79b9e15da7884fbb244e44"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1341.dk038.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "38. EKPHANTOS.",
+      "title": "38. EKPHANTOS."
+    },
+    "tlg1342.dk021": {
+      "textgroup": "tlg1342",
+      "work": "dk021",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1342.dk021.part1.db",
+          "chapters": [
+            "193",
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234",
+            "235",
+            "236",
+            "237",
+            "238",
+            "239",
+            "240",
+            "241",
+            "242",
+            "243",
+            "244",
+            "245",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "251",
+            "252",
+            "253",
+            "254",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "263",
+            "264",
+            "265",
+            "266",
+            "267",
+            "268",
+            "269",
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276",
+            "277",
+            "278",
+            "279",
+            "280",
+            "281",
+            "282",
+            "283"
+          ],
+          "bytes": 655360,
+          "sha256": "915792b7523ce2b8b9b3a8df5fdca06bc046d2cab10eef106efa14d9d8191438"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1342.dk021.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "21. EMPEDOKLES.",
+      "title": "21. EMPEDOKLES."
+    },
+    "tlg1347.dk068": {
+      "textgroup": "tlg1347",
+      "work": "dk068",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1347.dk068.part1.db",
+          "chapters": [
+            "185",
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191",
+            "192",
+            "193",
+            "194"
+          ],
+          "bytes": 131072,
+          "sha256": "4a3fa794364e81a13599b1904af5dab7f7aa956bbe6a5b1d33d5c2cc3438075a"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1347.dk068.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "68. EPIMENIDES.",
+      "title": "68. EPIMENIDES."
+    },
+    "tlg1362.dk033": {
+      "textgroup": "tlg1362",
+      "work": "dk033",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1362.dk033.part1.db",
+          "chapters": [
+            "320",
+            "321"
+          ],
+          "bytes": 86016,
+          "sha256": "952311f871033b0fdc16fac0bc51eaeebc968f3c0da3fe0939dd7d96e372d869"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1362.dk033.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "33. EYRYTOS.",
+      "title": "33. EYRYTOS."
+    },
+    "tlg1390.dk060": {
+      "textgroup": "tlg1390",
+      "work": "dk060",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1390.dk060.part1.db",
+          "chapters": [
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154"
+          ],
+          "bytes": 114688,
+          "sha256": "3895edce019ad7a566cd66499e0afb52974f0bef9bf28cae68066f0d8a98c570"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1390.dk060.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "60. HEKATAIOS VON ABDERA.",
+      "title": "60. HEKATAIOS VON ABDERA."
+    },
+    "tlg1434.dk079": {
+      "textgroup": "tlg1434",
+      "work": "dk079",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1434.dk079.part1.db",
+          "chapters": [
+            "282",
+            "283",
+            "284",
+            "285",
+            "286",
+            "287",
+            "288"
+          ],
+          "bytes": 118784,
+          "sha256": "d6588d32b1a38ebafc1bb4cc69c7a392fbb76bf5a6a3b2faa54db2571e61287c"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1434.dk079.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "79. HIPPIAS.",
+      "title": "79. HIPPIAS."
+    },
+    "tlg1436.dk027": {
+      "textgroup": "tlg1436",
+      "work": "dk027",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1436.dk027.part1.db",
+          "chapters": [
+            "293",
+            "294"
+          ],
+          "bytes": 90112,
+          "sha256": "be5a23801430a6b8a8dcc56ee0df2705ad611cfaae556b70db5f72e1b89ee164"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1436.dk027.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "27. PHALEAS UND HIPPODAMOS.",
+      "title": "27. PHALEAS UND HIPPODAMOS."
+    },
+    "tlg1437.dk026": {
+      "textgroup": "tlg1437",
+      "work": "dk026",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1437.dk026.part1.db",
+          "chapters": [
+            "288",
+            "289",
+            "290",
+            "291",
+            "292"
+          ],
+          "bytes": 106496,
+          "sha256": "84af0a4eaa9c8e2ea49583380f76ca460ad5902a86c6a8db485b61fb1276e712"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1437.dk026.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "26. HIPPON.",
+      "title": "26. HIPPON."
+    },
+    "tlg1461.dk054": {
+      "textgroup": "tlg1461",
+      "work": "dk054",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1461.dk054.part1.db",
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "bytes": 147456,
+          "sha256": "852a08b9640012f05811c12dfa4d42691ad7acee98eabe65294a072efe00b531"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1461.dk054.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "54. LEUKIPPOS.",
+      "title": "54. LEUKIPPOS."
+    },
+    "tlg1494.dk020": {
+      "textgroup": "tlg1494",
+      "work": "dk020",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1494.dk020.part1.db",
+          "chapters": [
+            "176",
+            "177",
+            "178",
+            "179",
+            "180",
+            "181",
+            "182",
+            "183",
+            "184",
+            "185",
+            "186",
+            "187",
+            "188",
+            "189",
+            "190",
+            "191",
+            "192",
+            "193"
+          ],
+          "bytes": 180224,
+          "sha256": "8db3f8e3ddcd578bf6f4585b8d1ae3b3deb9b3a19ce6130ca801276b16f9a038"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1494.dk020.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "20. MELISSOS.",
+      "title": "20. MELISSOS."
+    },
+    "tlg1508.dk057": {
+      "textgroup": "tlg1508",
+      "work": "dk057",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1508.dk057.part1.db",
+          "chapters": [
+            "140",
+            "141",
+            "142",
+            "143",
+            "144"
+          ],
+          "bytes": 102400,
+          "sha256": "ae89a51622bc95e4f5beb4d28e5a220c1f0374057e9c5a4a2ccdc5e53296dff6"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1508.dk057.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "57. METRODOROS VON CHIOS.",
+      "title": "57. METRODOROS VON CHIOS."
+    },
+    "tlg1545.dk035a": {
+      "textgroup": "tlg1545",
+      "work": "dk035a",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1545.dk035a.part1.db",
+          "chapters": [
+            "339"
+          ],
+          "bytes": 77824,
+          "sha256": "85b86540cf16675e7002a54ef5941907ee875fb483d8ffd4938cf05f407490a6"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1545.dk035a.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "35a. OKKELOS.",
+      "title": "35a. OKKELOS."
+    },
+    "tlg1562.dk017": {
+      "textgroup": "tlg1562",
+      "work": "dk017",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1562.dk017.part1.db",
+          "chapters": [
+            "137"
+          ],
+          "bytes": 77824,
+          "sha256": "f4c7ff9f6cdfae4c41d362fa88c1bf2781144e3fc26ec20409239a68f3d6a5e8"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1562.dk017.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "17. AMEINIAS.",
+      "title": "17. AMEINIAS."
+    },
+    "tlg1562.dk018": {
+      "textgroup": "tlg1562",
+      "work": "dk018",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1562.dk018.part1.db",
+          "chapters": [
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149",
+            "150",
+            "151",
+            "152",
+            "153",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165"
+          ],
+          "bytes": 233472,
+          "sha256": "787ace016b2543e1356dfc7bb1017ace6d88823b45329aaa208238bd31fe669f"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1562.dk018.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "18. PARMENIDES.",
+      "title": "18. PARMENIDES."
+    },
+    "tlg1596.dk032": {
+      "textgroup": "tlg1596",
+      "work": "dk032",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1596.dk032.part1.db",
+          "chapters": [
+            "301",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "319",
+            "320"
+          ],
+          "bytes": 188416,
+          "sha256": "5d7c00cd4f104fc0658896c2fdac45be0e264f2c8e82787c7b88db8ab84c7461"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1596.dk032.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "32. PHILOLAOS.",
+      "title": "32. PHILOLAOS."
+    },
+    "tlg1625.dk028": {
+      "textgroup": "tlg1625",
+      "work": "dk028",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1625.dk028.part1.db",
+          "chapters": [
+            "294",
+            "295",
+            "296"
+          ],
+          "bytes": 90112,
+          "sha256": "2167ceeadf148beafe98835b8a490cf67c9612c05d2d58f89e72edf108d03e4a"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1625.dk028.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "28. POLYKLEITOS.",
+      "title": "28. POLYKLEITOS."
+    },
+    "tlg1634.dk077": {
+      "textgroup": "tlg1634",
+      "work": "dk077",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1634.dk077.part1.db",
+          "chapters": [
+            "267",
+            "268",
+            "269",
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276"
+          ],
+          "bytes": 135168,
+          "sha256": "3b276a60fa01f745893b3220f1a02298eab6f010642f66c90c6475f2ab971084"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1634.dk077.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "77. PRODIKOS.",
+      "title": "77. PRODIKOS."
+    },
+    "tlg1635.dk074": {
+      "textgroup": "tlg1635",
+      "work": "dk074",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1635.dk074.part1.db",
+          "chapters": [
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224",
+            "225",
+            "226",
+            "227",
+            "228",
+            "229",
+            "230",
+            "231",
+            "232",
+            "233",
+            "234",
+            "235"
+          ],
+          "bytes": 180224,
+          "sha256": "27a09367d46d86195f9fb52340e23e59ce03b0dce864fd471a8f8d06aa5a3e54"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1635.dk074.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "74. PROTAGORAS.",
+      "title": "74. PROTAGORAS."
+    },
+    "tlg1667.dk073a": {
+      "textgroup": "tlg1667",
+      "work": "dk073a",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1667.dk073a.part1.db",
+          "chapters": [
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218"
+          ],
+          "bytes": 106496,
+          "sha256": "c917f3ffe8ae8455fe54725d47555966f9520f575d5d2975d36a077bc2376f5a"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1667.dk073a.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "73a. DIE SIEBEN WEISEN.",
+      "title": "73a. DIE SIEBEN WEISEN."
+    },
+    "tlg1667.dk073b": {
+      "textgroup": "tlg1667",
+      "work": "dk073b",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1667.dk073b.part1.db",
+          "chapters": [
+            "218",
+            "219"
+          ],
+          "bytes": 81920,
+          "sha256": "dc4ec5020b5507405ccf3eaebf778aa378918899e23ada095804a22bb1331f53"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1667.dk073b.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "73b. NAMEN UND BEGRIFF.",
+      "title": "73b. NAMEN UND BEGRIFF."
+    },
+    "tlg1705.dk001": {
+      "textgroup": "tlg1705",
+      "work": "dk001",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1705.dk001.part1.db",
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "bytes": 167936,
+          "sha256": "be71c74dfa2012a859845dbe2616d0860c6b6e7d76fb7fcdd702b8e447ecb474"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1705.dk001.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "1. THALES.",
+      "title": "1. THALES."
+    },
+    "tlg1729.dk078": {
+      "textgroup": "tlg1729",
+      "work": "dk078",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1729.dk078.part1.db",
+          "chapters": [
+            "276",
+            "277",
+            "278",
+            "279",
+            "280",
+            "281",
+            "282"
+          ],
+          "bytes": 114688,
+          "sha256": "2765f06b1baff8dcbd0a97a8c43120c95547f12ec341e89faa4c41b0b0c6304e"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg1729.dk078.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "78. THRASYMACHOS.",
+      "title": "78. THRASYMACHOS."
+    },
+    "tlg1734.dk036": {
+      "textgroup": "tlg1734",
+      "work": "dk036",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1734.dk036.part1.db",
+          "chapters": [
+            "339",
+            "340"
+          ],
+          "bytes": 77824,
+          "sha256": "7a93ce2d5646da911012c2ca017f5b6c6bdb990279eeb9237cadd5e9e8d7de94"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1734.dk036.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "36. TIMAIOS.",
+      "title": "36. TIMAIOS."
+    },
+    "tlg1811.dk048": {
+      "textgroup": "tlg1811",
+      "work": "dk048",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1811.dk048.part1.db",
+          "chapters": [
+            "414"
+          ],
+          "bytes": 81920,
+          "sha256": "93e772e332365bd112e4ce4ec18cd19586c534b1616c470cd070fd0d085a692f"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg1811.dk048.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "48. METRODORUS VON LAMPSAKOS.",
+      "title": "48. METRODORUS VON LAMPSAKOS."
+    },
+    "tlg2153.dk064": {
+      "textgroup": "tlg2153",
+      "work": "dk064",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2153.dk064.part1.db",
+          "chapters": [
+            "159"
+          ],
+          "bytes": 77824,
+          "sha256": "9bb2eb46aadb310691c62499bbcae74ac34577c6a39367ec20e3050eeccfa89d"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2153.dk064.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "64. BION VON ABDERA.",
+      "title": "64. BION VON ABDERA."
+    },
+    "tlg2218.dk009": {
+      "textgroup": "tlg2218",
+      "work": "dk009",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2218.dk009.part1.db",
+          "chapters": [
+            "39",
+            "40",
+            "41"
+          ],
+          "bytes": 90112,
+          "sha256": "dcf3752d80926d2837ef056ab2124f1483143eae29d59d9102a37a65bea3c882"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2218.dk009.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "9. KALLIPHON UND DEMOKEDES.",
+      "title": "9. KALLIPHON UND DEMOKEDES."
+    },
+    "tlg2225.dk010": {
+      "textgroup": "tlg2225",
+      "work": "dk010",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2225.dk010.part1.db",
+          "chapters": [
+            "41",
+            "42"
+          ],
+          "bytes": 77824,
+          "sha256": "2a664731a73493374ff40798c3935aeda79829f738a7b7ba9d7d134951194d51"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2225.dk010.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "10. PARMISKOS.",
+      "title": "10. PARMISKOS."
+    },
+    "tlg2226.dk015": {
+      "textgroup": "tlg2226",
+      "work": "dk015",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2226.dk015.part1.db",
+          "chapters": [
+            "137"
+          ],
+          "bytes": 77824,
+          "sha256": "895ef52da98d2497739596dcadf30cfc9fe7ffccd2372ce42dd3cc025b73fca9"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2226.dk015.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "15. IKKOS.",
+      "title": "15. IKKOS."
+    },
+    "tlg2227.dk016": {
+      "textgroup": "tlg2227",
+      "work": "dk016",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2227.dk016.part1.db",
+          "chapters": [
+            "137"
+          ],
+          "bytes": 77824,
+          "sha256": "8c2565a57d32b91494713a93d38594c25fb364ca6c0f306d70b5d5a953eb5838"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2227.dk016.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "16. PARON.",
+      "title": "16. PARON."
+    },
+    "tlg2228.dk022": {
+      "textgroup": "tlg2228",
+      "work": "dk022",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2228.dk022.part1.db",
+          "chapters": [
+            "283",
+            "284"
+          ],
+          "bytes": 81920,
+          "sha256": "c7c6c64c90ace58f67d72c66867dd273a2b3d35e07ded6cd67df8c847320b8c6"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2228.dk022.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "22. MENESTOR.",
+      "title": "22. MENESTOR."
+    },
+    "tlg2229.dk023": {
+      "textgroup": "tlg2229",
+      "work": "dk023",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2229.dk023.part1.db",
+          "chapters": [
+            "284"
+          ],
+          "bytes": 77824,
+          "sha256": "127693aed1c05f04c748e4c48fb0a76f81d7ed66c4cd08514bb8f395ffc22ae3"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2229.dk023.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "23. XUTHOS.",
+      "title": "23. XUTHOS."
+    },
+    "tlg2230.dk024": {
+      "textgroup": "tlg2230",
+      "work": "dk024",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2230.dk024.part1.db",
+          "chapters": [
+            "284"
+          ],
+          "bytes": 77824,
+          "sha256": "68a0afd48124605ac0b348e9d5f0b85f1c006f80155dd0dac92fcfacd63b61e2"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2230.dk024.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "24. BOÏDAS.",
+      "title": "24. BOÏDAS."
+    },
+    "tlg2234.dk029": {
+      "textgroup": "tlg2234",
+      "work": "dk029",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2234.dk029.part1.db",
+          "chapters": [
+            "296",
+            "297",
+            "298"
+          ],
+          "bytes": 94208,
+          "sha256": "0825c7f77cae5c215a327ef56e77b0fd5b0193e1a46f2de47089b3b5469593c8"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2234.dk029.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "29. OINOPIDES. 1—10.",
+      "title": "29. OINOPIDES. 1—10."
+    },
+    "tlg2235.dk030": {
+      "textgroup": "tlg2235",
+      "work": "dk030",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2235.dk030.part1.db",
+          "chapters": [
+            "298",
+            "299",
+            "300"
+          ],
+          "bytes": 90112,
+          "sha256": "6f1f9ff4bdf71c503bb2d3870e31f7c2a1d7a48cd451b2a07c2ba56ef3e112fc"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2235.dk030.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "30. HIPPOKRATES VON CHIOS. AISCHYLOS. 1—5.",
+      "title": "30. HIPPOKRATES VON CHIOS. AISCHYLOS. 1—5."
+    },
+    "tlg2237.dk031": {
+      "textgroup": "tlg2237",
+      "work": "dk031",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2237.dk031.part1.db",
+          "chapters": [
+            "300",
+            "301"
+          ],
+          "bytes": 77824,
+          "sha256": "5d7f09a5f47ca55482665f40e37b25c3620678657bd1c298cd5bcc0d9d82780e"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2237.dk031.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "31. THEODOROS.",
+      "title": "31. THEODOROS."
+    },
+    "tlg2239.dk045": {
+      "textgroup": "tlg2239",
+      "work": "dk045",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2239.dk045.part1.db",
+          "chapters": [
+            "344",
+            "345",
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351",
+            "352",
+            "353",
+            "354",
+            "355",
+            "356",
+            "357",
+            "358",
+            "359",
+            "360",
+            "361",
+            "362",
+            "363",
+            "364",
+            "365",
+            "366",
+            "367",
+            "368",
+            "369",
+            "370",
+            "371",
+            "372",
+            "373",
+            "374"
+          ],
+          "bytes": 331776,
+          "sha256": "e82e5710e960adf7ee1cf7c99577d3c42f85bb9c66e8579f90d704b1c47f6bfe"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2239.dk045.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "45. PYTHAGOREISCHE SCHULE.",
+      "title": "45. PYTHAGOREISCHE SCHULE."
+    },
+    "tlg2240.dk037": {
+      "textgroup": "tlg2240",
+      "work": "dk037",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2240.dk037.part1.db",
+          "chapters": [
+            "340"
+          ],
+          "bytes": 77824,
+          "sha256": "4a55c930a6778c3ccaa7f371cc57c9e90de70f53f3c7d5c7f3c8ca4db57f6c00"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2240.dk037.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "37. HIKETAS.",
+      "title": "37. HIKETAS."
+    },
+    "tlg2241.dk039": {
+      "textgroup": "tlg2241",
+      "work": "dk039",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2241.dk039.part1.db",
+          "chapters": [
+            "341"
+          ],
+          "bytes": 77824,
+          "sha256": "f5b4453bdf03d7a0ed6e98535358508598578ca6443cb1da00eb82f293176be5"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2241.dk039.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "39. XENOPHILOS.",
+      "title": "39. XENOPHILOS."
+    },
+    "tlg2242.dk040": {
+      "textgroup": "tlg2242",
+      "work": "dk040",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2242.dk040.part1.db",
+          "chapters": [
+            "341",
+            "342"
+          ],
+          "bytes": 77824,
+          "sha256": "ba2803cef00e8168611c06635cf90bb0801fae3f813176e1627ed92129a01c1b"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2242.dk040.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "40. DIOKLES. ECHEKRATES. POLYMNASTOS. PHANTON. ARION.",
+      "title": "40. DIOKLES. ECHEKRATES. POLYMNASTOS. PHANTON. ARION."
+    },
+    "tlg2244.dk042": {
+      "textgroup": "tlg2244",
+      "work": "dk042",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2244.dk042.part1.db",
+          "chapters": [
+            "342",
+            "343"
+          ],
+          "bytes": 77824,
+          "sha256": "0462431d823eed9cee10209c5b4f55b0e025c6f6fb7febda047cc853f6558c74"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2244.dk042.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "42. DAMON UND PHINTIAS.",
+      "title": "42. DAMON UND PHINTIAS."
+    },
+    "tlg2245.dk043": {
+      "textgroup": "tlg2245",
+      "work": "dk043",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2245.dk043.part1.db",
+          "chapters": [
+            "343"
+          ],
+          "bytes": 77824,
+          "sha256": "b8e0cd581205fc6a74678d3b269eabf3a088332e17950dbc8b7fa6bb4c2db738"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2245.dk043.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "43. SIMOS. MYONIDES. EYPHRANOR.",
+      "title": "43. SIMOS. MYONIDES. EYPHRANOR."
+    },
+    "tlg2246.dk044": {
+      "textgroup": "tlg2246",
+      "work": "dk044",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2246.dk044.part1.db",
+          "chapters": [
+            "343",
+            "344"
+          ],
+          "bytes": 86016,
+          "sha256": "b1ccdf78ca66099d7050b932c88bd545ad37efcdb0cae84d9afedfa8078af695"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2246.dk044.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "44. LYKON (LYKOS).",
+      "title": "44. LYKON (LYKOS)."
+    },
+    "tlg2247.dk006": {
+      "textgroup": "tlg2247",
+      "work": "dk006",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2247.dk006.part1.db",
+          "chapters": [
+            "35"
+          ],
+          "bytes": 77824,
+          "sha256": "eaff7a37c956ffa163cdf011e56c1ee408e73d39f2dd50e641b11bdfc247a911"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2247.dk006.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "6. PETRON.",
+      "title": "6. PETRON."
+    },
+    "tlg2260.dk008": {
+      "textgroup": "tlg2260",
+      "work": "dk008",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2260.dk008.part1.db",
+          "chapters": [
+            "36",
+            "37",
+            "38",
+            "39"
+          ],
+          "bytes": 102400,
+          "sha256": "a99a9e4823ee9223fd530b9e77d0f297237d73de57c693dbdda4a66a34471f74"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2260.dk008.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "8. HIPPASOS.",
+      "title": "8. HIPPASOS."
+    },
+    "tlg2272.dk069": {
+      "textgroup": "tlg2272",
+      "work": "dk069",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2272.dk069.part1.db",
+          "chapters": [
+            "197"
+          ],
+          "bytes": 77824,
+          "sha256": "d67af00a12bfde6ed707955b63b6989537a964090c9503e1b740dd7fbcce285c"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2272.dk069.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "69. PHOKOS.",
+      "title": "69. PHOKOS."
+    },
+    "tlg2275.dk072": {
+      "textgroup": "tlg2275",
+      "work": "dk072",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2275.dk072.part1.db",
+          "chapters": [
+            "205",
+            "206"
+          ],
+          "bytes": 86016,
+          "sha256": "538e624684c171e53e4c10a7406cf8f0c4552986514d05ec42c2a8f40d0fff70"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2275.dk072.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "72. THEAGENES.",
+      "title": "72. THEAGENES."
+    },
+    "tlg2286.dk005": {
+      "textgroup": "tlg2286",
+      "work": "dk005",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2286.dk005.part1.db",
+          "chapters": [
+            "35"
+          ],
+          "bytes": 77824,
+          "sha256": "2ecfb3a419f553323c7ce71043e1cb97baa9d104b339ba71aa8fb0ee63a0cb9a"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2286.dk005.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "5. KERKOPS.",
+      "title": "5. KERKOPS."
+    },
+    "tlg2291.dk052": {
+      "textgroup": "tlg2291",
+      "work": "dk052",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2291.dk052.part1.db",
+          "chapters": [
+            "432",
+            "433"
+          ],
+          "bytes": 81920,
+          "sha256": "f70e63bebfb2d902d0b96ad03a842407d038f34616ab9202f7a272ff08934043"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2291.dk052.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "52. KRATYLOS.",
+      "title": "52. KRATYLOS."
+    },
+    "tlg2303.dk047": {
+      "textgroup": "tlg2303",
+      "work": "dk047",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2303.dk047.part1.db",
+          "chapters": [
+            "410",
+            "411",
+            "412",
+            "413",
+            "414"
+          ],
+          "bytes": 98304,
+          "sha256": "0b3bec182ffc38e1c55a1baee836312449d4d8b1cd4316f4a04c2a9b6daf864e"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2303.dk047.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "47. ARCHELAOS.",
+      "title": "47. ARCHELAOS."
+    },
+    "tlg2304.dk050": {
+      "textgroup": "tlg2304",
+      "work": "dk050",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2304.dk050.part1.db",
+          "chapters": [
+            "415",
+            "416"
+          ],
+          "bytes": 81920,
+          "sha256": "796eed1c44ea72b7a6fbfbc8262cc89d057e430fe3c7b62583e0ba933f418496"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2304.dk050.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "50. IDAIOS.",
+      "title": "50. IDAIOS."
+    },
+    "tlg2305.dk049": {
+      "textgroup": "tlg2305",
+      "work": "dk049",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2305.dk049.part1.db",
+          "chapters": [
+            "415"
+          ],
+          "bytes": 81920,
+          "sha256": "aa56c58e52f5ecafbc1f6fd0cb2e816da2cac248aebcfe0908f2961a740fbc53"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2305.dk049.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "49. KLEIDEMOS.",
+      "title": "49. KLEIDEMOS."
+    },
+    "tlg2313.dk053": {
+      "textgroup": "tlg2313",
+      "work": "dk053",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2313.dk053.part1.db",
+          "chapters": [
+            "434"
+          ],
+          "bytes": 77824,
+          "sha256": "2914ad06a16b67cff71219b26e8b29f36e052f9ecf72d27cf2e5392bb21163a5"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1912-grc1",
+          "urn": "urn:cts:greekLit:tlg2313.dk053.diels1912-grc1",
+          "label": "Greek and source context (Diels, 1912; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "53. ANTISTHENES DER HERAKLITEER.",
+      "title": "53. ANTISTHENES DER HERAKLITEER."
+    },
+    "tlg2314.dk058": {
+      "textgroup": "tlg2314",
+      "work": "dk058",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2314.dk058.part1.db",
+          "chapters": [
+            "144"
+          ],
+          "bytes": 77824,
+          "sha256": "a883013485c202006e8c341086a317964bb1cd2b148e12fb8532af87fed15539"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2314.dk058.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "58. DIOGENES VON SMYRNA.",
+      "title": "58. DIOGENES VON SMYRNA."
+    },
+    "tlg2319.dk061": {
+      "textgroup": "tlg2319",
+      "work": "dk061",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2319.dk061.part1.db",
+          "chapters": [
+            "155"
+          ],
+          "bytes": 77824,
+          "sha256": "c8d0c84c1b0b8c6baae04914ec26d5eede3169a9fe2ba3ba045d3b4f5f2ea65c"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2319.dk061.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "61. APOLLODOROS.",
+      "title": "61. APOLLODOROS."
+    },
+    "tlg2334.dk062": {
+      "textgroup": "tlg2334",
+      "work": "dk062",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2334.dk062.part1.db",
+          "chapters": [
+            "155",
+            "156",
+            "157",
+            "158",
+            "159"
+          ],
+          "bytes": 102400,
+          "sha256": "889aef59e3f5339e22fbd0815858840eba3761d36862b3c92bbaa70e8a25f749"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2334.dk062.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "62. NAUSIPHANES.",
+      "title": "62. NAUSIPHANES."
+    },
+    "tlg2340.dk063": {
+      "textgroup": "tlg2340",
+      "work": "dk063",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2340.dk063.part1.db",
+          "chapters": [
+            "159"
+          ],
+          "bytes": 77824,
+          "sha256": "0803c27d528b78f9ec90fd36b2bc7cbe1f05928c19fe584c600c99413952c05f"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2340.dk063.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "63. DIOTIMOS.",
+      "title": "63. DIOTIMOS."
+    },
+    "tlg2355.dk075": {
+      "textgroup": "tlg2355",
+      "work": "dk075",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2355.dk075.part1.db",
+          "chapters": [
+            "235"
+          ],
+          "bytes": 77824,
+          "sha256": "3bf746c411976700acfda17307fa63bf9d27bb8f050a1e6a63f01d322aa60687"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2355.dk075.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "75. XENIADES.",
+      "title": "75. XENIADES."
+    },
+    "tlg2456.dk056": {
+      "textgroup": "tlg2456",
+      "work": "dk056",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2456.dk056.part1.db",
+          "chapters": [
+            "140"
+          ],
+          "bytes": 77824,
+          "sha256": "e21cf3b82f8b043e370da473ae6085a438f26f6144d30611f9424c6444051432"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2456.dk056.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "56. NESSAS.",
+      "title": "56. NESSAS."
+    },
+    "tlg2691.dk067": {
+      "textgroup": "tlg2691",
+      "work": "dk067",
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2691.dk067.part1.db",
+          "chapters": [
+            "179",
+            "180",
+            "181",
+            "182",
+            "183",
+            "184"
+          ],
+          "bytes": 110592,
+          "sha256": "67c31096f011c00f31b358eb905497fb8e23c31034d1c90210417d98535513e8"
+        }
+      ],
+      "annotations": {
+        "treebanks": 0,
+        "alignments": 0,
+        "commentaries": 0,
+        "metrical_lines": 0
+      },
+      "versions": [
+        {
+          "short_id": "diels1922-grc1",
+          "urn": "urn:cts:greekLit:tlg2691.dk067.diels1922-grc1",
+          "label": "Greek and source context (Diels, 1922; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text",
+          "source_version": null,
+          "source_certainty": null,
+          "source_note": null,
+          "translation_of": null
+        }
+      ],
+      "label": "67. MUSAIOS.",
+      "title": "67. MUSAIOS."
     }
   },
   "authors": {

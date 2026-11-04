@@ -86062,6 +86062,702 @@
         }
       ],
       "evidence_only": false
+    },
+    "tlg0020.dk068a": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 362,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0267.dk011": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 6499,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0308.dk025": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 474,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0319.dk081": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 5259,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0392.dk073": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2217,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0521.dk013": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3390,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0579.dk066": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3920,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0593.dk076": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 12659,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0595.dk019": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 4753,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0617.dk003": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2378,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0620.dk035": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 6077,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0626.dk012": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 16577,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0630.dk071": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3069,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0632.dk004": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3424,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0633.dk034": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 277,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0713.dk046": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 13656,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0714.dk059": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1330,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0725.dk002": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3963,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0766.dk014": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2445,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1134.dk082": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2351,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1147.dk080": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 7103,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1230.dk007": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 309,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1275.dk070": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 90,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1277.dk041": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 234,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1304.dk055": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 47829,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1306.dk065": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 174,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1309.dk083": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 4949,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1319.dk051": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 6147,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1341.dk038": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 278,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1342.dk021": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 17742,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1347.dk068": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1967,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1362.dk033": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 371,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1390.dk060": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2488,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1434.dk079": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2957,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1436.dk027": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 732,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1437.dk026": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1331,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1461.dk054": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 4542,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1494.dk020": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 7669,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1508.dk057": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1115,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1545.dk035a": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 314,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1562.dk017": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 31,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1562.dk018": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 5633,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1596.dk032": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 7604,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1625.dk028": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 751,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1634.dk077": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3612,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1635.dk074": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 6588,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1667.dk073a": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1775,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1667.dk073b": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 523,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1705.dk001": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 4104,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1729.dk078": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1921,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1734.dk036": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 276,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg1811.dk048": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 395,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2153.dk064": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 263,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2218.dk009": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 881,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2225.dk010": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 71,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2226.dk015": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 232,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2227.dk016": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 72,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2228.dk022": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 530,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2229.dk023": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 87,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2230.dk024": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 168,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2234.dk029": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1105,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2235.dk030": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 976,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2237.dk031": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 253,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2239.dk045": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 13036,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2240.dk037": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 75,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2241.dk039": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 153,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2242.dk040": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 131,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2244.dk042": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 182,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2245.dk043": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 113,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2246.dk044": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 339,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2247.dk006": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 119,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2260.dk008": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1542,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2272.dk069": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 7,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2275.dk072": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 450,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2286.dk005": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 145,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2291.dk052": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 510,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2303.dk047": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1538,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2304.dk050": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 441,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2305.dk049": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 321,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2313.dk053": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 87,
+      "counted_version": "diels1912-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2314.dk058": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 30,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2319.dk061": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 52,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2334.dk062": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1778,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2340.dk063": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 126,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2355.dk075": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 53,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2456.dk056": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 135,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg2691.dk067": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 433,
+      "counted_version": "diels1922-grc1",
+      "counted_edition": "Diels",
+      "count_method": "visible text"
     }
   }
 }
