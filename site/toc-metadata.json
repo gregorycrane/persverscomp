@@ -318,7 +318,7 @@
       "total_word_count": 274
     },
     "tlg0308": {
-      "author": "Ion",
+      "author": "Ion of Chios",
       "fragmentary_play_count": 12,
       "evidence_only_play_count": 0,
       "editions": [
@@ -6528,7 +6528,7 @@
     "tlg0086.tlg038": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 73802,
+      "word_count": 74045,
       "counted_version": "buckley1850-eng1",
       "counted_edition": "Theodore Alois Buckley",
       "count_method": "visible text"
@@ -6544,7 +6544,7 @@
     "phi1348.abo011": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 9786,
+      "word_count": 9791,
       "counted_version": "perseus-lat2",
       "counted_edition": "Ihm",
       "count_method": "visible text"
@@ -6728,7 +6728,7 @@
     "tlg0527.tlg032": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 13515,
+      "word_count": 16169,
       "counted_version": "1st1K-grc1",
       "counted_edition": "H. B. Swete",
       "count_method": "visible text"
@@ -6776,7 +6776,7 @@
     "tlg0020.dk068a": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 362,
+      "word_count": 687,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6784,7 +6784,7 @@
     "tlg0267.dk011": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 6499,
+      "word_count": 6909,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6792,7 +6792,7 @@
     "tlg0308.dk025": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 474,
+      "word_count": 880,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6800,7 +6800,7 @@
     "tlg0319.dk081": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 5259,
+      "word_count": 5728,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6816,7 +6816,7 @@
     "tlg0521.dk013": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 3390,
+      "word_count": 3852,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6824,7 +6824,7 @@
     "tlg0579.dk066": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 3920,
+      "word_count": 5042,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6832,7 +6832,7 @@
     "tlg0593.dk076": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 12659,
+      "word_count": 13313,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6840,7 +6840,7 @@
     "tlg0595.dk019": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 4753,
+      "word_count": 4528,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6856,7 +6856,7 @@
     "tlg0620.dk035": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 6077,
+      "word_count": 6732,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6864,7 +6864,7 @@
     "tlg0626.dk012": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 16577,
+      "word_count": 12451,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6880,7 +6880,7 @@
     "tlg0632.dk004": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 3424,
+      "word_count": 3761,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6896,7 +6896,7 @@
     "tlg0713.dk046": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 13656,
+      "word_count": 14503,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6904,7 +6904,7 @@
     "tlg0714.dk059": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1330,
+      "word_count": 1877,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6952,7 +6952,7 @@
     "tlg1275.dk070": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 90,
+      "word_count": 218,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6968,7 +6968,7 @@
     "tlg1304.dk055": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 47829,
+      "word_count": 48187,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6984,7 +6984,7 @@
     "tlg1309.dk083": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 4949,
+      "word_count": 2249,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -6992,7 +6992,7 @@
     "tlg1319.dk051": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 6147,
+      "word_count": 6690,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7008,7 +7008,7 @@
     "tlg1342.dk021": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 17742,
+      "word_count": 19969,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7016,7 +7016,7 @@
     "tlg1347.dk068": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1967,
+      "word_count": 2994,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7056,7 +7056,7 @@
     "tlg1437.dk026": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1331,
+      "word_count": 1458,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7064,7 +7064,7 @@
     "tlg1461.dk054": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 4542,
+      "word_count": 4620,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7080,7 +7080,7 @@
     "tlg1508.dk057": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1115,
+      "word_count": 1562,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7104,7 +7104,7 @@
     "tlg1562.dk018": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 5633,
+      "word_count": 6002,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7112,7 +7112,7 @@
     "tlg1596.dk032": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 7604,
+      "word_count": 7941,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7128,7 +7128,7 @@
     "tlg1634.dk077": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 3612,
+      "word_count": 4002,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7136,7 +7136,7 @@
     "tlg1635.dk074": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 6588,
+      "word_count": 6816,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7144,7 +7144,7 @@
     "tlg1667.dk073a": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1775,
+      "word_count": 448,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7160,7 +7160,7 @@
     "tlg1705.dk001": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 4104,
+      "word_count": 3671,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7168,7 +7168,7 @@
     "tlg1729.dk078": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 1921,
+      "word_count": 2075,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7208,7 +7208,7 @@
     "tlg2225.dk010": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 71,
+      "word_count": 47,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7280,7 +7280,7 @@
     "tlg2239.dk045": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 13036,
+      "word_count": 11483,
       "counted_version": "diels1912-grc1",
       "counted_edition": "Diels",
       "count_method": "visible text"
@@ -7464,9 +7464,489 @@
     "tlg2691.dk067": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 433,
+      "word_count": 1669,
       "counted_version": "diels1922-grc1",
       "counted_edition": "Diels",
+      "count_method": "visible text"
+    },
+    "tlg0002.plg2e013": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 9513,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0003.plg2e026": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 30,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0006.plg2e025": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 321,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0011.plg2e018": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 723,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0014.plg2e045": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 101,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0059.plg2e034": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 960,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0085.plg2e017": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 262,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0086.plg2e046": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1490,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0096.plg2e008": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 46,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0232.plg2i001": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3503,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0233.plg2i003": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 3118,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0236.plg2e027": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 14,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0238.plg2i004": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 335,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0239.plg2e033": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 472,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0242.plg2e003": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 20,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0243.plg2e001": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 374,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0244.plg2e007": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 38,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0245.plg2e009": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 103,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0246.plg2e024": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 281,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0247.plg2e039": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 12,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0248.plg2i005": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 210,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0251.plg2e029": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 421,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0252.plg2i006": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 305,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0254.plg2e020": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 172,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0255.plg2e005": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1417,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0257.plg2e042": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 56,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0258.plg2e015": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 12,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0259.plg2i007": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 112,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0260.plg2i002": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1401,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0262.plg2e032": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 116,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0263.plg2e006": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1888,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0266.plg2e002": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1505,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0267.plg2e012": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 474,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0288.plg2e004": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 28,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0308.plg2e019": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 621,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0311.plg2e031": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 180,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0318.plg2e028": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 12,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0319.plg2e030": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 407,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0325.plg2e041": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 29,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0336.plg2e048": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 604,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0521.plg2e016": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 20,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0541.plg2e050": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 278,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0650.plg2i008": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 163,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg0679.plg2i010": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 225,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1113.plg2e036": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 72,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1150.plg2e043": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 13,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1250.plg2i009": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 211,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1273.plg2e047": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 10,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1342.plg2e023": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 31,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1433.plg2e014": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 74,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1437.plg2e022": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 15,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1476.plg2e040": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 8,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1567.plg2e037": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 64,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1604.plg2e010": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 352,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1605.plg2e011": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 1853,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1633.plg2e038": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 22,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1673.plg2e035": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 101,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1692.plg2e044": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 41,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg1714.plg2e049": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 25,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
+      "count_method": "visible text"
+    },
+    "tlg2303.plg2e021": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 87,
+      "counted_version": "bergk1882-grc1",
+      "counted_edition": "Bergk",
       "count_method": "visible text"
     },
     "tlg0006.aigeys": {
@@ -83375,6 +83855,741 @@
       ],
       "evidence_only": false
     },
+    "tlg0401.aipoloi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0401.tigonion": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 0,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0407.phrear": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "local_p0466_u4"
+          ],
+          "fragment_count": 1,
+          "word_count": 15,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0408.fragmenta_comicorum_anonymorum": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "i",
+            "ii_a"
+          ],
+          "fragment_count": 2,
+          "word_count": 30,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0411.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered",
+            "unnumbered_2"
+          ],
+          "fragment_count": 2,
+          "word_count": 168,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0411.diabolos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "2_2"
+          ],
+          "fragment_count": 3,
+          "word_count": 49,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0411.proikizomene": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "4"
+          ],
+          "fragment_count": 1,
+          "word_count": 21,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0411.sphattomene": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "5",
+            "unnumbered"
+          ],
+          "fragment_count": 2,
+          "word_count": 36,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0413.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 11,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0419.egkalyptomenos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 172,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.elenephoroyntes": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered",
+            "unnumbered_2"
+          ],
+          "fragment_count": 2,
+          "word_count": 61,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.epidikazomenos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "local_p0393_u3"
+          ],
+          "fragment_count": 1,
+          "word_count": 14,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.paiderastes": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 17,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.pallake": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 4,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.phrear": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "unnumbered"
+          ],
+          "fragment_count": 2,
+          "word_count": 24,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0447.pyrra": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 6,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0468.adelon_dramaton": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 25,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0469.diathekai": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 13,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0469.diatheke": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 11,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0487.eyripos": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 4,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0487.philemonis_spuria": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "2_2",
+            "2_3"
+          ],
+          "fragment_count": 4,
+          "word_count": 107,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0490.ananeosis": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "2_2",
+            "3",
+            "3_2",
+            "4"
+          ],
+          "fragment_count": 6,
+          "word_count": 118,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0490.lakiadai": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 22,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0490.sympleoysai": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "1_2",
+            "2"
+          ],
+          "fragment_count": 3,
+          "word_count": 29,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0498.korinthiastes": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "unnumbered"
+          ],
+          "fragment_count": 1,
+          "word_count": 15,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.arrephoros": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "8",
+            "9"
+          ],
+          "fragment_count": 2,
+          "word_count": 9,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.deisidaimon": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "1_2",
+            "2",
+            "2_2",
+            "3",
+            "4",
+            "4_2",
+            "5_6"
+          ],
+          "fragment_count": 8,
+          "word_count": 238,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.epigrammata": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 29,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.gnomai": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 41,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.gnomai_monostichoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "240",
+            "565",
+            "638_648",
+            "unnumbered"
+          ],
+          "fragment_count": 4,
+          "word_count": 2362,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.pallake": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "1_2",
+            "2",
+            "2_2",
+            "3",
+            "4"
+          ],
+          "fragment_count": 6,
+          "word_count": 45,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.philadelphoi": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "fragment_count": 5,
+          "word_count": 40,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg0541.sententiae": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "meineke1841-grc1",
+          "edition": "Meineke",
+          "numbers": [
+            "1",
+            "555",
+            "640"
+          ],
+          "fragment_count": 3,
+          "word_count": 404,
+          "collection_year": 1841,
+          "collection_order": 2,
+          "source_edition_year": 1841,
+          "source_edition_statement": "vol. 4, 1841",
+          "collection_label": "Meineke, vol. 4",
+          "collection_volume": 4
+        }
+      ],
+      "evidence_only": false
+    },
     "tlg0302.fragmenta": {
       "record_type": "fragmentary_play",
       "editions": [
@@ -86020,741 +87235,6 @@
           "source_edition_statement": "vol. 2, 1839",
           "collection_label": "Meineke, vol. 2",
           "collection_volume": 2
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0401.aipoloi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0401.tigonion": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 0,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0407.phrear": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "local_p0466_u4"
-          ],
-          "fragment_count": 1,
-          "word_count": 15,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0408.fragmenta_comicorum_anonymorum": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "i",
-            "ii_a"
-          ],
-          "fragment_count": 2,
-          "word_count": 30,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0411.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered",
-            "unnumbered_2"
-          ],
-          "fragment_count": 2,
-          "word_count": 168,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0411.diabolos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "2_2"
-          ],
-          "fragment_count": 3,
-          "word_count": 49,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0411.proikizomene": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "4"
-          ],
-          "fragment_count": 1,
-          "word_count": 21,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0411.sphattomene": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "5",
-            "unnumbered"
-          ],
-          "fragment_count": 2,
-          "word_count": 36,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0413.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 11,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0419.egkalyptomenos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 172,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.elenephoroyntes": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered",
-            "unnumbered_2"
-          ],
-          "fragment_count": 2,
-          "word_count": 61,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.epidikazomenos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "local_p0393_u3"
-          ],
-          "fragment_count": 1,
-          "word_count": 14,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.paiderastes": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 17,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.pallake": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 4,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.phrear": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "unnumbered"
-          ],
-          "fragment_count": 2,
-          "word_count": 24,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0447.pyrra": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1"
-          ],
-          "fragment_count": 1,
-          "word_count": 6,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0468.adelon_dramaton": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 25,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0469.diathekai": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 13,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0469.diatheke": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 11,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0487.eyripos": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 4,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0487.philemonis_spuria": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "2_2",
-            "2_3"
-          ],
-          "fragment_count": 4,
-          "word_count": 107,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0490.ananeosis": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "2_2",
-            "3",
-            "3_2",
-            "4"
-          ],
-          "fragment_count": 6,
-          "word_count": 118,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0490.lakiadai": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 22,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0490.sympleoysai": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2",
-            "2"
-          ],
-          "fragment_count": 3,
-          "word_count": 29,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0498.korinthiastes": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "unnumbered"
-          ],
-          "fragment_count": 1,
-          "word_count": 15,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.arrephoros": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "8",
-            "9"
-          ],
-          "fragment_count": 2,
-          "word_count": 9,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.deisidaimon": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2",
-            "2",
-            "2_2",
-            "3",
-            "4",
-            "4_2",
-            "5_6"
-          ],
-          "fragment_count": 8,
-          "word_count": 238,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.epigrammata": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 29,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.gnomai": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 41,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.gnomai_monostichoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "240",
-            "565",
-            "638_648",
-            "unnumbered"
-          ],
-          "fragment_count": 4,
-          "word_count": 2362,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.pallake": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2",
-            "2",
-            "2_2",
-            "3",
-            "4"
-          ],
-          "fragment_count": 6,
-          "word_count": 45,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.philadelphoi": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
-          "fragment_count": 5,
-          "word_count": 40,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
-        }
-      ],
-      "evidence_only": false
-    },
-    "tlg0541.sententiae": {
-      "record_type": "fragmentary_play",
-      "editions": [
-        {
-          "short_id": "meineke1841-grc1",
-          "edition": "Meineke",
-          "numbers": [
-            "1",
-            "555",
-            "640"
-          ],
-          "fragment_count": 3,
-          "word_count": 404,
-          "collection_year": 1841,
-          "collection_order": 2,
-          "source_edition_year": 1841,
-          "source_edition_statement": "vol. 4, 1841",
-          "collection_label": "Meineke, vol. 4",
-          "collection_volume": 4
         }
       ],
       "evidence_only": false
