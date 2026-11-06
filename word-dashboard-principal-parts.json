@@ -1,0 +1,24 @@
+{
+  "φέρω": {
+    "source": "Crosby and Schaeffer, An Introduction to Greek, §27 (local TEI edition)",
+    "parts": [
+      {"label": "present active", "forms": ["φέρω"]},
+      {"label": "future active", "forms": ["οἴσω"]},
+      {"label": "aorist active", "forms": ["ἤνεγκα", "ἤνεγκον"]},
+      {"label": "perfect active", "forms": ["ἐνήνοχα"]},
+      {"label": "perfect middle/passive", "forms": ["ἐνήνεγμαι"]},
+      {"label": "aorist passive", "forms": ["ἠνέχθην"]}
+    ]
+  },
+  "λύω": {
+    "source": "Crosby and Schaeffer, An Introduction to Greek, §27 (local TEI edition)",
+    "parts": [
+      {"label": "present active", "forms": ["λύω"]},
+      {"label": "future active", "forms": ["λύσω"]},
+      {"label": "aorist active", "forms": ["ἔλυσα"]},
+      {"label": "perfect active", "forms": ["λέλυκα"]},
+      {"label": "perfect middle/passive", "forms": ["λέλυμαι"]},
+      {"label": "aorist passive", "forms": ["ἐλύθην"]}
+    ]
+  }
+}

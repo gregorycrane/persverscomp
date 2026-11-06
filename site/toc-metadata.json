@@ -8357,6 +8357,46 @@
       "counted_edition": "Bergk",
       "count_method": "visible text"
     },
+    "tlg0033.tlg001": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 5875,
+      "counted_version": "perseus-grc2",
+      "counted_edition": "Sandys",
+      "count_method": "visible text"
+    },
+    "tlg0033.plg1p001": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 11135,
+      "counted_version": "schroeder1900-grc1",
+      "counted_edition": "Schroeder",
+      "count_method": "visible text"
+    },
+    "tlg0033.tlg002": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 7428,
+      "counted_version": "perseus-grc2",
+      "counted_edition": "Sandys",
+      "count_method": "visible text"
+    },
+    "tlg0033.tlg003": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 4946,
+      "counted_version": "perseus-grc2",
+      "counted_edition": "Sandys",
+      "count_method": "visible text"
+    },
+    "tlg0033.tlg004": {
+      "record_type": "complete_work",
+      "surviving_play": false,
+      "word_count": 2899,
+      "counted_version": "perseus-grc2",
+      "counted_edition": "Sandys",
+      "count_method": "visible text"
+    },
     "tlg0006.aigeys": {
       "record_type": "fragmentary_play",
       "editions": [

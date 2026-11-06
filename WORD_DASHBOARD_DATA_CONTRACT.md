@@ -23,6 +23,49 @@ serves the viewer itself at `localhost:8001`, so either address can be used.
 Only the small portions of the production database needed by each query are
 transferred.
 
+## Work taxonomy sidecar
+
+The core search index does not currently store genre.  The dashboard therefore
+loads `word-dashboard-works.json` and joins it to `documents.base_urn` at the
+CTS work level (`textgroup.work`).  Rebuild the sidecar with:
+
+```sh
+python3 tools/build_word_dashboard_metadata.py
+```
+
+The builder gives priority to the existing `Poetry/Prose` and `Genre` columns
+in `treebankstats/allauthors.csv`.  For works absent there, it assigns only the
+coarse prose/poetry class from TEI body structure: sustained `<l>`/`<lg>` markup
+is poetry and paragraph-only markup is prose.  The sidecar retains the source of
+each assignment, so a later controlled vocabulary (epic, drama, history,
+oratory, and so on) can replace the fallback without changing dashboard query
+code.
+
+Rates use `documents.n_words` as their denominators and `lemma_doc_counts.n` as
+their numerators.  Multiple indexed editions remain separate documents; this is
+a frequency in the published index, not a deduplicated author corpus.
+
+## Paradigms and principal parts
+
+The paradigm is computed from `lemma_postings` joined to `forms` and `feats`.
+Cells preserve the tagger's UPOS and UD feature bundles.  This is why one
+surface form can appear under several analyses: the display reports corpus
+assignments rather than treating an analyzer's possible parses as observed.
+
+`word-dashboard-principal-parts.json` is a small, source-attributed dictionary
+layer.  Principal parts must not be inferred by selecting frequent corpus
+forms: they are canonical first-person head-forms, and suppletive verbs require
+lexical evidence.  The dashboard combines those curated forms with the number
+of distinct tagged surface forms assigned to each principal part's tense/voice
+system.  This measures the attested paradigm supplied by the principal part,
+not occurrences of the dictionary head-form.  New entries can be added without
+changing JavaScript.
+
+For responsive HTTP-range queries the interactive paradigm resolves the 120
+most frequent form/feature groups.  Exact total counts and distinct-group
+counts still cover the complete lemma.  A future index can remove this display
+cap by adding a clustered `lemma_morphology` aggregate keyed by `lemma_id`.
+
 ## Optional syntax capability
 
 The syntax panel remains hidden unless the database contains this aggregate
