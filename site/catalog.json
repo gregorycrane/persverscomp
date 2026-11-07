@@ -124772,6 +124772,3883 @@
         }
       ],
       "annotations": {}
+    },
+    "kinkel1877.egf093": {
+      "textgroup": "kinkel1877",
+      "work": "egf093",
+      "title": "ANYTE.",
+      "source_title": "ANYTE.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": null,
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf093.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592,
+          "sha256": "3d94fc98bb789015f96436e3269428579be57f1fad7573b65f85ef0e49f01ddd"
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf093_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf093.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf001": {
+      "textgroup": "kinkel1877",
+      "work": "egf001",
+      "title": "CYCLUS.",
+      "source_title": "CYCLUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf001",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf001.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf001_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf001.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf002": {
+      "textgroup": "kinkel1877",
+      "work": "egf002",
+      "title": "THEOGONIA.",
+      "source_title": "THEOGONIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf002",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf002.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf002_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf002.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf003": {
+      "textgroup": "kinkel1877",
+      "work": "egf003",
+      "title": "[TITANOMACHIA.]",
+      "source_title": "[TITANOMACHIA.]",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf003",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf003.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf003_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf003.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf004": {
+      "textgroup": "kinkel1877",
+      "work": "egf004",
+      "title": "[OEDIPODEA.]",
+      "source_title": "[OEDIPODEA.]",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf004",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf004.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf004_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf004.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf005": {
+      "textgroup": "kinkel1877",
+      "work": "egf005",
+      "title": "THEBAIS.",
+      "source_title": "THEBAIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf005",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf005.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf005_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf005.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf006": {
+      "textgroup": "kinkel1877",
+      "work": "egf006",
+      "title": "EPIGONI.",
+      "source_title": "EPIGONI.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf006",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf006.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf006_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf006.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf007": {
+      "textgroup": "kinkel1877",
+      "work": "egf007",
+      "title": "CYPRIA.",
+      "source_title": "CYPRIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf007",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf007.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "bytes": 172032
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf007_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf007.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf008": {
+      "textgroup": "kinkel1877",
+      "work": "egf008",
+      "title": "AETHIOPIS.",
+      "source_title": "AETHIOPIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf008",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf008.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf008_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf008.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf009": {
+      "textgroup": "kinkel1877",
+      "work": "egf009",
+      "title": "ILIAS PARVA.",
+      "source_title": "ILIAS PARVA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf009",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf009.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "bytes": 151552
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf009_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf009.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf010": {
+      "textgroup": "kinkel1877",
+      "work": "egf010",
+      "title": "ILII PERSIS.",
+      "source_title": "ILII PERSIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf010",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf010.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf010_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf010.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf011": {
+      "textgroup": "kinkel1877",
+      "work": "egf011",
+      "title": "NOSTI.",
+      "source_title": "NOSTI.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf011",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf011.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf011_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf011.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf012": {
+      "textgroup": "kinkel1877",
+      "work": "egf012",
+      "title": "TELEGONIA.",
+      "source_title": "TELEGONIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf012",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf012.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf012_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf012.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf013": {
+      "textgroup": "kinkel1877",
+      "work": "egf013",
+      "title": "II. CARMINA HEROICA",
+      "source_title": "II. CARMINA HEROICA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf013",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf013.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf013_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf013.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf014": {
+      "textgroup": "kinkel1877",
+      "work": "egf014",
+      "title": "II. OECHALIAE EXCIDIUM.",
+      "source_title": "II. OECHALIAE EXCIDIUM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf014",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf014.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf014_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf014.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf015": {
+      "textgroup": "kinkel1877",
+      "work": "egf015",
+      "title": "III. PHOCAIS.",
+      "source_title": "III. PHOCAIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf015",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf015.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf015_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf015.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf016": {
+      "textgroup": "kinkel1877",
+      "work": "egf016",
+      "title": "CARMINA MINORA.",
+      "source_title": "CARMINA MINORA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf016",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf016.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf016_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf016.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf017": {
+      "textgroup": "kinkel1877",
+      "work": "egf017",
+      "title": "Ι. MARGITES.",
+      "source_title": "Ι. MARGITES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf017",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf017.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf017_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf017.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf018": {
+      "textgroup": "kinkel1877",
+      "work": "egf018",
+      "title": "ΙΙ. CERCOPES.",
+      "source_title": "ΙΙ. CERCOPES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf018",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf018.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf018_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf018.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf019": {
+      "textgroup": "kinkel1877",
+      "work": "egf019",
+      "title": "INCERTAE SEDIS FRAGMENTA.",
+      "source_title": "INCERTAE SEDIS FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf019",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf019.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "5to6"
+          ],
+          "bytes": 135168
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf019_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf019.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf020": {
+      "textgroup": "kinkel1877",
+      "work": "egf020",
+      "title": "DANAIS",
+      "source_title": "DANAIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf020",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf020.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf020_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf020.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf021": {
+      "textgroup": "kinkel1877",
+      "work": "egf021",
+      "title": "HESIODUS.",
+      "source_title": "HESIODUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf021",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf021.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf021_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf021.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf022": {
+      "textgroup": "kinkel1877",
+      "work": "egf022",
+      "title": "AEGIMIUS.",
+      "source_title": "AEGIMIUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf022",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf022.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf022_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf022.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf023": {
+      "textgroup": "kinkel1877",
+      "work": "egf023",
+      "title": "ASTRONOMIA.",
+      "source_title": "ASTRONOMIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf023",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf023.part1.db",
+          "books": [],
+          "chapters": [
+            "12",
+            "13",
+            "14",
+            "16",
+            "17"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf023_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf023.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf024": {
+      "textgroup": "kinkel1877",
+      "work": "egf024",
+      "title": "CATALOGUS. EOEAE.",
+      "source_title": "CATALOGUS. EOEAE.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf024",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf024.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf024_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf024.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf025": {
+      "textgroup": "kinkel1877",
+      "work": "egf025",
+      "title": "CATALOGI FRAGMENTA.",
+      "source_title": "CATALOGI FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf025",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf025.part1.db",
+          "books": [],
+          "chapters": [
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "112",
+            "113",
+            "114",
+            "115",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141"
+          ],
+          "bytes": 294912
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf025_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf025.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf026": {
+      "textgroup": "kinkel1877",
+      "work": "egf026",
+      "title": "EOEARUM FRAGMENTA.",
+      "source_title": "EOEARUM FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf026",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf026.part1.db",
+          "books": [],
+          "chapters": [
+            "142",
+            "143",
+            "144",
+            "145",
+            "146",
+            "147",
+            "148",
+            "149",
+            "150",
+            "151",
+            "154",
+            "155",
+            "156",
+            "157",
+            "158",
+            "159",
+            "160",
+            "161",
+            "162",
+            "163",
+            "164",
+            "165",
+            "166",
+            "167",
+            "152to153"
+          ],
+          "bytes": 163840
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf026_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf026.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf027": {
+      "textgroup": "kinkel1877",
+      "work": "egf027",
+      "title": "CEYCIS NUPTIAE.",
+      "source_title": "CEYCIS NUPTIAE.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf027",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf027.part1.db",
+          "books": [],
+          "chapters": [
+            "169",
+            "170",
+            "171"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf027_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf027.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf028": {
+      "textgroup": "kinkel1877",
+      "work": "egf028",
+      "title": "CHIRONIS PRAECEPTA.",
+      "source_title": "CHIRONIS PRAECEPTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf028",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf028.part1.db",
+          "books": [],
+          "chapters": [
+            "172",
+            "173"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf028_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf028.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf029": {
+      "textgroup": "kinkel1877",
+      "work": "egf029",
+      "title": "DACTYLI IDAEI.",
+      "source_title": "DACTYLI IDAEI.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf029",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf029.part1.db",
+          "books": [],
+          "chapters": [
+            "175",
+            "176"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf029_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf029.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf030": {
+      "textgroup": "kinkel1877",
+      "work": "egf030",
+      "title": "MELAMPODIA.",
+      "source_title": "MELAMPODIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf030",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf030.part1.db",
+          "books": [],
+          "chapters": [
+            "177",
+            "186",
+            "187"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf030_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf030.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf031": {
+      "textgroup": "kinkel1877",
+      "work": "egf031",
+      "title": "OPERA MAGNA.",
+      "source_title": "OPERA MAGNA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf031",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf031.part1.db",
+          "books": [],
+          "chapters": [
+            "188",
+            "189",
+            "190",
+            "191",
+            "192",
+            "193",
+            "194",
+            "195",
+            "196"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf031_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf031.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf032": {
+      "textgroup": "kinkel1877",
+      "work": "egf032",
+      "title": "ORNITHOMANTIA.",
+      "source_title": "ORNITHOMANTIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf032",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf032.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf032_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf032.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf033": {
+      "textgroup": "kinkel1877",
+      "work": "egf033",
+      "title": "INCERTAE SEDIS FRAGMENTA.",
+      "source_title": "INCERTAE SEDIS FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf033",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf033.part1.db",
+          "books": [],
+          "chapters": [
+            "197",
+            "202",
+            "203",
+            "204",
+            "205",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "232",
+            "233",
+            "234",
+            "241",
+            "242",
+            "243",
+            "244"
+          ],
+          "bytes": 167936
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf033_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf033.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf034": {
+      "textgroup": "kinkel1877",
+      "work": "egf034",
+      "title": "FRAGMENTA DUBIA.",
+      "source_title": "FRAGMENTA DUBIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf034",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf034.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf034_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf034.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf035": {
+      "textgroup": "kinkel1877",
+      "work": "egf035",
+      "title": "FRAGMENTA FALSA",
+      "source_title": "FRAGMENTA FALSA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf035",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf035.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf035_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf035.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf036": {
+      "textgroup": "kinkel1877",
+      "work": "egf036",
+      "title": "CORINTHIACA.",
+      "source_title": "CORINTHIACA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf036",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf036.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf036_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf036.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf037": {
+      "textgroup": "kinkel1877",
+      "work": "egf037",
+      "title": "ΕUROPIA.",
+      "source_title": "ΕUROPIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf037",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf037.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf037_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf037.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf038": {
+      "textgroup": "kinkel1877",
+      "work": "egf038",
+      "title": "ἈιΣΜΑ ΠΡΟΣΟΔΙΟΝ 2).",
+      "source_title": "ἈιΣΜΑ ΠΡΟΣΟΔΙΟΝ 2).",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf038",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf038.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf038_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf038.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf039": {
+      "textgroup": "kinkel1877",
+      "work": "egf039",
+      "title": "INCERTORUM CARMINUM FRAGMENTA.",
+      "source_title": "INCERTORUM CARMINUM FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf039",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf039.part1.db",
+          "books": [],
+          "chapters": [
+            "16",
+            "17",
+            "18"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf039_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf039.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf040": {
+      "textgroup": "kinkel1877",
+      "work": "egf040",
+      "title": "CΙΝΑΕΤΗΟ.",
+      "source_title": "CΙΝΑΕΤΗΟ.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf040",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf040.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf040_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf040.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf041": {
+      "textgroup": "kinkel1877",
+      "work": "egf041",
+      "title": "ἘΠΩΝ FRAGMENTA.",
+      "source_title": "ἘΠΩΝ FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf041",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf041.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf041_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf041.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf042": {
+      "textgroup": "kinkel1877",
+      "work": "egf042",
+      "title": "CARMEN NAUPACTIUM.",
+      "source_title": "CARMEN NAUPACTIUM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf042",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf042.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "9",
+            "10",
+            "7to8"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf042_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf042.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf043": {
+      "textgroup": "kinkel1877",
+      "work": "egf043",
+      "title": "ASIUS.",
+      "source_title": "ASIUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf043",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf043.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf043_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf043.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf044": {
+      "textgroup": "kinkel1877",
+      "work": "egf044",
+      "title": "ΕΠΩΝ (ΓΕΝΕΑΛΟΓΙΩΝ)",
+      "source_title": "ΕΠΩΝ (ΓΕΝΕΑΛΟΓΙΩΝ)",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf044",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf044.part1.db",
+          "books": [],
+          "chapters": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf044_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf044.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf045": {
+      "textgroup": "kinkel1877",
+      "work": "egf045",
+      "title": "CARMINIS EPICI DE SAMIORUM MORIBUS FRAGMENTUM.",
+      "source_title": "CARMINIS EPICI DE SAMIORUM MORIBUS FRAGMENTUM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf045",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf045.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf045_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf045.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf046": {
+      "textgroup": "kinkel1877",
+      "work": "egf046",
+      "title": "CHERSIAS.",
+      "source_title": "CHERSIAS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf046",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf046.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf046_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf046.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf047": {
+      "textgroup": "kinkel1877",
+      "work": "egf047",
+      "title": "FRAGMENTUM.",
+      "source_title": "FRAGMENTUM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf047",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf047.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf047_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf047.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf048": {
+      "textgroup": "kinkel1877",
+      "work": "egf048",
+      "title": "HEGESINUS.",
+      "source_title": "HEGESINUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf048",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf048.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf048_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf048.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf049": {
+      "textgroup": "kinkel1877",
+      "work": "egf049",
+      "title": "PHORONIS.",
+      "source_title": "PHORONIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf049",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf049.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf049_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf049.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf050": {
+      "textgroup": "kinkel1877",
+      "work": "egf050",
+      "title": "HERACLEIDES.",
+      "source_title": "HERACLEIDES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf050",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf050.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf050_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf050.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf051": {
+      "textgroup": "kinkel1877",
+      "work": "egf051",
+      "title": "CONON.",
+      "source_title": "CONON.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf051",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf051.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf051_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf051.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf052": {
+      "textgroup": "kinkel1877",
+      "work": "egf052",
+      "title": "DEMODOCUS. 3)",
+      "source_title": "DEMODOCUS. 3)",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf052",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf052.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf052_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf052.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf053": {
+      "textgroup": "kinkel1877",
+      "work": "egf053",
+      "title": "DIOTIMUS. 2)",
+      "source_title": "DIOTIMUS. 2)",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf053",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf053.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf053_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf053.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf054": {
+      "textgroup": "kinkel1877",
+      "work": "egf054",
+      "title": "PHAEDIMUS. 1)",
+      "source_title": "PHAEDIMUS. 1)",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf054",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf054.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf054_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf054.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf055": {
+      "textgroup": "kinkel1877",
+      "work": "egf055",
+      "title": "PISINUS.",
+      "source_title": "PISINUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf055",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf055.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf055_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf055.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf056": {
+      "textgroup": "kinkel1877",
+      "work": "egf056",
+      "title": "INCERTI POETAE FRAGMENTUM.",
+      "source_title": "INCERTI POETAE FRAGMENTUM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf056",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf056.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf056_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf056.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf057": {
+      "textgroup": "kinkel1877",
+      "work": "egf057",
+      "title": "MINYAS.",
+      "source_title": "MINYAS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf057",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf057.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf057_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf057.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf058": {
+      "textgroup": "kinkel1877",
+      "work": "egf058",
+      "title": "THESEIDES.",
+      "source_title": "THESEIDES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf058",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf058.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf058_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf058.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf059": {
+      "textgroup": "kinkel1877",
+      "work": "egf059",
+      "title": "THESPROTIS.",
+      "source_title": "THESPROTIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf059",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf059.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf059_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf059.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf060": {
+      "textgroup": "kinkel1877",
+      "work": "egf060",
+      "title": "MUSAEUS.",
+      "source_title": "MUSAEUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf060",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf060.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf060_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf060.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf061": {
+      "textgroup": "kinkel1877",
+      "work": "egf061",
+      "title": "EUMOLPIA.",
+      "source_title": "EUMOLPIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf061",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf061.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf061_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf061.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf062": {
+      "textgroup": "kinkel1877",
+      "work": "egf062",
+      "title": "HYMNUS ΙΝ CEREREM.",
+      "source_title": "HYMNUS ΙΝ CEREREM.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf062",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf062.part1.db",
+          "books": [],
+          "chapters": [
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf062_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf062.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf063": {
+      "textgroup": "kinkel1877",
+      "work": "egf063",
+      "title": "MORBORUM CURATIONES.",
+      "source_title": "MORBORUM CURATIONES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf063",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf063.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf063_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf063.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf064": {
+      "textgroup": "kinkel1877",
+      "work": "egf064",
+      "title": "ΟRΑCULΑ.",
+      "source_title": "ΟRΑCULΑ.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf064",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf064.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf064_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf064.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf065": {
+      "textgroup": "kinkel1877",
+      "work": "egf065",
+      "title": "THEOGONIA.",
+      "source_title": "THEOGONIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf065",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf065.part1.db",
+          "books": [],
+          "chapters": [
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf065_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf065.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf066": {
+      "textgroup": "kinkel1877",
+      "work": "egf066",
+      "title": "TITANOGRAPHIA (TITANOMACHIA).",
+      "source_title": "TITANOGRAPHIA (TITANOMACHIA).",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf066",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf066.part1.db",
+          "books": [],
+          "chapters": [
+            "17",
+            "18"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf066_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf066.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf067": {
+      "textgroup": "kinkel1877",
+      "work": "egf067",
+      "title": "INCERTAE SEDIS FRAGMENTA.",
+      "source_title": "INCERTAE SEDIS FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf067",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf067.part1.db",
+          "books": [],
+          "chapters": [
+            "23",
+            "24to25"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf067_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf067.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf068": {
+      "textgroup": "kinkel1877",
+      "work": "egf068",
+      "title": "EPIMENIDES.",
+      "source_title": "EPIMENIDES.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf068",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf068.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf068_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf068.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf069": {
+      "textgroup": "kinkel1877",
+      "work": "egf069",
+      "title": "ARGONAUTICA.",
+      "source_title": "ARGONAUTICA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf069",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf069.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf069_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf069.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf070": {
+      "textgroup": "kinkel1877",
+      "work": "egf070",
+      "title": "HISTORIA TELCHINIACA.",
+      "source_title": "HISTORIA TELCHINIACA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf070",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf070.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf070_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf070.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf071": {
+      "textgroup": "kinkel1877",
+      "work": "egf071",
+      "title": "ORACULA.",
+      "source_title": "ORACULA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf071",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf071.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf071_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf071.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf072": {
+      "textgroup": "kinkel1877",
+      "work": "egf072",
+      "title": "THEOGONIA.",
+      "source_title": "THEOGONIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf072",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf072.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf072_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf072.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf073": {
+      "textgroup": "kinkel1877",
+      "work": "egf073",
+      "title": "INCERTAE SEDIS",
+      "source_title": "INCERTAE SEDIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf073",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf073.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf073_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf073.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf074": {
+      "textgroup": "kinkel1877",
+      "work": "egf074",
+      "title": "ONOMACRITUS.",
+      "source_title": "ONOMACRITUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf074",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf074.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf074_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf074.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf075": {
+      "textgroup": "kinkel1877",
+      "work": "egf075",
+      "title": "ΑΒΑRΙS.",
+      "source_title": "ΑΒΑRΙS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf075",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf075.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf075_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf075.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf076": {
+      "textgroup": "kinkel1877",
+      "work": "egf076",
+      "title": "ARISTEAS.",
+      "source_title": "ARISTEAS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf076",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf076.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "5",
+            "6",
+            "7",
+            "2to4"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf076_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf076.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf077": {
+      "textgroup": "kinkel1877",
+      "work": "egf077",
+      "title": "ANTIMACHUS TEIUS.",
+      "source_title": "ANTIMACHUS TEIUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf077",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf077.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf077_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf077.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf078": {
+      "textgroup": "kinkel1877",
+      "work": "egf078",
+      "title": "PISANDER CAMIRENSIS.",
+      "source_title": "PISANDER CAMIRENSIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf078",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf078.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf078_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf078.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf079": {
+      "textgroup": "kinkel1877",
+      "work": "egf079",
+      "title": "HERACLEA.",
+      "source_title": "HERACLEA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf079",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf079.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf079_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf079.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf080": {
+      "textgroup": "kinkel1877",
+      "work": "egf080",
+      "title": "PANYASSIS.",
+      "source_title": "PANYASSIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf080",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf080.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf080_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf080.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf081": {
+      "textgroup": "kinkel1877",
+      "work": "egf081",
+      "title": "HERACLEA.",
+      "source_title": "HERACLEA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf081",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf081.part1.db",
+          "books": [],
+          "chapters": [
+            "7",
+            "8",
+            "13",
+            "14",
+            "15",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26"
+          ],
+          "bytes": 147456
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf081_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf081.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf082": {
+      "textgroup": "kinkel1877",
+      "work": "egf082",
+      "title": "CHOERILUS SAMIUS.",
+      "source_title": "CHOERILUS SAMIUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf082",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf082.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "13",
+            "14",
+            "11to12"
+          ],
+          "bytes": 135168
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf082_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf082.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf083": {
+      "textgroup": "kinkel1877",
+      "work": "egf083",
+      "title": "ΕΡΙLΥCUS.",
+      "source_title": "ΕΡΙLΥCUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf083",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf083.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf083_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf083.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf084": {
+      "textgroup": "kinkel1877",
+      "work": "egf084",
+      "title": "ΜΕLΑNΙΡΡΙDΕS.",
+      "source_title": "ΜΕLΑNΙΡΡΙDΕS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf084",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf084.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf084_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf084.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf085": {
+      "textgroup": "kinkel1877",
+      "work": "egf085",
+      "title": "ΝΙCΕRΑΤUS.",
+      "source_title": "ΝΙCΕRΑΤUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf085",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf085.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf085_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf085.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf086": {
+      "textgroup": "kinkel1877",
+      "work": "egf086",
+      "title": "ΑΝΤΙΡΗΟN.",
+      "source_title": "ΑΝΤΙΡΗΟN.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf086",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf086.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf086_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf086.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf087": {
+      "textgroup": "kinkel1877",
+      "work": "egf087",
+      "title": "ANTIMACHUS.",
+      "source_title": "ANTIMACHUS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf087",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf087.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf087_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf087.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf088": {
+      "textgroup": "kinkel1877",
+      "work": "egf088",
+      "title": "ΤΗΕΒΑΙS.",
+      "source_title": "ΤΗΕΒΑΙS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf088",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf088.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "4",
+            "5",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "43",
+            "44",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "6to7"
+          ],
+          "bytes": 176128
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf088_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf088.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf089": {
+      "textgroup": "kinkel1877",
+      "work": "egf089",
+      "title": "ΔΕΛΤΟΙ1).",
+      "source_title": "ΔΕΛΤΟΙ1).",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf089",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf089.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf089_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf089.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf090": {
+      "textgroup": "kinkel1877",
+      "work": "egf090",
+      "title": "INCERTAE SEDIS FRAGMENTA.",
+      "source_title": "INCERTAE SEDIS FRAGMENTA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf090",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf090.part1.db",
+          "books": [],
+          "chapters": [
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "75",
+            "76",
+            "80",
+            "81",
+            "82",
+            "83",
+            "103"
+          ],
+          "bytes": 147456
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf090_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf090.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf091": {
+      "textgroup": "kinkel1877",
+      "work": "egf091",
+      "title": "FRAGMENTA DUBIA.",
+      "source_title": "FRAGMENTA DUBIA.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf091",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf091.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf091_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf091.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "kinkel1877.egf092": {
+      "textgroup": "kinkel1877",
+      "work": "egf092",
+      "title": "CHOERILUS IASENSIS.",
+      "source_title": "CHOERILUS IASENSIS.",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:kinkel1877sections.v1:egf092",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "kinkel1877.egf092.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "kinkel1877_egf092_kinkel1877",
+          "short_id": "kinkel1877-grc1",
+          "urn": "urn:cts:greekLit:kinkel1877.egf092.kinkel1877-grc1",
+          "label": "Greek and source context (Kinkel, 1877, vol. I; OCR/AI draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
     }
   },
   "authors": {
@@ -124915,7 +128792,7 @@
     "tlg1692": "Speusippus",
     "tlg0014": "Demosthenes",
     "tlg1273": "Cleon of Sicily",
-    "tlg0336": "Crates",
+    "tlg0336": "Crates of Thebes",
     "tlg1714": "Theocritus of Chios",
     "tlg0541": "Menander",
     "tlg0232": "Archilochus",
@@ -124977,173 +128854,6 @@
     "tlg0296": "Scolia",
     "tlg0295": "Carmina Popularia",
     "tlg0297": "Fragmenta Adespota",
-    "tlg0302": "Choerilus",
-    "tlg0305": "Aristias",
-    "tlg0306": "Aristarchus",
-    "tlg0307": "Neophron",
-    "tlg0309": "Achaeus",
-    "tlg0312": "Philocles",
-    "tlg0344": "Melanthius",
-    "tlg0482": "Nicomachus",
-    "tlg0315": "Sthenelus",
-    "tlg0313": "Theognis",
-    "tlg0316": "Xenocles",
-    "tlg0322": "Dicaeogenes",
-    "tlg0320": "Diogenes of Athens",
-    "tlg0326": "Sophocles the Younger",
-    "tlg1848": "Meletus",
-    "tlg0328": "Chaeremon",
-    "tlg0323": "Antiphon",
-    "tlg0330": "Dionysius",
-    "tlg0327": "Carcinus",
-    "tlg0329": "Theodectes",
-    "tlg0332": "Cleaenetus",
-    "tlg0334": "Diogenes of Sinope",
-    "tlg0337": "Python",
-    "tlg0339": "Moschion",
-    "tlg0216": "Alexander Aetolus",
-    "tlg0341": "Lycophron",
-    "tlg0335": "Philiscus",
-    "tlg0338": "Sosiphanes",
-    "tlg0340": "Sositheus",
-    "tlg0604": "Ptolemy Philopator",
-    "tlg0321": "Aeschylus of Alexandria",
-    "tlg0345": "Apollonides",
-    "tlg0348": "Biotus",
-    "tlg1256": "Chares",
-    "tlg0349": "Demonax",
-    "tlg0351": "Hippothoon",
-    "tlg0352": "Isidorus",
-    "tlg1511": "Mimnermus",
-    "tlg0324": "Patrocles of Thurii",
-    "tlg0346": "Pompeius Macer",
-    "tlg0347": "Serapion",
-    "tlg0354": "Zenodotus",
-    "tlg0355": "Zopyrus",
-    "tlg0301": "Thespis",
-    "tragfragadesp": "Adespota",
-    "tlg0264": "Susarion",
-    "tlg0400": "Alcaeus Comicus",
-    "tlg0403": "Amipsias",
-    "tlg0414": "Apollophanes",
-    "tlg0417": "Archippus",
-    "tlg0418": "Aristagoras",
-    "tlg0419": "Aristomenes",
-    "tlg0420": "Aristonymus",
-    "tlg0426": "Callias",
-    "tlg0428": "Cantharus",
-    "tlg0429": "Cephisodorus",
-    "tlg0431": "Chionides",
-    "tlg0433": "Crates",
-    "tlg0434": "Cratinus",
-    "tlg0439": "Demetrius Comicus",
-    "tlg0443": "Diocles Comicus",
-    "tlg0449": "Ecphantides",
-    "tlg0453": "Epilycus",
-    "tlg0459": "Eunicus",
-    "tlg0461": "Eupolis",
-    "tlg0463": "Hegemon",
-    "tlg0470": "Leuco",
-    "tlg0472": "Lysippus",
-    "tlg0474": "Magnes",
-    "tlg0475": "Metagenes",
-    "tlg0477": "Myrtilus",
-    "tlg0480": "Nicochares",
-    "tlg0483": "Nicophon",
-    "tlg0486": "Pherecrates",
-    "tlg0492": "Philonides",
-    "tlg0494": "Philyllius",
-    "tlg0496": "Phrynichus",
-    "tlg0497": "Plato Comicus",
-    "tlg0499": "Polyzelus",
-    "tlg0501": "Sannyrion",
-    "tlg0508": "Strattis",
-    "tlg0510": "Teleclides",
-    "tlg0513": "Theopompus",
-    "tlg0398": "Simylus",
-    "tlg0402": "Alexis",
-    "tlg0404": "Amphis",
-    "tlg0405": "Anaxandrides",
-    "tlg0406": "Anaxilas",
-    "tlg0409": "Antidotus",
-    "tlg0410": "Antiphanes",
-    "tlg0415": "Araros",
-    "tlg0421": "Aristophon",
-    "tlg0424": "Axionicus",
-    "tlg0432": "Clearchus",
-    "tlg0435": "Cratinus Junior",
-    "tlg0444": "Diodorus",
-    "tlg0445": "Dionysius",
-    "tlg0447": "Diphilus",
-    "tlg0448": "Dromo",
-    "tlg0450": "Ephippus",
-    "tlg0451": "Epicrates",
-    "tlg0452": "Epigenes",
-    "tlg0455": "Eriphus",
-    "tlg0457": "Eubulides",
-    "tlg0458": "Eubulus",
-    "tlg0465": "Heniochus",
-    "tlg0466": "Heraclides",
-    "tlg0476": "Mnesimachus",
-    "tlg0478": "Nausicrates",
-    "tlg0484": "Nicostratus",
-    "tlg0485": "Ophelio",
-    "tlg0487": "Philemon",
-    "tlg0488": "Philemon Junior",
-    "tlg0489": "Philetaerus",
-    "tlg0502": "Sophilus",
-    "tlg0505": "Sotades",
-    "tlg0512": "Theophilus",
-    "tlg0515": "Timocles",
-    "tlg0517": "Timotheus",
-    "tlg0518": "Xenarchus",
-    "tlg1783": "Callicrates",
-    "tlg1784": "[Heraclitus] Comicus",
-    "tlg0395": "Diophantus",
-    "tlg0399": "Eudoxus",
-    "tlg0401": "Alexander",
-    "tlg0407": "Anaxippus",
-    "tlg0408": "Comica Adespota (CAF)",
-    "tlg0411": "Apollodorus Carystius",
-    "tlg0412": "Apollodorus Carystius vel Gelous",
-    "tlg0413": "Apollodorus Gelous",
-    "tlg0416": "Archedicus",
-    "tlg0422": "Athenio",
-    "tlg0425": "Baton",
-    "tlg0427": "Callippus",
-    "tlg0430": "Chariclides",
-    "tlg0436": "Crito",
-    "tlg0437": "Crobylus",
-    "tlg0438": "Damoxenus",
-    "tlg0441": "Demonicus",
-    "tlg0442": "Dexicrates",
-    "tlg0446": "Dioxippus",
-    "tlg0454": "Epinicus",
-    "tlg0456": "Euangelus",
-    "tlg0460": "Euphron",
-    "tlg0462": "Euthycles",
-    "tlg0464": "Hegesippus",
-    "tlg0468": "Hipparchus",
-    "tlg0469": "Laon",
-    "tlg0471": "Lynceus",
-    "tlg0473": "Machon",
-    "tlg0479": "Nico",
-    "tlg0481": "Nicolaus",
-    "tlg0490": "Philippides",
-    "tlg0493": "Philostephanus",
-    "tlg0495": "Phoenicides",
-    "tlg0498": "Poliochus",
-    "tlg0500": "Posidippus",
-    "tlg0503": "Sosicrates",
-    "tlg0504": "Sosipater",
-    "tlg0506": "Stephanus",
-    "tlg0507": "Straton",
-    "tlg0511": "Theognetus",
-    "tlg0514": "Thugenides",
-    "tlg0516": "Timostratus",
-    "tlg0519": "Xeno",
-    "tlg1361": "Eumedes",
-    "tlg1788": "Phormis",
-    "tlg0423": "Autocrates"
+    "kinkel1877": "Kinkel, Epicorum Graecorum Fragmenta I"
   }
 }
