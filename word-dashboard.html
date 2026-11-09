@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Word Explorer · Perseus Multitext Viewer</title>
+  <title>Greek Word Explorer · Perseus Multitext Viewer</title>
   <link rel="stylesheet" href="word-dashboard.css">
 </head>
 <body>
@@ -11,11 +11,11 @@
     <div class="header-inner">
       <a class="brand" href="./" aria-label="Back to Perseus Multitext Viewer">
         <img src="./assets/perseus_running_man.png" alt="">
-        <span><small>Perseus Multitext Viewer</small>Word Explorer</span>
+        <span><small>Perseus Multitext Viewer</small>Greek Word Explorer</span>
       </a>
       <nav>
         <a href="./">Read texts</a>
-        <a href="./search/index.html">Search corpus</a>
+        <a href="./search/index.html">Search treebanks</a>
         <a href="./lexicon-browser.html">Browse lexica</a>
       </nav>
     </div>
@@ -24,120 +24,103 @@
   <main>
     <section class="hero">
       <div>
-        <p class="eyebrow">LIVE CORPUS INDEX · MORPHOLOGY-AWARE</p>
-        <h1>Word explorer</h1>
-        <p class="lede">Compare prose and poetry, then inspect the attested paradigm behind a lemma.</p>
+        <p class="eyebrow">TREEBANK PILOT · PROVENANCE-AWARE</p>
+        <h1 id="page-title">Greek word explorer</h1>
+        <p id="page-subtitle" class="lede">Loading sampled linguistic evidence…</p>
       </div>
-      <aside class="hero-note">
-        <strong>What is counted</strong>
-        <span>Tagged tokens in the published tokenization index. Poetry/prose labels are joined by CTS work identifier.</span>
-      </aside>
+      <div class="hero-note">
+        <strong>Production direction</strong>
+        <span id="production-goal"></span>
+      </div>
     </section>
 
-    <form id="search-form" class="control-panel">
+    <section class="control-panel" aria-label="Dashboard controls">
       <label>Lemma
-        <input id="lemma" name="lemma" value="φέρω" lang="grc" autocomplete="off" required>
+        <select id="lemma-select"></select>
       </label>
-      <label>Language
-        <select id="lang" name="lang">
-          <option value="grc">Greek</option>
-          <option value="la">Latin</option>
-        </select>
+      <label>Annotation layer
+        <select id="layer-select"></select>
       </label>
-      <button class="primary-action" type="submit">Explore lemma</button>
-      <span id="index-status" class="index-status" aria-live="polite">Loading corpus index…</span>
-    </form>
+      <div id="layer-description" class="layer-description"></div>
+      <a id="full-search-link" class="primary-action" href="./search/index.html">Open full concordance ↗</a>
+    </section>
 
-    <div id="message" class="message" role="status" aria-live="polite"></div>
+    <div id="warning" class="warning"></div>
 
-    <section id="results" hidden>
-      <div class="result-heading">
-        <div><p class="kicker">LEMMA</p><h2 id="result-lemma" lang="grc"></h2></div>
-        <a id="concordance-link" class="text-link" href="./search/index.html">Open concordance →</a>
-      </div>
+    <section class="stat-grid" aria-label="Selected lemma summary">
+      <article class="stat-card"><span>Occurrences</span><strong id="stat-occurrences">—</strong><small>in this sampled layer</small></article>
+      <article class="stat-card"><span>Frequency</span><strong id="stat-rate">—</strong><small>per 10,000 sampled words</small></article>
+      <article class="stat-card"><span>Works represented</span><strong id="stat-works">—</strong><small>with at least one occurrence</small></article>
+      <article class="stat-card"><span>Surface forms</span><strong id="stat-forms">—</strong><small>distinct forms in the sample</small></article>
+    </section>
 
-      <section class="stat-grid" aria-label="Lemma summary">
-        <article class="stat-card"><span>Occurrences</span><strong id="stat-occurrences">—</strong><small>all indexed documents</small></article>
-        <article class="stat-card"><span>Surface forms</span><strong id="stat-forms">—</strong><small>distinct spellings</small></article>
-        <article class="stat-card"><span>Analyses</span><strong id="stat-analyses">—</strong><small>POS + feature bundles</small></article>
-        <article class="stat-card"><span>Works</span><strong id="stat-works">—</strong><small>with an occurrence</small></article>
-      </section>
+    <section class="dashboard-grid">
+      <article class="panel distribution-panel">
+        <div class="panel-heading">
+          <div><p class="kicker">DISTRIBUTION</p><h2>Poetry and prose</h2></div>
+          <button class="help" data-help="Rates use separate poetry and prose token denominators in the selected layer. Drama is classified as poetry; dialogue remains prose.">?</button>
+        </div>
+        <div id="register-bars" class="bar-list"></div>
+        <h3>By genre</h3>
+        <div id="genre-bars" class="bar-list compact"></div>
+      </article>
 
-      <section class="dashboard-grid">
-        <article class="panel register-panel">
-          <div class="panel-heading">
-            <div><p class="kicker">DISTRIBUTION</p><h2>Prose and poetry</h2></div>
-            <span class="status-pill">rate / 10k</span>
-          </div>
-          <p class="panel-intro">Rates use the separate token totals for documents classified as prose or poetry.</p>
-          <div id="register-bars" class="bar-list"></div>
-          <p id="register-note" class="footnote"></p>
-        </article>
+      <article class="panel reliability-panel">
+        <div class="panel-heading">
+          <div><p class="kicker">RELIABILITY</p><h2>OGA against controls</h2></div>
+          <span class="status-pill">sample diagnostic</span>
+        </div>
+        <p class="panel-intro">Rate differences on the same sampled works reveal where to inspect the automatic layer. They are not yet token-level accuracy scores.</p>
+        <div id="reliability-cards"></div>
+      </article>
 
-        <article id="principal-panel" class="panel principal-panel" hidden>
-          <div class="panel-heading"><div><p class="kicker">DICTIONARY MORPHOLOGY</p><h2>Principal parts</h2></div></div>
-          <div id="principal-parts" class="principal-parts"></div>
-          <p id="principal-note" class="footnote"></p>
-        </article>
+      <article class="panel">
+        <div class="panel-heading"><div><p class="kicker">MORPHOLOGY</p><h2>Forms and features</h2></div></div>
+        <div class="split">
+          <div><h3>Attested forms</h3><div id="form-list" class="rank-list"></div></div>
+          <div><h3>Native features</h3><div id="feature-list" class="rank-list"></div></div>
+        </div>
+        <p class="footnote">Native feature encodings are preserved. Compact AGDT tags and UD feature bundles are not silently collapsed.</p>
+      </article>
 
-        <article class="panel paradigm-panel">
-          <div class="panel-heading">
-            <div><p class="kicker">ATTESTED MORPHOLOGY</p><h2>Paradigm frequency</h2></div>
-            <div class="paradigm-tools">
-              <label>Paradigm order
-                <select id="paradigm-order">
-                  <option value="frequency">Most frequent</option>
-                  <option value="alphabetical">Alphabetical</option>
-                  <option value="traditional">Traditional grammar</option>
-                </select>
-              </label>
-              <span id="verb-status" class="status-pill neutral"></span>
-            </div>
-          </div>
-          <p class="panel-intro">Every cell reports the analyses assigned by the tagger. A form appears in more than one row when the corpus assigns it more than one analysis.</p>
-          <div id="paradigm"></div>
-        </article>
+      <article class="panel">
+        <div class="panel-heading"><div><p class="kicker">CONSTRUCTIONS</p><h2>Syntactic company</h2></div></div>
+        <div class="three-way">
+          <div><h3>Relations</h3><div id="relation-list" class="rank-list"></div></div>
+          <div><h3>Governing lemmas</h3><div id="head-list" class="rank-list"></div></div>
+          <div><h3>Dependents</h3><div id="dependent-list" class="rank-list"></div></div>
+        </div>
+      </article>
 
-        <article class="panel ambiguity-panel">
-          <div class="panel-heading"><div><p class="kicker">DISAMBIGUATION</p><h2>Forms with multiple analyses</h2></div></div>
-          <div id="ambiguities"></div>
-        </article>
+      <article class="panel sense-panel">
+        <div class="panel-heading"><div><p class="kicker">SEMANTIC EVIDENCE</p><h2>Glosses, not asserted senses</h2></div><span class="status-pill neutral">unreviewed</span></div>
+        <p id="sense-status" class="panel-intro"></p>
+        <div id="gloss-list" class="gloss-grid"></div>
+        <div id="gloss-sources" class="footnote"></div>
+      </article>
 
-        <article id="syntax-panel" class="panel optional-panel" hidden>
-          <div class="panel-heading"><div><p class="kicker">SYNTAX</p><h2>Syntactic company</h2></div></div>
-          <div id="syntax-evidence" class="analysis-grid"></div>
-        </article>
+      <article class="panel works-panel">
+        <div class="panel-heading"><div><p class="kicker">DISPERSION</p><h2>Authors and works</h2></div></div>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Work</th><th>Genre</th><th>Tokens</th><th>Hits</th><th>Rate / 10k</th></tr></thead>
+          <tbody id="work-table"></tbody>
+        </table></div>
+      </article>
 
-        <article id="gloss-panel" class="panel optional-panel" hidden>
-          <div class="panel-heading"><div><p class="kicker">SEMANTIC EVIDENCE</p><h2>Glosses</h2></div></div>
-          <div id="gloss-evidence" class="gloss-list"></div>
-          <p class="footnote">Glosses are attributed evidence, not asserted one-to-one senses.</p>
-        </article>
+      <article class="panel evidence-panel">
+        <div class="panel-heading"><div><p class="kicker">EVIDENCE</p><h2>Inspect occurrences</h2></div><span id="provenance-summary" class="status-pill neutral"></span></div>
+        <div id="example-list" class="example-list"></div>
+      </article>
 
-        <article class="panel forms-panel">
-          <div class="panel-heading"><div><p class="kicker">EVIDENCE</p><h2>Forms and tagged analyses</h2></div></div>
-          <div class="table-scroll">
-            <table>
-              <thead><tr><th>Form</th><th>POS</th><th>Features</th><th>Count</th><th>Share</th></tr></thead>
-              <tbody id="forms-table"></tbody>
-            </table>
-          </div>
-        </article>
-
-        <article class="panel works-panel">
-          <div class="panel-heading"><div><p class="kicker">PROVENANCE</p><h2>Works with occurrences</h2></div></div>
-          <div class="table-scroll">
-            <table>
-              <thead><tr><th>Work</th><th>Class</th><th>Corpus</th><th>Tokens</th><th>Hits</th><th>Rate / 10k</th></tr></thead>
-              <tbody id="works-table"></tbody>
-            </table>
-          </div>
-        </article>
-      </section>
+      <article class="panel method-panel">
+        <div class="panel-heading"><div><p class="kicker">CORPUS &amp; METHOD</p><h2>What these numbers mean</h2></div></div>
+        <p id="method-copy"></p>
+        <div id="source-cards" class="source-cards"></div>
+        <details><summary>Local corpus inventory at generation time</summary><dl id="inventory-list"></dl></details>
+      </article>
     </section>
   </main>
-
-  <script src="./vendor/sql-httpvfs/index.js"></script>
-  <script type="module" src="word-dashboard.js"></script>
+  <div id="tooltip" role="tooltip" hidden></div>
+  <script src="word-dashboard.js"></script>
 </body>
 </html>
