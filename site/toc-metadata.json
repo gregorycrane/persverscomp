@@ -1177,8 +1177,8 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "fragment_count": 0,
-          "word_count": 0,
+          "fragment_count": 6,
+          "word_count": 391,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -1198,9 +1198,9 @@
         }
       ],
       "surviving_word_count": 0,
-      "counted_fragment_word_count": 282,
-      "counted_fragment_edition": "Kock, vol. 3",
-      "total_word_count": 282
+      "counted_fragment_word_count": 391,
+      "counted_fragment_edition": "Meineke, vol. 4",
+      "total_word_count": 391
     },
     "tlg0604": {
       "author": "Ptolemy Philopator",
@@ -6525,6 +6525,2250 @@
       "surviving_word_count": 0,
       "counted_fragment_word_count": 0,
       "counted_fragment_edition": "von Arnim",
+      "total_word_count": 0
+    },
+    "hrr1a001": {
+      "author": "ANNALES MAXIMI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 4,
+          "word_count": 5
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 5,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 5
+    },
+    "hrr1a009": {
+      "author": "M. PORCII CATONIS ORIGINES EX LIBRO I",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 87,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a010": {
+      "author": "C. CASSII HEMINAE ANNALES EX LIBRO I",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 22,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a013": {
+      "author": "Q. FABII MAXIMI SERVILIANI ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 4,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a014": {
+      "author": "C. SEMPEONII GRACCHI AD M. POMPONIVM LIBER",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a015": {
+      "author": "L. CALPVENII PISONIS CENSORII FRVGI ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 14,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a016": {
+      "author": "C. FANNII ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a017": {
+      "author": "VENNONII ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a020": {
+      "author": "CN. GELLII ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 14,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a021": {
+      "author": "L. COELII ANTIPATRI BELLI PVNICI ALTERIVS HISTORIAE AD L. AELIVM",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 49,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a022": {
+      "author": "<PAVLVS> CLODIVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a023": {
+      "author": "SEMPRONII ASELLIONIS RERVM GESTARYM LIBRI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 11,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a029": {
+      "author": "Q. LVTATII CATVLI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 13,
+          "word_count": 62
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 62,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 62
+    },
+    "hrr1a030": {
+      "author": "L. CORNELII SVLLAE COMMENTARII RERVM GESTARVM",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a031": {
+      "author": "Ω. CLAVDII QVADRIGARII ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 71,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a032": {
+      "author": "VALEEII ANTIATIS ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 27,
+          "word_count": 140
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 140,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 140
+    },
+    "hrr1a033": {
+      "author": "L. CORNELII SISENNAE HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 135,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a034": {
+      "author": "C. LICINII MACRI ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 21,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a035": {
+      "author": "Q. AELH TVBERONIS HISTOKIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a036": {
+      "author": "PROCILII LIBRI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a037": {
+      "author": "L. SCKIBONII LIBONIS ANNALIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a038": {
+      "author": "INCERTAE AETATIS SCRIPTORES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a039": {
+      "author": "ALFII BELLI CARTHAGINIENSIS LIBRI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a040": {
+      "author": "GAI PISONIS HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr1a041": {
+      "author": "ANNII FETIALIS LIBER",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrrscaurus": {
+      "author": "Marcus Aemilius Scaurus",
+      "fragmentary_play_count": 2,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 9,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrrtuditanus": {
+      "author": "Gaius Sempronius Tuditanus",
+      "fragmentary_play_count": 2,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2163": {
+      "author": "Publius Cornelius Scipio Africanus Major",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2164": {
+      "author": "Publius Cornelius Scipio Nasica Corculum",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2542": {
+      "author": "Quintus Fabius Pictor",
+      "fragmentary_play_count": 3,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 33,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2543": {
+      "author": "Lucius Cincius Alimentus",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2544": {
+      "author": "Aulus Postumius Albinus",
+      "fragmentary_play_count": 2,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2545": {
+      "author": "Gaius Acilius",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2546": {
+      "author": "Publius Rutilius Rufus",
+      "fragmentary_play_count": 3,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "fragment_count": 14,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a004": {
+      "author": "Μ. TVLLI TIRONIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a006": {
+      "author": "SAVFEIVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a007": {
+      "author": "ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a008": {
+      "author": "Μ. TERENTI VAERONIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 10,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a009": {
+      "author": "CORNELI NEPOTIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a010": {
+      "author": "C. ATEI PHILOLOGI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a012": {
+      "author": "L. ARRVNTI HISTORIAE BELLI PVNICI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a013": {
+      "author": "MVNATI EVFl",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a014": {
+      "author": "Τ. AMPIVS BALBVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a015": {
+      "author": "Μ. ACTORIVS NASO",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a016": {
+      "author": "L. AVRVNCVLEIVS COTTA",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a017": {
+      "author": "L. CORNELIVS BALBVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a018": {
+      "author": "C. OPPI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a019": {
+      "author": "TANVSI GEMINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a020": {
+      "author": "Μ. IVNIVS BRVTVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a021": {
+      "author": "L. CALPVRNI BIBVLI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 24
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 24,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 24
+    },
+    "hrr2a022": {
+      "author": "P. VOLVMNI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a023": {
+      "author": "Q. DELLI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a024": {
+      "author": "IMPERATORIS AVGVSTI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a025": {
+      "author": "M. VIPSANI AGRIPPAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a026": {
+      "author": "Μ. VALERI MESSALLAE RVFI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a027": {
+      "author": "Μ. VALERI MESSALLAE CORVINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a028": {
+      "author": "C. ASINI POLLIONIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a029": {
+      "author": "IVLIVS MARATHVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a030": {
+      "author": "C. DRVSVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a031": {
+      "author": "IVLIVS SATVRNINVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a032": {
+      "author": "AQVILIVS NIGER",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a033": {
+      "author": "BAEBIVS MACER",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a034": {
+      "author": "C. IVLI HYGINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 12,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a035": {
+      "author": "C. CLODI LICINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a036": {
+      "author": "Μ. VERRI FLACCI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a037": {
+      "author": "FENESTELLAE ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a038": {
+      "author": "A. CREMVTTI CORDI ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a039": {
+      "author": "BRVTTEDII NIGRI HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a040": {
+      "author": "CN. CORNELIYS LKNTVLVS GAETVLICVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a044": {
+      "author": "AGRIPPlNAE CLAVDII COMMENTAKII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a045": {
+      "author": "CORNELII BOCCHI HISTORIA",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a046": {
+      "author": "AVFIDII BASSI HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a047": {
+      "author": "Μ. SERVILII NONIANI ANNALES",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a049": {
+      "author": "P. CLODII THRASEAE PAETI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a050": {
+      "author": "CN. DOMITII CORBVLONIS COMMENTARII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a051": {
+      "author": "C. SVETONII PAVLINI COMMENTARII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a052": {
+      "author": "C. LIGIMVS MVCIANVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 28,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a053": {
+      "author": "TI. CLAVDIVS BALBILLVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a054": {
+      "author": "T. FLAVII VESPASIANI COMMENTARII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a055": {
+      "author": "Μ. ANTONII IVLIANI DE IVDAEIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a056": {
+      "author": "Q. ASCONII PEDIANI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a057": {
+      "author": "C. PLINII SECVNDI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 4,
+          "word_count": 12
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 12
+    },
+    "hrr2a058": {
+      "author": "FABII RVSTICI HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a059": {
+      "author": "Μ. CLVVII RVFI HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a060": {
+      "author": "VIPSTANI MESSALLAE HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a061": {
+      "author": "IVNII ARVLENI RVSTICI LAVDES THRASEAE PAETI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a062": {
+      "author": "POMPEI PLANTAE HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a063": {
+      "author": "M. VLPII TRAIANI DACICA",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a064": {
+      "author": "IMPERATOEIS P. AELII HADRIANI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a065": {
+      "author": "IMPERATORIS L. SEPTIMII SEVERl",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a066": {
+      "author": "AELIVS MAYRVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a067": {
+      "author": "MARII MAXIMI DE VITA IMPEEATORVM",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a068": {
+      "author": "ENCOLPII VITA ALEXANDRI SEVERI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a069": {
+      "author": "SEPTIMII VITA ALEXANDEI SEVERI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a070": {
+      "author": "GARGILII MARTIALIS VITA ALEXANDRI SEVERI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a071": {
+      "author": "AELIVS SABINVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a072": {
+      "author": "VVLCATII TEEENTIANI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a073": {
+      "author": "LOLLII VRBICI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a074": {
+      "author": "AELII IVNII COEDI VITAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 22,
+          "word_count": 12
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 12,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 12
+    },
+    "hrr2a075": {
+      "author": "AEMILII PARTHENIANI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a076": {
+      "author": "ACHOLII VITA ALEXANDRI SEVERI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a078": {
+      "author": "VITAE AVCTORVM A TREBELLIO ET A VOPISCO NOMINATORVM CAELESTINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a079": {
+      "author": "IVLII ATHERIANI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a080": {
+      "author": "MAEONII ASTYANACTIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a081": {
+      "author": "CORNELl] CAPITOLINI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a082": {
+      "author": "DAOELLII FVSCI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a083": {
+      "author": "GALLI ANTIPATRI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a084": {
+      "author": "CALLICRATIS TYRII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a085": {
+      "author": "THEOCLII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 31
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 31,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 31
+    },
+    "hrr2a086": {
+      "author": "NICOMACHI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a087": {
+      "author": "ASCLEPIODOTI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a088": {
+      "author": "AVEELII FESTIVI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a089": {
+      "author": "Μ. SALVIDIENI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a091": {
+      "author": "ONESIMI VITA PROBI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a092": {
+      "author": "TVRDVLI CtALLICANI EPHEMERIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a093": {
+      "author": "IMPERATORIS CONSTANTINI COMMENTARII",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a094": {
+      "author": "Q. AVRELII MEMMIJ SYMMAOHI HISTORIA",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a095": {
+      "author": "SCRIPTOEES AETATIS OMNINO INCERTAE FABIVS VESTALIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a096": {
+      "author": "DECVLO",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a097": {
+      "author": "CORNELIVS VALERIANVS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a098": {
+      "author": "PESCENNII FESTI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a099": {
+      "author": "BRVTTII HISTORIAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a100": {
+      "author": "KVBELLII BLANDI",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a101": {
+      "author": "AEMILII SVRAE",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrr2a102": {
+      "author": "VALENTIS",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrrclaudius": {
+      "author": "Emperor Claudius",
+      "fragmentary_play_count": 2,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "hrrsenecaelder": {
+      "author": "Lucius Annaeus Seneca the Elder",
+      "fragmentary_play_count": 2,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg1920": {
+      "author": "Gaius Sulpicius Galba",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg1968": {
+      "author": "Fabius Ceryllianus",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg1982": {
+      "author": "Titus Pomponius Atticus",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2122": {
+      "author": "Gaius Asinius Quadratus",
+      "fragmentary_play_count": 1,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 27,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
+      "total_word_count": 0
+    },
+    "tlg2165": {
+      "author": "Marcus Tullius Cicero",
+      "fragmentary_play_count": 3,
+      "evidence_only_play_count": 0,
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "surviving_word_count": 0,
+      "counted_fragment_word_count": 0,
+      "counted_fragment_edition": "Peter",
       "total_word_count": 0
     }
   },
@@ -87941,9 +90185,12 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [],
-          "fragment_count": 0,
-          "word_count": 0,
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 21,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -87975,9 +90222,12 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [],
-          "fragment_count": 0,
-          "word_count": 0,
+          "numbers": [
+            "1",
+            "1_2"
+          ],
+          "fragment_count": 2,
+          "word_count": 349,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -88009,9 +90259,12 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [],
-          "fragment_count": 0,
-          "word_count": 0,
+          "numbers": [
+            "2",
+            "unnumbered"
+          ],
+          "fragment_count": 2,
+          "word_count": 21,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -93352,6 +95605,2836 @@
             "3.2"
           ],
           "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a001.hrr1e001": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "fragment_count": 4,
+          "word_count": 5
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a009.hrr1e009": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "7",
+            "12",
+            "21",
+            "22",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "53",
+            "57",
+            "58",
+            "61",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "77",
+            "78",
+            "79",
+            "81",
+            "82",
+            "87",
+            "90",
+            "91",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "113",
+            "116",
+            "117",
+            "118",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "143a"
+          ],
+          "fragment_count": 87,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a010.hrr1e010": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "16",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "40"
+          ],
+          "fragment_count": 22,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a013.hrr1e013": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "fragment_count": 4,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a014.hrr1e014": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a015.hrr1e015": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "8",
+            "10",
+            "11",
+            "13",
+            "14",
+            "17",
+            "18",
+            "19",
+            "26",
+            "36",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "fragment_count": 14,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a016.hrr1e016": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a017.hrr1e017": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a020.hrr1e020": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "12",
+            "13",
+            "14",
+            "15",
+            "22",
+            "23",
+            "25",
+            "26",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "fragment_count": 14,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a021.hrr1e021": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "12",
+            "15",
+            "16",
+            "19",
+            "21",
+            "22",
+            "23",
+            "24",
+            "24a",
+            "24b",
+            "25",
+            "30",
+            "31",
+            "32",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "41",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "66",
+            "67"
+          ],
+          "fragment_count": 49,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a022.hrr1e022": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a023.hrr1e023": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2a",
+            "3",
+            "4",
+            "5",
+            "6",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "fragment_count": 11,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a029.hrr1e029": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "fragment_count": 13,
+          "word_count": 62
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a030.hrr1e030": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2",
+            "3",
+            "10a",
+            "16",
+            "20"
+          ],
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a031.hrr1e031": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "9",
+            "10b",
+            "13",
+            "15",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "70",
+            "71",
+            "72",
+            "74",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "82",
+            "83",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96"
+          ],
+          "fragment_count": 71,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a032.hrr1e032": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "5",
+            "6",
+            "8",
+            "14",
+            "15",
+            "16",
+            "20",
+            "41",
+            "43",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "65",
+            "66"
+          ],
+          "fragment_count": 27,
+          "word_count": 140
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a033.hrr1e033": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "111",
+            "112",
+            "113",
+            "114",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "125",
+            "126",
+            "128",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143"
+          ],
+          "fragment_count": 135,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a034.hrr1e034": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+          ],
+          "fragment_count": 21,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a035.hrr1e035": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "4",
+            "9",
+            "10",
+            "10a",
+            "11",
+            "12",
+            "13"
+          ],
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a036.hrr1e036": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "3"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a037.hrr1e037": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a038.hrr1e038": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a039.hrr1e039": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a040.hrr1e040": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr1a041.hrr1e041": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrscaurus.hrr1e024": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrscaurus.hrr1e025": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrtuditanus.hrr1e018": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3",
+            "6"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrtuditanus.hrr1e019": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "7",
+            "8"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2163.hrr1e004": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2164.hrr1e005": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2542.hrr1e002": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "3a",
+            "4",
+            "5b",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11a",
+            "11b",
+            "12",
+            "13",
+            "14",
+            "15",
+            "18",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "fragment_count": 26,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2542.hrr1e011": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "3",
+            "5",
+            "6"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2542.hrr1e012": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "5",
+            "6",
+            "9"
+          ],
+          "fragment_count": 4,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2543.hrr1e003": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2544.hrr1e007": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2544.hrr1e008": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "3"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2545.hrr1e006": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "2a",
+            "3",
+            "6"
+          ],
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2546.hrr1e026": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2546.hrr1e027": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2546.hrr1e028": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1914-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "13",
+            "14",
+            "15"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a004.hrr2e004": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a006.hrr2e006": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a007.hrr2e007": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a008.hrr2e008": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "4",
+            "5a",
+            "5b",
+            "6",
+            "14",
+            "21",
+            "22",
+            "23"
+          ],
+          "fragment_count": 10,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a009.hrr2e009": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "8",
+            "13",
+            "14",
+            "15",
+            "17"
+          ],
+          "fragment_count": 8,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a010.hrr2e010": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a012.hrr2e012": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1to7"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a013.hrr2e013": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2",
+            "3"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a014.hrr2e014": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a015.hrr2e015": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a016.hrr2e016": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a017.hrr2e017": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a018.hrr2e018": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2",
+            "3",
+            "4"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a019.hrr2e019": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a020.hrr2e020": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a021.hrr2e021": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 24
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a022.hrr2e022": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a023.hrr2e023": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a024.hrr2e024": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "8",
+            "10",
+            "11",
+            "13",
+            "21",
+            "45"
+          ],
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a025.hrr2e025": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a026.hrr2e026": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a027.hrr2e027": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a028.hrr2e028": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "5"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a029.hrr2e029": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a030.hrr2e030": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a031.hrr2e031": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a032.hrr2e032": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a033.hrr2e033": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a034.hrr2e034": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2",
+            "3",
+            "4",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17"
+          ],
+          "fragment_count": 12,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a035.hrr2e035": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3",
+            "4"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a036.hrr2e036": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a037.hrr2e037": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "21",
+            "28",
+            "30"
+          ],
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a038.hrr2e038": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a039.hrr2e039": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a040.hrr2e040": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a044.hrr2e044": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a045.hrr2e045": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a046.hrr2e046": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a047.hrr2e047": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a049.hrr2e049": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a050.hrr2e050": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a051.hrr2e051": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a052.hrr2e052": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+          ],
+          "fragment_count": 28,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a053.hrr2e053": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a054.hrr2e054": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a055.hrr2e055": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a056.hrr2e056": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a057.hrr2e057": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "4",
+            "7",
+            "8"
+          ],
+          "fragment_count": 4,
+          "word_count": 12
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a058.hrr2e058": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a059.hrr2e059": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a060.hrr2e060": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a061.hrr2e061": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a062.hrr2e062": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a063.hrr2e063": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a064.hrr2e064": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "4"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a065.hrr2e065": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "2"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a066.hrr2e066": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a067.hrr2e067": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "8",
+            "11",
+            "12",
+            "18",
+            "19",
+            "20"
+          ],
+          "fragment_count": 6,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a068.hrr2e068": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a069.hrr2e069": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a070.hrr2e070": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a071.hrr2e071": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a072.hrr2e072": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a073.hrr2e073": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a074.hrr2e074": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "fragment_count": 22,
+          "word_count": 12
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a075.hrr2e075": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a076.hrr2e076": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "4"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a078.hrr2e078": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a079.hrr2e079": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a080.hrr2e080": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a081.hrr2e081": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a082.hrr2e082": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a083.hrr2e083": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a084.hrr2e084": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a085.hrr2e085": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 31
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a086.hrr2e086": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a087.hrr2e087": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a088.hrr2e088": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a089.hrr2e089": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a091.hrr2e091": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "fragment_count": 5,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a092.hrr2e092": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a093.hrr2e093": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a094.hrr2e094": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a095.hrr2e095": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a096.hrr2e096": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a097.hrr2e097": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a098.hrr2e098": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a099.hrr2e099": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3"
+          ],
+          "fragment_count": 3,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a100.hrr2e100": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a101.hrr2e101": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrr2a102.hrr2e102": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrclaudius.hrr2e042": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrclaudius.hrr2e043": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrsenecaelder.hrr2e041": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "hrrsenecaelder.hrr2e048": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg1920.hrr2e011": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg1968.hrr2e090": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg1982.hrr2e005": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "3"
+          ],
+          "fragment_count": 2,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2122.hrr2e077": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+          ],
+          "fragment_count": 27,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2165.hrr2e001": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2165.hrr2e002": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
+          "word_count": 0
+        }
+      ],
+      "evidence_only": false
+    },
+    "tlg2165.hrr2e003": {
+      "record_type": "fragmentary_play",
+      "editions": [
+        {
+          "short_id": "peter1906-grc1",
+          "edition": "Peter",
+          "numbers": [
+            "1"
+          ],
+          "fragment_count": 1,
           "word_count": 0
         }
       ],

@@ -132157,6 +132157,6125 @@
         }
       ],
       "annotations": {}
+    },
+    "hrr1a001.hrr1e001": {
+      "textgroup": "hrr1a001",
+      "work": "hrr1e001",
+      "title": "ANNALES MAXIMI",
+      "source_title": "ANNALES MAXIMI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a001_hrr1e001",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a001.hrr1e001.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a001_hrr1e001_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a001.hrr1e001.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a009.hrr1e009": {
+      "textgroup": "hrr1a009",
+      "work": "hrr1e009",
+      "title": "M. PORCII CATONIS ORIGINES EX LIBRO I",
+      "source_title": "M. PORCII CATONIS ORIGINES EX LIBRO I",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a009_hrr1e009",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a009.hrr1e009.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "7",
+            "12",
+            "21",
+            "22",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "53",
+            "57",
+            "58",
+            "61",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "77",
+            "78",
+            "79",
+            "81",
+            "82",
+            "87",
+            "90",
+            "91",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "110",
+            "111",
+            "113",
+            "116",
+            "117",
+            "118",
+            "120",
+            "121",
+            "122",
+            "123",
+            "124",
+            "125",
+            "126",
+            "127",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143",
+            "143a"
+          ],
+          "bytes": 348160
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a009_hrr1e009_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a009.hrr1e009.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a010.hrr1e010": {
+      "textgroup": "hrr1a010",
+      "work": "hrr1e010",
+      "title": "C. CASSII HEMINAE ANNALES EX LIBRO I",
+      "source_title": "C. CASSII HEMINAE ANNALES EX LIBRO I",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a010_hrr1e010",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a010.hrr1e010.part1.db",
+          "books": [],
+          "chapters": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "16",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "40"
+          ],
+          "bytes": 172032
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a010_hrr1e010_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a010.hrr1e010.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a013.hrr1e013": {
+      "textgroup": "hrr1a013",
+      "work": "hrr1e013",
+      "title": "Q. FABII MAXIMI SERVILIANI ANNALES",
+      "source_title": "Q. FABII MAXIMI SERVILIANI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a013_hrr1e013",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a013.hrr1e013.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a013_hrr1e013_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a013.hrr1e013.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a014.hrr1e014": {
+      "textgroup": "hrr1a014",
+      "work": "hrr1e014",
+      "title": "C. SEMPEONII GRACCHI AD M. POMPONIVM LIBER",
+      "source_title": "C. SEMPEONII GRACCHI AD M. POMPONIVM LIBER",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a014_hrr1e014",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a014.hrr1e014.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a014_hrr1e014_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a014.hrr1e014.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a015.hrr1e015": {
+      "textgroup": "hrr1a015",
+      "work": "hrr1e015",
+      "title": "L. CALPVENII PISONIS CENSORII FRVGI ANNALES",
+      "source_title": "L. CALPVENII PISONIS CENSORII FRVGI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a015_hrr1e015",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a015.hrr1e015.part1.db",
+          "books": [],
+          "chapters": [
+            "8",
+            "10",
+            "11",
+            "13",
+            "14",
+            "17",
+            "18",
+            "19",
+            "26",
+            "36",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "bytes": 184320
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a015_hrr1e015_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a015.hrr1e015.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a016.hrr1e016": {
+      "textgroup": "hrr1a016",
+      "work": "hrr1e016",
+      "title": "C. FANNII ANNALES",
+      "source_title": "C. FANNII ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a016_hrr1e016",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a016.hrr1e016.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a016_hrr1e016_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a016.hrr1e016.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a017.hrr1e017": {
+      "textgroup": "hrr1a017",
+      "work": "hrr1e017",
+      "title": "VENNONII ANNALES",
+      "source_title": "VENNONII ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a017_hrr1e017",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a017.hrr1e017.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a017_hrr1e017_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a017.hrr1e017.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a020.hrr1e020": {
+      "textgroup": "hrr1a020",
+      "work": "hrr1e020",
+      "title": "CN. GELLII ANNALES",
+      "source_title": "CN. GELLII ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a020_hrr1e020",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a020.hrr1e020.part1.db",
+          "books": [],
+          "chapters": [
+            "12",
+            "13",
+            "14",
+            "15",
+            "22",
+            "23",
+            "25",
+            "26",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34"
+          ],
+          "bytes": 151552
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a020_hrr1e020_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a020.hrr1e020.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a021.hrr1e021": {
+      "textgroup": "hrr1a021",
+      "work": "hrr1e021",
+      "title": "L. COELII ANTIPATRI BELLI PVNICI ALTERIVS HISTORIAE AD L. AELIVM",
+      "source_title": "L. COELII ANTIPATRI BELLI PVNICI ALTERIVS HISTORIAE AD L. AELIVM",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a021_hrr1e021",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a021.hrr1e021.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "12",
+            "15",
+            "16",
+            "19",
+            "21",
+            "22",
+            "23",
+            "24",
+            "24a",
+            "24b",
+            "25",
+            "30",
+            "31",
+            "32",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "41",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "66",
+            "67"
+          ],
+          "bytes": 217088
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a021_hrr1e021_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a021.hrr1e021.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a022.hrr1e022": {
+      "textgroup": "hrr1a022",
+      "work": "hrr1e022",
+      "title": "<PAVLVS> CLODIVS",
+      "source_title": "<PAVLVS> CLODIVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a022_hrr1e022",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a022.hrr1e022.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a022_hrr1e022_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a022.hrr1e022.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a023.hrr1e023": {
+      "textgroup": "hrr1a023",
+      "work": "hrr1e023",
+      "title": "SEMPRONII ASELLIONIS RERVM GESTARYM LIBRI",
+      "source_title": "SEMPRONII ASELLIONIS RERVM GESTARYM LIBRI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a023_hrr1e023",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a023.hrr1e023.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2a",
+            "3",
+            "4",
+            "5",
+            "6",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "bytes": 135168
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a023_hrr1e023_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a023.hrr1e023.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a029.hrr1e029": {
+      "textgroup": "hrr1a029",
+      "work": "hrr1e029",
+      "title": "Q. LVTATII CATVLI",
+      "source_title": "Q. LVTATII CATVLI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a029_hrr1e029",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a029.hrr1e029.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "bytes": 131072
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a029_hrr1e029_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a029.hrr1e029.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a030.hrr1e030": {
+      "textgroup": "hrr1a030",
+      "work": "hrr1e030",
+      "title": "L. CORNELII SVLLAE COMMENTARII RERVM GESTARVM",
+      "source_title": "L. CORNELII SVLLAE COMMENTARII RERVM GESTARVM",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a030_hrr1e030",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a030.hrr1e030.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "10a",
+            "16",
+            "20"
+          ],
+          "bytes": 151552
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a030_hrr1e030_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a030.hrr1e030.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a031.hrr1e031": {
+      "textgroup": "hrr1a031",
+      "work": "hrr1e031",
+      "title": "Ω. CLAVDII QVADRIGARII ANNALES",
+      "source_title": "Ω. CLAVDII QVADRIGARII ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a031_hrr1e031",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a031.hrr1e031.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "9",
+            "10b",
+            "13",
+            "15",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "70",
+            "71",
+            "72",
+            "74",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "82",
+            "83",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96"
+          ],
+          "bytes": 303104
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a031_hrr1e031_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a031.hrr1e031.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a032.hrr1e032": {
+      "textgroup": "hrr1a032",
+      "work": "hrr1e032",
+      "title": "VALEEII ANTIATIS ANNALES",
+      "source_title": "VALEEII ANTIATIS ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a032_hrr1e032",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a032.hrr1e032.part1.db",
+          "books": [],
+          "chapters": [
+            "5",
+            "6",
+            "8",
+            "14",
+            "15",
+            "16",
+            "20",
+            "41",
+            "43",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "65",
+            "66"
+          ],
+          "bytes": 253952
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a032_hrr1e032_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a032.hrr1e032.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a033.hrr1e033": {
+      "textgroup": "hrr1a033",
+      "work": "hrr1e033",
+      "title": "L. CORNELII SISENNAE HISTORIAE",
+      "source_title": "L. CORNELII SISENNAE HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a033_hrr1e033",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a033.hrr1e033.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "111",
+            "112",
+            "113",
+            "114",
+            "116",
+            "117",
+            "118",
+            "119",
+            "120",
+            "121",
+            "122",
+            "123",
+            "125",
+            "126",
+            "128",
+            "130",
+            "131",
+            "132",
+            "133",
+            "134",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "140",
+            "141",
+            "142",
+            "143"
+          ],
+          "bytes": 335872
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a033_hrr1e033_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a033.hrr1e033.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a034.hrr1e034": {
+      "textgroup": "hrr1a034",
+      "work": "hrr1e034",
+      "title": "C. LICINII MACRI ANNALES",
+      "source_title": "C. LICINII MACRI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a034_hrr1e034",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a034.hrr1e034.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27"
+          ],
+          "bytes": 163840
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a034_hrr1e034_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a034.hrr1e034.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a035.hrr1e035": {
+      "textgroup": "hrr1a035",
+      "work": "hrr1e035",
+      "title": "Q. AELH TVBERONIS HISTOKIAE",
+      "source_title": "Q. AELH TVBERONIS HISTOKIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a035_hrr1e035",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a035.hrr1e035.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "4",
+            "9",
+            "10",
+            "10a",
+            "11",
+            "12",
+            "13"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a035_hrr1e035_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a035.hrr1e035.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a036.hrr1e036": {
+      "textgroup": "hrr1a036",
+      "work": "hrr1e036",
+      "title": "PROCILII LIBRI",
+      "source_title": "PROCILII LIBRI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a036_hrr1e036",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a036.hrr1e036.part1.db",
+          "books": [],
+          "chapters": [
+            "3"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a036_hrr1e036_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a036.hrr1e036.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a037.hrr1e037": {
+      "textgroup": "hrr1a037",
+      "work": "hrr1e037",
+      "title": "L. SCKIBONII LIBONIS ANNALIS",
+      "source_title": "L. SCKIBONII LIBONIS ANNALIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a037_hrr1e037",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a037.hrr1e037.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a037_hrr1e037_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a037.hrr1e037.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a038.hrr1e038": {
+      "textgroup": "hrr1a038",
+      "work": "hrr1e038",
+      "title": "INCERTAE AETATIS SCRIPTORES",
+      "source_title": "INCERTAE AETATIS SCRIPTORES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a038_hrr1e038",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a038.hrr1e038.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a038_hrr1e038_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a038.hrr1e038.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a039.hrr1e039": {
+      "textgroup": "hrr1a039",
+      "work": "hrr1e039",
+      "title": "ALFII BELLI CARTHAGINIENSIS LIBRI",
+      "source_title": "ALFII BELLI CARTHAGINIENSIS LIBRI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a039_hrr1e039",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a039.hrr1e039.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a039_hrr1e039_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a039.hrr1e039.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a040.hrr1e040": {
+      "textgroup": "hrr1a040",
+      "work": "hrr1e040",
+      "title": "GAI PISONIS HISTORIAE",
+      "source_title": "GAI PISONIS HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a040_hrr1e040",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a040.hrr1e040.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a040_hrr1e040_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a040.hrr1e040.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr1a041.hrr1e041": {
+      "textgroup": "hrr1a041",
+      "work": "hrr1e041",
+      "title": "ANNII FETIALIS LIBER",
+      "source_title": "ANNII FETIALIS LIBER",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr1a041_hrr1e041",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr1a041.hrr1e041.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr1a041_hrr1e041_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrr1a041.hrr1e041.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrscaurus.hrr1e024": {
+      "textgroup": "hrrscaurus",
+      "work": "hrr1e024",
+      "title": "Μ. AEMILII SCAVRI DE VITA SVA EX LIBRO I",
+      "source_title": "Μ. AEMILII SCAVRI DE VITA SVA EX LIBRO I",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrscaurus_hrr1e024",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrscaurus.hrr1e024.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrscaurus_hrr1e024_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrrscaurus.hrr1e024.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrscaurus.hrr1e025": {
+      "textgroup": "hrrscaurus",
+      "work": "hrr1e025",
+      "title": "ORATIONVM RELIQVIAE",
+      "source_title": "ORATIONVM RELIQVIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrscaurus_hrr1e025",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrscaurus.hrr1e025.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrscaurus_hrr1e025_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrrscaurus.hrr1e025.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrtuditanus.hrr1e018": {
+      "textgroup": "hrrtuditanus",
+      "work": "hrr1e018",
+      "title": "C. SEMPltONII TVDITANI ANNALES",
+      "source_title": "C. SEMPltONII TVDITANI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrtuditanus_hrr1e018",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrtuditanus.hrr1e018.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3",
+            "6"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrtuditanus_hrr1e018_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrrtuditanus.hrr1e018.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrtuditanus.hrr1e019": {
+      "textgroup": "hrrtuditanus",
+      "work": "hrr1e019",
+      "title": "EX MAGISTRATVVM LIBRIS",
+      "source_title": "EX MAGISTRATVVM LIBRIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrtuditanus_hrr1e019",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrtuditanus.hrr1e019.part1.db",
+          "books": [],
+          "chapters": [
+            "7",
+            "8"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrtuditanus_hrr1e019_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:hrrtuditanus.hrr1e019.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2163.hrr1e004": {
+      "textgroup": "tlg2163",
+      "work": "hrr1e004",
+      "title": "P. CORNELII SCIPIONIS AFRICANI MAIORIS EPISTVLA AD PHILIPPVM REGEM",
+      "source_title": "P. CORNELII SCIPIONIS AFRICANI MAIORIS EPISTVLA AD PHILIPPVM REGEM",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2163_hrr1e004",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2163.hrr1e004.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2163_hrr1e004_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2163.hrr1e004.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2164.hrr1e005": {
+      "textgroup": "tlg2164",
+      "work": "hrr1e005",
+      "title": "P. CORNELII SCIPIONIS NASICAE CORCVLI EPISTVLA DE KEBVS CONTKA PERSAM GESTIS",
+      "source_title": "P. CORNELII SCIPIONIS NASICAE CORCVLI EPISTVLA DE KEBVS CONTKA PERSAM GESTIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2164_hrr1e005",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2164.hrr1e005.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2164_hrr1e005_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2164.hrr1e005.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2542.hrr1e002": {
+      "textgroup": "tlg2542",
+      "work": "hrr1e002",
+      "title": "Q. FABII PICTORIS GRAECAE HISTORIAE",
+      "source_title": "Q. FABII PICTORIS GRAECAE HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2542_hrr1e002",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2542.hrr1e002.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "3a",
+            "4",
+            "5b",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11a",
+            "11b",
+            "12",
+            "13",
+            "14",
+            "15",
+            "18",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "bytes": 286720
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2542_hrr1e002_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2542.hrr1e002.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2542.hrr1e011": {
+      "textgroup": "tlg2542",
+      "work": "hrr1e011",
+      "title": "FABII PICTORIS LATINI ANNALES",
+      "source_title": "FABII PICTORIS LATINI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2542_hrr1e011",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2542.hrr1e011.part1.db",
+          "books": [],
+          "chapters": [
+            "3",
+            "5",
+            "6"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2542_hrr1e011_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2542.hrr1e011.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2542.hrr1e012": {
+      "textgroup": "tlg2542",
+      "work": "hrr1e012",
+      "title": "FABII PICTOKIS IVRIS PONTIFICII LIBBI",
+      "source_title": "FABII PICTOKIS IVRIS PONTIFICII LIBBI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2542_hrr1e012",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2542.hrr1e012.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "5",
+            "6",
+            "9"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2542_hrr1e012_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2542.hrr1e012.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2543.hrr1e003": {
+      "textgroup": "tlg2543",
+      "work": "hrr1e003",
+      "title": "L. CINCII ALIMENTI HISTORIAE",
+      "source_title": "L. CINCII ALIMENTI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2543_hrr1e003",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2543.hrr1e003.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2543_hrr1e003_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2543.hrr1e003.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2544.hrr1e007": {
+      "textgroup": "tlg2544",
+      "work": "hrr1e007",
+      "title": "A. POSTVMII ALBINI GRAECI ANNALES",
+      "source_title": "A. POSTVMII ALBINI GRAECI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2544_hrr1e007",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2544.hrr1e007.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2544_hrr1e007_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2544.hrr1e007.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2544.hrr1e008": {
+      "textgroup": "tlg2544",
+      "work": "hrr1e008",
+      "title": "POSTVMII DE ADVENTV AENEAE",
+      "source_title": "POSTVMII DE ADVENTV AENEAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2544_hrr1e008",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2544.hrr1e008.part1.db",
+          "books": [],
+          "chapters": [
+            "3"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2544_hrr1e008_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2544.hrr1e008.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2545.hrr1e006": {
+      "textgroup": "tlg2545",
+      "work": "hrr1e006",
+      "title": "C. ACILII HISTORIAE",
+      "source_title": "C. ACILII HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2545_hrr1e006",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2545.hrr1e006.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "2a",
+            "3",
+            "6"
+          ],
+          "bytes": 126976
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2545_hrr1e006_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2545.hrr1e006.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2546.hrr1e026": {
+      "textgroup": "tlg2546",
+      "work": "hrr1e026",
+      "title": "P. RVTILII RVFI HISTORIAE",
+      "source_title": "P. RVTILII RVFI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2546_hrr1e026",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2546.hrr1e026.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2546_hrr1e026_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2546.hrr1e026.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2546.hrr1e027": {
+      "textgroup": "tlg2546",
+      "work": "hrr1e027",
+      "title": "P. RVTILII RVFI DE VITA SVA",
+      "source_title": "P. RVTILII RVFI DE VITA SVA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2546_hrr1e027",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2546.hrr1e027.part1.db",
+          "books": [],
+          "chapters": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2546_hrr1e027_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2546.hrr1e027.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2546.hrr1e028": {
+      "textgroup": "tlg2546",
+      "work": "hrr1e028",
+      "title": "INCERTAE SEDIS RELIQVIAE",
+      "source_title": "INCERTAE SEDIS RELIQVIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2546_hrr1e028",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2546.hrr1e028.part1.db",
+          "books": [],
+          "chapters": [
+            "13",
+            "14",
+            "15"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2546_hrr1e028_peter1914",
+          "short_id": "peter1914-grc1",
+          "urn": "urn:cts:greekLit:tlg2546.hrr1e028.peter1914-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 1, 1914; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a004.hrr2e004": {
+      "textgroup": "hrr2a004",
+      "work": "hrr2e004",
+      "title": "Μ. TVLLI TIRONIS",
+      "source_title": "Μ. TVLLI TIRONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a004_hrr2e004",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a004.hrr2e004.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a004_hrr2e004_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a004.hrr2e004.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a006.hrr2e006": {
+      "textgroup": "hrr2a006",
+      "work": "hrr2e006",
+      "title": "SAVFEIVS",
+      "source_title": "SAVFEIVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a006_hrr2e006",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a006.hrr2e006.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a006_hrr2e006_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a006.hrr2e006.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a007.hrr2e007": {
+      "textgroup": "hrr2a007",
+      "work": "hrr2e007",
+      "title": "ANNALES",
+      "source_title": "ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a007_hrr2e007",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a007.hrr2e007.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a007_hrr2e007_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a007.hrr2e007.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a008.hrr2e008": {
+      "textgroup": "hrr2a008",
+      "work": "hrr2e008",
+      "title": "Μ. TERENTI VAERONIS",
+      "source_title": "Μ. TERENTI VAERONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a008_hrr2e008",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a008.hrr2e008.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "4",
+            "5a",
+            "5b",
+            "6",
+            "14",
+            "21",
+            "22",
+            "23"
+          ],
+          "bytes": 163840
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a008_hrr2e008_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a008.hrr2e008.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a009.hrr2e009": {
+      "textgroup": "hrr2a009",
+      "work": "hrr2e009",
+      "title": "CORNELI NEPOTIS",
+      "source_title": "CORNELI NEPOTIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a009_hrr2e009",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a009.hrr2e009.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "8",
+            "13",
+            "14",
+            "15",
+            "17"
+          ],
+          "bytes": 159744
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a009_hrr2e009_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a009.hrr2e009.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a010.hrr2e010": {
+      "textgroup": "hrr2a010",
+      "work": "hrr2e010",
+      "title": "C. ATEI PHILOLOGI",
+      "source_title": "C. ATEI PHILOLOGI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a010_hrr2e010",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a010.hrr2e010.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a010_hrr2e010_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a010.hrr2e010.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a012.hrr2e012": {
+      "textgroup": "hrr2a012",
+      "work": "hrr2e012",
+      "title": "L. ARRVNTI HISTORIAE BELLI PVNICI",
+      "source_title": "L. ARRVNTI HISTORIAE BELLI PVNICI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a012_hrr2e012",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a012.hrr2e012.part1.db",
+          "books": [],
+          "chapters": [
+            "1to7"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a012_hrr2e012_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a012.hrr2e012.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a013.hrr2e013": {
+      "textgroup": "hrr2a013",
+      "work": "hrr2e013",
+      "title": "MVNATI EVFl",
+      "source_title": "MVNATI EVFl",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a013_hrr2e013",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a013.hrr2e013.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a013_hrr2e013_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a013.hrr2e013.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a014.hrr2e014": {
+      "textgroup": "hrr2a014",
+      "work": "hrr2e014",
+      "title": "Τ. AMPIVS BALBVS",
+      "source_title": "Τ. AMPIVS BALBVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a014_hrr2e014",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a014.hrr2e014.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a014_hrr2e014_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a014.hrr2e014.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a015.hrr2e015": {
+      "textgroup": "hrr2a015",
+      "work": "hrr2e015",
+      "title": "Μ. ACTORIVS NASO",
+      "source_title": "Μ. ACTORIVS NASO",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a015_hrr2e015",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a015.hrr2e015.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a015_hrr2e015_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a015.hrr2e015.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a016.hrr2e016": {
+      "textgroup": "hrr2a016",
+      "work": "hrr2e016",
+      "title": "L. AVRVNCVLEIVS COTTA",
+      "source_title": "L. AVRVNCVLEIVS COTTA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a016_hrr2e016",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a016.hrr2e016.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a016_hrr2e016_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a016.hrr2e016.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a017.hrr2e017": {
+      "textgroup": "hrr2a017",
+      "work": "hrr2e017",
+      "title": "L. CORNELIVS BALBVS",
+      "source_title": "L. CORNELIVS BALBVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a017_hrr2e017",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a017.hrr2e017.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a017_hrr2e017_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a017.hrr2e017.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a018.hrr2e018": {
+      "textgroup": "hrr2a018",
+      "work": "hrr2e018",
+      "title": "C. OPPI",
+      "source_title": "C. OPPI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a018_hrr2e018",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a018.hrr2e018.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "4"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a018_hrr2e018_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a018.hrr2e018.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a019.hrr2e019": {
+      "textgroup": "hrr2a019",
+      "work": "hrr2e019",
+      "title": "TANVSI GEMINI",
+      "source_title": "TANVSI GEMINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a019_hrr2e019",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a019.hrr2e019.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a019_hrr2e019_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a019.hrr2e019.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a020.hrr2e020": {
+      "textgroup": "hrr2a020",
+      "work": "hrr2e020",
+      "title": "Μ. IVNIVS BRVTVS",
+      "source_title": "Μ. IVNIVS BRVTVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a020_hrr2e020",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a020.hrr2e020.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a020_hrr2e020_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a020.hrr2e020.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a021.hrr2e021": {
+      "textgroup": "hrr2a021",
+      "work": "hrr2e021",
+      "title": "L. CALPVRNI BIBVLI",
+      "source_title": "L. CALPVRNI BIBVLI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a021_hrr2e021",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a021.hrr2e021.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a021_hrr2e021_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a021.hrr2e021.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a022.hrr2e022": {
+      "textgroup": "hrr2a022",
+      "work": "hrr2e022",
+      "title": "P. VOLVMNI",
+      "source_title": "P. VOLVMNI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a022_hrr2e022",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a022.hrr2e022.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a022_hrr2e022_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a022.hrr2e022.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a023.hrr2e023": {
+      "textgroup": "hrr2a023",
+      "work": "hrr2e023",
+      "title": "Q. DELLI",
+      "source_title": "Q. DELLI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a023_hrr2e023",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a023.hrr2e023.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a023_hrr2e023_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a023.hrr2e023.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a024.hrr2e024": {
+      "textgroup": "hrr2a024",
+      "work": "hrr2e024",
+      "title": "IMPERATORIS AVGVSTI",
+      "source_title": "IMPERATORIS AVGVSTI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a024_hrr2e024",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a024.hrr2e024.part1.db",
+          "books": [],
+          "chapters": [
+            "8",
+            "10",
+            "11",
+            "13",
+            "21",
+            "45"
+          ],
+          "bytes": 151552
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a024_hrr2e024_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a024.hrr2e024.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a025.hrr2e025": {
+      "textgroup": "hrr2a025",
+      "work": "hrr2e025",
+      "title": "M. VIPSANI AGRIPPAE",
+      "source_title": "M. VIPSANI AGRIPPAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a025_hrr2e025",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a025.hrr2e025.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a025_hrr2e025_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a025.hrr2e025.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a026.hrr2e026": {
+      "textgroup": "hrr2a026",
+      "work": "hrr2e026",
+      "title": "Μ. VALERI MESSALLAE RVFI",
+      "source_title": "Μ. VALERI MESSALLAE RVFI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a026_hrr2e026",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a026.hrr2e026.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a026_hrr2e026_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a026.hrr2e026.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a027.hrr2e027": {
+      "textgroup": "hrr2a027",
+      "work": "hrr2e027",
+      "title": "Μ. VALERI MESSALLAE CORVINI",
+      "source_title": "Μ. VALERI MESSALLAE CORVINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a027_hrr2e027",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a027.hrr2e027.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a027_hrr2e027_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a027.hrr2e027.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a028.hrr2e028": {
+      "textgroup": "hrr2a028",
+      "work": "hrr2e028",
+      "title": "C. ASINI POLLIONIS",
+      "source_title": "C. ASINI POLLIONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a028_hrr2e028",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a028.hrr2e028.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "5"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a028_hrr2e028_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a028.hrr2e028.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a029.hrr2e029": {
+      "textgroup": "hrr2a029",
+      "work": "hrr2e029",
+      "title": "IVLIVS MARATHVS",
+      "source_title": "IVLIVS MARATHVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a029_hrr2e029",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a029.hrr2e029.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a029_hrr2e029_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a029.hrr2e029.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a030.hrr2e030": {
+      "textgroup": "hrr2a030",
+      "work": "hrr2e030",
+      "title": "C. DRVSVS",
+      "source_title": "C. DRVSVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a030_hrr2e030",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a030.hrr2e030.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a030_hrr2e030_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a030.hrr2e030.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a031.hrr2e031": {
+      "textgroup": "hrr2a031",
+      "work": "hrr2e031",
+      "title": "IVLIVS SATVRNINVS",
+      "source_title": "IVLIVS SATVRNINVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a031_hrr2e031",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a031.hrr2e031.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a031_hrr2e031_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a031.hrr2e031.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a032.hrr2e032": {
+      "textgroup": "hrr2a032",
+      "work": "hrr2e032",
+      "title": "AQVILIVS NIGER",
+      "source_title": "AQVILIVS NIGER",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a032_hrr2e032",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a032.hrr2e032.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a032_hrr2e032_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a032.hrr2e032.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a033.hrr2e033": {
+      "textgroup": "hrr2a033",
+      "work": "hrr2e033",
+      "title": "BAEBIVS MACER",
+      "source_title": "BAEBIVS MACER",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a033_hrr2e033",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a033.hrr2e033.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a033_hrr2e033_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a033.hrr2e033.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a034.hrr2e034": {
+      "textgroup": "hrr2a034",
+      "work": "hrr2e034",
+      "title": "C. IVLI HYGINI",
+      "source_title": "C. IVLI HYGINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a034_hrr2e034",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a034.hrr2e034.part1.db",
+          "books": [],
+          "chapters": [
+            "2",
+            "3",
+            "4",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17"
+          ],
+          "bytes": 131072
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a034_hrr2e034_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a034.hrr2e034.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a035.hrr2e035": {
+      "textgroup": "hrr2a035",
+      "work": "hrr2e035",
+      "title": "C. CLODI LICINI",
+      "source_title": "C. CLODI LICINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a035_hrr2e035",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a035.hrr2e035.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3",
+            "4"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a035_hrr2e035_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a035.hrr2e035.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a036.hrr2e036": {
+      "textgroup": "hrr2a036",
+      "work": "hrr2e036",
+      "title": "Μ. VERRI FLACCI",
+      "source_title": "Μ. VERRI FLACCI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a036_hrr2e036",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a036.hrr2e036.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a036_hrr2e036_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a036.hrr2e036.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a037.hrr2e037": {
+      "textgroup": "hrr2a037",
+      "work": "hrr2e037",
+      "title": "FENESTELLAE ANNALES",
+      "source_title": "FENESTELLAE ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a037_hrr2e037",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a037.hrr2e037.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "21",
+            "28",
+            "30"
+          ],
+          "bytes": 139264
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a037_hrr2e037_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a037.hrr2e037.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a038.hrr2e038": {
+      "textgroup": "hrr2a038",
+      "work": "hrr2e038",
+      "title": "A. CREMVTTI CORDI ANNALES",
+      "source_title": "A. CREMVTTI CORDI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a038_hrr2e038",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a038.hrr2e038.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a038_hrr2e038_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a038.hrr2e038.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a039.hrr2e039": {
+      "textgroup": "hrr2a039",
+      "work": "hrr2e039",
+      "title": "BRVTTEDII NIGRI HISTORIAE",
+      "source_title": "BRVTTEDII NIGRI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a039_hrr2e039",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a039.hrr2e039.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a039_hrr2e039_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a039.hrr2e039.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a040.hrr2e040": {
+      "textgroup": "hrr2a040",
+      "work": "hrr2e040",
+      "title": "CN. CORNELIYS LKNTVLVS GAETVLICVS",
+      "source_title": "CN. CORNELIYS LKNTVLVS GAETVLICVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a040_hrr2e040",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a040.hrr2e040.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a040_hrr2e040_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a040.hrr2e040.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a044.hrr2e044": {
+      "textgroup": "hrr2a044",
+      "work": "hrr2e044",
+      "title": "AGRIPPlNAE CLAVDII COMMENTAKII",
+      "source_title": "AGRIPPlNAE CLAVDII COMMENTAKII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a044_hrr2e044",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a044.hrr2e044.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a044_hrr2e044_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a044.hrr2e044.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a045.hrr2e045": {
+      "textgroup": "hrr2a045",
+      "work": "hrr2e045",
+      "title": "CORNELII BOCCHI HISTORIA",
+      "source_title": "CORNELII BOCCHI HISTORIA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a045_hrr2e045",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a045.hrr2e045.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a045_hrr2e045_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a045.hrr2e045.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a046.hrr2e046": {
+      "textgroup": "hrr2a046",
+      "work": "hrr2e046",
+      "title": "AVFIDII BASSI HISTORIAE",
+      "source_title": "AVFIDII BASSI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a046_hrr2e046",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a046.hrr2e046.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a046_hrr2e046_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a046.hrr2e046.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a047.hrr2e047": {
+      "textgroup": "hrr2a047",
+      "work": "hrr2e047",
+      "title": "Μ. SERVILII NONIANI ANNALES",
+      "source_title": "Μ. SERVILII NONIANI ANNALES",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a047_hrr2e047",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a047.hrr2e047.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a047_hrr2e047_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a047.hrr2e047.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a049.hrr2e049": {
+      "textgroup": "hrr2a049",
+      "work": "hrr2e049",
+      "title": "P. CLODII THRASEAE PAETI",
+      "source_title": "P. CLODII THRASEAE PAETI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a049_hrr2e049",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a049.hrr2e049.part1.db",
+          "books": [],
+          "chapters": [
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a049_hrr2e049_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a049.hrr2e049.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a050.hrr2e050": {
+      "textgroup": "hrr2a050",
+      "work": "hrr2e050",
+      "title": "CN. DOMITII CORBVLONIS COMMENTARII",
+      "source_title": "CN. DOMITII CORBVLONIS COMMENTARII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a050_hrr2e050",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a050.hrr2e050.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a050_hrr2e050_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a050.hrr2e050.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a051.hrr2e051": {
+      "textgroup": "hrr2a051",
+      "work": "hrr2e051",
+      "title": "C. SVETONII PAVLINI COMMENTARII",
+      "source_title": "C. SVETONII PAVLINI COMMENTARII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a051_hrr2e051",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a051.hrr2e051.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a051_hrr2e051_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a051.hrr2e051.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a052.hrr2e052": {
+      "textgroup": "hrr2a052",
+      "work": "hrr2e052",
+      "title": "C. LIGIMVS MVCIANVS",
+      "source_title": "C. LIGIMVS MVCIANVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a052_hrr2e052",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a052.hrr2e052.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29"
+          ],
+          "bytes": 147456
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a052_hrr2e052_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a052.hrr2e052.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a053.hrr2e053": {
+      "textgroup": "hrr2a053",
+      "work": "hrr2e053",
+      "title": "TI. CLAVDIVS BALBILLVS",
+      "source_title": "TI. CLAVDIVS BALBILLVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a053_hrr2e053",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a053.hrr2e053.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a053_hrr2e053_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a053.hrr2e053.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a054.hrr2e054": {
+      "textgroup": "hrr2a054",
+      "work": "hrr2e054",
+      "title": "T. FLAVII VESPASIANI COMMENTARII",
+      "source_title": "T. FLAVII VESPASIANI COMMENTARII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a054_hrr2e054",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a054.hrr2e054.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a054_hrr2e054_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a054.hrr2e054.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a055.hrr2e055": {
+      "textgroup": "hrr2a055",
+      "work": "hrr2e055",
+      "title": "Μ. ANTONII IVLIANI DE IVDAEIS",
+      "source_title": "Μ. ANTONII IVLIANI DE IVDAEIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a055_hrr2e055",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a055.hrr2e055.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a055_hrr2e055_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a055.hrr2e055.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a056.hrr2e056": {
+      "textgroup": "hrr2a056",
+      "work": "hrr2e056",
+      "title": "Q. ASCONII PEDIANI",
+      "source_title": "Q. ASCONII PEDIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a056_hrr2e056",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a056.hrr2e056.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a056_hrr2e056_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a056.hrr2e056.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a057.hrr2e057": {
+      "textgroup": "hrr2a057",
+      "work": "hrr2e057",
+      "title": "C. PLINII SECVNDI",
+      "source_title": "C. PLINII SECVNDI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a057_hrr2e057",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a057.hrr2e057.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "4",
+            "7",
+            "8"
+          ],
+          "bytes": 122880
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a057_hrr2e057_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a057.hrr2e057.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a058.hrr2e058": {
+      "textgroup": "hrr2a058",
+      "work": "hrr2e058",
+      "title": "FABII RVSTICI HISTORIAE",
+      "source_title": "FABII RVSTICI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a058_hrr2e058",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a058.hrr2e058.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a058_hrr2e058_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a058.hrr2e058.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a059.hrr2e059": {
+      "textgroup": "hrr2a059",
+      "work": "hrr2e059",
+      "title": "Μ. CLVVII RVFI HISTORIAE",
+      "source_title": "Μ. CLVVII RVFI HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a059_hrr2e059",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a059.hrr2e059.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a059_hrr2e059_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a059.hrr2e059.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a060.hrr2e060": {
+      "textgroup": "hrr2a060",
+      "work": "hrr2e060",
+      "title": "VIPSTANI MESSALLAE HISTORIAE",
+      "source_title": "VIPSTANI MESSALLAE HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a060_hrr2e060",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a060.hrr2e060.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a060_hrr2e060_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a060.hrr2e060.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a061.hrr2e061": {
+      "textgroup": "hrr2a061",
+      "work": "hrr2e061",
+      "title": "IVNII ARVLENI RVSTICI LAVDES THRASEAE PAETI",
+      "source_title": "IVNII ARVLENI RVSTICI LAVDES THRASEAE PAETI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a061_hrr2e061",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a061.hrr2e061.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a061_hrr2e061_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a061.hrr2e061.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a062.hrr2e062": {
+      "textgroup": "hrr2a062",
+      "work": "hrr2e062",
+      "title": "POMPEI PLANTAE HISTORIAE",
+      "source_title": "POMPEI PLANTAE HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a062_hrr2e062",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a062.hrr2e062.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a062_hrr2e062_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a062.hrr2e062.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a063.hrr2e063": {
+      "textgroup": "hrr2a063",
+      "work": "hrr2e063",
+      "title": "M. VLPII TRAIANI DACICA",
+      "source_title": "M. VLPII TRAIANI DACICA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a063_hrr2e063",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a063.hrr2e063.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a063_hrr2e063_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a063.hrr2e063.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a064.hrr2e064": {
+      "textgroup": "hrr2a064",
+      "work": "hrr2e064",
+      "title": "IMPERATOEIS P. AELII HADRIANI",
+      "source_title": "IMPERATOEIS P. AELII HADRIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a064_hrr2e064",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a064.hrr2e064.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "4"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a064_hrr2e064_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a064.hrr2e064.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a065.hrr2e065": {
+      "textgroup": "hrr2a065",
+      "work": "hrr2e065",
+      "title": "IMPERATORIS L. SEPTIMII SEVERl",
+      "source_title": "IMPERATORIS L. SEPTIMII SEVERl",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a065_hrr2e065",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a065.hrr2e065.part1.db",
+          "books": [],
+          "chapters": [
+            "2"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a065_hrr2e065_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a065.hrr2e065.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a066.hrr2e066": {
+      "textgroup": "hrr2a066",
+      "work": "hrr2e066",
+      "title": "AELIVS MAYRVS",
+      "source_title": "AELIVS MAYRVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a066_hrr2e066",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a066.hrr2e066.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a066_hrr2e066_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a066.hrr2e066.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a067.hrr2e067": {
+      "textgroup": "hrr2a067",
+      "work": "hrr2e067",
+      "title": "MARII MAXIMI DE VITA IMPEEATORVM",
+      "source_title": "MARII MAXIMI DE VITA IMPEEATORVM",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a067_hrr2e067",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a067.hrr2e067.part1.db",
+          "books": [],
+          "chapters": [
+            "8",
+            "11",
+            "12",
+            "18",
+            "19",
+            "20"
+          ],
+          "bytes": 135168
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a067_hrr2e067_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a067.hrr2e067.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a068.hrr2e068": {
+      "textgroup": "hrr2a068",
+      "work": "hrr2e068",
+      "title": "ENCOLPII VITA ALEXANDRI SEVERI",
+      "source_title": "ENCOLPII VITA ALEXANDRI SEVERI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a068_hrr2e068",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a068.hrr2e068.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a068_hrr2e068_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a068.hrr2e068.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a069.hrr2e069": {
+      "textgroup": "hrr2a069",
+      "work": "hrr2e069",
+      "title": "SEPTIMII VITA ALEXANDEI SEVERI",
+      "source_title": "SEPTIMII VITA ALEXANDEI SEVERI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a069_hrr2e069",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a069.hrr2e069.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a069_hrr2e069_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a069.hrr2e069.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a070.hrr2e070": {
+      "textgroup": "hrr2a070",
+      "work": "hrr2e070",
+      "title": "GARGILII MARTIALIS VITA ALEXANDRI SEVERI",
+      "source_title": "GARGILII MARTIALIS VITA ALEXANDRI SEVERI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a070_hrr2e070",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a070.hrr2e070.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a070_hrr2e070_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a070.hrr2e070.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a071.hrr2e071": {
+      "textgroup": "hrr2a071",
+      "work": "hrr2e071",
+      "title": "AELIVS SABINVS",
+      "source_title": "AELIVS SABINVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a071_hrr2e071",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a071.hrr2e071.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a071_hrr2e071_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a071.hrr2e071.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a072.hrr2e072": {
+      "textgroup": "hrr2a072",
+      "work": "hrr2e072",
+      "title": "VVLCATII TEEENTIANI",
+      "source_title": "VVLCATII TEEENTIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a072_hrr2e072",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a072.hrr2e072.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a072_hrr2e072_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a072.hrr2e072.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a073.hrr2e073": {
+      "textgroup": "hrr2a073",
+      "work": "hrr2e073",
+      "title": "LOLLII VRBICI",
+      "source_title": "LOLLII VRBICI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a073_hrr2e073",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a073.hrr2e073.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a073_hrr2e073_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a073.hrr2e073.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a074.hrr2e074": {
+      "textgroup": "hrr2a074",
+      "work": "hrr2e074",
+      "title": "AELII IVNII COEDI VITAE",
+      "source_title": "AELII IVNII COEDI VITAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a074_hrr2e074",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a074.hrr2e074.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "bytes": 155648
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a074_hrr2e074_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a074.hrr2e074.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a075.hrr2e075": {
+      "textgroup": "hrr2a075",
+      "work": "hrr2e075",
+      "title": "AEMILII PARTHENIANI",
+      "source_title": "AEMILII PARTHENIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a075_hrr2e075",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a075.hrr2e075.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a075_hrr2e075_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a075.hrr2e075.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a076.hrr2e076": {
+      "textgroup": "hrr2a076",
+      "work": "hrr2e076",
+      "title": "ACHOLII VITA ALEXANDRI SEVERI",
+      "source_title": "ACHOLII VITA ALEXANDRI SEVERI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a076_hrr2e076",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a076.hrr2e076.part1.db",
+          "books": [],
+          "chapters": [
+            "4"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a076_hrr2e076_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a076.hrr2e076.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a078.hrr2e078": {
+      "textgroup": "hrr2a078",
+      "work": "hrr2e078",
+      "title": "VITAE AVCTORVM A TREBELLIO ET A VOPISCO NOMINATORVM CAELESTINI",
+      "source_title": "VITAE AVCTORVM A TREBELLIO ET A VOPISCO NOMINATORVM CAELESTINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a078_hrr2e078",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a078.hrr2e078.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a078_hrr2e078_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a078.hrr2e078.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a079.hrr2e079": {
+      "textgroup": "hrr2a079",
+      "work": "hrr2e079",
+      "title": "IVLII ATHERIANI",
+      "source_title": "IVLII ATHERIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a079_hrr2e079",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a079.hrr2e079.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a079_hrr2e079_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a079.hrr2e079.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a080.hrr2e080": {
+      "textgroup": "hrr2a080",
+      "work": "hrr2e080",
+      "title": "MAEONII ASTYANACTIS",
+      "source_title": "MAEONII ASTYANACTIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a080_hrr2e080",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a080.hrr2e080.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a080_hrr2e080_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a080.hrr2e080.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a081.hrr2e081": {
+      "textgroup": "hrr2a081",
+      "work": "hrr2e081",
+      "title": "CORNELl] CAPITOLINI",
+      "source_title": "CORNELl] CAPITOLINI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a081_hrr2e081",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a081.hrr2e081.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a081_hrr2e081_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a081.hrr2e081.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a082.hrr2e082": {
+      "textgroup": "hrr2a082",
+      "work": "hrr2e082",
+      "title": "DAOELLII FVSCI",
+      "source_title": "DAOELLII FVSCI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a082_hrr2e082",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a082.hrr2e082.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a082_hrr2e082_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a082.hrr2e082.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a083.hrr2e083": {
+      "textgroup": "hrr2a083",
+      "work": "hrr2e083",
+      "title": "GALLI ANTIPATRI",
+      "source_title": "GALLI ANTIPATRI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a083_hrr2e083",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a083.hrr2e083.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a083_hrr2e083_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a083.hrr2e083.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a084.hrr2e084": {
+      "textgroup": "hrr2a084",
+      "work": "hrr2e084",
+      "title": "CALLICRATIS TYRII",
+      "source_title": "CALLICRATIS TYRII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a084_hrr2e084",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a084.hrr2e084.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a084_hrr2e084_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a084.hrr2e084.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a085.hrr2e085": {
+      "textgroup": "hrr2a085",
+      "work": "hrr2e085",
+      "title": "THEOCLII",
+      "source_title": "THEOCLII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a085_hrr2e085",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a085.hrr2e085.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a085_hrr2e085_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a085.hrr2e085.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a086.hrr2e086": {
+      "textgroup": "hrr2a086",
+      "work": "hrr2e086",
+      "title": "NICOMACHI",
+      "source_title": "NICOMACHI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a086_hrr2e086",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a086.hrr2e086.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a086_hrr2e086_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a086.hrr2e086.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a087.hrr2e087": {
+      "textgroup": "hrr2a087",
+      "work": "hrr2e087",
+      "title": "ASCLEPIODOTI",
+      "source_title": "ASCLEPIODOTI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a087_hrr2e087",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a087.hrr2e087.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a087_hrr2e087_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a087.hrr2e087.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a088.hrr2e088": {
+      "textgroup": "hrr2a088",
+      "work": "hrr2e088",
+      "title": "AVEELII FESTIVI",
+      "source_title": "AVEELII FESTIVI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a088_hrr2e088",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a088.hrr2e088.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a088_hrr2e088_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a088.hrr2e088.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a089.hrr2e089": {
+      "textgroup": "hrr2a089",
+      "work": "hrr2e089",
+      "title": "Μ. SALVIDIENI",
+      "source_title": "Μ. SALVIDIENI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a089_hrr2e089",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a089.hrr2e089.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a089_hrr2e089_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a089.hrr2e089.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a091.hrr2e091": {
+      "textgroup": "hrr2a091",
+      "work": "hrr2e091",
+      "title": "ONESIMI VITA PROBI",
+      "source_title": "ONESIMI VITA PROBI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a091_hrr2e091",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a091.hrr2e091.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a091_hrr2e091_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a091.hrr2e091.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a092.hrr2e092": {
+      "textgroup": "hrr2a092",
+      "work": "hrr2e092",
+      "title": "TVRDVLI CtALLICANI EPHEMERIS",
+      "source_title": "TVRDVLI CtALLICANI EPHEMERIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a092_hrr2e092",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a092.hrr2e092.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a092_hrr2e092_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a092.hrr2e092.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a093.hrr2e093": {
+      "textgroup": "hrr2a093",
+      "work": "hrr2e093",
+      "title": "IMPERATORIS CONSTANTINI COMMENTARII",
+      "source_title": "IMPERATORIS CONSTANTINI COMMENTARII",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a093_hrr2e093",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a093.hrr2e093.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a093_hrr2e093_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a093.hrr2e093.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a094.hrr2e094": {
+      "textgroup": "hrr2a094",
+      "work": "hrr2e094",
+      "title": "Q. AVRELII MEMMIJ SYMMAOHI HISTORIA",
+      "source_title": "Q. AVRELII MEMMIJ SYMMAOHI HISTORIA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a094_hrr2e094",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a094.hrr2e094.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 114688
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a094_hrr2e094_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a094.hrr2e094.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a095.hrr2e095": {
+      "textgroup": "hrr2a095",
+      "work": "hrr2e095",
+      "title": "SCRIPTOEES AETATIS OMNINO INCERTAE FABIVS VESTALIS",
+      "source_title": "SCRIPTOEES AETATIS OMNINO INCERTAE FABIVS VESTALIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a095_hrr2e095",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a095.hrr2e095.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a095_hrr2e095_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a095.hrr2e095.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a096.hrr2e096": {
+      "textgroup": "hrr2a096",
+      "work": "hrr2e096",
+      "title": "DECVLO",
+      "source_title": "DECVLO",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a096_hrr2e096",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a096.hrr2e096.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a096_hrr2e096_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a096.hrr2e096.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a097.hrr2e097": {
+      "textgroup": "hrr2a097",
+      "work": "hrr2e097",
+      "title": "CORNELIVS VALERIANVS",
+      "source_title": "CORNELIVS VALERIANVS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a097_hrr2e097",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a097.hrr2e097.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a097_hrr2e097_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a097.hrr2e097.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a098.hrr2e098": {
+      "textgroup": "hrr2a098",
+      "work": "hrr2e098",
+      "title": "PESCENNII FESTI",
+      "source_title": "PESCENNII FESTI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a098_hrr2e098",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a098.hrr2e098.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a098_hrr2e098_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a098.hrr2e098.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a099.hrr2e099": {
+      "textgroup": "hrr2a099",
+      "work": "hrr2e099",
+      "title": "BRVTTII HISTORIAE",
+      "source_title": "BRVTTII HISTORIAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a099_hrr2e099",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a099.hrr2e099.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a099_hrr2e099_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a099.hrr2e099.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a100.hrr2e100": {
+      "textgroup": "hrr2a100",
+      "work": "hrr2e100",
+      "title": "KVBELLII BLANDI",
+      "source_title": "KVBELLII BLANDI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a100_hrr2e100",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a100.hrr2e100.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a100_hrr2e100_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a100.hrr2e100.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a101.hrr2e101": {
+      "textgroup": "hrr2a101",
+      "work": "hrr2e101",
+      "title": "AEMILII SVRAE",
+      "source_title": "AEMILII SVRAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a101_hrr2e101",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a101.hrr2e101.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a101_hrr2e101_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a101.hrr2e101.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrr2a102.hrr2e102": {
+      "textgroup": "hrr2a102",
+      "work": "hrr2e102",
+      "title": "VALENTIS",
+      "source_title": "VALENTIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrr2a102_hrr2e102",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrr2a102.hrr2e102.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrr2a102_hrr2e102_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrr2a102.hrr2e102.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrclaudius.hrr2e042": {
+      "textgroup": "hrrclaudius",
+      "work": "hrr2e042",
+      "title": "IMPERATORIS TIBERII CLAVDII NERONIS",
+      "source_title": "IMPERATORIS TIBERII CLAVDII NERONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrclaudius_hrr2e042",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrclaudius.hrr2e042.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrclaudius_hrr2e042_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrrclaudius.hrr2e042.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrclaudius.hrr2e043": {
+      "textgroup": "hrrclaudius",
+      "work": "hrr2e043",
+      "title": "IMPERATORIS TIBERII CLAVDII HISTORIA",
+      "source_title": "IMPERATORIS TIBERII CLAVDII HISTORIA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrclaudius_hrr2e043",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrclaudius.hrr2e043.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrclaudius_hrr2e043_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrrclaudius.hrr2e043.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrsenecaelder.hrr2e041": {
+      "textgroup": "hrrsenecaelder",
+      "work": "hrr2e041",
+      "title": "L. ANNAEI SENECAE",
+      "source_title": "L. ANNAEI SENECAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrsenecaelder_hrr2e041",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrsenecaelder.hrr2e041.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrsenecaelder_hrr2e041_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrrsenecaelder.hrr2e041.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "hrrsenecaelder.hrr2e048": {
+      "textgroup": "hrrsenecaelder",
+      "work": "hrr2e048",
+      "title": "L. ANNAEI SENECAE",
+      "source_title": "L. ANNAEI SENECAE",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:hrrsenecaelder_hrr2e048",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "hrrsenecaelder.hrr2e048.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "hrrsenecaelder_hrr2e048_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:hrrsenecaelder.hrr2e048.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg1920.hrr2e011": {
+      "textgroup": "tlg1920",
+      "work": "hrr2e011",
+      "title": "C. SVLPICI GALBAE HISTORIA",
+      "source_title": "C. SVLPICI GALBAE HISTORIA",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg1920_hrr2e011",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1920.hrr2e011.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg1920_hrr2e011_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg1920.hrr2e011.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg1968.hrr2e090": {
+      "textgroup": "tlg1968",
+      "work": "hrr2e090",
+      "title": "FABII CERYLLIANI",
+      "source_title": "FABII CERYLLIANI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg1968_hrr2e090",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1968.hrr2e090.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg1968_hrr2e090_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg1968.hrr2e090.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg1982.hrr2e005": {
+      "textgroup": "tlg1982",
+      "work": "hrr2e005",
+      "title": "Τ. POMPONI ATTICI",
+      "source_title": "Τ. POMPONI ATTICI",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg1982_hrr2e005",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg1982.hrr2e005.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "3"
+          ],
+          "bytes": 118784
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg1982_hrr2e005_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg1982.hrr2e005.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2122.hrr2e077": {
+      "textgroup": "tlg2122",
+      "work": "hrr2e077",
+      "title": "ΑΣΙΝΙΟΥ ΚΟΥΑΔΡΑΤΟΥ",
+      "source_title": "ΑΣΙΝΙΟΥ ΚΟΥΑΔΡΑΤΟΥ",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2122_hrr2e077",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2122.hrr2e077.part1.db",
+          "books": [],
+          "chapters": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+          ],
+          "bytes": 151552
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2122_hrr2e077_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg2122.hrr2e077.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2165.hrr2e001": {
+      "textgroup": "tlg2165",
+      "work": "hrr2e001",
+      "title": "Μ. TVLLI CICERONIS",
+      "source_title": "Μ. TVLLI CICERONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2165_hrr2e001",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2165.hrr2e001.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2165_hrr2e001_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg2165.hrr2e001.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2165.hrr2e002": {
+      "textgroup": "tlg2165",
+      "work": "hrr2e002",
+      "title": "Μ. TVLLI CICERONIS",
+      "source_title": "Μ. TVLLI CICERONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2165_hrr2e002",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2165.hrr2e002.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2165_hrr2e002_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg2165.hrr2e002.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
+    },
+    "tlg2165.hrr2e003": {
+      "textgroup": "tlg2165",
+      "work": "hrr2e003",
+      "title": "Μ. TVLLI CICERONIS",
+      "source_title": "Μ. TVLLI CICERONIS",
+      "experimental_fragment": true,
+      "fragmentary": true,
+      "evidence_only": false,
+      "status": "Fragmentary text",
+      "object_urn": "urn:cite2:perseus:fragmentarycollections.v1:tlg2165_hrr2e003",
+      "default_columns": 1,
+      "unit_labels": {
+        "chapter": "Fragment",
+        "section": "Section"
+      },
+      "parts": [
+        {
+          "part": 1,
+          "file": "tlg2165.hrr2e003.part1.db",
+          "books": [],
+          "chapters": [
+            "1"
+          ],
+          "bytes": 110592
+        }
+      ],
+      "versions": [
+        {
+          "canonical_id": "tlg2165_hrr2e003_peter1906",
+          "short_id": "peter1906-grc1",
+          "urn": "urn:cts:greekLit:tlg2165.hrr2e003.peter1906-grc1",
+          "label": "Greek and Latin with source context (Peter, volume 2, 1906; scan-first draft)",
+          "doc_type": "edition",
+          "text_class": "greek-text"
+        }
+      ],
+      "annotations": {}
     }
   },
   "authors": {
@@ -132382,6 +138501,138 @@
     "tlg2397": "Boethus of Sidon",
     "tlg2398": "Basilides the Stoic",
     "tlg2399": "Eudromus",
-    "tlg1293": "Crinis"
+    "tlg1293": "Crinis",
+    "hrr1a001": "ANNALES MAXIMI",
+    "tlg2542": "Quintus Fabius Pictor",
+    "tlg2543": "Lucius Cincius Alimentus",
+    "tlg2163": "Publius Cornelius Scipio Africanus Major",
+    "tlg2164": "Publius Cornelius Scipio Nasica Corculum",
+    "tlg2545": "Gaius Acilius",
+    "tlg2544": "Aulus Postumius Albinus",
+    "hrr1a009": "M. PORCII CATONIS ORIGINES EX LIBRO I",
+    "hrr1a010": "C. CASSII HEMINAE ANNALES EX LIBRO I",
+    "hrr1a013": "Q. FABII MAXIMI SERVILIANI ANNALES",
+    "hrr1a014": "C. SEMPEONII GRACCHI AD M. POMPONIVM LIBER",
+    "hrr1a015": "L. CALPVENII PISONIS CENSORII FRVGI ANNALES",
+    "hrr1a016": "C. FANNII ANNALES",
+    "hrr1a017": "VENNONII ANNALES",
+    "hrrtuditanus": "Gaius Sempronius Tuditanus",
+    "hrr1a020": "CN. GELLII ANNALES",
+    "hrr1a021": "L. COELII ANTIPATRI BELLI PVNICI ALTERIVS HISTORIAE AD L. AELIVM",
+    "hrr1a022": "<PAVLVS> CLODIVS",
+    "hrr1a023": "SEMPRONII ASELLIONIS RERVM GESTARYM LIBRI",
+    "hrrscaurus": "Marcus Aemilius Scaurus",
+    "tlg2546": "Publius Rutilius Rufus",
+    "hrr1a029": "Q. LVTATII CATVLI",
+    "hrr1a030": "L. CORNELII SVLLAE COMMENTARII RERVM GESTARVM",
+    "hrr1a031": "Ω. CLAVDII QVADRIGARII ANNALES",
+    "hrr1a032": "VALEEII ANTIATIS ANNALES",
+    "hrr1a033": "L. CORNELII SISENNAE HISTORIAE",
+    "hrr1a034": "C. LICINII MACRI ANNALES",
+    "hrr1a035": "Q. AELH TVBERONIS HISTOKIAE",
+    "hrr1a036": "PROCILII LIBRI",
+    "hrr1a037": "L. SCKIBONII LIBONIS ANNALIS",
+    "hrr1a038": "INCERTAE AETATIS SCRIPTORES",
+    "hrr1a039": "ALFII BELLI CARTHAGINIENSIS LIBRI",
+    "hrr1a040": "GAI PISONIS HISTORIAE",
+    "hrr1a041": "ANNII FETIALIS LIBER",
+    "tlg2165": "Marcus Tullius Cicero",
+    "hrr2a004": "Μ. TVLLI TIRONIS",
+    "tlg1982": "Titus Pomponius Atticus",
+    "hrr2a006": "SAVFEIVS",
+    "hrr2a007": "ANNALES",
+    "hrr2a008": "Μ. TERENTI VAERONIS",
+    "hrr2a009": "CORNELI NEPOTIS",
+    "hrr2a010": "C. ATEI PHILOLOGI",
+    "tlg1920": "Gaius Sulpicius Galba",
+    "hrr2a012": "L. ARRVNTI HISTORIAE BELLI PVNICI",
+    "hrr2a013": "MVNATI EVFl",
+    "hrr2a014": "Τ. AMPIVS BALBVS",
+    "hrr2a015": "Μ. ACTORIVS NASO",
+    "hrr2a016": "L. AVRVNCVLEIVS COTTA",
+    "hrr2a017": "L. CORNELIVS BALBVS",
+    "hrr2a018": "C. OPPI",
+    "hrr2a019": "TANVSI GEMINI",
+    "hrr2a020": "Μ. IVNIVS BRVTVS",
+    "hrr2a021": "L. CALPVRNI BIBVLI",
+    "hrr2a022": "P. VOLVMNI",
+    "hrr2a023": "Q. DELLI",
+    "hrr2a024": "IMPERATORIS AVGVSTI",
+    "hrr2a025": "M. VIPSANI AGRIPPAE",
+    "hrr2a026": "Μ. VALERI MESSALLAE RVFI",
+    "hrr2a027": "Μ. VALERI MESSALLAE CORVINI",
+    "hrr2a028": "C. ASINI POLLIONIS",
+    "hrr2a029": "IVLIVS MARATHVS",
+    "hrr2a030": "C. DRVSVS",
+    "hrr2a031": "IVLIVS SATVRNINVS",
+    "hrr2a032": "AQVILIVS NIGER",
+    "hrr2a033": "BAEBIVS MACER",
+    "hrr2a034": "C. IVLI HYGINI",
+    "hrr2a035": "C. CLODI LICINI",
+    "hrr2a036": "Μ. VERRI FLACCI",
+    "hrr2a037": "FENESTELLAE ANNALES",
+    "hrr2a038": "A. CREMVTTI CORDI ANNALES",
+    "hrr2a039": "BRVTTEDII NIGRI HISTORIAE",
+    "hrr2a040": "CN. CORNELIYS LKNTVLVS GAETVLICVS",
+    "hrrsenecaelder": "Lucius Annaeus Seneca the Elder",
+    "hrrclaudius": "Emperor Claudius",
+    "hrr2a044": "AGRIPPlNAE CLAVDII COMMENTAKII",
+    "hrr2a045": "CORNELII BOCCHI HISTORIA",
+    "hrr2a046": "AVFIDII BASSI HISTORIAE",
+    "hrr2a047": "Μ. SERVILII NONIANI ANNALES",
+    "hrr2a049": "P. CLODII THRASEAE PAETI",
+    "hrr2a050": "CN. DOMITII CORBVLONIS COMMENTARII",
+    "hrr2a051": "C. SVETONII PAVLINI COMMENTARII",
+    "hrr2a052": "C. LIGIMVS MVCIANVS",
+    "hrr2a053": "TI. CLAVDIVS BALBILLVS",
+    "hrr2a054": "T. FLAVII VESPASIANI COMMENTARII",
+    "hrr2a055": "Μ. ANTONII IVLIANI DE IVDAEIS",
+    "hrr2a056": "Q. ASCONII PEDIANI",
+    "hrr2a057": "C. PLINII SECVNDI",
+    "hrr2a058": "FABII RVSTICI HISTORIAE",
+    "hrr2a059": "Μ. CLVVII RVFI HISTORIAE",
+    "hrr2a060": "VIPSTANI MESSALLAE HISTORIAE",
+    "hrr2a061": "IVNII ARVLENI RVSTICI LAVDES THRASEAE PAETI",
+    "hrr2a062": "POMPEI PLANTAE HISTORIAE",
+    "hrr2a063": "M. VLPII TRAIANI DACICA",
+    "hrr2a064": "IMPERATOEIS P. AELII HADRIANI",
+    "hrr2a065": "IMPERATORIS L. SEPTIMII SEVERl",
+    "hrr2a066": "AELIVS MAYRVS",
+    "hrr2a067": "MARII MAXIMI DE VITA IMPEEATORVM",
+    "hrr2a068": "ENCOLPII VITA ALEXANDRI SEVERI",
+    "hrr2a069": "SEPTIMII VITA ALEXANDEI SEVERI",
+    "hrr2a070": "GARGILII MARTIALIS VITA ALEXANDRI SEVERI",
+    "hrr2a071": "AELIVS SABINVS",
+    "hrr2a072": "VVLCATII TEEENTIANI",
+    "hrr2a073": "LOLLII VRBICI",
+    "hrr2a074": "AELII IVNII COEDI VITAE",
+    "hrr2a075": "AEMILII PARTHENIANI",
+    "hrr2a076": "ACHOLII VITA ALEXANDRI SEVERI",
+    "tlg2122": "Gaius Asinius Quadratus",
+    "hrr2a078": "VITAE AVCTORVM A TREBELLIO ET A VOPISCO NOMINATORVM CAELESTINI",
+    "hrr2a079": "IVLII ATHERIANI",
+    "hrr2a080": "MAEONII ASTYANACTIS",
+    "hrr2a081": "CORNELl] CAPITOLINI",
+    "hrr2a082": "DAOELLII FVSCI",
+    "hrr2a083": "GALLI ANTIPATRI",
+    "hrr2a084": "CALLICRATIS TYRII",
+    "hrr2a085": "THEOCLII",
+    "hrr2a086": "NICOMACHI",
+    "hrr2a087": "ASCLEPIODOTI",
+    "hrr2a088": "AVEELII FESTIVI",
+    "hrr2a089": "Μ. SALVIDIENI",
+    "tlg1968": "Fabius Ceryllianus",
+    "hrr2a091": "ONESIMI VITA PROBI",
+    "hrr2a092": "TVRDVLI CtALLICANI EPHEMERIS",
+    "hrr2a093": "IMPERATORIS CONSTANTINI COMMENTARII",
+    "hrr2a094": "Q. AVRELII MEMMIJ SYMMAOHI HISTORIA",
+    "hrr2a095": "SCRIPTOEES AETATIS OMNINO INCERTAE FABIVS VESTALIS",
+    "hrr2a096": "DECVLO",
+    "hrr2a097": "CORNELIVS VALERIANVS",
+    "hrr2a098": "PESCENNII FESTI",
+    "hrr2a099": "BRVTTII HISTORIAE",
+    "hrr2a100": "KVBELLII BLANDI",
+    "hrr2a101": "AEMILII SVRAE",
+    "hrr2a102": "VALENTIS"
   }
 }
