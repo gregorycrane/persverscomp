@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "counting_note": "Surviving-play counts use the visible text of the first available edition so incomplete or parallel treebanks cannot distort the totals. Other complete-work counts prefer source-edition treebank tokens with punctuation excluded. Fragment counts include quoted authorial text only; transmitting sources, notes, and punctuation-only tokens are excluded. Author totals add surviving-play words to the largest fragmentary edition; alternative fragment editions are listed separately and are not added together.",
+  "schema_version": 3,
+  "counting_note": "Surviving-play counts use the visible text of the first available edition so incomplete or parallel treebanks cannot distort the totals. Other complete-work counts prefer source-edition treebank tokens with punctuation excluded. Fragment counts include quoted authorial text only; transmitting sources, notes, and punctuation-only tokens are excluded. Author totals add surviving-play words to the largest fragmentary edition; alternative fragment editions are listed separately and are not added together. Substantial fragmentary dramatic texts such as Ichneutae are identified and added separately, without being described as wholly surviving plays or duplicated in a fragment collection.",
   "authors": {
     "tlg0006": {
       "author": "Euripides",
@@ -74,9 +74,17 @@
       ],
       "surviving_play_count": 7,
       "surviving_word_count": 59800,
+      "additional_works": [
+        {
+          "work": "tlg0011.tlg008",
+          "title": "Ichneutae",
+          "word_count": 1914
+        }
+      ],
+      "additional_work_word_count": 1914,
       "counted_fragment_word_count": 8513,
       "counted_fragment_edition": "Pearson",
-      "total_word_count": 68313
+      "total_word_count": 70227
     },
     "tlg0019": {
       "author": "Aristophanes",
