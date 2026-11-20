@@ -11032,10 +11032,10 @@
     "boeckh.reden": {
       "record_type": "complete_work",
       "surviving_play": false,
-      "word_count": 155813,
+      "word_count": 156433,
       "counted_version": "leipzig1859-deu1",
       "counted_edition": "F. Ascherson",
-      "count_method": "visible text"
+      "count_method": "treebank tokens excluding punctuation"
     },
     "tlg0006.aigeys": {
       "record_type": "fragmentary_play",
