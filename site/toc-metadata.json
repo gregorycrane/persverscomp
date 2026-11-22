@@ -1185,8 +1185,8 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "fragment_count": 6,
-          "word_count": 391,
+          "fragment_count": 0,
+          "word_count": 0,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -1206,9 +1206,9 @@
         }
       ],
       "surviving_word_count": 0,
-      "counted_fragment_word_count": 391,
-      "counted_fragment_edition": "Meineke, vol. 4",
-      "total_word_count": 391
+      "counted_fragment_word_count": 282,
+      "counted_fragment_edition": "Kock, vol. 3",
+      "total_word_count": 282
     },
     "tlg0604": {
       "author": "Ptolemy Philopator",
@@ -98330,12 +98330,9 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [
-            "1",
-            "2"
-          ],
-          "fragment_count": 2,
-          "word_count": 21,
+          "numbers": [],
+          "fragment_count": 0,
+          "word_count": 0,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -98367,12 +98364,9 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [
-            "1",
-            "1_2"
-          ],
-          "fragment_count": 2,
-          "word_count": 349,
+          "numbers": [],
+          "fragment_count": 0,
+          "word_count": 0,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,
@@ -98404,12 +98398,9 @@
         {
           "short_id": "meineke1841-grc1",
           "edition": "Meineke",
-          "numbers": [
-            "2",
-            "unnumbered"
-          ],
-          "fragment_count": 2,
-          "word_count": 21,
+          "numbers": [],
+          "fragment_count": 0,
+          "word_count": 0,
           "collection_year": 1841,
           "collection_order": 2,
           "source_edition_year": 1841,

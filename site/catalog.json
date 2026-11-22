@@ -935,8 +935,8 @@
       "656-662",
       "663-709"
      ],
-     "bytes": 3907584,
-     "sha256": "130e75b5e05fc6b45ab1f9786ed8760ab3c71d00468b8add3fce40f7f352936f"
+     "bytes": 4063232,
+     "sha256": "fd8f83b729c44a6d6eba87c02c4c2e92de12a259e0dabaad0db3efe454ae1134"
     }
    ],
    "annotations": {
@@ -988,6 +988,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg001.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -1073,7 +1084,7 @@
       "1159-1163"
      ],
      "bytes": 6868992,
-     "sha256": "672fa3fc43725c40f402a02cbf947e0956ef939586c7cb6ca3104f957548d7b3"
+     "sha256": "680606492796b31feb7a15f148dbb86597d96d6dd118c7b260a3e259feffba43"
     }
    ],
    "annotations": {
@@ -1223,8 +1234,8 @@
       "1361-1388",
       "1389-1419"
      ],
-     "bytes": 7708672,
-     "sha256": "092cf449f84b2c54ca2d9a138dc27311223a8be060e3234bbe2ed59ce2d0a939"
+     "bytes": 7991296,
+     "sha256": "e0bbce73e0541f5e275e1478082b38feb7f2a1e745ad7faedb4589bb3e91eb32"
     }
    ],
    "annotations": {
@@ -1288,6 +1299,17 @@
      "source_certainty": null,
      "source_note": null,
      "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg003.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
+     "translation_of": null
     }
    ],
    "label": "English (Edward P. Coleridge, 1906)",
@@ -1343,8 +1365,8 @@
       "1018-1052",
       "1053-1055"
      ],
-     "bytes": 6082560,
-     "sha256": "195a71b2cec523dd4024f93cbbc994f3884721fa84c437a2dd24eba85a3778df"
+     "bytes": 6283264,
+     "sha256": "5de0e9fd59aa53577ec8df1c7b123e297f8607622585f19db4c85cf15eeefbb3"
     }
    ],
    "annotations": {
@@ -1407,6 +1429,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg004.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -1492,8 +1525,8 @@
       "1431-1461",
       "1462-1466"
      ],
-     "bytes": 7835648,
-     "sha256": "9be6bc6af48537758eb7c3f0b82c70e35c02dcc1db49b4fb04e8fa6a0d972bdb"
+     "bytes": 8110080,
+     "sha256": "ea2e98a26ef232d83215b3e0c7bc9f1de2dfc70b0ddbd345df51b32fbd118ac6"
     }
    ],
    "annotations": {
@@ -1556,6 +1589,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg005.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -1632,8 +1676,8 @@
       "1231-1283",
       "1284-1288"
      ],
-     "bytes": 2097152,
-     "sha256": "4b77fc317fb5a85205d3f4b31ab4d3cc293ac56d2bf90903aa9c2ec542cbd4dc"
+     "bytes": 2351104,
+     "sha256": "885b36a4e1b307e52b6a6e72505760e7dbb1736cbdb3dce75e6fbc0637160412"
     }
    ],
    "annotations": {
@@ -1696,6 +1740,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg006.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -1760,8 +1815,8 @@
       "1252-1292",
       "1293-1295"
      ],
-     "bytes": 6975488,
-     "sha256": "ceec59f5c09fc93146ae439a28c6738180718d7e9af58f57179ca296eec2d33d"
+     "bytes": 7213056,
+     "sha256": "65fe0213fd634c4bc4157eab763a333488d8d104e3deb1a706592e0421fce1c6"
     }
    ],
    "annotations": {
@@ -1824,6 +1879,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg007.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -1902,8 +1968,8 @@
       "1196-1231",
       "1232-1234"
      ],
-     "bytes": 6832128,
-     "sha256": "e54d42a4d924ffc02838f7c79dad5f0f9049217489e317c3188797f234dd0661"
+     "bytes": 7081984,
+     "sha256": "795bd15bbdc58b30299fa77703d741b33b82a06421f15158ee9987fb3ec4e269"
     }
    ],
    "annotations": {
@@ -1967,6 +2033,17 @@
      "source_certainty": null,
      "source_note": null,
      "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg008.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
+     "translation_of": null
     }
    ],
    "label": "English (Edward P. Coleridge, 1906)",
@@ -2009,8 +2086,8 @@
       "815-1015",
       "1016-1428"
      ],
-     "bytes": 7585792,
-     "sha256": "7ba63d84800aebb0631a1eb3871fcf90e0663af6852225d5b8c7f1bd06ee449a"
+     "bytes": 7811072,
+     "sha256": "a90ddfac32813094dc1cbe2fbb57ae870ad0220787b1b12a513be8444bdb83b6"
     }
    ],
    "annotations": {
@@ -2073,6 +2150,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg009.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -2146,8 +2234,8 @@
       "1571-1605",
       "1606-1622"
      ],
-     "bytes": 11067392,
-     "sha256": "d9dab55c1ad0a2f03a342d1d842fadfdac16181f4a5f99e5843bb13d9ac13bb4"
+     "bytes": 11395072,
+     "sha256": "e13ca6bc0370aee277f5a027fc009124d0edc88f5182570737f9f9ff2c48881a"
     }
    ],
    "annotations": {
@@ -2254,6 +2342,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg010.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     },
     {
@@ -2364,8 +2463,8 @@
       "1302-1316",
       "1317-1332"
      ],
-     "bytes": 6885376,
-     "sha256": "a32dd8740c7a7ae66149720d99806e952a822332304a09db7eb3469a53b64457"
+     "bytes": 7131136,
+     "sha256": "751e1d06de5714688a545bebe3a1d819d0b4354bffbfd6fca473dc8463d5462c"
     }
    ],
    "annotations": {
@@ -2428,6 +2527,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg011.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -2505,8 +2615,8 @@
       "1292-1320",
       "1321-1359"
      ],
-     "bytes": 7516160,
-     "sha256": "011b04037582cf18881579501bcaa01198131670c9078ad48437c0b4b8258f7a"
+     "bytes": 7790592,
+     "sha256": "c1b46ad3dc26a5323f977242d7b1cc1c82d97499f16194580841158f56fa0d18"
     }
    ],
    "annotations": {
@@ -2569,6 +2679,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg012.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -2634,8 +2755,8 @@
       "1475-1489",
       "1490-1499"
      ],
-     "bytes": 8384512,
-     "sha256": "1eef41cca2db4f654b8d7824c93a4d0831a27b5b777797c2ffe10be60fe1733d"
+     "bytes": 8654848,
+     "sha256": "a6510ec47e1649a727f8439456de30129f6ee090a45448f5f54261c3b8abad56"
     }
    ],
    "annotations": {
@@ -2698,6 +2819,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg013.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -2772,8 +2904,8 @@
       "1642-1687",
       "1688-1692"
      ],
-     "bytes": 9662464,
-     "sha256": "5bd952f5988704deb7a4e9258d1ffd2f205ef9e6ca31fca499edf53955272e0b"
+     "bytes": 10002432,
+     "sha256": "67da51115e9d0550bb13bfc3dfdbed60a466ca6d178e853f4ed9ab42c7263c13"
     }
    ],
    "annotations": {
@@ -2836,6 +2968,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg014.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -2912,8 +3055,8 @@
       "1758-1763",
       "1764-1766"
      ],
-     "bytes": 9588736,
-     "sha256": "8348ca4a0d1380d45201250c1bbc247063e30807dd92979b50c84cb16555224d"
+     "bytes": 9936896,
+     "sha256": "f647632fe7c2c72c3f5c36a8d818811ac02bf108ac612ea1a1db2777bb54c7ba"
     }
    ],
    "annotations": {
@@ -2976,6 +3119,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg015.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -3051,8 +3205,8 @@
       "1666-1681",
       "1682-1693"
      ],
-     "bytes": 9957376,
-     "sha256": "2c015dfaf1d50422f2f03fcef0003aa1927798f1cd038085ce491d33b5575207"
+     "bytes": 10309632,
+     "sha256": "0dba90010d86ddde409cb80d5aaa8cc9040c751b9370bd376cc16087b7d61e28"
     }
    ],
    "annotations": {
@@ -3115,6 +3269,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg016.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -3180,8 +3345,8 @@
       "1330-1367",
       "1368-1392"
      ],
-     "bytes": 7372800,
-     "sha256": "88dee9a73e96ba43c8b4e36447283c60a9385ee5f56a1bc643301236a80bda31"
+     "bytes": 7634944,
+     "sha256": "8d1d7721ecb2d2bcf01798480f253a9f1d558cc94755eb4fd76c2f1fde24331d"
     }
    ],
    "annotations": {
@@ -3244,6 +3409,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg017.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -3321,8 +3497,8 @@
       "1621-1626",
       "1627-1629"
      ],
-     "bytes": 9232384,
-     "sha256": "a03463049372e498ea558d5e8f09a9420233363c23a5366ce5d3a13ae1937dd1"
+     "bytes": 9555968,
+     "sha256": "83c82052021612eebdf182e15a300f19736e7faf630cd18bf94c5080432d00ca"
     }
    ],
    "annotations": {
@@ -3385,6 +3561,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg018.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
@@ -3455,8 +3642,8 @@
       "952-992",
       "993-996"
      ],
-     "bytes": 5382144,
-     "sha256": "584959462a7054a62670fb28537a7410d678e6c34615a912e1ee9f3b94cafa2b"
+     "bytes": 5591040,
+     "sha256": "a3da869daead406f941ad04ad845eabbb6c0976ea489852871af0b40b3e205dc"
     }
    ],
    "annotations": {
@@ -3519,6 +3706,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1882-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg019.weclewski1882-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1882) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner alignment (Potter for Rhesus); source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
