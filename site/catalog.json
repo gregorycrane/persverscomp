@@ -1072,8 +1072,8 @@
       "1118-1158",
       "1159-1163"
      ],
-     "bytes": 6635520,
-     "sha256": "a0655e293ebccbea8146b27229531e3e94a41705965a2ab40642a9e1ac3c2a9d"
+     "bytes": 6868992,
+     "sha256": "672fa3fc43725c40f402a02cbf947e0956ef939586c7cb6ca3104f957548d7b3"
     }
    ],
    "annotations": {
@@ -1136,6 +1136,17 @@
      "source_version": null,
      "source_certainty": null,
      "source_note": null,
+     "translation_of": null
+    },
+    {
+     "short_id": "weclewski1881-pol1",
+     "urn": "urn:cts:greekLit:tlg0006.tlg002.weclewski1881-pol1",
+     "label": "Polish (Zygmunt Węclewski, 1881) (OCR draft)",
+     "doc_type": "translation",
+     "text_class": "polish-text",
+     "source_version": "perseus-grc2",
+     "source_certainty": "editorial",
+     "source_note": "Murray card alignment transferred conservatively from the reviewed Donner Alcestis alignment; source line numbers are not treated as Murray line numbers.",
      "translation_of": null
     }
    ],
