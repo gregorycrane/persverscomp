@@ -12,7 +12,7 @@
       })();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script src="./vendor/sqljs-1.8.0/sql-wasm.js"></script>
     
     <style>
         :root,
@@ -3579,7 +3579,7 @@ let activeWorkKey = "tlg0003.tlg001";
         });
     });
 
-    initSqlJs({ locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/${file}` }).then(SQL => {
+    initSqlJs({ locateFile: file => `./vendor/sqljs-1.8.0/${file}` }).then(SQL => {
         window.SQL_WASM_ENGINE = SQL;
         document.getElementById("status-readout").innerText = "WebAssembly layer compiled. Auto-loading default database...";
         
