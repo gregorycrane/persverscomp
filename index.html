@@ -3779,7 +3779,8 @@ let activeWorkKey = "tlg0003.tlg001";
         });
     }
 
-    const LARGE_CHAPTER_NAV_THRESHOLD = 80;
+    // Keep complete card/chunk navigation visible unless the work is exceptionally large.
+    const LARGE_CHAPTER_NAV_THRESHOLD = 200;
     const LARGE_CHAPTER_NAV_RADIUS = 6;
 
     function isArnimFragmentWork(workKey) {
